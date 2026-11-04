@@ -161,7 +161,7 @@ let script = null, loadErr = "";
 let profile = store.get("profile", null);        // { link, handle, name }
 if (!profile && store.get("name", "")) profile = { link: "", handle: "", name: store.get("name", "") };
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
-const UPLOAD_URL = "";                             // 部署好的 Apps Script 网址填这里；空＝只给「保存」
+const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址；空＝只给「保存」
 function parseHandle(link) {
   const m = String(link).trim().match(/(?:tiktok\.com\/@|instagram\.com\/|^@)([A-Za-z0-9._]+)/i);
   return m ? m[1].replace(/\.$/, "") : "";
