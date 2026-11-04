@@ -52,6 +52,13 @@ button{cursor:pointer}
 .shot b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
 .shot .m{color:var(--mute);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 .shot.dup b::after{content:" ×2";color:var(--warn);font-size:13px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:20;padding:24px;box-sizing:border-box}
+.modal .box{background:var(--panel);color:var(--ink);border-radius:16px;padding:20px;width:100%;max-width:340px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+.modal .q{font-size:18px;font-weight:600;line-height:1.4;margin:0}
+.modal .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.modal button{min-height:48px;border-radius:12px;font-weight:600;font-size:16px}
+.modal .ok{border:0;background:var(--go);color:var(--go-ink)}
+.modal .no{border:1.5px solid var(--line);background:transparent;color:var(--ink)}
 .player{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:9;padding:16px;box-sizing:border-box}
 .player iframe{width:min(100%,420px);aspect-ratio:9/16;max-height:80vh;border:0;border-radius:12px;background:#000}
 .player .pt{color:#fff;font-size:14px;text-align:center;overflow-wrap:anywhere}
@@ -68,6 +75,18 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const store = { get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
 let key = store.get("review_key", "");
 const qk = new URLSearchParams(location.search).get("key"); if (qk) { key = qk; store.set("review_key", key); history.replaceState(null, "", location.pathname); }
+// 弹窗确认：返回 true/false
+function confirmBox(q, okLabel, noLabel) {
+  return new Promise(res => {
+    const m = document.createElement("div"); m.className = "modal";
+    m.innerHTML = `<div class="box"><p class="q"></p><div class="row"><button class="no"></button><button class="ok"></button></div></div>`;
+    m.querySelector(".q").textContent = q; m.querySelector(".ok").textContent = okLabel; m.querySelector(".no").textContent = noLabel;
+    const done = v => { m.remove(); res(v); };
+    m.querySelector(".ok").onclick = () => done(true); m.querySelector(".no").onclick = () => done(false);
+    m.onclick = e => { if (e.target === m) done(false); };
+    document.body.appendChild(m); m.querySelector(".no").focus();
+  });
+}
 const root = document.getElementById("root");
 let rows = [], assigns = {}, lib = {}, err = "", loading = false;
 
@@ -110,10 +129,10 @@ function render() {
   $("#newassign").onclick = () => assign($("#newwho").value.trim(), $("#newsc").value.trim());
   root.querySelectorAll("[data-assign]").forEach(b => b.onclick = () => assign(b.dataset.assign, $(`#as-${CSS.escape(b.dataset.assign)}`).value.trim()));
   root.querySelectorAll("[data-play]").forEach(el => el.onclick = e => { if (e.target.closest("[data-del]")) return; play(el.dataset.play, el.dataset.name); });
-  // 删除要点两次：第一次变红，第二次才删
-  const twice = (b, fn) => b.onclick = async e => { e.stopPropagation(); if (!b.classList.contains("sure")) { b.classList.add("sure"); b.textContent = b.dataset.delwho ? "确定删？再点一次" : "✓"; setTimeout(() => { b.classList.remove("sure"); b.textContent = b.dataset.delwho ? "删掉这个达人的全部" : "✕"; }, 4000); return; } await fn(); };
-  root.querySelectorAll("[data-del]").forEach(b => twice(b, () => del({ ids: b.dataset.del.split(",") })));
-  root.querySelectorAll("[data-delwho]").forEach(b => twice(b, () => del({ who: b.dataset.delwho })));
+  root.querySelectorAll("[data-del]").forEach(b => b.onclick = async e => { e.stopPropagation(); const n = b.dataset.del.split(",").length;
+    if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
+  root.querySelectorAll("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
+    if (await confirmBox(`删掉 ${b.dataset.delwho} 的全部上传？文件进 Drive 回收站。`, "全部删掉", "取消")) del({ who: b.dataset.delwho }); });
 }
 function talentCard(t) {
   const a = assigns[t.who];
