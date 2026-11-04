@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>达人自录 审片</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#FFFFFF; --panel:#FFF6F6; --ink:#1F1A1B; --mute:#7A6E70; --line:#EBD9DB;
+  --go:#D7263D; --go-ink:#FFFFFF; --chip:#F6E3E5; --ok:#1F8A4C; --warn:#B8860B;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ color-scheme:dark;
+    --bg:#171213; --panel:#221A1B; --ink:#F3E9EA; --mute:#A89597; --line:#3E2E31; --go:#E8405A; --chip:#33262A; --ok:#2FAF66; --warn:#E3B23C; }
+}
+html,body{margin:0;min-height:100%}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,sans-serif;font-size:15px;padding-inline:16px;padding-block:12px 32px;box-sizing:border-box}
+.app{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;letter-spacing:.02em}
+h1 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute);margin-left:10px}
+button,input{font-family:inherit;font-size:14px;color:inherit}
+button{cursor:pointer}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.bar input{min-height:40px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px;min-width:200px}
+.solid{border:0;border-radius:10px;background:var(--go);color:var(--go-ink);font-weight:600;min-height:40px;padding-inline:14px}
+.ghost{border:1px solid var(--line);border-radius:10px;background:var(--panel);min-height:40px;padding-inline:14px}
+.tip{color:var(--mute);font-size:13px;margin:0}
+.err{color:var(--go);font-size:13px;margin:0}
+.talent{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:12px;padding-inline:14px;display:flex;flex-direction:column;gap:10px}
+.talent header{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.talent header b{font-size:17px}
+.talent header a{color:var(--mute);font-size:13px}
+.assign{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--mute)}
+.assign input{min-height:34px;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding-inline:10px;width:220px}
+.assign button{min-height:34px;border-radius:8px;border:0;background:var(--go);color:var(--go-ink);padding-inline:10px;font-weight:600}
+.script{border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:8px}
+.script .h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.script .h b{font-family:"Barlow Condensed",sans-serif;font-size:20px;font-weight:800}
+.miss{color:var(--go);font-size:13px;font-weight:600}
+.full{color:var(--ok);font-size:13px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.shot{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:8px;display:flex;flex-direction:column;gap:4px;font-size:12px;cursor:pointer}
+.shot:hover{border-color:var(--go)}
+.shot b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
+.shot .m{color:var(--mute);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.shot.dup b::after{content:" ×2";color:var(--warn);font-size:13px}
+.player{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:9;padding:16px;box-sizing:border-box}
+.player iframe{width:min(100%,420px);aspect-ratio:9/16;max-height:80vh;border:0;border-radius:12px;background:#000}
+.player .pt{color:#fff;font-size:14px;text-align:center;overflow-wrap:anywhere}
+.player button{min-height:40px;border:0;border-radius:10px;background:#fff;color:#000;padding-inline:16px;font-weight:600}
+.player a{color:#fff}
+</style>
+</head>
+<body>
+<div class="app" id="root"></div>
+<script type="module">
+const API = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+let key = store.get("review_key", "");
+const qk = new URLSearchParams(location.search).get("key"); if (qk) { key = qk; store.set("review_key", key); history.replaceState(null, "", location.pathname); }
+const root = document.getElementById("root");
+let rows = [], assigns = {}, lib = {}, err = "", loading = false;
+
+async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
+async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
+async function load() {
+  loading = true; err = ""; render();
+  try {
+    const [l, a, idx] = await Promise.all([api({ action: "list", n: 500 }), api({ action: "assignments" }), fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json())]);
+    if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
+    rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
+    lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = s);
+  } catch (e) { err = String(e?.message || e); }
+  loading = false; render();
+}
+const fmtT = t => { const d = new Date(t); return isNaN(d) ? "" : `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
+const mb = n => (Number(n) / 1048576).toFixed(1) + " MB";
+const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "";
+
+function render() {
+  if (!key) {
+    root.innerHTML = `<h1>达人自录 · 审片</h1><div class="bar"><input id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div><p class="tip">钥匙在 backend/Code.gs 的 ADMIN_KEY。</p>`;
+    $("#go").onclick = () => { key = $("#k").value.trim(); if (!key) return; store.set("review_key", key); load(); };
+    return;
+  }
+  // 按达人 → 脚本 → 段 分组；同一段多条按时间排，最新在前
+  const byT = {};
+  rows.forEach(r => { const t = byT[r.who] ||= { who: r.who, handle: r.handle, nick: r.nick, link: r.link, last: r.time, scripts: {} };
+    if (r.time > t.last) t.last = r.time; const sc = t.scripts[r.script] ||= {}; (sc[r.shot] ||= []).push(r); });
+  const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
+  // 派了脚本但还没传过的达人也列出来
+  Object.values(assigns).forEach(a => { if (!byT[a.who]) talents.push({ who: a.who, handle: "", nick: "", link: "", last: "", scripts: {} }); });
+  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人</small></h1>
+    <div class="bar"><button class="ghost" id="reload">${loading ? "读取中…" : "刷新"}</button>
+      <input id="newwho" placeholder="新达人 handle 或名字"><input id="newsc" placeholder="脚本号，逗号隔开，如 V0158"><button class="solid" id="newassign">派脚本</button>
+      <span class="tip">脚本库：${Object.keys(lib).join("、") || "—"}（加本子＝往 site/scripts/ 放 json 并登记 index.json）</span></div>
+    ${err ? `<p class="err">${esc(err)}</p>` : ""}
+    ${talents.map(t => talentCard(t)).join("") || `<p class="tip">还没有人传过。</p>`}`;
+  $("#reload").onclick = load;
+  $("#newassign").onclick = () => assign($("#newwho").value.trim(), $("#newsc").value.trim());
+  root.querySelectorAll("[data-assign]").forEach(b => b.onclick = () => assign(b.dataset.assign, $(`#as-${CSS.escape(b.dataset.assign)}`).value.trim()));
+  root.querySelectorAll("[data-play]").forEach(el => el.onclick = () => play(el.dataset.play, el.dataset.name));
+}
+function talentCard(t) {
+  const a = assigns[t.who];
+  const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
+  const scripts = Object.keys(t.scripts).sort();
+  return `<section class="talent"><header><b>${esc(t.nick ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span></header>
+    <div class="assign">派给她的脚本：<input id="as-${esc(t.who)}" value="${esc(a?.scripts || "")}" placeholder="V0158, V0160"><button data-assign="${esc(t.who)}">保存</button><span>${a ? "更新 " + fmtT(a.time) : "还没派"}</span></div>
+    ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
+}
+function scriptBlock(sid, shots) {
+  const total = lib[sid]?.shots || 0, nums = Object.keys(shots).map(Number).sort((a, b) => a - b);
+  const miss = []; for (let i = 1; i <= total; i++) if (!shots[i]) miss.push(i);
+  const status = total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;
+  const prod = lib[sid]?.product?.zh || "";
+  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(prod)}</span>${status}</div>
+    <div class="grid">${nums.map(n => { const list = shots[n].slice().sort((x, y) => (y.time > x.time ? 1 : -1)); const r = list[0];
+      return `<div class="shot ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><b>第 ${n} 段</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span></div>`; }).join("")}</div></div>`;
+}
+function play(id, name) {
+  const ov = document.createElement("div"); ov.className = "player";
+  ov.innerHTML = `<div class="pt">${esc(name)}</div><iframe src="https://drive.google.com/file/d/${esc(id)}/preview" allow="autoplay"></iframe>
+    <div class="bar"><a href="https://drive.google.com/file/d/${esc(id)}/view" target="_blank" rel="noopener">在 Drive 打开</a><button id="close">关闭</button></div>`;
+  document.body.appendChild(ov);
+  $("#close", ov).onclick = () => ov.remove();
+  ov.onclick = e => { if (e.target === ov) ov.remove(); };
+}
+async function assign(who, scripts) {
+  if (!who) return;
+  const r = await post({ action: "assign", who, scripts });
+  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; render(); return; }
+  await load();
+}
+render();
+if (key) load();
+</script>
+</body>
+</html>

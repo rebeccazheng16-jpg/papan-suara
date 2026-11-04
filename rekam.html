@@ -42,6 +42,7 @@ button:disabled{opacity:.45;cursor:default}
 .add{display:flex;gap:8px}
 .add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .inp{width:100%;box-sizing:border-box;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
+.ta{padding-block:10px;font-size:17px;line-height:1.5;resize:vertical}
 .solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
 .solid.go{background:var(--go);color:var(--go-ink)}
 .sec{min-height:52px;border-radius:12px;border:1.5px solid var(--go);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
@@ -126,6 +127,9 @@ const I18N = {
     saveTip: "iPhone 选「存储到文件」或 Google Drive，文件名会保留。别选「存储视频」。", processing: "处理中…", saveFail: "没保存上：",
     flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
     clear: "全部清掉，重新拍", clearSub: "保存好了再点", clearSure: "确定清掉？再点一次",
+    pickScript: "你的脚本", assignedTip: "这些是分给你的，点一本开始。", libTip: "从脚本库里挑一本开始。", mine: "我自己的脚本", mineSub: "自己写台词，录的时候也会提词",
+    mineTitle: "我自己的脚本", mineTip: "一段一段写要说的话，两段之间空一行。每段就是一个镜头。", mineSave: "保存，开始拍", mineEmpty: "先写点内容", mineSaved: "已保存", selfName: "我的脚本",
+    shots: n => `${n} 段`, loading: "读取中…", changeName: "换人",
     inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」或右下角的浏览器图标，选「在 Safari 中打开」。",
     camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
     framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…",
@@ -143,6 +147,9 @@ const I18N = {
     saveTip: "Di iPhone pilih “Simpan ke File” atau Google Drive supaya nama file tetap. Jangan pilih “Simpan Video”.", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
     flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
     clear: "Hapus semua, rekam ulang", clearSub: "Simpan dulu sebelum menghapus", clearSure: "Yakin hapus? Ketuk sekali lagi",
+    pickScript: "Naskah kamu", assignedTip: "Ini naskah untuk kamu. Ketuk satu untuk mulai.", libTip: "Pilih satu naskah dari daftar.", mine: "Naskah saya sendiri", mineSub: "Tulis sendiri, saat rekam tetap ada teksnya",
+    mineTitle: "Naskah saya sendiri", mineTip: "Tulis yang mau diucapkan, bagian demi bagian. Pisahkan tiap bagian dengan satu baris kosong. Satu bagian = satu rekaman.", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya", mineSaved: "Tersimpan", selfName: "Naskah saya",
+    shots: n => `${n} bagian`, loading: "Memuat…", changeName: "Ganti orang",
     inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas atau ikon browser di kanan bawah, lalu pilih “Buka di Safari”.",
     camErr: n => `Kamera tidak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi.`,
     framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…",
@@ -190,16 +197,31 @@ async function dbLoad() {
 }
 const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, saved: tk.saved }); else dbDel(i); };
 
+let lib = [], assignedIds = null, mineText = "", mineMsg = "";
 async function loadScript() {
-  if (!sid) { loadErr = t("loadFail"); return; }
+  if (!sid || sid === "mine") return;      // 选脚本页 / 自写脚本页，等名字填好再读
   try { const r = await fetch(`scripts/${encodeURIComponent(sid)}.json`, { cache: "no-cache" }); if (!r.ok) throw 0; script = await r.json(); }
   catch (e) { loadErr = t("loadFail"); }
+}
+async function loadLib() {
+  try { lib = (await (await fetch("scripts/index.json", { cache: "no-cache" })).json()).scripts || []; } catch (e) { lib = []; }
+  if (UPLOAD_URL && name) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "assigned", who: name }))).json(); assignedIds = r.scripts || []; } catch (e) { assignedIds = []; } }
+  else assignedIds = [];
+}
+async function loadMine() {
+  mineText = store.get("mine_" + name, "");
+  if (UPLOAD_URL && name && !mineText) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "myscript", who: name }))).json(); if (r.content) mineText = JSON.parse(r.content).text || ""; } catch (e) {} }
+}
+function mineToScript(text) {
+  const paras = text.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
+  return { id: "SELF", brand: "", product: { zh: t("selfName"), id: t("selfName") }, cam: "user",
+    shots: paras.map((p, i) => ({ n: i + 1, sec: Math.max(3, Math.ceil(p.split(/\s+/).length / WPS) + 1), talk: true, face: null, do: { zh: "", id: "" }, lines: p })) };
 }
 
 // ===== 页面 =====
 function shell() {
   document.documentElement.lang = lang;
-  const title = script ? `${script.id} · ${esc(L(script.product))}` : t("title");
+  const title = script ? (script.id === "SELF" ? esc(L(script.product)) : `${script.id} · ${esc(L(script.product))}`) : t("title");
   const whoLine = profile ? [profile.handle ? "@" + profile.handle : "", profile.name].filter(Boolean).join(" · ") : "";
   root.innerHTML = `
   <div class="top"><h1>${title}<small>${esc(whoLine)}</small></h1>
@@ -212,6 +234,8 @@ function render() {
   const el = $("#pane");
   if (loadErr) { el.innerHTML = `<p class="err">${esc(loadErr)}</p>`; return; }
   if (!profile) return renderName(el);
+  if (!sid) return renderPick(el);
+  if (sid === "mine" && !script) return renderMine(el);
   if (cur >= script.shots.length) return renderOverview(el);
   renderShot(el, cur);
 }
@@ -229,6 +253,34 @@ function renderName(el) {
     profile = { link, handle: handle || (link ? link.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: nm };
     name = profile.handle || profile.name; store.set("profile", profile); shell(); };
 }
+function renderPick(el) {
+  if (assignedIds === null) { el.innerHTML = `<p class="tip">${t("loading")}</p>`; loadLib().then(render); return; }
+  const ids = assignedIds.length ? assignedIds : lib.map(x => x.id);
+  const items = ids.map(id => lib.find(x => x.id === id) || { id, product: { zh: id, id } });
+  el.innerHTML = `<div class="app"><div class="card"><div class="lab">${t("pickScript")}</div><p class="tip">${esc(assignedIds.length ? t("assignedTip") : t("libTip"))}</p>
+    <ul class="list">${items.map(x => `<li><span class="n">${esc(x.id.replace(/^[A-Z]0*/, ""))}</span><span class="t"><b>${esc(x.id)}</b> ${esc(L(x.product))}${x.shots ? ` · ${t("shots", x.shots)}` : ""}</span><button data-open="${esc(x.id)}">${t("ok")}</button></li>`).join("") || `<li class="tip">—</li>`}</ul></div>
+    <button class="sec" id="mine">${t("mine")}<small>${t("mineSub")}</small></button>
+    <button class="sec" id="chg">${t("changeName")}</button></div>`;
+  el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => location.search = "?s=" + encodeURIComponent(b.dataset.open));
+  $("#mine", el).onclick = () => location.search = "?s=mine";
+  $("#chg", el).onclick = () => { profile = null; store.set("profile", null); shell(); };
+}
+function renderMine(el) {
+  if (mineText === "" && !el.dataset.loaded) { el.dataset.loaded = 1; loadMine().then(render); }
+  el.innerHTML = `<div class="app"><div class="card"><div class="lab">${t("mineTitle")}</div><p class="tip">${esc(t("mineTip"))}</p>
+    <textarea class="inp ta" id="mt" rows="12" placeholder="Halo semua…\n\nAku mau cerita…">${esc(mineText)}</textarea>
+    ${mineMsg ? `<p class="err">${esc(mineMsg)}</p>` : ""}
+    <button class="solid go" id="msave">${t("mineSave")}</button></div>
+    <button class="sec" id="back0">${t("back")}</button></div>`;
+  $("#mt", el).oninput = e => { mineText = e.target.value; };
+  $("#back0", el).onclick = () => location.search = "";
+  $("#msave", el).onclick = async () => {
+    const sc = mineToScript(mineText); if (!sc.shots.length) { mineMsg = t("mineEmpty"); render(); return; }
+    store.set("mine_" + name, mineText);
+    if (UPLOAD_URL) { try { await fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "myscript", who: name, content: JSON.stringify({ text: mineText, t: Date.now() }) }) }); } catch (e) {} }
+    script = sc; cur = store.get("cur_" + sid, 0); if (cur > sc.shots.length) cur = 0; await dbLoad(); shell();
+  };
+}
 function dots() {
   return `<div class="dots">${script.shots.map((s, i) => `<button class="dot ${i === cur ? "cur" : ""} ${takes[i]?.blob ? "ok" : ""}" data-go="${i}" aria-label="${t("shot", s.n)}">${s.n}</button>`).join("")}</div>`;
 }
@@ -240,7 +292,7 @@ function renderShot(el, i) {
     <div class="card shot">
       <div class="n">${t("shot", s.n)}<span>${t("of", script.shots.length)} · ${t("sec", s.sec)}</span></div>
       ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
-      <div class="do"><b>${t("do_")}</b>${esc(L(s.do))}</div>
+      ${L(s.do) ? `<div class="do"><b>${t("do_")}</b>${esc(L(s.do))}</div>` : ""}
       ${s.talk && s.lines ? `<div class="lines">${esc(s.lines)}</div>` : `<div class="lines none">${t("noLines")}</div>`}
     </div>
     ${tk?.blob ? `<video class="pv" id="pv" src="${tk.url}" playsinline controls></video>
@@ -275,9 +327,11 @@ function renderOverview(el) {
       ${have ? `<button class="${UPLOAD_URL ? "sec" : "solid go"}" id="saveall">${t("saveAll", have)}</button>` : ""}
       ${ios ? `<p class="tip">${esc(t("saveTip"))}</p>` : ""}
     </div>
-    <button class="sec" id="clear">${t("clear")}<small>${t("clearSub")}</small></button></div>`;
+    <button class="sec" id="clear">${t("clear")}<small>${t("clearSub")}</small></button>
+    <button class="sec" id="home">${t("pickScript")}</button></div>`;
   el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
   el.querySelectorAll("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); render(); });
+  $("#home", el).onclick = () => location.search = "";
   $("#clear", el).onclick = () => { if (!$("#clear", el).dataset.sure) { $("#clear", el).dataset.sure = 1; $("#clear", el).textContent = t("clearSure"); return; }
     script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); render(); };
   el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveTakes([+b.dataset.sv]));
@@ -304,7 +358,7 @@ async function startRec(i) {
     ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div>` : ""}
     <div class="recbar"><div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div>
       ${words ? `<div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>` : ""}</div>
-    <div class="hint" id="hint">${esc(L(s.do))}</div>
+    <div class="hint" id="hint" ${L(s.do) ? "" : "hidden"}>${esc(L(s.do))}</div>
     <div class="count" id="count" hidden></div>
     <div class="framing" id="framing">${t("preparing")}</div>
     <button class="shutter" id="shutter" aria-label="${t("recBtn")}"><span></span></button>
@@ -432,6 +486,7 @@ window.__rekam = { takes, finishTake, normalize, fileName, get script() { return
 
 await loadScript();
 if (script) await dbLoad();
+if (sid === "mine" && profile) { await loadMine(); if (mineText.trim()) { script = mineToScript(mineText); cur = store.get("cur_" + sid, 0); if (cur > script.shots.length) cur = 0; await dbLoad(); } }
 shell();
 </script>
 </body>
