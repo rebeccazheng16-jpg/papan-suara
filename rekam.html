@@ -9,16 +9,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
 <style>
 :root{
-  --bg:#E9ECE6; --panel:#F7F8F4; --ink:#1D2420; --mute:#5E6A63; --line:#C9CFC7;
-  --go:#1F8A4C; --go-ink:#FFFFFF; --hold:#D8A21A; --hold-ink:#1D2420; --end:#B4412F; --end-ink:#FFFFFF;
-  --btn:#1D2420; --btn-ink:#F7F8F4; --chip:#DCE1DA;
+  --bg:#FFFFFF; --panel:#FFF6F6; --ink:#1F1A1B; --mute:#7A6E70; --line:#EBD9DB;
+  --go:#D7263D; --go-ink:#FFFFFF; --hold:#D7263D; --hold-ink:#FFFFFF; --end:#9E1B2B; --end-ink:#FFFFFF;
+  --btn:#D7263D; --btn-ink:#FFFFFF; --chip:#F6E3E5;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     color-scheme:dark;
-    --bg:#141917; --panel:#1E2521; --ink:#E9EEE9; --mute:#9AA69F; --line:#34403A;
-    --go:#2FAF66; --go-ink:#0D1210; --hold:#E3B23C; --hold-ink:#141917; --end:#D9604B; --end-ink:#141917;
-    --btn:#E9EEE9; --btn-ink:#141917; --chip:#2A332E;
+    --bg:#171213; --panel:#221A1B; --ink:#F3E9EA; --mute:#A89597; --line:#3E2E31;
+    --go:#E8405A; --go-ink:#FFFFFF; --hold:#E8405A; --hold-ink:#FFFFFF; --end:#C22E45; --end-ink:#FFFFFF;
+    --btn:#E8405A; --btn-ink:#FFFFFF; --chip:#33262A;
   }
 }
 html,body{min-height:100%;margin:0}
@@ -41,9 +41,10 @@ button:disabled{opacity:.45;cursor:default}
 .tip{font-size:14px;line-height:1.5;color:var(--mute);margin:0}
 .add{display:flex;gap:8px}
 .add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
+.inp{width:100%;box-sizing:border-box;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
 .solid.go{background:var(--go);color:var(--go-ink)}
-.sec{min-height:52px;border-radius:12px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
+.sec{min-height:52px;border-radius:12px;border:1.5px solid var(--go);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
 .sec small{display:block;font-weight:400;font-size:12px;color:var(--mute)}
 .dots{display:flex;gap:6px;flex-wrap:wrap}
 .dot{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:16px;background:var(--panel);color:var(--mute);padding:0}
@@ -53,7 +54,7 @@ button:disabled{opacity:.45;cursor:default}
 .shot .n span{font-size:16px;font-weight:600;color:var(--mute);margin-left:8px;font-family:"Noto Sans",sans-serif}
 .face{background:var(--chip);border-radius:10px;padding-block:8px;padding-inline:12px;font-size:14px}
 .face b,.do b{display:block;font-size:12px;color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
-.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--hold);padding-left:12px}
+.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--go);padding-left:12px}
 .lines.none{color:var(--mute);font-weight:400;font-size:16px}
 .main{width:100%;min-height:84px;border:0;border-radius:16px;background:var(--go);color:var(--go-ink);
   font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:32px;letter-spacing:.04em;line-height:1.05}
@@ -76,7 +77,7 @@ video.pv{width:100%;max-height:52vh;border-radius:12px;background:#000}
 .rec video.mirror{transform:scaleX(-1)}
 .prompt{position:relative;margin:calc(8px + env(safe-area-inset-top,0px)) 12px 0;height:38vh;overflow:hidden;border-radius:14px;background:rgba(0,0,0,.55);
   -webkit-mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%)}
-.prompt .txt{position:absolute;left:16px;right:16px;top:0;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.prompt .txt{position:absolute;left:16px;right:16px;top:12px;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .prompt .paused{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:40px;background:rgba(0,0,0,.35)}
 .recbar{position:relative;margin:8px 12px 0;display:flex;align-items:center;gap:10px}
 .timer{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;font-variant-numeric:tabular-nums;background:rgba(0,0,0,.5);border-radius:10px;padding-inline:10px;min-height:40px;display:flex;align-items:center;gap:8px}
@@ -90,6 +91,9 @@ video.pv{width:100%;max-height:52vh;border-radius:12px;background:#000}
 .framing{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
 .shutter{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:transparent;padding:0}
 .shutter span{display:block;width:62px;height:62px;border-radius:50%;background:#E23B2E;margin:0 auto}
+.flipcam{position:absolute;left:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
+.up{font-size:13px;color:var(--mute)}
+.up.ok{color:var(--go);font-weight:600}
 .cancel{position:absolute;right:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
 @media (prefers-reduced-motion: reduce){.prompt .txt{transition:none}}
 </style>
@@ -110,7 +114,9 @@ const store = {
 };
 const I18N = {
   zh: {
-    title: "拍脚本", who: "你的名字", whoTip: "录好的视频会用这个名字命名。", ok: "好", prep: "开拍前准备",
+    title: "拍脚本", who: "你的 TikTok 或 Instagram 链接", whoTip: "把你主页的链接粘贴进来，例如 tiktok.com/@xxx。没有的话在下面写名字也行。", orName: "或者写名字", ok: "好", prep: "开拍前准备",
+    needOne: "链接或名字至少填一个", flipCam: "换摄像头", upload: "传给我们", uploading: p => `上传 ${p}%`, uploaded: "已传", uploadFail: "没传上，再按一次：",
+    uploadAll: n => `传给我们（${n} 段）`, uploadTip: "按一下就直接传到我们这边，不用存手机。",
     shot: n => `第 ${n} 段`, of: n => `共 ${n} 段`, sec: n => `${n} 秒`, face: "开拍前脸上", do_: "怎么拍", lines: "要说的话", noLines: "这段不说话",
     rec: "开始录", recSub: "倒数 3 秒后开始，台词会自己往上滚", pick: "选已录好的视频", pickSub: "用别的 App 录的也行",
     again: "重录", next: "好了，下一段", finish: "好了，看全部", back: "上一段",
@@ -125,7 +131,9 @@ const I18N = {
     framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…",
   },
   id: {
-    title: "Rekam naskah", who: "Nama kamu", whoTip: "Nama ini dipakai untuk nama file video.", ok: "OK", prep: "Sebelum mulai",
+    title: "Rekam naskah", who: "Link TikTok atau Instagram kamu", whoTip: "Tempel link profil kamu, contoh tiktok.com/@xxx. Kalau tidak ada, tulis nama di bawah.", orName: "Atau tulis nama", ok: "OK", prep: "Sebelum mulai",
+    needOne: "Isi link atau nama, salah satu saja", flipCam: "Ganti kamera", upload: "Kirim ke kami", uploading: p => `Mengirim ${p}%`, uploaded: "Terkirim", uploadFail: "Gagal kirim, coba lagi: ",
+    uploadAll: n => `Kirim ke kami (${n} bagian)`, uploadTip: "Sekali ketuk langsung terkirim ke kami, tidak perlu simpan ke HP.",
     shot: n => `Bagian ${n}`, of: n => `dari ${n}`, sec: n => `${n} dtk`, face: "Wajah sebelum mulai", do_: "Cara rekam", lines: "Yang diucapkan", noLines: "Bagian ini tanpa bicara",
     rec: "MULAI REKAM", recSub: "Hitung mundur 3 detik, teks akan bergulir sendiri", pick: "Pilih video yang sudah direkam", pickSub: "Boleh dari aplikasi lain",
     again: "Ulang", next: "Oke, bagian berikutnya", finish: "Oke, lihat semua", back: "Sebelumnya",
@@ -150,10 +158,17 @@ const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform
 const root = document.getElementById("root");
 const sid = (new URLSearchParams(location.search).get("s") || "").trim();
 let script = null, loadErr = "";
-let name = store.get("name", "");
+let profile = store.get("profile", null);        // { link, handle, name }
+if (!profile && store.get("name", "")) profile = { link: "", handle: "", name: store.get("name", "") };
+let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
+const UPLOAD_URL = "";                             // 部署好的 Apps Script 网址填这里；空＝只给「保存」
+function parseHandle(link) {
+  const m = String(link).trim().match(/(?:tiktok\.com\/@|instagram\.com\/|^@)([A-Za-z0-9._]+)/i);
+  return m ? m[1].replace(/\.$/, "") : "";
+}
 let cur = store.get("cur_" + sid, 0);           // 当前段下标；= shots.length 表示总览
 const takes = [];                                 // takes[i] = { blob, url, saved, msg, rot }
-let speedIdx = store.get("speed", 2);
+let speedIdx = store.get("speed", 1);          // 默认 0.85 档（每秒约 3 词），她试过 3.5 偏快
 let camErr = "";                                   // 摄像头打不开的原因，显示在卡片上
 const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
@@ -185,8 +200,9 @@ async function loadScript() {
 function shell() {
   document.documentElement.lang = lang;
   const title = script ? `${script.id} · ${esc(L(script.product))}` : t("title");
+  const whoLine = profile ? [profile.handle ? "@" + profile.handle : "", profile.name].filter(Boolean).join(" · ") : "";
   root.innerHTML = `
-  <div class="top"><h1>${title}<small>${name ? esc(name) : ""}</small></h1>
+  <div class="top"><h1>${title}<small>${esc(whoLine)}</small></h1>
     <div class="lang" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button></div></div>
   <section id="pane"></section>`;
   root.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); shell(); });
@@ -195,14 +211,23 @@ function shell() {
 function render() {
   const el = $("#pane");
   if (loadErr) { el.innerHTML = `<p class="err">${esc(loadErr)}</p>`; return; }
-  if (!name) return renderName(el);
+  if (!profile) return renderName(el);
   if (cur >= script.shots.length) return renderOverview(el);
   renderShot(el, cur);
 }
 function renderName(el) {
-  el.innerHTML = `<div class="card"><div class="lab">${t("who")}</div><p class="tip">${esc(t("whoTip"))}</p>
-    <form class="add" id="nf"><input id="nm" maxlength="30" autocomplete="off" placeholder="${esc(t("who"))}"><button class="solid">${t("ok")}</button></form></div>`;
-  $("#nf", el).onsubmit = ev => { ev.preventDefault(); const v = $("#nm", el).value.trim(); if (!v) return; name = v; store.set("name", name); shell(); };
+  el.innerHTML = `<form class="card" id="nf">
+    <div class="lab">${t("who")}</div><p class="tip">${esc(t("whoTip"))}</p>
+    <input class="inp" id="lk" inputmode="url" autocomplete="off" autocapitalize="none" placeholder="tiktok.com/@…">
+    <div class="lab">${t("orName")}</div>
+    <input class="inp" id="nm" maxlength="30" autocomplete="off" placeholder="${esc(t("orName"))}">
+    <p class="err" id="nerr" hidden>${t("needOne")}</p>
+    <button class="solid">${t("ok")}</button></form>`;
+  $("#nf", el).onsubmit = ev => { ev.preventDefault();
+    const link = $("#lk", el).value.trim(), nm = $("#nm", el).value.trim(), handle = parseHandle(link);
+    if (!handle && !nm && !link) { $("#nerr", el).hidden = false; return; }
+    profile = { link, handle: handle || (link ? link.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: nm };
+    name = profile.handle || profile.name; store.set("profile", profile); shell(); };
 }
 function dots() {
   return `<div class="dots">${script.shots.map((s, i) => `<button class="dot ${i === cur ? "cur" : ""} ${takes[i]?.blob ? "ok" : ""}" data-go="${i}" aria-label="${t("shot", s.n)}">${s.n}</button>`).join("")}</div>`;
@@ -220,8 +245,9 @@ function renderShot(el, i) {
     </div>
     ${tk?.blob ? `<video class="pv" id="pv" src="${tk.url}" playsinline controls></video>
       ${tk.msg ? `<p class="${tk.err ? "err" : "msg"}">${esc(tk.msg)}</p>` : ""}
-      ${tk.landscape ? `<button class="sec" id="flip">${t("flip")}</button>` : ""}
-      <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid go" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
+      ${tk.landscape ? `<button class="sec" id="rot">${t("flip")}</button>` : ""}
+      ${UPLOAD_URL ? `<button class="solid go" id="up" ${tk.up === "busy" ? "disabled" : ""}>${tk.up === "done" ? t("uploaded") : tk.up === "busy" ? esc(tk.upMsg) : t("upload")}</button>` : ""}
+      <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
     : `${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}
       <button class="main" id="rec">${t("rec")}<small>${t("recSub")}</small></button>
       <button class="sec pickbtn">${t("pick")}<small>${t("pickSub")}</small><input type="file" id="pick" accept="video/*"></button>`}
@@ -233,7 +259,8 @@ function renderShot(el, i) {
   on("again", () => { takes[i] = null; persist(i); render(); });
   on("next", () => { cur = i + 1; store.set("cur_" + sid, cur); render(); });
   on("back", () => { cur = i - 1; store.set("cur_" + sid, cur); render(); });
-  on("flip", () => rotateTake(i));
+  on("rot", () => rotateTake(i));
+  on("up", () => uploadTakes([i]));
   const pk = $("#pick", el);
   if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(i, f, false); };
 }
@@ -243,8 +270,9 @@ function renderOverview(el) {
     ${dots()}
     <div class="card"><div class="lab">${t("done")}</div>
       <ul class="list">${script.shots.map((s, i) => `<li><span class="n">${s.n}</span><span class="t">${esc(fileName(i))}${takes[i]?.msg ? ` · <span class="${takes[i].err ? "err" : "msg"}">${esc(takes[i].msg)}</span>` : ""}</span>
-        ${takes[i]?.blob ? `<button data-sv="${i}" ${takes[i].saved ? "disabled" : ""}>${takes[i].saved ? t("saved") : t("save")}</button><button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
-      ${have ? `<button class="solid go" id="saveall">${t("saveAll", have)}</button>` : ""}
+        ${takes[i]?.blob ? `${takes[i].up === "done" ? `<span class="up ok">${t("uploaded")}</span>` : takes[i].up === "busy" ? `<span class="up">${esc(takes[i].upMsg)}</span>` : ""}<button data-sv="${i}" ${takes[i].saved ? "disabled" : ""}>${takes[i].saved ? t("saved") : t("save")}</button><button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
+      ${have && UPLOAD_URL ? `<button class="solid go" id="upall">${t("uploadAll", takes.filter(x => x?.blob && x.up !== "done").length)}</button><p class="tip">${esc(t("uploadTip"))}</p>` : ""}
+      ${have ? `<button class="${UPLOAD_URL ? "sec" : "solid go"}" id="saveall">${t("saveAll", have)}</button>` : ""}
       ${ios ? `<p class="tip">${esc(t("saveTip"))}</p>` : ""}
     </div>
     <button class="sec" id="clear">${t("clear")}<small>${t("clearSub")}</small></button></div>`;
@@ -254,9 +282,11 @@ function renderOverview(el) {
     script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); render(); };
   el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveTakes([+b.dataset.sv]));
   const sa = $("#saveall", el); if (sa) sa.onclick = () => saveTakes(takes.map((x, i) => x?.blob && !x.saved ? i : -1).filter(i => i >= 0));
+  const ua = $("#upall", el); if (ua) ua.onclick = () => uploadTakes(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0));
 }
 const safe = s => String(s).replace(/[\\/:*?"<>|\s]/g, "_");
-const fileName = i => `${safe(name)}_${script.id}_${pad2(script.shots[i].n)}.mp4`;
+const today = () => { const d = new Date(); return `${d.getMonth() + 1}.${d.getDate()}`; };
+const fileName = i => `${script.id}.${safe(name)}.${today()}.s${pad2(script.shots[i].n)}.mp4`;
 
 // ===== 录制 =====
 let media = null;
@@ -267,7 +297,7 @@ function mime() {
 async function startRec(i) {
   const s = script.shots[i];
   const words = s.talk && s.lines ? s.lines.trim().split(/\s+/).length : 0;
-  const front = (script.cam || "user") === "user";
+  let front = (s.cam || script.cam || "user") === "user";
   // 先全屏开摄像头让她摆位置，按红点才倒数开录
   const ov = document.createElement("div"); ov.className = "rec";
   ov.innerHTML = `<video autoplay muted playsinline class="${front ? "mirror" : ""}"></video>
@@ -279,16 +309,22 @@ async function startRec(i) {
     <div class="framing" id="framing">${t("preparing")}</div>
     <button class="shutter" id="shutter" aria-label="${t("recBtn")}"><span></span></button>
     <button class="stop" id="stop" hidden>${t("stop")}</button>
+    <button class="flipcam" id="flip">${t("flipCam")}</button>
     <button class="cancel" id="cancel">${t("cancelRec")}</button>`;
   document.body.appendChild(ov);
+  // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
+  const open = () => navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: front ? "user" : "environment", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
   let stream;
   try {
     if (!navigator.mediaDevices?.getUserMedia) throw new Error("no mediaDevices");
-    // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
-    stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: front ? "user" : "environment", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
+    stream = await open();
   } catch (e) { ov.remove(); camErr = inApp ? "" : t("camErr", e?.name || e?.message || "?"); render(); return; }
   camErr = "";
   const v = $("video", ov); v.srcObject = stream; v.play().catch(() => {});
+  $("#flip", ov).onclick = async () => {   // 开录前可以换前后摄像头
+    try { const ns = await (front = !front, open()); stream.getTracks().forEach(x => x.stop()); stream = ns; v.srcObject = ns; v.classList.toggle("mirror", front); v.play().catch(() => {}); }
+    catch (e) { front = !front; }
+  };
   $("#framing", ov).textContent = t("framing");
   let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false, guard = 0;
   const txt = $("#txt", ov), prompt = $("#prompt", ov);
@@ -298,7 +334,7 @@ async function startRec(i) {
   if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
     prompt.onclick = () => { if (!rec) return; paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
   $("#shutter", ov).onclick = async () => {
-    $("#shutter", ov).hidden = true; $("#framing", ov).hidden = true; $("#hint", ov).hidden = true;
+    $("#shutter", ov).hidden = true; $("#framing", ov).hidden = true; $("#hint", ov).hidden = true; $("#flip", ov).hidden = true;
     const count = $("#count", ov); count.hidden = false;
     for (const n of [3, 2, 1]) { count.textContent = n; await new Promise(r => setTimeout(r, 1000)); if (cancelled) return; }
     count.remove();
@@ -309,14 +345,15 @@ async function startRec(i) {
     rec.start(500);
     $("#timer", ov).hidden = false; $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
     t0 = performance.now();
-    if (words) { setSpeed(0); dist = txt.offsetHeight + prompt.clientHeight; txt.style.transform = `translateY(${prompt.clientHeight}px)`; }
+    // 台词从顶上开始显示，只往上滚到最后一行露出来为止；一屏放得下就不动
+    if (words) { setSpeed(0); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
     // 不说话的段：到秒数自动停。说话的段：台词滚完再多 1.5s，且至少录满这段的秒数 +1（动作比台词长）
     const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
     const shouldStop = el => words ? (el > Math.max(scrollDur + 1.5, s.sec + 1)) : (el >= s.sec);
     const tick = () => {
       const el = elapsed();
       $("#tm", ov).textContent = el.toFixed(1);
-      if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${prompt.clientHeight - p * dist}px)`; }
+      if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${-p * dist}px)`; }
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
@@ -372,6 +409,24 @@ async function saveTakes(idx) {
     idx.forEach(i => { takes[i].saved = true; takes[i].msg = ""; persist(i); });
   } catch (e) { if (e?.name !== "AbortError") idx.forEach(i => takes[i].msg = t("saveFail") + (e?.message || e)); }
   render();
+}
+// 传到我们的 Drive：Apps Script 收，按人建文件夹。每段单独一个请求，base64 发，35MB 以内（12Mbps 的 1080p 约 20 秒）
+const b64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1]); r.onerror = rej; r.readAsDataURL(blob); });
+async function uploadTakes(idx) {
+  for (const i of idx) {
+    const tk = takes[i]; if (!tk?.blob) continue;
+    tk.up = "busy"; tk.upMsg = t("uploading", 0); render();
+    try {
+      const body = JSON.stringify({ action: "upload", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, shot: script.shots[i].n,
+        filename: fileName(i), mime: "video/mp4", lang, data: await b64(tk.blob) });
+      tk.upMsg = t("uploading", 50); render();
+      const r = await fetch(UPLOAD_URL, { method: "POST", body });
+      const j = await r.json();
+      if (!j.ok) throw new Error(j.error || "server");
+      tk.up = "done"; tk.upMsg = ""; tk.saved = true; persist(i);
+    } catch (e) { tk.up = ""; tk.upMsg = ""; tk.msg = t("uploadFail") + (e?.message || e); }
+    render();
+  }
 }
 window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
 
