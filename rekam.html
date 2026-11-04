@@ -168,7 +168,8 @@ const root = document.getElementById("root");
 const sid = (new URLSearchParams(location.search).get("s") || "").trim();
 let script = null, loadErr = "";
 let profile = store.get("profile", null);        // { link, handle, name }
-if (!profile && store.get("name", "")) profile = { link: "", handle: "", name: store.get("name", "") };
+if (!profile && store.get("name", "")) { profile = { link: "", handle: "", name: store.get("name", "") }; store.set("profile", profile); }   // 老版本只存了名字
+try { localStorage.removeItem("name"); } catch (e) {}
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
 const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址；空＝只给「保存」
 function parseHandle(link) {
@@ -233,7 +234,8 @@ function shell() {
   ${profile ? `<button class="out" id="logout">${t("logout")}</button>` : ""}`;
   const lo = $("#logout"); if (lo) lo.onclick = async () => {
     if (!lo.dataset.sure) { lo.dataset.sure = 1; lo.textContent = t("logout") + "?"; setTimeout(() => { delete lo.dataset.sure; lo.textContent = t("logout"); }, 4000); return; }
-    profile = null; name = ""; store.set("profile", null);
+    profile = null; name = "";
+    try { localStorage.removeItem("profile"); localStorage.removeItem("name"); } catch (e) {}
     try { indexedDB.deleteDatabase(DB.name); } catch (e) {}
     try { Object.keys(localStorage).filter(k => /^(cur_|mine_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
     takes.length = 0; location.search = "";
