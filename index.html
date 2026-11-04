@@ -115,6 +115,7 @@ video{width:100%;max-height:50vh;border-radius:10px;background:#000}
 .seg .b button.ready{background:var(--go);border-color:var(--go);color:var(--go-ink)}
 .card .solid,.card .sec{width:100%}
 .card.first{border:2px solid var(--hold)}
+.tip.warn{color:var(--ink);background:var(--chip);border-radius:10px;padding-block:8px;padding-inline:10px}
 </style>
 
 </head>
@@ -263,6 +264,7 @@ const I18N = {
     secs: n => `${n} 秒`, preview: "看", cutBtn: "切出", saveBtn: "保存", saved: "已存", cutting: p => `切 ${p}%`,
     cutAll: n => `全部切出（${n} 段）`, saveBatch: (i, n) => `保存第 ${i} 批（${n} 段）`, saveCsv: "保存场记表",
     saveFail: "没保存上：",
+    iosTip: "iPhone 保存时选「存储到文件」或 Google Drive，名字会保留、按人和段排好。别选「存储视频」：存进相册会变成 IMG_ 编号，分不出人和段。",
     csv: ["达人", "大段", "小段", "第几条", "推荐", "续段", "原文件", "开始秒", "结束秒", "时长", "文件名"], yes: "是",
   },
   id: {
@@ -289,6 +291,7 @@ const I18N = {
     secs: n => `${n} dtk`, preview: "Lihat", cutBtn: "Potong", saveBtn: "Simpan", saved: "Tersimpan", cutting: p => `Memotong ${p}%`,
     cutAll: n => `Potong semua (${n} bagian)`, saveBatch: (i, n) => `Simpan kelompok ${i} (${n} bagian)`, saveCsv: "Simpan catatan",
     saveFail: "Gagal menyimpan: ",
+    iosTip: "Di iPhone pilih “Simpan ke File” atau Google Drive supaya nama file tetap dan urut per talent dan bagian. Jangan pilih “Simpan Video”: di Foto namanya jadi IMG_ dan tidak bisa dibedakan.",
     csv: ["Talent", "Adegan", "Bagian", "Take", "Pilihan", "Lanjutan", "File asli", "Mulai (dtk)", "Selesai (dtk)", "Durasi", "Nama file"], yes: "ya",
   },
 };
@@ -313,6 +316,7 @@ const shareUrl = () => location.origin + location.pathname + "?r=" + enc(roster)
 
 // ===== 保存文件：手机走系统分享（iPhone 可「存储视频」进相册），电脑走下载 =====
 const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
+const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 async function saveFiles(list) { // list: [{name, blob}]
   const fl = list.map(x => new File([x.blob], x.name, { type: x.blob.type || "video/mp4" }));
   if (mobile && navigator.canShare && navigator.canShare({ files: fl })) { await navigator.share({ files: fl }); return; }
@@ -540,6 +544,7 @@ function summary() {
     ${uncut ? `<button class="solid" id="cutall" ${cutting ? "disabled" : ""}>${cutting ? esc(cutting) : t("cutAll", uncut)}</button>` : ""}
     ${bs.map((b, i) => `<button class="solid go" data-batch="${i}">${t("saveBatch", i + 1, b.length)}</button>`).join("")}
     <button class="sec" id="savecsv">${t("saveCsv")}<small>.csv</small></button>
+    ${ios ? `<p class="tip warn">${esc(t("iosTip"))}</p>` : ""}
   </div>`;
 }
 
@@ -671,14 +676,14 @@ async function analyse(f) {
   } catch (e) { f.marks = []; f.dur = 0; rebuild(); f.segs = f.segs || []; f.st = ["cantRead"]; f.err = String(e?.message || e); }
   refreshCut();
 }
-async function cutBlob(f, s, onP) {
+async function cutBlob(f, s, onP, title) {
   const M = await mb();
   const output = new M.Output({ format: new M.Mp4OutputFormat({ fastStart: "in-memory" }), target: new M.BufferTarget() });
   // 相机常见的 PCM 声音放进 mp4 很多播放器不认：画面照样无损复制，只把声音转成 AAC
   const at = await f.input.getPrimaryAudioTrack();
   const pcm = at && /pcm/i.test(String(at.codec || ""));
   const audio = pcm && await M.canEncodeAudio("aac") ? { codec: "aac", bitrate: 192000 } : undefined;
-  const conv = await M.Conversion.init({ input: f.input, output, trim: { start: s.start, end: s.end }, copy: { mode: "preferred" }, audio });
+  const conv = await M.Conversion.init({ input: f.input, output, trim: { start: s.start, end: s.end }, copy: { mode: "preferred" }, audio, tags: { title: title || segName(s).replace(/\.mp4$/, "") } });
   if (!conv.isValid) throw new Error(t("badFormat"));
   conv.onProgress = p => onP(p);
   await conv.execute();
