@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Papan Suara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#E9ECE6; --panel:#F7F8F4; --ink:#1D2420; --mute:#5E6A63; --line:#C9CFC7;
+  --go:#1F8A4C; --go-ink:#FFFFFF; --hold:#D8A21A; --hold-ink:#1D2420; --end:#B4412F; --end-ink:#FFFFFF;
+  --btn:#1D2420; --btn-ink:#F7F8F4; --chip:#DCE1DA;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#141917; --panel:#1E2521; --ink:#E9EEE9; --mute:#9AA69F; --line:#34403A;
+    --go:#2FAF66; --go-ink:#0D1210; --hold:#E3B23C; --hold-ink:#141917; --end:#D9604B; --end-ink:#141917;
+    --btn:#E9EEE9; --btn-ink:#141917; --chip:#2A332E;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#141917; --panel:#1E2521; --ink:#E9EEE9; --mute:#9AA69F; --line:#34403A;
+  --go:#2FAF66; --go-ink:#0D1210; --hold:#E3B23C; --hold-ink:#141917; --end:#D9604B; --end-ink:#141917;
+  --btn:#E9EEE9; --btn-ink:#141917; --chip:#2A332E;
+}
+html,body{min-height:100%}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,-apple-system,sans-serif;
+  padding-inline:16px;padding-block:10px 24px;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.app{width:100%;max-width:520px;margin:0 auto;box-sizing:border-box;display:flex;flex-direction:column;gap:14px}
+button,input{font-family:inherit;font-size:16px;color:inherit}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible{outline:3px solid var(--hold);outline-offset:2px}
+button:disabled{opacity:.45;cursor:default}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);background:var(--chip);border-radius:12px;padding:4px;gap:4px}
+.tabs button{border:0;background:transparent;border-radius:9px;min-height:44px;font-weight:600;font-size:15px;line-height:1.15}
+.tabs button small{display:block;font-weight:400;font-size:11px;color:var(--mute)}
+.tabs button[aria-selected="true"]{background:var(--panel);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.tip{font-size:13px;line-height:1.5;color:var(--mute);margin:0}
+.tip b{color:var(--ink);font-weight:600}
+.lab{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.chip{flex:none;border:1.5px solid var(--line);background:var(--panel);border-radius:999px;min-height:44px;padding-inline:14px;font-weight:600;white-space:nowrap}
+.chip span{font-family:"Barlow Condensed",sans-serif;color:var(--mute);margin-right:6px;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{background:var(--btn);color:var(--btn-ink);border-color:var(--btn)}
+.chip[aria-pressed="true"] span{color:inherit;opacity:.7}
+.board{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:12px;padding-inline:16px;
+  display:flex;flex-direction:column;align-items:center;gap:2px;transition:background .15s,color .15s}
+.board.hold{background:var(--hold);color:var(--hold-ink);border-color:var(--hold)}
+.board.go{background:var(--go);color:var(--go-ink);border-color:var(--go)}
+.board.end{background:var(--end);color:var(--end-ink);border-color:var(--end)}
+.board .who{font-size:20px;font-weight:600;text-align:center}
+.board .num{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:min(38vw,180px);line-height:.95;font-variant-numeric:tabular-nums}
+.board .state{font-size:17px;font-weight:600;min-height:1.5em;text-align:center}
+.board.hold .lab,.board.go .lab,.board.end .lab{color:inherit;opacity:.75}
+.adj{display:flex;gap:10px;align-items:center;justify-content:center}
+.adj button{width:56px;height:48px;font-size:26px;border-radius:12px;border:1px solid var(--line);background:var(--panel)}
+.adj span{font-size:13px;color:var(--mute);text-align:center}
+.main{width:100%;min-height:92px;border:0;border-radius:16px;background:var(--btn);color:var(--btn-ink);
+  font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:32px;letter-spacing:.04em;line-height:1.05}
+.main small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:14px;letter-spacing:0;opacity:.8;margin-top:4px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.board .dash{font-weight:600;opacity:.45;margin-inline:.08em}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.step{display:flex;align-items:center;justify-content:space-between;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding-inline:10px;min-height:56px}
+.step span{font-size:12px;color:var(--mute);line-height:1.2}
+.step b{font-family:"Barlow Condensed",sans-serif;font-size:26px;font-variant-numeric:tabular-nums;min-width:1.4em;text-align:center}
+.step button{width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:var(--bg);font-size:22px}
+.wide{width:100%}
+.sumt{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.sumt th,.sumt td{text-align:left;padding-block:6px;border-bottom:1px solid var(--line);vertical-align:top}
+.sumt th{font-weight:600;color:var(--mute);font-size:12px}
+.miss{color:var(--end);font-weight:600}
+.grp{font-weight:600;font-size:14px;margin-top:4px}
+.sec{min-height:60px;border-radius:14px;border:1.5px solid var(--ink);background:transparent;font-size:15px;font-weight:600;line-height:1.25}
+.sec small{display:block;font-weight:400;font-size:12px;color:var(--mute)}
+.log{font-size:13px;color:var(--mute);margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:2px;font-variant-numeric:tabular-nums}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:12px;padding-inline:14px;display:flex;flex-direction:column;gap:10px}
+.people{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.people li{display:flex;align-items:center;gap:10px;min-height:48px;border-bottom:1px solid var(--line)}
+.people li:last-child{border-bottom:0}
+.people .id{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:22px;width:2.2em;font-variant-numeric:tabular-nums;color:var(--mute)}
+.people .nm{flex:1;min-width:0;overflow-wrap:anywhere}
+.people button{border:0;background:transparent;color:var(--mute);font-size:14px;min-height:44px;padding-inline:8px}
+.add{display:flex;gap:8px}
+.add input{flex:1;min-width:0;min-height:46px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
+.add button,.solid{border:0;border-radius:10px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:46px;padding-inline:16px}
+.pick{display:flex;align-items:center;justify-content:center;gap:8px;min-height:72px;border:2px dashed var(--line);border-radius:14px;font-weight:600;cursor:pointer;text-align:center;line-height:1.3}
+.pick small{display:block;font-weight:400;color:var(--mute);font-size:12px}
+.pick input{position:absolute;width:1px;height:1px;opacity:0}
+.file h3{margin:0;font-size:15px;overflow-wrap:anywhere}
+.bar{height:6px;background:var(--chip);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--go);width:0;transition:width .2s}
+.segs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.seg{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;border-top:1px solid var(--line);padding-top:8px}
+.seg .t{font-weight:600;overflow-wrap:anywhere}
+.seg .t em{font-style:normal;font-size:12px;font-weight:600;color:var(--go);margin-left:6px}
+.seg .m{grid-column:1;font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+.seg .b{grid-row:1/3;grid-column:2;display:flex;gap:6px}
+.seg .b button{min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--bg);padding-inline:12px;font-size:14px;font-weight:600}
+.seg .b button.done{border-color:var(--go);color:var(--go)}
+video{width:100%;max-height:50vh;border-radius:10px;background:#000}
+.err{color:var(--end);font-size:13px;margin:0}
+@media (prefers-reduced-motion: reduce){.board,.bar i{transition:none}}
+.top{display:flex;gap:8px;align-items:stretch}
+.top .tabs{flex:1}
+.lang{display:flex;background:var(--chip);border-radius:12px;padding:4px;gap:2px}
+.lang button{border:0;background:transparent;border-radius:9px;min-width:44px;min-height:44px;font-size:13px;font-weight:600;color:var(--mute)}
+.lang button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.toast{margin:0;font-size:13px;font-weight:600;color:var(--go);overflow-wrap:anywhere}
+.solid.go{background:var(--go);color:var(--go-ink)}
+.seg .b button.ready{background:var(--go);border-color:var(--go);color:var(--go-ink)}
+.card .solid,.card .sec{width:100%}
+</style>
+
+</head>
+<body>
+<div class="app" id="root"></div>
+<script type="module">
+// ===== 场记音编码（切段.py 用同一套）=====
+// DTMF；每音 160ms、间隔 60ms；「* 达人2位 大段2位 小段2位 #」连播两遍，中间停 0.25s；
+// 停 0.5s；A 长音 400ms＝开口。D 长音 400ms＝这段结束（可选）。整套 4.67s。
+const SR = 44100, TONE = 0.16, GAP = 0.06, REP_GAP = 0.25, PRE_GO = 0.5, LONG = 0.4;
+const CODE_LEN = 2 * 8 * (TONE + GAP) + REP_GAP + PRE_GO + LONG; // 4.67
+const LOW = [697, 770, 852, 941], HIGH = [1209, 1336, 1477, 1633];
+const KEYS = ["123A", "456B", "789C", "*0#D"];
+const START_PAD = 0.25, END_PAD_D = 0.2, END_PAD_NEXT = 0.5;
+const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/mediabunny.min.mjs";
+
+const pad2 = n => String(n).padStart(2, "0");
+const $ = (sel, el = document) => el.querySelector(sel);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+};
+
+// ===== 合成提示音 =====
+function codeParts(talent, big, small) {
+  const s = "*" + pad2(talent) + pad2(big) + pad2(small) + "#", p = [];
+  for (let rep = 0; rep < 2; rep++) {
+    for (const k of s) p.push([k, TONE], [null, GAP]);
+    if (rep === 0) p.push([null, REP_GAP]);
+  }
+  p.push([null, PRE_GO]);
+  return p;
+}
+function synth(parts) {
+  const total = parts.reduce((s, p) => s + p[1], 0) + 0.1;
+  const buf = new Float32Array(Math.ceil(total * SR));
+  let pos = 0;
+  for (const [k, d] of parts) {
+    const n = Math.round(d * SR);
+    if (k) {
+      const r = KEYS.findIndex(row => row.includes(k)), c = KEYS[r].indexOf(k);
+      for (let i = 0; i < n; i++) {
+        const t = i / SR, env = Math.min(1, t / 0.005, (d - t) / 0.005);
+        buf[pos + i] = 0.45 * env * (Math.sin(2 * Math.PI * LOW[r] * t) + Math.sin(2 * Math.PI * HIGH[c] * t));
+      }
+    }
+    pos += n;
+  }
+  const dv = new DataView(new ArrayBuffer(44 + buf.length * 2));
+  const w = (o, s) => [...s].forEach((ch, i) => dv.setUint8(o + i, ch.charCodeAt(0)));
+  w(0, "RIFF"); dv.setUint32(4, 36 + buf.length * 2, true); w(8, "WAVEfmt ");
+  dv.setUint32(16, 16, true); dv.setUint16(20, 1, true); dv.setUint16(22, 1, true);
+  dv.setUint32(24, SR, true); dv.setUint32(28, SR * 2, true); dv.setUint16(32, 2, true); dv.setUint16(34, 16, true);
+  w(36, "data"); dv.setUint32(40, buf.length * 2, true);
+  for (let i = 0; i < buf.length; i++) dv.setInt16(44 + i * 2, Math.max(-1, Math.min(1, buf[i])) * 32767, true);
+  return URL.createObjectURL(new Blob([dv], { type: "audio/wav" }));
+}
+function play(url) {
+  return new Promise((res, rej) => { const a = new Audio(url); a.onended = res; a.onerror = rej; a.play().catch(rej); });
+}
+
+
+// ===== 识别（和 切段.py 同一算法）=====
+function detect(x, sr, dur) {
+  const WIN = Math.round(0.032 * sr), HOP = Math.max(1, Math.round(0.01 * sr));
+  const freqs = LOW.concat(HIGH), w = new Float32Array(WIN);
+  let sw = 0, sw2 = 0;
+  for (let i = 0; i < WIN; i++) { w[i] = 0.5 - 0.5 * Math.cos(2 * Math.PI * i / (WIN - 1)); sw += w[i]; sw2 += w[i] * w[i]; }
+  const norm = sw * sw / (2 * sw2);
+  const cs = freqs.map(f => { const c = new Float32Array(WIN), s = new Float32Array(WIN);
+    for (let i = 0; i < WIN; i++) { c[i] = Math.cos(2 * Math.PI * f * i / sr) * w[i]; s[i] = Math.sin(2 * Math.PI * f * i / sr) * w[i]; } return [c, s]; });
+  const nF = Math.max(0, Math.floor((x.length - WIN) / HOP) + 1), syms = new Array(nF);
+  const p = new Float32Array(8);
+  for (let f = 0; f < nF; f++) {
+    const o = f * HOP; let e = 0;
+    for (let i = 0; i < WIN; i++) { const v = x[o + i] * w[i]; e += v * v; }
+    e += 1e-12;
+    for (let k = 0; k < 8; k++) { const [c, s] = cs[k]; let re = 0, im = 0;
+      for (let i = 0; i < WIN; i++) { re += x[o + i] * c[i]; im += x[o + i] * s[i]; } p[k] = (re * re + im * im) / (e * norm); }
+    const best = (a, b) => { let bi = a, b2 = 0; for (let k = a; k < b; k++) if (p[k] > p[bi]) bi = k;
+      for (let k = a; k < b; k++) if (k !== bi && p[k] > b2) b2 = p[k]; return [bi, p[bi], b2]; };
+    const [li, lb, l2] = best(0, 4), [hi, hb, h2] = best(4, 8);
+    const rms = Math.sqrt(e / sw2);
+    syms[f] = (lb > 0.15 && hb > 0.15 && lb + hb > 0.45 && l2 < 0.3 * lb && h2 < 0.3 * hb && rms > 1e-3) ? KEYS[li][hi - 4] : null;
+  }
+  // 连续同符号 → 事件
+  let ev = [], cur = null, st = 0;
+  for (let i = 0; i <= nF; i++) { const s = i < nF ? syms[i] : null;
+    if (s !== cur) { if (cur !== null) ev.push([cur, st * HOP / sr, (i - 1) * HOP / sr + WIN / sr]); cur = s; st = i; } }
+  const merged = [];
+  for (const e of ev) { const m = merged[merged.length - 1];
+    if (m && m[0] === e[0] && e[1] - m[2] <= 0.03) m[2] = e[2]; else merged.push(e.slice()); }
+  ev = merged.filter(([s, a, b]) => b - a >= ("AD".includes(s) ? 0.12 : 0.08));
+  // 分簇：一次打板＝一簇
+  const bursts = []; let bu = [];
+  for (const e of ev) { if (bu.length && e[1] - bu[bu.length - 1][2] > 1.2) { bursts.push(bu); bu = []; } bu.push(e); }
+  if (bu.length) bursts.push(bu);
+  const marks = [];
+  for (const b of bursts) {
+    let votes = [], chunk = [];
+    for (const [s] of b.concat([["#"]])) {
+      if ("*#AD".includes(s)) { if (chunk.length === 6) votes.push(chunk.join("")); chunk = []; }
+      else if (/\d/.test(s)) chunk.push(s);
+    }
+    if (!votes.length) { const dg = b.filter(e => /\d/.test(e[0]));
+      for (let i = 0; i + 5 < dg.length; i++) if (dg[i + 5][1] - dg[i][1] < 1.4) votes.push(dg.slice(i, i + 6).map(e => e[0]).join("")); }
+    if (!votes.length) continue;
+    const cnt = {}; votes.forEach(v => cnt[v] = (cnt[v] || 0) + 1);
+    const code = Object.keys(cnt).sort((a, c) => cnt[c] - cnt[a])[0];
+    const go = b.filter(e => e[0] === "A");
+    const start = go.length ? go[go.length - 1][2] + START_PAD : Math.max(b[b.length - 1][2] + 1.0, b[0][1] + CODE_LEN) + START_PAD;
+    marks.push({ talent: +code.slice(0, 2), big: +code.slice(2, 4), small: +code.slice(4), cue: b[0][1], start });
+  }
+  marks.forEach((m, k) => {
+    const nxt = k + 1 < marks.length ? marks[k + 1].cue : null;
+    const d = ev.find(e => e[0] === "D" && e[1] > m.start && (nxt === null || e[1] < nxt));
+    m.end = d ? d[1] - END_PAD_D : (nxt !== null ? nxt - END_PAD_NEXT : dur);
+  });
+  return marks.filter(m => m.end - m.start > 0.3);
+}
+
+// ===== 文案（中文 / Bahasa Indonesia，右上角切换）=====
+const I18N = {
+  zh: {
+    tab_slate: "打板", tab_cut: "切段", tab_people: "名单",
+    tip: "手机音量开到最大，放在镜头旁边别入画。嘀嘀声响的时候别说话，长音响了再开口。",
+    talent: "达人", emptyRoster: "名单是空的，先去「名单」里加人。",
+    bigsmall: "大段 – 小段", big: "大段", small: "小段", ready: "准备好了",
+    go: (b, s) => `开始 ${b}–${s}`, goSub: (b, s) => `第 ${b} 大段 · 第 ${s} 小段`,
+    retake: "重拍这段", retakeSub: "同一个号再打一次", done: "这段结束", doneSub: "可以不按",
+    nextBig: n => `下一大段 → ${n}–1`, nextBigSub: "小段从 1 开始",
+    hold: "先别说话…", speak: "开口！", recording: (b, s) => `正在拍 ${b}–${s}`, ended: (b, s) => `${b}–${s} 结束`,
+    noSound: "没出声，检查音量再按一次", logRetake: "重拍", logEnd: "结束",
+    rosterTitle: "达人名单", rosterTip: "号码会编进提示音，切段时自动对上名字。号码用过就别再换人。",
+    namePh: "达人名字", add: "加入", rename: "改名", save: "保存", none: "还没有人", max99: "号码已经用到 99",
+    share: "分享名单链接", shareTip: "改完名单点这里，把链接发给片场的人。他们点开链接，手机里就是同一份名单。",
+    copied: "链接已复制，去 WhatsApp 粘贴发出", imported: n => `名单已更新（${n} 人）`,
+    pick: "选视频", pickSub: "可以多选，整张卡一起选也行。手机或相机拍的整条原片都可以。",
+    queued: "排队中", reading: p => `读声音 ${p}%`, finding: "找场记音…", found: n => `找到 ${n} 段`,
+    notFound: "没找到场记音。确认拍的时候手机音量开着、离镜头不远。", cantRead: "读不了这条视频",
+    noAudio: "这条视频没有声音", badFormat: "这条视频的格式切不了",
+    sumTitle: n => `场记表 · ${n} 个文件`, missBig: x => `缺大段 ${x}`, missSmall: x => `缺小段 ${x}`,
+    takes: n => `（${n} 条）`, take: n => `第 ${n} 条`, best: "推荐", cont: "续",
+    contNote: (file, name, c) => `${file} 开头接着上一个文件的 ${name} ${c}（相机自动分了文件），存成「_续」那条，剪的时候接在后面。`,
+    secs: n => `${n} 秒`, preview: "看", cutBtn: "切出", saveBtn: "保存", saved: "已存", cutting: p => `切 ${p}%`,
+    cutAll: n => `全部切出（${n} 段）`, saveBatch: (i, n) => `保存第 ${i} 批（${n} 段）`, saveCsv: "保存场记表",
+    saveFail: "没保存上：",
+    csv: ["达人", "大段", "小段", "第几条", "推荐", "续段", "原文件", "开始秒", "结束秒", "时长", "文件名"], yes: "是",
+  },
+  id: {
+    tab_slate: "Papan", tab_cut: "Potong", tab_people: "Daftar",
+    tip: "Volume HP maksimal. Taruh HP di samping kamera, jangan masuk frame. Diam selama bunyi “tit-tit”, mulai bicara setelah bunyi panjang.",
+    talent: "Talent", emptyRoster: "Daftar masih kosong. Tambah talent di tab Daftar dulu.",
+    bigsmall: "Adegan – Bagian", big: "Adegan", small: "Bagian", ready: "Siap",
+    go: (b, s) => `MULAI ${b}–${s}`, goSub: (b, s) => `Adegan ${b} · Bagian ${s}`,
+    retake: "Ulang bagian ini", retakeSub: "Nomor sama, sekali lagi", done: "Bagian selesai", doneSub: "Boleh dilewati",
+    nextBig: n => `Adegan berikutnya → ${n}–1`, nextBigSub: "Bagian mulai dari 1",
+    hold: "Diam dulu…", speak: "MULAI BICARA!", recording: (b, s) => `Sedang rekam ${b}–${s}`, ended: (b, s) => `${b}–${s} selesai`,
+    noSound: "Suara tidak keluar. Cek volume, lalu tekan lagi.", logRetake: "ulang", logEnd: "selesai",
+    rosterTitle: "Daftar talent", rosterTip: "Nomor ikut masuk ke bunyi, jadi saat dipotong nama talent muncul otomatis. Nomor yang sudah dipakai jangan diganti orangnya.",
+    namePh: "Nama talent", add: "Tambah", rename: "Ganti nama", save: "Simpan", none: "Belum ada talent", max99: "Nomor sudah sampai 99",
+    share: "Bagikan link daftar", shareTip: "Setelah daftar diubah, kirim link ini ke tim. Begitu dibuka, daftar di HP mereka sama dengan punyamu.",
+    copied: "Link sudah disalin, tempel di WhatsApp", imported: n => `Daftar diperbarui (${n} orang)`,
+    pick: "Pilih video", pickSub: "Boleh banyak sekaligus, satu kartu memori juga bisa. Video asli utuh dari HP atau kamera.",
+    queued: "Menunggu", reading: p => `Membaca suara ${p}%`, finding: "Mencari bunyi papan…", found: n => `Ketemu ${n} bagian`,
+    notFound: "Bunyi papan tidak ketemu. Pastikan volume HP menyala dan dekat kamera.", cantRead: "Video ini tidak bisa dibaca",
+    noAudio: "Video ini tidak punya suara", badFormat: "Format video ini tidak bisa dipotong",
+    sumTitle: n => `Catatan papan · ${n} file`, missBig: x => `Adegan ${x} tidak ada`, missSmall: x => `Bagian ${x} tidak ada`,
+    takes: n => ` (${n} take)`, take: n => `Take ${n}`, best: "Pilihan", cont: "lanjutan",
+    contNote: (file, name, c) => `Awal ${file} adalah lanjutan ${name} ${c} dari file sebelumnya (kamera memecah file). Disimpan sebagai “_续”, sambungkan saat edit.`,
+    secs: n => `${n} dtk`, preview: "Lihat", cutBtn: "Potong", saveBtn: "Simpan", saved: "Tersimpan", cutting: p => `Memotong ${p}%`,
+    cutAll: n => `Potong semua (${n} bagian)`, saveBatch: (i, n) => `Simpan kelompok ${i} (${n} bagian)`, saveCsv: "Simpan catatan",
+    saveFail: "Gagal menyimpan: ",
+    csv: ["Talent", "Adegan", "Bagian", "Take", "Pilihan", "Lanjutan", "File asli", "Mulai (dtk)", "Selesai (dtk)", "Durasi", "Nama file"], yes: "ya",
+  },
+};
+let lang = store.get("lang", /^zh/i.test(navigator.language || "") ? "zh" : "id");
+const t = (k, ...a) => { const v = I18N[lang][k]; return typeof v === "function" ? v(...a) : v; };
+
+// ===== 名单：存在本机；「分享名单链接」把整份名单放进链接里发给别人 =====
+const enc = o => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const dec = s => JSON.parse(decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/")))));
+let roster = store.get("roster", { next: 1, people: [] });
+let toast = "";
+try {
+  const r = new URLSearchParams(location.search).get("r");
+  if (r) {
+    const got = dec(r);
+    if (got && Array.isArray(got.people)) { roster = got; store.set("roster", roster); toast = t("imported", got.people.length); }
+    history.replaceState(null, "", location.pathname);
+  }
+} catch (e) {}
+const nameOf = id => (roster.people.find(p => p.id === id) || {}).name || ("#" + pad2(id));
+const shareUrl = () => location.origin + location.pathname + "?r=" + enc(roster);
+
+// ===== 保存文件：手机走系统分享（iPhone 可「存储视频」进相册），电脑走下载 =====
+const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
+async function saveFiles(list) { // list: [{name, blob}]
+  const fl = list.map(x => new File([x.blob], x.name, { type: x.blob.type || "video/mp4" }));
+  if (mobile && navigator.canShare && navigator.canShare({ files: fl })) { await navigator.share({ files: fl }); return; }
+  for (const f of fl) {
+    const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 60000);
+    await new Promise(r => setTimeout(r, 300));
+  }
+}
+
+// ===== 页面骨架 =====
+const root = document.getElementById("root");
+let tab = store.get("tab", "slate");
+let talent = store.get("talent", roster.people[0]?.id ?? 0);
+if (!roster.people.some(p => p.id === talent)) talent = roster.people[0]?.id ?? 0;
+const posOf = id => store.get("pos_" + id, { b: 1, s: 1 });
+const setPos = (id, b, sm) => store.set("pos_" + id, { b, s: sm });
+let shot = null, busy = false, boardCls = "", boardKey = ["ready"];
+const logs = [];
+const files = [];
+
+function shell() {
+  document.documentElement.lang = lang;
+  root.innerHTML = `
+  <div class="top">
+    <div class="tabs" role="tablist">
+      <button role="tab" data-tab="slate">${t("tab_slate")}</button>
+      <button role="tab" data-tab="cut">${t("tab_cut")}</button>
+      <button role="tab" data-tab="people">${t("tab_people")}</button>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button>
+    </div>
+  </div>
+  ${toast ? `<p class="toast">${esc(toast)}</p>` : ""}
+  <section id="pane-slate"></section>
+  <section id="pane-cut"></section>
+  <section id="pane-people"></section>`;
+  root.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set("tab", tab); toast = ""; shell(); });
+  root.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); shell(); });
+  root.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  ["slate", "cut", "people"].forEach(x => document.getElementById("pane-" + x).hidden = x !== tab);
+  renderSlate(); renderCut(); renderPeople();
+}
+
+// ----- 打板 -----
+const ready = () => { shot = null; boardCls = ""; boardKey = ["ready"]; renderSlate(); };
+function renderSlate() {
+  const el = document.getElementById("pane-slate");
+  const pos = posOf(talent), show = shot ? { b: shot.big, s: shot.small } : pos;
+  const chips = roster.people.map(p =>
+    `<button class="chip" data-t="${p.id}" aria-pressed="${p.id === talent}"><span>${pad2(p.id)}</span>${esc(p.name)}</button>`).join("");
+  el.innerHTML = `<div class="app">
+    <p class="tip">${esc(t("tip"))}</p>
+    <div><div class="lab">${t("talent")}</div>
+      ${roster.people.length ? `<div class="chips">${chips}</div>` : `<p class="tip">${esc(t("emptyRoster"))}</p>`}</div>
+    <div class="board ${boardCls}" aria-live="polite">
+      <div class="who">${talent ? esc(nameOf(talent)) : "—"}</div>
+      <div class="lab">${t("bigsmall")}</div>
+      <div class="num">${show.b}<span class="dash">–</span>${show.s}</div>
+      <div class="state">${esc(t(...boardKey))}</div>
+    </div>
+    <div class="steps">
+      <div class="step"><span>${t("big")}</span><button data-st="b-1" aria-label="−">−</button><b>${pos.b}</b><button data-st="b1" aria-label="+">+</button></div>
+      <div class="step"><span>${t("small")}</span><button data-st="s-1" aria-label="−">−</button><b>${pos.s}</b><button data-st="s1" aria-label="+">+</button></div>
+    </div>
+    <button class="main" id="go">${t("go", pos.b, pos.s)}<small>${t("goSub", pos.b, pos.s)}</small></button>
+    <div class="row">
+      <button class="sec" id="retake">${t("retake")}<small>${t("retakeSub")}</small></button>
+      <button class="sec" id="done">${t("done")}<small>${t("doneSub")}</small></button>
+    </div>
+    <button class="sec wide" id="nextbig">${t("nextBig", pos.b + 1)}<small>${t("nextBigSub")}</small></button>
+    <ul class="log">${logs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+  </div>`;
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => { if (busy) return; talent = +b.dataset.t; store.set("talent", talent); ready(); });
+  const noT = !talent;
+  $("#go", el).disabled = $("#nextbig", el).disabled = busy || noT;
+  el.querySelectorAll("[data-st]").forEach(b => { b.disabled = busy || noT; b.onclick = () => {
+    const k = b.dataset.st[0], d = +b.dataset.st.slice(1), p = posOf(talent);
+    setPos(talent, Math.min(99, Math.max(1, p.b + (k === "b" ? d : 0))), Math.min(99, Math.max(1, p.s + (k === "s" ? d : 0)))); ready(); }; });
+  $("#retake", el).disabled = $("#done", el).disabled = busy || !shot;
+  $("#go", el).onclick = () => { const p = posOf(talent); slate(talent, p.b, p.s, false); };
+  $("#retake", el).onclick = () => shot && slate(shot.talent, shot.big, shot.small, true);
+  $("#done", el).onclick = done;
+  $("#nextbig", el).onclick = () => { const p = posOf(talent); setPos(talent, Math.min(99, p.b + 1), 1); ready(); };
+}
+function setBoard(cls, ...key) { boardCls = cls; boardKey = key; renderSlate(); }
+function addLog(x) { logs.unshift(new Date().toLocaleTimeString("id-ID", { hour12: false }) + "  " + x); logs.length = Math.min(logs.length, 6); }
+let lock = null;
+async function wake() { try { lock = await navigator.wakeLock?.request("screen"); } catch (e) {} }
+try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch (e) {}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && lock) wake(); });
+
+async function slate(tal, big, small, retake) {
+  busy = true; shot = { talent: tal, big, small }; wake();
+  setBoard("hold", "hold");
+  const parts = codeParts(tal, big, small), goAt = parts.reduce((s, p) => s + p[1], 0);
+  parts.push(["A", LONG]);
+  const tm = setTimeout(() => setBoard("go", "speak"), goAt * 1000);
+  try { await play(synth(parts)); }
+  catch (e) { clearTimeout(tm); busy = false; setBoard("end", "noSound"); return; }
+  addLog(`${nameOf(tal)} · ${big}–${small}${retake ? " · " + t("logRetake") : ""}`);
+  if (!retake) setPos(tal, big, Math.min(99, small + 1));
+  busy = false; setBoard("go", "recording", big, small);
+}
+async function done() {
+  busy = true; renderSlate();
+  try { await play(synth([["D", LONG]])); } catch (e) {}
+  addLog(`${nameOf(shot.talent)} · ${shot.big}–${shot.small} · ${t("logEnd")}`);
+  busy = false; setBoard("end", "ended", shot.big, shot.small);
+}
+
+// ----- 名单 -----
+let peopleMsg = "";
+function setRoster(next) { roster = next; store.set("roster", roster); if (!roster.people.some(p => p.id === talent)) talent = roster.people[0]?.id ?? 0; peopleMsg = ""; renderPeople(); renderSlate(); }
+function renderPeople() {
+  const el = document.getElementById("pane-people");
+  el.innerHTML = `<div class="card">
+    <div class="lab">${t("rosterTitle")}</div>
+    <p class="tip">${esc(t("rosterTip"))}</p>
+    <ul class="people">${roster.people.map(p => `<li><span class="id">${pad2(p.id)}</span><span class="nm">${esc(p.name)}</span>
+      <button data-ren="${p.id}">${t("rename")}</button></li>`).join("") || `<li class="tip">${t("none")}</li>`}</ul>
+    <form class="add" id="addf"><input id="newname" placeholder="${esc(t("namePh"))}" autocomplete="off" maxlength="40"><button>${t("add")}</button></form>
+  </div>
+  <div class="card">
+    <button class="solid" id="share">${t("share")}</button>
+    <p class="tip">${esc(t("shareTip"))}</p>
+    ${peopleMsg ? `<p class="toast">${esc(peopleMsg)}</p>` : ""}
+  </div>`;
+  $("#addf", el).onsubmit = ev => { ev.preventDefault(); const n = $("#newname", el).value.trim(); if (!n) return;
+    if (roster.next > 99) { peopleMsg = t("max99"); renderPeople(); return; }
+    setRoster({ next: roster.next + 1, people: roster.people.concat([{ id: roster.next, name: n }]) }); };
+  el.querySelectorAll("[data-ren]").forEach(b => b.onclick = () => {
+    const id = +b.dataset.ren, nm = $(".nm", b.closest("li"));
+    b.hidden = true;
+    nm.innerHTML = `<form class="add"><input value="${esc(nameOf(id))}" maxlength="40" aria-label="${esc(t("rename"))}"><button>${t("save")}</button></form>`;
+    const fr = $("form", nm); $("input", fr).focus();
+    fr.onsubmit = ev => { ev.preventDefault(); const n = $("input", fr).value.trim(); if (!n) return;
+      setRoster({ next: roster.next, people: roster.people.map(p => p.id === id ? { id, name: n } : p) }); };
+  });
+  $("#share", el).onclick = async () => {
+    const url = shareUrl();
+    if (mobile && navigator.share) { try { await navigator.share({ url }); return; } catch (e) { if (e.name === "AbortError") return; } }
+    try { await navigator.clipboard.writeText(url); peopleMsg = t("copied"); } catch (e) { peopleMsg = url; }
+    renderPeople();
+  };
+}
+
+// ----- 切段 -----
+let MB = null;
+async function mb() { if (!MB) MB = await import(MB_URL); return MB; }
+const fmt = s => { const m = Math.floor(s / 60); return m + ":" + (s - m * 60).toFixed(1).padStart(4, "0"); };
+const shootDay = f => { const d = new Date(f.file.lastModified || Date.now()); return (d.getMonth() + 1) + "." + d.getDate(); };
+const code = s => `${s.big}–${s.small}`;
+const safe = n => String(n).replace(/[\\/:*?"<>|]/g, "_");
+function segName(s) {
+  return `${safe(nameOf(s.talent))}_${shootDay(s.f)}_${pad2(s.big)}-${pad2(s.small)}${s.take ? "_t" + s.take : ""}${s.cont ? "_续" : ""}.mp4`;
+}
+const byName = (a, b) => a.file.name.localeCompare(b.file.name, undefined, { numeric: true });
+
+// 所有文件按文件名（相机/手机编号）排成拍摄顺序，统一算重拍条数、找跨文件的续段
+function rebuild() {
+  const doneF = files.filter(f => f.marks).sort(byName);
+  let prevLast = null;
+  for (const f of doneF) {
+    const old = new Map((f.segs || []).map(s => [s.start.toFixed(2), s]));
+    f.segs = f.marks.map(m => Object.assign(old.get(m.start.toFixed(2)) || {}, m, { f }));
+    const firstCue = f.marks.length ? f.marks[0].cue : f.dur;
+    if (prevLast && prevLast.end >= prevLast.f.dur - 0.05 && firstCue > 1.5)
+      f.segs.unshift(Object.assign(old.get("0.00") || {}, { f, talent: prevLast.talent, big: prevLast.big, small: prevLast.small, start: 0,
+        end: f.marks.length ? firstCue - END_PAD_NEXT : f.dur, cont: true }));
+    prevLast = f.segs.length ? f.segs[f.segs.length - 1] : null;
+  }
+  const all = doneF.flatMap(f => f.segs), count = {}, seen = {};
+  const key = s => s.talent + "-" + s.big + "-" + s.small;
+  all.filter(s => !s.cont).forEach(s => count[key(s)] = (count[key(s)] || 0) + 1);
+  let last = null;
+  all.forEach(s => {
+    if (s.cont) { s.take = last ? last.take : 0; s.best = last ? last.best : false; return; }
+    seen[key(s)] = (seen[key(s)] || 0) + 1;
+    s.take = count[key(s)] > 1 ? seen[key(s)] : 0; s.best = count[key(s)] > 1 && seen[key(s)] === count[key(s)];
+    last = s;
+  });
+}
+function allSegs() { return files.filter(f => f.segs).sort(byName).flatMap(f => f.segs); }
+function ordered() { return allSegs().slice().sort((a, b) => a.talent - b.talent || a.big - b.big || a.small - b.small || (a.take - b.take) || (a.cont - b.cont)); }
+
+function batches() { // 切好的分批，每批不超过约 300MB，手机一次分享得动
+  const out = []; let cur = [], size = 0;
+  for (const s of ordered().filter(s => s.blob && !s.saved)) {
+    if (cur.length && size + s.blob.size > 300e6) { out.push(cur); cur = []; size = 0; }
+    cur.push(s); size += s.blob.size;
+  }
+  if (cur.length) out.push(cur);
+  return out;
+}
+function summary() {
+  const segs = allSegs().filter(s => !s.cont);
+  if (!segs.length) return "";
+  const tree = {};
+  segs.forEach(s => { ((tree[s.talent] ||= {})[s.big] ||= {})[s.small] = ((tree[s.talent][s.big][s.small]) || 0) + 1; });
+  const conts = allSegs().filter(s => s.cont);
+  let rows = "";
+  for (const tl of Object.keys(tree).map(Number).sort((a, b) => a - b)) {
+    const bigs = Object.keys(tree[tl]).map(Number).sort((a, b) => a - b);
+    const missB = []; for (let b = 1; b < bigs[bigs.length - 1]; b++) if (!tree[tl][b]) missB.push(b);
+    rows += `<tr><td colspan="2" class="grp">${esc(nameOf(tl))}${missB.length ? ` <span class="miss">${t("missBig", missB.join(", "))}</span>` : ""}</td></tr>`;
+    for (const b of bigs) {
+      const sm = Object.keys(tree[tl][b]).map(Number).sort((a, c) => a - c), miss = [];
+      for (let k = 1; k < sm[sm.length - 1]; k++) if (!tree[tl][b][k]) miss.push(k);
+      rows += `<tr><td>${t("big")} ${b}</td><td>${sm.map(k => k + (tree[tl][b][k] > 1 ? t("takes", tree[tl][b][k]) : "")).join(" · ")}
+        ${miss.length ? `<br><span class="miss">${t("missSmall", miss.join(", "))}</span>` : ""}</td></tr>`;
+    }
+  }
+  const all = allSegs(), uncut = all.filter(s => !s.blob && !s.saved).length;
+  const bs = batches();
+  return `<div class="card"><div class="lab">${t("sumTitle", files.filter(f => f.segs).length)}</div>
+    <table class="sumt"><tbody>${rows}</tbody></table>
+    ${conts.length ? `<p class="tip">${conts.map(c => esc(t("contNote", c.f.file.name, nameOf(c.talent), code(c)))).join("<br>")}</p>` : ""}
+    ${uncut ? `<button class="solid" id="cutall" ${cutting ? "disabled" : ""}>${cutting ? esc(cutting) : t("cutAll", uncut)}</button>` : ""}
+    ${bs.map((b, i) => `<button class="solid go" data-batch="${i}">${t("saveBatch", i + 1, b.length)}</button>`).join("")}
+    <button class="sec" id="savecsv">${t("saveCsv")}<small>.csv</small></button>
+  </div>`;
+}
+
+function renderCut() {
+  const el = document.getElementById("pane-cut");
+  el.innerHTML = `<div class="app">
+    <label class="pick">${t("pick")}<small>${esc(t("pickSub"))}</small><input type="file" id="vf" accept="video/*" multiple></label>
+    <div id="flist" class="app"></div>
+  </div>`;
+  $("#vf", el).onchange = async e => {
+    const add = [...e.target.files].map(file => ({ file, st: ["queued"], pct: 0, segs: null, marks: null, err: "" }));
+    e.target.value = "";
+    files.push(...add); refreshCut();
+    for (const f of add) await analyse(f); // 一个一个读，手机内存稳
+  };
+  refreshCut();
+}
+function segRow(s, i, j) {
+  const btn = s.saved ? `<button class="done" disabled>${t("saved")}</button>`
+    : s.blob ? `<button data-sv="${i}-${j}" class="ready">${t("saveBtn")}</button>`
+    : `<button data-ct="${i}-${j}" ${s.busy ? "disabled" : ""}>${s.busy ? esc(s.busy) : t("cutBtn")}</button>`;
+  return `<li class="seg">
+    <div class="t">${esc(nameOf(s.talent))} · ${code(s)}${s.take ? " · " + t("take", s.take) : ""}${s.cont ? " · " + t("cont") : ""}${s.best ? `<em>${t("best")}</em>` : ""}</div>
+    <div class="m">${fmt(s.start)} → ${fmt(s.end)} · ${t("secs", (s.end - s.start).toFixed(1))}${s.msg ? " · " + esc(s.msg) : ""}</div>
+    <div class="b"><button data-pv="${i}-${j}">${t("preview")}</button>${btn}</div></li>`;
+}
+function fileCard(f, i) {
+  const segs = f.segs || [];
+  return `<div class="card file"><h3>${esc(f.file.name)}</h3>
+    <div class="tip">${esc(t(...f.st))}</div>
+    ${f.segs === null ? `<div class="bar"><i style="width:${f.pct}%"></i></div>` : ""}
+    ${f.err ? `<p class="err">${esc(f.err)}</p>` : ""}
+    ${segs.length ? `<ul class="segs">${segs.map((s, j) => segRow(s, i, j)).join("")}</ul>` : ""}
+    <video id="pv${i}" playsinline controls hidden></video></div>`;
+}
+let cutting = "";
+function refreshCut() {
+  const el = document.getElementById("flist"); if (!el) return;
+  const order = files.map((f, i) => [f, i]).sort((a, b) => byName(a[0], b[0]));
+  el.innerHTML = summary() + order.map(([f, i]) => fileCard(f, i)).join("");
+  const seg = d => { const [i, j] = d.split("-").map(Number); return files[i].segs[j]; };
+  el.querySelectorAll("[data-pv]").forEach(b => b.onclick = () => { const [i, j] = b.dataset.pv.split("-").map(Number); preview(i, j); });
+  el.querySelectorAll("[data-ct]").forEach(b => b.onclick = () => cutOne(seg(b.dataset.ct)));
+  el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveSegs([seg(b.dataset.sv)]));
+  el.querySelectorAll("[data-batch]").forEach(b => b.onclick = () => saveSegs(batches()[+b.dataset.batch]));
+  const ca = $("#cutall", el); if (ca) ca.onclick = cutAll;
+  const sc = $("#savecsv", el); if (sc) sc.onclick = saveCsv;
+}
+async function cutOne(s) {
+  try {
+    s.busy = t("cutting", 0); s.msg = ""; refreshCut();
+    s.blob = await cutBlob(s.f, s, p => { s.busy = t("cutting", Math.round(p * 100)); refreshCut(); });
+  } catch (e) { s.msg = String(e?.message || e); }
+  s.busy = ""; refreshCut();
+}
+async function cutAll() {
+  const todo = ordered().filter(s => !s.blob && !s.saved);
+  for (let k = 0; k < todo.length; k++) { cutting = t("cutting", Math.round(100 * k / todo.length)); await cutOne(todo[k]); }
+  cutting = ""; refreshCut();
+}
+async function saveSegs(list) { // 必须直接由点击触发：手机的分享面板要求刚点过按钮
+  try {
+    await saveFiles(list.map(s => ({ name: segName(s), blob: s.blob })));
+    list.forEach(s => { s.saved = true; s.blob = null; });
+  } catch (e) { if (e?.name !== "AbortError") list.forEach(s => s.msg = t("saveFail") + (e?.message || e)); }
+  refreshCut();
+}
+async function saveCsv() {
+  const rows = [t("csv")];
+  ordered().forEach(s => rows.push([nameOf(s.talent), s.big, s.small, s.take || 1, s.best ? t("yes") : "", s.cont ? t("yes") : "",
+    s.f.file.name, s.start.toFixed(2), s.end.toFixed(2), (s.end - s.start).toFixed(1), segName(s)]));
+  const csv = "﻿" + rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
+  const d = new Date();
+  try { await saveFiles([{ name: `papan_${d.getMonth() + 1}.${d.getDate()}.csv`, blob: new Blob([csv], { type: "text/csv" }) }]); } catch (e) {}
+}
+function preview(i, j) {
+  const f = files[i], s = f.segs[j], v = document.getElementById("pv" + i);
+  if (!f.url) f.url = URL.createObjectURL(f.file);
+  v.hidden = false; if (v.src !== f.url) v.src = f.url;
+  const go = () => { v.currentTime = s.start; v.play().catch(() => {}); };
+  v.ontimeupdate = () => { if (v.currentTime >= s.end) v.pause(); };
+  if (v.readyState >= 1) go(); else v.onloadedmetadata = go;
+}
+
+async function readAudio(f) {
+  const M = await mb();
+  const input = new M.Input({ source: new M.BlobSource(f.file), formats: M.ALL_FORMATS });
+  f.input = input;
+  const dur = await input.computeDuration();
+  const track = await input.getPrimaryAudioTrack();
+  if (!track) throw new Error(t("noAudio"));
+  const chunks = []; let sr = 0, k = 1, acc = 0, accN = 0, total = 0;
+  try {
+    const sink = new M.AudioBufferSink(track);
+    for await (const { buffer, timestamp } of sink.buffers()) {
+      if (!sr) { sr = buffer.sampleRate; k = Math.max(1, Math.floor(sr / 8000)); }
+      const chs = [...Array(buffer.numberOfChannels)].map((_, c) => buffer.getChannelData(c));
+      const out = new Float32Array(Math.ceil((buffer.length + accN) / k)); let n = 0;
+      for (let i = 0; i < buffer.length; i++) {
+        let v = 0; for (const ch of chs) v += ch[i]; acc += v / chs.length; accN++;
+        if (accN === k) { out[n++] = acc / k; acc = 0; accN = 0; }
+      }
+      chunks.push(out.subarray(0, n)); total += n;
+      f.pct = Math.min(99, Math.round(100 * (timestamp + buffer.duration) / dur)); f.st = ["reading", f.pct]; refreshCut();
+    }
+  } catch (e) {
+    // 没有 WebCodecs 音频解码时，退回浏览器自带解码
+    const ctx = new OfflineAudioContext(1, 1, 8000);
+    const ab = await ctx.decodeAudioData(await f.file.arrayBuffer());
+    const chs = [...Array(ab.numberOfChannels)].map((_, c) => ab.getChannelData(c));
+    const out = new Float32Array(ab.length);
+    for (let i = 0; i < ab.length; i++) { let v = 0; for (const ch of chs) v += ch[i]; out[i] = v / chs.length; }
+    return { x: out, sr: ab.sampleRate, dur };
+  }
+  const x = new Float32Array(total); let o = 0; for (const c of chunks) { x.set(c, o); o += c.length; }
+  return { x, sr: sr / k, dur };
+}
+
+
+async function analyse(f) {
+  try {
+    f.st = ["reading", 0]; refreshCut();
+    const { x, sr, dur } = await readAudio(f);
+    f.st = ["finding"]; refreshCut();
+    await new Promise(r => setTimeout(r, 30));
+    f.dur = dur; f.marks = detect(x, sr, dur);
+    rebuild();
+    f.st = f.segs.length ? ["found", f.segs.length] : ["notFound"];
+  } catch (e) { f.marks = []; f.dur = 0; rebuild(); f.segs = f.segs || []; f.st = ["cantRead"]; f.err = String(e?.message || e); }
+  refreshCut();
+}
+async function cutBlob(f, s, onP) {
+  const M = await mb();
+  const output = new M.Output({ format: new M.Mp4OutputFormat({ fastStart: "in-memory" }), target: new M.BufferTarget() });
+  // 相机常见的 PCM 声音放进 mp4 很多播放器不认：画面照样无损复制，只把声音转成 AAC
+  const at = await f.input.getPrimaryAudioTrack();
+  const pcm = at && /pcm/i.test(String(at.codec || ""));
+  const audio = pcm && await M.canEncodeAudio("aac") ? { codec: "aac", bitrate: 192000 } : undefined;
+  const conv = await M.Conversion.init({ input: f.input, output, trim: { start: s.start, end: s.end }, copy: { mode: "preferred" }, audio });
+  if (!conv.isValid) throw new Error(t("badFormat"));
+  conv.onProgress = p => onP(p);
+  await conv.execute();
+  return new Blob([output.target.buffer], { type: "video/mp4" });
+}
+window.__cut = { files, analyse, cutBlob, segName, ordered, rebuild };
+
+shell();
+
+</script>
+</body>
+</html>
