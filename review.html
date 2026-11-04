@@ -44,6 +44,11 @@ button{cursor:pointer}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
 .shot{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:8px;display:flex;flex-direction:column;gap:4px;font-size:12px;cursor:pointer}
 .shot:hover{border-color:var(--go)}
+.shot{position:relative}
+.shot .x{position:absolute;top:4px;right:4px;width:26px;height:26px;border-radius:50%;border:0;background:var(--chip);color:var(--mute);font-size:14px;line-height:1;padding:0}
+.shot .x:hover,.shot .x.sure{background:var(--go);color:#fff}
+.talent header .del{margin-left:auto;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--mute);min-height:30px;padding-inline:10px;font-size:12px}
+.talent header .del.sure{background:var(--go);color:#fff;border-color:var(--go)}
 .shot b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
 .shot .m{color:var(--mute);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 .shot.dup b::after{content:" ×2";color:var(--warn);font-size:13px}
@@ -104,13 +109,17 @@ function render() {
   $("#reload").onclick = load;
   $("#newassign").onclick = () => assign($("#newwho").value.trim(), $("#newsc").value.trim());
   root.querySelectorAll("[data-assign]").forEach(b => b.onclick = () => assign(b.dataset.assign, $(`#as-${CSS.escape(b.dataset.assign)}`).value.trim()));
-  root.querySelectorAll("[data-play]").forEach(el => el.onclick = () => play(el.dataset.play, el.dataset.name));
+  root.querySelectorAll("[data-play]").forEach(el => el.onclick = e => { if (e.target.closest("[data-del]")) return; play(el.dataset.play, el.dataset.name); });
+  // 删除要点两次：第一次变红，第二次才删
+  const twice = (b, fn) => b.onclick = async e => { e.stopPropagation(); if (!b.classList.contains("sure")) { b.classList.add("sure"); b.textContent = b.dataset.delwho ? "确定删？再点一次" : "✓"; setTimeout(() => { b.classList.remove("sure"); b.textContent = b.dataset.delwho ? "删掉这个达人的全部" : "✕"; }, 4000); return; } await fn(); };
+  root.querySelectorAll("[data-del]").forEach(b => twice(b, () => del({ ids: b.dataset.del.split(",") })));
+  root.querySelectorAll("[data-delwho]").forEach(b => twice(b, () => del({ who: b.dataset.delwho })));
 }
 function talentCard(t) {
   const a = assigns[t.who];
   const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
   const scripts = Object.keys(t.scripts).sort();
-  return `<section class="talent"><header><b>${esc(t.nick ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span></header>
+  return `<section class="talent"><header><b>${esc(t.nick ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
     <div class="assign">派给她的脚本：<input id="as-${esc(t.who)}" value="${esc(a?.scripts || "")}" placeholder="V0158, V0160"><button data-assign="${esc(t.who)}">保存</button><span>${a ? "更新 " + fmtT(a.time) : "还没派"}</span></div>
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
 }
@@ -121,7 +130,7 @@ function scriptBlock(sid, shots) {
   const prod = lib[sid]?.product?.zh || "";
   return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(prod)}</span>${status}</div>
     <div class="grid">${nums.map(n => { const list = shots[n].slice().sort((x, y) => (y.time > x.time ? 1 : -1)); const r = list[0];
-      return `<div class="shot ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><b>第 ${n} 段</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span></div>`; }).join("")}</div></div>`;
+      return `<div class="shot ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button><b>第 ${n} 段</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span></div>`; }).join("")}</div></div>`;
 }
 function play(id, name) {
   const ov = document.createElement("div"); ov.className = "player";
@@ -130,6 +139,11 @@ function play(id, name) {
   document.body.appendChild(ov);
   $("#close", ov).onclick = () => ov.remove();
   ov.onclick = e => { if (e.target === ov) ov.remove(); };
+}
+async function del(what) {
+  const r = await post(Object.assign({ action: "del" }, what));
+  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : (r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error); render(); return; }
+  await load();
 }
 async function assign(who, scripts) {
   if (!who) return;

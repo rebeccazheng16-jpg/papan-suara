@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Rekam Naskah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,6 +43,7 @@ button:disabled{opacity:.45;cursor:default}
 .add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .inp{width:100%;box-sizing:border-box;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .ta{padding-block:10px;font-size:17px;line-height:1.5;resize:vertical}
+.out{align-self:center;margin-top:18px;border:0;background:transparent;color:var(--mute);font-size:14px;min-height:44px;padding-inline:16px;text-decoration:underline}
 .solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
 .solid.go{background:var(--go);color:var(--go-ink)}
 .sec{min-height:52px;border-radius:12px;border:1.5px solid var(--go);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
@@ -115,18 +116,18 @@ const store = {
 };
 const I18N = {
   zh: {
-    title: "拍脚本", who: "你的 TikTok 或 Instagram 链接", whoTip: "把你主页的链接粘贴进来，例如 tiktok.com/@xxx。没有的话在下面写名字也行。", orName: "或者写名字", ok: "好", prep: "开拍前准备",
+    title: "拍脚本", login: "登录", who: "你的 TikTok 或 Instagram 链接", whoTip: "", orName: "或者写名字", ok: "好", logout: "退出", prep: "开拍前准备",
     needOne: "链接或名字至少填一个", flipCam: "换摄像头", upload: "传给我们", uploading: p => `上传 ${p}%`, uploaded: "已传", uploadFail: "没传上，再按一次：",
-    uploadAll: n => `传给我们（${n} 段）`, uploadTip: "按一下就直接传到我们这边，不用存手机。",
+    uploadAll: n => `传给我们（${n} 段）`, uploadTip: "", uploadingAll: (i, n) => `正在传 ${i}/${n}，别离开这个页面`, uploadedAll: "全部传好了",
     shot: n => `第 ${n} 段`, of: n => `共 ${n} 段`, sec: n => `${n} 秒`, face: "开拍前脸上", do_: "怎么拍", lines: "要说的话", noLines: "这段不说话",
-    rec: "开始录", recSub: "倒数 3 秒后开始，台词会自己往上滚", pick: "选已录好的视频", pickSub: "用别的 App 录的也行",
+    rec: "开始录", recSub: "", pick: "选已录好的视频", pickSub: "",
     again: "重录", next: "好了，下一段", finish: "好了，看全部", back: "上一段",
     slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停",
     noCam: "打不开摄像头。请在浏览器里允许使用摄像头和麦克风，再试一次。",
     done: "全部录完了", saveAll: n => `保存全部（${n} 段）`, save: "保存", saved: "已存", redo: "重录", missing: "还没录",
-    saveTip: "iPhone 选「存储到文件」或 Google Drive，文件名会保留。别选「存储视频」。", processing: "处理中…", saveFail: "没保存上：",
+    saveTip: "", processing: "处理中…", saveFail: "没保存上：",
     flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
-    clear: "全部清掉，重新拍", clearSub: "保存好了再点", clearSure: "确定清掉？再点一次",
+    clear: "全部清掉，重新拍", clearSub: "", clearSure: "确定清掉？再点一次",
     pickScript: "你的脚本", assignedTip: "这些是分给你的，点一本开始。", libTip: "从脚本库里挑一本开始。", mine: "我自己的脚本", mineSub: "自己写台词，录的时候也会提词",
     mineTitle: "我自己的脚本", mineTip: "一段一段写要说的话，两段之间空一行。每段就是一个镜头。", mineSave: "保存，开始拍", mineEmpty: "先写点内容", mineSaved: "已保存", selfName: "我的脚本",
     shots: n => `${n} 段`, loading: "读取中…", changeName: "换人",
@@ -135,18 +136,18 @@ const I18N = {
     framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…",
   },
   id: {
-    title: "Rekam naskah", who: "Link TikTok atau Instagram kamu", whoTip: "Tempel link profil kamu, contoh tiktok.com/@xxx. Kalau tidak ada, tulis nama di bawah.", orName: "Atau tulis nama", ok: "OK", prep: "Sebelum mulai",
+    title: "Rekam naskah", login: "Masuk", who: "Link TikTok atau Instagram kamu", whoTip: "", orName: "Atau tulis nama", ok: "OK", logout: "Keluar", prep: "Sebelum mulai",
     needOne: "Isi link atau nama, salah satu saja", flipCam: "Ganti kamera", upload: "Kirim ke kami", uploading: p => `Mengirim ${p}%`, uploaded: "Terkirim", uploadFail: "Gagal kirim, coba lagi: ",
-    uploadAll: n => `Kirim ke kami (${n} bagian)`, uploadTip: "Sekali ketuk langsung terkirim ke kami, tidak perlu simpan ke HP.",
+    uploadAll: n => `Kirim ke kami (${n} bagian)`, uploadTip: "", uploadingAll: (i, n) => `Mengirim ${i}/${n}, jangan tinggalkan halaman ini`, uploadedAll: "Semua sudah terkirim",
     shot: n => `Bagian ${n}`, of: n => `dari ${n}`, sec: n => `${n} dtk`, face: "Wajah sebelum mulai", do_: "Cara rekam", lines: "Yang diucapkan", noLines: "Bagian ini tanpa bicara",
-    rec: "MULAI REKAM", recSub: "Hitung mundur 3 detik, teks akan bergulir sendiri", pick: "Pilih video yang sudah direkam", pickSub: "Boleh dari aplikasi lain",
+    rec: "MULAI REKAM", recSub: "", pick: "Pilih video yang sudah direkam", pickSub: "",
     again: "Ulang", next: "Oke, bagian berikutnya", finish: "Oke, lihat semua", back: "Sebelumnya",
     slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda",
     noCam: "Kamera tidak bisa dibuka. Izinkan kamera dan mikrofon di browser, lalu coba lagi.",
     done: "Semua sudah direkam", saveAll: n => `Simpan semua (${n} bagian)`, save: "Simpan", saved: "Tersimpan", redo: "Ulang", missing: "Belum direkam",
-    saveTip: "Di iPhone pilih “Simpan ke File” atau Google Drive supaya nama file tetap. Jangan pilih “Simpan Video”.", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
+    saveTip: "", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
     flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
-    clear: "Hapus semua, rekam ulang", clearSub: "Simpan dulu sebelum menghapus", clearSure: "Yakin hapus? Ketuk sekali lagi",
+    clear: "Hapus semua, rekam ulang", clearSub: "", clearSure: "Yakin hapus? Ketuk sekali lagi",
     pickScript: "Naskah kamu", assignedTip: "Ini naskah untuk kamu. Ketuk satu untuk mulai.", libTip: "Pilih satu naskah dari daftar.", mine: "Naskah saya sendiri", mineSub: "Tulis sendiri, saat rekam tetap ada teksnya",
     mineTitle: "Naskah saya sendiri", mineTip: "Tulis yang mau diucapkan, bagian demi bagian. Pisahkan tiap bagian dengan satu baris kosong. Satu bagian = satu rekaman.", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya", mineSaved: "Tersimpan", selfName: "Naskah saya",
     shots: n => `${n} bagian`, loading: "Memuat…", changeName: "Ganti orang",
@@ -226,7 +227,15 @@ function shell() {
   root.innerHTML = `
   <div class="top"><h1>${title}<small>${esc(whoLine)}</small></h1>
     <div class="lang" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button></div></div>
-  <section id="pane"></section>`;
+  <section id="pane"></section>
+  ${profile ? `<button class="out" id="logout">${t("logout")}</button>` : ""}`;
+  const lo = $("#logout"); if (lo) lo.onclick = async () => {
+    if (!lo.dataset.sure) { lo.dataset.sure = 1; lo.textContent = t("logout") + "?"; setTimeout(() => { delete lo.dataset.sure; lo.textContent = t("logout"); }, 4000); return; }
+    profile = null; name = ""; store.set("profile", null);
+    try { indexedDB.deleteDatabase(DB.name); } catch (e) {}
+    try { Object.keys(localStorage).filter(k => /^(cur_|mine_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
+    takes.length = 0; location.search = "";
+  };
   root.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); shell(); });
   render();
 }
@@ -241,7 +250,8 @@ function render() {
 }
 function renderName(el) {
   el.innerHTML = `<form class="card" id="nf">
-    <div class="lab">${t("who")}</div><p class="tip">${esc(t("whoTip"))}</p>
+    <div class="n" style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:28px">${t("login")}</div>
+    <div class="lab">${t("who")}</div>
     <input class="inp" id="lk" inputmode="url" autocomplete="off" autocapitalize="none" placeholder="tiktok.com/@…">
     <div class="lab">${t("orName")}</div>
     <input class="inp" id="nm" maxlength="30" autocomplete="off" placeholder="${esc(t("orName"))}">
@@ -263,7 +273,7 @@ function renderPick(el) {
     <button class="sec" id="chg">${t("changeName")}</button></div>`;
   el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => location.search = "?s=" + encodeURIComponent(b.dataset.open));
   $("#mine", el).onclick = () => location.search = "?s=mine";
-  $("#chg", el).onclick = () => { profile = null; store.set("profile", null); shell(); };
+  $("#chg", el).onclick = () => $("#logout")?.click();
 }
 function renderMine(el) {
   if (mineText === "" && !el.dataset.loaded) { el.dataset.loaded = 1; loadMine().then(render); }
@@ -298,11 +308,10 @@ function renderShot(el, i) {
     ${tk?.blob ? `<video class="pv" id="pv" src="${tk.url}" playsinline controls></video>
       ${tk.msg ? `<p class="${tk.err ? "err" : "msg"}">${esc(tk.msg)}</p>` : ""}
       ${tk.landscape ? `<button class="sec" id="rot">${t("flip")}</button>` : ""}
-      ${UPLOAD_URL ? `<button class="solid go" id="up" ${tk.up === "busy" ? "disabled" : ""}>${tk.up === "done" ? t("uploaded") : tk.up === "busy" ? esc(tk.upMsg) : t("upload")}</button>` : ""}
       <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
     : `${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}
-      <button class="main" id="rec">${t("rec")}<small>${t("recSub")}</small></button>
-      <button class="sec pickbtn">${t("pick")}<small>${t("pickSub")}</small><input type="file" id="pick" accept="video/*"></button>`}
+      <button class="main" id="rec">${t("rec")}${t("recSub") ? `<small>${t("recSub")}</small>` : ""}</button>
+      <button class="sec pickbtn">${t("pick")}${t("pickSub") ? `<small>${t("pickSub")}</small>` : ""}<input type="file" id="pick" accept="video/*"></button>`}
     ${i > 0 ? `<button class="sec" id="back">${t("back")}</button>` : ""}
   </div>`;
   el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
@@ -312,7 +321,6 @@ function renderShot(el, i) {
   on("next", () => { cur = i + 1; store.set("cur_" + sid, cur); render(); });
   on("back", () => { cur = i - 1; store.set("cur_" + sid, cur); render(); });
   on("rot", () => rotateTake(i));
-  on("up", () => uploadTakes([i]));
   const pk = $("#pick", el);
   if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(i, f, false); };
 }
@@ -322,12 +330,11 @@ function renderOverview(el) {
     ${dots()}
     <div class="card"><div class="lab">${t("done")}</div>
       <ul class="list">${script.shots.map((s, i) => `<li><span class="n">${s.n}</span><span class="t">${esc(fileName(i))}${takes[i]?.msg ? ` · <span class="${takes[i].err ? "err" : "msg"}">${esc(takes[i].msg)}</span>` : ""}</span>
-        ${takes[i]?.blob ? `${takes[i].up === "done" ? `<span class="up ok">${t("uploaded")}</span>` : takes[i].up === "busy" ? `<span class="up">${esc(takes[i].upMsg)}</span>` : ""}<button data-sv="${i}" ${takes[i].saved ? "disabled" : ""}>${takes[i].saved ? t("saved") : t("save")}</button><button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
-      ${have && UPLOAD_URL ? `<button class="solid go" id="upall">${t("uploadAll", takes.filter(x => x?.blob && x.up !== "done").length)}</button><p class="tip">${esc(t("uploadTip"))}</p>` : ""}
+        ${takes[i]?.blob ? `${takes[i].up === "done" ? `<span class="up ok">${t("uploaded")}</span>` : takes[i].up === "busy" ? `<span class="up">${esc(takes[i].upMsg)}</span>` : ""}<button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
+      ${have && UPLOAD_URL ? (uploading ? `<button class="solid go" disabled>${esc(uploading)}</button>` : todoUp() ? `<button class="solid go" id="upall">${t("uploadAll", todoUp())}</button>` : `<p class="msg">${t("uploadedAll")}</p>`) : ""}
       ${have ? `<button class="${UPLOAD_URL ? "sec" : "solid go"}" id="saveall">${t("saveAll", have)}</button>` : ""}
-      ${ios ? `<p class="tip">${esc(t("saveTip"))}</p>` : ""}
     </div>
-    <button class="sec" id="clear">${t("clear")}<small>${t("clearSub")}</small></button>
+    <button class="sec" id="clear">${t("clear")}</button>
     <button class="sec" id="home">${t("pickScript")}</button></div>`;
   el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
   el.querySelectorAll("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); render(); });
@@ -401,9 +408,9 @@ async function startRec(i) {
     t0 = performance.now();
     // 台词从顶上开始显示，只往上滚到最后一行露出来为止；一屏放得下就不动
     if (words) { setSpeed(0); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
-    // 不说话的段：到秒数自动停。说话的段：台词滚完再多 1.5s，且至少录满这段的秒数 +1（动作比台词长）
+    // 什么时候停由达人自己按红色「停」；台词滚到底就停在那里。只留 5 分钟保险
     const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
-    const shouldStop = el => words ? (el > Math.max(scrollDur + 1.5, s.sec + 1)) : (el >= s.sec);
+    const shouldStop = el => el > 300;
     const tick = () => {
       const el = elapsed();
       $("#tm", ov).textContent = el.toFixed(1);
@@ -413,7 +420,7 @@ async function startRec(i) {
     raf = requestAnimationFrame(tick);
     // 停录单独用计时器查：画面刷新被系统暂停（切 App、截图）时 rAF 会停，计时器照常走
     guard = setInterval(() => { const el = elapsed(); if (rec.state === "inactive") { clearInterval(guard); return; }
-      if (!paused && (shouldStop(el) || el > 180)) { clearInterval(guard); rec.stop(); } }, 250);
+      if (!paused && shouldStop(el)) { clearInterval(guard); rec.stop(); } }, 250);
   };
 }
 
@@ -465,10 +472,15 @@ async function saveTakes(idx) {
   render();
 }
 // 传到我们的 Drive：Apps Script 收，按人建文件夹。每段单独一个请求，base64 发，35MB 以内（12Mbps 的 1080p 约 20 秒）
+let uploading = "";
+const todoUp = () => takes.filter(x => x?.blob && x.up !== "done").length;
 const b64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1]); r.onerror = rej; r.readAsDataURL(blob); });
 async function uploadTakes(idx) {
+  let lock = null; try { lock = await navigator.wakeLock?.request("screen"); } catch (e) {}
+  let k = 0;
   for (const i of idx) {
     const tk = takes[i]; if (!tk?.blob) continue;
+    k++; uploading = t("uploadingAll", k, idx.length);
     tk.up = "busy"; tk.upMsg = t("uploading", 0); render();
     try {
       const body = JSON.stringify({ action: "upload", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, shot: script.shots[i].n,
@@ -481,6 +493,8 @@ async function uploadTakes(idx) {
     } catch (e) { tk.up = ""; tk.upMsg = ""; tk.msg = t("uploadFail") + (e?.message || e); }
     render();
   }
+  uploading = ""; try { lock?.release(); } catch (e) {}
+  render();
 }
 window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
 
