@@ -114,6 +114,7 @@ video{width:100%;max-height:50vh;border-radius:10px;background:#000}
 .solid.go{background:var(--go);color:var(--go-ink)}
 .seg .b button.ready{background:var(--go);border-color:var(--go);color:var(--go-ink)}
 .card .solid,.card .sec{width:100%}
+.card.first{border:2px solid var(--hold)}
 </style>
 
 </head>
@@ -241,7 +242,7 @@ const I18N = {
   zh: {
     tab_slate: "打板", tab_cut: "切段", tab_people: "名单",
     tip: "手机音量开到最大，放在镜头旁边别入画。嘀嘀声响的时候别说话，长音响了再开口。",
-    talent: "达人", emptyRoster: "名单是空的，先去「名单」里加人。",
+    talent: "达人", emptyRoster: "先加一个达人，名字写好点「加入」就能开始打板。",
     bigsmall: "大段 – 小段", big: "大段", small: "小段", ready: "准备好了",
     go: (b, s) => `开始 ${b}–${s}`, goSub: (b, s) => `第 ${b} 大段 · 第 ${s} 小段`,
     retake: "重拍这段", retakeSub: "同一个号再打一次", done: "这段结束", doneSub: "可以不按",
@@ -267,7 +268,7 @@ const I18N = {
   id: {
     tab_slate: "Papan", tab_cut: "Potong", tab_people: "Daftar",
     tip: "Volume HP maksimal. Taruh HP di samping kamera, jangan masuk frame. Diam selama bunyi “tit-tit”, mulai bicara setelah bunyi panjang.",
-    talent: "Talent", emptyRoster: "Daftar masih kosong. Tambah talent di tab Daftar dulu.",
+    talent: "Talent", emptyRoster: "Tambah talent dulu. Tulis nama, tekan Tambah, lalu papan siap dipakai.",
     bigsmall: "Adegan – Bagian", big: "Adegan", small: "Bagian", ready: "Siap",
     go: (b, s) => `MULAI ${b}–${s}`, goSub: (b, s) => `Adegan ${b} · Bagian ${s}`,
     retake: "Ulang bagian ini", retakeSub: "Nomor sama, sekali lagi", done: "Bagian selesai", doneSub: "Boleh dilewati",
@@ -368,7 +369,8 @@ function renderSlate() {
   el.innerHTML = `<div class="app">
     <p class="tip">${esc(t("tip"))}</p>
     <div><div class="lab">${t("talent")}</div>
-      ${roster.people.length ? `<div class="chips">${chips}</div>` : `<p class="tip">${esc(t("emptyRoster"))}</p>`}</div>
+      ${roster.people.length ? `<div class="chips">${chips}</div>` : `<div class="card first"><p class="tip">${esc(t("emptyRoster"))}</p>
+        <form class="add" id="firstadd"><input id="firstname" placeholder="${esc(t("namePh"))}" autocomplete="off" maxlength="40"><button>${t("add")}</button></form></div>`}</div>
     <div class="board ${boardCls}" aria-live="polite">
       <div class="who">${talent ? esc(nameOf(talent)) : "—"}</div>
       <div class="lab">${t("bigsmall")}</div>
@@ -388,6 +390,9 @@ function renderSlate() {
     <ul class="log">${logs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
   </div>`;
   el.querySelectorAll(".chip").forEach(b => b.onclick = () => { if (busy) return; talent = +b.dataset.t; store.set("talent", talent); ready(); });
+  const fa = $("#firstadd", el);
+  if (fa) fa.onsubmit = ev => { ev.preventDefault(); const n = $("#firstname", el).value.trim(); if (!n) return;
+    setRoster({ next: roster.next + 1, people: roster.people.concat([{ id: roster.next, name: n }]) }); };
   const noT = !talent;
   $("#go", el).disabled = $("#nextbig", el).disabled = busy || noT;
   el.querySelectorAll("[data-st]").forEach(b => { b.disabled = busy || noT; b.onclick = () => {
