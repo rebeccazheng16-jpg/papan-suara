@@ -43,6 +43,7 @@ button:disabled{opacity:.45;cursor:default}
 .add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .inp{width:100%;box-sizing:border-box;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
 .ta{padding-block:10px;font-size:17px;line-height:1.5;resize:vertical}
+.crumb{color:var(--go);font-weight:600;font-size:14px;text-decoration:none;align-self:flex-start;min-height:32px;display:inline-flex;align-items:center}
 .out{align-self:center;margin-top:18px;border:0;background:transparent;color:var(--mute);font-size:14px;min-height:44px;padding-inline:16px;text-decoration:underline}
 .solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
 .solid.go{background:var(--go);color:var(--go-ink)}
@@ -128,7 +129,7 @@ const I18N = {
     saveTip: "", processing: "处理中…", saveFail: "没保存上：",
     flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
     clear: "全部清掉，重新拍", clearSub: "", clearSure: "确定清掉？再点一次",
-    pickScript: "你的脚本", assignedTip: "这些是分给你的，点一本开始。", libTip: "从脚本库里挑一本开始。", mine: "我自己的脚本", mineSub: "自己写台词，录的时候也会提词",
+    pickScript: "你的脚本", assignedTip: "这些是分给你的，点一本开始。", libTip: "还没有分给你的脚本。", mine: "我自己的脚本", mineSub: "自己写台词，录的时候也会提词",
     mineTitle: "我自己的脚本", mineTip: "一段一段写要说的话，两段之间空一行。每段就是一个镜头。", mineSave: "保存，开始拍", mineEmpty: "先写点内容", mineSaved: "已保存", selfName: "我的脚本",
     shots: n => `${n} 段`, loading: "读取中…", changeName: "换人",
     inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」或右下角的浏览器图标，选「在 Safari 中打开」。",
@@ -148,7 +149,7 @@ const I18N = {
     saveTip: "", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
     flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
     clear: "Hapus semua, rekam ulang", clearSub: "", clearSure: "Yakin hapus? Ketuk sekali lagi",
-    pickScript: "Naskah kamu", assignedTip: "Ini naskah untuk kamu. Ketuk satu untuk mulai.", libTip: "Pilih satu naskah dari daftar.", mine: "Naskah saya sendiri", mineSub: "Tulis sendiri, saat rekam tetap ada teksnya",
+    pickScript: "Naskah kamu", assignedTip: "Ini naskah untuk kamu. Ketuk satu untuk mulai.", libTip: "Belum ada naskah untuk kamu.", mine: "Naskah saya sendiri", mineSub: "Tulis sendiri, saat rekam tetap ada teksnya",
     mineTitle: "Naskah saya sendiri", mineTip: "Tulis yang mau diucapkan, bagian demi bagian. Pisahkan tiap bagian dengan satu baris kosong. Satu bagian = satu rekaman.", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya", mineSaved: "Tersimpan", selfName: "Naskah saya",
     shots: n => `${n} bagian`, loading: "Memuat…", changeName: "Ganti orang",
     inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas atau ikon browser di kanan bawah, lalu pilih “Buka di Safari”.",
@@ -225,6 +226,7 @@ function shell() {
   const title = script ? (script.id === "SELF" ? esc(L(script.product)) : `${script.id} · ${esc(L(script.product))}`) : t("title");
   const whoLine = profile ? [profile.handle ? "@" + profile.handle : "", profile.name].filter(Boolean).join(" · ") : "";
   root.innerHTML = `
+  ${script && sid ? `<a class="crumb" href="${location.pathname}">← ${t("pickScript")}</a>` : ""}
   <div class="top"><h1>${title}<small>${esc(whoLine)}</small></h1>
     <div class="lang" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button></div></div>
   <section id="pane"></section>
@@ -265,10 +267,9 @@ function renderName(el) {
 }
 function renderPick(el) {
   if (assignedIds === null) { el.innerHTML = `<p class="tip">${t("loading")}</p>`; loadLib().then(render); return; }
-  const ids = assignedIds.length ? assignedIds : lib.map(x => x.id);
-  const items = ids.map(id => lib.find(x => x.id === id) || { id, product: { zh: id, id } });
+  const items = assignedIds.map(id => lib.find(x => x.id === id) || { id, product: { zh: id, id } });
   el.innerHTML = `<div class="app"><div class="card"><div class="lab">${t("pickScript")}</div><p class="tip">${esc(assignedIds.length ? t("assignedTip") : t("libTip"))}</p>
-    <ul class="list">${items.map(x => `<li><span class="n">${esc(x.id.replace(/^[A-Z]0*/, ""))}</span><span class="t"><b>${esc(x.id)}</b> ${esc(L(x.product))}${x.shots ? ` · ${t("shots", x.shots)}` : ""}</span><button data-open="${esc(x.id)}">${t("ok")}</button></li>`).join("") || `<li class="tip">—</li>`}</ul></div>
+    ${assignedIds.length ? `<ul class="list">${items.map(x => `<li><span class="n">${esc(x.id.replace(/^[A-Z]0*/, ""))}</span><span class="t"><b>${esc(x.id)}</b> ${esc(L(x.product))}${x.shots ? ` · ${t("shots", x.shots)}` : ""}</span><button data-open="${esc(x.id)}">${t("ok")}</button></li>`).join("")}</ul>` : ""}</div>
     <button class="sec" id="mine">${t("mine")}<small>${t("mineSub")}</small></button>
     <button class="sec" id="chg">${t("changeName")}</button></div>`;
   el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => location.search = "?s=" + encodeURIComponent(b.dataset.open));
@@ -335,10 +336,9 @@ function renderOverview(el) {
       ${have ? `<button class="${UPLOAD_URL ? "sec" : "solid go"}" id="saveall">${t("saveAll", have)}</button>` : ""}
     </div>
     <button class="sec" id="clear">${t("clear")}</button>
-    <button class="sec" id="home">${t("pickScript")}</button></div>`;
+    </div>`;
   el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
   el.querySelectorAll("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); render(); });
-  $("#home", el).onclick = () => location.search = "";
   $("#clear", el).onclick = () => { if (!$("#clear", el).dataset.sure) { $("#clear", el).dataset.sure = 1; $("#clear", el).textContent = t("clearSure"); return; }
     script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); render(); };
   el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveTakes([+b.dataset.sv]));
