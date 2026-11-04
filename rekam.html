@@ -86,6 +86,10 @@ video.pv{width:100%;max-height:52vh;border-radius:12px;background:#000}
 .spd span{color:#fff;font-size:13px;align-self:center;opacity:.8}
 .count{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:46vw;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6);pointer-events:none}
 .stop{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(28px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:#E23B2E;color:#fff;font-weight:800;font-size:18px}
+.hint{position:absolute;left:12px;right:12px;bottom:calc(136px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.55);border-radius:12px;padding-block:8px;padding-inline:12px;font-size:15px;line-height:1.4;max-height:30vh;overflow:auto}
+.framing{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.shutter{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:transparent;padding:0}
+.shutter span{display:block;width:62px;height:62px;border-radius:50%;background:#E23B2E;margin:0 auto}
 .cancel{position:absolute;right:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
 @media (prefers-reduced-motion: reduce){.prompt .txt{transition:none}}
 </style>
@@ -116,6 +120,9 @@ const I18N = {
     saveTip: "iPhone 选「存储到文件」或 Google Drive，文件名会保留。别选「存储视频」。", processing: "处理中…", saveFail: "没保存上：",
     flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
     clear: "全部清掉，重新拍", clearSub: "保存好了再点", clearSure: "确定清掉？再点一次",
+    inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」或右下角的浏览器图标，选「在 Safari 中打开」。",
+    camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
+    framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…",
   },
   id: {
     title: "Rekam naskah", who: "Nama kamu", whoTip: "Nama ini dipakai untuk nama file video.", ok: "OK", prep: "Sebelum mulai",
@@ -128,6 +135,9 @@ const I18N = {
     saveTip: "Di iPhone pilih “Simpan ke File” atau Google Drive supaya nama file tetap. Jangan pilih “Simpan Video”.", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
     flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
     clear: "Hapus semua, rekam ulang", clearSub: "Simpan dulu sebelum menghapus", clearSure: "Yakin hapus? Ketuk sekali lagi",
+    inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas atau ikon browser di kanan bawah, lalu pilih “Buka di Safari”.",
+    camErr: n => `Kamera tidak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi.`,
+    framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…",
   },
 };
 let lang = store.get("lang", /^zh/i.test(navigator.language || "") ? "zh" : "id");
@@ -144,6 +154,8 @@ let name = store.get("name", "");
 let cur = store.get("cur_" + sid, 0);           // 当前段下标；= shots.length 表示总览
 const takes = [];                                 // takes[i] = { blob, url, saved, msg, rot }
 let speedIdx = store.get("speed", 2);
+let camErr = "";                                   // 摄像头打不开的原因，显示在卡片上
+const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
 // 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新，回来都还在
 const DB = { name: "rekam", store: "takes" };
@@ -210,7 +222,8 @@ function renderShot(el, i) {
       ${tk.msg ? `<p class="${tk.err ? "err" : "msg"}">${esc(tk.msg)}</p>` : ""}
       ${tk.landscape ? `<button class="sec" id="flip">${t("flip")}</button>` : ""}
       <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid go" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
-    : `<button class="main" id="rec">${t("rec")}<small>${t("recSub")}</small></button>
+    : `${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}
+      <button class="main" id="rec">${t("rec")}<small>${t("recSub")}</small></button>
       <button class="sec pickbtn">${t("pick")}<small>${t("pickSub")}</small><input type="file" id="pick" accept="video/*"></button>`}
     ${i > 0 ? `<button class="sec" id="back">${t("back")}</button>` : ""}
   </div>`;
@@ -253,55 +266,64 @@ function mime() {
 }
 async function startRec(i) {
   const s = script.shots[i];
-  let stream;
-  try {
-    // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
-    stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: script.cam || "user", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
-  } catch (e) { takes[i] = { msg: t("noCam"), err: true }; render(); takes[i] = null; return; }
-  const ov = document.createElement("div"); ov.className = "rec";
   const words = s.talk && s.lines ? s.lines.trim().split(/\s+/).length : 0;
-  ov.innerHTML = `<video autoplay muted playsinline class="${(script.cam || "user") === "user" ? "mirror" : ""}"></video>
+  const front = (script.cam || "user") === "user";
+  // 先全屏开摄像头让她摆位置，按红点才倒数开录
+  const ov = document.createElement("div"); ov.className = "rec";
+  ov.innerHTML = `<video autoplay muted playsinline class="${front ? "mirror" : ""}"></video>
     ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div>` : ""}
-    <div class="recbar"><div class="timer" id="timer"><i></i><span id="tm">0.0</span></div>
+    <div class="recbar"><div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div>
       ${words ? `<div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>` : ""}</div>
-    <div class="count" id="count">3</div>
+    <div class="hint" id="hint">${esc(L(s.do))}</div>
+    <div class="count" id="count" hidden></div>
+    <div class="framing" id="framing">${t("preparing")}</div>
+    <button class="shutter" id="shutter" aria-label="${t("recBtn")}"><span></span></button>
     <button class="stop" id="stop" hidden>${t("stop")}</button>
     <button class="cancel" id="cancel">${t("cancelRec")}</button>`;
   document.body.appendChild(ov);
-  const v = $("video", ov); v.srcObject = stream;
-  let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false;
+  let stream;
+  try {
+    if (!navigator.mediaDevices?.getUserMedia) throw new Error("no mediaDevices");
+    // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: front ? "user" : "environment", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
+  } catch (e) { ov.remove(); camErr = inApp ? "" : t("camErr", e?.name || e?.message || "?"); render(); return; }
+  camErr = "";
+  const v = $("video", ov); v.srcObject = stream; v.play().catch(() => {});
+  $("#framing", ov).textContent = t("framing");
+  let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false, guard = 0;
   const txt = $("#txt", ov), prompt = $("#prompt", ov);
-  const cleanup = () => { cancelAnimationFrame(raf); stream.getTracks().forEach(x => x.stop()); ov.remove(); };
+  const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); stream.getTracks().forEach(x => x.stop()); ov.remove(); };
   $("#cancel", ov).onclick = () => { cancelled = true; if (rec && rec.state !== "inactive") rec.stop(); else cleanup(); };
   const setSpeed = d => { speedIdx = Math.max(0, Math.min(SPEEDS.length - 1, speedIdx + d)); store.set("speed", speedIdx); scrollDur = words / (WPS * SPEEDS[speedIdx]); };
   if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
-    prompt.onclick = () => { paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
-  // 倒数
-  const count = $("#count", ov);
-  for (const n of [3, 2, 1]) { count.textContent = n; await new Promise(r => setTimeout(r, 1000)); if (cancelled) return; }
-  count.remove();
-  // 开录
-  try { rec = new MediaRecorder(stream, Object.assign({ videoBitsPerSecond: 12e6, audioBitsPerSecond: 128e3 }, mime() ? { mimeType: mime() } : {})); }
-  catch (e) { rec = new MediaRecorder(stream); }
-  rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
-  rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b, true); };
-  rec.start(500);
-  $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
-  t0 = performance.now();
-  if (words) { setSpeed(0); dist = txt.offsetHeight + prompt.clientHeight; txt.style.transform = `translateY(${prompt.clientHeight}px)`; }
-  // 不说话的段：到秒数自动停。说话的段：台词滚完再多 1.5s，且至少录满这段的秒数 +1（动作比台词长）
-  const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
-  const shouldStop = el => words ? (el > Math.max(scrollDur + 1.5, s.sec + 1)) : (el >= s.sec);
-  const tick = () => {
-    const el = elapsed();
-    $("#tm", ov).textContent = el.toFixed(1);
-    if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${prompt.clientHeight - p * dist}px)`; }
+    prompt.onclick = () => { if (!rec) return; paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
+  $("#shutter", ov).onclick = async () => {
+    $("#shutter", ov).hidden = true; $("#framing", ov).hidden = true; $("#hint", ov).hidden = true;
+    const count = $("#count", ov); count.hidden = false;
+    for (const n of [3, 2, 1]) { count.textContent = n; await new Promise(r => setTimeout(r, 1000)); if (cancelled) return; }
+    count.remove();
+    try { rec = new MediaRecorder(stream, Object.assign({ videoBitsPerSecond: 12e6, audioBitsPerSecond: 128e3 }, mime() ? { mimeType: mime() } : {})); }
+    catch (e) { rec = new MediaRecorder(stream); }
+    rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+    rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b, true); };
+    rec.start(500);
+    $("#timer", ov).hidden = false; $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
+    t0 = performance.now();
+    if (words) { setSpeed(0); dist = txt.offsetHeight + prompt.clientHeight; txt.style.transform = `translateY(${prompt.clientHeight}px)`; }
+    // 不说话的段：到秒数自动停。说话的段：台词滚完再多 1.5s，且至少录满这段的秒数 +1（动作比台词长）
+    const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
+    const shouldStop = el => words ? (el > Math.max(scrollDur + 1.5, s.sec + 1)) : (el >= s.sec);
+    const tick = () => {
+      const el = elapsed();
+      $("#tm", ov).textContent = el.toFixed(1);
+      if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${prompt.clientHeight - p * dist}px)`; }
+      raf = requestAnimationFrame(tick);
+    };
     raf = requestAnimationFrame(tick);
+    // 停录单独用计时器查：画面刷新被系统暂停（切 App、截图）时 rAF 会停，计时器照常走
+    guard = setInterval(() => { const el = elapsed(); if (rec.state === "inactive") { clearInterval(guard); return; }
+      if (!paused && (shouldStop(el) || el > 180)) { clearInterval(guard); rec.stop(); } }, 250);
   };
-  raf = requestAnimationFrame(tick);
-  // 停录单独用计时器查：画面刷新被系统暂停（切 App、截图）时 rAF 会停，计时器照常走
-  const guard = setInterval(() => { const el = elapsed(); if (rec.state === "inactive") { clearInterval(guard); return; }
-    if (!paused && (shouldStop(el) || el > 180)) { clearInterval(guard); rec.stop(); } }, 250);
 }
 
 // ===== 存文件：原样复制画面和声音，补竖屏标记、写文件名进标题 =====
