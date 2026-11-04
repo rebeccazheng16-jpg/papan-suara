@@ -95,7 +95,7 @@ async function post(body) { const r = await fetch(API, { method: "POST", body: J
 async function load() {
   loading = true; err = ""; render();
   try {
-    const [l, a, idx] = await Promise.all([api({ action: "list", n: 500 }), api({ action: "assignments" }), fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json())]);
+    const [l, a, idx] = await Promise.all([api({ action: "list", n: 200 }), api({ action: "assignments" }), fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json())]);
     if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
     rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
     lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = s);
@@ -139,7 +139,7 @@ function talentCard(t) {
   const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
   const scripts = Object.keys(t.scripts).sort();
   return `<section class="talent"><header><b>${esc(t.nick ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
-    <div class="assign">派给她的脚本：<input id="as-${esc(t.who)}" value="${esc(a?.scripts || "")}" placeholder="V0158, V0160"><button data-assign="${esc(t.who)}">保存</button><span>${a ? "更新 " + fmtT(a.time) : "还没派"}</span></div>
+    <div class="assign">派给她的脚本：<input id="as-${esc(t.who)}" value="${esc(a?.scripts || "")}" placeholder="脚本号"><button data-assign="${esc(t.who)}">保存</button><span>${a?.scripts ? `已派 ${esc(a.scripts)}` : "还没派"}${a?.saving ? " · 保存中…" : ""}</span></div>
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
 }
 function scriptBlock(sid, shots) {
@@ -160,15 +160,18 @@ function play(id, name) {
   ov.onclick = e => { if (e.target === ov) ov.remove(); };
 }
 async function del(what) {
+  const keep = rows;
+  rows = rows.filter(r => !(what.ids ? what.ids.includes(fileId(r.url)) : r.who === what.who)); err = ""; render();
   const r = await post(Object.assign({ action: "del" }, what));
-  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : (r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error); render(); return; }
-  await load();
+  if (!r.ok) { rows = keep; err = r.error === "no key" ? "钥匙不对" : (r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error); render(); }
 }
 async function assign(who, scripts) {
   if (!who) return;
+  scripts = scripts.split(/[,\s，、]+/).filter(Boolean).map(x => x.toUpperCase()).join(", ");
+  assigns[who] = { who, scripts, time: new Date().toISOString(), saving: true }; err = ""; render();
   const r = await post({ action: "assign", who, scripts });
-  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; render(); return; }
-  await load();
+  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; delete assigns[who]; render(); return; }
+  assigns[who].saving = false; render();
 }
 render();
 if (key) load();
