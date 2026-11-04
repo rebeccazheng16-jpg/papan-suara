@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Rekam Naskah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#E9ECE6; --panel:#F7F8F4; --ink:#1D2420; --mute:#5E6A63; --line:#C9CFC7;
+  --go:#1F8A4C; --go-ink:#FFFFFF; --hold:#D8A21A; --hold-ink:#1D2420; --end:#B4412F; --end-ink:#FFFFFF;
+  --btn:#1D2420; --btn-ink:#F7F8F4; --chip:#DCE1DA;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#141917; --panel:#1E2521; --ink:#E9EEE9; --mute:#9AA69F; --line:#34403A;
+    --go:#2FAF66; --go-ink:#0D1210; --hold:#E3B23C; --hold-ink:#141917; --end:#D9604B; --end-ink:#141917;
+    --btn:#E9EEE9; --btn-ink:#141917; --chip:#2A332E;
+  }
+}
+html,body{min-height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,-apple-system,sans-serif;font-size:16px;
+  padding-inline:16px;padding-block:calc(10px + env(safe-area-inset-top,0px)) calc(24px + env(safe-area-inset-bottom,0px));box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.app{width:100%;max-width:520px;margin:0 auto;box-sizing:border-box;display:flex;flex-direction:column;gap:14px}
+button,input{font-family:inherit;font-size:16px;color:inherit}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible{outline:3px solid var(--hold);outline-offset:2px}
+button:disabled{opacity:.45;cursor:default}
+.top{display:flex;gap:8px;align-items:center}
+.top h1{flex:1;margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:22px;letter-spacing:.02em;overflow-wrap:anywhere}
+.top h1 small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute);letter-spacing:0}
+.lang{display:flex;background:var(--chip);border-radius:12px;padding:4px;gap:2px}
+.lang button{border:0;background:transparent;border-radius:9px;min-width:44px;min-height:44px;font-size:13px;font-weight:600;color:var(--mute)}
+.lang button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.lab{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:14px;padding-inline:16px;display:flex;flex-direction:column;gap:10px}
+.card p{margin:0;line-height:1.5}
+.tip{font-size:14px;line-height:1.5;color:var(--mute);margin:0}
+.add{display:flex;gap:8px}
+.add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
+.solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
+.solid.go{background:var(--go);color:var(--go-ink)}
+.sec{min-height:52px;border-radius:12px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
+.sec small{display:block;font-weight:400;font-size:12px;color:var(--mute)}
+.dots{display:flex;gap:6px;flex-wrap:wrap}
+.dot{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:16px;background:var(--panel);color:var(--mute);padding:0}
+.dot.cur{border-color:var(--ink);color:var(--ink)}
+.dot.ok{background:var(--go);border-color:var(--go);color:var(--go-ink)}
+.shot .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:30px;line-height:1}
+.shot .n span{font-size:16px;font-weight:600;color:var(--mute);margin-left:8px;font-family:"Noto Sans",sans-serif}
+.face{background:var(--chip);border-radius:10px;padding-block:8px;padding-inline:12px;font-size:14px}
+.face b,.do b{display:block;font-size:12px;color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--hold);padding-left:12px}
+.lines.none{color:var(--mute);font-weight:400;font-size:16px}
+.main{width:100%;min-height:84px;border:0;border-radius:16px;background:var(--go);color:var(--go-ink);
+  font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:32px;letter-spacing:.04em;line-height:1.05}
+.main small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:14px;letter-spacing:0;opacity:.85;margin-top:3px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pickbtn{position:relative;overflow:hidden}
+.pickbtn input{position:absolute;inset:0;opacity:0;width:100%;height:100%}
+video.pv{width:100%;max-height:52vh;border-radius:12px;background:#000}
+.err{color:var(--end);font-size:14px;margin:0}
+.msg{font-size:14px;color:var(--go);font-weight:600;margin:0}
+.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.list li{display:flex;align-items:center;gap:10px;min-height:48px;border-top:1px solid var(--line);font-size:15px}
+.list li:first-child{border-top:0}
+.list .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;width:2em;color:var(--mute)}
+.list .t{flex:1;min-width:0;overflow-wrap:anywhere}
+.list button{min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding-inline:12px;font-size:14px;font-weight:600}
+/* 录制全屏 */
+.rec{position:fixed;inset:0;background:#000;color:#fff;z-index:10;display:flex;flex-direction:column}
+.rec video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.rec video.mirror{transform:scaleX(-1)}
+.prompt{position:relative;margin:calc(8px + env(safe-area-inset-top,0px)) 12px 0;height:38vh;overflow:hidden;border-radius:14px;background:rgba(0,0,0,.55);
+  -webkit-mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%)}
+.prompt .txt{position:absolute;left:16px;right:16px;top:0;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.prompt .paused{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:40px;background:rgba(0,0,0,.35)}
+.recbar{position:relative;margin:8px 12px 0;display:flex;align-items:center;gap:10px}
+.timer{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;font-variant-numeric:tabular-nums;background:rgba(0,0,0,.5);border-radius:10px;padding-inline:10px;min-height:40px;display:flex;align-items:center;gap:8px}
+.timer i{width:12px;height:12px;border-radius:50%;background:#E23B2E;display:inline-block}
+.spd{margin-left:auto;display:flex;gap:6px}
+.spd button{min-width:56px;min-height:44px;border:0;border-radius:10px;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:15px}
+.spd span{color:#fff;font-size:13px;align-self:center;opacity:.8}
+.count{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:46vw;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6);pointer-events:none}
+.stop{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(28px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:#E23B2E;color:#fff;font-weight:800;font-size:18px}
+.cancel{position:absolute;right:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
+@media (prefers-reduced-motion: reduce){.prompt .txt{transition:none}}
+</style>
+</head>
+<body>
+<div class="app" id="root"></div>
+
+<script type="module">
+const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/mediabunny.min.mjs";
+const WPS = 3.5;                       // 脚本库排段密度：每秒 3.5 词，台词滚完刚好到段时长
+const SPEEDS = [0.7, 0.85, 1, 1.2, 1.4];
+const $ = (sel, el = document) => el.querySelector(sel);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pad2 = n => String(n).padStart(2, "0");
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+};
+const I18N = {
+  zh: {
+    title: "拍脚本", who: "你的名字", whoTip: "录好的视频会用这个名字命名。", ok: "好", prep: "开拍前准备",
+    shot: n => `第 ${n} 段`, of: n => `共 ${n} 段`, sec: n => `${n} 秒`, face: "开拍前脸上", do_: "怎么拍", lines: "要说的话", noLines: "这段不说话",
+    rec: "开始录", recSub: "倒数 3 秒后开始，台词会自己往上滚", pick: "选已录好的视频", pickSub: "用别的 App 录的也行",
+    again: "重录", next: "好了，下一段", finish: "好了，看全部", back: "上一段",
+    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停",
+    noCam: "打不开摄像头。请在浏览器里允许使用摄像头和麦克风，再试一次。",
+    done: "全部录完了", saveAll: n => `保存全部（${n} 段）`, save: "保存", saved: "已存", redo: "重录", missing: "还没录",
+    saveTip: "iPhone 选「存储到文件」或 Google Drive，文件名会保留。别选「存储视频」。", processing: "处理中…", saveFail: "没保存上：",
+    flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
+    clear: "全部清掉，重新拍", clearSub: "保存好了再点", clearSure: "确定清掉？再点一次",
+  },
+  id: {
+    title: "Rekam naskah", who: "Nama kamu", whoTip: "Nama ini dipakai untuk nama file video.", ok: "OK", prep: "Sebelum mulai",
+    shot: n => `Bagian ${n}`, of: n => `dari ${n}`, sec: n => `${n} dtk`, face: "Wajah sebelum mulai", do_: "Cara rekam", lines: "Yang diucapkan", noLines: "Bagian ini tanpa bicara",
+    rec: "MULAI REKAM", recSub: "Hitung mundur 3 detik, teks akan bergulir sendiri", pick: "Pilih video yang sudah direkam", pickSub: "Boleh dari aplikasi lain",
+    again: "Ulang", next: "Oke, bagian berikutnya", finish: "Oke, lihat semua", back: "Sebelumnya",
+    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda",
+    noCam: "Kamera tidak bisa dibuka. Izinkan kamera dan mikrofon di browser, lalu coba lagi.",
+    done: "Semua sudah direkam", saveAll: n => `Simpan semua (${n} bagian)`, save: "Simpan", saved: "Tersimpan", redo: "Ulang", missing: "Belum direkam",
+    saveTip: "Di iPhone pilih “Simpan ke File” atau Google Drive supaya nama file tetap. Jangan pilih “Simpan Video”.", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
+    flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
+    clear: "Hapus semua, rekam ulang", clearSub: "Simpan dulu sebelum menghapus", clearSure: "Yakin hapus? Ketuk sekali lagi",
+  },
+};
+let lang = store.get("lang", /^zh/i.test(navigator.language || "") ? "zh" : "id");
+const t = (k, ...a) => { const v = I18N[lang][k]; return typeof v === "function" ? v(...a) : v; };
+const L = o => (o && typeof o === "object") ? (o[lang] || o.id || o.zh || "") : (o || "");
+const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
+const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+// ===== 状态 =====
+const root = document.getElementById("root");
+const sid = (new URLSearchParams(location.search).get("s") || "").trim();
+let script = null, loadErr = "";
+let name = store.get("name", "");
+let cur = store.get("cur_" + sid, 0);           // 当前段下标；= shots.length 表示总览
+const takes = [];                                 // takes[i] = { blob, url, saved, msg, rot }
+let speedIdx = store.get("speed", 2);
+
+// 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新，回来都还在
+const DB = { name: "rekam", store: "takes" };
+function dbOpen() {
+  return new Promise((res, rej) => { if (!window.indexedDB) return rej(0); const r = indexedDB.open(DB.name, 1);
+    r.onupgradeneeded = () => r.result.createObjectStore(DB.store); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+}
+async function dbPut(i, v) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).put(v, `${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
+async function dbDel(i) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).delete(`${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
+async function dbLoad() {
+  try { const d = await dbOpen(); const st = d.transaction(DB.store).objectStore(DB.store);
+    const keys = await new Promise(r => { const q = st.getAllKeys(); q.onsuccess = () => r(q.result); q.onerror = () => r([]); });
+    for (const k of keys) { if (!String(k).startsWith(sid + ":")) continue; const i = +String(k).split(":")[1];
+      const v = await new Promise(r => { const q = st.get(k); q.onsuccess = () => r(q.result); q.onerror = () => r(null); });
+      if (v?.blob) takes[i] = { blob: v.blob, url: URL.createObjectURL(v.blob), raw: v.raw || v.blob, rot: v.rot, landscape: v.landscape, saved: !!v.saved, msg: "" }; }
+  } catch (e) {}
+}
+const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, saved: tk.saved }); else dbDel(i); };
+
+async function loadScript() {
+  if (!sid) { loadErr = t("loadFail"); return; }
+  try { const r = await fetch(`scripts/${encodeURIComponent(sid)}.json`, { cache: "no-cache" }); if (!r.ok) throw 0; script = await r.json(); }
+  catch (e) { loadErr = t("loadFail"); }
+}
+
+// ===== 页面 =====
+function shell() {
+  document.documentElement.lang = lang;
+  const title = script ? `${script.id} · ${esc(L(script.product))}` : t("title");
+  root.innerHTML = `
+  <div class="top"><h1>${title}<small>${name ? esc(name) : ""}</small></h1>
+    <div class="lang" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button></div></div>
+  <section id="pane"></section>`;
+  root.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); shell(); });
+  render();
+}
+function render() {
+  const el = $("#pane");
+  if (loadErr) { el.innerHTML = `<p class="err">${esc(loadErr)}</p>`; return; }
+  if (!name) return renderName(el);
+  if (cur >= script.shots.length) return renderOverview(el);
+  renderShot(el, cur);
+}
+function renderName(el) {
+  el.innerHTML = `<div class="card"><div class="lab">${t("who")}</div><p class="tip">${esc(t("whoTip"))}</p>
+    <form class="add" id="nf"><input id="nm" maxlength="30" autocomplete="off" placeholder="${esc(t("who"))}"><button class="solid">${t("ok")}</button></form></div>`;
+  $("#nf", el).onsubmit = ev => { ev.preventDefault(); const v = $("#nm", el).value.trim(); if (!v) return; name = v; store.set("name", name); shell(); };
+}
+function dots() {
+  return `<div class="dots">${script.shots.map((s, i) => `<button class="dot ${i === cur ? "cur" : ""} ${takes[i]?.blob ? "ok" : ""}" data-go="${i}" aria-label="${t("shot", s.n)}">${s.n}</button>`).join("")}</div>`;
+}
+function renderShot(el, i) {
+  const s = script.shots[i], tk = takes[i];
+  el.innerHTML = `<div class="app">
+    ${i === 0 && script.prep ? `<div class="card"><div class="lab">${t("prep")}</div><p>${esc(L(script.prep))}</p></div>` : ""}
+    ${dots()}
+    <div class="card shot">
+      <div class="n">${t("shot", s.n)}<span>${t("of", script.shots.length)} · ${t("sec", s.sec)}</span></div>
+      ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
+      <div class="do"><b>${t("do_")}</b>${esc(L(s.do))}</div>
+      ${s.talk && s.lines ? `<div class="lines">${esc(s.lines)}</div>` : `<div class="lines none">${t("noLines")}</div>`}
+    </div>
+    ${tk?.blob ? `<video class="pv" id="pv" src="${tk.url}" playsinline controls></video>
+      ${tk.msg ? `<p class="${tk.err ? "err" : "msg"}">${esc(tk.msg)}</p>` : ""}
+      ${tk.landscape ? `<button class="sec" id="flip">${t("flip")}</button>` : ""}
+      <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid go" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
+    : `<button class="main" id="rec">${t("rec")}<small>${t("recSub")}</small></button>
+      <button class="sec pickbtn">${t("pick")}<small>${t("pickSub")}</small><input type="file" id="pick" accept="video/*"></button>`}
+    ${i > 0 ? `<button class="sec" id="back">${t("back")}</button>` : ""}
+  </div>`;
+  el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
+  const on = (id, fn) => { const b = $("#" + id, el); if (b) b.onclick = fn; };
+  on("rec", () => startRec(i));
+  on("again", () => { takes[i] = null; persist(i); render(); });
+  on("next", () => { cur = i + 1; store.set("cur_" + sid, cur); render(); });
+  on("back", () => { cur = i - 1; store.set("cur_" + sid, cur); render(); });
+  on("flip", () => rotateTake(i));
+  const pk = $("#pick", el);
+  if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(i, f, false); };
+}
+function renderOverview(el) {
+  const n = script.shots.length, have = takes.filter(x => x?.blob).length;
+  el.innerHTML = `<div class="app">
+    ${dots()}
+    <div class="card"><div class="lab">${t("done")}</div>
+      <ul class="list">${script.shots.map((s, i) => `<li><span class="n">${s.n}</span><span class="t">${esc(fileName(i))}${takes[i]?.msg ? ` · <span class="${takes[i].err ? "err" : "msg"}">${esc(takes[i].msg)}</span>` : ""}</span>
+        ${takes[i]?.blob ? `<button data-sv="${i}" ${takes[i].saved ? "disabled" : ""}>${takes[i].saved ? t("saved") : t("save")}</button><button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
+      ${have ? `<button class="solid go" id="saveall">${t("saveAll", have)}</button>` : ""}
+      ${ios ? `<p class="tip">${esc(t("saveTip"))}</p>` : ""}
+    </div>
+    <button class="sec" id="clear">${t("clear")}<small>${t("clearSub")}</small></button></div>`;
+  el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
+  el.querySelectorAll("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); render(); });
+  $("#clear", el).onclick = () => { if (!$("#clear", el).dataset.sure) { $("#clear", el).dataset.sure = 1; $("#clear", el).textContent = t("clearSure"); return; }
+    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); render(); };
+  el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveTakes([+b.dataset.sv]));
+  const sa = $("#saveall", el); if (sa) sa.onclick = () => saveTakes(takes.map((x, i) => x?.blob && !x.saved ? i : -1).filter(i => i >= 0));
+}
+const safe = s => String(s).replace(/[\\/:*?"<>|\s]/g, "_");
+const fileName = i => `${safe(name)}_${script.id}_${pad2(script.shots[i].n)}.mp4`;
+
+// ===== 录制 =====
+let media = null;
+function mime() {
+  const c = ['video/mp4;codecs="avc1.640028,mp4a.40.2"', 'video/mp4;codecs="avc1.42E01E,mp4a.40.2"', "video/mp4", 'video/webm;codecs="vp9,opus"', "video/webm"];
+  return c.find(x => window.MediaRecorder && MediaRecorder.isTypeSupported(x)) || "";
+}
+async function startRec(i) {
+  const s = script.shots[i];
+  let stream;
+  try {
+    // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: script.cam || "user", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
+  } catch (e) { takes[i] = { msg: t("noCam"), err: true }; render(); takes[i] = null; return; }
+  const ov = document.createElement("div"); ov.className = "rec";
+  const words = s.talk && s.lines ? s.lines.trim().split(/\s+/).length : 0;
+  ov.innerHTML = `<video autoplay muted playsinline class="${(script.cam || "user") === "user" ? "mirror" : ""}"></video>
+    ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div>` : ""}
+    <div class="recbar"><div class="timer" id="timer"><i></i><span id="tm">0.0</span></div>
+      ${words ? `<div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>` : ""}</div>
+    <div class="count" id="count">3</div>
+    <button class="stop" id="stop" hidden>${t("stop")}</button>
+    <button class="cancel" id="cancel">${t("cancelRec")}</button>`;
+  document.body.appendChild(ov);
+  const v = $("video", ov); v.srcObject = stream;
+  let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false;
+  const txt = $("#txt", ov), prompt = $("#prompt", ov);
+  const cleanup = () => { cancelAnimationFrame(raf); stream.getTracks().forEach(x => x.stop()); ov.remove(); };
+  $("#cancel", ov).onclick = () => { cancelled = true; if (rec && rec.state !== "inactive") rec.stop(); else cleanup(); };
+  const setSpeed = d => { speedIdx = Math.max(0, Math.min(SPEEDS.length - 1, speedIdx + d)); store.set("speed", speedIdx); scrollDur = words / (WPS * SPEEDS[speedIdx]); };
+  if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
+    prompt.onclick = () => { paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
+  // 倒数
+  const count = $("#count", ov);
+  for (const n of [3, 2, 1]) { count.textContent = n; await new Promise(r => setTimeout(r, 1000)); if (cancelled) return; }
+  count.remove();
+  // 开录
+  try { rec = new MediaRecorder(stream, Object.assign({ videoBitsPerSecond: 12e6, audioBitsPerSecond: 128e3 }, mime() ? { mimeType: mime() } : {})); }
+  catch (e) { rec = new MediaRecorder(stream); }
+  rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+  rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b, true); };
+  rec.start(500);
+  $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
+  t0 = performance.now();
+  if (words) { setSpeed(0); dist = txt.offsetHeight + prompt.clientHeight; txt.style.transform = `translateY(${prompt.clientHeight}px)`; }
+  // 不说话的段：到秒数自动停。说话的段：台词滚完再多 1.5s，且至少录满这段的秒数 +1（动作比台词长）
+  const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
+  const shouldStop = el => words ? (el > Math.max(scrollDur + 1.5, s.sec + 1)) : (el >= s.sec);
+  const tick = () => {
+    const el = elapsed();
+    $("#tm", ov).textContent = el.toFixed(1);
+    if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${prompt.clientHeight - p * dist}px)`; }
+    raf = requestAnimationFrame(tick);
+  };
+  raf = requestAnimationFrame(tick);
+  // 停录单独用计时器查：画面刷新被系统暂停（切 App、截图）时 rAF 会停，计时器照常走
+  const guard = setInterval(() => { const el = elapsed(); if (rec.state === "inactive") { clearInterval(guard); return; }
+    if (!paused && (shouldStop(el) || el > 180)) { clearInterval(guard); rec.stop(); } }, 250);
+}
+
+// ===== 存文件：原样复制画面和声音，补竖屏标记、写文件名进标题 =====
+let MB = null;
+async function mb() { if (!MB) MB = await import(MB_URL); return MB; }
+async function normalize(blob, title, forceRot) {
+  const M = await mb();
+  const input = new M.Input({ source: new M.BlobSource(blob), formats: M.ALL_FORMATS });
+  const vt = await input.getPrimaryVideoTrack(); if (!vt) throw new Error("no video");
+  const at = await input.getPrimaryAudioTrack();
+  const rot = await vt.getRotation(), w = await vt.getCodedWidth(), h = await vt.getCodedHeight();
+  // iOS 26.6 录前置竖屏文件缺旋转标记（画面是横放的 1920×1080）：手机竖着拿时补 90
+  const portrait = window.innerHeight >= window.innerWidth;
+  let fix = forceRot ?? (rot === 0 && w > h && portrait ? 90 : rot);
+  const output = new M.Output({ format: new M.Mp4OutputFormat({ fastStart: "in-memory" }), target: new M.BufferTarget() });
+  const vs = new M.EncodedVideoPacketSource(await vt.getCodec()); output.addVideoTrack(vs, { rotation: fix });
+  let as = null; if (at) { as = new M.EncodedAudioPacketSource(await at.getCodec()); output.addAudioTrack(as); }
+  output.setMetadataTags({ title });
+  await output.start();
+  let first = true;
+  for await (const p of new M.EncodedPacketSink(vt).packets()) { await vs.add(p, first ? { decoderConfig: await vt.getDecoderConfig() } : undefined); first = false; }
+  if (as) { first = true; for await (const p of new M.EncodedPacketSink(at).packets()) { await as.add(p, first ? { decoderConfig: await at.getDecoderConfig() } : undefined); first = false; } }
+  await output.finalize();
+  return { blob: new Blob([output.target.buffer], { type: "video/mp4" }), landscape: fix === 0 && w > h, rot: fix };
+}
+async function finishTake(i, blob, recorded) {
+  takes[i] = { blob: null, msg: t("processing") }; render();
+  try {
+    const r = await normalize(blob, fileName(i).replace(/\.mp4$/, ""));
+    takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, msg: "" };
+  } catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, msg: "" }; }
+  persist(i); render();
+}
+async function rotateTake(i) {
+  const tk = takes[i]; const next = (tk.rot + 90) % 360 || 90;
+  takes[i] = { blob: null, msg: t("processing") }; render();
+  try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, msg: "" }; }
+  catch (e) { takes[i] = tk; }
+  persist(i); render();
+}
+async function saveTakes(idx) {
+  const fl = idx.map(i => new File([takes[i].blob], fileName(i), { type: "video/mp4" }));
+  try {
+    if (mobile && navigator.canShare && navigator.canShare({ files: fl })) await navigator.share({ files: fl });
+    else for (const f of fl) { const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 300)); }
+    idx.forEach(i => { takes[i].saved = true; takes[i].msg = ""; persist(i); });
+  } catch (e) { if (e?.name !== "AbortError") idx.forEach(i => takes[i].msg = t("saveFail") + (e?.message || e)); }
+  render();
+}
+window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
+
+await loadScript();
+if (script) await dbLoad();
+shell();
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "id": "V0158",
+  "brand": "VEIRFOO",
+  "product": { "zh": "鎏金蛋白膜 Golden Mask", "id": "VEIRFOO Golden Mask (masker PDRN)" },
+  "cam": "user",
+  "prep": {
+    "zh": "晚上拍，背后是一面空白墙。正面打亮光（手机闪光灯或台灯）。准备好：面膜管（盖子一直盖着，正面 VEIRFOO 字朝镜头）、金色小刷子。手机举在一臂远，脸占画面一半，自拍。",
+    "id": "Rekam malam hari, latar belakang tembok putih kosong. Cahaya dari depan (flash HP atau lampu meja). Siapkan: tube masker (tutup tetap tertutup, tulisan VEIRFOO menghadap kamera) dan kuas kecil warna emas. Pegang HP sejauh satu lengan, wajah memenuhi setengah layar, selfie."
+  },
+  "shots": [
+    {
+      "n": 1, "sec": 7, "talk": true,
+      "face": { "zh": "开拍前脸上先点满豆子大小的乳白色膏体点，额头、两颊、鼻子、下巴都点，脖子也点几颗", "id": "Sebelum mulai: wajah sudah penuh titik-titik krim putih sebesar kacang di dahi, pipi, hidung, dagu, dan beberapa di leher" },
+      "do": { "zh": "脸稍微侧一点，眼睛看镜头。一只手把面膜管举到脸旁，正面朝镜头，说第一句。说第二句时把管子放下，拿起刷子在右脸颊刷两三下，把点刷开。", "id": "Wajah agak miring sedikit, mata lihat kamera. Satu tangan angkat tube ke samping wajah, depannya ke kamera, ucapkan kalimat pertama. Saat kalimat kedua, turunkan tube, ambil kuas, sapukan 2–3 kali di pipi kanan sampai titiknya rata." },
+      "lines": "Mau pakai PDRN dari ekstrak salmon tuh nggak perlu ribet, tinggal pakai masker ini aja. Habis itu ratain."
+    },
+    {
+      "n": 2, "sec": 8, "talk": true,
+      "face": { "zh": "整张脸已经抹匀一层乳白膏体（眼周和嘴唇留空）", "id": "Seluruh wajah sudah rata tertutup lapisan krim putih (area mata dan bibir dibiarkan kosong)" },
+      "do": { "zh": "正脸看镜头。用刷子沿下巴最后抹一下，放下刷子。然后像觉得好玩一样把话说完，说到一半脸转开一点，眼睛回到镜头。最后一句时用指尖点一下右脸颊，试试干了没。", "id": "Wajah lurus ke kamera. Sapukan kuas sekali di sepanjang dagu, lalu letakkan kuas. Ucapkan kalimatnya dengan santai, seperti merasa lucu; di tengah, wajah miring sedikit, mata kembali ke kamera. Di kalimat terakhir, sentuh pipi kanan dengan ujung jari, seperti mengecek sudah kering atau belum." },
+      "lines": "Kenapa nggak ada yang kayak gini dari dulu? Jadi nggak perlu ribet-ribet ke klinik, cuma tinggal pakai masker malam-malam sebelum tidur. Ini tinggal tunggu sampai kering."
+    },
+    {
+      "n": 3, "sec": 5, "talk": false,
+      "face": { "zh": "脸上的膜已经干透", "id": "Masker di wajah sudah kering" },
+      "do": { "zh": "正脸看镜头，不说话，嘴轻轻闭着。两只手的指尖捏住发际线处的膜边，从额头往下巴慢慢整片揭下来，不要撕成几块。", "id": "Wajah lurus ke kamera, tidak bicara, bibir tertutup santai. Jepit tepi masker di garis rambut dengan ujung jari kedua tangan, kelupas pelan-pelan dari dahi ke dagu dalam satu lembar utuh, jangan sampai sobek." },
+      "lines": ""
+    },
+    {
+      "n": 4, "sec": 9, "talk": true,
+      "face": { "zh": "脸已经干净，什么都没有", "id": "Wajah sudah bersih, tidak ada apa-apa" },
+      "do": { "zh": "脸稍微侧一点，眼睛看镜头，开心地笑着。一开始手就把面膜管举在脸旁，正面朝镜头，一口气说完第一句，说到产品名时管子朝镜头轻轻一倾。然后放下管子，把脸颊转向灯光一下，再转回正脸看镜头，笑着说完最后两句。", "id": "Wajah agak miring, mata lihat kamera, senyum senang. Dari awal tangan sudah mengangkat tube di samping wajah, depannya ke kamera; ucapkan kalimat pertama sekaligus, saat menyebut nama produk miringkan tube sedikit ke kamera. Lalu turunkan tube, palingkan pipi ke arah lampu sebentar, kembali lurus ke kamera, dan ucapkan dua kalimat terakhir sambil tersenyum." },
+      "lines": "Kulitku berasa glowing banget, padahal ini bukan suntik dokter, bukan pakai serum, cuma pakai masker PDRN VEIRFOO. Aku beneran ngerasa kayak punya kulit baru. Kulitku berasa bening banget, gila."
+    },
+    {
+      "n": 5, "sec": 6, "talk": true,
+      "face": { "zh": "脸干净", "id": "Wajah bersih" },
+      "do": { "zh": "脸稍微侧一点，眼睛看镜头。两只手把面膜管横着举在下巴下面，正面朝镜头，管子朝镜头稍微一倾，带点惊讶地说这两句。", "id": "Wajah agak miring, mata lihat kamera. Kedua tangan memegang tube mendatar di bawah dagu, depannya ke kamera, miringkan sedikit ke kamera, ucapkan dua kalimat ini dengan nada agak kaget." },
+      "lines": "Biasanya yang aku temuin tuh PDRN sepuluh ribu ppm, tapi yang ini sebelas ribu. Bayangin, padahal ini cuma masker loh."
+    },
+    {
+      "n": 6, "sec": 6, "talk": true,
+      "face": { "zh": "脸干净", "id": "Wajah bersih" },
+      "do": { "zh": "正脸看镜头。先用食指在右脸颊轻轻按两下，笑着说第一句。然后一只手把面膜管竖着举到脸旁，正面朝镜头，笑着说最后一句，说完轻轻点一下头。", "id": "Wajah lurus ke kamera. Tekan pipi kanan pelan dua kali dengan telunjuk sambil tersenyum, ucapkan kalimat pertama. Lalu satu tangan angkat tube tegak di samping wajah, depannya ke kamera, ucapkan kalimat terakhir sambil tersenyum, lalu angguk sedikit." },
+      "lines": "Aku pegang juga berasa kenyal-kenyal. Isinya juga lumayan banyak, makanya cobain deh, nggak bakal nyesel."
+    }
+  ]
+}
