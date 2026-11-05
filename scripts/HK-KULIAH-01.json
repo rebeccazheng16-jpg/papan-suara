@@ -1,0 +1,139 @@
+{
+ "id": "HK-KULIAH-01",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 学生（1）",
+  "id": "Naskah pembuka · Mahasiswa (1)"
+ },
+ "hook": {
+  "zh": "钩子 9 句，一句一段，不拿产品",
+  "id": "pembuka, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Muka kusam dan warna kulit nggak rata tuh nyebelin banget, ya?",
+   "code": "H01"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Jangan-jangan maskeran kamu selama ini sia-sia semua?",
+   "code": "H05"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Makin kotor mukanya, makin banyak busanya? Salah besar.",
+   "code": "H07"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Hidung sama dagu kerasa kasar, kayak ada pasirnya?",
+   "code": "H08"
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Buat kamu yang masih kuliah dan budgetnya pas-pasan, dengerin ini dulu.",
+   "code": "H20"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau budget kamu pas-pasan, jangan beli semuanya sekaligus.",
+   "code": "H22"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Belum apa-apa, muka udah numpuk tujuh lapis skincare.",
+   "code": "H24"
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Beb, stop beli masker sembarangan, lihat dulu yang aku stok.",
+   "code": "H27"
+  },
+  {
+   "n": 9,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Sabun muka ini ngeri banget, aku sampai nggak berani jualin.",
+   "code": "H33"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

@@ -1,0 +1,139 @@
+{
+ "id": "HK-MAKEUP-01",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 美妆（1）",
+  "id": "Naskah pembuka · Makeup (1)"
+ },
+ "hook": {
+  "zh": "钩子 9 句，一句一段，不拿产品",
+  "id": "pembuka, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Keluar rumah tanpa makeup nggak pede, pakai foundation malah cakey?",
+   "code": "H02"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Foundation kamu cakey, abu-abu, sorenya belang? Jangan buru-buru ganti dulu.",
+   "code": "H03"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Buat kamu yang males dandan tapi pengen tetap cantik, sini.",
+   "code": "H14"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau makeup kamu awet seharian, jangan tonton video ini.",
+   "code": "H19"
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalian tuh selama ini salah pakai krim.",
+   "code": "H25"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Stop dulu beli primer mahal!",
+   "code": "H26"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Wajib banget aku share ini ke kalian!",
+   "code": "H28"
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Astaga, orang Korea emang jago banget soal skincare.",
+   "code": "H34"
+  },
+  {
+   "n": 9,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Temen-temenku yang bolak-balik Korea, skincare-nya bikin aku minder lihat harganya.",
+   "code": "H38"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

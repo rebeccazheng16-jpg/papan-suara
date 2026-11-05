@@ -1461,6 +1461,210 @@
    "sec": 39,
    "na": false,
    "source": "h3"
+  },
+  {
+   "id": "HK-MAMA-03",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 妈妈（3）",
+    "id": "Naskah pembuka · Mama (3)"
+   },
+   "hook": {
+    "zh": "背书／桥接收尾 8 句，一句一段，不拿产品",
+    "id": "testimoni + penutup, 8 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 8,
+   "sec": 28,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-MAMA-02",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 妈妈（2）",
+    "id": "Naskah pembuka · Mama (2)"
+   },
+   "hook": {
+    "zh": "钩子／背书 9 句，一句一段，不拿产品",
+    "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 48,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-MAMA-01",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 妈妈（1）",
+    "id": "Naskah pembuka · Mama (1)"
+   },
+   "hook": {
+    "zh": "钩子 9 句，一句一段，不拿产品",
+    "id": "pembuka, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 36,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-MAKEUP-03",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 美妆（3）",
+    "id": "Naskah pembuka · Makeup (3)"
+   },
+   "hook": {
+    "zh": "背书／桥接收尾 7 句，一句一段，不拿产品",
+    "id": "testimoni + penutup, 7 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 7,
+   "sec": 22,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-MAKEUP-02",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 美妆（2）",
+    "id": "Naskah pembuka · Makeup (2)"
+   },
+   "hook": {
+    "zh": "钩子／背书 9 句，一句一段，不拿产品",
+    "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 50,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-MAKEUP-01",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 美妆（1）",
+    "id": "Naskah pembuka · Makeup (1)"
+   },
+   "hook": {
+    "zh": "钩子 9 句，一句一段，不拿产品",
+    "id": "pembuka, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 36,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KULIAH-03",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 学生（3）",
+    "id": "Naskah pembuka · Mahasiswa (3)"
+   },
+   "hook": {
+    "zh": "背书／桥接收尾 7 句，一句一段，不拿产品",
+    "id": "testimoni + penutup, 7 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 7,
+   "sec": 22,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KULIAH-02",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 学生（2）",
+    "id": "Naskah pembuka · Mahasiswa (2)"
+   },
+   "hook": {
+    "zh": "钩子／背书 9 句，一句一段，不拿产品",
+    "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 50,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KULIAH-01",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 学生（1）",
+    "id": "Naskah pembuka · Mahasiswa (1)"
+   },
+   "hook": {
+    "zh": "钩子 9 句，一句一段，不拿产品",
+    "id": "pembuka, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 36,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KANTOR-03",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 上班族（3）",
+    "id": "Naskah pembuka · Anak kantoran (3)"
+   },
+   "hook": {
+    "zh": "背书／桥接收尾 7 句，一句一段，不拿产品",
+    "id": "testimoni + penutup, 7 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 7,
+   "sec": 22,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KANTOR-02",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 上班族（2）",
+    "id": "Naskah pembuka · Anak kantoran (2)"
+   },
+   "hook": {
+    "zh": "钩子／背书 9 句，一句一段，不拿产品",
+    "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 48,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-KANTOR-01",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 上班族（1）",
+    "id": "Naskah pembuka · Anak kantoran (1)"
+   },
+   "hook": {
+    "zh": "钩子 9 句，一句一段，不拿产品",
+    "id": "pembuka, 9 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 9,
+   "sec": 36,
+   "na": false,
+   "source": "review"
   }
  ]
 }

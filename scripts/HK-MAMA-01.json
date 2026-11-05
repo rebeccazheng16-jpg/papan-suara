@@ -1,0 +1,139 @@
+{
+ "id": "HK-MAMA-01",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 妈妈（1）",
+  "id": "Naskah pembuka · Mama (1)"
+ },
+ "hook": {
+  "zh": "钩子 9 句，一句一段，不拿产品",
+  "id": "pembuka, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Muka kusam dan warna kulit nggak rata tuh nyebelin banget, ya?",
+   "code": "H01"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Tiap hari maskeran, kok habis dilepas mukaku tetap gini-gini aja?",
+   "code": "H04"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kulit ketarik dan gampang merah, padahal tiap hari udah pakai toner?",
+   "code": "H10"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Mama-mama yang waktunya habis buat anak, sini dulu sebentar.",
+   "code": "H11"
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Cewek yang nggak mau cepat tua, dengerin ini.",
+   "code": "H15"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau pagi-pagi kamu masih sempat sepuluh menit buat diri sendiri, skip aja.",
+   "code": "H21"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Wajib banget aku share ini ke kalian!",
+   "code": "H28"
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Sekali kena ini, udah tamat deh. Nggak bisa balik lagi.",
+   "code": "H30"
+  },
+  {
+   "n": 9,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku nyesel banget kenapa baru nyobain sekarang.",
+   "code": "H32"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

@@ -1,0 +1,113 @@
+{
+ "id": "HK-KANTOR-03",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 上班族（3）",
+  "id": "Naskah pembuka · Anak kantoran (3)"
+ },
+ "hook": {
+  "zh": "背书／桥接收尾 7 句，一句一段，不拿产品",
+  "id": "testimoni + penutup, 7 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Iya, ini beneran yang aku pakai tiap hari.",
+   "code": "T19"
+  },
+  {
+   "n": 2,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kulitku sekarang, kayaknya nggak perlu aku jelasin lagi ya.",
+   "code": "T20"
+  },
+  {
+   "n": 3,
+   "sec": 2,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku kasih tau rahasianya.",
+   "code": "B1"
+  },
+  {
+   "n": 4,
+   "sec": 2,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Dengerin baik-baik ya.",
+   "code": "B3"
+  },
+  {
+   "n": 5,
+   "sec": 2,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "挑眉",
+    "id": "Sambil ngangkat alis"
+   },
+   "lines": "Nah, ini dia.",
+   "code": "R2"
+  },
+  {
+   "n": 6,
+   "sec": 2,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Cobain sendiri, nanti kamu ngerti.",
+   "code": "C1"
+  },
+  {
+   "n": 7,
+   "sec": 2,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Klik keranjang kuning, cobain dulu.",
+   "code": "C2"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

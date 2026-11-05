@@ -1,0 +1,139 @@
+{
+ "id": "HK-MAMA-02",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 妈妈（2）",
+  "id": "Naskah pembuka · Mama (2)"
+ },
+ "hook": {
+  "zh": "钩子／背书 9 句，一句一段，不拿产品",
+  "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "身份按你自己的说（这里写的是两个孩子的妈）",
+    "id": "Sebutin identitas kamu sendiri (di sini ditulis ibu dua anak)"
+   },
+   "lines": "Aku ibu dua anak, hari ini aku jaminin pakai wajahku sendiri.",
+   "code": "H36"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ada yang komen: bagus sih, tapi mahal. Aku nggak hapus komennya.",
+   "code": "H41"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku tahu kamu mikir skincare Korea itu mahal. Dengerin aku dulu.",
+   "code": "H42"
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku baru rekomendasiin kalau aku sendiri udah pakai dan cocok.",
+   "code": "T01"
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau aku pakai dan hasilnya biasa aja, nggak mungkin aku rekomendasiin ke kalian.",
+   "code": "T03"
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku udah repurchase berkali-kali.",
+   "code": "T06"
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Dari cobain satu, sekarang di rumah selalu ada stoknya.",
+   "code": "T08"
+  },
+  {
+   "n": 8,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau kamu pikir aku bohong, omelin aku di kolom komentar.",
+   "code": "T10"
+  },
+  {
+   "n": 9,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku nggak pakai yang paling mahal, aku pakai yang cocok.",
+   "code": "T13"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

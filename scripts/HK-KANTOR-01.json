@@ -1,0 +1,139 @@
+{
+ "id": "HK-KANTOR-01",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 上班族（1）",
+  "id": "Naskah pembuka · Anak kantoran (1)"
+ },
+ "hook": {
+  "zh": "钩子 9 句，一句一段，不拿产品",
+  "id": "pembuka, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Muka kusam dan warna kulit nggak rata tuh nyebelin banget, ya?",
+   "code": "H01"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Habis cuci muka ketarik, eh nggak lama berminyak lagi?",
+   "code": "H06"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Gara-gara tiap hari main HP, garis di ujung mata makin kelihatan?",
+   "code": "H09"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau kamu nggak pernah begadang, skip aja video ini.",
+   "code": "H12"
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Yang mukanya kusam tiap habis lembur, ini khusus buat kamu.",
+   "code": "H13"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau tiap bulan kamu masih sanggup ke klinik, video ini bukan buat kamu.",
+   "code": "H18"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kamu masih numpuk serum lapis demi lapis? Caramu selama ini salah.",
+   "code": "H23"
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ya ampun, kok bisa ada satu produk yang bikin aku sesuka ini?",
+   "code": "H29"
+  },
+  {
+   "n": 9,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Yang nyiptain ini, semoga masuk surga.",
+   "code": "H31"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

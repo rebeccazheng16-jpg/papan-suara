@@ -1,0 +1,139 @@
+{
+ "id": "HK-KULIAH-02",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 学生（2）",
+  "id": "Naskah pembuka · Mahasiswa (2)"
+ },
+ "hook": {
+  "zh": "钩子／背书 9 句，一句一段，不拿产品",
+  "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Temenku terbang ke Korea cuma buat beli ini.",
+   "code": "H37"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku tahu kamu mikir skincare Korea itu mahal. Dengerin aku dulu.",
+   "code": "H42"
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku nggak akan rekomendasiin kalau belum aku pakai sendiri.",
+   "code": "T02"
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku udah repurchase berkali-kali.",
+   "code": "T06"
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku udah stok lima, saking sukanya.",
+   "code": "T09"
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau kamu pikir aku bohong, omelin aku di kolom komentar.",
+   "code": "T10"
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku nggak pakai yang paling mahal, aku pakai yang cocok.",
+   "code": "T13"
+  },
+  {
+   "n": 8,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Pertama kali pakai, langsung aku rekomendasiin ke bestie.",
+   "code": "T16"
+  },
+  {
+   "n": 9,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ini bukan barang jastip nggak jelas, BPOM-nya ada.",
+   "code": "T17"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

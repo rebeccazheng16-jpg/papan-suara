@@ -1,0 +1,139 @@
+{
+ "id": "HK-MAKEUP-02",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "头达口播 · 美妆（2）",
+  "id": "Naskah pembuka · Makeup (2)"
+ },
+ "hook": {
+  "zh": "钩子／背书 9 句，一句一段，不拿产品",
+  "id": "pembuka + testimoni, 9 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Dulu aku harus booking klinik jauh-jauh hari. Sekarang cukup di rumah.",
+   "code": "H39"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Dulu waktu treatment di Korea, ini yang direkomendasiin dokternya ke aku.",
+   "code": "H40"
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku baru rekomendasiin kalau aku sendiri udah pakai dan cocok.",
+   "code": "T01"
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ini udah ketiga kalinya aku rekomendasiin, soalnya memang sebagus itu.",
+   "code": "T05"
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Selama masih diproduksi, aku bakal repurchase terus.",
+   "code": "T07"
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalian tahu aku, aku pilih produk itu ketat banget.",
+   "code": "T11"
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku nggak bakal pertaruhin nama aku cuma buat satu endorse.",
+   "code": "T12"
+  },
+  {
+   "n": 8,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Banyak yang nanya, aku beneran pakai ini atau cuma endorse?",
+   "code": "T14"
+  },
+  {
+   "n": 9,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku udah rekomendasiin ke banyak teman, semuanya bilang enak.",
+   "code": "T15"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}
