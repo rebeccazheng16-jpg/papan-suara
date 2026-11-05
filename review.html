@@ -351,7 +351,7 @@ function scriptBlock(sid, shots, who) {
   const finals = (shots["成片"] || []).slice().sort(byTime);
   const keys = Object.keys(shots).filter(k => k !== "成片").sort((a, b) => (/^\d+$/.test(a) ? Number(a) : 1e9) - (/^\d+$/.test(b) ? Number(b) : 1e9));
   const miss = []; for (let i = 1; i <= total; i++) if (!shots[i]) miss.push(i);
-  const status = total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;
+  const status = finals.length ? "" : total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;   // 有成片就不报缺段
   return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}${finals.length ? `<span class="full">✓ 有成片</span>` : ""}</div>
     ${finals.length ? `<div class="finals">${finals.map(f => shotCard("成片", [f], "", "final")).join("")}</div>` : ""}
     <div class="grid">${keys.map(k => { const list = shots[k].slice().sort(byTime); const ed = editFor(who, sid, k);
