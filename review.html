@@ -225,7 +225,7 @@ const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "
 const L = (o, k = uiLang) => (o && typeof o === "object") ? (o[k] || o.zh || o.id || "") : (o || "");   // 脚本内容字段跟界面语言走
 const scriptIds = s => String(s || "").split(/[,\s，、]+/).filter(Boolean);
 // 产品归类：每本的产品写法不一（"鎏金蛋白膜 Golden Mask" / "VEIRFOO Golden Mask 鎏金蛋白膜"），取第一段中文当家族名
-const famKey = s => { const zh = String(L(s.product) || "").replace(/（[^）]*）|\([^)]*\)/g, ""); const m = zh.match(/[\u4e00-\u9fff]+/); let k = m ? m[0] : zh.trim(); k = k.replace(/^小/, ""); return k || "其他"; };
+const famKey = s => { const zh = String(L(s.product, "zh") || "").replace(/（[^）]*）|\([^)]*\)/g, ""); const m = zh.match(/[\u4e00-\u9fff]+/); let k = m ? m[0] : zh.trim(); k = k.replace(/^小/, ""); return k || "其他"; };
 const talentNames = () => { const set = new Map(); rows.forEach(r => set.set(r.who.toLowerCase(), r.who)); Object.values(assigns).forEach(a => set.set(a.who.toLowerCase(), a.who)); return [...set.values()].sort((a, b) => a.localeCompare(b)); };
 async function fullScript(id) {
   const s = lib[id]; if (!s) return null;
@@ -263,6 +263,7 @@ const ID_RULES = [
   [/在 (\S+) 第 (\d+) 段/, "di $1 bagian $2"], [/在 (\S+) 总览/, "di $1 ringkasan"], [/在 (\S+) 准备页/, "di $1 persiapan"],
   [/^上传 (\S.*)$/, "Upload $1"],
   [/第 (\d+) 段/g, "Bagian $1"],
+  [/在脚本列表/g, "di daftar naskah"], [/在写自己的脚本/g, "sedang nulis naskah sendiri"], [/^达人专属 (\d+)$/, "Khusus kreator $1"], [/^全部 (\d+)$/, "Semua $1"],
   [/· 不露脸/g, "· tanpa wajah"], [/· 不说话/g, "· tanpa dialog"],
   [/· 要补拍：/g, "· perlu diulang: "], [/· 要补拍/g, "· perlu diulang"], [/· 已补 ✓/g, "· sudah diulang ✓"],
   [/她改了台词：/g, "Dia ubah dialognya: "], [/派给她的：/g, "Naskah untuk dia: "], [/成片分段：/g, "Bagian video final: "],
