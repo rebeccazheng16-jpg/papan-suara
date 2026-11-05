@@ -204,7 +204,7 @@ const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
 const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
 // ===== 吉祥物：毛绒面膜猫（img/maskot_*.png，Nano Banana 出图后抠底，11-05）。表情：hi 打招呼 / go 举手机 / yay 欢呼 / wink 嘘 / zz 打瞌睡 / love 比心；没切出来的先用 hi =====
-const MASKOT = { hi: "maskot_hi.png", go: "maskot_hi.png", yay: "maskot_hi.png", wink: "maskot_hi.png", zz: "maskot_hi.png", love: "maskot_hi.png" };
+const MASKOT = { hi: "maskot_hi.png", go: "maskot_go.png", yay: "maskot_yay.png", wink: "maskot_wink.png", zz: "maskot_zz.png", love: "maskot_love.png" };
 function cici(mood = "hi") { return `<img class="maskot" src="img/${MASKOT[mood] || MASKOT.hi}" alt="" width="64" height="64" decoding="async">`; }
 const bubble = (html, mood, big) => `<div class="cici ${big ? "lg" : ""}">${cici(mood)}<div class="bubble">${html}</div></div>`;
 const backIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>`;
@@ -337,7 +337,7 @@ function renderLogin() {
     </div>`;
 }
 function renderScripts() {
-  if (assignedIds === null) { loadLib().then(render); return `${topbar(t("yourScripts"), esc(name), false)}<div class="mid center">${bubble("…", "hi")}</div>`; }
+  if (assignedIds === null) { loadLib().then(render); return `${topbar(t("yourScripts"), esc(name), false)}<div class="mid center">${bubble("…", "zz")}</div>`; }
   const items = assignedIds.map(id => lib.find(x => x.id === id) || backendMeta[id] || { id, product: { zh: id, id } });
   const prog = id => { const c = store.get("cur_" + id, 0); return c; };
   return `${topbar(t("yourScripts"), esc(profile?.handle ? "@" + profile.handle : profile?.name || ""), false)}
@@ -398,7 +398,7 @@ function renderOverview() {
   return `${topbar(t("overview"), esc(L(script.product)), true)}
     ${prog()}
     <div class="mid">
-      ${bubble(say, uploading ? "go" : (!missing && !pending) ? "yay" : "hi")}
+      ${bubble(say, uploading ? "go" : (!missing && !pending) ? "love" : "hi")}
       <div class="card scroll" style="flex:1;padding-block:4px">
         <ul class="list">${script.shots.map((s, i) => { const tk = takes[i];
           const st = !tk?.blob ? `<span class="st bad">${t("stMissing")}</span>` : tk.up === "done" ? `<span class="st ok">✓ ${t("stSent")}</span>` : tk.up === "busy" ? `<span class="st"><i class="spin"></i>${t("stSending")}</span>` : tk.up === "fail" ? `<span class="st bad">${t("stFail")}</span>` : `<span class="st"><i class="spin"></i>${t("stSending")}</span>`;
