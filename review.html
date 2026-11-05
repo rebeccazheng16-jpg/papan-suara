@@ -222,7 +222,7 @@ const usedOf = who => { const k = Object.keys(quotas.used || {}).find(x => same(
 const fmtT = t => { const d = new Date(t); return isNaN(d) ? "" : `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
 const mb = n => (Number(n) / 1048576).toFixed(1) + " MB";
 const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "";
-const L = (o, k = "zh") => (o && typeof o === "object") ? (o[k] || o.zh || o.id || "") : (o || "");
+const L = (o, k = uiLang) => (o && typeof o === "object") ? (o[k] || o.zh || o.id || "") : (o || "");   // 脚本内容字段跟界面语言走
 const scriptIds = s => String(s || "").split(/[,\s，、]+/).filter(Boolean);
 // 产品归类：每本的产品写法不一（"鎏金蛋白膜 Golden Mask" / "VEIRFOO Golden Mask 鎏金蛋白膜"），取第一段中文当家族名
 const famKey = s => { const zh = String(L(s.product) || "").replace(/（[^）]*）|\([^)]*\)/g, ""); const m = zh.match(/[\u4e00-\u9fff]+/); let k = m ? m[0] : zh.trim(); k = k.replace(/^小/, ""); return k || "其他"; };
@@ -234,11 +234,82 @@ async function fullScript(id) {
   return s.full;
 }
 
+// ===== 印尼语界面（审核同事是印尼人，11-05 她定）=====
+// 渲染照旧出中文；开 ID 时在 DOM 上按词典替换文本节点和 placeholder/title，弹窗、动态数字、后来插进来的节点都由 MutationObserver 接住。
+// 脚本内容（产品/钩子/分镜）走 L()：界面 ID 就取 .id 字段。加文案：整句放 ID_MAP，带变量的写进 ID_RULES（顺序有先后，长的在前）。
+let uiLang = store.get("review_lang", "zh");
+const langBtn = () => `<button class="ghost sm" id="langbtn" style="margin-left:6px">${uiLang === "id" ? "中文" : "ID"}</button>`;
+function bindLang() { const b = $("#langbtn"); if (b) b.onclick = () => { uiLang = uiLang === "id" ? "zh" : "id"; store.set("review_lang", uiLang); document.title = uiLang === "id" ? "Rekaman Kreator · Review" : "达人自录 审片"; render(); }; }
+const ID_RULES = [
+  [/(\d+) 条上传 · (\d+) 个达人 · 在线 (\d+) 人(?: · 脚本库 (\d+) 本)?/, (m, a, b, c, d) => `${a} upload · ${b} kreator · ${c} online${d ? ` · ${d} naskah` : ""}`],
+  [/缺第 ([\d、]+) 段/g, "Kurang bagian $1"],
+  [/(\d+) 段齐了/g, "$1 bagian lengkap"],
+  [/等补拍：第 ([\d、]+) 段/g, "Menunggu ulang: bagian $1"],
+  [/撤销 (.+?) (\S+) 第 (\d+) 段的补拍？/, "Batalkan permintaan ulang $1 · $2 bagian $3?"],
+  [/^(.+?) · (\S+) 第 (\d+) 段要补拍$/, "$1 · $2 bagian $3 perlu diulang"],
+  [/删掉这一段(?:（(\d+) 条）)?？文件进 Drive 回收站。/, (m, n) => `Hapus bagian ini${n ? ` (${n} file)` : ""}? File masuk sampah Drive.`],
+  [/删掉 (.+?)？上传进 Drive 回收站，派单、登录记录、意见、改的台词、自拆本一起清掉，这个人从页面消失。/, "Hapus $1? Upload masuk sampah Drive; naskah, login, masukan, dialog yang diubah dan naskah sendiri ikut terhapus. Orang ini hilang dari halaman."],
+  [/把 (\S+) 从 (.+?) 那里收回？/, "Tarik $1 dari $2?"],
+  [/给 (.+?) 派脚本/, "Beri naskah ke $1"],
+  [/今天全局拆段已用完（(.+?)）/, "Kuota pecah naskah hari ini habis ($1)"],
+  [/（今天 (\d+) 次）/, " (hari ini $1×)"],
+  [/文本里有竞品词「(.+?)」，只能用 VEIRFOO 或 SICENARI 的脚本/, "Ada merek kompetitor「$1」, hanya boleh naskah VEIRFOO atau SICENARI"],
+  [/分镜 (\d+) 段 · 合计 (\d+) 秒/, "$1 bagian · total $2 detik"],
+  [/(\d+|\?) 段 · (\d+|\?)s/g, "$1 bagian · $2s"],
+  [/展开全部 (\d+) 条/, "Lihat semua $1"],
+  [/她的想法 (\d+) 条/, "Masukan dari dia ($1)"],
+  [/· 登录 (\d+) 次/, "· login $1×"],
+  [/○ 最近登录 /, "○ Terakhir login "],
+  [/在 (\S+) 第 (\d+) 段/, "di $1 bagian $2"], [/在 (\S+) 总览/, "di $1 ringkasan"], [/在 (\S+) 准备页/, "di $1 persiapan"],
+  [/^上传 (\S.*)$/, "Upload $1"],
+  [/第 (\d+) 段/g, "Bagian $1"],
+  [/· 不露脸/g, "· tanpa wajah"], [/· 不说话/g, "· tanpa dialog"],
+  [/· 要补拍：/g, "· perlu diulang: "], [/· 要补拍/g, "· perlu diulang"], [/· 已补 ✓/g, "· sudah diulang ✓"],
+  [/她改了台词：/g, "Dia ubah dialognya: "], [/派给她的：/g, "Naskah untuk dia: "], [/成片分段：/g, "Bagian video final: "],
+  [/自己拆脚本额度：今天 /g, "Kuota pecah naskah sendiri: hari ini "],
+  [/没拆成：/, "Gagal dipecah: "], [/没存上：/, "Gagal disimpan: "],
+];
+const ID_MAP = { "达人自录 · 审片": "Rekaman Kreator · Review", "刷新": "Muat ulang", "读取中…": "Memuat…", "钥匙": "Kunci", "进入": "Masuk", "钥匙不对": "Kunci salah",
+  "达人": "Kreator", "按最近上传排": "urut upload terbaru", "还没有人传过，也没派过单。": "Belum ada yang upload atau diberi naskah.", "＋ 新达人派单": "＋ Kreator baru",
+  "删掉这个达人": "Hapus kreator ini", "还没派": "belum ada", "还没登录过": "Belum pernah login", "● 在线": "● Online", "电脑": "Komputer", "在脚本列表": "di daftar naskah", "在写自己的脚本": "sedang nulis naskah sendiri",
+  "＋ 派脚本": "＋ Beri naskah", "保存中…": "Menyimpan…", "取消这本": "Tarik naskah ini", "改": "Ubah", "每日上限": "Batas harian",
+  "成片": "Video final", "未标段": "Tanpa nomor", "脚本库里没有这本": "Naskah ini nggak ada di pustaka", "✓ 有成片": "✓ Ada video final",
+  "要补拍": "Minta ulang", "撤销": "Batalkan", "清掉这条记录": "Hapus catatan ini", "撤销失败": "Gagal batalkan", "发送失败": "Gagal kirim", "删除失败": "Gagal hapus",
+  "给她的话（她在那一段的录制页会看到）": "Pesan untuk dia (muncul di halaman rekam bagian itu)", "例：产品 logo 没朝镜头，举到脸旁再说一遍": "Contoh: logo produk nggak menghadap kamera, angkat ke samping wajah lalu ulangi",
+  "发给她": "Kirim ke dia", "取消": "Batal", "删掉": "Hapus", "全部删掉": "Hapus semua", "删除": "Hapus", "收回": "Tarik", "关闭": "Tutup", "在 Drive 打开": "Buka di Drive", "收起": "Tutup",
+  "后台还是旧版，发不了补拍：Apps Script 发新版本（Code.gs 在剪贴板）": "Backend masih versi lama, belum bisa minta ulang",
+  "后台还是旧版：只删了上传和派单，登录记录还在、刷新后这个人还会出现；Apps Script 发新版本后再删一次就干净了。": "Backend masih versi lama: hanya upload dan naskah yang terhapus.",
+  "脚本库": "Pustaka naskah", "点一本看分镜 · 派给谁在右边": "klik untuk lihat bagian · beri ke kreator di kanan", "＋ 新增脚本（粘贴整段，自动拆）": "＋ Naskah baru", "搜号 / 产品 / 钩子": "Cari nomor / produk / hook", "搜号 / 产品 / 钩子 / 博主 / 达人名": "Cari nomor / produk / hook / kreator",
+  "全部": "Semua", "所有产品": "Semua produk", "其他": "Lainnya", "没有符合的本子": "Nggak ada yang cocok", "没有": "Tidak ada", "派给…": "Beri ke…", "派给谁": "Beri ke siapa", "派脚本": "Beri naskah", "新达人派单": "Kreator baru", "达人名或 handle（大小写都行）": "Nama atau handle kreator", "已选": "Dipilih", "还没选": "Belum dipilih", "保存": "Simpan", "还没有达人": "Belum ada kreator", "派给新名字": "Beri ke nama baru", "新达人…": "Kreator baru…", "或者新名字": "atau nama baru",
+  "· 不露脸": "· tanpa wajah", "· 不说话": "· tanpa dialog", "（无台词）": "(tanpa dialog)", "推荐拍法：": "Cara ambil: ", "推荐拍法": "Cara ambil", "脸上：": "Di wajah: ", "脸上": "Di wajah", "开拍前：": "Sebelum rekam: ", "开拍前准备": "Persiapan", "总览": "ringkasan", "准备页": "persiapan", "分镜": "Bagian", "读不到这本的内容": "Isi naskah nggak bisa dibaca", "她自拆": "dipecah sendiri", "专属": "khusus", "达人专属": "Khusus kreator", "公共（所有达人可派）": "Umum (semua kreator)", "归属": "Pemilik", "留空自动": "kosong = otomatis", "脚本号": "Nomor naskah", "公共本子要填号": "Naskah umum harus ada nomor", "达人名": "Nama kreator", "新增脚本": "Naskah baru", "智能拆段": "Pecah otomatis", "Gemini 在拆，约 20 秒…": "Gemini lagi memecah, ±20 detik…", "拆好了，看一眼再保存": "Sudah dipecah, cek dulu lalu simpan", "先粘贴内容": "Tempel isinya dulu", "保存到脚本库": "Simpan ke pustaka", "存中…": "Menyimpan…", "在后面加一段": "Tambah bagian setelahnya", "删这段": "Hapus bagian ini", "台词（印尼语，空＝不说话）": "Dialog (bahasa Indonesia, kosong = diam)", "秒": "detik", "粘贴整段（H3 提示词 / SD2 四块 / 纯台词都行）": "Tempel naskah utuh", "整段复制过来就行，会自动拆成一段一段的分镜": "Tempel saja, nanti dipecah otomatis",
+  "后台还是旧版，先去 Apps Script 发新版本": "Backend masih versi lama" };
+const hasZh = s => /[一-鿿]/.test(s);
+function idText(txt) {
+  let t = txt;
+  for (const [re, r] of ID_RULES) t = t.replace(re, r);
+  const k = t.trim(); if (ID_MAP[k]) t = t.replace(k, ID_MAP[k]);
+  return t;
+}
+function translate(node) {
+  if (uiLang !== "id" || !node) return;
+  const put = n => { const v = idText(n.nodeValue); if (v !== n.nodeValue) n.nodeValue = v; };   // 没变就不写，免得和观察器互相触发
+  if (node.nodeType === 3) { if (hasZh(node.nodeValue)) put(node); return; }
+  if (node.nodeType !== 1) return;
+  const w = document.createTreeWalker(node, NodeFilter.SHOW_TEXT); const list = [];
+  while (w.nextNode()) list.push(w.currentNode);
+  list.forEach(n => { if (hasZh(n.nodeValue)) put(n); });
+  [node, ...node.querySelectorAll("[placeholder],[title],[aria-label]")].forEach(el => ["placeholder", "title", "aria-label"].forEach(a => { const v = el.getAttribute?.(a); if (v && hasZh(v)) el.setAttribute(a, idText(v)); }));
+}
+new MutationObserver(ms => { if (uiLang !== "id") return; ms.forEach(m => { m.addedNodes.forEach(translate); if (m.type === "characterData" && hasZh(m.target.nodeValue)) { const v = idText(m.target.nodeValue); if (v !== m.target.nodeValue) m.target.nodeValue = v; } }); })
+  .observe(document.body, { childList: true, subtree: true, characterData: true });
+if (uiLang === "id") document.title = "Rekaman Kreator · Review";
+
 // ===== 页面 =====
 function render() {
   if (!key) {
-    root.innerHTML = `<h1>达人自录 · 审片</h1><div class="bar"><input class="in" id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div>`;
+    root.innerHTML = `<h1>达人自录 · 审片${langBtn()}</h1><div class="bar"><input class="in" id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div>`;
     $("#go").onclick = () => { key = $("#k").value.trim(); if (!key) return; store.set("review_key", key); load(); };
+    bindLang(); translate(root);
     return;
   }
   const byT = {};
@@ -249,7 +320,7 @@ function render() {
   const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
   dirty = false;
   root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 在线 ${onlineCount()} 人${canEdit() ? ` · 脚本库 ${Object.keys(lib).length} 本` : ""}</small>
-      <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button></h1>
+      <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button>${langBtn()}</h1>
     ${err ? `<p class="err">${esc(err)}</p>` : ""}
     ${backendOld && canEdit() ? `<p class="err">后台还是旧版：新增脚本、智能拆段、专属本子要等 Apps Script 发新版本后才能用（Code.gs 已在剪贴板）。派库里的本子不受影响。</p>` : ""}
     <div class="cols" ${canEdit() ? "" : `style="grid-template-columns:minmax(0,1fr)"`}>
@@ -261,7 +332,7 @@ function render() {
     </div>`;
   $("#reload").onclick = load;
   if (canEdit()) { $("#newtalent").onclick = () => pickScriptsFor(""); bindLib(); }
-  bindTalents();
+  bindTalents(); bindLang(); translate(root);
 }
 
 // ----- 脚本库面板 -----
