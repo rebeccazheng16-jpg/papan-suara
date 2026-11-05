@@ -165,7 +165,7 @@ function modal(html, wide) {
 // ===== 数据 =====
 const root = document.getElementById("root");
 let rows = [], assigns = {}, lib = {}, pres = {}, err = "", loading = false, backendOld = false;
-let quotas = { limits: {}, used: {}, def: 5 }, noteRows = [], editRows = [];
+let quotas = { limits: {}, used: {}, def: 5 }, noteRows = [], editRows = [], reshootRows = [];
 const ui = { prod: "all", q: "", open: null, brand: "all", notesOpen: {} };
 async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
 async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
@@ -179,6 +179,7 @@ async function load(quiet) {
     const [l, a, idx, bl, pr, qt, nt, ed] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
       fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({})),
       api({ action: "quotas" }).catch(() => ({})), api({ action: "notes" }).catch(() => ({})), api({ action: "alledits" }).catch(() => ({}))]);
+    const rsr = await api({ action: "reshoots" }).catch(() => ({})); if (rsr?.ok) reshootRows = rsr.rows || [];
     setPres(pr);
     if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
     rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
@@ -352,8 +353,16 @@ function scriptBlock(sid, shots, who) {
   const keys = Object.keys(shots).filter(k => k !== "成片").sort((a, b) => (/^\d+$/.test(a) ? Number(a) : 1e9) - (/^\d+$/.test(b) ? Number(b) : 1e9));
   const miss = []; for (let i = 1; i <= total; i++) if (!shots[i]) miss.push(i);
   const status = finals.length ? "" : total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;   // 有成片就不报缺段
-  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}${finals.length ? `<span class="full">✓ 有成片</span>` : ""}</div>
-    ${finals.length ? `<div class="finals">${finals.map(f => shotCard("成片", [f], "", "final")).join("")}</div>` : ""}
+  const rsList = reshootRows.filter(r => same(r.who, who) && same(r.script, sid));
+  const rsOf = n => rsList.find(r => String(r.shot) === String(n));
+  // 成片分段条：按成片上传时带的各段时长算起止秒，她对着 Drive 播放器的时间就知道是第几段；没带时长（旧成片）就只列段号
+  let segs = []; try { segs = JSON.parse(finals[0]?.segs || "[]"); } catch (e) {}
+  if (!segs.length && total) segs = Array.from({ length: total }, (_, k) => ({ n: k + 1 }));
+  let acc = 0;
+  const chips = finals.length && segs.length ? `<div class="chips" style="margin:6px 0 2px;align-items:center"><span class="tip">成片分段：</span>${segs.map(sg => { const a = acc, b = sg.sec ? Math.round(acc + sg.sec) : 0; acc += sg.sec || 0; const r = rsOf(sg.n);
+      return `<span class="chip ${r ? (r.status === "已补" ? "" : "on") : ""}" style="display:inline-flex;align-items:center;gap:6px;${r?.status === "已补" ? "border-color:var(--ok);color:var(--ok)" : r ? "background:var(--red);border-color:var(--red)" : ""}">第 ${sg.n} 段${sg.sec ? ` ${Math.round(a)}–${b}s` : ""}${r ? (r.status === "已补" ? " · 已补 ✓" : ` · 要补拍${r.note ? "：" + esc(String(r.note).slice(0, 30)) : ""}`) : ""}${r && r.status !== "已补" ? `<button data-unreshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" title="撤销" style="min-height:0;padding:0 4px;background:none;border:0;color:inherit;font-size:13px">✕</button>` : r ? `<button data-unreshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" title="清掉这条记录" style="min-height:0;padding:0 4px;background:none;border:0;color:inherit;font-size:13px">✕</button>` : `<button data-reshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" style="min-height:0;padding:0 4px;background:none;border:0;color:var(--red);font-size:12px;font-weight:600">要补拍</button>`}</span>`; }).join("")}</div>` : "";
+  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}${finals.length ? `<span class="full">✓ 有成片</span>` : ""}${rsList.some(r => r.status !== "已补") ? `<span class="miss">等补拍：第 ${rsList.filter(r => r.status !== "已补").map(r => r.shot).join("、")} 段</span>` : ""}</div>
+    ${finals.length ? `<div class="finals">${finals.map(f => shotCard("成片", [f], "", "final")).join("")}</div>${chips}` : ""}
     <div class="grid">${keys.map(k => { const list = shots[k].slice().sort(byTime); const ed = editFor(who, sid, k);
       return shotCard(/^\d+$/.test(k) ? `第 ${k} 段` : (k || "未标段"), list, ed && String(ed.lines || "").trim() ? `<span class="ed">她改了台词：${esc(ed.lines)}</span>` : ""); }).join("")}</div></div>`;
 }
@@ -367,8 +376,26 @@ function bindTalents() {
   $$("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
     if (await confirmBox(`删掉 ${b.dataset.delwho}？上传进 Drive 回收站，派单、登录记录、意见、改的台词、自拆本一起清掉，这个人从页面消失。`, "删掉", "取消")) delTalent(b.dataset.delwho); });
   $$("[data-qset]").forEach(b => b.onclick = () => { const who = b.dataset.qset; const inp = $(`[data-qin="${CSS.escape(who)}"]`); setQuota(who, inp ? inp.value : "", b); });
+  $$("[data-reshoot]").forEach(b => b.onclick = e => { e.stopPropagation(); askReshoot(b.dataset.reshoot, b.dataset.sid, b.dataset.n); });
+  $$("[data-unreshoot]").forEach(b => b.onclick = async e => { e.stopPropagation(); const { unreshoot: who, sid, n } = b.dataset;
+    if (!(await confirmBox(`撤销 ${who} ${sid} 第 ${n} 段的补拍？`, "撤销", "取消"))) return;
+    reshootRows = reshootRows.filter(r => !(same(r.who, who) && same(r.script, sid) && String(r.shot) === String(n))); render();
+    const r = await post({ action: "reshootdel", who, script: sid, shot: n }); if (!r.ok) { err = r.error || "撤销失败"; load(true); } });
   $$("[data-qin]").forEach(inp => inp.onkeydown = e => { if (e.key === "Enter") setQuota(inp.dataset.qin, inp.value, $(`[data-qset="${CSS.escape(inp.dataset.qin)}"]`)); });
   $$("[data-notes]").forEach(b => b.onclick = () => { const k = b.dataset.notes.toLowerCase(); ui.notesOpen[k] = !ui.notesOpen[k]; render(); });
+}
+// 要补拍：写一句给达人（她那边这本带红标、那一段显示这句话）
+function askReshoot(who, sid, n) {
+  const m = modal(`<p class="q">${esc(who)} · ${esc(sid)} 第 ${n} 段要补拍</p>
+    <div><div class="lab">给她的话（她在那一段的录制页会看到）</div><textarea class="in" id="rsnote" style="width:100%;min-height:80px" placeholder="例：产品 logo 没朝镜头，举到脸旁再说一遍"></textarea></div>
+    <div class="bar" style="margin-top:10px"><button class="ghost" id="rsno">取消</button><button id="rsok">发给她</button></div>`);
+  $("#rsnote", m).focus();
+  $("#rsno", m).onclick = () => m.remove();
+  $("#rsok", m).onclick = async () => { const note = $("#rsnote", m).value.trim(); m.remove();
+    reshootRows = reshootRows.filter(r => !(same(r.who, who) && same(r.script, sid) && String(r.shot) === String(n)));
+    reshootRows.push({ who, script: sid, shot: String(n), note, status: "待补", time: new Date().toISOString() }); err = ""; render();
+    const r = await post({ action: "reshoot", who, script: sid, shot: n, note });
+    if (!r.ok) { err = r.error === "unknown action" ? "后台还是旧版，发不了补拍：Apps Script 发新版本（Code.gs 在剪贴板）" : (r.error || "发送失败"); load(true); } };
 }
 async function setQuota(who, val, btn) {
   const limit = Math.max(0, Math.floor(Number(val)));
@@ -520,7 +547,7 @@ async function delTalent(who) {
   rows = rows.filter(r => !same(r.who, who));
   assigns = Object.fromEntries(Object.entries(assigns).filter(([k]) => !same(k, who)));
   pres = Object.fromEntries(Object.entries(pres).filter(([k]) => !same(k, who)));
-  noteRows = noteRows.filter(n => !same(n.who, who)); editRows = editRows.filter(e => !same(e.who, who));
+  noteRows = noteRows.filter(n => !same(n.who, who)); editRows = editRows.filter(e => !same(e.who, who)); reshootRows = reshootRows.filter(r => !same(r.who, who));
   Object.keys(quotas.limits).forEach(k => { if (same(k, who)) delete quotas.limits[k]; }); Object.keys(quotas.used).forEach(k => { if (same(k, who)) delete quotas.used[k]; });
   lib = Object.fromEntries(Object.entries(lib).filter(([, s]) => !(s.owner && same(s.owner, who))));
   err = ""; render();
