@@ -171,40 +171,6 @@
    "source": "h3"
   },
   {
-   "id": "V0146",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-    "id": "VEIRFOO Purple Tube"
-   },
-   "hook": {
-    "zh": "早上睡过头、出门前只剩 5 分钟，一支救场",
-    "id": "Bangun kesiangan, sisa 5 menit sebelum keluar, satu produk ini penyelamat!"
-   },
-   "src": "TikTok @najaetaime",
-   "shots": 2,
-   "sec": 26,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "V0145",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
-    "id": "VEIRFOO Cloud Cleanser"
-   },
-   "hook": {
-    "zh": "男朋友在门口车里等着去吃饭，先洗把脸再出门",
-    "id": "Pacar sudah nunggu di mobil, cuci muka dulu baru pergi makan"
-   },
-   "src": "TikTok @天天不懒",
-   "shots": 2,
-   "sec": 21,
-   "na": false,
-   "source": "h3"
-  },
-  {
    "id": "V0144",
    "brand": "VEIRFOO",
    "product": {
@@ -222,23 +188,6 @@
    "source": "h3"
   },
   {
-   "id": "V0143",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
-    "id": "VEIRFOO Cloud Cleanser"
-   },
-   "hook": {
-    "zh": "等我洗把脸再开",
-    "id": "Nanti dulu, aku cuci muka dulu ya"
-   },
-   "src": "TikTok @天天不懒",
-   "shots": 2,
-   "sec": 21,
-   "na": false,
-   "source": "h3"
-  },
-  {
    "id": "V0142",
    "brand": "VEIRFOO",
    "product": {
@@ -253,40 +202,6 @@
    "shots": 5,
    "sec": 52,
    "na": true,
-   "source": "h3"
-  },
-  {
-   "id": "V0141",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-    "id": "VEIRFOO Purple Tube Tone-Up Cream"
-   },
-   "hook": {
-    "zh": "K-Beauty 水光妆",
-    "id": "K-Beauty Glowing Makeup Look"
-   },
-   "src": "TikTok @najaetaime",
-   "shots": 2,
-   "sec": 26,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "V0140",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-    "id": "VEIRFOO Purple Tube Tone-Up Cream"
-   },
-   "hook": {
-    "zh": "我以为的素颜 vs 我真实的素颜",
-    "id": "Ekspektasi muka bare face-ku vs Realita muka bare face-ku"
-   },
-   "src": "TikTok @nia_sari290",
-   "shots": 2,
-   "sec": 19,
-   "na": false,
    "source": "h3"
   },
   {
@@ -558,23 +473,6 @@
    "src": "TikTok @apingkosmetikaa",
    "shots": 6,
    "sec": 47,
-   "na": true,
-   "source": "h3"
-  },
-  {
-   "id": "V0109",
-   "brand": "VEIRFOO",
-   "product": {
-    "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-    "id": "VEIRFOO Purple Tube"
-   },
-   "hook": {
-    "zh": "新品发布",
-    "id": "Pengumuman Produk Baru"
-   },
-   "src": "TikTok @helomei6",
-   "shots": 1,
-   "sec": 13,
    "na": true,
    "source": "h3"
   },
@@ -1364,51 +1262,17 @@
    "id": "S0152",
    "brand": "SICENARI",
    "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-    "id": "Sicenari Collagen Shot Mask"
+    "zh": "SICENARI 微塑修护胶原炮 袋装 21 片",
+    "id": "Sicenari sheet mask pouch 21 lembar"
    },
    "hook": {
-    "zh": "一大袋面膜用一年，比买小瓶划算",
-    "id": "Satu kantong besar masker bisa dipakai setahun, lebih hemat daripada beli yang kecil-kecil"
+    "zh": "韩国 SICENARI 面膜，21 片装，每天敷也不心疼",
+    "id": "Sheet mask Korea Sicenari, 21 lembar, pakai tiap hari juga nggak rugi"
    },
-   "src": "TikTok @putryls_ag",
+   "src": "",
    "shots": 2,
    "sec": 20,
    "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0151",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
-    "id": "SICENARI PDRN 9,900ppm Sheet Mask isi 21"
-   },
-   "hook": {
-    "zh": "敷膜日记：过程→结果→余液抹小腿→毛毯上袋子静物收尾",
-    "id": "Diary maskeran: proses → hasil → sisa essence dioles ke kaki → kemasan di karpet"
-   },
-   "src": "TikTok @priskilakaylaa AFTERMYSKIN",
-   "shots": 3,
-   "sec": 22,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0150",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌) 袋装 21 片",
-    "id": "SICENARI Pouch Masker Kolagen Perbaikan Mikro 21 lembar"
-   },
-   "hook": {
-    "zh": "免税店货架前转动面膜袋",
-    "id": "Memutar kantong masker di depan rak toko bebas bea"
-   },
-   "src": "TikTok @sasaaa_",
-   "shots": 1,
-   "sec": 13,
-   "na": true,
    "source": "h3"
   },
   {
@@ -1446,23 +1310,6 @@
    "source": "h3"
   },
   {
-   "id": "S0147",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-    "id": "SICENARI Micro Sculpt Repair Collagen Shot Mask"
-   },
-   "hook": {
-    "zh": "你一句再也不用遮瑕了，我鼻子一酸",
-    "id": "Nggak perlu pakai concealer lagi, aku sampai terharu"
-   },
-   "src": "抖音 飞虎牌旗舰店",
-   "shots": 1,
-   "sec": 4,
-   "na": true,
-   "source": "h3"
-  },
-  {
    "id": "S0139",
    "brand": "SICENARI",
    "product": {
@@ -1476,40 +1323,6 @@
    "src": "TikTok @余干雪碧",
    "shots": 5,
    "sec": 57,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0138",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-    "id": "SICENARI Sheet Mask PDRN 9.900ppm"
-   },
-   "hook": {
-    "zh": "敷面膜前后对比",
-    "id": "Perbandingan sebelum dan sesudah pakai masker"
-   },
-   "src": "TikTok @辣辣不甜",
-   "shots": 2,
-   "sec": 12,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0137",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
-    "id": "SICENARI sheet mask PDRN 21 lembar"
-   },
-   "hook": {
-    "zh": "敷面膜全过程，无口播",
-    "id": "Proses pakai masker, tanpa ngomong"
-   },
-   "src": "抖音 阜阳娟子",
-   "shots": 3,
-   "sec": 14,
    "na": false,
    "source": "h3"
   },
@@ -1544,23 +1357,6 @@
    "src": "抖音 蛇姨没疯🐍",
    "shots": 5,
    "sec": 49,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0134",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-    "id": "SICENARI Micro Sculpting Collagen Shot Mask"
-   },
-   "hook": {
-    "zh": "一个月敷膜日记",
-    "id": "Diary Masker Satu Bulan"
-   },
-   "src": "TikTok @dianafadiaaa",
-   "shots": 2,
-   "sec": 12,
    "na": false,
    "source": "h3"
   },
@@ -1616,23 +1412,6 @@
    "source": "h3"
   },
   {
-   "id": "S0120",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 超光子胶原炮面膜 (Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask)",
-    "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
-   },
-   "hook": {
-    "zh": "素颜出门总被质疑擦粉了",
-    "id": "Sering dikira pakai bedak padahal muka bare face"
-   },
-   "src": "抖音 @幸运姐姐 温博士 B5 水",
-   "shots": 5,
-   "sec": 30,
-   "na": true,
-   "source": "h3"
-  },
-  {
    "id": "S0119",
    "brand": "SICENARI",
    "product": {
@@ -1663,23 +1442,6 @@
    "src": "TikTok @agallery8 NPURE",
    "shots": 4,
    "sec": 32,
-   "na": false,
-   "source": "h3"
-  },
-  {
-   "id": "S0117",
-   "brand": "SICENARI",
-   "product": {
-    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌)",
-    "id": "SICENARI Micro-Sculpt Collagen Shot Mask"
-   },
-   "hook": {
-    "zh": "每天坚持敷面膜，皮肤越来越好",
-    "id": "Usahanya setiap hari"
-   },
-   "src": "TikTok @willysfidia",
-   "shots": 5,
-   "sec": 34,
    "na": false,
    "source": "h3"
   },
