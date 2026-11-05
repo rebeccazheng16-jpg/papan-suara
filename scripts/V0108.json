@@ -2,7 +2,7 @@
  "id": "V0108",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 粉水光油霜 Pink Bling Bling Cream",
+  "zh": "粉水光油霜 Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
@@ -12,18 +12,19 @@
  "src": "Mekri",
  "cam": "user",
  "prep": {
-  "zh": "在户外草地，下午阳光直射，脸部半框，手机就是相机，画面里不出现手机。穿休闲装，素颜，皮肤干净，没有涂任何东西。产品盖子盖好，标签朝向镜头。",
-  "id": "Duduk di rumput di luar, di bawah sinar matahari sore langsung. Wajahmu memenuhi sekitar setengah bingkai. Pakai HP-mu sendiri buat merekam, jangan sampai HP-nya kelihatan di video. Pakai baju santai, wajah bersih tanpa makeup, tanpa krim atau apa pun. Produknya ditutup, labelnya menghadap kamera."
+  "zh": "素颜，不化妆，准备好VEIRFOO粉水光油霜（盖子盖好，标签朝前）。尽量在户外阳光下拍摄。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Kalau bisa, rekam di luar ruangan dengan cahaya matahari."
  },
  "shots": [
   {
    "n": 1,
    "sec": 5,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。把脸转向阳光，展示皮肤看起来清透发光。保持自然微笑，眼神看向镜头。手机轻轻左右晃动。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Putar wajahmu ke arah matahari, tunjukkan kulitmu yang bening dan glowing. Senyum alami, tatap lensa. Goyangkan HP-mu pelan-pelan ke kiri dan kanan."
+    "zh": "坐在草地上，手机当相机，手臂伸直自拍。把脸转向阳光，让光线扫过脸颊。自然微笑，展示清透发光的肌肤。手机轻轻左右晃动，保持自然。",
+    "id": "Duduk di rumput, rekam diri sendiri dengan HP. Hadapkan wajah ke arah matahari, biarkan cahaya menyapu pipi. Senyum alami, tunjukkan kulit yang bening dan glowing. Goyangkan HP perlahan ke kiri dan kanan, biar terlihat natural."
    },
    "lines": "Guys, lihat deh! Kulitku pas kena sinar matahari langsung, tetap kelihatan bening dan glowing."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。先看着镜头，然后用手指轻触脸颊，指向痘痕和干燥的地方。最后把手放下，把脸转向阳光，展示皮肤发光。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, sentuh pipimu dengan jari, tunjukkan bekas jerawat dan area kering. Terakhir, turunkan tanganmu, putar wajahmu ke arah matahari, tunjukkan kulitmu yang glowing."
+    "zh": "继续坐在草地上，手机自拍。先看镜头带着浅笑。然后，用手指轻触右脸颊，移向 Jawline。用手指轻敲左脸颊一次，仿佛在认可什么。最后，放下手，脸朝向太阳，展示发光的肌肤。自然微笑。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Awalnya, lihat kamera dengan senyum tipis. Lalu, sentuh pipi kanan dengan jari, gerakkan ke arah rahang. Ketuk pipi kiri sekali dengan jari, seperti mengakui sesuatu. Terakhir, turunkan tangan, hadapkan wajah ke matahari, tunjukkan kulit yang glowing. Senyum alami."
    },
    "lines": "Dulu kulitku ada bekas jerawat sama noda. Bekasnya udah hampir nggak kelihatan, cuma di sini agak kering, ada bruntusan dikit. Terus di sini habis makan pedas, muncul satu jerawat. Tapi lihat, kulitku jadi glowing banget."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。先看着镜头，然后把产品举到脸颊旁边，盖子盖好，标签朝向镜头。接着打开盖子，挤出一点乳液到脸颊上，然后用手指快速抹开，让它吸收。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Kemudian, buka tutupnya, peras sedikit losion ke pipimu, lalu usapkan cepat dengan jari sampai meresap."
+    "zh": "继续坐在草地上，手机自拍。先看镜头，同时轻轻点头。然后，举起 VEIRFOO Pink Bling Bling Cream 产品在脸颊旁，盖子仍然盖着，标签朝向镜头。拔开盖子，然后涂抹少量粉色液体乳液到右脸颊。立即用手指抹匀，直到吸收，肌肤看起来发光。手机轻轻晃动。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Awalnya, lihat kamera sambil mengangguk kecil. Lalu, angkat produk VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya masih terpasang, label menghadap kamera. Tarik tutupnya, lalu oleskan sedikit lotion pink cair ke pipi kanan. Segera ratakan dengan jari sampai menyerap dan kulit terlihat glowing. Goyangkan HP perlahan."
    },
    "lines": "Kulit kering itu karena nggak ada minyak yang ngunci airnya. Sekarang aku cuma pakai ini: VEIRFOO Pink Bling Bling Cream, oil cream dari Korea. Keluarnya lotion pink yang cair, sekali oles langsung meleleh kayak air."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头，轻轻摇晃。然后放下产品，手指向画面左侧，示意观众截图韩国证书。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera, goyangkan sedikit. Lalu, turunkan produknya, tunjuk ke sisi kiri layar, ajak penonton untuk screenshot sertifikat Korea."
+    "zh": "继续坐在草地上，手机自拍。举起 VEIRFOO Pink Bling Bling Cream 产品在脸颊旁，盖子仍然盖着，标签朝向镜头。边说话边轻轻摇晃产品。然后，放下产品，将手移到屏幕左侧（下巴旁边），仿佛在展示什么，保持那个姿势，同时让观众截图。手机轻轻晃动。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Angkat produk VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya masih terpasang, label menghadap kamera. Goyangkan sedikit produk sambil bicara. Lalu, turunkan produk, gerakkan tangan ke sisi kiri layar (di samping dagu) seolah menunjukkan sesuatu di sana, tahan posisi itu sambil menyuruh penonton screenshot. Goyangkan HP perlahan."
    },
    "lines": "Ini brand beneran loh. Biasanya kita beli yang nggak jelas mereknya aja udah mahal. Sertifikat aslinya dari Korea aku taruh di sini ya, screenshot aja, boleh banget di-screenshot."
   },
@@ -64,10 +68,11 @@
    "n": 5,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头。然后放下产品，用手指在下巴旁边数三种肤质。最后用指尖轻拍脸颊，展示皮肤清爽不粘腻。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Lalu, turunkan produknya, hitung tiga jenis kulit dengan jari di samping dagumu. Terakhir, tepuk-tepuk pipimu dengan ujung jari, tunjukkan kulit yang bersih dan tidak lengket."
+    "zh": "继续坐在草地上，手机自拍。举起 VEIRFOO Pink Bling Bling Cream 产品在脸颊旁，盖子仍然盖着，标签朝向镜头，同时自信地点头。然后，放下产品，用手指在下巴旁边数三种肤质。最后，用两根手指轻拍右脸颊三次，然后将脸颊朝向太阳，展示发光且不粘腻的肌肤。满意地微笑。手机轻轻晃动。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Angkat produk VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya masih terpasang, label menghadap kamera, sambil mengangguk yakin. Lalu, turunkan produk, hitung tiga jenis kulit dengan jari di samping dagu. Terakhir, tepuk-tepuk pipi kanan tiga kali dengan dua jari, lalu hadapkan pipi ke matahari, tunjukkan kulit yang glowing dan tidak lengket. Senyum puas. Goyangkan HP perlahan."
    },
    "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Kulit kering, berminyak, sensitif, semua bisa pakai. Tipis aja, tepuk-tepuk, langsung nyerap, nggak lengket sama sekali."
   },
@@ -75,10 +80,11 @@
    "n": 6,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。先看着镜头，然后把产品举到脸颊旁边，盖子盖好，标签朝向镜头，轻轻倾斜产品。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera, miringkan produknya sedikit."
+    "zh": "继续坐在草地上，手机自拍。首先，充满活力地直接对着镜头说话，稍微抬起眉毛，在下巴旁边轻微摆动手。然后，举起 VEIRFOO Pink Bling Bling Cream 产品在脸颊旁，盖子仍然盖着，标签朝向镜头。稍微倾斜头部。最后，会心一笑，并将产品稍微倾斜向镜头。手机轻轻晃动。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Awalnya, bicara langsung ke kamera dengan semangat, angkat alis sedikit dan gerakkan tangan ringan di samping dagu. Lalu, angkat produk VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya masih terpasang, label menghadap kamera. Miringkan kepala sedikit. Terakhir, senyum tahu dan miringkan produk sedikit ke arah kamera. Goyangkan HP perlahan."
    },
    "lines": "Buat kamu yang bilang pengen kulitku bening, cerah, glowing, yang bilang belum nemu yang murah tapi bagus, di Korea harganya segini loh. Sekarang bandingin sama harga di aku."
   },
@@ -86,10 +92,11 @@
    "n": 7,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头。然后用手指指向画面左下角的购物车。",
-    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Lalu, tunjuk ke keranjang kuning di kiri bawah layar dengan jari."
+    "zh": "继续坐在草地上，手机自拍。举起 VEIRFOO Pink Bling Bling Cream 产品在脸颊旁，盖子仍然盖着，标签朝向镜头。温暖地微笑。然后，稍微倾斜头部，拿着产品的手的食指指向屏幕左下角。最后，愉快地点头。手机轻轻晃动。",
+    "id": "Masih duduk di rumput, rekam diri sendiri dengan HP. Angkat produk VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya masih terpasang, label menghadap kamera. Senyum hangat. Lalu, miringkan kepala sedikit, dan jari telunjuk tangan yang memegang produk menunjuk ke pojok kiri bawah layar. Terakhir, mengangguk ceria. Goyangkan HP perlahan."
    },
    "lines": "Yang mau kulit bening kayak aku, klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu, cobain deh!"
   }

@@ -2,18 +2,18 @@
  "id": "V0017",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 素颜霜",
+  "zh": "素颜霜 (Sodium DNA Firming Tone-Up Primer)",
   "id": "VEIRFOO Tone-Up Primer"
  },
  "hook": {
-  "zh": "韩国底妆真的很厉害",
-  "id": "Orang Korea jago banget soal base makeup"
+  "zh": "韩国素颜霜真的好用",
+  "id": "Base makeup Korea emang jago banget!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在卧室里拍，光线要好，比如白天靠窗。准备好VEIRFOO素颜霜。手机自拍模式，脸大概占画面一半。穿一件简单的上衣。",
-  "id": "Shooting di kamar, cari cahaya yang terang, misalnya deket jendela pas siang. Siapin produk VEIRFOO Tone-Up Primer. Rekam pakai kamera depan, pegang HP-nya deket aja biar muka kamu kelihatan setengah layar. Pakai baju atasan yang simpel."
+  "zh": "VEIRFOO 素颜霜。素颜，脸上没化妆。",
+  "id": "Produk VEIRFOO Tone-Up Primer. Muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 11,
    "talk": true,
    "face": {
-    "zh": "素颜，脸上什么都没涂",
-    "id": "Muka bersih, belum pakai apa-apa"
+    "zh": "素颜，脸颊有点暗沉",
+    "id": "Muka bersih, pipi agak kusam"
    },
    "do": {
-    "zh": "先把一点素颜霜涂在一边脸颊上，拍开。看到效果后，做出有点惊讶的表情，然后说第一句话。接着，一边往脸上其他地方点涂素颜霜，一边举起产品，说剩下的话。",
-    "id": "Coba olesin sedikit primer ke satu sisi pipi, tepuk-tepuk sampai rata. Pas lihat hasilnya, kamu bisa tunjukin ekspresi kaget, terus bilang kalimat pertama. Sambil ngomong kalimat kedua dan ketiga, kamu bisa pegang produknya di sebelah muka sambil olesin primernya ke seluruh wajah."
+    "zh": "先在半边脸颊上涂抹产品，对比一下效果，做出惊喜的表情。然后，把产品点涂在全脸，同时把产品举到脸颊旁边给镜头看。",
+    "id": "Kamu bisa coba pakai primer di sebelah pipi dulu, terus kaget lihat hasilnya yang lebih cerah. Setelah itu, baru pakai di seluruh muka sambil tunjukkin produknya di samping pipi kamu."
    },
    "lines": "Astaga… beneran sih, orang Korea emang jago banget soal base makeup! Baru makeup dikit udah cakey, nggak makeup malah kelihatan kusam… Makanya wajib cobain VEIRFOO Tone-Up Primer dari Korea. Aku suka banget hasilnya!"
   },
@@ -35,12 +35,12 @@
    "sec": 15,
    "talk": true,
    "face": {
-    "zh": "全脸已经涂好素颜霜",
-    "id": "Muka sudah rata pakai tone-up primer"
+    "zh": "全脸已涂好素颜霜，肤色均匀提亮",
+    "id": "Muka sudah rata pakai primer, kelihatan cerah"
    },
    "do": {
-    "zh": "开始时，把产品举在脸旁边，说第一句话。然后，可以在手背上展示一下质地，说第二句话。指指自己的脸颊，展示效果，说第三句话。最后，再次举起产品，有活力地说完最后两句。",
-    "id": "Mulai dengan pegang produk di samping muka sambil bilang kalimat pertama. Terus, kamu bisa tunjukin teksturnya di punggung tangan sambil ngomong kalimat kedua. Tunjuk pipi kamu buat nunjukkin hasilnya, lalu bilang kalimat ketiga. Terakhir, pegang lagi produknya dan ucapin dua kalimat terakhir dengan semangat."
+    "zh": "举着产品管，自信地对着镜头说话。然后，在手背上展示一下它的质地，再把产品举到脸颊旁，做出最后的推荐动作。",
+    "id": "Pegang produknya di samping muka sambil jelasin. Kamu bisa tunjukkin teksturnya di punggung tangan, terus pegang lagi di dekat pipi sambil ajak penonton buat coba."
    },
    "lines": "Satu tube ini punya tiga kandungan brightening dan multi-peptide, ibarat vitamin buat kulit. Lihat deh, creamy banget teksturnya! Lihat deh, kulitku berasa tetap flawless! Satu tube ini punya empat fungsi sekaligus: primer, tone-up, cover, dan glow. Original Korea, harganya cuma segini. Cek keranjang kuning di bawah, ya!"
   }

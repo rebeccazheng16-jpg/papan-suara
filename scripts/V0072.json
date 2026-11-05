@@ -2,7 +2,7 @@
  "id": "V0072",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 鎏金蛋白膜 Golden Mask",
+  "zh": "鎏金蛋白膜 Golden Mask",
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
@@ -12,21 +12,22 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内光线明亮的地方拍摄。背景要干净整洁。确保产品（带盖）标签朝向镜头。手机举到脸部高度，让脸部占据画面一半。穿休闲服装。",
-  "id": "Ambil video di dalam ruangan dengan cahaya terang. Pastikan latar belakang rapi. Pegang produk (dengan tutup) agar labelnya menghadap kamera. Angkat HP setinggi wajah, agar wajahmu memenuhi setengah bingkai. Pakai baju santai."
+  "zh": "VEIRFOO鎏金蛋白膜（盖子盖好，标签朝前）；干净的脸，没有化妆。",
+  "id": "VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera); wajah bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上敷着一层薄薄的金色面膜，已经干了",
-    "id": "Wajah sudah dilapisi masker tipis warna emas muda yang sudah kering"
+    "zh": "脸上敷着一层薄薄的香槟金色半透明面膜，已完全干燥。",
+    "id": "Wajah sudah dilapisi masker tipis transparan warna emas sampanye, sudah kering total."
    },
    "do": {
-    "zh": "用指尖捏住发际线处的面膜边缘，从额头到下巴一次性撕下整片面膜。面膜要保持完整，不要撕裂。同时发出清脆的撕裂声。带着惊讶的表情说台词。",
-    "id": "Jepit ujung masker di garis rambut dengan ujung jari, lalu tarik seluruh masker dari dahi sampai dagu dalam satu gerakan. Pastikan maskernya tetap utuh, jangan sampai sobek. Buat suara robekan yang jelas. Ucapkan baris ini dengan ekspresi terkejut."
+    "zh": "用两只手的手指捏住发际线处的面膜边缘，从额头到下巴，一次性将整张面膜撕下来。面膜要保持完整，不能撕裂。看着镜头，带着惊喜的表情说。",
+    "id": "Dengan ujung jari kedua tangan, cubit ujung masker di garis rambut dan tarik seluruh masker dari dahi ke dagu dalam satu tarikan bersih. Masker harus tetap utuh, tidak boleh sobek. Lihat ke kamera, dengan ekspresi terkejut, lalu bicara."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti ke produk yang sama, kulitku tampak lebih cerah, halus kayak telur kupas. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Golden Mask dari Korea ini."
   },
@@ -34,10 +35,14 @@
    "n": 2,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "干净的脸，没有化妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "将产品管和外盒举到脸颊旁边，与脸部同高，让产品和脸部同时出现在画面中。产品正面朝向镜头。带着更兴奋的语气说台词。",
-    "id": "Pegang tube produk dan kotak di samping pipimu setinggi wajah, agar produk dan wajahmu terlihat bersamaan. Hadapkan bagian depan produk ke kamera. Ucapkan baris ini dengan nada yang lebih bersemangat."
+    "zh": "身体稍微斜向镜头，表情充满活力。先抬手指向画面上方，再放下手，然后抬另一只手指向画面下方。看着镜头，像给朋友建议一样自信地说。",
+    "id": "Badan sedikit serong ke kamera, ekspresi bersemangat. Angkat tangan dan tunjuk ke atas, lalu turunkan tangan dan angkat tangan lain untuk menunjuk ke bawah. Lihat ke kamera, bicara dengan nada percaya diri seperti memberi tips ke teman."
    },
    "lines": "Umur tiga puluhan mulai muncul garis senyum, atau muka kusam kekuningan — pakai ini aja. Ini beneran harta karun buat kulit, rasanya kayak perawatan ala klinik Korea."
   },
@@ -45,10 +50,14 @@
    "n": 3,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "干净的脸，没有化妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "对着镜头微笑，眼睛也带着笑意。皮肤看起来更亮、更均匀、更光滑。嘴唇保持闭合，用画外音说台词。",
-    "id": "Senyum ke kamera, matamu juga ikut tersenyum. Kulitmu terlihat lebih cerah, rata, dan halus. Tetap tutup mulutmu, ucapkan baris ini sebagai sulih suara."
+    "zh": "用刷子从打开的管子里取少量面膜。如果用三脚架，可以拍特写。然后把面膜均匀地刷在脸上，避开眼周。最后，用双手捧住脸，面膜已经变成薄薄的香槟金色半透明膜。看着镜头，带着微笑说。",
+    "id": "Dengan kuas, ambil sedikit masker dari tube yang terbuka. Kalau pakai tripod, bisa ambil close-up tangan. Lalu, oleskan masker secara merata ke seluruh wajah, hindari area mata. Terakhir, tangkupkan wajah dengan kedua tangan, masker sudah mengering menjadi lapisan tipis transparan warna emas sampanye. Lihat ke kamera, bicara sambil tersenyum."
    },
    "lines": "Niacinamide, PDRN, Bifida Ferment — kandungannya sebanyak itu, teksturnya tetep silky banget. Pas dioles masih putih, lama-lama kolagennya menyerap, jadi lapisan tipis warna emas muda."
   },
@@ -56,10 +65,14 @@
    "n": 4,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "干净的脸，没有化妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "将产品管从身后拿出来，举到脸颊旁边，就像揭示一个秘密一样。产品正面朝向镜头。说完台词后，闭上嘴唇，自然微笑。",
-    "id": "Ambil tube produk dari belakang punggungmu, lalu angkat di samping pipimu seperti sedang menunjukkan rahasia. Hadapkan bagian depan produk ke kamera. Setelah mengucapkan baris ini, tutup mulutmu dan senyum alami."
+    "zh": "一只手拿着产品盒子，另一只手拿着产品管，盖子盖好，标签朝前，放在脸颊旁边，让脸和产品都在画面里。如果用三脚架，可以拍特写。然后用刷子把少量面膜刷在手背上。最后，看着镜头，身体稍微前倾，指向画面左下方，带着微笑说。",
+    "id": "Satu tangan memegang kotak produk, tangan lain memegang tube produk (tutup terpasang, label menghadap kamera), letakkan di samping pipi agar wajah dan produk terlihat dalam frame. Kalau pakai tripod, bisa ambil close-up tangan. Lalu, dengan kuas, oleskan sedikit masker ke punggung tangan. Terakhir, lihat ke kamera, condongkan badan sedikit ke depan, tunjuk ke kiri bawah frame, bicara sambil tersenyum."
    },
    "lines": "Versi upgrade-nya sekarang ada kilau emas halus di dalamnya, buat kado atau dipakai sendiri sama-sama cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

@@ -6,24 +6,25 @@
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "回复粉丝评论：受害者自拍",
-  "id": "korban LS 回评自拍"
+  "zh": "回复粉丝评论：VEIRFOO受害者？",
+  "id": "Balas komentar follower: Korban VEIRFOO?"
  },
  "src": "TikTok @nnyimasske2",
  "cam": "user",
  "prep": {
-  "zh": "在卧室里，暖光，手持手机自拍。穿日常休闲服。脸部保持干净，没有涂任何东西。",
-  "id": "Di kamar tidur, cahaya hangat, selfie pakai HP. Pakai baju santai sehari-hari. Wajah bersih, belum pakai apa-apa."
+  "zh": "素颜，准备好VEIRFOO粉水光油霜（盖子盖好）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Pink Bling Bling Cream (tutupnya terpasang)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸凑近镜头，大概占画面一半。脸稍微侧向一边，在画面左边三分之一处，眼睛看向镜头。一开始笑一下，有点不相信的样子，然后用食指指向上方，好像在指一个评论。然后手张开，手指散开，好像在展示什么闪光的东西，脸稍微转向另一边，带着自然的笑容。最后头稍微倾斜，看起来很开心。",
-    "id": "Dekatkan wajah ke kamera, sekitar setengah frame. Wajah agak miring ke satu sisi, di sepertiga kiri frame, mata melihat ke lensa. Awalnya tertawa kecil, tidak percaya, lalu tunjuk ke atas seolah menunjuk komentar. Lalu tangan terbuka, jari-jari menyebar, seolah menunjukkan sesuatu yang bersinar, wajah sedikit berbalik ke arah lain, dengan senyum alami. Terakhir, miringkan kepala sedikit, terlihat senang."
+    "zh": "看着镜头，先笑一下表示不相信，然后用一根手指指向上方（好像在指评论）。接着，手张开在脸旁边做闪光的手势，好像在展示发光的皮肤，同时把脸转向光线，露出开心的笑容。",
+    "id": "Lihat ke kamera, tertawa kecil seolah tidak percaya, lalu tunjuk ke atas (seperti menunjuk komentar) dengan satu jari. Kemudian, buka tangan di samping pipi dengan jari-jari terbuka seperti menunjukkan sesuatu yang bersinar, sambil putar wajah ke arah cahaya dan tersenyum senang."
    },
    "lines": "Korban VEIRFOO? Ya ampun, kirain korban VEIRFOO tuh kayak gimana. Pas lihat foto yang kamu kirim, wah, menurutku wajahmu glowing banget sampai kinclong, cantik banget!"
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸凑近镜头，大概占画面一半。脸稍微侧向一边，在画面右边三分之一处，眼睛看向镜头。一开始说话的时候，一只手把产品举到脸旁边，盖子盖好，正面朝向镜头。然后把产品晃动两下，带着一点骄傲的笑容。最后一句短话的时候，把脸转向另一边，稍微抬起下巴，让光线扫过脸颊，展示出水润的光泽，带着自然的笑容。产品一直举在脸旁边，正面朝向镜头。",
-    "id": "Dekatkan wajah ke kamera, sekitar setengah frame. Wajah agak miring ke satu sisi, di sepertiga kanan frame, mata melihat ke lensa. Dari awal bicara, satu tangan mengangkat produk di samping pipi, tutup tertutup, bagian depan menghadap kamera. Lalu goyangkan tube dua kali di samping pipi dengan senyum bangga. Pada kalimat pendek terakhir, putar wajah ke arah lain dan angkat dagu sedikit, biarkan cahaya menyinari pipi dan menunjukkan kilau dewy yang segar, dengan senyum alami. Tube tetap dipegang di samping pipi sepanjang waktu, bagian depan menghadap kamera."
+    "zh": "从第一句话开始，把产品举到脸旁边，盖子盖好，正面朝向镜头。说产品名字时，把产品稍微倾斜一下。然后，把产品在脸旁边轻轻摇晃两次，带着一点骄傲的笑容。最后，把脸转向光线，抬起下巴，展示发光的皮肤，产品一直举在脸旁边。",
+    "id": "Dari kalimat pertama, angkat produk di samping pipi setinggi wajah, tutupnya terpasang, bagian depan menghadap kamera. Saat menyebut nama produk, miringkan sedikit. Lalu, goyangkan produk dua kali di samping pipi dengan senyum bangga. Terakhir, putar wajah ke arah cahaya dan angkat dagu sedikit untuk menunjukkan kulit yang glowing, produk tetap dipegang di samping pipi."
    },
    "lines": "Kak sayang, aku juga pakai yang ini: VEIRFOO Pink Bling Bling Cream, oil cream pink dari Korea. Udah beli lagi sampai tube ketiga, pokoknya nggak bakal gagal deh. Lihat nih."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸凑近镜头，大概占画面一半。脸稍微侧向一边，在画面左边三分之一处，眼睛看向镜头。一开始说话的时候，一只手的手指在脸旁边轻轻打圈，一层又一层，不要碰到皮肤，头稍微摇一下，带着一点无奈的笑容。说到皮肤干燥暗沉的时候，手放下。然后对着镜头说话，带着一点心照不宣的点头和半笑，好像在分享秘密，头稍微转向另一边。",
-    "id": "Dekatkan wajah ke kamera, sekitar setengah frame. Wajah agak miring ke satu sisi, di sepertiga kiri frame, mata melihat ke lensa. Pada kalimat pertama, ujung jari satu tangan melingkar ringan di udara di samping pipi, lapis demi lapis, jangan menyentuh kulit, dengan sedikit gelengan kepala lelah dan senyum tipis. Saat bicara tentang kulit kering dan kusam, tangan turun. Pada kalimat kedua, bicara ke lensa dengan anggukan kecil penuh pengertian dan senyum tipis, seperti berbagi rahasia, dan miringkan kepala sedikit ke arah lain."
+    "zh": "用一根手指在脸旁边轻轻画圈，好像在涂抹很多层，同时轻轻摇头，带着一点无奈的笑容。说到皮肤干燥暗沉时，手放下。然后，看着镜头，点点头，带着一点神秘的笑容，好像在分享秘密，同时把头稍微转向另一边。",
+    "id": "Dengan satu jari, putar-putar ringan di udara di samping pipi, seolah mengaplikasikan lapisan demi lapisan, sambil geleng-geleng kepala kecil dengan senyum tipis. Saat bicara tentang kulit kering dan kusam, turunkan tangan. Lalu, bicara ke kamera dengan anggukan kecil dan senyum tipis, seperti berbagi rahasia, dan miringkan kepala sedikit ke arah lain."
    },
    "lines": "Dulu aku pakai toner sama pelembap berlapis-lapis, wajah tetap kering, tetap kusam. Ternyata bukan airnya yang kurang, tapi nggak ada minyak yang ngunci airnya."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 13,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸凑近镜头，大概占画面一半。脸稍微侧向一边，在画面右边三分之一处，眼睛看向镜头。一只手拿着打开的产品在脸旁边，喷嘴朝上。说完第一句话后，喷嘴靠近脸颊，挤出一小点米粒大小的粉色乳液。然后把产品放下，用同一只手的一个指尖轻轻抹开，乳液会立刻吸收。然后用两个指尖轻拍脸颊三下，脸稍微转向光线，带着满意的笑容。然后把产品重新举到脸旁边，正面朝向镜头，坚定地点一下头。最后，把产品稍微倾斜三次，每次倾斜都代表一种肤质，带着自然的笑容。",
-    "id": "Dekatkan wajah ke kamera, sekitar setengah frame. Wajah agak miring ke satu sisi, di sepertiga kanan frame, mata melihat ke lensa. Satu tangan memegang produk yang sudah terbuka di samping wajah, nozzle di atas. Setelah kalimat pertama selesai, nozzle menyentuh pipi dan memencet keluar satu titik kecil lotion pink cair seukuran butir beras. Lalu turunkan tube, dan dengan jari yang sama, usap titik itu sekali dan langsung meresap. Lalu dua ujung jari menepuk pipi yang sama tiga kali dengan cepat dan ringan, dan putar pipi sedikit ke arah cahaya dengan senyum puas. Lalu angkat lagi produk di samping pipi setinggi wajah, bagian depan menghadap kamera, dengan anggukan yakin. Terakhir, miringkan tube sedikit ke arah lensa tiga kali, satu kali untuk setiap jenis kulit, dengan senyum alami."
+    "zh": "拿着打开盖子的产品在脸旁边，慢慢把管口靠近脸颊，直到说完第一句话。然后，把一粒米大小的粉色乳液挤到脸颊上。放下产品，用指尖轻轻抹开，再轻拍脸颊三次，然后把产品重新举到脸旁边。最后，把产品向镜头倾斜三次，每次倾斜都代表一种肤质。",
+    "id": "Pegang produk yang sudah dibuka di samping wajah, perlahan dekatkan ujungnya ke pipi sampai kalimat pertama selesai diucapkan. Lalu, keluarkan satu titik kecil lotion pink seukuran sebutir beras ke pipi. Turunkan produk, lalu dengan ujung jari, usap sekali dan tepuk-tepuk pipi tiga kali, lalu angkat kembali produk di samping pipi. Terakhir, miringkan produk sedikit ke arah kamera tiga kali, satu kali untuk setiap jenis kulit."
    },
    "lines": "Keluarnya lotion pink yang cair, sekali oles langsung meleleh kayak air. Tipis aja, tepuk-tepuk, langsung nyerap, nggak lengket sama sekali. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Kulit kering, berminyak, sensitif, semua bisa pakai."
   },
@@ -64,10 +68,11 @@
    "n": 5,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸凑近镜头，比之前更近，脸部充满画面。脸慢慢转向一边再转向另一边，让光线扫过额头、鼻梁和颧骨，展示出水润的光泽，眼睛看向镜头，带着骄傲的笑容，问问题的时候眉毛稍微抬一下。然后稍微往后退一点，脸稍微侧向一边，在画面左边三分之一处，一只手把产品举到脸旁边，盖子盖好，正面朝向镜头，带着一点心照不宣的笑容。然后拿着产品的手的食指指向画面左下角，产品保持稳定在脸旁边。最后说话的时候，开心地小点一下头，带着温暖的笑容。",
-    "id": "Dekatkan wajah ke kamera, lebih dekat dari sebelumnya, wajah memenuhi frame. Putar wajah perlahan ke satu sisi lalu ke sisi lain agar cahaya menyapu dahi, batang hidung, dan tulang pipi, menunjukkan kilau dewy yang segar, mata melihat ke lensa dengan senyum bangga, dan sedikit mengangkat alis saat bertanya. Lalu mundur sedikit ke tampilan tiga perempat dengan wajah agak miring ke satu sisi dan ditempatkan di sepertiga kiri frame, dan satu tangan mengangkat produk di samping pipi setinggi wajah, tutup tertutup, bagian depan menghadap kamera, dengan senyum kecil penuh pengertian. Lalu jari telunjuk tangan yang memegang tube menunjuk ke sudut kiri bawah frame, sementara tube tetap stabil di samping pipi. Dan pada kata terakhir, berikan anggukan kecil ceria dengan senyum hangat yang mencapai mata."
+    "zh": "把脸凑近镜头，让脸充满画面，然后慢慢左右转动脸，让光线扫过额头、鼻梁和颧骨，展示发光的皮肤，带着骄傲的笑容。然后，把脸稍微拉远，把产品举到脸旁边，盖子盖好，正面朝向镜头，带着一点会心的笑容。最后，用拿着产品的手指向左下角，同时点头，带着开心的笑容。",
+    "id": "Dekatkan wajah ke kamera sampai memenuhi frame, lalu putar wajah perlahan ke kiri dan kanan agar cahaya menyapu dahi, batang hidung, dan tulang pipi, menunjukkan kulit yang glowing, dengan senyum bangga. Lalu, mundurkan wajah sedikit, pegang produk di samping pipi, tutupnya terpasang, bagian depan menghadap kamera, dengan senyum tipis. Terakhir, dengan tangan yang memegang produk, tunjuk ke arah kiri bawah, sambil mengangguk dengan senyum ceria."
    },
    "lines": "Coba lihat wajahku, sekarang glowing banget, kan? Di Korea harganya segini loh. Kalian wajib checkout! Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

@@ -6,24 +6,25 @@
   "id": "SICENARI Micro Repair Collagen Shot Mask"
  },
  "hook": {
-  "zh": "免税店货架前单手转管看正背面",
-  "id": "Di depan rak duty-free, satu tangan memutar kemasan untuk melihat depan dan belakang"
+  "zh": "免税店购物分享",
+  "id": "Shopping haul dari duty-free"
  },
  "src": "TikTok @sasaaa_",
  "cam": "user",
  "prep": {
-  "zh": "在光线明亮、干净的背景前拍摄，比如免税店的货架。确保只有一只手出镜，不露脸。产品是SICENARI面膜袋，确保是密封的，标签朝向镜头。",
-  "id": "Rekam di depan latar belakang yang terang dan bersih, seperti rak toko bebas bea. Pastikan hanya satu tangan yang terlihat, tanpa wajah. Produknya adalah kemasan masker SICENARI, pastikan masih tersegel, dengan label menghadap kamera."
+  "zh": "SICENARI 袋装面膜，未开封",
+  "id": "Masker SICENARI kemasan pouch, masih tersegel. Kalau bisa, pakai tripod supaya tangan dua-duanya bebas."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着沉甸甸的密封面膜袋，正面朝向镜头，手腕轻轻转动袋子，让银色箔纸在光线下闪烁。然后慢慢抬高袋子，轻轻弹一下，让里面的精华液晃动。最后，慢慢把袋子转到背面，保持稳定。",
-    "id": "Pegang kemasan masker yang tersegel dan berat dengan satu tangan, bagian depan menghadap kamera. Putar pergelangan tanganmu perlahan agar kemasan perak berkilau di bawah cahaya. Lalu angkat kemasan sedikit lebih tinggi dan pantulkan perlahan di telapak tanganmu agar esens di dalamnya bergerak. Terakhir, putar kemasan perlahan hingga bagian belakang menghadap kamera dan tahan dengan stabil."
+    "zh": "一只手拿着未开封的 SICENARI 袋装面膜，正面朝向镜头，让它在手掌中轻轻晃动，展示它的重量和饱满。然后慢慢转动，展示面膜的背面。全程保持一个连续镜头，不要剪切。",
+    "id": "Pegang masker SICENARI pouch yang masih tersegel dengan satu tangan, bagian depan menghadap kamera. Goyang-goyangkan sedikit di telapak tangan untuk menunjukkan berat dan isinya yang penuh. Lalu putar perlahan untuk menunjukkan bagian belakang masker. Rekam ini dalam satu kali pengambilan tanpa putus."
    },
    "lines": ""
   }

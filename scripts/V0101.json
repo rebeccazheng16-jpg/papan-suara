@@ -7,23 +7,26 @@
  },
  "hook": {
   "zh": "伪素颜神器·早上快速出门",
-  "id": "Produk rahasia untuk tampilan no-makeup makeup, cepat siap-siap di pagi hari"
+  "id": "Andalan makeup no-makeup buat cepat-cepat pergi pagi"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前，光线要好，产品标签朝前。穿日常出门的衣服。手机拿稳，脸部占画面一半。",
-  "id": "Siapkan di meja rias, pastikan cahaya bagus. Produk VEIRFOO Purple Tube tutupnya tertutup, label menghadap kamera. Pakai baju santai untuk keluar rumah. Pegang HP stabil, wajahmu penuhi setengah layar."
+  "zh": "准备 VEIRFOO 紫管素颜霜。还需要5个没有牌子的空瓶子（水、乳、隔离、素颜霜、粉底），一支没有牌子的白色软管，一支裸粉色口红，和一支普通洗面奶。开始时脸上没有化妆。",
+  "id": "Siapin VEIRFOO Purple Tube. Perlu juga 5 botol kosong tanpa merek (toner, pelembap, primer, tone-up, foundation), 1 tube putih polos, 1 lipstik warna nude-pink, sama sabun cuci muka biasa. Mulai dengan muka bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka bersih"
+   },
    "do": {
-    "zh": "脸部特写，从额头到下巴。一开始脸是素颜的。从第一秒开始，把产品挤到脸颊上，用手指快速涂抹。涂抹的区域会立刻变亮。继续快速涂抹半边脸。看着镜头，兴奋地说。",
-    "id": "Ambil close-up wajahmu, dari dahi sampai bawah dagu. Awalnya wajahmu polos. Dari detik pertama, pencet produk ke pipimu, lalu ratakan cepat dengan jari. Area yang diolesi akan langsung terlihat lebih cerah. Terus ratakan cepat di separuh wajahmu. Lihat ke kamera, bicara dengan semangat."
+    "zh": "先给镜头看你的素颜。然后把紫管素颜霜挤一点在半边脸上，快速抹开。然后指一下抹了的这边，再指一下没抹的那边，做出很惊喜的表情。",
+    "id": "Mulai dengan muka bersih. Kamu bisa pencet sedikit krim Purple Tube ini ke separuh muka, terus ratain cepat. Setelah itu, tunjuk bagian yang udah dipakai, terus tunjuk bagian yang belum, sambil pasang ekspresi kaget."
    },
    "lines": "VEIRFOO Purple Tube, krim yang bikin kamu bisa tidur sepuluh menit lebih lama tiap pagi. Lihat, sisi yang dipakai ini buatku lebih glowing, sisi satunya kusam dan kekuningan."
   },
@@ -32,12 +35,12 @@
    "sec": 7,
    "talk": true,
    "face": {
-    "zh": "半边脸已经涂好产品，另一半素颜。",
-    "id": "Separuh wajah sudah pakai produk, separuh lagi polos."
+    "zh": "全脸涂好紫管素颜霜",
+    "id": "Seluruh muka sudah pakai Purple Tube"
    },
    "do": {
-    "zh": "脸部特写，看着镜头。涂好产品的那半边脸是亮的，另一半是暗的。用食指轻拍亮的脸颊，然后跳到暗的脸颊，眉毛兴奋地扬起。用画外音说。",
-    "id": "Ambil close-up wajahmu, lihat ke kamera. Separuh wajah yang sudah pakai produk terlihat glowing, separuh lagi kusam. Ketuk pipi yang glowing dengan jari telunjuk, lalu pindah ke pipi yang kusam, angkat alis dengan semangat. Ucapkan ini sebagai voiceover."
+    "zh": "先把紫管立在桌上，然后把另外5个空瓶子一个一个快速地放在它旁边。然后把镜头转回你的脸，摸一下脸颊，笑一笑。",
+    "id": "Taruh Purple Tube di meja, terus jejerin 5 botol kosong lainnya di sebelahnya satu per satu dengan cepat. Habis itu, arahin kamera lagi ke muka kamu, sentuh pipi sedikit sambil senyum."
    },
    "lines": "Satu tube ini gantiin toner, pelembap, primer, tone-up, sekaligus foundation. Sekali dibaur, buatku langsung kelihatan kayak pakai ring light, kayak glass skin ala Korea."
   },
@@ -45,10 +48,13 @@
    "n": 3,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka bersih"
+   },
    "do": {
-    "zh": "脸部特写，从额头到下巴。看起来很困，眼睛半闭。涂抹其他面霜，面霜会搓泥，看起来厚重、斑驳、像面具。轻轻叹气，然后说。",
-    "id": "Ambil close-up wajahmu, dari dahi sampai bawah dagu. Terlihat mengantuk, mata setengah tertutup. Oleskan krim lain, krimnya menggumpal dan terlihat tebal, belang-belang, seperti topeng. Hela napas pelan, lalu bicara."
+    "zh": "先假装很困，在脸上乱涂别的面霜，搓出泥来，看起来很厚重。然后，镜头对着你精神的样子，拿着紫管素颜霜在脸旁边。最后涂上口红，准备出门。",
+    "id": "Pertama, akting ngantuk sambil pakai krim lain di muka sampai nge-gumpal dan kelihatan tebal. Terus, ganti ke ekspresi segar sambil pegang Purple Tube di sebelah muka. Terakhir, pakai lipstik dan siap-siap pergi."
    },
    "lines": "Nggak perlu bangun pagi buat pakai lapis demi lapis, yang ujungnya menggumpal dan kayak topeng. Hasilnya lebih ringan dari foundation, lebih rapi dari tone-up biasa, tinggal pakai lipstik langsung berangkat."
   },
@@ -56,13 +62,10 @@
    "n": 4,
    "sec": 8,
    "talk": true,
-   "face": {
-    "zh": "脸部干净，素颜。",
-    "id": "Wajah bersih, polos."
-   },
+   "face": null,
    "do": {
-    "zh": "脸部特写，脸部干净，素颜。用指尖轻按脸颊，然后咧嘴笑。说。",
-    "id": "Ambil close-up wajahmu, wajah bersih, polos. Tekan pipimu pelan dengan ujung jari, lalu tersenyum lebar. Bicara."
+    "zh": "先把紫管素颜霜挤在手背上，抹开给镜头看质地。然后可以换个衣服和场景，对着镜头微笑，看起来很满意。",
+    "id": "Pertama, pencet krim Purple Tube ke punggung tangan terus ratain buat nunjukkin teksturnya ke kamera. Setelah itu, kamu bisa ganti baju dan lokasi, terus senyum puas ke kamera."
    },
    "lines": "Yang paling penting, ini skincare juga. Ada niacinamide, centella, dan PDRN, kulitku berasa lebih cerah dan terawat. Makin lama aku pakai, kulitku berasa makin glowing, nggak gampang kusam."
   },
@@ -71,12 +74,12 @@
    "sec": 10,
    "talk": true,
    "face": {
-    "zh": "脸部已经涂好产品，看起来完美。",
-    "id": "Wajah sudah pakai produk, terlihat sempurna."
+    "zh": "脸上涂着紫管素颜霜",
+    "id": "Muka sudah pakai Purple Tube"
    },
    "do": {
-    "zh": "脸部特写，脸部完美。一只手拿着产品放在脸颊旁边，盖子盖好，标签朝前。自信地、兴奋地轻轻点头。说。",
-    "id": "Ambil close-up wajahmu, wajahmu terlihat sempurna. Satu tangan memegang produk di samping pipimu, tutupnya tertutup, label menghadap kamera. Anggukkan kepala sedikit dengan percaya diri dan semangat. Bicara."
+    "zh": "先拍用洗面奶洗脸的镜头。然后擦干净，给镜头看洗完后干净的脸。最后回到化好妆的样子，拿着紫管素颜霜在脸旁边，自信地点点头。",
+    "id": "Pertama, rekam adegan cuci muka pakai sabun. Terus, lap sampai bersih dan tunjukkin muka bersih kamu ke kamera. Terakhir, kembali ke look makeup-an sambil pegang Purple Tube di sebelah muka dan ngangguk pede."
    },
    "lines": "Dan cukup pakai sabun cuci muka biasa udah bersih, nggak perlu ribet makeup remover. Satu tube ini bikin base makeup pagi-pagi beres dalam satu langkah, ringan, rapi, dan tetap kelihatan glowing seharian."
   },
@@ -85,12 +88,12 @@
    "sec": 8,
    "talk": true,
    "face": {
-    "zh": "脸部已经涂好产品，看起来完美。",
-    "id": "Wajah sudah pakai produk, terlihat sempurna."
+    "zh": "全脸涂好紫管素颜霜",
+    "id": "Seluruh muka sudah pakai Purple Tube"
    },
    "do": {
-    "zh": "脸部特写，脸部完美。一只手拿着产品放在脸颊旁边，盖子盖好，标签朝前。身体稍微向镜头倾斜。说。",
-    "id": "Ambil close-up wajahmu, wajahmu terlihat sempurna. Satu tangan memegang produk di samping pipimu, tutupnya tertutup, label menghadap kamera. Condongkan sedikit badan ke arah kamera. Bicara."
+    "zh": "拿着紫管素颜霜靠近镜头，推荐给大家。然后用另一只手指着左下角，好像在说‘快去买’，然后微笑。",
+    "id": "Pegang Purple Tube dekat kamera sambil merekomendasikannya. Terus, pakai jari tangan satunya buat nunjuk ke arah kiri bawah, seolah-olah bilang 'buruan beli', sambil senyum ramah."
    },
    "lines": "Yang mau base makeup cepat sebelum keluar rumah, wajib coba VEIRFOO Purple Tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

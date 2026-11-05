@@ -6,24 +6,25 @@
   "id": "VEIRFOO White Tomato Mask"
  },
  "hook": {
-  "zh": "韩国女生的发光皮肤秘诀",
-  "id": "Rahasia kulit glowing cewek Korea"
+  "zh": "白番茄面膜，韩国欧尼同款发光肌",
+  "id": "Masker tomat putih, kulit glowing ala cewek Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前拍摄。确保光线柔和，从前方照亮脸部。准备好产品，盖子盖好，标签朝向镜头。脸部在画面中占据一半左右。穿着休闲服。",
-  "id": "Syuting di depan meja rias. Pastikan cahaya lembut dari depan wajah. Siapkan produk, tutup rapat, label menghadap kamera. Wajah sekitar setengah dari frame. Pakai baju kasual."
+  "zh": "素颜，准备好VEIRFOO白番茄面膜（单片装和盒装），兰蔻小黑瓶精华，雅诗兰黛小棕瓶精华，以及一个廉价的粉色面膜（背面成分表第一行是“AIR”）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker VEIRFOO White Tomato Mask (sachet dan kotak), serum Lancôme Génifique, serum Estée Lauder Advanced Night Repair, dan satu masker pink murah (yang daftar komposisinya diawali 'AIR')."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写镜头。表情惊喜，眉毛微微上扬。一只手拿着产品放在脸颊旁边，与脸部同高，产品正面朝向镜头。另一只手的食指指向镜头，在重读的词上轻敲三次，每次敲击之间停顿半拍。语气逐渐兴奋。",
-    "id": "Ambil close-up. Ekspresi terkejut senang, alis sedikit terangkat. Satu tangan memegang produk di samping pipi setinggi wajah, produk menghadap kamera. Jari telunjuk tangan lain menunjuk ke lensa dan mengetuk tiga kali pada kata-kata yang ditekankan, jeda sebentar di antara setiap ketukan. Nada suara semakin bersemangat."
+    "zh": "惊喜地看着镜头，一只手拿着面膜袋放在脸颊边,另一只手食指点向镜头，在重音词上轻敲三次。语气越来越兴奋。",
+    "id": "Lihat ke kamera dengan ekspresi terkejut dan senang. Satu tangan pegang sachet masker di samping pipi, tangan lain tunjuk ke kamera dan ketuk tiga kali di kata-kata yang ditekankan. Bicara dengan nada makin semangat."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti ke masker yang sama, kulitku tampak lebih cerah, halus kayak telur kupas. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO White Tomato Mask dari Korea ini."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写镜头。身体向镜头转约30度，活泼地对着镜头说话。当提到年龄时，故意咧嘴笑。语气坚定，带有建议性。",
-    "id": "Ambil close-up. Tubuh menghadap kamera sekitar 30 derajat, berbicara dengan lincah ke lensa. Saat menyebutkan usia, sengaja menyeringai. Nada suara tegas dan menasihati."
+    "zh": "身体稍微侧向镜头，生动地对着镜头说话。在提到年龄时故意咧嘴笑。语气坚定，像在给出建议。",
+    "id": "Badan agak serong ke kamera, bicara ke kamera dengan semangat. Senyum lebar saat sebut umur. Nada bicara tegas, seperti memberi saran."
    },
    "lines": "Umur tiga puluhan kalau nggak dirawat rasanya cepet banget tuanya, mulai muncul garis senyum, atau muka kusam kekuningan — pakai ini aja. Ini beneran harta karun buat kulit, rasanya kayak perawatan ala klinik Korea."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 13,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "手部特写。一只手拿着便宜的粉色面膜袋，背面朝向镜头，材质又薄又软，印刷很粗糙，没有品牌标志。另一只手的手指尖放在第一行“AIR”上，用指甲轻轻敲了两下，第二次敲得更用力。语气很轻蔑，替观众担心。",
-    "id": "Ambil close-up tangan. Satu tangan memegang sachet masker pink murah, bagian belakang menghadap kamera, bahan tipis dan lembut, cetakan kasar, tanpa merek. Ujung jari tangan lain diletakkan di baris pertama \"AIR\" dan mengetuknya dua kali dengan kuku, ketukan kedua lebih keras. Nada suara mencemooh, khawatir untuk penonton."
+    "zh": "只拍双手。一只手拿着廉价粉色面膜的背面，另一只手食指指着“AIR”并轻敲两次，第二次敲得更用力。语气轻蔑，像在为观众担心。",
+    "id": "Hanya rekam kedua tangan. Satu tangan pegang bagian belakang sachet masker pink murah, tangan lain tunjuk kata 'AIR' dan ketuk dua kali, ketukan kedua lebih keras. Nada bicara sinis, seperti khawatir pada penonton."
    },
    "lines": "Masker yang komposisi nomor satunya air, mending nggak usah dipakai! Urutan pertama itu artinya kandungannya paling banyak — sama aja kayak nempelin air putih di muka, sesering apa pun dipakai ya nggak akan kerasa hasilnya."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写镜头。自信且越来越有信心。一只手从画面外拿出产品，放在脸颊旁边，与脸部同高，产品正面朝向镜头，另一只手扶住产品底部。保持稳定。强调成分名称的每个音节。",
-    "id": "Ambil close-up. Penuh percaya diri dan semakin yakin. Satu tangan mengambil produk dari luar frame dan memegangnya di samping pipi setinggi wajah, produk menghadap kamera, tangan lain menopang bagian bawahnya. Tetap stabil. Tekankan setiap suku kata dari nama bahan."
+    "zh": "自信地看着镜头。一只手拿着面膜袋放在脸颊边,另一只手扶住面膜袋底部。保持稳定。强调成分名称的每个音节。",
+    "id": "Lihat ke kamera dengan percaya diri. Satu tangan pegang sachet masker di samping pipi, tangan lain pegang bagian bawah sachet. Tetap stabil. Tekankan setiap suku kata nama bahan."
    },
    "lines": "Nah, di masker VEIRFOO ini yang nomor satu justru Bifida Ferment — kandungan inti Lancôme Génifique sama Estée Lauder ANR. Setelah aku pakai, skin barrier-ku berasa lebih kuat, kulitku juga berasa lebih kencang dan penuh."
   },
@@ -64,10 +68,11 @@
    "n": 5,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写镜头。身体向镜头转约30度。头部向镜头倾斜，眉毛微微上扬，带着自然的微笑，皮肤晶莹剔透。语气惊讶。",
-    "id": "Ambil close-up. Tubuh menghadap kamera sekitar 30 derajat. Kepala dimiringkan ke arah lensa dengan sedikit alis terangkat dan senyum alami, kulit tampak bening dan lembap. Nada suara kagum."
+    "zh": "头稍微倾斜，眉毛自然上扬，对着镜头微笑，皮肤看起来水润透亮。语气惊讶。",
+    "id": "Miringkan kepala sedikit, alis terangkat alami, senyum ke kamera, kulit terlihat bening dan lembap. Nada bicara kagum."
    },
    "lines": "Pantesan cewek Korea kulitnya glowing semua! Aku baru berani rekomendasiin setelah aku pakai sendiri. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

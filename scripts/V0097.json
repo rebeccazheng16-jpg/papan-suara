@@ -6,169 +6,57 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "韩国欧利芙洋热卖，清潭洞女孩的护肤秘密",
-  "id": "Rahasia kulit glowing cewek Cheongdam-dong yang lagi viral di Olive Young Korea!"
+  "zh": "韩国欧利芙洋热销，清潭洞女孩的护肤秘密",
+  "id": "Rahasia kulit glowing cewek Cheongdam-dong"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在白天或光线充足的房间里拍摄。背景是你的梳妆台和浴室水槽。穿一件袖子长、肩膀和手臂都遮住的衣服。产品标签朝向镜头，盖子盖好。手机举到脸部高度，让你的脸占据画面的一半。",
-  "id": "Syuting di siang hari atau di ruangan yang terang. Siapkan meja rias dan wastafel kamar mandi sebagai latar. Pakai baju lengan panjang yang sopan, menutupi bahu dan lengan. Pegang produk dengan label menghadap kamera, tutupnya terpasang. Pegang HP setinggi wajah, biar mukamu memenuhi setengah layar."
+  "zh": "产品：VEIRFOO注氧小气泡精粹液（盖子盖好，标签朝前）。素颜出镜，脸部湿润。",
+  "id": "Produk: VEIRFOO Bubble Cleanser (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup, kulit lembap."
  },
  "shots": [
   {
    "n": 1,
-   "sec": 1,
+   "sec": 14,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "用手机拍下你走向 Olive Young 商店入口的画面，就像在和朋友八卦一样，语速快而清晰。",
-    "id": "Ambil HP-mu, rekam kamu lagi jalan mendekati pintu masuk toko Olive Young. Ngomongnya kayak lagi gosip sama teman, cepat dan jelas."
+    "zh": "你可以拍视频，当你走进Olive Young店，然后走向VEIRFOO专柜。然后，你坐在梳妆台前，身体微微前倾，仿佛要透露一个秘密。当你说“Cheongdam-dong”时，稍微挑眉，并用食指在脸旁边轻敲一下。然后，将VEIRFOO产品举到脸颊旁边，标签朝向镜头，同时微微一笑。然后，特写你的手：打开产品盖子，将泵头按压一次到手掌心。然后，特写你在水槽前的脸，脸部干净湿润。精华液已经在你脸上，让你的手放在旁边，不要触碰你的脸。看着镜头，开心地笑着，看着泡沫自己冒出来。",
+    "id": "Kamu bisa rekam saat jalan masuk ke toko Olive Young, lalu jalan ke konter VEIRFOO. Lalu, kamu duduk di meja rias, condong sedikit ke depan seperti mau membocorkan rahasia. Saat bilang \"Cheongdam-dong\", angkat alis sedikit dan ketuk jari telunjuk sekali di samping wajahmu. Lalu, angkat produk VEIRFOO ke samping pipi, label menghadap kamera, sambil tersenyum tipis. Lalu, rekam close-up tanganmu: buka tutup produk, tekan pump-nya sekali ke telapak tanganmu. Lalu, rekam close-up wajahmu di wastafel, wajah bersih dan basah. Essence sudah di wajahmu, biarkan tanganmu di samping, jangan sentuh wajahmu. Lihat ke kamera sambil tersenyum senang melihat busa muncul sendiri."
    },
-   "lines": "Temenku terbang ke Korea cuma buat beli ini."
+   "lines": "Temenku terbang ke Korea cuma buat beli ini. cewek-cewek Cheongdam-dong yang langganan klinik mahal, semuanya pakai ini — VEIRFOO Bubble Cleanser. Oles ke muka yang basah, diam beberapa detik — dia berbusa sendiri, nggak perlu digosok. Busanya yang ngangkat minyak sama sel kulit mati di pori-pori."
   },
   {
    "n": 2,
-   "sec": 1,
-   "talk": false,
-   "face": null,
-   "do": {
-    "zh": "继续用手机拍摄，走进 Olive Young 商店，走到 VEIRFOO 专柜前停下。",
-    "id": "Terus rekam pakai HP, masuk ke toko Olive Young, lalu jalan sampai berhenti di depan konter VEIRFOO."
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "脸上是VEIRFOO小气泡精粹液的泡沫",
+    "id": "Wajah berbusa VEIRFOO Bubble Cleanser"
    },
-   "lines": ""
+   "do": {
+    "zh": "你可以特写你在水槽前的脸，脸上都是泡沫。弯腰到水槽前，用水冲洗你的脸。然后，抬起头，脸部干净湿润。从鼻翼轻轻擦拭到脸颊，闭上眼睛深呼吸，然后对着镜头挑眉。然后，你坐在梳妆台前，脸上已经化好妆。轻轻拍打脸颊，微微一笑，然后坚定地点头。然后，将VEIRFOO产品举到脸颊旁边，标签朝向镜头。用另一只手的食指轻敲瓶子两次。",
+    "id": "Kamu bisa rekam close-up wajahmu di wastafel, wajah berbusa. Bungkuk ke wastafel dan bilas wajahmu dengan air. Lalu, angkat kepala, wajah bersih dan basah. Usap ringan dari samping hidung ke pipi, tarik napas dalam-dalam dengan mata terpejam, lalu angkat alis ke kamera. Lalu, kamu duduk di meja rias, wajah sudah bermakeup. Tepuk-tepuk pipi ringan, senyum tipis, lalu mengangguk mantap. Lalu, pegang produk VEIRFOO di samping pipi, label menghadap kamera. Ketuk botol dua kali dengan jari telunjuk tangan yang lain."
+   },
+   "lines": "Habis dibilas, pori-pori berasa napas lega banget. siapa yang ngerti rasanya? Hidung sama pipiku berasa langsung halus, nggak kesat. Kulitku kering dan gampang sensitif, tapi ini tetap aman. Bifida Ferment ada di urutan pertama, di atas air — cek sendiri di kemasannya."
   },
   {
    "n": 3,
-   "sec": 3,
+   "sec": 14,
    "talk": true,
-   "face": null,
-   "do": {
-    "zh": "坐在梳妆台前，化好妆，皮肤看起来很透亮。身体稍微前倾，好像要说一个秘密。说到“清潭洞”时，可以稍微抬一下眉毛，用食指轻轻敲一下脸旁边。",
-    "id": "Duduk di meja rias, sudah pakai makeup lengkap dan kulit glowing. Agak condong ke depan, seperti mau membocorkan rahasia. Pas bilang \"Cheongdam-dong\", bisa sedikit angkat alis dan ketuk jari telunjuk di samping wajah."
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净",
+    "id": "Wajah bersih tanpa makeup"
    },
-   "lines": "cewek-cewek Cheongdam-dong yang langganan klinik mahal,"
-  },
-  {
-   "n": 4,
-   "sec": 2,
-   "talk": true,
-   "face": null,
    "do": {
-    "zh": "靠近一点，把产品从画面下方拿起来，放到脸颊旁边，标签朝向镜头，盖子盖好。可以带点得意地微笑。",
-    "id": "Ambil satu langkah lebih dekat. Angkat produk dari bawah frame ke samping pipi, label menghadap kamera, tutupnya terpasang. Bisa senyum sedikit dengan bangga."
+    "zh": "你可以特写你在水槽前的手，手掌心充满泡沫。用手指按压泡沫，然后松开。然后，特写你在水槽前的脸，脸部干净。看着镜头，歪头，然后认真地点头。然后，特写你的脸，已经化好妆。脸稍微倾斜，用手指触碰鼻翼然后滑到脸颊，然后满意地微笑。然后，你坐在梳妆台前。将VEIRFOO产品举到脸颊旁边，标签朝向镜头。身体微微前倾，像是在向朋友推荐，然后指向画面下方。",
+    "id": "Kamu bisa rekam close-up tanganmu di wastafel, telapak tanganmu penuh busa. Tekan busa dengan jari, lalu lepaskan. Lalu, rekam close-up wajahmu di wastafel, wajah bersih. Lihat ke kamera, miringkan kepala, lalu mengangguk serius. Lalu, rekam close-up wajahmu, sudah bermakeup. Miringkan wajah sedikit, sentuh cuping hidung dengan jari lalu geser ke pipi, lalu tersenyum puas. Lalu, kamu duduk di meja rias. Pegang produk VEIRFOO di samping pipi, label menghadap kamera. Condong sedikit ke depan seperti merekomendasikan ke teman, lalu tunjuk ke bawah frame."
    },
-   "lines": "semuanya pakai ini \n— VEIRFOO Bubble Cleanser."
-  },
-  {
-   "n": 5,
-   "sec": 1,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "特写你的手。盖子已经拿掉了。一只手按压产品泵头，挤出一泵精华到另一只手掌心。嘴巴保持闭合。",
-    "id": "Ambil close-up tanganmu. Tutupnya sudah dilepas. Satu tangan menekan pump produk, mengeluarkan satu pump essence ke telapak tangan yang lain. Bibir tetap tertutup rapat."
-   },
-   "lines": "Oles ke muka yang basah,"
-  },
-  {
-   "n": 6,
-   "sec": 5,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "在浴室水槽前，素颜，脸上刚洗过，湿润有光泽。精华已经涂在脸上。双手放在身体两侧，不要碰脸。看着镜头，看着泡沫自己慢慢变多，露出开心的表情。",
-    "id": "Di wastafel kamar mandi, muka bersih tanpa makeup, baru dibilas jadi lembap dan berkilau. Essence sudah di wajah. Tangan di samping badan, jangan sentuh wajah. Lihat ke kamera, perhatikan busanya mengembang sendiri, tunjukkan ekspresi senang."
-   },
-   "lines": "diam beberapa detik \n— dia berbusa sendiri, nggak perlu digosok. Busanya yang ngangkat minyak sama sel kulit mati di pori-pori."
-  },
-  {
-   "n": 7,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "在浴室水槽前，素颜。弯腰用双手泼水洗脸，把泡沫冲掉。水会从下巴滴下来。嘴巴保持闭合。",
-    "id": "Di wastafel kamar mandi, muka bersih tanpa makeup. Bungkuk dan basuh wajahmu dengan air, bilas busanya. Air akan menetes dari dagu. Bibir tetap tertutup rapat."
-   },
-   "lines": "Habis dibilas, pori-pori berasa napas lega banget."
-  },
-  {
-   "n": 8,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "抬起头，皮肤干净湿润。用指腹轻轻从鼻子旁边滑到脸颊，深吸一口气，眼睛微闭，然后对着镜头挑一下眉毛，好像在问观众有没有这种感觉。",
-    "id": "Angkat kepala, kulit bersih dan lembap. Usap lembut dari samping hidung ke pipi, tarik napas dalam-dalam dengan mata sedikit terpejam, lalu angkat alis ke kamera seolah bertanya apakah penonton merasakan hal yang sama."
-   },
-   "lines": "siapa yang ngerti rasanya? Hidung sama pipiku berasa langsung halus, nggak kesat."
-  },
-  {
-   "n": 9,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "在梳妆台前，化好妆，皮肤透亮。用指腹轻轻拍打双颊，露出一个有点无奈的微笑，好像在说“我的皮肤很难搞”，然后坚定地点点头。",
-    "id": "Di meja rias, sudah pakai makeup lengkap dan kulit glowing. Tepuk-tepuk pipi dengan ujung jari, senyum tipis seolah bilang \"kulitku susah diatur\", lalu angguk mantap."
-   },
-   "lines": "Kulitku kering dan gampang sensitif, tapi ini tetap aman."
-  },
-  {
-   "n": 10,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "一只手拿着产品，放到脸颊旁边，让脸和产品一起出现在画面里，标签朝向镜头，盖子盖好。另一只食指轻敲瓶身两次。嘴巴保持闭合。",
-    "id": "Pegang produk di samping pipi, biar wajah dan produk sama-sama di frame, label menghadap kamera, tutupnya terpasang. Jari telunjuk yang lain ketuk botol dua kali. Bibir tetap tertutup rapat."
-   },
-   "lines": "Bifida Ferment ada di urutan pertama, di atas air \n— cek sendiri di kemasannya."
-  },
-  {
-   "n": 11,
-   "sec": 4,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "特写你的手。手掌和手背上都是浓密的白色泡沫。用一只手的指腹轻轻按压另一只手背上的泡沫，留下一个柔软的凹痕，然后慢慢弹回来，就像刚打发好的奶油一样。嘴巴保持闭合。",
-    "id": "Ambil close-up tanganmu. Telapak dan punggung tangan penuh busa putih kental. Tekan lembut busa di punggung tangan dengan ujung jari tangan yang lain, tinggalkan lekukan lembut yang perlahan kembali seperti semula, seperti whipped cream yang baru dikocok. Bibir tetap tertutup rapat."
-   },
-   "lines": "Busanya halus banget, lembut kayak whipped cream yang baru dikocok."
-  },
-  {
-   "n": 12,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "在水槽前，素颜。看着镜头，随意地歪一下头，说到油性皮肤时认真地点点头，就像在给朋友建议。",
-    "id": "Di wastafel, muka bersih tanpa makeup. Lihat ke kamera, miringkan kepala santai, lalu angguk serius saat bicara tentang kulit berminyak, seperti memberi saran ke teman."
-   },
-   "lines": "Kulit kering cukup sekali sehari, kulit berminyak pagi dan malam."
-  },
-  {
-   "n": 13,
-   "sec": 3,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "特写你的脸，化好妆。稍微转动脸部，用指尖轻拍鼻翼，然后滑到脸颊。皮肤看起来细腻有光泽，然后满意地抿嘴一笑。嘴巴保持闭合。",
-    "id": "Ambil close-up wajahmu, sudah pakai makeup lengkap. Putar sedikit wajah, ketuk ujung hidung dengan ujung jari lalu geser ke pipi. Kulit terlihat halus dan bercahaya, lalu senyum puas. Bibir tetap tertutup rapat."
-   },
-   "lines": "Muka bersih, skincare habis ini langsung nyerap, nggak kebuang."
-  },
-  {
-   "n": 14,
-   "sec": 4,
-   "talk": true,
-   "face": null,
-   "do": {
-    "zh": "在梳妆台前。一只手拿着产品，放到脸颊旁边，让脸和产品一起出现在画面里，标签朝向镜头，盖子盖好。身体稍微前倾，就像在向朋友推荐。说到最后一句话时，用食指指向画面下方。",
-    "id": "Di meja rias. Pegang produk di samping pipi, biar wajah dan produk sama-sama di frame, label menghadap kamera, tutupnya terpasang. Agak condong ke depan, seperti merekomendasikan ke teman. Di kalimat terakhir, tunjuk ke bagian bawah frame dengan jari telunjuk."
-   },
-   "lines": "Mau glass skin ala cewek Korea? Mulai dari Bubble Cleanser ini. Cek keranjang kuning, ya!"
+   "lines": "Busanya halus banget, lembut kayak whipped cream yang baru dikocok. Kulit kering cukup sekali sehari, kulit berminyak pagi dan malam. Muka bersih, skincare habis ini langsung nyerap, nggak kebuang. Mau glass skin ala cewek Korea? Mulai dari Bubble Cleanser ini. Cek keranjang kuning, ya!"
   }
  ],
  "na": false,

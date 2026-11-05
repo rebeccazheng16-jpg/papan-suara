@@ -6,24 +6,28 @@
   "id": "collagen mask VEIRFOO"
  },
  "hook": {
-  "zh": "别浪费时间试了",
-  "id": "gak usah buang waktu nyoba deh"
+  "zh": "反向钩子：别浪费时间试了",
+  "id": "nggak usah buang waktu nyoba deh"
  },
  "src": "TikTok @beliicia",
  "cam": "user",
  "prep": {
-  "zh": "晚上在家里拍，手机拿远一点，用柔和的闪光灯补光。头发前面戴一个大号透明灰色魔术贴卷发筒，不要戴项链。穿黑色高领短袖上衣。脸上不要化妆，涂裸粉色唇膏。确保脸是干净的，没有痘痘或红肿。产品盖子盖好，标签朝向镜头。",
-  "id": "Rekam di rumah pas malam hari, pegang HP agak jauh, pakai lampu flash yang lembut. Pakai rol rambut besar warna abu-abu transparan di depan rambut, jangan pakai kalung. Pakai baju atasan hitam kerah tinggi lengan pendek. Jangan pakai makeup, pakai lipstik nude pink. Pastikan wajah bersih, tidak ada jerawat atau kemerahan. Produk dalam keadaan tertutup, label menghadap kamera."
+  "zh": "产品：VEIRFOO水光胶原蛋白膜（新包装，盖子盖好，标签朝前）。工具：硅胶面膜刷（干净，无字）。脸部：素颜，无妆。",
+  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru, tutupnya terpasang, label menghadap kamera). Alat: Kuas masker silikon (bersih, polos). Wajah: Bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "半边脸涂好面膜，半边脸干净",
+    "id": "Setengah wajah sudah pakai masker, setengahnya lagi bersih"
+   },
    "do": {
-    "zh": "脸的右半边和额头已经涂好面膜，左脸颊是干净的。看着镜头，用刷子把面膜刷到左脸颊上。每说一个点就点一下头，把四点都说完，不要漏掉“从不熬夜”。表情要活泼、挑衅、快速、清晰。",
-    "id": "Setengah wajahmu sudah ada maskernya, pipi kiri masih bersih. Lihat ke kamera, sikat masker ke pipi kiri yang bersih. Setiap menyebutkan satu poin, anggukkan kepala kecil. Sebutkan semua empat poin, jangan sampai terlewat 'nggak pernah begadang'. Ekspresimu harus ceria, menantang, cepat, dan jelas."
+    "zh": "对着镜头，一边用刷子把面膜刷到脸上没涂的地方，一边逐句点头说台词。刷完后，对着镜头自信地笑。",
+    "id": "Lihat ke kamera. Sambil mengoleskan masker ke bagian wajah yang belum ada masker pakai kuas, anggukkan kepala setiap selesai satu kalimat. Setelah selesai mengoleskan, tersenyum percaya diri ke kamera."
    },
    "lines": "Kalau kulit kamu kencang, nggak kendor, nggak pernah begadang, dan nggak pernah pengen punya kulit glowing kayak Ningning aespa, jangan pernah cobain masker ini. Karena masker inilah yang bakal bantu kamu hemat biaya, jadi nggak perlu treatment sampai ke Korea."
   },
@@ -31,13 +35,14 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": {
     "zh": "全脸涂好面膜",
-    "id": "wajah sudah terlapisi masker"
+    "id": "Seluruh wajah sudah pakai masker"
    },
    "do": {
-    "zh": "把产品盖子打开，挤一条面膜到另一只手背上。然后把手背抬到脸旁边，让面膜的质地对着镜头。再把盖子盖好，把产品举到脸旁边，让PDRN的蓝色标签对着镜头。说话时要活泼、快速、自信。",
-    "id": "Buka tutup produk, lalu pencet masker ke punggung tanganmu. Angkat punggung tanganmu ke samping wajah, tunjukkan tekstur maskernya ke kamera. Lalu tutup kembali produknya, pegang di samping pipimu, pastikan label biru PDRN terlihat. Bicaralah dengan semangat, cepat, dan percaya diri."
+    "zh": "对着镜头，先挤一点面膜到手背上，展示质地。然后把手背抬到脸旁边，展示面膜的质地。最后，把盖好的产品举到脸旁边，展示产品标签。",
+    "id": "Lihat ke kamera. Pertama, peras sedikit masker ke punggung tangan untuk menunjukkan teksturnya. Lalu, angkat punggung tangan ke samping wajah untuk menunjukkan tekstur masker. Terakhir, pegang produk yang sudah tertutup di samping wajah, tunjukkan label produknya."
    },
    "lines": "BTW, lihat deh teksturnya ringan banget, kayak yogurt, dan goodness di dalamnya nggak kalah sama sheet mask premium. Soalnya di sini mereka pakai PDRN dari ekstrak salmon, yang harga satu mili-nya aja udah bikin kaget."
   },
@@ -45,13 +50,14 @@
    "n": 3,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
     "zh": "全脸涂好面膜",
-    "id": "wajah sudah terlapisi masker"
+    "id": "Seluruh wajah sudah pakai masker"
    },
    "do": {
-    "zh": "把产品举到脸旁边，让标签对着镜头，轻轻摇晃一下。真诚而快速地说。然后稍微抬眉，露出狡黠的笑容。活泼、快速地说。",
-    "id": "Pegang produk di samping pipimu, label menghadap kamera, lalu goyangkan sedikit. Bicaralah dengan tulus dan agak cepat. Lalu angkat sedikit alismu, berikan senyum kecil yang licik. Bicaralah dengan ceria dan agak cepat."
+    "zh": "对着镜头，把盖好的产品举到脸旁边，轻轻晃一下，表示是韩国进口。然后对着镜头，眉毛微抬，狡黠地笑一下，说出价格。",
+    "id": "Lihat ke kamera. Pegang produk yang sudah tertutup di samping wajah, goyangkan sedikit untuk menunjukkan bahwa ini impor dari Korea. Lalu, angkat alis sedikit dan tersenyum licik ke kamera saat menyebutkan harganya."
    },
    "lines": "Mungkin kalian belum familiar sama brand-nya, tapi ini produk asli impor dari Korea, jadi seratus persen ori, dan aku beneran ngerasa manfaatnya di kulitku. Jangan kaget, di Korea harganya segini loh, tapi aku dapatnya pas lagi promo sih."
   },
@@ -59,13 +65,14 @@
    "n": 4,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全脸涂好面膜",
-    "id": "wajah sudah terlapisi masker"
+    "zh": "全脸涂好面膜，然后面膜干透变成透明薄膜",
+    "id": "Seluruh wajah sudah pakai masker, lalu masker mengering menjadi lapisan transparan"
    },
    "do": {
-    "zh": "脸上涂着面膜，看着镜头，手在下巴旁边做个小手势，不要碰到脸。放松、自信、快速地说。然后面膜已经干了，变成透明的薄膜。两只手的手指放在发际线处，轻轻捏住薄膜的顶部边缘。兴奋、快速、清晰地说。然后两只手从额头到下巴，把整片面膜慢慢撕下来。保持沉默。",
-    "id": "Wajahmu masih ada maskernya, lihat ke kamera, buat gerakan tangan kecil di samping dagumu tanpa menyentuh wajah. Bicaralah dengan santai, yakin, dan agak cepat. Lalu maskernya sudah kering jadi lapisan bening. Ujung jari kedua tanganmu letakkan di garis rambut, cubit sedikit ujung atas lapisan masker. Bicaralah dengan semangat, cepat, dan jelas. Lalu dengan kedua tangan, kelupas seluruh masker dari dahi ke dagu secara perlahan. Diam saja."
+    "zh": "对着镜头，一只手在下巴旁边做手势，说出台词。然后对着镜头，用两只手捏住发际线处的面膜边缘，说面膜很容易撕下。最后，用两只手从额头到下巴，把面膜完整地撕下来。",
+    "id": "Lihat ke kamera. Satu tangan memberi isyarat di samping dagu saat mengucapkan kalimat. Lalu, lihat ke kamera, gunakan kedua tangan untuk mencubit tepi masker di garis rambut, katakan bahwa masker mudah dilepas. Terakhir, gunakan kedua tangan untuk menarik masker dari dahi ke dagu, lepaskan masker secara utuh."
    },
    "lines": "Kurang apa lagi, udah ada hasil uji klinisnya juga, jadi aku pakainya tenang. Dan pas udah kering, dilepasnya super gampang banget."
   },
@@ -73,13 +80,14 @@
    "n": 5,
    "sec": 14,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "干净的脸",
-    "id": "wajah bersih"
+    "zh": "干净的素颜玻璃肌",
+    "id": "Wajah bersih, glass skin tanpa makeup"
    },
    "do": {
-    "zh": "用一只手的手指轻轻滑过脸颊。高兴而快速地说。然后把手轻轻放在下巴旁边，不要遮住嘴巴。随意而真诚地说。然后用食指轻轻按压脸颊，然后抬起，皮肤会弹回来。慢慢转动脸颊，让光线照在上面，展现出玻璃般的光泽。自豪而活泼地说。然后用一只手在下巴旁边竖起大拇指，对着镜头微笑。自信而快速地说。",
-    "id": "Dengan satu tangan, geser jari-jarimu di pipi yang halus dan lembap. Bicaralah dengan gembira dan cepat. Lalu letakkan tanganmu dengan lembut di dekat rahang tanpa menutupi mulutmu. Bicaralah dengan santai dan tulus. Lalu dengan jari telunjuk, tekan perlahan pipimu dan angkat, kulit akan kembali kenyal dan lembap. Putar perlahan pipimu ke arah cahaya agar kilau kaca terlihat. Bicaralah dengan bangga dan ceria. Lalu dengan satu tangan, berikan jempol di samping dagumu dan tersenyum ke kamera. Bicaralah dengan percaya diri dan cepat."
+    "zh": "对着镜头，一只手的手指滑过脸颊，说出台词。然后对着镜头，一只手轻轻放在下巴旁边，说出台词。接着对着镜头，一只手轻按脸颊，然后慢慢转动脸颊，展示水光感。最后对着镜头，一只手竖起大拇指，自信地笑。",
+    "id": "Lihat ke kamera. Jari satu tangan meluncur di pipi yang halus dan lembap saat mengucapkan kalimat. Lalu, lihat ke kamera, satu tangan diletakkan ringan di dekat rahang tanpa menutupi mulut, ucapkan kalimat. Selanjutnya, lihat ke kamera, ujung jari satu tangan menekan ringan pipi dan mengangkatnya, kulit memantul kembali kenyal dan lembap, lalu perlahan putar pipi ke arah cahaya agar kilau lembutnya terlihat. Terakhir, lihat ke kamera, satu tangan mengacungkan jempol di samping dagu dan tersenyum percaya diri."
    },
    "lines": "Langsung copot utuh satu lapisan dari kulit. Dan sekarang aku nggak pakai skincare apa-apa, cuma pakai collagen mask VEIRFOO ini doang. Lihat deh kulitku, buatku sekinclong glass skin, kulitku berasa plumpy banget. Aku nggak bercanda. Lihat, kulitku kelihatan kayak cewek-cewek Korea kan. Ini beneran."
   },
@@ -87,13 +95,14 @@
    "n": 6,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "干净的脸",
-    "id": "wajah bersih"
+    "zh": "干净的素颜玻璃肌",
+    "id": "Wajah bersih, glass skin tanpa makeup"
    },
    "do": {
-    "zh": "把产品举到脸旁边，让标签对着镜头，用指尖轻轻敲击一下。热情而肯定地说。然后把产品举到脸旁边，让标签对着镜头，自信地点头，微笑。活泼而肯定地说。",
-    "id": "Pegang produk di samping pipimu, label menghadap kamera, lalu ketuk ringan dengan ujung jari. Bicaralah dengan hangat dan yakin. Lalu pegang produk di samping pipimu, label menghadap kamera, berikan anggukan yakin dengan senyum. Bicaralah dengan ceria dan yakin."
+    "zh": "对着镜头，把盖好的产品举到脸旁边，用指尖轻敲一下，说出台词。然后对着镜头，一只手继续举着产品，自信地点头，露出笑容。",
+    "id": "Lihat ke kamera. Pegang produk yang sudah tertutup di samping wajah, ketuk ringan dengan ujung jari saat mengucapkan kalimat. Lalu, lihat ke kamera, satu tangan tetap memegang produk, anggukkan kepala dengan yakin dan tersenyum."
    },
    "lines": "Bahkan tulisan di kemasannya juga ada bahasa Korea-nya loh. Collagen mask VEIRFOO ini, menurutku wajib banget kalian punya. Ini beneran lifehack, kamu nggak perlu pakai skincare sepuluh langkah, cukup pakai ini aja, hasilnya di aku udah kayak gini."
   },
@@ -101,13 +110,14 @@
    "n": 7,
    "sec": 5,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "干净的脸",
-    "id": "wajah bersih"
+    "zh": "干净的素颜玻璃肌",
+    "id": "Wajah bersih, glass skin tanpa makeup"
    },
    "do": {
-    "zh": "用食指指向画面左下角，不要向上指，然后开心地轻轻点头，就像推荐给朋友一样。友好而乐观地说。",
-    "id": "Dengan jari telunjuk, tunjuk ke arah kiri bawah layar, jangan ke atas, lalu anggukkan kepala dengan ceria, seperti merekomendasikan ke teman. Bicaralah dengan ramah dan ceria."
+    "zh": "对着镜头，一只手指向左下角，然后开心地笑着点头，就像推荐给朋友一样。",
+    "id": "Lihat ke kamera. Satu tangan menunjuk ke sudut kiri bawah, lalu tersenyum ceria dan mengangguk, seperti merekomendasikannya kepada teman."
    },
    "lines": "Cepetan cek keranjang kuning, dan lihat kamu dapat harga berapa. Menurutku ini worth to try banget."
   }

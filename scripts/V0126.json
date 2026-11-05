@@ -7,23 +7,24 @@
  },
  "hook": {
   "zh": "何泓姗同款洗面奶",
-  "id": "Masker yang sama dengan Adeline"
+  "id": "Masker viral Adeline"
  },
  "src": "TikTok @adelinemargaret",
  "cam": "user",
  "prep": {
-  "zh": "在室内自然光线好的地方，背景干净整洁。穿休闲服，化淡妆，涂裸粉色唇膏。产品管盖子盖好，标签朝向镜头。手机自拍，脸部占画面一半。",
-  "id": "Di dalam ruangan dengan cahaya alami yang bagus, latar belakang bersih. Pakai baju kasual, makeup natural, lipstik nude-pink. Produk dalam tube tertutup, label menghadap kamera. Selfie dengan HP, wajah mengisi setengah frame."
+  "zh": "素颜，准备好VEIRFOO Golden Mask（盖子盖好，标签朝前），小刷子。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Golden Mask (tutupnya terpasang, label menghadap kamera) dan kuas kecil."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品管举到脸颊旁边，开心地晃动一下，露出大大的笑容。然后切换角度，用手指轻触脸颊、鼻子和下巴，同时做出让人有同感的表情。",
-    "id": "Angkat tube produk di samping pipi, goyangkan sedikit dengan senyum lebar. Lalu ganti sudut, sentuh pipi, sisi hidung, dan dagu dengan jari sambil membuat ekspresi relatable."
+    "zh": "兴奋地把产品举到脸旁边晃一下，然后指着自己的脸颊、鼻翼和下巴，列举皮肤问题。",
+    "id": "Angkat produk ke samping pipi, goyang sedikit dengan ekspresi senang. Lalu tunjuk pipi, sisi hidung, dan dagu sambil menyebutkan masalah kulitmu."
    },
    "lines": "Selalu percaya sama selera Adeline soal pilih masker, dan ternyata dia memang nggak bohong! Pas aku ganti ke masker yang sama kayak dia, wajahku yang kusam, pori-poriku, kulitku yang kering mengelupas..."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品管推向镜头，眉毛兴奋地扬起。然后切换角度，慢慢倾斜产品管，让金色全息光泽闪烁，并坚定地点头。",
-    "id": "Dorong tube produk ke arah lensa, angkat alis dengan semangat. Lalu ganti sudut, miringkan tube perlahan agar kilau holografik emasnya terlihat, dan anggukkan kepala dengan yakin."
+    "zh": "把产品推向镜头，然后换个角度，倾斜产品让它反光，同时介绍PDRN成分。",
+    "id": "Dorong produk sedikit ke arah kamera, lalu miringkan produk agar pantulan cahayanya terlihat. Sebutkan kandungan PDRN."
    },
    "lines": "Ini dia VEIRFOO Golden Mask yang lagi viral banget, masker protein yang tinggal dioles, terus pas kering bisa dikelupas satu lembar utuh. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "用刷子把乳白色膏体均匀涂抹在脸颊上。然后展示全脸已成膜，用指尖轻按脸颊。接着从脸颊边缘撕下薄膜。最后抚摸脸颊，露出惊喜的笑容。",
-    "id": "Oleskan krim putih susu secara merata di pipi dengan kuas. Lalu tunjukkan seluruh wajah sudah tertutup film, tekan pipi dengan ujung jari. Kemudian kelupas film tipis dari tepi pipi. Terakhir, sentuh pipi dan tersenyum senang."
+    "zh": "用刷子把面膜刷到脸上，然后展示全脸成膜，再从侧面撕下面膜，最后摸摸脸颊展示透亮效果。",
+    "id": "Oleskan masker dengan kuas ke pipi. Lalu tunjukkan seluruh wajah yang sudah tertutup masker kering. Cubit dan kelupas masker dari samping wajah. Terakhir, sentuh pipimu untuk menunjukkan kulit yang halus dan cerah."
    },
    "lines": "Teksturnya kayak krim, cukup oles tipis selapis, tunggu sampai kering, terus kelupas dari pinggir wajah. Kulit wajahku kerasa lebih halus, kelihatan lebih cerah dan glowing, tapi tetap lembut."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品管举到脸颊旁边，眉毛扬起，露出半个笑容。然后头转向另一边，用拿着产品管的手指向画面左下角。最后开心地点头。",
-    "id": "Pegang tube produk di samping pipi, angkat alis dengan senyum tipis. Lalu miringkan kepala ke sisi lain, arahkan jari yang memegang tube ke sudut kiri bawah layar. Terakhir, anggukkan kepala dengan ceria."
+    "zh": "把产品举到脸旁边，提到韩国价格，然后指向左下角，号召有暗沉和毛孔粗大问题的观众点击购物车。",
+    "id": "Pegang produk di samping pipi, sebutkan harga di Korea. Lalu tunjuk ke kiri bawah layar, ajak penonton yang punya kulit kusam dan pori-pori besar untuk klik keranjang kuning."
    },
    "lines": "Di Korea harganya segini loh. Sis, kalau wajahmu kusam dan pori-porimu besar, langsung klik keranjang kuning di kiri bawah, cobain Golden Mask dari Korea ini!"
   }

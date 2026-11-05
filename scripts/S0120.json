@@ -2,28 +2,29 @@
  "id": "S0120",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "zh": "SICENARI 超光子胶原炮 面膜",
+  "id": "SICENARI Hydraglow Collagen Mask"
  },
  "hook": {
   "zh": "素颜出门总被质疑擦粉了",
-  "id": "Sering dikira pakai bedak padahal muka asli"
+  "id": "Sering dibilang pakai bedak padahal muka bare face"
  },
- "src": "TikTok @幸运姐姐 温博士",
+ "src": "抖音 @幸运姐姐 温博士 B5 水",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前拍摄，用暖色台灯打光。确保背景柔和模糊，是暖米色调的墙壁。只露出手和产品，不要露脸或身体。手上不要戴戒指、手镯或袖子。",
-  "id": "Syuting di meja rias, pakai lampu meja yang hangat. Pastikan latar belakangnya lembut dan buram, dindingnya warna krem hangat. Hanya tunjukkan tangan dan produk, jangan tunjukkan wajah atau badan. Jangan pakai cincin, gelang, atau lengan baju."
+  "zh": "SICENARI 超光子胶原炮面膜（盒装和单片装），素颜出镜，不露脸只露手",
+  "id": "Masker SICENARI Hydraglow Collagen (kemasan kotak dan sachet), muka bare face, hanya tangan yang terlihat."
  },
  "shots": [
   {
    "n": 1,
    "sec": 6,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手把面膜盒放在桌上，轻拍两下。然后，双手拿起盒盖，展示里面的面膜袋。",
-    "id": "Satu tangan meletakkan kotak masker di meja, lalu ketuk dua kali. Lalu, kedua tangan mengangkat tutup kotak untuk menunjukkan sachet masker di dalamnya."
+    "zh": "一只手把面膜盒放在桌上，轻敲两下。然后两只手打开盒子，露出里面的面膜袋。",
+    "id": "Satu tangan meletakkan kotak masker di meja, lalu ketuk dua kali. Lalu dua tangan membuka kotak, memperlihatkan sachet masker di dalamnya."
    },
    "lines": ""
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 6,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "双手拿着一个面膜袋，撕开顶部。然后，取出湿润的面膜纸，让精华液滴回袋中。",
-    "id": "Kedua tangan memegang satu sachet masker dan merobek bagian atasnya. Lalu, angkat masker lembaran yang sudah basah keluar dari sachet, biarkan esensnya menetes kembali ke dalam sachet."
+    "zh": "两只手撕开一个面膜袋。然后一只手拿着撕开的袋子，另一只手从袋子里取出湿润的面膜纸，精华液滴回袋子里。",
+    "id": "Dua tangan merobek sachet masker. Lalu satu tangan memegang sachet yang terbuka, tangan lainnya mengangkat lembaran masker yang basah keluar dari sachet, essence menetes kembali ke dalam sachet."
    },
    "lines": ""
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 7,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手倾斜已打开的袋子，倒出剩余精华液到另一只手背上。然后，双手涂抹精华液直到吸收，并展示湿润有光泽的皮肤对着灯光。",
-    "id": "Satu tangan memiringkan sachet yang sudah dibuka dan menuangkan sisa esens ke punggung tangan yang lain. Lalu, kedua tangan menggosokkan esens sampai meresap dan menunjukkan kulit yang lembap dan bercahaya ke arah lampu."
+    "zh": "一只手拿着撕开的袋子，并倒出剩余精华液到另一只手背上，形成一个小水洼。然后两只手涂抹精华液直到吸收，并转向灯光方向，皮肤看起来有光泽。",
+    "id": "Satu tangan memegang sachet yang terbuka dan menuangkan sisa essence ke punggung tangan yang lain, membentuk genangan kecil. Lalu dua tangan menggosok essence itu sampai meresap dan memutar punggung tangan ke arah lampu, kulit terlihat glowing."
    },
    "lines": ""
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 5,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "按压桌上已打开的袋子，展示里面还有很多精华液。然后，挤出剩余精华液到指尖，涂抹在手腕内侧和前臂。",
-    "id": "Tekan sachet yang sudah dibuka di meja, perlihatkan esens di dalamnya masih banyak. Lalu, peras sisa esens ke ujung jari dan oleskan di pergelangan tangan bagian dalam dan lengan bawah."
+    "zh": "手指按压桌上撕开的袋子，里面的精华液看起来晃动，还有很多剩余。然后挤出剩余精华液到指尖，并涂抹在手腕内侧和前臂。",
+    "id": "Jari-jari menekan sachet yang terbuka di meja, essence di dalamnya terlihat bergoyang, masih banyak sisa. Lalu peras sisa essence ke ujung jari dan oleskan di pergelangan tangan bagian dalam dan lengan bawah."
    },
    "lines": ""
   },
@@ -64,10 +68,11 @@
    "n": 5,
    "sec": 6,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着面膜盒垂直放在画面中下部。另一只手从右侧进入，食指指向画面左下角。",
-    "id": "Satu tangan memegang kotak masker tegak lurus di tengah bawah frame. Tangan yang lain masuk dari kanan dan jari telunjuknya menunjuk ke sudut kiri bawah frame."
+    "zh": "一只手拿着面膜盒向上，正面朝向镜头，静止在画面中下方。另一只手伸入并用食指指向画面左下角。",
+    "id": "Satu tangan memegang kotak masker ke atas, bagian depan menghadap kamera, diam di tengah bawah frame. Tangan lainnya masuk dan jari telunjuk menunjuk ke sudut kiri bawah frame."
    },
    "lines": ""
   }

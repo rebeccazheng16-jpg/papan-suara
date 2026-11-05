@@ -2,28 +2,29 @@
  "id": "V0062",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 Blingbling Cream",
-  "id": "VEIRFOO Bling Bling Cream"
+  "zh": "水光霜 blingbling cream",
+  "id": "VEIRFOO bling bling cream"
  },
  "hook": {
-  "zh": "皮肤干燥？试试这款水光霜！",
-  "id": "Kulit kering? Coba Bling Bling Cream ini!"
+  "zh": "皮肤干燥？试试水光霜！",
+  "id": "Kulit kering? Coba bling bling cream!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内光线好的地方拍摄。确保脸部干净，准备好产品（盖子盖好，标签朝向镜头）。手机拿稳，脸部占画面一半。",
-  "id": "Ambil video di dalam ruangan dengan cahaya yang bagus. Pastikan wajahmu bersih, siapkan produk (tutupnya tertutup, label menghadap kamera). Pegang HP dengan stabil, wajahmu sekitar setengah layar."
+  "zh": "准备好VEIRFOO水光霜（盖子盖好，标签朝前）。确保脸是干净的，没有化妆。",
+  "id": "Siapkan VEIRFOO bling bling cream (tutupnya tertutup, label menghadap kamera). Pastikan wajah bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "表情认真，身体稍微前倾，强调重点时举起一根手指。然后，把产品举到脸旁边，让脸和产品都在画面里，产品正面朝向镜头。",
-    "id": "Ekspresi serius, badan sedikit condong ke depan, angkat satu jari saat menekankan poin. Lalu, pegang produk di samping pipi, biar wajah dan produk sama-sama kelihatan, produknya menghadap kamera."
+    "zh": "看着镜头，表情认真。强调时可以抬起一根手指。然后把产品拿到脸旁边，让脸和产品都在画面里，产品正面朝向镜头。",
+    "id": "Lihat ke kamera dengan ekspresi serius. Saat menekankan poin, bisa angkat satu jari. Lalu pegang produk di samping pipi, agar wajah dan produk terlihat jelas di kamera, bagian depan produk menghadap kamera."
    },
    "lines": "Kalau kamu ngerasa cuacanya mulai kering, pakai apa pun nggak ngefek — kamu wajib coba bling bling cream-nya VEIRFOO Korea ini. Bagus banget, jujur."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写你的手背。先挤出一点普通面霜，用另一只手指涂抹，展示它厚重、不易推开。然后，挤出VEIRFOO水光霜，用手指轻轻一抹，展示它瞬间化水、清透不留痕。",
-    "id": "Close-up punggung tanganmu. Pertama, oleskan sedikit krim biasa, ratakan dengan jari lain, tunjukkan teksturnya yang berat dan susah menyerap. Lalu, buka tutup VEIRFOO Bling Bling Cream, pencet sedikit, dan oleskan dengan jari, tunjukkan bagaimana krimnya langsung mencair jadi air dan transparan."
+    "zh": "近距离拍摄手背。先挤出一点普通面霜，用手指推开，展示它厚重、有残留。然后切换到VEIRFOO水光霜，挤出一点，用手指轻轻推开，展示它瞬间化水、清透无残留。",
+    "id": "Ambil gambar close-up punggung tangan. Pertama, oleskan sedikit krim biasa, ratakan dengan jari, tunjukkan teksturnya yang berat dan meninggalkan residu. Lalu, beralih ke VEIRFOO bling bling cream, keluarkan sedikit, ratakan perlahan dengan jari, tunjukkan bagaimana ia langsung mencair menjadi air dan transparan tanpa residu."
    },
    "lines": "Bedanya sama pelembap yang pernah aku pakai — ini dioles udah langsung mencair. Banyak pelembap tuh teksturnya berat banget, tapi ini beneran beda. Teksturnya krim putih — nah, lihat nggak? Digosok langsung jadi air!"
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "先拿着产品在脸旁边，对着镜头说话。然后，切换到晚上护肤场景，素颜，用手掌按压脸部，再用手指戳脸颊，展示不粘腻。最后，切换到早上，侧脸特写，展示皮肤水润有光泽。",
-    "id": "Pertama, pegang produk di samping pipi, bicara ke kamera. Lalu, ganti ke adegan skincare malam, wajah tanpa make up, tekan wajah dengan telapak tangan, lalu cubit pipi, tunjukkan tidak lengket. Terakhir, ganti ke adegan pagi, close-up profil samping, tunjukkan kulit yang lembap dan bercahaya."
+    "zh": "先拿着产品在脸旁边对着镜头说话。然后切换到晚上护肤的场景，用手掌按压脸部，再用手指轻戳脸颊，展示不粘腻。最后切换到早上，侧脸对着窗户，展示皮肤水润有光泽。",
+    "id": "Pertama, pegang produk di samping pipi sambil berbicara ke kamera. Lalu, rekam adegan rutinitas skincare malam, tekan telapak tangan ke wajah, lalu sentuh pipi dengan jari untuk menunjukkan tidak lengket. Terakhir, rekam adegan pagi hari, hadapkan wajah ke jendela, tunjukkan kulit yang lembap dan bercahaya."
    },
    "lines": "Udah pakai skincare selapis-lapis, mau ditimpa setebal apa pun, dia nggak nempel di bantal — sama sekali nggak lengket. Tapi buatku lembapnya awet: paginya kulitku kelihatan seger dan berkilau."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "皮肤看起来水润透亮，表情自信。双手拿着产品在脸旁边，然后做一个推荐手势，身体稍微前倾，最后指向左下角。",
-    "id": "Kulitmu terlihat lembap dan bening, ekspresi yakin. Pegang produk dengan kedua tangan di samping pipi, lalu buat gerakan merekomendasikan ke arah kamera, badan sedikit condong ke depan, dan terakhir tunjuk ke kiri bawah."
+    "zh": "把产品拿在脸旁边，对着镜头说话，表情自信。然后做一个推荐的手势，指向左下方，示意观众点击购物车。",
+    "id": "Pegang produk di samping pipi, bicara ke kamera dengan ekspresi yakin. Lalu, buat gerakan rekomendasi, tunjuk ke kiri bawah untuk mengarahkan penonton ke keranjang kuning."
    },
    "lines": "Buat kamu yang kulitnya gampang kering tapi males rasa berat di muka, ini jawabannya. Langsung cek keranjang kuning di bawah, ya."
   }

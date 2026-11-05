@@ -2,31 +2,32 @@
  "id": "S0138",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Micro Sculpt Collagen Shot Mask"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "SICENARI PDRN 9,900ppm Sheet Mask isi 21"
  },
  "hook": {
-  "zh": "好久不见，还能认出我吗？",
-  "id": "Udah lama nggak ketemu, masih kenal aku nggak?"
+  "zh": "好久不见，还能认出我吗？星星跟踪贴纸 before→after 快剪",
+  "id": "Udah lama nggak ketemu, masih ngenalin aku nggak? Stiker bintang before-after"
  },
  "src": "TikTok @辣辣不甜",
  "cam": "user",
  "prep": {
-  "zh": "晚上，卧室暖灯，居家素颜。穿白色宽松圆领T恤。手机举到脸部一半高，脸占画面一半。准备好面膜袋，盖子盖好，标签朝前。",
-  "id": "Malam hari, di kamar tidur dengan lampu hangat. Pakai baju kaos putih longgar. Pegang HP setinggi wajah, wajahmu penuhi setengah layar. Siapkan kantong masker, tutupnya tertutup, label menghadap kamera."
+  "zh": "SICENARI 面膜袋装（21 片装），素颜，脸颊轻微泛红、肤色微微暗沉",
+  "id": "SICENARI Sheet Mask pouch (isi 21), muka bersih tanpa makeup, kulit agak kemerahan dan kusam"
  },
  "shots": [
   {
    "n": 1,
    "sec": 6,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "脸颊轻微泛红、肤色微微暗沉",
-    "id": "Pipi sedikit kemerahan, warna kulit agak kusam"
+    "zh": "素颜，脸颊轻微泛红、肤色微微暗沉",
+    "id": "Muka bersih tanpa makeup, kulit agak kemerahan dan kusam"
    },
    "do": {
-    "zh": "脸朝左，双手指尖轻柔地从两颊滑到下巴，眼睛看向镜头，表情平静略带疲惫。然后，拿着脸旁打开的面膜袋，取出湿润的面膜。最后，将面膜敷在脸上并用手指抚平。",
-    "id": "Wajah menghadap kiri, ujung jari kedua tanganmu usap lembut pipi sampai rahang, matamu melirik ke kamera dengan ekspresi tenang dan sedikit lelah. Lalu, pegang kantong masker yang terbuka di samping wajah, tarik keluar masker lembaran yang basah. Terakhir, tempelkan masker di wajah dan ratakan dengan jari."
+    "zh": "脸朝左边，用两只手的指尖轻轻从脸颊滑到下巴，眼睛看向镜头，表情平静略带疲惫。然后，转身，手持打开的面膜袋在脸颊旁，另一只手从袋中取出面膜。然后，再次转身，面膜已在脸上，用一只手抚平脸颊上的面膜。",
+    "id": "Muka menghadap kiri, pakai ujung jari kedua tangan untuk mengusap lembut pipi ke arah rahang, mata melihat ke kamera dengan ekspresi tenang dan sedikit lelah. Lalu, balik badan, pegang pouch masker yang terbuka di samping pipi, tangan satunya ambil masker dari pouch. Lalu, balik badan lagi, masker sudah di wajah, ratakan masker di pipi dengan satu tangan."
    },
    "lines": ""
   },
@@ -34,13 +35,14 @@
    "n": 2,
    "sec": 6,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "敷着面膜",
-    "id": "Memakai masker"
+    "zh": "敷着面膜，或面膜刚揭下，皮肤干净",
+    "id": "Pakai masker, atau masker baru dilepas, kulit bersih"
    },
    "do": {
-    "zh": "换上蓝色连帽衫，脸朝左，戴着面膜，用指尖轻拍右脸颊两次。然后，再次换上白色T恤，脸朝右，从额头到下巴撕下面膜。接着，脸朝左，右脸颊用手指比V字，满意地微笑。最后，脸朝右，拿着脸旁的面膜袋，指向屏幕左下角。",
-    "id": "Ganti pakai hoodie biru, wajah menghadap kiri, pakai masker, tepuk-tepuk pipi kanan dua kali dengan ujung jari. Lalu, ganti baju kaos putih lagi, wajah menghadap kanan, tarik masker dari dahi ke dagu sampai lepas. Kemudian, wajah menghadap kiri, buat tanda V dengan jari di pipi kanan sambil tersenyum puas. Terakhir, wajah menghadap kanan, pegang kantong masker di samping wajah dan tunjuk ke pojok kiri bawah layar."
+    "zh": "敷着面膜，用指尖轻拍脸颊两次。然后，用双手从额头到下巴撕下面膜。然后，用一只手比V字，食指轻触脸颊，露出满意的笑容。然后，手持面膜袋在脸旁，另一只手指向左下角。",
+    "id": "Pakai masker, pakai ujung jari untuk menepuk pipi dua kali. Lalu, pakai kedua tangan untuk melepas masker dari dahi ke dagu. Lalu, buat tanda V dengan satu tangan dan sentuh pipi dengan jari telunjuk sambil tersenyum puas. Lalu, pegang pouch masker di samping wajah, tangan satunya menunjuk ke pojok kiri bawah."
    },
    "lines": ""
   }

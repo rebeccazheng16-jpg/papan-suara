@@ -2,28 +2,29 @@
  "id": "S0164",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "zh": "SICENARI 超光子胶原炮 面膜",
   "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "已通过印尼药监局认证，韩国正品，成分第一位双歧杆菌，大牌精华也用但贵，一盒5片，投资在脸上",
-  "id": "Sudah BPOM, produk asli Korea, kandungan utama Bifida, serum mahal juga pakai tapi harganya mahal, satu kotak 5 lembar, investasi untuk wajah"
+  "zh": "已过 印尼药监局 韩国正品，成分第一位 Bifida，大牌精华也用但贵，一盒 5 片，投资在脸上",
+  "id": "Sudah BPOM, produk asli Korea, kandungan utamanya Bifida, serum merek mewah juga pakai tapi mahal, satu kotak isi 5 lembar, investasi untuk wajah sendiri"
  },
  "src": "TikTok @linalie6666",
  "cam": "user",
  "prep": {
-  "zh": "坐在客厅小圆木桌前，桌上摊开几盒面膜。穿浅粉色拉链开衫，内搭白色上衣。光线明亮柔和，脸部和皮肤干净无瑕。",
-  "id": "Duduk di depan meja kayu bundar kecil di ruang tamu, beberapa kotak masker tersebar di meja. Pakai jaket ritsleting pink muda yang terbuka di atas atasan putih. Cahaya terang dan lembut, wajah dan kulit bersih tanpa noda."
+  "zh": "SICENARI 超光子胶原炮面膜盒装，素颜出镜",
+  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak), wajah bersih tanpa makeup"
  },
  "shots": [
   {
    "n": 1,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把几盒面膜推近，然后侧脸用拳头抵住嘴唇，好像在听问题。",
-    "id": "Dorong beberapa kotak masker ke dekatmu, lalu miringkan wajah dan letakkan kepalan tangan di bibirmu, seolah sedang mendengarkan pertanyaan."
+    "zh": "把几盒面膜在桌上摊开，然后侧过脸，拳头抵着嘴唇，好像正在听镜头外朋友的问题。",
+    "id": "Kamu bisa menata beberapa kotak masker di meja, lalu palingkan wajahmu ke samping, kepalan tangan di bibir, seolah sedang mendengarkan pertanyaan dari teman di luar kamera."
    },
    "lines": "Udah, udah! Masker Sicenari ini udah terdaftar BPOM, original dari Korea, ingredient-nya jelas banget. Di urutan pertama ada Bifida, kamu tahu nggak? Ada PDRN juga. Serum brand mewah ini juga pakai Bifida, harganya berapa?"
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头，然后用食指轻敲面膜盒上的金色印章两次，再用手掌向上示意。",
-    "id": "Pegang kotak masker di samping pipimu, bagian depan menghadap kamera, lalu ketuk segel emas di kotak dua kali dengan jari telunjukmu, lalu tunjukkan telapak tanganmu ke atas."
+    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头。自信地回答问题，然后轻敲盒子上的金印并指向旁边。",
+    "id": "Kamu bisa memegang kotak masker di samping pipi, bagian depan menghadap kamera. Jawab pertanyaan dengan percaya diri, lalu ketuk segel emas di kotak dan gestur ke samping."
    },
    "lines": "Sebotol kecil aja mahalnya bikin syok! Tapi yang ini, satu kotak isinya lima lembar, satu lembar dua puluh lima ml, harganya murah sampai bikin kaget, langsung bawa pulang, bisa skincare-an kayak eonni-eonni Korea."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "轻轻摇头，然后把面膜盒举到脸颊旁边，另一只手张开五指，最后把面膜盒抱在脸颊旁边，露出温暖的笑容。",
-    "id": "Goyangkan kepala sedikit, lalu pegang kotak masker di samping pipimu, tunjukkan lima jari dengan tanganmu yang lain, lalu peluk kotak masker di pipimu dengan senyum hangat."
+    "zh": "先在下巴旁边做小手势，然后拿着面膜盒在脸颊旁边并展示五根手指。最后，把面膜盒贴在脸颊上，带着温暖的笑容。",
+    "id": "Kamu bisa membuat gestur tangan kecil di samping dagu, lalu pegang kotak masker di samping pipi dan tunjukkan lima jari. Terakhir, peluk kotak masker ke pipi dengan senyum hangat."
    },
    "lines": "Jadi anggap aja ini investasi buat wajah sendiri, sehari selembar nggak sampai tiga puluh ribu loh. Langsung klik keranjang kuning di bawah, checkout sekarang ya!"
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 4,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把面膜盒举到脸颊旁边，轻轻歪头微笑，然后另一只手用食指指向画面下方。",
-    "id": "Pegang kotak masker di samping pipimu, miringkan kepala sedikit dan tersenyum lembut, lalu tunjukkan jari telunjukmu ke bagian bawah layar dengan tanganmu yang lain."
+    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头，温柔地微笑，就像在和亲密朋友聊天一样。然后，空着的手指向屏幕下方的小黄车。",
+    "id": "Kamu bisa memegang kotak masker di samping pipi, bagian depan menghadap kamera, tersenyum lembut seperti sedang ngobrol dengan teman dekat. Lalu, tangan yang kosong menunjuk ke bawah layar untuk keranjang kuning."
    },
    "lines": ""
   }

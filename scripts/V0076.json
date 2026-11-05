@@ -2,28 +2,29 @@
  "id": "V0076",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "小紫管素颜霜 VEIRFOO Tone-Up Cream",
+  "zh": "VEIRFOO 小紫管素颜霜",
   "id": "VEIRFOO tube ungu"
  },
  "hook": {
-  "zh": "素颜霜，打造韩剧女主的自然好气色",
-  "id": "Tone-up cream untuk kulit cerah alami ala cewek Korea"
+  "zh": "素颜霜代替厚重粉底，解决毛孔粗大皮肤暗沉",
+  "id": "Pakai tone-up cream daripada foundation tebal, buat atasi pori-pori besar & kulit kusam"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前拍摄，背景干净整洁。确保光线柔和，脸部光线均匀。准备好产品（盖子盖好，标签朝向镜头）。手机固定好，确保脸部占据画面一半。",
-  "id": "Syuting di depan meja rias, pastikan background rapi. Cahaya harus lembut dan merata di wajah. Siapkan produk (tutupnya terpasang, label menghadap kamera). Pastikan HP stabil, wajahmu sekitar setengah frame."
+  "zh": "VEIRFOO小紫管素颜霜（带包装盒），普通粉底液。素颜，无妆。",
+  "id": "VEIRFOO tube ungu (sama kotaknya), foundation biasa. Muka polos, jangan makeup-an."
  },
  "shots": [
   {
    "n": 1,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "近距离拍摄脸部，表情有点困扰。用指尖轻拍脸颊，然后轻拍鼻侧，第二次拍重一点。语气有点无奈。",
-    "id": "Ambil close-up wajahmu, ekspresi sedikit terganggu. Ketuk pipimu dengan ujung jari, lalu ketuk bagian samping hidungmu, ketukan kedua lebih keras. Nada bicara sedikit mengeluh."
+    "zh": "看起来有点烦恼。用手指轻点脸颊和鼻子，然后一边说话一边在脸上涂抹普通粉底液，展示粉底卡粉的样子。",
+    "id": "Muka kelihatan agak bete. Coba tunjuk pipi sama hidung pakai jari. Sambil ngomong, coba pakai foundation biasa di muka, tunjukin gimana hasilnya jadi cakey dan nggak bagus."
    },
    "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
   },
@@ -31,10 +32,14 @@
    "n": 2,
    "sec": 11,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "干净的脸",
+    "id": "Muka bersih"
+   },
    "do": {
-    "zh": "身体向镜头转 30 度，双手藏在背后，自然微笑。一只手从背后伸出指向画面下方，眼睛跟着看。然后另一只手把产品从背后拿出来，放在脸颊旁边，像在揭示秘密。语气轻松，乐于助人。",
-    "id": "Badanmu miring 30 derajat dari kamera, tangan di belakang punggung, senyum alami. Satu tangan muncul dari belakang menunjuk ke bawah frame, matamu mengikuti. Lalu tangan lain mengeluarkan produk dari belakang dan meletakkannya di samping pipimu, seperti sedang mengungkapkan rahasia. Nada bicara ringan dan membantu."
+    "zh": "从身后拿出产品，像展示秘密一样。把它拿到脸颊旁边展示一下，然后挤出一点膏体，涂在半边脸上。最后，正对镜头展示涂了和没涂的两边脸的对比效果。",
+    "id": "Kaya ngasih lihat rahasia, keluarin produknya dari belakang badan. Tunjukin produknya di sebelah muka, terus keluarin sedikit isinya dan olesin ke separuh wajah. Terakhir, hadap lurus ke kamera buat bandingin sisi yang udah dipakai sama yang belum."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai tube ungu VEIRFOO dari Korea ini. Teksturnya krim, nggak ada rasa bedak. Ungu mudanya netralin warna kuning, jadi buatku kayak kulit bagus bawaan lahir cewek Korea."
   },
@@ -42,10 +47,11 @@
    "n": 3,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "身体向镜头转 30 度，一只手拿着产品放在脸颊旁边，另一只手食指轻指镜头，表情自信放松。语气自信，越来越肯定。",
-    "id": "Badanmu miring 30 derajat dari kamera, satu tangan memegang produk di samping pipimu, tangan lain menunjuk ringan ke lensa dengan jari telunjuk, ekspresi santai dan percaya diri. Nada bicara percaya diri dan semakin yakin."
+    "zh": "拿着产品靠近脸颊，自信地讲解PDRN成分。说到“贵妇护肤品”时，可以做一个夸张的手势。最后再把产品拿近，强调成分就写在包装上。",
+    "id": "Pegang produknya di deket pipi, jelasin soal PDRN dengan pede. Pas ngomong 'skincare sultan', kamu bisa kasih isyarat tangan yang nunjukin 'mahal'. Terakhir, deketin lagi produknya ke kamera buat nunjukkin tulisannya."
    },
    "lines": "PDRN itu ekstrak salmon yang strukturnya mirip banget sama DNA manusia, makanya di kulitku berasa gampang banget diserap. Bahan yang biasanya cuma ada di skincare sultan, di sini langsung ditulis di kemasannya."
   },
@@ -53,10 +59,11 @@
    "n": 4,
    "sec": 10,
    "talk": true,
+   "broll": true,
    "face": null,
    "do": {
-    "zh": "表情自信放松。双手拿着产品放在脸颊旁边，盖子盖好，正面朝向镜头。逐字数着四个功能，语气充满活力。",
-    "id": "Ekspresi percaya diri dan santai. Pegang produk dengan kedua tangan di samping pipimu, tutupnya terpasang, bagian depan menghadap kamera. Hitung empat fungsi kata demi kata dengan energi yang membangkitkan semangat."
+    "zh": "自信地拿着产品，列举它的四个功能。然后，在脸上涂抹产品。后面走路进店的镜头，可以用你手机里任何日常出门、走路的视频片段代替。",
+    "id": "Pegang produknya dengan pede, sebutin empat fungsinya. Terus, olesin produknya ke muka. Untuk adegan jalan-jalan masuk toko, kamu bisa pakai klip video apa aja dari HP-mu pas lagi di luar rumah atau lagi jalan."
    },
    "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
   },
@@ -64,10 +71,11 @@
    "n": 5,
    "sec": 10,
    "talk": true,
+   "broll": true,
    "face": null,
    "do": {
-    "zh": "只拍双手，一只手拿着产品外盒，另一只手拿着产品，都放在脸颊旁边，正面朝向镜头。语气真诚。",
-    "id": "Hanya tampilkan kedua tanganmu, satu tangan memegang kotak produk dan tangan lainnya memegang produk, keduanya di samping pipimu, bagian depan menghadap kamera. Nada bicara tulus."
+    "zh": "这个片段需要两个部分。第一部分，只拍你的手，一手拿产品，一手拿包装盒。第二部分，再拍你的脸，真诚地看着镜头说话，就像和朋友聊天一样。",
+    "id": "Segmen ini ada dua bagian. Pertama, rekam tangan kamu aja, satu pegang produknya, satu pegang kotaknya. Bagian kedua, rekam muka kamu lagi ngomong ke kamera dengan tulus, kayak ngobrol sama teman."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -75,10 +83,11 @@
    "n": 6,
    "sec": 10,
    "talk": true,
+   "broll": true,
    "face": null,
    "do": {
-    "zh": "手托下巴，身体稍微前倾，另一只手在旁边做短暂手势，带着一丝狡黠的微笑。语气略带伤感。",
-    "id": "Dagumu bertumpu pada satu tangan dan sedikit condong ke kamera, tangan lain memberi isyarat singkat di samping, dengan senyum kecil yang sinis. Nada bicara sedikit melankolis."
+    "zh": "开头走路进店的镜头，可以用你手机里任何日常出门、走路的视频片段代替。然后，你再录制说话的部分：先托着下巴，做一个无奈的表情；然后拿起产品，做一个“猜猜多少钱”的表情；最后指向左下角（黄车的位置）。",
+    "id": "Untuk adegan jalan-jalan di awal, bisa pakai klip video apa aja dari HP-mu pas lagi di luar. Terus, rekam bagian kamu ngomong: pertama topang dagu dengan muka agak nyesek, terus angkat produknya sambil pasang muka 'coba tebak harganya', terakhir tunjuk ke arah keranjang kuning."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

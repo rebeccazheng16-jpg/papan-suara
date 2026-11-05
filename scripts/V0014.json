@@ -6,14 +6,14 @@
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "韩国女生的水光肌秘密",
+  "zh": "韩妹水光肌的秘密",
   "id": "Rahasia glass skin ala cewek Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内，背景干净，光线柔和。穿一件看起来高档的衣服。产品盖子盖好，标签朝向镜头。手机举到脸部高度，脸部占据画面一半。",
-  "id": "Di dalam ruangan, latar belakang bersih, cahaya lembut. Pakai baju yang kelihatan mewah. Produk ditutup, label menghadap kamera. Pegang HP setinggi wajah, wajah mengisi setengah frame."
+  "zh": "VEIRFOO 水光霜。素颜，脸上没有化妆。",
+  "id": "Produk VEIRFOO Blingbling Cream. Muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,8 +22,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "看着镜头，自信地问观众。然后用双手把头发往后拨，露出脖子和锁骨。接着一只手把产品举到脸颊旁边，盖子盖好，标签朝向镜头，让脸和产品一起出现在画面里。保持微笑，直到这个片段结束。",
-    "id": "Lihat ke kamera, tanya penonton dengan nada percaya diri. Lalu pakai kedua tangan untuk menyisir rambut ke belakang, tunjukkan leher dan tulang selangka. Kemudian satu tangan mengangkat produk ke samping pipi, tutupnya tertutup, label menghadap kamera, agar wajah dan produk terlihat bersamaan di frame. Tetap tersenyum sampai akhir segmen ini."
+    "zh": "看着镜头，自信地说第一句话。然后，双手把头发往后拨。接着，一边说第二句话，一边把产品举到脸颊旁边，最后微笑。",
+    "id": "Lihat ke kamera, sambil ngomong kalimat pertama dengan pede. Terus, sisir rambut ke belakang pakai tangan. Sambil ngomong kalimat kedua, angkat produknya di samping pipi, lalu senyum."
    },
    "lines": "Masih belum tahu rahasia glass skin ala cewek Korea? Nih, aku kasih tahu. VEIRFOO Blingbling Cream, brand Korea yang lagi viral banget di sana."
   },
@@ -31,10 +31,13 @@
    "n": 2,
    "sec": 6,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "脸颊上有一点白色的霜。",
+    "id": "Ada setitik krim di pipi."
+   },
    "do": {
-    "zh": "先拍手背特写，挤一点乳液在手背上，用另一只手的食指轻轻涂抹，让乳液瞬间变成透明水膜。然后切到脸部特写，在右侧脸颊涂抹乳液，用中指和无名指打圈涂抹，直到乳液变透明。最后，把右侧脸颊对着光，用食指指着它，展示提亮和均匀的效果。",
-    "id": "Pertama, rekam close-up punggung tangan, oleskan sedikit losion di sana, lalu pakai jari telunjuk tangan lain untuk mengusapnya sampai losion jadi lapisan air transparan. Lalu, potong ke close-up wajah, oleskan losion di pipi kanan, pakai jari tengah dan jari manis untuk mengusapnya melingkar sampai losion jadi transparan. Terakhir, arahkan pipi kanan ke cahaya, tunjuk pipi itu dengan jari telunjuk, tunjukkan efek cerah dan merata."
+    "zh": "先把一点霜涂在手背上推开，展示质地。然后，在脸颊上涂抹，打圈直到吸收。最后，指一下刚刚涂过的脸颊，展示效果。",
+    "id": "Bisa olesin dikit di punggung tangan buat tunjukin teksturnya. Terus, olesin ke pipi sambil diputar-putar sampai meresap. Terakhir, tunjuk ke pipi yang udah pakai krimnya buat lihatin hasilnya."
    },
    "lines": "Pas dioles ke wajah, teksturnya lembut banget dan cepat meresap. Aku ngerasa kulitku langsung lebih glowing."
   },
@@ -42,13 +45,10 @@
    "n": 3,
    "sec": 7,
    "talk": true,
-   "face": {
-    "zh": "全脸清透发光，额头和颧骨有水润高光。",
-    "id": "Wajah bersih dan bercahaya, dahi dan tulang pipi ada highlight basah."
-   },
+   "face": null,
    "do": {
-    "zh": "看着镜头，一只手把产品举到脸颊旁边，盖子盖好，标签朝向镜头，另一只手用指尖轻敲产品管身。然后切到梳妆台，展示各种高端精华液。最后，双手举着产品到脸颊旁边，盖子盖好，标签朝向镜头，让脸和产品一起出现在画面里。",
-    "id": "Lihat ke kamera, satu tangan pegang produk di samping pipi, tutupnya tertutup, label menghadap kamera, sementara jari tangan lain mengetuk-ngetuk tube produk. Lalu, potong ke meja rias, tunjukkan berbagai serum mewah. Terakhir, pegang produk dengan kedua tangan di samping pipi, tutupnya tertutup, label menghadap kamera, agar wajah dan produk terlihat bersamaan di frame."
+    "zh": "把产品举到脸颊旁边。一边说成分，一边用另一只手的手指轻轻敲击管身。说到贵妇精华时，可以做一个‘很贵’的手势。",
+    "id": "Pegang produk di samping pipi. Sambil sebutin kandungannya, kamu bisa ketuk-ketuk botolnya pakai jari. Pas ngomongin serum mahal, bisa kasih gestur ‘mahal’ gitu."
    },
    "lines": "Hero ingredient-nya itu Niacinamide dosis tinggi sama Centella, loh. Banyak serum high-end yang harganya jutaan juga mengandalkan dua kandungan ini."
   },
@@ -56,13 +56,10 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "全脸清透发光。",
-    "id": "Wajah bersih dan bercahaya."
-   },
+   "face": null,
    "do": {
-    "zh": "看着镜头，用双手手掌轻轻按压全脸，从中间向外、从下往上打圈按摩，让乳液融进皮肤。然后双手合拢在下巴下方，轻轻摩擦指尖。最后，双手再次按压脸颊，然后身体稍微向前倾，眨眼，露出自然的笑容。",
-    "id": "Lihat ke kamera, pakai kedua telapak tangan untuk menekan lembut seluruh wajah, pijat melingkar dari tengah ke luar dan dari bawah ke atas, biarkan losion meresap ke kulit. Lalu, satukan tangan di bawah dagu dan gosokkan ujung jari dengan lembut. Terakhir, tekan pipi dengan kedua tangan sekali lagi, lalu condongkan tubuh sedikit ke depan, berkedip, dan berikan senyum alami."
+    "zh": "用手掌在整个脸上轻轻打圈按摩。一边按摩一边说第一部分的话。说完后，停下动作，身体稍微向镜头前倾，然后微笑着说最后一句。",
+    "id": "Usap dan pijat lembut seluruh muka pakai telapak tangan. Sambil mijat, kamu ngomong bagian pertama. Kalau sudah, berhenti, maju dikit ke kamera, terus senyum sambil ngomong kalimat terakhir."
    },
    "lines": "Buat yang kulitnya suka ngelupas atau gampang cakey, aku biasanya pakai agak tebal. Buatku hasilnya malah makin glowing. Apalagi ini original Korea dan harganya juga terjangkau. Yuk, cek keranjang kuning di bawah, ya!"
   }

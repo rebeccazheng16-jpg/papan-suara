@@ -12,21 +12,22 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内光线好的地方拍摄，背景干净。穿休闲服。把手机放在一个地方不要动，让脸占画面一半。产品盖子盖好，标签朝前。",
-  "id": "Ambil video di dalam ruangan dengan cahaya yang bagus dan latar belakang bersih. Pakai baju santai. Letakkan HP di satu tempat, jangan digerakkan. Wajahmu sekitar setengah dari bingkai. Produk dalam keadaan tertutup, label menghadap kamera."
+  "zh": "产品：VEIRFOO水光霜（盖子盖好，标签朝前）。道具：一个粉扑（无品牌，无logo）。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Blingbling Cream (tutupnya terpasang, label menghadap kamera). Alat: satu spons bedak (polos, tanpa merek atau logo). Kulit: wajah bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
     "zh": "刚涂完面霜，皮肤水润有光泽",
-    "id": "Baru pakai krim, kulit lembap dan glowing"
+    "id": "Baru selesai pakai krim, kulit lembap dan glowing"
    },
    "do": {
-    "zh": "开心地看着镜头，眉毛稍微抬起。一只手掌轻拍右脸颊三次，皮肤会稍微凹陷然后弹回。然后两只食指轻触双颊，甜甜地对着镜头笑，头轻轻左右摇晃。保持微笑，看着镜头。",
-    "id": "Lihat ke kamera dengan ekspresi senang dan sedikit terkejut, alis sedikit terangkat. Satu telapak tangan menepuk lembut pipi kanan tiga kali; kulit akan sedikit melesak dan kembali. Lalu angkat kedua jari telunjuk ke kedua pipi, tersenyum manis ke lensa dengan senyum sampai ke mata, dan goyangkan kepala dengan lembut ke kiri dan kanan. Tetap tersenyum, lihat ke kamera."
+    "zh": "惊喜地看着镜头，用手掌轻拍脸颊三次，皮肤会弹。然后用两根指尖轻触脸颊，甜甜地对着镜头笑，轻轻左右摆头。",
+    "id": "Lihat ke kamera dengan ekspresi senang dan terkejut. Tepuk-tepuk pipi tiga kali dengan telapak tangan, kulit akan terasa kenyal. Lalu sentuh kedua pipi dengan ujung jari, senyum manis ke kamera sambil menggelengkan kepala pelan ke kiri dan kanan."
    },
    "lines": "Ya ampun! Kok bisa ada satu produk yang bikin muka aku selembap ini — terus base makeup-nya nyatu banget! Mukaku tuh kelihatan glowing semua!"
   },
@@ -34,13 +35,14 @@
    "n": 2,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜，皮肤有点暗沉",
-    "id": "Wajah bersih, kulit agak kusam"
+    "zh": "素颜，皮肤有点暗沉，无光泽",
+    "id": "Wajah bersih, kulit agak kusam, tidak ada kilau"
    },
    "do": {
-    "zh": "把产品举到脸颊旁边，标签朝前，让“VEIRFOO”标志清晰可见，然后轻轻转动手腕，让银色表面反光。盖子打开，挤一点乳白色乳液到指尖，然后用指尖点涂并涂抹在右脸颊、额头、鼻子和下巴上，避开眼周。涂抹时说话。涂完后，对着镜头轻轻微笑。",
-    "id": "Pegang produk di samping pipi setinggi wajah, label menghadap kamera, logo \"VEIRFOO\" terbaca jelas, lalu putar sedikit pergelangan tangan agar permukaan perak memantulkan cahaya. Dengan tutup sudah terbuka, peras sedikit losion putih susu ke ujung jari, lalu oleskan dengan ujung jari ke pipi kanan, dahi, hidung, dan dagu, hindari area mata. Bicara sambil mengoleskan. Setelah selesai, senyum tipis ke kamera."
+    "zh": "拿着盖好的产品管，标签朝前，放在脸颊旁边，手腕轻转让产品表面反光。然后打开盖子，挤一点乳液到指尖，用指尖点涂并涂抹在脸颊、额头、鼻子和下巴上，避开眼睛。涂抹时说话。",
+    "id": "Pegang tube produk yang tertutup, label menghadap kamera, di samping pipi, putar sedikit pergelangan tangan agar permukaannya memantulkan cahaya. Lalu buka tutupnya, peras sedikit losion putih ke ujung jari, lalu oleskan dengan ujung jari ke pipi, dahi, hidung, dan dagu, hindari area mata. Bicara sambil mengoleskan."
    },
    "lines": "Ini dia bling bling cream-nya VEIRFOO Korea. Dioles ke wajah nggak nunggu lama, langsung nyatu. Nggak ada rasa berat sama sekali."
   },
@@ -48,13 +50,14 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全妆，皮肤水润有光泽",
-    "id": "Makeup lengkap, kulit lembap dan glowing"
+    "zh": "已上好全妆，皮肤水润有光泽",
+    "id": "Sudah pakai makeup lengkap, kulit glowing dan dewy"
    },
    "do": {
-    "zh": "真诚地看着镜头，带着一点会心的微笑。说到“诊所”时，轻轻抬眉并点头。然后用一个空白的粉扑快速轻拍右脸颊，同时说话。说到最后，用食指轻按脸颊，然后抬起眉毛表示满意。",
-    "id": "Lihat ke kamera dengan tulus, dengan senyum kecil yang penuh arti. Saat mengatakan \"klinik\", angkat alis sedikit dan mengangguk ringan. Lalu, pegang spons bedak kosong dan tepuk-tepuk cepat di pipi kanan sambil berbicara. Di akhir, tekan pipi dengan jari telunjuk dan lepaskan; kulit akan melesak dan langsung kembali, lalu angkat satu alis tanda puas."
+    "zh": "真诚地看着镜头，带着一丝会心的微笑。然后用一个粉扑快速轻拍脸颊，粉底液会融入下面的水润层。拍打时说话。",
+    "id": "Lihat ke kamera dengan tulus, dengan senyum kecil yang penuh arti. Lalu tepuk-tepuk pipi dengan spons bedak secara cepat, foundation akan menyatu dengan lapisan kulit yang lembap. Bicara sambil menepuk."
    },
    "lines": "Dipakai rutin, buatku tampilan kulitku memang berubah — tapi harganya jauh lebih masuk akal dibanding harga asli klinik. Dan yang paling gila: dipakai sebagai base makeup, hasilnya nyatu banget, nggak cakey."
   },
@@ -62,13 +65,14 @@
    "n": 4,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全妆，皮肤水润有光泽",
-    "id": "Makeup lengkap, kulit lembap dan glowing"
+    "zh": "已上好全妆，皮肤水润有光泽",
+    "id": "Sudah pakai makeup lengkap, kulit glowing dan dewy"
    },
    "do": {
-    "zh": "双手拿着产品举到脸颊旁边，标签朝前，真诚地看着镜头。说到“试试”时，把产品稍微推向镜头，身体稍微前倾。然后保持产品在脸颊旁边，抬起眉毛，做出“报价”的表情。最后，空出一只手，食指指向屏幕左下角，加快语速，真诚地看着镜头。以自信的点头和眼神带笑的微笑结束。",
-    "id": "Pegang produk dengan kedua tangan di samping pipi setinggi wajah, label menghadap kamera, dan lihat ke lensa dengan tulus. Saat mengatakan \"coba\", dorong sedikit produk ke arah lensa, condongkan badan beberapa sentimeter. Lalu tetap pegang produk di samping pipi dan angkat alis dengan ekspresi \"mengutip harga\" yang santai. Sekitar 8 detik, bebaskan satu tangan dan tunjuk dengan jari telunjuk ke sudut kiri bawah layar, lihat ke lensa dengan tulus, dan percepat bicara dengan hangat untuk menyelesaikan. Akhiri dengan anggukan kecil yang percaya diri dan senyum sampai ke mata."
+    "zh": "双手拿着盖好的产品管，标签朝前，放在脸颊旁边，真诚地看着镜头。说到“试试看”时，把产品管稍微推向镜头。然后保持产品管在脸颊旁边，抬起眉毛，做出随意的“报价”表情。最后空出一只手，食指指向屏幕左下角，真诚地看着镜头，快速热情地结束。",
+    "id": "Pegang tube produk yang tertutup dengan kedua tangan, label menghadap kamera, di samping pipi, lihat ke kamera dengan tulus. Saat mengatakan “coba”, dorong tube sedikit ke arah kamera. Lalu tetap pegang tube di samping pipi, angkat alis dengan ekspresi santai seolah menyebutkan harga. Terakhir, bebaskan satu tangan dan tunjuk sudut kiri bawah layar dengan jari telunjuk, lihat ke kamera dengan tulus, dan selesaikan dengan cepat dan antusias."
    },
    "lines": "Buat kamu yang tiap hari makeup dan capek sama base yang cakey, coba pakai ini dulu sebelum foundation. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

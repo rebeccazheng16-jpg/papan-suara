@@ -2,28 +2,32 @@
  "id": "V0095",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "鎏金蛋白膜 Golden Mask",
+  "zh": "VEIRFOO Golden Mask 鎏金蛋白膜",
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "半边脸紧致挑战",
-  "id": "Tantangan wajah kencang sebelah"
+  "zh": "韩式护肤，在家享受贵妇级提拉紧致",
+  "id": "Rahasia kulit kencang ala Korea, bisa treatment sendiri di rumah!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在家，素颜，穿家居服。确保光线均匀照亮整张脸，没有阴影。手机拿稳，但可以有一点点晃动，不要用三脚架。背景是家里的环境，不要是白墙。产品管身和包装盒标签朝前，盖子盖好。",
-  "id": "Di rumah, tanpa makeup, pakai baju santai. Pastikan cahaya merata di seluruh wajah, tanpa bayangan. Pegang HP dengan stabil, tapi boleh sedikit goyang, jangan pakai tripod. Latar belakangnya suasana rumah, jangan dinding polos. Produk dan kotak kemasan menghadap ke depan, tutupnya tertutup."
+  "zh": "素颜，准备好VEIRFOO Golden Mask（盖子盖好），一个上妆刷，粉底液，美妆蛋。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Golden Mask (tutupnya terpasang), kuas makeup, foundation, dan beauty sponge."
  },
  "shots": [
   {
    "n": 1,
    "sec": 4,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，半边脸紧致，半边脸浮肿",
+    "id": "Wajah bersih tanpa makeup, satu sisi wajah terlihat lebih kencang dan sisi lainnya sedikit bengkak"
+   },
    "do": {
-    "zh": "素颜，面带惊喜的笑容，直视镜头。先保持不动一秒，让大家看清脸部左右两边的区别。然后用两根手指沿着脸颊右侧（画面右侧）的轮廓向上描画，再移到脸颊左侧（画面左侧）描画，对比两边的紧致度，手停留在那里。语速快而清晰，带着惊喜感说台词。",
-    "id": "Tanpa makeup, senyum terkejut, lihat ke kamera. Diam dulu satu detik, biar orang lihat bedanya dua sisi wajah. Lalu pakai dua jari telusuri rahang sisi kanan (di layar) ke atas, lalu pindah ke sisi kiri (di layar) dan telusuri juga, bandingkan kekencangannya, tangan tetap di sana. Bicara cepat dan jelas, dengan nada terkejut."
+    "zh": "把手机举到脸前，脸部特写，表情 惊讶又开心。 先静止一秒，然后用两根手指沿着脸颊轮廓从下巴向上滑动，对比两边脸颊的紧致度。看着镜头，快速说出台词。",
+    "id": "Pegang HP di depan wajah, close-up wajahmu dengan ekspresi kaget dan senang. Diam sebentar, lalu pakai dua jari untuk mengusap garis rahang ke atas, bandingkan kedua sisi wajah. Lihat ke kamera, ucapkan kalimat ini dengan cepat."
    },
    "lines": "Ya ampun, muka aku jadi agak beda sebelah, guys!"
   },
@@ -31,13 +35,14 @@
    "n": 2,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸和脖子上敷着香槟金色半透明面膜",
-    "id": "Wajah dan leher tertutup masker peel-off warna champagne gold transparan"
+    "zh": "素颜，脸上敷着VEIRFOO Golden Mask",
+    "id": "Wajah bersih tanpa makeup, sudah memakai VEIRFOO Golden Mask"
    },
    "do": {
-    "zh": "脸和脖子上敷着香槟金色半透明面膜。用两手拇指和食指捏住面膜颈部边缘，向上稳稳地撕下整张面膜，从脖子到额头一次性撕掉。撕的时候面膜保持完整，不要撕裂。撕完后，慢慢转头展示脸部左侧（画面左侧）紧致的轮廓，再转到右侧（画面右侧）较宽的轮廓，然后面向镜头，用手指背轻抚左侧脸颊和下颌线，露出自然的笑容。台词是画外音，嘴巴保持闭合。",
-    "id": "Wajah dan leher tertutup masker peel-off warna champagne gold transparan. Pakai jempol dan telunjuk kedua tangan, cubit ujung bawah masker di leher, lalu tarik ke atas dengan stabil, kelupas seluruh masker dari leher sampai dahi dalam satu tarikan. Saat mengelupas, masker harus tetap utuh, jangan sampai sobek. Setelah selesai, pelan-pelan putar kepala untuk menunjukkan sisi kiri wajah (di layar) yang kencang, lalu ke sisi kanan (di layar) yang lebih lebar, lalu hadap kamera, usap pipi dan rahang sisi kiri dengan punggung jari, senyum alami. Dialognya voiceover, bibir tetap tertutup."
+    "zh": "把手机举到脸前，脸部特写。用两只手从脖子底部捏住面膜边缘，慢慢 向上拉到额头。确保面膜完整剥落。之后，把头慢慢转动，展示脸部两侧，然后用指背轻抚脸颊和下巴，对着镜头微笑。所有对话都是画外音。",
+    "id": "Pegang HP di depan wajah, close-up wajahmu. Pakai kedua tangan untuk menarik masker dari leher ke dahi secara perlahan. Pastikan maskernya terkelupas utuh. Setelah itu, putar kepala perlahan untuk menunjukkan kedua sisi wajah, lalu usap pipi dan rahang dengan punggung jari sambil tersenyum ke kamera. Semua dialog adalah voiceover."
    },
    "lines": "Sisi yang baru aku kelupas ini rasanya kayak ada yang narik kulitnya ke atas, tanpa makeup aja buatku udah glowing."
   },
@@ -45,10 +50,14 @@
    "n": 3,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，穿棉质睡衣，直视镜头，语气坚定，像和朋友抱怨一样，语速快而清晰地说台词。然后切换到第三人称视角，坐在书桌前，手托着脸颊，另一只手不停地打字，眼睛看着屏幕，显得疲惫。最后切换回近景，化好精致的妆容，穿上日常服装，一只手拿着产品管身，放在脸颊旁边，产品正面朝向镜头，产品和脸部同时出现在画面中。正常语速对着镜头说台词。",
-    "id": "Tanpa makeup, pakai piyama katun, lihat ke kamera, nada bicara tegas, seperti mengeluh ke teman, bicara cepat dan jelas. Lalu ganti ke sudut pandang orang ketiga, duduk di meja, satu tangan menopang pipi, tangan lain mengetik terus, mata melihat layar, terlihat lelah. Terakhir, kembali ke close-up, sudah pakai makeup lengkap, pakai baju biasa, satu tangan memegang produk di samping pipi, bagian depan produk menghadap kamera, produk dan wajah ada di frame yang sama. Bicara normal ke kamera."
+    "zh": "【镜头1】把手机举到脸前，素颜，穿着睡衣，看着镜头，像 向朋友倾诉，快速而坚定。【镜头2】把手机放在 三脚架或支架上，从侧面拍摄。坐在桌边，一只手托着脸颊，另一只手敲击笔记本电脑。对话是画外音。【镜头3】把手机举到脸前，化好妆，拿着 VEIRFOO Golden Mask 在脸颊旁边，标签朝向镜头。看着镜头，正常说话。",
+    "id": "【Shot 1】Pegang HP di depan wajah, tanpa makeup, pakai piyama, lihat ke kamera, bicara cepat dan tegas seperti curhat ke teman. 【Shot 2】Kalau pakai tripod, rekam dari samping. Duduk di meja, satu tangan menopang pipi, tangan lain mengetik laptop. Dialog adalah voiceover. 【Shot 3】Pegang HP di depan wajah, sudah makeup, pegang VEIRFOO Golden Mask di samping pipi, label menghadap kamera. Lihat ke kamera, bicara normal."
    },
    "lines": "Bangun tidur muka bengkak kayak bakpao, apalagi kalau kolagennya udah mulai berkurang — sekali begadang, kulit langsung bengkak dan kendur. Yang mukanya kusam kekuningan, wajib coba VEIRFOO Golden Mask ini."
   },
@@ -56,10 +65,14 @@
    "n": 4,
    "sec": 15,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "穿睡衣，刚睡醒的样子。一只手漫不经心地用卷发棒卷着头发，眼睛失焦，完全放空。台词是画外音，嘴巴保持闭合。然后切换到桌面近景，产品管身和包装盒立着，盖子平放在桌上。一只手拿着产品管身，轻轻挤出少量乳白色膏体到另一只手拿的金色刷头上。台词是画外音，嘴巴保持闭合。然后切换到脸部近景，用刷子将膏体均匀薄薄地涂抹在除眼周外的全脸。台词是画外音，嘴巴保持闭合。然后切换到脸部近景，面膜已干，呈香槟金色半透明状。双手捏住发际线处的面膜上边缘，从额头到下巴一次性向下撕掉整张面膜。台词是画外音，嘴巴保持闭合。最后切换到脸颊特写，用拇指和食指捏住一小块脸颊皮肤，然后松开，皮肤立即弹回，紧致光滑。然后用食指和中指背沿着下颌线向上滑动，指腹轻按住下巴尖，甜美地微笑。台词是画外音，嘴巴保持闭合。",
-    "id": "Pakai piyama, baru bangun tidur. Satu tangan pelan-pelan mengeriting rambut dengan catokan, mata kosong, melamun. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up meja, produk dan kotak kemasan berdiri, tutupnya tergeletak di meja. Satu tangan memegang produk, pelan-pelan memencet sedikit krim putih susu ke kuas emas di tangan lain. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up wajah, oleskan krim secara merata dan tipis ke seluruh wajah kecuali area mata dengan kuas. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up wajah, masker sudah kering, berwarna champagne gold transparan. Ujung jari kedua tangan mencubit ujung atas masker di garis rambut, lalu kelupas seluruh masker dari dahi ke dagu dalam satu tarikan bersih. Dialognya voiceover, bibir tetap tertutup. Terakhir, ganti ke extreme close-up pipi, cubit sedikit kulit pipi dengan jempol dan telunjuk lalu lepas; kulit langsung kembali kencang dan halus. Lalu punggung jari telunjuk dan tengah meluncur ke atas sepanjang garis rahang yang bersih dan bantalan jari menekan ringan ujung dagu sambil tersenyum manis. Dialognya voiceover, bibir tetap tertutup."
+    "zh": "所有对话都是画外音。【镜头1】把手机放在 三脚架或沙发靠背上，素颜，穿着睡衣，用卷发棒卷头发，眼神放空。【镜头2】把手机放在 三脚架或沙发靠背上，桌面特写。把 VEIRFOO Golden Mask 挤到刷子上。【镜头3】把手机放在 三脚架或沙发靠背上，脸部特写。用刷子把面膜均匀涂抹在脸上，避开眼周。【镜头4】把手机放在 三脚架或沙发靠背上，脸部特写。面膜干了之后，用两只手从额头向下撕掉面膜。【镜头5】把手机放在 三脚架或沙发靠背上，脸颊特写。用拇指和食指捏住脸颊，然后松开。用手指沿着下巴线向上滑动，然后轻按下巴，甜美地微笑。",
+    "id": "Semua dialog adalah voiceover. 【Shot 1】Kalau pakai tripod, rekam dirimu tanpa makeup, pakai piyama, sedang mengeriting rambut dengan tatapan kosong. 【Shot 2】Kalau pakai tripod, close-up meja. Peras VEIRFOO Golden Mask ke kuas. 【Shot 3】Kalau pakai tripod, close-up wajah. Oleskan masker secara merata ke seluruh wajah kecuali area mata. 【Shot 4】Kalau pakai tripod, close-up wajah. Setelah masker kering, pakai kedua tangan untuk menarik masker dari dahi ke dagu. 【Shot 5】Kalau pakai tripod, close-up pipi. Cubit sedikit pipi dengan ibu jari dan telunjuk, lalu lepaskan. Usap garis rahang ke atas dengan punggung jari, lalu tekan dagu dengan lembut sambil tersenyum manis."
    },
    "lines": "Rahang yang nggak tegas, pipi yang turun, garis senyum, garis halus di mata — tinggal oles, tunggu tiga puluh sampai empat puluh menit sampai kering, terus kelupas pelan-pelan. Ngelupasnya satisfying banget! Nggak perlu es kopi lagi buat melek — lihat, rahangku berasa lebih tirus, dipegang halus dan kenyal."
   },
@@ -67,10 +80,14 @@
    "n": 5,
    "sec": 12,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "在家，穿家居服，手拿产品管身，身体稍微倾斜，像分享秘密一样，用食指在下巴下方轻敲两次以示强调。语气认真，像在分享“真的告诉你”一样，语速快而清晰地说台词。然后切换到第一人称视角，手持手机在品牌门店里走动，经过柜台和货架，旁边有顾客在挑选产品或聊天。台词是画外音。最后切换到第一人称视角，手持手机在护理室里走动，走向护理床，经过推车，停在床头。台词是画外音。",
-    "id": "Di rumah, pakai baju santai, pegang produk, badan sedikit miring, seperti berbagi rahasia, ketuk dua kali dengan jari telunjuk di bawah dagu untuk penekanan. Nada bicara serius, seperti berbagi 'aku serius bilang ini', bicara cepat dan jelas. Lalu ganti ke sudut pandang orang pertama, pegang HP sambil berjalan di toko brand, melewati konter dan rak, ada pelanggan yang memilih produk atau mengobrol. Dialognya voiceover. Terakhir, ganti ke sudut pandang orang pertama, pegang HP sambil berjalan di ruang perawatan, menuju ranjang perawatan, melewati troli, berhenti di kepala ranjang. Dialognya voiceover."
+    "zh": "【镜头1】把手机举到脸前，素颜，拿着 VEIRFOO Golden Mask，身体稍微倾斜，像分享秘密一样，用食指轻敲下巴两次。快速说出台词。【镜头2】和【镜头3】是生活片段，可以从手机里找现成的素材，或者拍一些走路的画面，不要露脸。所有对话都是画外音。",
+    "id": "【Shot 1】Pegang HP di depan wajah, tanpa makeup, pegang VEIRFOO Golden Mask, condongkan badan sedikit ke depan seperti berbagi rahasia, ketuk dagu dua kali dengan jari telunjuk. Ucapkan kalimat ini dengan cepat. 【Shot 2】dan【Shot 3】adalah footage gaya hidup, bisa pakai klip yang sudah ada di HP-mu atau rekam adegan berjalan tanpa menunjukkan wajah. Semua dialog adalah voiceover."
    },
    "lines": "Jujur ya, cewek Korea tuh emang paling ngerti soal beginian. VEIRFOO punya klinik perawatan kulit sendiri di Seoul, dan artis sama idol Korea — yang kamu tahu maupun nggak — rutin perawatan di sana."
   },
@@ -78,10 +95,14 @@
    "n": 6,
    "sec": 15,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "在家，穿家居服，产品管身放在旁边，身体稍微倾斜，直视镜头。说到重点时，一只手在下巴下方短暂停留。语气带着炫耀和分享事实的感觉，语速快而清晰地说台词。然后切换到脸部近景，用金色刷子将乳白色膏体从脸颊中心向外侧推开，避开眼周。台词是画外音，嘴巴保持闭合。然后切换到脸颊特写，甜美地微笑，不说话。台词是画外音，嘴巴保持闭合。然后切换回近景，再次对着镜头说话。台词是画外音。然后切换到脸部近景，用美妆蛋将中性自然色调的粉底液拍打在脸颊上，然后将脸颊转向光源，展示光滑的底妆。台词是画外音，嘴巴保持闭合。最后切换回近景，双手做出“就这么简单”的手势，以自然的笑容结束。",
-    "id": "Di rumah, pakai baju santai, produk di samping, badan sedikit miring, lihat ke kamera. Saat poin penting, satu tangan berhenti sebentar di bawah dagu. Nada bicara pamer dan berbagi fakta, bicara cepat dan jelas. Lalu ganti ke close-up wajah, pakai kuas emas untuk mengoleskan krim putih susu dari tengah pipi ke luar, hindari area mata. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke extreme close-up pipi, senyum manis, tanpa bicara. Dialognya voiceover, bibir tetap tertutup. Lalu ganti kembali ke close-up, bicara lagi ke kamera. Dialognya voiceover. Lalu ganti ke close-up wajah, tepuk-tepuk foundation warna natural netral dengan beauty sponge di pipi, lalu putar pipi ke arah cahaya untuk menunjukkan dasar yang halus. Dialognya voiceover, bibir tetap tertutup. Terakhir, ganti kembali ke close-up; buka kedua tangan dengan gestur 'sesimpel itu' dan akhiri dengan senyum alami."
+    "zh": "【镜头1】把手机举到脸前，素颜，拿着 VEIRFOO Golden Mask 在旁边，身体稍微倾斜，说到重点时，一只手在下巴下方短暂暂停。快速说出台词。【镜头2】把手机放在 三脚架或沙发靠背上，脸部特写。用刷子把面膜从脸颊中央向外推开。对话是画外音。【镜头3】把手机放在 三脚架或沙发靠背上，脸颊特写。甜美地微笑。对话是画外音。【镜头4】把手机举到脸前，看着镜头，快速说出台词。【镜头5】把手机放在 三脚架或沙发靠背上，脸部特写。用美妆蛋把粉底液拍在脸颊上，然后把脸转向光源，展示光滑的底妆。对话是画外音。【镜头6】把手机举到脸前，双手打开做“就这么简单”的手势，最后甜美地微笑。",
+    "id": "【Shot 1】Pegang HP di depan wajah, tanpa makeup, pegang VEIRFOO Golden Mask di samping, condongkan badan sedikit ke depan. Saat sampai di poin penting, satu tangan berhenti sebentar di bawah dagu. Ucapkan kalimat ini dengan cepat. 【Shot 2】Kalau pakai tripod, close-up wajah. Pakai kuas untuk mengoleskan masker dari tengah pipi ke luar. Dialog adalah voiceover. 【Shot 3】Kalau pakai tripod, close-up pipi. Senyum manis. Dialog adalah voiceover. 【Shot 4】Pegang HP di depan wajah, lihat ke kamera, ucapkan kalimat ini dengan cepat. 【Shot 5】Kalau pakai tripod, close-up wajah. Tepuk-tepuk foundation di pipi dengan beauty sponge, lalu putar pipi ke arah cahaya untuk menunjukkan hasil makeup yang halus. Dialog adalah voiceover. 【Shot 6】Pegang HP di depan wajah, buka kedua tangan seperti bilang “gampang banget”, lalu senyum manis."
    },
    "lines": "Kenapa sebagus itu? Karena di dalamnya ada PDRN salmon molekul kecil, mirip banget sama DNA kita sendiri, jadi nggak perlu khawatir soal penyerapannya. Sekali pakai cuma beberapa ribu doang. Kulitku berasa mulus, jadi nggak bakal cakey, mau pakai foundation apa aja pasti nyatu."
   },
@@ -89,10 +110,14 @@
    "n": 7,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "化好妆",
+    "id": "Sudah makeup"
+   },
    "do": {
-    "zh": "在家，皮肤白皙透亮，穿日常服装。一只手拿着产品管身和包装盒，放在脸颊旁边，产品正面朝向镜头，产品和脸部同时出现在画面中，身体稍微倾斜。提到价格时，眉毛自然地轻微上扬。语气逐渐高昂，带着紧迫感，语速快而清晰地说台词。然后切换到另一个角度的近景。将产品管身换到另一只手，放在脸颊旁边，正面朝向镜头，对着镜头温暖地微笑，身体稍微前倾，像向朋友推荐一样。说到最后一句话时，食指指向画面左下方，并保持在那里。",
-    "id": "Di rumah, kulit cerah bercahaya, pakai baju biasa. Satu tangan memegang produk dan kotak kemasan di samping pipi, bagian depan produk menghadap kamera, produk dan wajah ada di frame yang sama, badan sedikit miring. Saat menyebut harga, alis sedikit terangkat secara alami. Nada bicara semakin meninggi, dengan nada mendesak, bicara cepat dan jelas. Lalu ganti ke close-up dari sudut berbeda. Pindahkan produk ke tangan lain, di samping pipi, bagian depan menghadap kamera, senyum hangat ke kamera dan sedikit condong ke depan seperti merekomendasikan ke teman. Pada kalimat terakhir, jari telunjuk menunjuk ke kiri bawah layar dan tetap di sana."
+    "zh": "【镜头1】把手机举到脸前，化好妆，拿着 VEIRFOO Golden Mask 和盒子在旁边，标签朝向镜头。说到价格时，稍微抬眉。快速说出台词。 【镜头2】把手机举到脸前，化好妆，把 VEIRFOO Golden Mask 换到另一只手，标签朝向镜头。对着镜头温暖地微笑，身体稍微倾斜。说到最后一句时，用食指指向左下方。",
+    "id": "【Shot 1】Pegang HP di depan wajah, sudah makeup, pegang VEIRFOO Golden Mask dan kotaknya di samping, label menghadap kamera. Saat menyebut harga, angkat alis sedikit. Ucapkan kalimat ini dengan cepat. 【Shot 2】Pegang HP di depan wajah, sudah makeup, pindahkan VEIRFOO Golden Mask ke tangan lain, label menghadap kamera. Senyum hangat ke kamera, condongkan badan sedikit ke depan. Saat kalimat terakhir, tunjuk ke kiri bawah dengan jari telunjuk."
    },
    "lines": "Di Korea harganya segini, sekarang lagi promo new arrival — coba lihat sendiri berapa! Nggak perlu nitip jastip lagi, langsung cek keranjang kuning di bawah, ya!"
   }

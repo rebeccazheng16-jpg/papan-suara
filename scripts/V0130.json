@@ -6,24 +6,25 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "何泓姗同款洗面奶",
-  "id": "Masker yang sama dengan Belicia"
+  "zh": "Belicia同款面膜，告别暗沉粗糙",
+  "id": "Masker Belicia, bye-bye kulit kusam dan kasar!"
  },
  "src": "TikTok @beliicia",
  "cam": "user",
  "prep": {
-  "zh": "在室内自然光线充足的地方拍摄。穿着休闲服装，化淡妆，涂裸粉色唇膏。确保脸部干净，没有乳霜或斑点。把手机拿在手臂的长度，脸部占据画面的一半。",
-  "id": "Ambil video di dalam ruangan dengan cahaya alami yang cukup. Pakai baju santai, makeup natural, dan lipstik nude-pink. Pastikan wajah bersih, tanpa krim atau noda. Pegang HP sejauh lengan, wajahmu sekitar setengah layar."
+  "zh": "素颜，准备好VEIRFOO Golden Mask面膜管和一把刷子。",
+  "id": "Wajah bersih tanpa makeup. Siapkan tube VEIRFOO Golden Mask (tertutup) dan satu kuas masker."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品举到脸颊旁边，轻轻摇晃，露出开心的笑容。然后切换角度，用指尖轻触脸颊、鼻侧和下巴，做出有点痛苦的表情，然后变回笑容。",
-    "id": "Angkat produk di samping pipi, goyang-goyangkan sedikit sambil tersenyum senang. Lalu ganti sudut, sentuh pipi, sisi hidung, dan dagu dengan ujung jari, buat ekspresi sedikit meringis lalu kembali tersenyum."
+    "zh": "兴奋地把产品管拿到脸旁边晃一下，然后换个角度，用手指依次轻触脸颊、鼻翼、下巴，表现出对旧皮肤问题的无奈。",
+    "id": "Dengan semangat, angkat tube produk ke samping pipi dan goyangkan sedikit. Lalu, ubah sudut kamera, sentuh pipi, sisi hidung, dan dagu secara bergantian dengan jari untuk menunjukkan masalah kulitmu dulu."
    },
    "lines": "Selalu percaya sama selera Belicia soal pilih masker, dan ternyata dia memang nggak bohong! Pas aku ganti ke masker yang sama kayak dia, wajahku yang kusam, pori-poriku, kulitku yang kering mengelupas..."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品举到脸颊旁边，朝镜头推近一点，眉毛兴奋地扬起。然后切换角度，再次把产品举到脸颊旁边，慢慢倾斜，让金色全息光泽在日光下闪烁，并自信地点头。",
-    "id": "Pegang produk di samping pipi, dorong sedikit ke arah kamera, alis terangkat karena excited. Lalu ganti sudut, pegang lagi produk di samping pipi, miringkan perlahan agar kilauan holografik emasnya bersinar di cahaya, sambil mengangguk yakin."
+    "zh": "把产品管推向镜头，眉毛上扬表示兴奋。然后换个角度，把产品管倾斜，让金色光泽闪烁，同时自信地点头。",
+    "id": "Dorong tube produk sedikit ke arah kamera dengan alis terangkat karena semangat. Lalu, ubah sudut kamera, miringkan tube agar kilau emasnya terlihat di cahaya, sambil mengangguk yakin."
    },
    "lines": "Ini dia VEIRFOO Golden Mask yang lagi viral banget, masker protein yang tinggal dioles, terus pas kering bisa dikelupas satu lembar utuh. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "用刷子将乳霜均匀地涂抹在脸颊上。然后切换到全脸覆盖着面膜的镜头，用指尖轻按脸颊，展示面膜已干。接着，用拇指和食指捏住面膜边缘，从脸颊侧面慢慢撕下。最后，抚摸脸颊，露出开心的笑容。",
-    "id": "Oleskan krim secara merata di pipi dengan kuas. Lalu ganti ke tampilan seluruh wajah tertutup masker, tekan pipi dengan ujung jari untuk menunjukkan sudah kering. Kemudian, cubit ujung masker dengan ibu jari dan telunjuk, tarik perlahan dari sisi pipi. Terakhir, usap pipi dan tersenyum senang."
+    "zh": "用刷子把面膜均匀刷在脸颊上。然后展示全脸敷好面膜的样子，用指尖轻触脸颊确认已干。最后，用拇指和食指从脸颊外侧边缘撕下面膜，展示撕下的薄膜，然后抚摸脸颊，露出满意的笑容。",
+    "id": "Oleskan masker dengan kuas secara merata di pipi. Lalu, tunjukkan seluruh wajah yang sudah tertutup masker, sentuh pipi dengan ujung jari untuk menunjukkan sudah kering. Terakhir, cubit masker di pinggir pipi dekat telinga dengan ibu jari dan telunjuk, lalu tarik perlahan ke samping. Setelah masker terkelupas, sentuh pipi dengan punggung jari dan tersenyum puas."
    },
    "lines": "Teksturnya kayak krim, cukup oles tipis selapis, tunggu sampai kering, terus kelupas dari pinggir wajah. Kulit wajahku kerasa lebih halus, kelihatan lebih cerah dan glowing, tapi tetap lembut."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品举到脸颊旁边，眉毛扬起，露出会心一笑。然后头向另一边倾斜，用拿着产品的同一只手的手指指向画面左下角。最后，开心地轻轻点头。",
-    "id": "Pegang produk di samping pipi, angkat alis dengan senyum tahu. Lalu miringkan kepala ke sisi lain, jari tangan yang memegang produk menunjuk ke pojok kiri bawah layar. Terakhir, mengangguk kecil dengan ceria."
+    "zh": "把产品管举到脸旁边，眉毛上扬，露出半笑。然后头向另一边倾斜，用拿着产品管的手指向左下角，推荐给观众。最后，开心地小幅度点头。",
+    "id": "Pegang tube produk di samping pipi, angkat alis dengan senyum tipis. Lalu, miringkan kepala ke sisi lain, dan arahkan jari yang memegang tube ke sudut kiri bawah layar untuk mengajak penonton. Akhiri dengan anggukan kecil yang ceria."
    },
    "lines": "Di Korea harganya segini loh. Sis, kalau wajahmu kusam dan pori-porimu besar, langsung klik keranjang kuning di kiri bawah, cobain Golden Mask dari Korea ini!"
   }

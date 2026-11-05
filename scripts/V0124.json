@@ -7,23 +7,24 @@
  },
  "hook": {
   "zh": "黑头躲在毛孔缝里，绿泥进得去",
-  "id": "Komeda sembunyi di pori-pori, pembersih lain nggak bisa masuk"
+  "id": "komedo ngumpet di pori, tapi ini bisa masuk"
  },
- "src": "TikTok @BUV笔薇官方旗舰店",
+ "src": "抖音 BUV笔薇官方旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "素颜，玻璃肌，无妆，头发扎好，穿休闲服。在梳妆台前，光线要好。产品瓶盖盖好，标签朝前。",
-  "id": "Muka bersih tanpa makeup, kulit glowing. Rambut diikat, pakai baju santai. Syuting di depan meja rias, cahaya bagus. Produk ditutup rapat, label menghadap kamera."
+  "zh": "素颜，脸部湿润。准备好产品（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup, basahi sedikit. Siapkan produk (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：黑头在毛孔里嘲笑普通洗面奶进不去。",
-    "id": "Animasi: Komedo di pori-pori menertawakan pembersih biasa yang nggak bisa masuk."
+    "zh": "这段是动画，你不用出镜。",
+    "id": "Ini bagian animasi, kamu tidak perlu muncul."
    },
    "lines": "Hmm, tunggu si pemilik wajah cuci muka aja. Hahaha, percuma! Aku ngumpet di celah pori, dia nggak bisa masuk. Kok hitam lagi? Cuma formalitas, nggak ngefek."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：VEIRFOO Bubble Cleanser 滴入毛孔，起泡把黑头顶出来。",
-    "id": "Animasi: VEIRFOO Bubble Cleanser menetes ke pori-pori, berbusa dan mengangkat komedo keluar."
+    "zh": "这段是动画，你不用出镜。",
+    "id": "Ini bagian animasi, kamu tidak perlu muncul."
    },
    "lines": "Datang lagi, namanya VEIRFOO Bubble Cleanser. Ah, paling sama aja. Gawat! Di dalamnya ada PDRN dan Bifida alami, kok aku jadi takut!"
   },
@@ -42,10 +44,14 @@
    "n": 3,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部湿润。",
+    "id": "Wajah bersih tanpa makeup, basahi sedikit."
+   },
    "do": {
-    "zh": "特写鼻子和脸颊，涂抹精华液，精华液自动起泡。然后，脸部特写，用手指摇晃，假装警告，然后捏脸颊，露出调皮的笑容。",
-    "id": "Ambil gambar dekat hidung dan pipi, oleskan essence, biarkan berbusa sendiri. Lalu, ambil gambar dekat wajah, goyangkan jari seolah memberi peringatan, lalu cubit pipi dengan senyum nakal."
+    "zh": "用指尖把精华液涂抹在鼻翼和脸颊，然后手离开画面。精华液会自己起泡。然后，用食指在下巴旁边摇晃，假装警告，最后用两根手指轻轻捏一下脸颊，然后露出调皮的笑容。",
+    "id": "Oleskan essence tipis-tipis di sisi hidung dan pipi dengan ujung jari, lalu tangan keluar dari frame. Essence akan berbusa sendiri. Lalu, goyangkan jari telunjuk di samping dagu seolah memberi peringatan, dan cubit pipi dengan dua jari, lalu tersenyum nakal."
    },
    "lines": "Ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu nggak berminyak dan nggak kotor, jangan pakai, takutnya jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -53,13 +59,14 @@
    "n": 4,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上敷满白色泡沫",
-    "id": "Wajah tertutup busa putih"
+    "zh": "脸上覆盖着白色泡沫。",
+    "id": "Wajah tertutup busa putih."
    },
    "do": {
-    "zh": "脸部特写，脸上敷满白色泡沫，闭眼放松。然后，脸部特写，脸部干净，手拿产品瓶子放在脸颊旁边，微笑。",
-    "id": "Ambil gambar dekat wajah, wajah tertutup busa putih, mata tertutup, santai. Lalu, ambil gambar dekat wajah, wajah bersih, pegang botol produk di samping pipi, tersenyum."
+    "zh": "脸上覆盖着泡沫，眼睛闭着，放松。然后，脸部干净，把产品举到脸颊旁边，标签朝前，露出一丝自豪的微笑。",
+    "id": "Wajahmu tertutup busa, mata tertutup, rileks. Lalu, wajah bersih, angkat produk di samping pipi, label menghadap kamera, dengan senyum sedikit bangga."
    },
    "lines": "Aku rutin pakai pagi dan malam, bangun besoknya kerasa ada kejutan. Sampai akhirnya aku ganti ke ini, VEIRFOO Bubble Cleanser dari Korea."
   },
@@ -67,13 +74,14 @@
    "n": 5,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "湿润的脸，涂抹精华液",
-    "id": "Wajah basah, diolesi essence"
+    "zh": "素颜，脸部湿润。",
+    "id": "Wajah bersih tanpa makeup, basahi sedikit."
    },
    "do": {
-    "zh": "手部特写，按压产品，精华液滴在手掌。然后，脸部特写，脸部湿润，涂抹精华液，精华液自动起泡，泡沫越来越多。",
-    "id": "Ambil gambar dekat tangan, tekan produk, essence menetes ke telapak tangan. Lalu, ambil gambar dekat wajah, wajah basah, oleskan essence, biarkan essence berbusa sendiri, busanya makin banyak."
+    "zh": "把产品盖子打开，按压泵头，把精华液挤到另一只手掌里。然后，脸部湿润，涂抹精华液，不要揉搓。精华液会自己起泡，泡沫会越来越多。",
+    "id": "Buka tutup produk, tekan pump, dan tuangkan essence ke telapak tangan. Lalu, wajah basah, oleskan essence, jangan digosok. Essence akan berbusa sendiri, dan busanya akan semakin banyak."
    },
    "lines": "Wajah dibasahi, oles, nggak usah digosok. Tunggu beberapa detik, muncul sendiri busa putih halus dan rapat, masuk ke sela pori, ngangkat minyak dan kotoran. Lihat, busanya makin naik."
   },
@@ -81,10 +89,14 @@
    "n": 6,
    "sec": 11,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "脸上覆盖着白色泡沫。",
+    "id": "Wajah tertutup busa putih."
+   },
    "do": {
-    "zh": "在水池边洗脸，冲洗泡沫。然后，特写鼻子、脸颊、额头，展示干净的皮肤。最后，脸部特写，深呼吸，放松，手拿产品瓶子放在脸颊旁边，微笑。",
-    "id": "Di wastafel, bilas wajah sampai bersih. Lalu, ambil gambar dekat hidung, pipi, dahi, tunjukkan kulit yang bersih. Terakhir, ambil gambar dekat wajah, tarik napas lega, santai, pegang botol produk di samping pipi, tersenyum."
+    "zh": "在水池边用双手泼水冲洗脸上的泡沫。然后，展示鼻翼、脸颊和额头的特写，皮肤干净光滑。最后，脸部干净，深呼吸，露出满意的笑容，然后把产品举到脸颊旁边，标签朝前。",
+    "id": "Di wastafel, bilas busa di wajah dengan air. Lalu, tunjukkan close-up hidung, pipi, dan dahi yang bersih dan halus. Terakhir, wajah bersih, tarik napas lega dengan senyum puas, lalu angkat produk di samping pipi, label menghadap kamera."
    },
    "lines": "Habis dibilas, komedoku, minyak di wajahku, pori-poriku, semuanya bersih dan seger, pori-pori kayak bisa napas lega. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -92,10 +104,14 @@
    "n": 7,
    "sec": 14,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "脸部特写，手拿产品瓶子放在脸颊旁边，微笑。然后，脸部特写，空手，用手指计数。最后，脸部特写，手拿产品瓶子放在脸颊旁边，指向左下角。",
-    "id": "Ambil gambar dekat wajah, pegang botol produk di samping pipi, tersenyum. Lalu, ambil gambar dekat wajah, tangan kosong, hitung jari. Terakhir, ambil gambar dekat wajah, pegang botol produk di samping pipi, tunjuk ke kiri bawah."
+    "zh": "把产品举到脸颊旁边，标签朝前，自然微笑。然后，双手空着，用手指计数，表示要尝试的人群。然后，再次把产品举到脸颊旁边，标签朝前，眉毛微微上扬，像分享秘密一样。最后，保持产品不动，用另一只手指向左下方，推荐给朋友。",
+    "id": "Angkat produk di samping pipi, label menghadap kamera, tersenyum alami. Lalu, tangan kosong, hitung jari untuk menunjukkan siapa yang harus mencoba. Lalu, angkat lagi produk di samping pipi, label menghadap kamera, alis sedikit terangkat seperti berbagi rahasia. Terakhir, produk tetap di tempatnya, tunjuk ke kiri bawah dengan tangan kosong, seperti merekomendasikan kepada teman."
    },
    "lines": "Aku udah rekomendasiin ke banyak teman, semuanya bilang enak. Kalau wajahmu berminyak, kasar, hidungnya banyak titik hitam, wajib cobain. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek harganya sekarang, beli satu botol dulu buat coba!"
   }

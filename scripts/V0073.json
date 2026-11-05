@@ -6,24 +6,28 @@
   "id": "VEIRFOO Pink Hydraglow Cream"
  },
  "hook": {
-  "zh": "粉水光油霜：皮肤水润透亮，告别干燥紧绷",
-  "id": "Pink Hydraglow Cream: Kulit lembap, cerah, dan nggak ketarik lagi!"
+  "zh": "用了这个面霜，皮肤像自带滤镜",
+  "id": "Pakai krim ini, wajahku kayak ada filter-nya sendiri"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内明亮处拍摄。确保背景干净整洁。准备好产品：VEIRFOO粉水光油霜（盖子盖好，标签朝向镜头），以及它的包装盒。穿上漂亮的衣服，化好妆。手机拿稳，脸部占画面一半左右。",
-  "id": "Ambil video di dalam ruangan yang terang. Pastikan latar belakang rapi. Siapkan produk: VEIRFOO Pink Hydraglow Cream (tutupnya tertutup, label menghadap kamera), dan kotak kemasannya. Pakai baju dan makeup yang cantik. Pegang HP dengan stabil, wajahmu sekitar setengah dari bingkai."
+  "zh": "素颜，准备好VEIRFOO粉水光油霜（盖子盖好），以及产品包装盒。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Pink Hydraglow Cream (tutupnya terpasang) dan kotak kemasannya."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉。",
+    "id": "Wajah bersih tanpa makeup, kulit agak kusam."
+   },
    "do": {
-    "zh": "特写你的脸。先用指尖取少量粉色乳液，快速打圈涂抹在脸的右半边，让它瞬间吸收，变得更亮。然后抬头，微笑。说出台词。",
-    "id": "Close-up wajahmu. Ambil sedikit losion pink dengan ujung jari, lalu oleskan cepat dengan gerakan melingkar di sisi kanan wajahmu, biar langsung meresap dan jadi lebih cerah. Lalu angkat kepala, senyum. Ucapkan dialog."
+    "zh": "特写脸部，只露出上半张脸。用中指和无名指取少量粉色乳液，快速在右半边脸打圈涂抹，从内向外推开。涂抹后，右半边脸会立刻变得更亮更均匀，有水润光泽。然后抬头，露出自然的微笑，眼神看向镜头。用恍然大悟的语气说台词。",
+    "id": "Dekatkan kamera ke wajah, fokus ke bagian atas wajah. Ambil sedikit krim warna pink dengan jari tengah dan jari manis, lalu oleskan cepat dengan gerakan melingkar dari dalam ke luar di separuh wajah sebelah kanan. Setelah dioles, separuh wajah itu akan langsung terlihat lebih cerah dan merata, ada efek glowing. Lalu angkat kepala dan senyum natural ke arah kamera. Ucapkan kalimat ini dengan nada terkejut."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti krim ke produk yang sama, wajahku kayak ada filter-nya sendiri, glow-nya keluar dari dalam. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Pink Hydraglow Cream dari Korea ini."
   },
@@ -31,10 +35,14 @@
    "n": 2,
    "sec": 12,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉。",
+    "id": "Wajah bersih tanpa makeup, kulit agak kusam."
+   },
    "do": {
-    "zh": "身体稍微侧向镜头。先举起一只手，食指向上指，眼睛跟着看。然后放下，再举起另一只手，食指向下指，眼睛跟着看。动作要快。自信地像给朋友建议一样说出台词。",
-    "id": "Badanmu agak serong ke kamera. Angkat satu tangan, jari telunjuk menunjuk ke atas, matamu ikut melihat ke atas. Lalu turunkan, dan angkat tangan satunya, jari telunjuk menunjuk ke bawah, matamu ikut melihat ke bawah. Gerakannya cepat. Dengan nada percaya diri, seperti memberi tips ke teman, ucapkan dialog."
+    "zh": "身体稍微侧向镜头，表情活泼。先举起一只手，食指向上指，眼睛跟着看向上方；然后放下手，立刻举起另一只手，食指向下指，眼睛跟着看向下方，动作要快而干脆。用自信的语气，像给朋友建议一样说台词。",
+    "id": "Badan agak menyamping ke kamera, ekspresi ceria. Angkat satu tangan, tunjuk ke atas dengan jari telunjuk, mata ikut melihat ke atas. Lalu turunkan tangan, dan langsung angkat tangan satunya lagi, tunjuk ke bawah dengan jari telunjuk, mata ikut melihat ke bawah. Gerakannya cepat dan tegas. Ucapkan kalimat ini dengan nada percaya diri, seperti memberi tips ke teman."
    },
    "lines": "Umur tiga puluhan kulit makin kering, udah pakai pelembap tetap ketarik. Itu bukan kurang air, tapi kurang yang ngunci. Pakai ini aja — beneran harta karun, rasanya kayak perawatan ala klinik Korea."
   },
@@ -42,10 +50,11 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写你的双手。产品盖子已经拧开。轻轻挤压软管，让少量粉色乳液从管口出来，滴在手背上。快速地、有点炫耀地用画外音说出台词。",
-    "id": "Close-up kedua tanganmu. Tutup produk sudah terbuka. Tekan pelan tube-nya, biar sedikit losion pink keluar dari ujungnya, menetes ke punggung tanganmu. Dengan cepat dan sedikit pamer, ucapkan dialog sebagai voiceover."
+    "zh": "特写双手。VEIRFOO粉水光油霜的盖子已经拧开。挤少量粉色乳液到手背上。乳液质地水润，流动性强。用快速又有点炫耀的语气说台词。",
+    "id": "Dekatkan kamera ke tangan. Tutup VEIRFOO Pink Hydraglow Cream sudah terbuka. Pencet sedikit krim pink ke punggung tangan. Krimnya cair dan mudah mengalir. Ucapkan kalimat ini dengan nada cepat dan sedikit pamer."
    },
    "lines": "Sodium DNA, Kolagen, Niacinamide — kandungannya sebanyak itu, teksturnya tetap ringan kayak losion, nggak lengket sama sekali. Pas keluar warnanya pink muda, dioles langsung nyatu, tinggal glow-nya doang."
   },
@@ -53,10 +62,11 @@
    "n": 4,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "特写你的双手。双手拿着产品和包装盒，举到脸颊旁边，和脸部一起入镜。产品和包装盒正面朝向镜头。你的声音逐渐高昂，用画外音说出台词。",
-    "id": "Close-up kedua tanganmu. Pegang produk dan kotak kemasannya, angkat di samping pipimu, biar wajahmu dan produknya masuk frame. Produk dan kotaknya menghadap kamera. Suaramu makin meninggi, ucapkan dialog sebagai voiceover."
+    "zh": "特写双手。双手拿着VEIRFOO粉水光油霜（盖子盖好）和包装盒，举到脸颊旁边，与脸同高，产品正面朝向镜头。脸部可以出镜。全息表面会随着角度轻微变化，折射出流动的粉紫色彩虹光。用声音逐渐高昂的语气说台词。",
+    "id": "Dekatkan kamera ke tangan. Pegang VEIRFOO Pink Hydraglow Cream (tutupnya terpasang) dan kotak kemasannya di samping pipi, sejajar dengan wajah, bagian depan produk menghadap kamera. Wajah bisa terlihat. Permukaan holografik akan memantulkan cahaya pelangi pink-ungu yang bergerak saat sudutnya sedikit berubah. Ucapkan kalimat ini dengan nada yang semakin bersemangat."
    },
    "lines": "Buatku lembapnya seharian, nggak bikin ketarik. Pagi buat base sebelum makeup, malam sebelum tidur, dua-duanya cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

@@ -6,84 +6,90 @@
   "id": "VEIRFOO Sodium DNA Hydraglow Collagen Mask"
  },
  "hook": {
-  "zh": "皮肤像灯一样发光",
+  "zh": "皮肤发光像灯泡",
   "id": "glowing kayak lampu"
  },
  "src": "TikTok @cicinora.xiaojia",
  "cam": "user",
  "prep": {
-  "zh": "在卧室里拍摄，光线柔和，脸部明亮。戴上灰色针织发带，穿好衣服，露出领口和袖子。脸上不要化妆，涂上柔和的裸粉色唇膏。确保产品标签朝向镜头。",
-  "id": "Ambil video di kamar tidur, pakai cahaya yang lembut biar muka cerah. Pakai bando rajut abu-abu, pakai baju yang kerahnya kelihatan. Jangan pakai makeup, cukup lipstik nude-pink. Pastikan label produk menghadap kamera."
+  "zh": "素颜，戴发箍。产品：VEIRFOO水光胶原蛋白膜（新包装银管）。",
+  "id": "Wajah bersih tanpa makeup, pakai bando. Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (tube perak kemasan baru)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上敷着透明高光膜，紧致包裹皮肤。",
-    "id": "Masker kolagen bening dan mengkilap sudah menempel ketat di wajah."
+    "zh": "全脸敷着透明高光膜，紧致提拉",
+    "id": "Wajah sudah dilapisi masker transparan yang glowing dan kencang"
    },
    "do": {
-    "zh": "脸部特写，脸占画面一半。用两根食指指向脸颊，不要碰到膜，表现出兴奋自豪的表情。说出所有台词。",
-    "id": "Ambil close-up wajahmu, penuhi setengah layar. Arahkan kedua jari telunjuk ke pipi tanpa menyentuh masker, tunjukkan ekspresi bangga dan gembira. Ucapkan semua baris."
+    "zh": "对着镜头，两手食指指着脸颊，自豪又兴奋地说话。然后把手打开放在脸颊两侧，同时转动脸颊朝向光线，让面膜上的光泽显现出来。",
+    "id": "Menghadap kamera, kedua jari telunjuk menunjuk pipi, bicara dengan bangga dan semangat. Lalu buka tangan di samping pipi, sambil putar pipi ke arah cahaya supaya kilau di masker terlihat."
    },
-   "lines": "Ini udah aku diamkan tiga puluh sampai empat puluh menit ya. Nah, aku ngerasa kulitku lagi cerah, glowing kayak lampu.",
-   "lines_zh": "我已经敷了三四十分钟了。"
+   "lines": "Ini udah aku diamkan tiga puluh sampai empat puluh menit ya. Nah, aku ngerasa kulitku lagi cerah, glowing kayak lampu."
   },
   {
    "n": 2,
    "sec": 10,
    "talk": true,
-   "face": null,
-   "do": {
-    "zh": "脸部特写，脸占画面一半。一只手拿着未盖盖子的产品管，标签朝向镜头，将产品挤到额头和脸颊上。然后用双手将产品涂抹均匀，避开眼睛和嘴唇，表情开朗健谈。接着，一只手拿着盖好盖子的产品管，在脸颊旁边举起，标签朝向镜头，轻轻摇晃一下。说出所有台词。",
-    "id": "Ambil close-up wajahmu, penuhi setengah layar. Satu tangan pegang tube produk tanpa tutup, label menghadap kamera, lalu peras produk ke dahi dan pipi. Lalu pakai kedua tangan ratakan produk ke seluruh wajah, hindari mata dan bibir, ekspresi ceria dan ramah. Setelah itu, satu tangan pegang tube produk yang sudah tertutup, angkat di samping pipi, label menghadap kamera, lalu goyangkan sedikit. Ucapkan semua baris."
+   "broll": false,
+   "face": {
+    "zh": "素颜，戴发箍",
+    "id": "Wajah bersih tanpa makeup, pakai bando"
    },
-   "lines": "Buat kalian yang suka begadang atau kulitnya berminyak, kamu wajib coba masker ini. VEIRFOO merupakan brand dari Korea asli, dan fokus di perawatan kulit, kolagen, dan anti aging.",
-   "lines_zh": "对于喜欢熬夜或油性皮肤的你们，一定要试试这款面膜。VEIRFOO是韩国本土品牌，专注于皮肤护理、胶原蛋白和抗衰老。"
+   "do": {
+    "zh": "对着镜头，把产品直接挤到额头和脸颊上。然后用两只手把面膜涂抹均匀，避开眼睛和嘴唇。最后，举起产品在脸颊旁边，对着镜头展示产品，轻轻摇晃一下。",
+    "id": "Menghadap kamera, aplikasikan produk langsung dari tube ke dahi dan pipi. Lalu ratakan masker dengan kedua tangan, hindari area mata dan bibir. Terakhir, pegang produk di samping pipi, tunjukkan ke kamera, dan goyangkan sedikit."
+   },
+   "lines": "Buat kalian yang suka begadang atau kulitnya berminyak, kamu wajib coba masker ini. VEIRFOO merupakan brand dari Korea asli, dan fokus di perawatan kulit, kolagen, dan anti aging."
   },
   {
    "n": 3,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上均匀涂抹着乳白色面膜。",
-    "id": "Wajah sudah dilapisi masker putih susu secara merata."
+    "zh": "全脸敷着乳白色面膜",
+    "id": "Wajah sudah dilapisi masker warna putih susu"
    },
    "do": {
-    "zh": "脸部特写，脸占画面一半。一只手拿着未盖盖子的产品管，标签朝向镜头，将产品挤到另一只手背上，然后将手举到脸颊旁边，让产品线朝向镜头。然后，对着镜头说话，做个轻松的小手势，然后满意地点头。说出所有台詞。",
-    "id": "Ambil close-up wajahmu, penuhi setengah layar. Satu tangan pegang tube produk tanpa tutup, label menghadap kamera, lalu peras produk ke punggung tangan yang lain, lalu angkat tangan itu di samping pipi, tunjukkan produknya ke kamera. Lalu, bicara ke kamera, buat gerakan tangan kecil yang santai, lalu anggukkan kepala dengan puas. Ucapkan semua baris."
+    "zh": "对着镜头，把产品挤到另一只手背上，然后把手举到脸颊旁边，展示面膜的质地。然后对着镜头说话，可以做一些简单的手势，然后满意地点头。",
+    "id": "Menghadap kamera, aplikasikan produk ke punggung tangan yang lain, lalu angkat tangan itu ke samping pipi, tunjukkan tekstur maskernya. Lalu bicara ke kamera, bisa sambil membuat gerakan tangan kecil, lalu mengangguk puas."
    },
-   "lines": "Lihat deh teksturnya. Di dalamnya ada salmon PDRN, serta kandungan pencerah. Pakai ini, aku ngerasa kulitku lebih kenyal dan lebih cerah.",
-   "lines_zh": "看看这个质地。里面有鲑鱼PDRN，还有提亮成分。用了这个，我感觉皮肤更Q弹更亮了。"
+   "lines": "Lihat deh teksturnya. Di dalamnya ada salmon PDRN, serta kandungan pencerah. Pakai ini, aku ngerasa kulitku lebih kenyal dan lebih cerah."
   },
   {
    "n": 4,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上敷着透明高光膜，紧致包裹皮肤。",
-    "id": "Masker kolagen bening dan mengkilap sudah menempel ketat di wajah."
+    "zh": "全脸敷着透明高光膜，紧致提拉",
+    "id": "Wajah sudah dilapisi masker transparan yang glowing dan kencang"
    },
    "do": {
-    "zh": "脸部特写，脸占画面一半。用食指指向脸颊，不要碰到膜。然后，用指尖捏住发际线处的面膜边缘。接着，用双手从额头到下巴，将整张面膜完整地撕下来。最后，一只手拿着撕下来的透明面膜，在脸颊旁边举起。说出所有台词。",
-    "id": "Ambil close-up wajahmu, penuhi setengah layar. Arahkan jari telunjuk ke pipi tanpa menyentuh masker. Lalu, jepit ujung masker di garis rambut dengan ujung jari. Setelah itu, pakai kedua tangan, tarik seluruh masker dari dahi sampai dagu secara utuh. Terakhir, satu tangan pegang masker bening yang sudah dilepas, angkat di samping pipi. Ucapkan semua baris."
+    "zh": "对着镜头，用食指指着脸颊，说面膜已经变透明了。然后两手手指捏住发际线处的面膜边缘，准备撕下。然后两手从额头到下巴，把面膜完整地撕下来。最后，举着撕下来的透明面膜在脸颊旁边，对着镜头说话。",
+    "id": "Menghadap kamera, tunjuk pipi dengan jari telunjuk, bilang maskernya sudah jadi transparan. Lalu kedua jari mencubit ujung masker di garis rambut, siap untuk dilepas. Kemudian kedua tangan menarik masker dari dahi ke dagu sampai terlepas semua. Terakhir, pegang masker transparan yang sudah dilepas di samping pipi, bicara ke kamera."
    },
-   "lines": "Nah, lihat sekarang ini, warnanya dari putih jadi transparan. Wow, sekarang kita langsung buka. Nah, buatku itu tandanya essence di dalamnya udah meresap semua ke kulit.",
-   "lines_zh": "看，现在这个颜色从白色变成了透明。哇，现在我们直接撕开。对我来说，这代表里面的精华都已经被皮肤吸收了。"
+   "lines": "Nah, lihat sekarang ini, warnanya dari putih jadi transparan. Wow, sekarang kita langsung buka. Nah, buatku itu tandanya essence di dalamnya udah meresap semua ke kulit."
   },
   {
    "n": 5,
    "sec": 8,
    "talk": true,
-   "face": null,
-   "do": {
-    "zh": "脸部特写，脸占画面一半。用指尖轻抚脸颊。然后，用食指轻按脸颊并抬起，皮肤会弹回来。最后，一只手轻轻放在下巴旁边，不要遮住嘴巴，然后慢慢转动脸颊，让柔和的光泽滑过，露出微笑。说出所有台词。",
-    "id": "Ambil close-up wajahmu, penuhi setengah layar. Usapkan ujung jari di pipi yang halus dan lembap. Lalu, tekan ringan pipi dengan jari telunjuk dan angkat, kulit akan kembali kenyal. Terakhir, satu tangan letakkan ringan di dekat rahang tanpa menutupi mulut, lalu perlahan putar pipi ke arah cahaya agar kilau lembutnya terlihat, sambil tersenyum. Ucapkan semua baris."
+   "broll": false,
+   "face": {
+    "zh": "素颜，戴发箍",
+    "id": "Wajah bersih tanpa makeup, pakai bando"
    },
-   "lines": "Nah, hasil akhirnya, aku ngerasa kulitku glowing dan cerah. Hmm, kenyal juga, kalian lihat. Wow, kulitku berasa kayak kulit cewek Korea.",
-   "lines_zh": "看，最终效果，我感觉皮肤发光又明亮。嗯，也很Q弹，你们看。哇，我的皮肤感觉像韩国女生的皮肤。"
+   "do": {
+    "zh": "对着镜头，用指尖滑过脸颊，展示皮肤的光滑。然后用食指轻按脸颊，展示皮肤的弹润。最后，把手轻轻放在下巴旁边，对着镜头转动脸颊，展示皮肤的光泽，并微笑。",
+    "id": "Menghadap kamera, usapkan ujung jari di pipi, tunjukkan kulit yang halus. Lalu tekan pipi dengan jari telunjuk, tunjukkan kulit yang kenyal. Terakhir, letakkan tangan dengan lembut di samping dagu, putar pipi ke arah cahaya, tunjukkan kilau kulit, dan tersenyum."
+   },
+   "lines": "Nah, hasil akhirnya, aku ngerasa kulitku glowing dan cerah. Hmm, kenyal juga, kalian lihat. Wow, kulitku berasa kayak kulit cewek Korea."
   }
  ],
  "na": false,

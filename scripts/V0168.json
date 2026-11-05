@@ -6,24 +6,25 @@
   "id": "Masker Collagen Second Skin dari VEIRFOO"
  },
  "hook": {
-  "zh": "天啊，这皮肤也太像玻璃肌了！",
+  "zh": "皮肤累了暗沉？用它秒变玻璃肌！",
   "id": "Gilaa, ini glass skin banget sih!"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前，确保脸是完全素颜的，没有化妆。灯光要明亮，让皮肤看起来白皙均匀。穿一件能遮住肩膀的衣服。准备好产品，盖子盖好，标签朝向镜头。",
-  "id": "Di meja rias, pastikan wajahmu bersih tanpa makeup. Cahaya harus terang biar kulitmu kelihatan cerah dan rata. Pakai baju yang menutupi bahu. Siapkan produknya, tutupnya terpasang, labelnya menghadap kamera."
+  "zh": "产品：VEIRFOO水光胶原蛋白膜（新包装，盖子盖好，标签朝前）。道具：平头面膜刷。皮肤：素颜，无妆。",
+  "id": "Produk: Masker Collagen Second Skin VEIRFOO (kemasan baru, tutupnya terpasang, label menghadap kamera). Alat: Kuas masker pipih. Wajah: Bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "素颜出镜，看起来有点疲惫，眼睛下方有淡淡的黑眼圈。用指尖轻拍眼下，然后沿着颧骨滑动，叹一口气，然后露出坚定的笑容。硬切后，化好淡妆，皮肤光滑有光泽，像被柔和修饰过一样。把产品举到脸颊旁边，介绍产品。",
-    "id": "Tunjukkan wajah tanpa makeup, terlihat sedikit lelah, dengan lingkaran hitam tipis di bawah mata. Ketuk-ketuk ringan di bawah mata dengan ujung jari, lalu usap sepanjang tulang pipi, menghela napas, lalu tersenyum penuh tekad. Setelah cut, wajah sudah dengan makeup tipis, halus dan glowing seperti sudah diedit lembut. Angkat produk di samping pipi dan sebutkan namanya."
+    "zh": "素颜出镜，脸部占画面一半。用指尖轻拍并轻抚眼下，然后微笑。之后，切换到淡妆的脸。将产品举到脸颊旁，标签朝向镜头，然后轻轻摇晃并自信地点头。",
+    "id": "Tunjukkan wajah tanpa makeup, penuhi setengah layar. Kamu bisa menepuk-nepuk dan mengusap bawah mata dengan jari, lalu tersenyum. Setelah itu, potong ke wajah dengan makeup tipis. Angkat produk ke samping pipi, label menghadap kamera, lalu goyangkan sedikit dan mengangguk yakin."
    },
    "lines": "Kalau kulit lagi kelihatan capek dan kusam, wajib banget cobain masker ini. Masker Collagen Second Skin dari VEIRFOO ini wajib banget dicoba."
   },
@@ -31,13 +32,14 @@
    "n": 2,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "完全素颜，没有化妆，嘴唇是柔和的裸粉色，没有唇彩。",
-    "id": "Wajah bersih tanpa makeup sama sekali, bibir pink nude lembut tanpa lip gloss."
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
    },
    "do": {
-    "zh": "挤出乳白色的面膜膏体到脸颊上，管身标签朝向镜头。硬切后，用刷子将面膜均匀地涂抹在脸颊和额头上，形成一层均匀的乳白色面膜。",
-    "id": "Pencet krim masker putih susu ke pipi, bagian depan tube menghadap kamera. Setelah cut, pegang kuas dan sapukan krim putih susu dengan halus dan rapi di pipi dan dahi, biarkan lapisan putih susu yang rata."
+    "zh": "素颜出镜，脸部占画面一半。从没有盖子的管状容器中挤出一点乳霜到左脸颊，管状容器的标签朝向镜头。然后，切换到同一张脸。用刷子将乳霜均匀涂抹在脸颊和额头。",
+    "id": "Tunjukkan wajah tanpa makeup, penuhi setengah layar. Kamu bisa memencet sedikit krim dari tube tanpa tutup ke pipi kiri, label tube menghadap kamera. Lalu, potong ke wajah yang sama. Gunakan kuas untuk mengoleskan krim secara merata di pipi dan dahi."
    },
    "lines": "Ini masker perawatan yang banyak dipakai di klinik kecantikan Korea. Pakai ini, aku ngerasa kandungannya lebih gampang meresap ke kulit."
   },
@@ -45,13 +47,14 @@
    "n": 3,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "面膜已经撕掉，脸部完全干净，皮肤白皙透亮，光滑柔软，有水润光泽。",
-    "id": "Masker sudah dilepas, wajah bersih total: kulit mulus, cerah, dan bercahaya, sedikit lebih cerah dan segar dari sebelumnya, halus, lembut, dan rata dengan kilau embun yang lembut."
+    "zh": "干净的脸，无妆，有水光感",
+    "id": "Wajah bersih, tanpa makeup, glowing"
    },
    "do": {
-    "zh": "用指尖轻轻捏压双颊，皮肤柔软有弹性，光线在水润的光泽上滑动，露出开心的笑容。硬切后，将产品举到脸颊旁边，标签朝向镜头，然后挑眉。",
-    "id": "Dengan ujung jari, remas lembut kedua pipi dan tekan ringan, kulit akan kembali lembut dan kenyal, cahaya meluncur di atas kilau embunnya; senyum kecil yang senang. Setelah cut, angkat produk di samping pipi, bagian depan tube menghadap kamera, lalu angkat alis."
+    "zh": "坐在床上，脸部占画面一半。用指尖轻捏两颊，皮肤会感觉Q弹有弹性，开心地微笑。然后，切换到同一张脸。将产品举到脸颊旁，标签朝向镜头，盖子盖好，然后挑眉，仿佛在透露秘密。",
+    "id": "Kamu bisa duduk di kasur, penuhi setengah layar. Dengan jari, kamu bisa mencubit-cubit pipi dan rasakan kulit yang kenyal, lalu tersenyum senang. Lalu, potong ke wajah yang sama. Angkat produk ke samping pipi, label menghadap kamera, tutupnya terpasang, lalu angkat alis seolah memberi tahu rahasia."
    },
    "lines": "Habis dipakai, aku langsung ngerasa kulitku lebih halus, lembut, dan glowing. Dulu aku beli di website resmi Korea, satu pcs harganya segini loh."
   },
@@ -59,13 +62,14 @@
    "n": 4,
    "sec": 5,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸部干净，皮肤白皙透亮，光滑柔软，有水润光泽。",
-    "id": "Wajah bersih, kulit mulus, cerah, dan bercahaya, halus dan rata dengan kilau embun yang lembut."
+    "zh": "干净的脸，无妆，有水光感",
+    "id": "Wajah bersih, tanpa makeup, glowing"
    },
    "do": {
-    "zh": "指向画面左下角的购物车，然后开心地轻轻点头，就像告诉朋友一样。",
-    "id": "Arahkan jari telunjuk ke sudut kiri bawah frame, lalu berikan anggukan kecil yang ceria, seperti memberitahu teman."
+    "zh": "坐在床上，脸部占画面一半。用食指指向屏幕左下角，然后开心地点头。",
+    "id": "Kamu bisa duduk di kasur, penuhi setengah layar. Dengan jari telunjuk, kamu bisa menunjuk ke pojok kiri bawah layar, lalu mengangguk ceria."
    },
    "lines": "Tapi sekarang lagi ada promo, langsung aja klik keranjang kuning di kiri bawah!"
   }

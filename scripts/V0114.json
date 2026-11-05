@@ -2,31 +2,32 @@
  "id": "V0114",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "鎏金蛋白膜 Golden Mask",
+  "zh": "VEIRFOO Golden Mask 鎏金蛋白膜",
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
   "zh": "贵护肤品真有效",
-  "id": "Skincare mahal itu beneran efektif"
+  "id": "Skincare mahal memang efektif"
  },
  "src": "TikTok @renny.antonious",
  "cam": "user",
  "prep": {
-  "zh": "在家，素颜，穿宽松的浅灰色T恤。手机拿远一点，脸占画面一半。光线要柔和明亮。准备好VEIRFOO Golden Mask，盖子盖好，标签朝前。",
-  "id": "Di rumah, muka polos tanpa makeup, pakai kaos abu-abu muda yang longgar. Pegang HP agak jauh, muka kira-kira separuh layar. Cahaya harus lembut dan terang. Siapkan VEIRFOO Golden Mask, tutupnya terpasang, label menghadap kamera."
+  "zh": "素颜，全脸厚涂一层乳白膏体，准备一个上妆刷",
+  "id": "Wajah bersih tanpa makeup, siapkan kuas dan VEIRFOO Golden Mask dengan tutupnya"
  },
  "shots": [
   {
    "n": 1,
    "sec": 4,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "全脸厚涂一层乳白膏体，还在推开",
-    "id": "Seluruh muka sudah dioles krim putih tebal, masih diratakan"
+    "zh": "素颜，全脸厚涂一层乳白膏体",
+    "id": "Wajah bersih tanpa makeup, sudah pakai masker VEIRFOO Golden Mask tebal-tebal"
    },
    "do": {
-    "zh": "素颜，穿宽松的浅灰色T恤。全脸涂满乳白色膏体，用指尖慢慢涂抹脸颊，看着镜头。",
-    "id": "Muka polos tanpa makeup, pakai kaos abu-abu muda yang longgar. Seluruh muka sudah dioles krim putih tebal, ratakan perlahan di pipi dengan ujung jari sambil melihat ke kamera."
+    "zh": "素颜，全脸厚涂一层乳白膏体，用指尖慢慢推开，看向镜头。",
+    "id": "Wajah tanpa makeup, sudah pakai masker VEIRFOO Golden Mask tebal-tebal. Kamu bisa pakai jari untuk meratakan masker di pipi sambil melihat ke kamera."
    },
    "lines": ""
   },
@@ -34,10 +35,11 @@
    "n": 2,
    "sec": 5,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "先做个可爱的嘟嘴表情，然后露出自然的笑容。一只手把产品举到脸旁边，标签朝前，然后稍微推向镜头。",
-    "id": "Buat ekspresi cemberut lucu seperti mau menangis, lalu senyum alami. Angkat produk di samping pipi, label menghadap kamera, lalu dorong sedikit ke arah lensa."
+    "zh": "假装要哭的表情，然后露出自然的笑容。一只手把产品举到脸旁边，向镜头展示。",
+    "id": "Buat ekspresi lucu seperti mau menangis, lalu senyum alami. Angkat produk VEIRFOO Golden Mask di samping pipi, tunjukkan ke kamera sambil bicara."
    },
    "lines": "Sama banget! Aku dari cobain satu tube, sekarang di rumah selalu ada stok yang ini."
   },
@@ -45,10 +47,11 @@
    "n": 3,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一句话时，一只手把产品举到脸旁边，标签朝前，稍微向镜头倾斜，自豪地点头。第二句话时，把产品放下，手在下巴旁边轻轻比划，解释护肤品无效的原因。",
-    "id": "Saat kalimat pertama, angkat produk di samping pipi, label menghadap kamera, miringkan sedikit ke arah lensa sambil mengangguk bangga. Saat kalimat kedua, turunkan produk, gerakkan tangan di samping dagu, jelaskan kenapa skincare sering tidak efektif."
+    "zh": "一只手把产品举到脸旁边，向镜头倾斜，然后放下产品，用手势解释。",
+    "id": "Angkat produk VEIRFOO Golden Mask di samping pipi, miringkan sedikit ke kamera. Lalu turunkan produk dan jelaskan sambil menggerakkan tangan di samping dagu."
    },
    "lines": "Ini dia VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak ngefek itu sering bukan karena produknya jelek, tapi bahan aktifnya nggak sempat nempel di kulit."
   },
@@ -56,10 +59,11 @@
    "n": 4,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一句话时，用刷子把乳白色膏体涂抹在脸颊上。第二句话时，全脸覆盖着一层干透的膜，用指尖轻按脸颊。第三句话时，用拇指和食指捏住脸颊外侧的膜，向旁边撕下。",
-    "id": "Saat kalimat pertama, oleskan krim putih susu di pipi dengan kuas. Saat kalimat kedua, seluruh muka sudah tertutup lapisan film yang kering, sentuh pipi dengan ujung jari. Saat kalimat ketiga, cubit film di tepi luar pipi dekat telinga dengan ibu jari dan telunjuk, lalu tarik ke samping."
+    "zh": "用刷子把乳霜刷到脸颊上，然后展示全脸涂好面膜的样子，再从脸颊侧面撕下面膜。",
+    "id": "Pakai kuas untuk mengoleskan masker di pipi. Lalu tunjukkan wajah yang sudah tertutup masker kering. Setelah itu, kelupas masker dari samping pipi."
    },
    "lines": "Cara pakainya dioles pakai kuas ke seluruh wajah, tunggu sampai kering jadi lapisan, bahan aktifnya kekunci terus di kulit, terakhir dikelupas satu lembar utuh."
   },
@@ -67,10 +71,11 @@
    "n": 5,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一句话时，一只手在下巴旁边轻轻数着手指，每说一个场合就数一根手指，并轻轻点头。第二句话时，另一只手把产品举到脸旁边，标签朝前，坚定地点头。",
-    "id": "Saat kalimat pertama, satu tangan menghitung jari di samping dagu, satu jari untuk setiap kesempatan, sambil mengangguk kecil. Saat kalimat kedua, angkat produk di samping pipi, label menghadap kamera, dengan anggukan yakin."
+    "zh": "用手指计算用量，然后把产品举到脸旁边，说出成分。",
+    "id": "Hitung dengan jari kapan kamu pakai masker ini. Lalu angkat produk VEIRFOO Golden Mask di samping pipi dan sebutkan kandungannya."
    },
    "lines": "Dan ini multifungsi banget: sebelum kencan atau sebelum makeup bisa dipakai sekali, habis pakai retinol, habis treatment di klinik, atau habis eksfoliasi juga bisa. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -78,10 +83,11 @@
    "n": 6,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一句话时，一只手在下巴旁边随意挥动，手掌朝上，像在抱怨自己的脸，带着一丝苦笑。第二句话时，另一只手把产品举到脸旁边，标签朝前，然后把脸颊稍微转向光源，露出明亮自然的笑容。",
-    "id": "Saat kalimat pertama, satu tangan melambai santai di samping dagu, telapak tangan ke atas, seperti mengeluh tentang wajahnya sendiri, dengan senyum kecut. Saat kalimat kedua, angkat produk di samping pipi, label menghadap kamera, lalu putar pipi sedikit ke arah cahaya jendela, dan berikan senyum cerah alami."
+    "zh": "用手势抱怨脸部疲惫，然后把产品举到脸旁边，展示发光的脸颊。",
+    "id": "Gerakkan tangan seolah mengeluh tentang wajah yang lelah. Lalu angkat produk VEIRFOO Golden Mask di samping pipi, miringkan wajah sedikit ke arah cahaya untuk menunjukkan kulit yang glowing."
    },
    "lines": "Apalagi habis begadang, pas wajah kelihatan lelah, kusam dan nggak ada glow-nya, oles selapis terus dikelupas, kulitku berasa lebih kencang dan kelihatan glowing, beres."
   },
@@ -89,10 +95,11 @@
    "n": 7,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一句话时，一只手把产品举到脸旁边，标签朝前，带着一丝狡黠的笑容和耸肩。第二句话时，另一只手保持产品在脸旁边，空着的食指指向画面左下角。",
-    "id": "Saat kalimat pertama, satu tangan memegang produk di samping pipi, label menghadap kamera, dengan senyum nakal dan mengangkat bahu. Saat kalimat kedua, tangan yang memegang produk tetap di samping pipi, dan jari telunjuk tangan yang kosong menunjuk ke pojok kiri bawah layar."
+    "zh": "把产品举到脸旁边，露出自信的笑容，然后用另一只手指向左下角。",
+    "id": "Angkat produk VEIRFOO Golden Mask di samping pipi, senyum percaya diri. Lalu pakai tangan yang lain untuk menunjuk ke arah keranjang kuning di kiri bawah."
    },
    "lines": "Emang sih, ada harga ada kualitas. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

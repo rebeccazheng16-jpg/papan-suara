@@ -22,7 +22,7 @@ body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,san
 .app{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
 h1{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;letter-spacing:.02em;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 h1 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute)}
-h2{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;letter-spacing:.02em;display:flex;align-items:center;gap:10px}
+h2{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;letter-spacing:.02em;display:flex;align-items:center;gap:10px;flex-wrap:wrap;white-space:nowrap}
 h2 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:12px;color:var(--mute)}
 button,input,textarea,select{font-family:inherit;font-size:14px;color:inherit}
 button{cursor:pointer}
@@ -87,6 +87,23 @@ button:disabled{cursor:default}
 .shot b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
 .shot .m{color:var(--mute);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 .shot.dup b::after{content:" ×2";color:var(--dark);font-size:13px}
+.shot .ed{color:var(--dark);font-size:12px;font-weight:600;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere;border-top:1px solid var(--line);padding-top:4px;margin-top:2px}
+/* 成片：达人美颜后传的整条，深红边框单独一块放在分段前面 */
+.finals{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.shot.final{border:2px solid var(--dark)}
+.shot.final b{color:var(--dark)}
+/* 自己拆脚本额度 */
+.quota{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px}
+.quota b{font-family:"Barlow Condensed",sans-serif;font-size:16px;font-weight:800;font-variant-numeric:tabular-nums}
+.quota input{width:64px;min-height:30px;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding-inline:8px;font-size:13px;font-variant-numeric:tabular-nums;box-sizing:border-box}
+/* 达人意见 */
+.notes{border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.notes .nh{font-weight:600}
+.note{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:10px;align-items:baseline}
+.note .t{color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums}
+.note .s{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:15px;white-space:nowrap}
+.note .txt{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}
+.notes .more{align-self:flex-start}
 /* 弹窗 */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:20;padding:20px;box-sizing:border-box}
 .modal .box{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:18px;width:100%;max-width:380px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3);max-height:92vh;overflow:auto;box-sizing:border-box}
@@ -148,23 +165,55 @@ function modal(html, wide) {
 // ===== 数据 =====
 const root = document.getElementById("root");
 let rows = [], assigns = {}, lib = {}, pres = {}, err = "", loading = false, backendOld = false;
-const ui = { prod: "all", q: "", open: null, brand: "all" };
+let quotas = { limits: {}, used: {}, def: 5 }, noteRows = [], editRows = [];
+const ui = { prod: "all", q: "", open: null, brand: "all", notesOpen: {} };
 async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
 async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
-async function load() {
-  loading = true; err = ""; render();
+const setPres = pr => { pres = {}; (pr?.rows || []).forEach(x => pres[String(x.who).toLowerCase()] = x); };
+let busy = false;
+// quiet=true：定时刷新，不显示读取中、不先清页面，拉完数据再画
+async function load(quiet) {
+  if (busy) return; busy = true;
+  if (!quiet) { loading = true; err = ""; render(); }
   try {
-    const [l, a, idx, bl, pr] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
-      fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({}))]);
-    pres = {}; (pr?.rows || []).forEach(x => pres[String(x.who).toLowerCase()] = x);
+    const [l, a, idx, bl, pr, qt, nt, ed] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
+      fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({})),
+      api({ action: "quotas" }).catch(() => ({})), api({ action: "notes" }).catch(() => ({})), api({ action: "alledits" }).catch(() => ({}))]);
+    setPres(pr);
     if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
     rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
     lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = Object.assign({ owner: "", where: "site" }, s));
     backendOld = !bl || !bl.ok;                       // 后台还没发新版本：没有脚本库接口
     (bl?.scripts || []).forEach(s => lib[s.id] = Object.assign({ where: "backend" }, s));
+    if (qt?.ok) quotas = { limits: qt.limits || {}, used: qt.used || {}, def: Number(qt.def) || 5 };
+    if (nt?.ok) noteRows = (nt.rows || []).slice().sort((x, y) => (new Date(y.time) - new Date(x.time)));
+    if (ed?.ok) editRows = ed.rows || [];
+    if (quiet) err = "";
   } catch (e) { err = String(e?.message || e); }
-  loading = false; render();
+  loading = false; busy = false;
+  quiet ? softRender() : render();
 }
+async function refreshPresence() {
+  try { const pr = await api({ action: "presence" }); if (pr?.ok) { setPres(pr); softRender(); } } catch (e) {}
+}
+// 定时刷新用：她正在输入或开着弹窗时先不重画，等下一轮
+let dirty = false;
+function softRender() {
+  const ae = document.activeElement;
+  const typing = ae && /^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName);
+  if ($(".modal") || typing) { dirty = true; return; }
+  render();
+}
+let tPres = 0, tFull = 0;
+function startTimers() {
+  clearInterval(tPres); clearInterval(tFull);
+  tPres = setInterval(() => { if (!document.hidden && key) { if (dirty) softRender(); refreshPresence(); } }, 20000);
+  tFull = setInterval(() => { if (!document.hidden && key) load(true); }, 60000);
+}
+document.addEventListener("visibilitychange", () => { if (!document.hidden && key) { refreshPresence(); load(true); } });
+const onlineCount = () => Object.values(pres).filter(x => (Date.now() - new Date(x.last).getTime()) < 3 * 60000).length;
+const limitOf = who => { const k = Object.keys(quotas.limits || {}).find(x => same(x, who)); return k ? Number(quotas.limits[k]) : quotas.def; };
+const usedOf = who => { const k = Object.keys(quotas.used || {}).find(x => same(x, who)); return k ? Number(quotas.used[k]) || 0 : 0; };
 const fmtT = t => { const d = new Date(t); return isNaN(d) ? "" : `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
 const mb = n => (Number(n) / 1048576).toFixed(1) + " MB";
 const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "";
@@ -193,7 +242,8 @@ function render() {
   Object.values(assigns).forEach(a => { const k = a.who.toLowerCase(); if (!byT[k]) byT[k] = { who: a.who, handle: "", nick: "", link: "", last: "", scripts: {} }; });
   Object.values(pres).forEach(x => { const k = String(x.who).toLowerCase(); if (!byT[k]) byT[k] = { who: x.who, handle: x.handle, nick: x.nick, link: x.link, last: "", scripts: {} }; else { byT[k].handle ||= x.handle; byT[k].link ||= x.link; } });
   const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
-  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 脚本库 ${Object.keys(lib).length} 本</small>
+  dirty = false;
+  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 在线 ${onlineCount()} 人 · 脚本库 ${Object.keys(lib).length} 本</small>
       <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button></h1>
     ${err ? `<p class="err">${esc(err)}</p>` : ""}
     ${backendOld ? `<p class="err">后台还是旧版：新增脚本、智能拆段、专属本子要等 Apps Script 发新版本后才能用（Code.gs 已在剪贴板）。派库里的本子不受影响。</p>` : ""}
@@ -212,14 +262,16 @@ function render() {
 // ----- 脚本库面板 -----
 function libList() {
   const all = Object.values(lib).sort((a, b) => b.id.localeCompare(a.id));
-  return all.filter(s => ui.brand === "all" || (ui.brand === "V" ? /^V/i.test(s.id) : ui.brand === "S" ? /^S/i.test(s.id) : s.owner));
+  return all.filter(s => ui.brand === "all" || (ui.brand === "V" ? /^V/i.test(s.id) : ui.brand === "S" ? /^S/i.test(s.id) : isOwn(s)));
 }
+const isSelf = s => s.source === "self";                 // 达人自己拆的（owner=达人）
+const isOwn = s => !!s.owner || isSelf(s);                // 「达人专属」chip：专属本 + 她自拆的
 function libPanel() {
   const list = libList();
   const prods = {}; list.forEach(s => { const k = famKey(s); prods[k] = (prods[k] || 0) + 1; });
   const q = ui.q.toLowerCase();
   const shown = list.filter(s => (ui.prod === "all" || famKey(s) === ui.prod) && (!q || `${s.id} ${L(s.product)} ${L(s.hook)} ${s.src || ""} ${s.owner || ""}`.toLowerCase().includes(q)));
-  const nOwn = Object.values(lib).filter(s => s.owner).length;
+  const nOwn = Object.values(lib).filter(isOwn).length;
   return `<h2>脚本库<small>点一本看分镜 · 派给谁在右边</small><button class="solid sm" id="addscript" style="margin-left:auto">＋ 新增脚本（粘贴整段，自动拆）</button></h2>
     <div class="chips">
       <button class="chip ${ui.brand === "all" ? "on" : ""}" data-brand="all">全部 ${Object.keys(lib).length}</button>
@@ -234,7 +286,7 @@ function libPanel() {
 function srow(s) {
   const on = ui.open === s.id;
   return `<div class="srow ${on ? "on" : ""}" data-open="${esc(s.id)}" title="${esc(s.src || "")}">
-      <span class="no">${esc(s.id)}</span><span class="prod">${esc(L(s.product) || "—")}${s.owner ? `<span class="own">${esc(s.owner)} 专属</span>` : ""}</span>
+      <span class="no">${esc(s.id)}</span><span class="prod">${esc(L(s.product) || "—")}${isSelf(s) ? `<span class="own">她自拆${s.owner ? " · " + esc(s.owner) : ""}</span>` : s.owner ? `<span class="own">${esc(s.owner)} 专属</span>` : ""}</span>
       <span class="hook">${esc(L(s.hook) || s.src || "")}</span>
       <span class="meta">${s.shots || "?"} 段 · ${s.sec || "?"}s${s.na ? " · 不露脸" : ""}</span>
       <span class="bar"><button class="solid sm" data-assignscript="${esc(s.id)}">派给…</button>${s.where === "backend" ? `<button class="ghost sm" data-editscript="${esc(s.id)}">改</button>` : ""}</span>
@@ -274,15 +326,36 @@ function talentCard(t) {
     ${seenLine}
     <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span><button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button></span>`).join("") || `<span class="tip">还没派</span>`}
       <button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
-    ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
+    <div class="quota">自己拆脚本额度：今天 <b>${usedOf(t.who)}/${limitOf(t.who)}</b><input type="number" min="0" step="1" value="${limitOf(t.who)}" data-qin="${esc(t.who)}" aria-label="每日上限"><button class="ghost sm" data-qset="${esc(t.who)}">改</button></div>
+    ${scripts.map(sid => scriptBlock(sid, t.scripts[sid], t.who)).join("")}
+    ${notesBlock(t.who)}</section>`;
 }
-function scriptBlock(sid, shots) {
-  const total = lib[sid]?.shots || 0, nums = Object.keys(shots).map(Number).sort((a, b) => a - b);
+function notesBlock(who) {
+  const list = noteRows.filter(n => same(n.who, who));
+  if (!list.length) return "";
+  const open = !!ui.notesOpen[who.toLowerCase()];
+  const shown = open ? list : list.slice(0, 5);
+  return `<div class="notes"><span class="nh">她的想法 ${list.length} 条</span>
+    ${shown.map(n => `<div class="note"><span class="t">${fmtT(n.time)}</span><span class="s">${esc(n.script || "—")}</span><span class="txt">${esc(n.text)}</span></div>`).join("")}
+    ${list.length > 5 ? `<button class="ghost sm more" data-notes="${esc(who)}">${open ? "收起" : `展开全部 ${list.length} 条`}</button>` : ""}</div>`;
+}
+const editFor = (who, sid, n) => editRows.find(e => same(e.who, who) && same(e.script, sid) && String(e.shot) === String(n));
+function shotCard(label, list, extra, cls) {
+  const r = list[0];
+  return `<div class="shot ${cls || ""} ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button><b>${esc(label)}</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span>${extra || ""}</div>`;
+}
+const byTime = (x, y) => (y.time > x.time ? 1 : -1);
+// shots：{ "1": [行…], "2": [...], "成片": [...] }；成片单独放前面，缺段只按数字段算
+function scriptBlock(sid, shots, who) {
+  const total = lib[sid]?.shots || 0;
+  const finals = (shots["成片"] || []).slice().sort(byTime);
+  const keys = Object.keys(shots).filter(k => k !== "成片").sort((a, b) => (/^\d+$/.test(a) ? Number(a) : 1e9) - (/^\d+$/.test(b) ? Number(b) : 1e9));
   const miss = []; for (let i = 1; i <= total; i++) if (!shots[i]) miss.push(i);
   const status = total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;
-  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}</div>
-    <div class="grid">${nums.map(n => { const list = shots[n].slice().sort((x, y) => (y.time > x.time ? 1 : -1)); const r = list[0];
-      return `<div class="shot ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button><b>第 ${n} 段</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span></div>`; }).join("")}</div></div>`;
+  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}${finals.length ? `<span class="full">✓ 有成片</span>` : ""}</div>
+    ${finals.length ? `<div class="finals">${finals.map(f => shotCard("成片", [f], "", "final")).join("")}</div>` : ""}
+    <div class="grid">${keys.map(k => { const list = shots[k].slice().sort(byTime); const ed = editFor(who, sid, k);
+      return shotCard(/^\d+$/.test(k) ? `第 ${k} 段` : (k || "未标段"), list, ed && String(ed.lines || "").trim() ? `<span class="ed">她改了台词：${esc(ed.lines)}</span>` : ""); }).join("")}</div></div>`;
 }
 function bindTalents() {
   $$("[data-pick]").forEach(b => b.onclick = () => pickScriptsFor(b.dataset.pick));
@@ -293,6 +366,18 @@ function bindTalents() {
     if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
   $$("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
     if (await confirmBox(`删掉 ${b.dataset.delwho} 的全部上传？文件进 Drive 回收站。`, "全部删掉", "取消")) del({ who: b.dataset.delwho }); });
+  $$("[data-qset]").forEach(b => b.onclick = () => { const who = b.dataset.qset; const inp = $(`[data-qin="${CSS.escape(who)}"]`); setQuota(who, inp ? inp.value : "", b); });
+  $$("[data-qin]").forEach(inp => inp.onkeydown = e => { if (e.key === "Enter") setQuota(inp.dataset.qin, inp.value, $(`[data-qset="${CSS.escape(inp.dataset.qin)}"]`)); });
+  $$("[data-notes]").forEach(b => b.onclick = () => { const k = b.dataset.notes.toLowerCase(); ui.notesOpen[k] = !ui.notesOpen[k]; render(); });
+}
+async function setQuota(who, val, btn) {
+  const limit = Math.max(0, Math.floor(Number(val)));
+  if (!Number.isFinite(limit)) return;
+  if (btn) { btn.disabled = true; btn.textContent = "存中…"; }
+  const r = await post({ action: "setquota", who, limit });
+  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; render(); return; }
+  const k = Object.keys(quotas.limits).find(x => same(x, who)) || who;
+  quotas.limits[k] = limit; err = ""; render();
 }
 const currentIds = who => { const k = Object.keys(assigns).find(x => same(x, who)); return k ? scriptIds(assigns[k].scripts) : []; };
 
@@ -377,6 +462,8 @@ function addScriptDialog(existing) {
     const ownerGuess = ownerSel.value === "__new" ? ownerNew.value.trim() : ownerSel.value;
     try {
       const r = await post({ action: "parse", text, owner: ownerGuess });
+      if (!r.ok && r.error === "competitor") { $("#pmsg", m).textContent = `文本里有竞品词「${r.word}」，只能用 VEIRFOO 或 SICENARI 的脚本`; parseBtn.disabled = false; return; }
+      if (!r.ok && r.error === "quota_global") { $("#pmsg", m).textContent = `今天全局拆段已用完（${r.used}/${r.limit}）`; parseBtn.disabled = false; return; }
       if (!r.ok) throw new Error(r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error);
       draft = r.script; renum(); showPreview();
       $("#pmsg", m).textContent = (r.warn || "拆好了，看一眼再保存") + (r.quota ? `（今天 ${r.quota} 次）` : "");
@@ -430,6 +517,7 @@ async function del(what) {
 document.addEventListener("keydown", e => { if (e.key === "Escape") { const ms = $$(".modal"); if (ms.length) ms[ms.length - 1].remove(); } });
 render();
 if (key) load();
+startTimers();
 </script>
 </body>
 </html>

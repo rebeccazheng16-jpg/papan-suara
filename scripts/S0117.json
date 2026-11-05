@@ -3,27 +3,31 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Micro Sculpt Collagen Shot Mask"
+  "id": "SICENARI Collagen Shot Mask"
  },
  "hook": {
-  "zh": "每天坚持敷面膜，皮肤真的会变好",
+  "zh": "每天坚持敷面膜，皮肤越来越好",
   "id": "Usahanya setiap hari"
  },
  "src": "TikTok @willysfidia",
  "cam": "user",
  "prep": {
-  "zh": "在卧室里拍，晚上开着暖光灯。素颜，脸部没有化妆。准备好SICENARI面膜袋，确保标签朝向镜头。手机拿稳，脸部占画面一半。",
-  "id": "Rekam di kamar tidur, malam hari dengan lampu hangat. Wajah tanpa makeup. Siapkan pouch masker SICENARI, pastikan label menghadap kamera. Pegang ponsel dengan stabil, wajah mengisi setengah bingkai."
+  "zh": "素颜，皮肤干燥泛红；SICENARI袋装面膜（未开封）",
+  "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan; masker SICENARI dalam kemasan sachet (belum dibuka)"
  },
  "shots": [
   {
    "n": 1,
    "sec": 4,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤干燥泛红",
+    "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan"
+   },
    "do": {
-    "zh": "脸部特写，侧脸看向别处。用指尖轻触并滑动干燥泛红的脸颊，轻轻叹气。然后镜头切到脸颊特写，保持不动。",
-    "id": "Ambil close-up wajah, pandangan ke samping. Sentuh dan geser perlahan jari di pipi yang kering dan kemerahan, lalu hembuskan napas pelan. Kemudian, potong ke close-up pipi, diamkan."
+    "zh": "对着镜头，脸部特写，用指尖轻触脸颊干燥泛红的皮肤，然后镜头切到脸颊特写，保持不动。",
+    "id": "Dekatkan wajah ke kamera, sentuh perlahan pipi yang kering dan kemerahan dengan ujung jari. Lalu, dekatkan lagi kamera ke pipi untuk detail, tahan sebentar."
    },
    "lines": ""
   },
@@ -31,10 +35,14 @@
    "n": 2,
    "sec": 8,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "双手拿着面膜袋，撕开顶部封条，然后拉开拉链。镜头切到面膜袋内部特写，可以看到湿润的面膜片和精华液。再切回，用手指从袋子里取出一片面膜，让精华液滴落，然后把面膜敷在脸上，轻轻按压，眼睛闭上。",
-    "id": "Pegang pouch masker dengan kedua tangan, sobek segel atas, lalu buka zip-nya. Potong ke close-up bagian dalam pouch, perlihatkan lembaran masker basah dan esens. Kembali ke tampilan awal, ambil satu lembar masker dari pouch dengan jari, biarkan esens menetes, lalu tempelkan masker ke wajah, tekan perlahan, mata tertutup."
+    "zh": "双手拿着面膜袋，撕开封条，然后拉开拉链。把面膜袋倾斜一点，让精华液在里面晃动。用指尖从袋子里取出一片面膜，让精华液滴落。然后把面膜敷在脸上，轻轻按压使其完美贴合。",
+    "id": "Pegang sachet masker dengan dua tangan, sobek bagian atasnya, lalu buka resletingnya. Miringkan sedikit sachet agar esens di dalamnya terlihat. Ambil satu lembar masker dari sachet, biarkan esens menetes. Lalu, tempelkan masker ke wajah, tekan perlahan agar menempel sempurna."
    },
    "lines": ""
   },
@@ -42,13 +50,14 @@
    "n": 3,
    "sec": 10,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "脸上敷着面膜",
-    "id": "Masker di wajah"
+    "zh": "敷着面膜",
+    "id": "Memakai masker"
    },
    "do": {
-    "zh": "第一个场景：躺在床上，敷着面膜，闭眼放松。第二个场景：换上睡衣，坐在沙发上，敷着面膜，闭眼微笑。第三个场景：在浴室，一只手拿着面膜袋，倒出一点精华液到另一只手背上，然后涂抹在脖子上。第四个场景：回到卧室，从额头边缘开始，慢慢撕下面膜，整片撕下。然后对着镜头微笑，皮肤看起来光滑水润。",
-    "id": "Adegan pertama: Berbaring di tempat tidur, dengan masker di wajah, mata tertutup, santai. Adegan kedua: Ganti baju tidur, duduk di sofa, dengan masker di wajah, mata tertutup, senyum kecil. Adegan ketiga: Di kamar mandi, satu tangan memegang pouch masker, tuangkan sedikit esens ke punggung tangan yang lain, lalu oleskan ke leher. Adegan keempat: Kembali ke kamar tidur, mulai dari dahi, lepaskan masker perlahan, lepaskan seluruh lembaran. Lalu tersenyum ke kamera, kulit terlihat halus dan lembap."
+    "zh": "躺在床上敷面膜，闭眼放松。然后换个场景，坐在沙发上敷面膜，闭眼微笑。再换个场景，在浴室里，把面膜袋里剩余的精华液倒一点在手背上，然后涂抹到脖子上。最后，回到床上，慢慢撕下面膜，露出水润发光的皮肤，然后睁眼微笑。",
+    "id": "Berbaring di tempat tidur sambil memakai masker, pejamkan mata dan rileks. Lalu, pindah ke sofa, duduk santai sambil memakai masker, pejamkan mata dan tersenyum tipis. Kemudian, di kamar mandi, tuangkan sisa esens dari sachet ke punggung tangan, lalu oleskan ke leher. Terakhir, kembali ke tempat tidur, lepaskan masker perlahan, perlihatkan kulit yang lembap dan bercahaya, lalu buka mata dan tersenyum."
    },
    "lines": ""
   },
@@ -56,10 +65,14 @@
    "n": 4,
    "sec": 6,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤干燥泛红",
+    "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan"
+   },
    "do": {
-    "zh": "脸部特写，侧脸看向别处。皮肤看起来干燥泛红，表情疲惫。然后镜头切到同样的角度，皮肤现在光滑水润，有光泽。轻轻抚摸脸颊，然后对着镜头露出一个害羞的微笑。",
-    "id": "Close-up wajah, pandangan ke samping. Kulit terlihat kering dan kemerahan, ekspresi lelah. Lalu potong ke sudut yang sama, kulit sekarang halus, lembap, dan bercahaya. Belai pipi perlahan, lalu berikan senyum malu-malu ke kamera."
+    "zh": "脸部特写，先展示皮肤干燥泛红的样子，表情有点疲惫。然后切换到已经光滑、水润、有光泽的皮肤。脸稍微转向光源，用指尖轻触脸颊，然后害羞地微笑。",
+    "id": "Dekatkan wajah ke kamera, tunjukkan kulit yang kering dan kemerahan, ekspresi sedikit lelah. Lalu, cut ke kulit yang sudah halus, lembap, dan bercahaya. Putar wajah sedikit ke arah cahaya, sentuh pipi dengan ujung jari, lalu tersenyum malu-malu."
    },
    "lines": ""
   },
@@ -67,10 +80,14 @@
    "n": 5,
    "sec": 6,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤水润发光",
+    "id": "Wajah bersih tanpa makeup, kulit lembap dan bercahaya"
+   },
    "do": {
-    "zh": "脸部特写，侧脸看向镜头。一只手拿着面膜袋放在脸颊旁边，轻轻向镜头倾斜，自豪地微笑。然后镜头切到双手特写，从面膜袋中取出一片面膜，让精华液滴落。再切回，一只手拿着面膜袋放在脸颊旁边不动，另一只空手指向画面左下角，友好地微笑。",
-    "id": "Close-up wajah, pandangan ke kamera. Satu tangan memegang pouch masker di samping pipi, miringkan sedikit ke arah kamera, tersenyum bangga. Lalu potong ke close-up tangan, ambil satu lembar masker dari pouch, biarkan esens menetes. Kembali ke tampilan awal, satu tangan memegang pouch masker di samping pipi tanpa bergerak, tangan kosong yang lain menunjuk ke sudut kiri bawah layar, tersenyum ramah."
+    "zh": "脸部特写，一手拿着面膜袋放在脸颊，稍微倾斜向镜头并自豪地微笑。然后切换到手从袋中取出面膜，让精华液滴落。最后回到脸部，将面膜放在脸颊旁，然后用食指指向左下角，友善地微笑。",
+    "id": "Dekatkan wajah ke kamera, satu tangan memegang sachet masker di samping pipi, miringkan sedikit ke kamera sambil tersenyum bangga. Lalu, cut ke tangan yang mengambil masker dari sachet, biarkan esens menetes. Terakhir, kembali ke wajah, pegang masker di samping pipi, lalu tunjuk ke pojok kiri bawah dengan jari telunjuk, tersenyum ramah."
    },
    "lines": ""
   }

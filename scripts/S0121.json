@@ -2,8 +2,8 @@
  "id": "S0121",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari Masker PDRN"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "Sicenari masker PDRN"
  },
  "hook": {
   "zh": "拆快递囤货＋便宜得像做慈善",
@@ -12,18 +12,19 @@
  "src": "TikTok @nainem13 Glad2Glow",
  "cam": "user",
  "prep": {
-  "zh": "在卧室深灰色地毯上拍摄，用粉色百褶台灯打暖光。准备好一个空白的棕色纸箱，里面放四包鼓鼓的SICENARI面膜。确保面膜袋子是满的，看起来很重。穿长袖衣服，不要戴戒指或手镯。手机俯拍，只拍手和产品，不露脸。",
-  "id": "Syuting di karpet abu-abu gelap di kamar tidur, pakai lampu meja lipit pink untuk cahaya hangat. Siapkan satu kardus cokelat polos, di dalamnya ada empat kantong masker Sicenari yang penuh dan berat. Pastikan kantong masker terlihat berisi dan berat. Pakai baju lengan panjang, jangan pakai cincin atau gelang. Rekam dari atas, hanya tangan dan produk, jangan sampai muka kelihatan."
+  "zh": "SICENARI 袋装面膜（21片装），确保袋子是鼓鼓的、沉甸甸的，像装满了精华液。素颜出镜。",
+  "id": "Masker Sicenari kemasan kantong (isi 21 lembar), pastikan kantongnya kelihatan penuh dan berat, seperti banyak isinya. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "双手撕开纸箱，把四包面膜倒出来，让它们落在地毯上。然后用一只手拿起一包面膜，举向镜头，轻轻左右晃动，让银色包装反光。",
-    "id": "Kedua tanganmu merobek kardus, lalu keluarkan empat kantong masker ke karpet. Setelah itu, ambil satu kantong masker dengan satu tangan, angkat ke arah kamera, lalu goyangkan sedikit ke kiri dan kanan agar kemasan perak memantulkan cahaya."
+    "zh": "俯拍，只拍手。用两只手撕开快递盒，让四袋面膜滑出来落在地毯上。然后用一只手拿起一袋面膜，对着镜头轻轻晃动，展示它的饱满。画外音。",
+    "id": "Ambil dari atas, hanya tangan. Dengan dua tangan, sobek paket kardus dan biarkan empat kantong masker meluncur keluar ke karpet. Lalu, dengan satu tangan, angkat satu kantong masker ke arah kamera, goyang-goyangkan sedikit untuk menunjukkan isinya yang penuh. Voiceover."
    },
    "lines": "Beb, stop dulu beli masker sembarangan, lihat dulu yang aku stok ini! Ini Sicenari, masker PDRN dari Korea, murahnya kayak lagi sedekah, harganya aku nggak berani bilang."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把散落在地毯上的四包面膜一包一包叠起来，叠成一摞。然后用双手托起整摞面膜，举向镜头，轻轻弹一下。",
-    "id": "Ambil empat kantong masker yang tersebar di karpet satu per satu, lalu tumpuk rapi. Setelah itu, angkat tumpukan masker itu dengan kedua tanganmu ke arah kamera, lalu pantulkan sedikit dengan gembira."
+    "zh": "俯拍，只拍手。把散落在地毯上的四袋面膜一袋袋叠起来，然后用两只手把整摞面膜拿起来，对着镜头轻轻弹一下。画外音。",
+    "id": "Ambil dari atas, hanya tangan. Kumpulkan empat kantong masker yang berserakan di karpet satu per satu menjadi tumpukan rapi. Lalu, dengan dua tangan, angkat tumpukan masker itu ke arah kamera dan pantulkan sedikit. Voiceover."
    },
    "lines": "Paketnya udah sampai, aku langsung stok beberapa kantong. Satu kantong isinya dua puluh satu lembar, sehari satu lembar, pas buat dua puluh satu hari."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "双手拿着面膜袋，拉开拉链。用两根手指从袋子里拿出一片面膜，让精华液滴回袋子里。然后倾斜袋子，展示袋底剩下的精华液。最后，把精华液涂抹在脖子侧面和另一只手背上。",
-    "id": "Pegang kantong masker dengan kedua tangan, lalu buka resletingnya. Dengan dua jari, ambil satu lembar masker dari dalam, biarkan esensnya menetes kembali ke kantong. Lalu miringkan kantong untuk menunjukkan sisa esens di dasarnya. Terakhir, oleskan esens ke sisi leher dan punggung tanganmu yang lain."
+    "zh": "近景，只拍手和脖子。用两只手打开面膜袋的拉链，然后用两根手指从里面取出一片面膜，让精华液滴落。展示袋子里剩下的精华液。最后，用手指把精华液涂抹到脖子和手背上。画外音。",
+    "id": "Close-up, hanya tangan dan leher. Dengan dua tangan, buka zip-lock kantong masker. Lalu, dengan dua jari, ambil satu lembar masker dari dalam, biarkan esensnya menetes. Tunjukkan sisa esens di dasar kantong. Terakhir, oleskan esens ke leher dan punggung tangan. Voiceover."
    },
    "lines": "Lihat, begitu dibuka essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, di dasar kantong masih sisa banyak, sekalian aku oles ke leher dan tangan."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "双手按压面膜袋的拉链，把它关上。然后把这包面膜放在之前叠好的三包面膜上面。接着用一只手拿起最上面的一包面膜，举向镜头，另一只手的食指指向画面左下角。",
-    "id": "Kedua tanganmu menekan resleting kantong masker sampai tertutup. Lalu letakkan kantong masker itu di atas tumpukan tiga kantong masker yang sudah ada. Setelah itu, ambil kantong masker paling atas dengan satu tangan, angkat ke arah kamera, lalu jari telunjuk tanganmu yang lain menunjuk ke pojok kiri bawah layar."
+    "zh": "俯拍，只拍手。用两只手把面膜袋的拉链关上，然后把它放在面膜堆上。接着，用一只手拿起最上面的一袋面膜对着镜头，另一只手的手指指向左下角。画外音。",
+    "id": "Ambil dari atas, hanya tangan. Dengan dua tangan, tutup zip-lock kantong masker, lalu letakkan di atas tumpukan masker. Kemudian, dengan satu tangan, angkat kantong masker paling atas ke arah kamera, dan jari tangan yang lain menunjuk ke sudut kiri bawah. Voiceover."
    },
    "lines": "Essence-nya sebanyak ini, dipakai tiap hari juga nggak sayang. Tapi harga tiap akun beda-beda ya Beb, klik sendiri keranjang kuning di bawah, kalau dapat yang murah langsung checkout aja!"
   }

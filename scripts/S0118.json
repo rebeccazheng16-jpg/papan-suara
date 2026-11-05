@@ -3,27 +3,31 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 袋装 21 片",
-  "id": "Sicenari PDRN Masker Kolagen"
+  "id": "Sicenari PDRN Collagen Cannon Mask (21 lembar)"
  },
  "hook": {
-  "zh": "谁能想到，这面膜竟然是韩国皮肤诊所用的同款！",
-  "id": "Siapa sangka, masker ini beneran dipakai di klinik kulit Korea!"
+  "zh": "谁能想到，这个面膜竟然在韩国皮肤诊所使用？",
+  "id": "Siapa sangka, masker ini dipakai di klinik kulit Korea?"
  },
  "src": "TikTok @agallery8 NPURE",
  "cam": "user",
  "prep": {
-  "zh": "在卧室里拍摄，确保光线柔和。准备好 SICENARI 面膜袋，确保它看起来饱满。穿上舒适的家居服，比如粉色拉链开衫、灰色T恤、棕色长袖上衣和薄荷绿针织上衣。确保你的脸是干净的，没有化妆。",
-  "id": "Syuting di kamar tidur, pastikan pencahayaan lembut. Siapkan kantong masker Sicenari, pastikan terlihat penuh. Pakai baju rumah yang nyaman, seperti kardigan ritsleting pink, kaus abu-abu, atasan lengan panjang cokelat, dan atasan rajut hijau mint. Pastikan wajahmu bersih, tanpa makeup."
+  "zh": "准备好 SICENARI 袋装面膜（袋子要鼓鼓的，里面有 21 片面膜），素颜出镜。",
+  "id": "Siapkan masker Sicenari kemasan sachet (pastikan sachetnya terlihat penuh, isinya 21 lembar). Wajah harus bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸颊微红干燥",
+    "id": "Wajah bersih, pipi sedikit kemerahan dan kering"
+   },
    "do": {
-    "zh": "在卧室不同角落，用手机自拍，展示脸部特写。第一天晚上，脸颊轻微泛红干燥，用指尖轻按脸颊。第三天早上，泛红减轻，皮肤开始滋润。第七天晚上，泛红几乎消失，皮肤光滑有光泽，用指尖轻抚脸颊。全程嘴唇闭合，画外音讲述面膜。",
-    "id": "Ambil selfie di sudut kamar yang berbeda, tunjukkan close-up wajahmu. Malam pertama, pipi sedikit kemerahan dan kering, tekan pipi dengan ujung jari. Pagi hari ketiga, kemerahan berkurang, kulit mulai lembap. Malam hari ketujuh, kemerahan hampir hilang, kulit halus dan bercahaya, usap pipi dengan ujung jari. Sepanjang waktu, bibir tertutup, narasi suara tentang masker."
+    "zh": "拍摄 3 天的皮肤变化，每天 2 个快速镜头，从不同角度和光线。第一天晚上，脸颊微红干燥，用指尖轻按脸颊。第三天早上，脸颊粉色变淡，皮肤开始滋润。第七天晚上，脸颊几乎没有泛红，皮肤光滑有光泽，用指尖轻抚脸颊。",
+    "id": "Rekam perubahan kulitmu selama 3 hari, setiap hari 2 klip cepat dari sudut dan cahaya yang berbeda. Hari pertama malam, pipi sedikit kemerahan dan kering, kamu bisa menekan pipi dengan ujung jari. Hari ketiga pagi, kemerahan di pipi memudar, kulit mulai lembap. Hari ketujuh malam, pipi hampir tidak ada kemerahan, kulit halus dan mulai glowing, kamu bisa mengusap pipi dengan ujung jari."
    },
    "lines": "Siapa sangka ya, ini masker PDRN dari Sicenari, beneran dipakai di klinik kulit Korea. PDRN ini diekstrak dari salmon, strukturnya mirip banget sama kulit manusia, makanya jadi bahan yang berharga banget."
   },
@@ -31,10 +35,14 @@
    "n": 2,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤水润有光泽",
+    "id": "Wajah bersih, kulit lembap dan glowing"
+   },
    "do": {
-    "zh": "继续在卧室不同角落，用手机自拍，展示脸部特写。两周后，皮肤均匀水润，一只手拿着饱满的面膜袋放在脸颊旁边。三周后，皮肤变得无瑕，有韩式玻璃肌的光泽，用指尖轻抚脸颊。全程嘴唇闭合，画外音讲述面膜。",
-    "id": "Lanjutkan selfie di sudut kamar yang berbeda, tunjukkan close-up wajahmu. Dua minggu kemudian, kulit merata dan lembap, satu tangan memegang kantong masker yang penuh di samping pipi. Tiga minggu kemudian, kulit menjadi tanpa cela, dengan kilau glass skin ala Korea, usap pipi dengan ujung jari. Sepanjang waktu, bibir tertutup, narasi suara tentang masker."
+    "zh": "继续拍摄皮肤变化。两周后，皮肤水润，一只手拿着鼓鼓的面膜袋放在脸颊旁边，袋子正面朝向镜头。三周后，皮肤变成玻璃肌，光滑透亮，用指尖轻抚脸颊，眼睛带笑。",
+    "id": "Lanjutkan merekam perubahan kulitmu. Dua minggu kemudian, kulitmu lembap. Kamu bisa pegang sachet masker yang penuh di samping pipi, bagian depan sachet menghadap kamera. Tiga minggu kemudian, kulitmu jadi glass skin, halus dan bening. Kamu bisa mengusap pipi dengan ujung jari, sambil tersenyum."
    },
    "lines": "Sicenari berani langsung tulis kadarnya di kantong. Kulitku tiap ganti musim langsung merah dan kering, eh pakai sebulan aku ngerasa udah kayak glass skin cewek Korea."
   },
@@ -42,10 +50,11 @@
    "n": 3,
    "sec": 6,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "在床上拍摄，特写面膜袋。一只手从画面上方伸入，捏住拉链并拉开，面膜袋会晃动。然后，两根手指伸入袋中，取出一片浸满乳白色精华的面膜，精华会慢慢滴落。全程只出现一只手，画外音讲述面膜数量和价格。",
-    "id": "Rekam di tempat tidur, close-up kantong masker. Satu tangan masuk dari atas frame, cubit ritsleting dan buka, kantong masker akan bergoyang. Lalu, dua jari masuk ke dalam kantong, ambil satu lembar masker yang terlipat dan basah dengan esens putih susu, esens akan menetes perlahan. Sepanjang waktu hanya satu tangan yang terlihat, narasi suara tentang jumlah masker dan harga."
+    "zh": "在床上，一只手打开面膜袋的拉链，然后从袋子里取出一片面膜，让精华液滴落。",
+    "id": "Di atas kasur, kamu bisa buka resleting sachet masker dengan satu tangan, lalu ambil satu lembar masker dari dalam sachet, biarkan essence-nya menetes."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, harganya juga bikin kaget, langsung bebas maskeran tiap hari."
   },
@@ -53,10 +62,14 @@
    "n": 4,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，敷面膜",
+    "id": "Wajah bersih, sudah pakai masker lembaran"
+   },
    "do": {
-    "zh": "在卧室里拍摄，特写敷面膜的脸。侧面拍摄，只露出闭着的眼睛、颧骨和耳朵，用指尖轻按面膜，让它紧贴皮肤。然后，脸转向另一边，眼睛睁开并微笑，一只手拿着面膜袋遮住下半张脸，另一只手指向画面左下角，然后轻轻点头。全程嘴唇闭合，画外音讲述面膜效果和购买方式。",
-    "id": "Rekam di kamar tidur, close-up wajah yang sudah memakai masker. Ambil dari samping, hanya terlihat mata tertutup, tulang pipi, dan telinga, tekan masker dengan ujung jari agar menempel rata di kulit. Lalu, putar wajah ke sisi lain, mata terbuka dan tersenyum, satu tangan memegang kantong masker menutupi bagian bawah wajah, tangan lain menunjuk ke sudut kiri bawah frame, lalu anggukkan kepala sedikit. Sepanjang waktu, bibir tertutup, narasi suara tentang efek masker dan cara membeli."
+    "zh": "将面膜敷在脸上，用指尖轻轻按压，让面膜服帖。然后，一只手拿着面膜袋放在脸下半部分，另一只手指向左下角，眼睛带笑并轻轻点头。",
+    "id": "Kamu bisa tempelkan masker di wajah, lalu tekan-tekan perlahan dengan ujung jari agar masker menempel rata. Setelah itu, satu tangan memegang sachet masker di bagian bawah wajah (menutupi hidung, mulut, dagu), tangan satunya menunjuk ke pojok kiri bawah, sambil tersenyum dan mengangguk kecil."
    },
    "lines": "Tiap lembarnya penuh essence, begitu nempel di wajah rasanya kulit lagi minum air, glek glek glek. Klik keranjang kuning di bawah, cobain satu kantong deh!"
   }

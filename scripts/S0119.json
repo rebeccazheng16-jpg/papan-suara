@@ -2,28 +2,29 @@
  "id": "S0119",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "masker PDRN Sicenari"
+  "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
   "zh": "二话不说赶紧薅＋攥膜布挤精华",
-  "id": "Tanpa basa-basi, langsung serbu!"
+  "id": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari dari Korea ini!"
  },
- "src": "TikTok @图图爱买 Eiio",
+ "src": "TikTok @图图爱买 Eiio 水光面膜",
  "cam": "user",
  "prep": {
-  "zh": "在明亮、干净的客厅里拍摄。确保光线充足，背景整洁。准备好一盒SICENARI面膜和一片独立包装的面膜。穿休闲服装，保持妆容自然。",
-  "id": "Syuting di ruang tamu yang terang dan bersih. Pastikan pencahayaan bagus dan latar belakang rapi. Siapkan satu kotak masker SICENARI dan satu sachet masker. Pakai baju santai, makeup natural saja."
+  "zh": "SICENARI 超光子胶原炮面膜一盒（内含五片），素颜，脸部干净无妆",
+  "id": "Satu kotak masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (isi 5 lembar), wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把SICENARI面膜盒正面朝上放在桌上，手机稳定地从上方稍微推近拍摄。用兴奋、活泼的语气说台词。",
-    "id": "Letakkan kotak masker SICENARI di meja, bagian depan menghadap kamera. Ambil video dengan ponsel stabil dari atas, sedikit zoom in. Ucapkan kalimat dengan nada bersemangat dan ceria."
+    "zh": "把面膜盒正面朝前立在桌上，手机固定好稍微俯拍，然后慢慢靠近盒子。你可以用三脚架或请朋友帮忙拍摄。用充满活力和清晰的声音说出第一句话。",
+    "id": "Letakkan kotak masker tegak di meja, hadapkan ke kamera. Rekam dari sedikit atas, lalu perlahan dekatkan kamera ke kotak. Kamu bisa pakai tripod atau minta teman untuk merekam. Ucapkan kalimat pertama dengan suara bersemangat dan jelas."
    },
    "lines": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari dari Korea ini! Lagi ada promo pengenalan brand, dengan harga segini udah dapet satu kotak. Dikirim dari toko resmi, dijamin original!"
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着一片独立包装的面膜，正面朝上，保持不动。然后用另一只手的拇指和手指轻轻捏住面膜中间，让它看起来饱满。用亲切、诚实的语气说台词。",
-    "id": "Pegang satu sachet masker dengan satu tangan, bagian depan menghadap kamera, jangan bergerak. Lalu, pakai ibu jari dan jari tangan lain untuk menekan bagian tengah sachet, biar kelihatan penuh. Ucapkan kalimat dengan nada akrab dan jujur."
+    "zh": "用一只手拿着一片面膜袋，正面朝前，放在桌上。然后，用另一只手按压面膜中间，让它看起来内容物很多。用真诚而快速的声音说出这句话。",
+    "id": "Pegang satu sachet masker di atas meja dengan satu tangan, hadapkan ke kamera. Lalu, pakai tangan satunya untuk menekan bagian tengah masker agar terlihat isinya banyak. Ucapkan kalimat dengan suara yang jujur dan cepat."
    },
    "lines": "Kalau kamu juga sering begadang kayak aku, wajah jadi kuning kusam, gelap dan kering banget, langsung cobain ini. Isinya ada PDRN sembilan ribu sembilan ratus ppm, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -42,10 +44,14 @@
    "n": 3,
    "sec": 6,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "双手撕开面膜袋。然后快速切换到你敷着面膜的特写，用指尖抚平面膜。再快速切换到你从额头到下巴一次性撕下面膜的特写，露出水润发光的脸，对着镜头微笑。用高兴、活泼的语气说台词。",
-    "id": "Robek sachet masker dengan kedua tangan. Lalu, cepat ganti ke close-up kamu pakai masker, ratakan dengan jari. Cepat ganti lagi ke close-up kamu melepas masker dari dahi sampai dagu, tunjukkan wajah yang lembap dan glowing, senyum ke kamera. Ucapkan kalimat dengan nada gembira dan ceria."
+    "zh": "首先，拍摄你的手在桌上撕开面膜袋。然后，剪辑到你敷面膜的场景，用手指抚平。最后，拍摄你从额头到下巴揭下面膜，然后开心地对着镜头微笑。快速而充满活力地说出这句话。",
+    "id": "Pertama, rekam tanganmu merobek sachet masker di atas meja. Lalu, potong ke adegan kamu memakai masker di wajah, ratakan dengan jari. Terakhir, rekam kamu melepas masker dari dahi ke dagu, lalu tersenyum senang ke kamera. Ucapkan kalimat dengan cepat dan bersemangat."
    },
    "lines": "Cukup gini aja, sekali sobek, sekali tempel, pas dilepas aku ngerasa wajahku lembap banget, tanpa makeup pun berasa glowing."
   },
@@ -53,10 +59,14 @@
    "n": 4,
    "sec": 7,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "一只手挤压撕开的面膜袋，让乳白色精华液流到另一只手掌中。然后用手指把精华液涂抹到脖子和手背上。最后切换到你发光的脸部特写，对着镜头微笑。用高兴、放松的语气说台词。",
-    "id": "Satu tangan memeras sachet masker yang sudah dibuka, biar essence putihnya keluar ke telapak tangan yang lain. Lalu, pakai jari untuk mengoleskan essence ke leher dan punggung tangan. Terakhir, ganti ke close-up wajah glowing kamu, senyum ke kamera. Ucapkan kalimat dengan nada gembira dan santai."
+    "zh": "拍摄你的手将袋中剩余的精华液挤到手掌。然后，剪辑到你将精华液涂抹在颈部和手背的场景。最后，拍摄你容光焕发的脸，满意地对着镜头微笑。轻松而快速地说出这句话。",
+    "id": "Rekam tanganmu memeras sisa essence dari sachet ke telapak tangan. Lalu, potong ke adegan kamu mengoleskan essence ke leher dan punggung tangan. Terakhir, rekam wajahmu yang glowing, tersenyum puas ke kamera. Ucapkan kalimat dengan santai dan cepat."
    },
    "lines": "Essence-nya banyak banget, sisanya sayang kalau dibuang, oles aja ke leher dan tangan, di rumah sendiri udah kayak spa Korea."
   },
@@ -64,10 +74,14 @@
    "n": 5,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "一只手拿着面膜盒放在脸颊旁边，正面朝上，对着镜头露出俏皮的笑容。然后切换到另一个角度，另一只空手指向画面左下角的购物车。用兴奋、热情的语气说台词。",
-    "id": "Pegang kotak masker di samping pipi dengan satu tangan, bagian depan menghadap kamera, senyum nakal ke kamera. Lalu, ganti ke sudut lain, tangan kosong yang lain menunjuk ke keranjang kuning di kiri bawah. Ucapkan kalimat dengan nada bersemangat dan hangat."
+    "zh": "将面膜盒放在脸颊旁边，面向镜头，然后顽皮地微笑。然后，剪辑到相同的场景，但你的另一只手指向屏幕左下方的“小黄车”。充满活力地发出邀请。",
+    "id": "Pegang kotak masker di samping pipimu, hadapkan ke kamera, dan tersenyum nakal. Lalu, potong ke adegan yang sama, tapi tanganmu yang lain menunjuk ke arah kiri bawah layar untuk keranjang kuning. Ucapkan kalimat dengan bersemangat dan ajakan."
    },
    "lines": "Di Korea harganya segini, coba lihat harga promo brand-nya sekarang cuma berapa! Klik keranjang kuning di kiri bawah dan cek ya, yang lihat video ini buruan serbu!"
   }

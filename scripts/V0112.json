@@ -6,24 +6,25 @@
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
-  "zh": "洗面奶太好用不敢卖了",
-  "id": "Sabun muka ini ngeri banget, aku sampai nggak berani jualin."
+  "zh": "我不敢卖的洁面乳",
+  "id": "Sabun muka yang aku nggak berani jualin"
  },
- "src": "",
+ "src": "程女神",
  "cam": "user",
  "prep": {
-  "zh": "在室内梳妆台前拍摄。确保光线充足，背景整洁。准备好产品，盖子盖好，标签朝向镜头。确保脸部干净，没有泡沫或乳霜。穿休闲服装。",
-  "id": "Syuting di depan meja rias di dalam ruangan. Pastikan pencahayaan bagus dan latar belakang rapi. Siapkan produk, tutupnya tertutup, label menghadap kamera. Pastikan wajah bersih, tanpa busa atau krim. Pakai baju santai."
+  "zh": "准备 VEIRFOO Cloud Cleanser 洗面奶，一片化妆棉，粉底液和防晒霜。拍摄时脸上不要化妆。",
+  "id": "Siapin VEIRFOO Cloud Cleanser, satu kapas, foundation, sama sunscreen. Waktu syuting, muka bersih ya, jangan makeup-an."
  },
  "shots": [
   {
    "n": 1,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "在海边度假露台，手持手机拍摄。画面中只出现一只手举着产品管，对着海景。产品管占据画面一半高度，清晰可见，标签朝前。画面会轻微晃动，手会轻微转动产品管。画外音说台词。",
-    "id": "Di teras resor tepi laut, rekam pakai HP. Hanya satu tangan yang memegang tube produk menghadap pemandangan laut. Tube produk mengisi setengah tinggi frame, fokus, label menghadap kamera. Goyangkan sedikit HP-nya, putar sedikit tube-nya. Ucapkan dialog sebagai voiceover."
+    "zh": "先拍一个手拿着洁面乳对着风景的镜头，不用露脸。然后切到脸上涂满泡沫，用手指在鼻子旁边搓一搓。最后切到洗干净的脸，用手指按一下脸颊，笑一笑。",
+    "id": "Bisa mulai dengan rekam tangan kamu pegang produknya di depan pemandangan bagus, nggak usah kelihatan muka. Terus ganti shot ke muka yang udah penuh busa, gosok-gosok pelan di samping hidung. Terakhir, ganti lagi ke muka yang udah bersih, tekan pipi dikit sambil senyum."
    },
    "lines": "Sabun muka ini ngeri banget, aku sampai nggak berani jualin. Waktu cuci muka, aku iseng gosok hidung dua kali, kotoran di pori-porinya keluar semua. Habis bilas, ngaca, wajahku kelihatan cerah banget, bening."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部特写，从眉毛到下巴。自信地点头。然后切换到手臂特写，手臂上已经涂有粉底和防晒霜。用指尖将少量泡沫涂抹在手臂上，轻轻打圈揉搓。再切换到手臂特写，用化妆棉擦拭干净。画外音说台词。",
-    "id": "Wajah close-up, dari alis sampai dagu. Angguk kecil dengan percaya diri. Lalu cut ke lengan bawah close-up, ada foundation dan sunscreen di sana. Pakai ujung jari, oleskan sedikit busa ke dua garis itu dan gosok pelan-pelan. Lalu cut lagi ke lengan yang sama, bersihkan pakai kapas. Ucapkan dialog sebagai voiceover."
+    "zh": "先对着镜头说话。然后切到手臂，手臂上已经涂好粉底和防晒霜了。用一点泡沫在上面搓。最后用化妆棉擦干净，给镜头看擦干净的皮肤。",
+    "id": "Mulai dengan ngomong ke kamera. Terus ganti shot ke lengan tangan yang udah diolesin foundation sama sunscreen. Gosok area itu pakai sedikit busa. Terakhir, lap pakai kapas sampai bersih, tunjukkin ke kamera kulitnya jadi bersih."
    },
    "lines": "Sabun muka ini bakal ngubah cara kamu lihat cuci muka: pori-pori, minyak di wajah, sampai makeup tipis dan sunscreen, semua ikut bersih sekali cuci."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部特写，从眉毛到下巴。面带会心一笑。然后切换到另一个角度的脸部特写，将产品举到脸颊旁，标签朝前，盖子盖好。再切换回之前的角度，眼睛看向旁边，然后回到镜头，点头。",
-    "id": "Wajah close-up, dari alis sampai dagu. Senyum kecil penuh arti. Lalu cut ke wajah close-up dari sudut lain, angkat produk di samping pipi, label menghadap kamera, tutupnya tertutup. Lalu cut lagi ke sudut sebelumnya, mata melirik ke samping, lalu kembali ke kamera, angguk kecil."
+    "zh": "先对着镜头说话。然后切一下，把产品举到脸颊旁边。再说几句话，说完的时候可以把视线从镜头移开一下再看回来。",
+    "id": "Pertama, ngomong dulu ke kamera. Terus ganti angle, angkat produknya di samping pipi sambil lanjut ngomong. Pas ngomong kalimat terakhir, kamu bisa coba lihat ke samping sebentar terus lihat lagi ke kamera."
    },
    "lines": "Makin sering begadang, wajah makin berminyak dan kusam. Kalau kamu juga gitu, cobain ini: VEIRFOO Cloud Cleanser, sabun muka dari Korea, yang dipakai di klinik-klinik kecantikan Korea."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "双手特写，打开产品盖子，挤出少量乳液到手掌。然后双手揉搓，产生大量泡沫。再切换到脸部特写，将产品举到脸颊旁，标签朝前，盖子盖好，食指轻触蓝色PDRN标签。画外音说台词。",
-    "id": "Tangan close-up, buka tutup produk, peras sedikit lotion ke telapak tangan. Lalu gosok kedua telapak tangan sampai jadi busa padat. Lalu cut ke wajah close-up, angkat produk di samping pipi, label menghadap kamera, tutupnya tertutup, jari telunjuk menyentuh label PDRN biru. Ucapkan dialog sebagai voiceover."
+    "zh": "先拍双手的特写：打开盖子，挤一点洗面奶到手心。然后切到双手搓出很多泡沫。最后切回你的脸，手里拿着盖好的产品，指一下上面的 PDRN 标签。",
+    "id": "Rekam close-up tangan kamu buka tutupnya terus tuang sedikit isinya ke telapak tangan. Ganti shot ke tangan lagi, gosok-gosok sampai busanya banyak. Terakhir, balik ke muka kamu, pegang produknya (yang sudah ditutup) sambil tunjuk label PDRN-nya."
    },
    "lines": "Keluarnya lotion putih susu, digosok di tangan langsung jadi segumpal busa padat yang lembut banget. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -64,10 +68,11 @@
    "n": 5,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部特写，从眉毛到下巴。一只手在下巴旁轻微比划。然后切换到脸部特写，脸上覆盖着泡沫，双手在脸颊上缓慢打圈。再切换到脸部特写，脸部干净，指尖轻按脸颊并向下滑动。最后切换到脸部特写，将产品举到脸颊旁，标签朝前，盖子盖好，面带微笑。",
-    "id": "Wajah close-up, dari alis sampai dagu. Satu tangan memberi isyarat ringan di samping dagu. Lalu cut ke wajah close-up, wajah penuh busa, kedua telapak tangan menggosok pipi pelan-pelan. Lalu cut lagi ke wajah close-up, wajah bersih, ujung jari menekan pipi dan meluncur ke bawah. Terakhir cut ke wajah close-up, angkat produk di samping pipi, label menghadap kamera, tutupnya tertutup, senyum hangat."
+    "zh": "先对着镜头说话，可以用手做点手势。然后切到脸上涂满泡沫，用手掌在脸颊上打圈。再切到洗干净的脸，用手指按一下脸颊。最后切回说话的脸，把产品举到脸颊旁边。",
+    "id": "Mulai dengan ngomong ke kamera, bisa sambil sedikit gerakin tangan. Terus ganti shot ke muka yang udah penuh busa, usap-usap pipi pelan. Ganti lagi ke muka yang udah bersih, sentuh pipi kamu. Terakhir, balik lagi ngomong sambil pegang produk di samping pipi."
    },
    "lines": "Kalau habis cuci muka wajah terasa ketarik, itu karena kandungan sabunnya ikut ngikis skin barrier. Yang ini habis cuci, kulitku berasa bersih dan segar, nggak ketarik sama sekali, lembap dan kelihatan cerah. Kulit sensitif juga nyaman pakai."
   },
@@ -75,10 +80,11 @@
    "n": 6,
    "sec": 6,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部特写，从眉毛到下巴。将产品举到脸颊旁，标签朝前，盖子盖好，面带微笑。然后切换到另一个角度的脸部特写，保持产品不动，另一只手从下方进入画面，食指指向左下角，面带微笑，点头。",
-    "id": "Wajah close-up, dari alis sampai dagu. Angkat produk di samping pipi, label menghadap kamera, tutupnya tertutup, senyum kecil. Lalu cut ke wajah close-up dari sudut yang sedikit berbeda, produk tetap di tempatnya, tangan kosong lainnya masuk dari bawah, jari telunjuk menunjuk ke kiri bawah, senyum ramah, angguk ceria."
+    "zh": "先拿着产品在脸颊旁边说话。然后切一下角度，保持拿产品的姿势，用另一只手指向左下角（小黄车的位置）。",
+    "id": "Pegang produk di samping pipi sambil ngomong. Terus ganti angle dikit, posisi produknya tetap, tangan kamu yang satu lagi nunjuk ke arah kiri bawah untuk keranjang kuning."
    },
    "lines": "Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

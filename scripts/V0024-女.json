@@ -2,28 +2,29 @@
  "id": "V0024-女",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 素颜霜 Tone-Up Primer",
+  "zh": "VEIRFOO 素颜霜 (Sodium DNA Firming Tone-Up Primer)",
   "id": "VEIRFOO Tone-Up Primer"
  },
  "hook": {
-  "zh": "肤色不均？一抹提亮！",
-  "id": "Warna kulit tidak rata? Sekali oles langsung cerah!"
+  "zh": "告别暗沉不均，一抹提亮肤色",
+  "id": "Ucapkan selamat tinggal pada kulit kusam dan tidak rata, cerahkan seketika"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内自然光下拍摄。穿日常服装。准备好产品，盖子盖好，标签朝向镜头。确保脸部干净，没有涂抹任何产品。",
-  "id": "Rekam di dalam ruangan dengan cahaya alami. Pakai baju santai. Siapkan produknya, tutupnya terpasang, label menghadap kamera. Pastikan wajahmu bersih, tanpa produk apa pun."
+  "zh": "素颜，准备好VEIRFOO素颜霜（盖子盖好，标签朝前）",
+  "id": "Wajah bersih tanpa makeup, siapkan VEIRFOO Tone-Up Primer (tutup terpasang, label menghadap kamera)"
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把手机举到脸部高度，脸部占画面一半。看着镜头，表情活泼。用一只手指向画面中插入的双手对比图。用有点不耐烦但友好的语气说台词。",
-    "id": "Pegang HP setinggi wajah, wajahmu mengisi setengah layar. Lihat ke kamera dengan ekspresi ceria. Tunjuk ke foto perbandingan tangan yang muncul di layar. Ucapkan kalimat dengan nada sedikit kesal tapi ramah."
+    "zh": "看着镜头，表情生动地抱怨皮肤暗沉不均。用一只手指向旁边插入的左右手对比图（左手暗沉不均，右手提亮均匀）。",
+    "id": "Lihat ke kamera dengan ekspresi hidup, mengeluh tentang kulit kusam dan tidak rata. Dengan satu tangan, tunjuk ke foto perbandingan tangan (kiri kusam, kanan lebih cerah) yang muncul di sampingmu."
    },
    "lines": "Muka keliatan kusam sama warna kulit nggak rata tuh nyebelin banget, ya. Nih liat — sebelah ini belum aku pakein VEIRFOO Tone-Up Primer, sebelahnya udah. Bedanya keliatan kan?"
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 15,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品拿到脸旁边，盖子朝上，标签朝向镜头，让产品和脸一起出现在画面中。看着镜头，眉毛微微上扬，带着自然的微笑。用手指取少量乳液，涂抹在脸的右半边，打圈涂抹直到均匀。然后，用食指轻戳脸颊，强调皮肤的真实感。最后，指向画面下方，带着充满活力的语气说台词。",
-    "id": "Pegang produk di samping wajahmu, tutupnya ke atas, label menghadap kamera, biar produk dan wajahmu sama-sama di layar. Lihat ke kamera, alis sedikit terangkat, senyum alami. Ambil sedikit losion dengan jari, oleskan melingkar di separuh wajah kananmu sampai merata. Lalu, sentuh pipi yang sudah dioles dengan jari telunjuk untuk menunjukkan kulit asli tanpa bedak. Terakhir, tunjuk ke bawah layar dengan nada semangat saat mengucapkan kalimat."
+    "zh": "看着镜头，用中指和无名指取少量乳白色乳液，在脸的右半边打圈涂抹，直到那半边脸变得更亮更均匀。看着镜头，眉毛微挑，露出自然的微笑。然后，用食指轻触脸颊右侧，强调肌肤自然无粉感。最后，面带微笑，用食指指向屏幕下方，催促大家购买。",
+    "id": "Lihat ke kamera, ambil sedikit losion putih susu dengan jari tengah dan manis, lalu oleskan melingkar di separuh wajah kananmu sampai terlihat lebih cerah dan rata. Lihat ke kamera dengan alis sedikit terangkat dan senyum alami. Lalu, sentuh pipi kananmu dengan jari telunjuk untuk menunjukkan kulit asli tanpa bedak. Terakhir, dengan senyum alami, tunjuk ke bawah layar untuk ajakan membeli."
    },
    "lines": "Sekali oles langsung nyatu, kulitku kerasa lebih cerah dan merata, nggak keliatan dempul. Ada Sodium DNA PDRN juga di dalamnya. Jadi kalau muka kamu keliatan kusam sama belang, wajib banget punya ini! Original Korea, harganya cuma segini — cek keranjang kuning, lagi ada promo spesial!"
   }

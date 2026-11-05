@@ -3,27 +3,28 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI PDRN 9,900ppm Sheet Mask"
+  "id": "SICENARI sheet mask PDRN 9,900ppm"
  },
  "hook": {
   "zh": "你一句再也不用遮瑕了，我鼻子一酸",
-  "id": "Kamu bilang nggak perlu pakai concealer lagi, aku jadi terharu"
+  "id": "Nggak perlu pakai concealer lagi, aku sampai terharu"
  },
  "src": "抖音 飞虎牌旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "白天，在窗边自然光下拍摄。背景是虚化的绿植。只露一只手和手腕，不露脸。手上不要戴戒指、手链等首饰。准备好已撕开封口并打开拉链的SICENARI面膜袋，里面有21片面膜和乳白色精华液。",
-  "id": "Syuting di siang hari, dekat jendela dengan cahaya alami. Latar belakang tanaman hijau yang blur. Hanya perlihatkan satu tangan dan pergelangan tangan, jangan perlihatkan wajah. Jangan pakai cincin, gelang, atau perhiasan lainnya. Siapkan pouch masker SICENARI yang sudah disobek dan dibuka resletingnya, berisi 21 lembar masker dan essence putih susu."
+  "zh": "SICENARI 袋装面膜（21片装），已开封，精华乳白色",
+  "id": "Masker SICENARI kemasan pouch (isi 21), sudah dibuka, essence-nya warna putih susu"
  },
  "shots": [
   {
    "n": 1,
    "sec": 4,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "将打开的面膜袋靠近镜头，用一只手托住面膜袋底部，让镜头能看到袋子里浸泡在乳白色精华液中的面膜。保持镜头和面膜袋的角度不变，让精华液轻轻晃动，营造自然手持感。",
-    "id": "Pegang pouch masker yang sudah terbuka dekat dengan kamera, topang bagian bawah pouch dengan satu tangan. Pastikan kamera bisa melihat masker yang terendam essence putih susu di dalamnya. Jaga agar sudut kamera dan pouch tidak berubah, biarkan essence di dalamnya sedikit bergoyang, untuk kesan alami dipegang tangan."
+    "zh": "一只手拿着已经打开的袋装面膜，袋口朝向镜头，让观众看到里面浸泡在乳白色精华液里的面膜。保持镜头和面膜不动，让精华液轻轻晃动。",
+    "id": "Pegang pouch masker yang sudah terbuka dengan satu tangan, miringkan sedikit ke arah kamera supaya kelihatan masker di dalamnya yang terendam essence putih susu. Tahan kamera dan pouch-nya supaya nggak gerak, biarkan essence-nya bergoyang pelan."
    },
    "lines": ""
   }

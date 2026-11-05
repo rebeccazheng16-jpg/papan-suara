@@ -2,28 +2,32 @@
  "id": "S0151",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI PDRN 9,900ppm 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI PDRN 9,900ppm Sheet Mask"
+  "zh": "SICENARI 胶原炮面膜 (PDRN mask)",
+  "id": "Masker SICENARI PDRN"
  },
  "hook": {
-  "zh": "敷膜日记：过程→结果→余液抹小腿→袋子静物收尾",
-  "id": "Diary Masker: Proses→Hasil→Sisa essence ke kaki→Akhir dengan kemasan"
+  "zh": "敷膜日记：过程→结果→余液抹腿",
+  "id": "Jurnal pakai sheet mask: proses, hasil, dan sisa essence buat kaki"
  },
- "src": "TikTok @priskilakaylaa AFTERMYSKIN",
+ "src": "TikTok @priskilakaylaa",
  "cam": "user",
  "prep": {
-  "zh": "准备好SICENARI PDRN 9,900ppm面膜袋。确保脸是干净的，没有化妆。准备好不同的衣服和家里的不同角落，这样每个镜头看起来都像不同的一天。确保光线充足，但不要太刺眼。",
-  "id": "Siapkan kemasan masker SICENARI PDRN 9,900ppm. Pastikan wajah bersih tanpa makeup. Siapkan baju dan sudut rumah yang berbeda agar setiap adegan terlihat seperti hari yang berbeda. Pastikan pencahayaan bagus tapi tidak terlalu terang."
+  "zh": "素颜，SICENARI 胶原炮面膜袋。",
+  "id": "Muka bersih tanpa makeup, produk masker SICENARI."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉",
+    "id": "Muka bersih, kulit kelihatan agak kusam"
+   },
    "do": {
-    "zh": "在床边，灯光柔和。把SICENARI面膜袋举到脸旁边，用右手从袋子里拿出一片湿润的面膜，让精华液滴回袋子里。然后，在窗边，光线明亮。把面膜敷在脸上，用手掌从中间向外抚平。最后，在沙发上，灯光温暖。敷着面膜放松，用指尖轻轻按压脸颊。",
-    "id": "Di samping tempat tidur, dengan lampu lembut. Angkat kemasan masker SICENARI di samping pipi, lalu ambil satu lembar masker basah dari dalam kemasan dengan tangan kanan, biarkan essence menetes kembali ke kemasan. Lalu, di dekat jendela dengan cahaya terang. Tempelkan masker ke wajah dan ratakan dari tengah ke luar dengan telapak tangan. Terakhir, di sofa dengan lampu hangat. Santai dengan masker di wajah, tekan lembut pipi dengan ujung jari."
+    "zh": "可以分几天拍三个短镜头：从袋子里拿出一片面膜；把面膜敷在脸上；敷着面膜时用指尖轻轻按压脸颊。每个镜头可以换个衣服或角落，看起来像不同天拍的。",
+    "id": "Bisa rekam tiga klip pendek: pertama, ambil satu masker dari kantongnya. Kedua, tempelin maskernya ke muka. Ketiga, tekan-tekan pipi pakai ujung jari pas maskernya masih nempel. Tiap klip bisa ganti baju atau tempat biar kelihatan kayak hari yang beda."
    },
    "lines": ""
   },
@@ -31,10 +35,14 @@
    "n": 2,
    "sec": 6,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，皮肤看起来更亮了",
+    "id": "Muka bersih, kulit kelihatan lebih cerah dan glowing"
+   },
    "do": {
-    "zh": "在一个明亮的早晨，穿着深蓝色衬衫坐在窗边。用一根手指沿着脸颊慢慢抚摸，感受光滑的皮肤。然后把脸颊转向窗户，让晨光照耀闪亮的皮肤。在另一天，穿着米色针织上衣在敞开的门边。用双手轻轻捧着双颊，微微一笑并满意地点头。",
-    "id": "Di pagi yang cerah, duduk di dekat jendela dengan kemeja biru tua. Usap perlahan pipi dengan satu jari, rasakan kulit yang halus. Lalu putar pipi ke arah jendela agar cahaya pagi menyinari kulit yang berkilau. Di hari lain, memakai atasan rajut krem di dekat pintu terbuka. Dengan kedua telapak tangan, pegang kedua pipi dengan lembut, berikan senyum kecil dan anggukan puas."
+    "zh": "展示敷完面膜的效果。可以拍两个镜头：用指尖抚摸脸颊，然后把脸转向光线；双手捧着脸颊，露出开心的微笑。这也像是在不同天拍的。",
+    "id": "Tunjukin hasil setelah pakai masker. Kamu bisa usap pipi pelan, terus hadapin muka ke arah cahaya biar kelihatan glowing. Setelah itu, bisa juga senyum sambil pegang kedua pipi. Klip ini juga bisa direkam di hari/tempat yang beda."
    },
    "lines": ""
   },
@@ -42,10 +50,11 @@
    "n": 3,
    "sec": 8,
    "talk": false,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "在床上，从上方俯拍双腿。左手拿着一张用过的面膜，挤出剩余的精华液到左小腿。左手一直捏着面膜。同时，右手掌从膝盖到脚踝轻轻涂抹精华液，在皮肤上留下柔和的光泽。然后，在地板上， SICENARI面膜袋平放在地毯上，正面朝上。相机慢慢推近。",
-    "id": "Di tempat tidur, ambil gambar kaki dari atas. Tangan kiri memegang masker bekas, peras sisa essence ke tulang kering kaki kiri. Tangan kiri terus menggenggam masker. Sementara itu, telapak tangan kanan mengusap essence perlahan dari lutut ke pergelangan kaki, meninggalkan kilau lembut di kulit. Lalu, di lantai, kemasan masker SICENARI tergeletak rata di karpet, sisi depan menghadap ke atas. Kamera perlahan mendekat."
+    "zh": "从你的视角往下拍腿。把用完的面膜里剩下的精华挤在小腿上，然后用手涂抹均匀（用完的面膜要一直拿在手里）。然后，把产品袋放在地毯上，慢慢靠近拍一个特写。",
+    "id": "Rekam dari sudut pandang kamu, lihat ke bawah ke arah kaki. Peras sisa essence dari masker bekas ke kaki, terus ratain pakai tangan (masker bekasnya tetap dipegang ya). Terakhir, rekam produknya aja yang ditaruh di atas karpet, pelan-pelan deketin kamera."
    },
    "lines": ""
   }

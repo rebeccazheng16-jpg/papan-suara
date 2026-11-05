@@ -2,18 +2,18 @@
  "id": "V0102",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "注氧小气泡精粹液 VEIRFOO Bubble Cleanser",
+  "zh": "注氧小气泡洁面 Bubble Cleanser",
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "韩女都在用的泡泡膜，在家也能做皮肤管理",
-  "id": "Rahasia kulit halus ala cewek Korea, bisa facial sendiri di rumah!"
+  "zh": "十个韩女九个在用的泡泡膜",
+  "id": "Bubble mask yang dipakai 9 dari 10 cewek Korea"
  },
- "src": "TikTok @xiaoxiao",
+ "src": "笑笑",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前拍摄，确保背景干净整洁。光线要好，最好是自然光。产品要放在手边，盖子盖好，标签朝向镜头。拍摄时手机要拿稳，脸部占画面一半。穿休闲居家服，素颜出镜。",
-  "id": "Syuting di depan meja rias, pastikan latar belakang rapi. Cahaya harus bagus, kalau bisa cahaya alami. Produk harus siap di tangan, tutupnya tertutup, label menghadap kamera. Pegang HP dengan stabil, wajah mengisi setengah frame. Pakai baju santai di rumah, tanpa makeup."
+  "zh": "VEIRFOO泡泡洁面，湿毛巾。全程素颜。",
+  "id": "VEIRFOO Bubble Cleanser, handuk basah. Muka bersih tanpa makeup sama sekali ya."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 8,
    "talk": true,
    "face": {
-    "zh": "全脸涂抹薄薄一层淡黄色凝胶",
-    "id": "Wajah sudah dioles tipis gel kuning pucat"
+    "zh": "脸上涂了一层薄薄的淡黄色啫喱",
+    "id": "Muka sudah diolesi gel kuning tipis-tipis"
    },
    "do": {
-    "zh": "把手机拿近，让脸部充满画面。脸上已经涂了一层薄薄的淡黄色凝胶。凝胶会自己变成白色泡沫，覆盖全脸。看着镜头，好奇又开心，快速有力地说出台词。",
-    "id": "Dekatkan HP, penuhi frame dengan wajahmu. Wajahmu sudah dioles tipis gel kuning pucat. Gelnya akan berubah jadi busa putih, menutupi seluruh wajah. Lihat ke kamera, tunjukkan ekspresi penasaran dan senang, ucapkan kalimat dengan cepat dan bersemangat."
+    "zh": "看着镜头，让脸上的啫喱自己变成泡沫，同时说第一句话。然后，擦掉泡沫，再录一遍干净的脸，一边摸鼻子和下巴一边说第二句话。",
+    "id": "Lihat ke kamera, biarin gel di muka kamu berubah jadi busa sendiri sambil ngomong kalimat pertama. Setelah itu, usap busanya, terus rekam lagi muka bersih sambil pegang-pegang hidung dan dagu pas ngomong kalimat kedua."
    },
    "lines": "Apa rahasianya? Dioles masih bentuk gel, didiamkan sebentar, langsung jadi busa sendiri! Yang sering makeup, hidung sama dagu kerasa kasar dan bruntusan, kayak ada pasirnya?"
   },
@@ -34,10 +34,11 @@
    "n": 2,
    "sec": 10,
    "talk": true,
+   "broll": true,
    "face": null,
    "do": {
-    "zh": "先不露脸，用手机拍韩国街景，靠近Olive Young店面。然后切换到脸部特写，把产品举到脸颊旁边，瓶盖盖好，标签朝前，面带微笑。最后切换到手部特写，挤出普通洗面奶，揉搓出稀薄的泡沫，泡沫很快消失。不露脸，用画外音说出台词。",
-    "id": "Pertama, rekam jalanan Korea, mendekati toko Olive Young. Lalu, rekam wajahmu dari dekat, pegang produk di samping pipi, tutupnya tertutup, label menghadap depan, senyum sedikit bangga. Terakhir, rekam tanganmu dari dekat, peras sedikit sabun cuci muka biasa ke telapak tangan, gosok sampai berbusa tipis dan cepat hilang. Kamu tidak perlu terlihat, ucapkan kalimat sebagai suara latar."
+    "zh": "第一个镜头可以用你在韩国街上走路的视频片段，同时画外音说第一句话。然后，录你的脸，一边把产品拿在脸颊旁一边说话。最后，只录你的手搓一个普通的洗面奶直到泡沫消失，同时画外音说最后一句话。",
+    "id": "Shot pertama bisa pakai klip jalan-jalan di Korea kalau ada, sambil ngomong kalimat pertama (voiceover). Terus, rekam muka kamu sambil pegang produk di samping pipi dan ngomong. Terakhir, rekam tangan kamu aja meremas sabun muka biasa sampai busanya hilang, sambil ngomong kalimat terakhir (voiceover)."
    },
    "lines": "Ini dibawain temenku yang sering bolak-balik Korea. Katanya di sana, sepuluh cewek Korea, sembilan pakai ini — VEIRFOO Bubble Cleanser. Sabun cuci muka biasa cuma bersihin permukaan, kotoran di pori-pori tetap nyangkut."
   },
@@ -47,8 +48,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "先拍手部特写，产品瓶盖已取下，按压泵头，挤出淡黄色凝胶到另一只手掌。不说话。然后切换到脸部特写，脸上已覆盖白色泡沫。看着镜头，像教朋友一样，清晰利落地说出台词。最后切换到脸部特写，泡沫已洗净，用湿毛巾擦拭脸颊，然后用指尖轻触鼻翼，满意地微笑。",
-    "id": "Pertama, rekam tanganmu dari dekat, tutup produk sudah dilepas, tekan pump-nya, keluarkan gel kuning pucat ke telapak tanganmu yang lain. Jangan bicara. Lalu, rekam wajahmu dari dekat, wajahmu sudah tertutup busa putih. Lihat ke kamera, bicara dengan jelas dan cepat seperti mengajari teman. Terakhir, rekam wajahmu dari dekat, busanya sudah hilang, usap pipi dengan handuk basah, lalu sentuh hidungmu dengan ujung jari, senyum puas."
+    "zh": "先只录你的手把产品泵到手心（不用说话）。然后，涂在脸上直到变成厚厚的泡沫，再录你满脸泡沫的样子，一边说话。最后，录你用湿毛巾擦掉泡沫、摸鼻子的样子，一边说最后一句话。",
+    "id": "Pertama, rekam tangan kamu aja lagi pump produk ke telapak tangan (nggak usah ngomong). Terus, olesin ke muka sampai jadi busa tebal, baru rekam muka kamu yang penuh busa sambil ngomong. Terakhir, rekam pas kamu lap busanya pakai handuk basah dan pegang hidung sambil ngomong kalimat terakhir."
    },
    "lines": "Muka dibasahi dulu, oles tipis, tunggu beberapa detik. Busanya muncul sendiri, masuk ke pori-pori, ngangkat minyak sama kotoran yang numpuk. Habis dilap handuk basah, hidungku berasa langsung halus, pori-pori kayak bisa napas lagi."
   },
@@ -58,8 +59,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "先拍脸部特写，把产品举到脸颊旁边，轻敲瓶身。自信又有点骄傲地说出台词。然后点头一次。再拍脸部特写，轻拍脸颊，露出自然的笑容。然后看着镜头，用两根手指在下巴旁边数数。最后再把产品举到脸颊旁边，身体微微前倾，坚定地点头。",
-    "id": "Pertama, rekam wajahmu dari dekat, pegang produk di samping pipi, ketuk botolnya sekali. Ucapkan kalimat dengan yakin dan sedikit bangga. Lalu, anggukkan kepala sekali. Rekam wajahmu dari dekat lagi, tepuk pipi dengan lembut, berikan senyum alami. Lalu, lihat ke kamera, hitung dengan dua jari di samping dagu. Terakhir, pegang produk di samping pipi lagi, condongkan badan sedikit ke depan, dan anggukkan kepala dengan mantap."
+    "zh": "这一段一次拍完就好。说话的时候，你可以换换动作：拿着产品指一下、点点头、拍拍脸颊、用手指计数，然后再拿着产品自信地点点头。跟着台词的顺序来做动作就行。",
+    "id": "Ini direkam jadi satu take aja ya. Sambil ngomong, kamu bisa ganti-ganti gaya: pegang produk sambil tunjuk, ngangguk, tepuk-tepuk pipi, hitung pakai jari, terus pegang produk lagi sambil ngangguk yakin. Coba ikutin aja urutan kalimatnya."
    },
    "lines": "Bahan nomor satunya Bifida Ferment, posisinya di atas air, banyak serum high-end harga jutaan juga mengandalkan bahan ini. Lembut, kulit sensitif juga aman. Sudah terdaftar BPOM, dibuat di pabrik Korea, importirnya resmi, semua bisa kamu cek sendiri di kemasannya."
   },
@@ -69,8 +70,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "先拍脸部特写，把手机举到下巴附近，屏幕朝外，向上滑动两次，然后放下手机，看着镜头，眉毛微挑，半开玩笑地说出台词。然后切换到手部特写，手背上有一团白色泡沫，用另一只手指按压泡沫，留下一个小凹痕。不露脸，用画外音说出台词。最后切换到脸部特写，把产品举到脸颊旁边，身体微微前倾，面带友好的笑容，用另一只手指指向画面左下角。",
-    "id": "Pertama, rekam wajahmu dari dekat, pegang HP di dekat dagu, layarnya menghadap keluar, geser ke atas dua kali, lalu turunkan HP, lihat ke kamera, angkat alis sedikit, bicara setengah bercanda. Lalu, rekam tanganmu dari dekat, punggung tanganmu tertutup busa putih, tekan busa dengan jari tanganmu yang lain, meninggalkan sedikit lekukan. Kamu tidak perlu terlihat, ucapkan kalimat sebagai suara latar. Terakhir, rekam wajahmu dari dekat, pegang produk di samping pipi, condongkan badan sedikit ke depan, senyum ramah, dan tunjuk ke sudut kiri bawah layar dengan jari telunjukmu yang lain."
+    "zh": "首先，你可以一边说话一边假装在刷手机。然后，只录你的手在手背上按压产品泡沫（这是画外音）。最后，把产品拿到脸颊旁，微笑，一边说话一边指向购物篮的方向。",
+    "id": "Pertama, kamu bisa pura-pura swipe HP sambil ngomong. Terus, rekam tangan kamu aja lagi neken busa produk di punggung tangan (ini voiceover ya). Terakhir, pegang produk di samping pipi, senyum, dan tunjuk ke arah keranjang kuning sambil ngomong."
    },
    "lines": "Dulu aku sampai ke klinik di Korea, sekali treatment hampir 38 juta. Sekarang tiap minggu bisa facial sendiri di rumah. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

@@ -52,11 +52,13 @@ button:disabled{cursor:default}
 .inp{width:100%;min-height:54px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);padding-inline:14px;font-size:17px}
 .inp:focus{outline:none;border-color:var(--ink)}
 .ta{padding-block:12px;line-height:1.5;resize:none;min-height:0;flex:1}
+.ta.sm{flex:none;min-height:90px;font-size:15px}
 .err{color:var(--red);font-size:14px;margin:0;font-weight:600;line-height:1.4}
 .tip{color:var(--mute);font-size:14px;line-height:1.5;margin:0}
-.big{width:100%;min-height:60px;border:0;border-radius:16px;background:var(--red);color:var(--on);font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:24px;letter-spacing:.04em}
+.big{width:100%;min-height:60px;border:0;border-radius:16px;background:var(--red);color:var(--on);font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:22px;letter-spacing:.03em;padding-inline:12px}
 .big.dark{background:var(--dark)}
-.big.ghost{background:transparent;border:2px solid var(--ink);color:var(--ink);font-size:20px}
+.big.ghost{background:transparent;border:2px solid var(--ink);color:var(--ink);font-size:19px}
+.big small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:12px;letter-spacing:0;opacity:.9;margin-top:2px}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .link{align-self:center;border:0;background:transparent;color:var(--mute);font-size:14px;min-height:40px;padding-inline:12px;text-decoration:underline}
 /* 脚本列表 */
@@ -68,6 +70,14 @@ button:disabled{cursor:default}
 .sitem .t span{display:block;font-size:13px;color:var(--mute);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .sitem .go{flex:none;background:var(--red);color:var(--on);border-radius:10px;font-weight:700;font-size:14px;padding:8px 12px}
 .sitem .go.done{background:var(--soft);color:var(--mute)}
+/* 总览（开拍前） */
+.ov{display:flex;flex-direction:column;gap:10px}
+.ov .seg{border-top:1px solid var(--line);padding-top:8px;display:grid;grid-template-columns:30px 1fr;gap:8px}
+.ov .seg b{font-family:"Barlow Condensed",sans-serif;font-size:20px;font-weight:800;color:var(--red)}
+.ov .seg .s{font-size:12px;color:var(--mute)}
+.ov .seg .d{font-size:14px;color:var(--mute);line-height:1.45;margin-top:2px}
+.ov .seg .l{font-size:15px;font-weight:600;line-height:1.45;margin-top:4px}
+.ov .all{background:var(--soft);border-radius:12px;padding:10px 12px;font-size:15px;line-height:1.55;font-weight:600}
 /* 分镜屏 */
 .prog{display:flex;gap:4px;flex:none}
 .prog i{flex:1;height:6px;border-radius:3px;background:var(--line)}
@@ -81,23 +91,30 @@ button:disabled{cursor:default}
 .face b,.do b,.lines-lab{display:block;font-size:12px;color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
 .do{font-size:15px;line-height:1.5;color:var(--mute)}
 .do p{margin:0;color:var(--ink)}
-.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--red);padding-left:12px}
+.lines-row{display:flex;align-items:flex-start;gap:8px}
+.lines{flex:1;font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--red);padding-left:12px}
 .lines.none{color:var(--mute);font-weight:400;font-size:16px;border-color:var(--line)}
-video.pv{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fit:contain}
+.lines.edited{border-color:var(--dark)}
+.pen{flex:none;border:1.5px solid var(--line);background:var(--card);border-radius:10px;min-width:44px;min-height:44px;font-size:18px}
+.pvwrap{position:relative;aspect-ratio:9/16;max-height:40vh;margin:0 auto;border-radius:14px;overflow:hidden;background:#000;width:auto}
+.pvwrap video{width:100%;height:100%;object-fit:cover;display:block}
+.pvwrap .zoom{position:absolute;right:8px;top:8px;border:0;background:rgba(0,0,0,.55);color:#fff;border-radius:10px;min-width:40px;min-height:40px;font-size:18px}
 .pickbtn{position:relative;overflow:hidden}
 .pickbtn input{position:absolute;inset:0;opacity:0;width:100%;height:100%}
-/* 总览 */
+/* 总览（录完） */
 .list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-.list li{display:flex;align-items:center;gap:10px;min-height:52px;border-top:1px solid var(--line);font-size:15px}
+.list li{display:flex;align-items:center;gap:10px;min-height:50px;border-top:1px solid var(--line);font-size:15px}
 .list li:first-child{border-top:0}
 .list .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;width:1.6em;color:var(--mute)}
 .list .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .list .st{font-size:13px;font-weight:600;color:var(--mute);flex:none;display:inline-flex;align-items:center;gap:6px}
 .list .st.ok{color:var(--dark)}
 .list .st.bad{color:var(--red)}
-.list button{min-height:38px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding-inline:12px;font-size:14px;font-weight:600;flex:none}
+.list button{min-height:36px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding-inline:10px;font-size:13px;font-weight:600;flex:none}
 .spin{width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--red);border-radius:50%;animation:sp 1s linear infinite;display:inline-block}
 @keyframes sp{to{transform:rotate(360deg)}}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--red);transition:width .3s}
 /* 弹窗 */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:30;padding:24px}
 .modal .box{background:var(--card);color:var(--ink);border-radius:18px;padding:20px;width:100%;max-width:340px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
@@ -113,11 +130,14 @@ video.pv{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fi
 .rec .rtop{position:relative;display:flex;align-items:center;gap:8px;margin:calc(6px + env(safe-area-inset-top,0px)) 12px 0}
 .rec .rback{display:inline-flex;align-items:center;gap:4px;border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:12px;min-height:44px;padding-inline:10px 14px;font-weight:600}
 .rec .rback svg{width:20px;height:20px}
+.rec .tgl{border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:12px;min-height:44px;padding-inline:12px;font-weight:600;font-size:14px}
+.rec .tgl[aria-pressed="true"]{background:#fff;color:#000}
 .timer{margin-left:auto;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:24px;font-variant-numeric:tabular-nums;background:rgba(0,0,0,.5);border-radius:10px;padding-inline:10px;min-height:40px;display:flex;align-items:center;gap:8px}
 .timer i{width:12px;height:12px;border-radius:50%;background:#E23B2E;display:inline-block;animation:bl 1s steps(2) infinite}
 @keyframes bl{to{opacity:.2}}
 .prompt{position:relative;margin:8px 12px 0;height:36vh;overflow:hidden;border-radius:14px;background:rgba(0,0,0,.55);
   -webkit-mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%)}
+.prompt[hidden]{display:none}
 .prompt .txt{position:absolute;left:16px;right:16px;top:12px;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .prompt .paused{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:40px;background:rgba(0,0,0,.35)}
 .silent{margin:8px 12px 0;border-radius:14px;background:rgba(0,0,0,.6);padding:14px 16px;display:flex;gap:10px;align-items:flex-start}
@@ -125,10 +145,11 @@ video.pv{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fi
 .silent .big1{font-size:19px;font-weight:700;line-height:1.35}
 .silent .big2{font-size:16px;line-height:1.45;margin-top:6px;opacity:.95}
 .spd{position:relative;margin:8px 12px 0;display:flex;gap:6px;justify-content:flex-end}
+.spd[hidden]{display:none}
 .spd button{min-width:56px;min-height:40px;border:0;border-radius:10px;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:14px}
 .count{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:46vw;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6);pointer-events:none}
 .hint{position:absolute;left:12px;right:12px;bottom:calc(136px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.55);border-radius:12px;padding:8px 12px;font-size:15px;line-height:1.4;max-height:28vh;overflow:auto}
-.framing{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.framing,.autostop{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
 .shutter{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:transparent;padding:0}
 .shutter span{display:block;width:62px;height:62px;border-radius:50%;background:#E23B2E;margin:0 auto}
 .stop{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:#E23B2E;color:#fff;font-weight:800;font-size:18px}
@@ -144,6 +165,8 @@ const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/medi
 const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址
 const WPS = 3.5;                       // 脚本库排段密度：每秒 3.5 词，台词滚完刚好到段时长
 const SPEEDS = [0.7, 0.85, 1, 1.2, 1.4];
+const CHUNK = 6 * 1024 * 1024;         // 分块上传：6MB 一块（base64 后 8MB，后台一次能收）
+const QUIET_SEC = 1.5;                 // 提词滚完后安静这么久自动停
 const $ = (sel, el = document) => el.querySelector(sel);
 const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -158,42 +181,54 @@ const store = {
 const I18N = {
   id: {
     appTitle: "Rekam Naskah", hiName: "Hai! Aku <b>Momo</b>. Aku temenin kamu rekam ya, santai aja. Siapa nama kamu?", whoPh: "Nama kamu, atau link TikTok / IG", start: "Mulai", needOne: "Tulis nama atau link dulu ya",
-    yourScripts: "Naskah kamu", pickOne: "Ini naskah buat kamu. Pilih satu, kita mulai!", noScripts: "Naskah buat kamu belum ada. Kamu bisa tulis sendiri dulu, nanti aku bantu bacain pas rekam.",
-    bagian: n => `${n} bagian`, detik: n => `${n} detik`, record: "Rekam", continueBtn: "Lanjutin", doneBtn: "Selesai ✓", writeOwn: "Tulis naskah sendiri", changeName: "Ganti nama",
-    mineTitle: "Naskah saya", mineHi: "Tulis yang mau kamu omongin. Satu bagian satu rekaman, pisahkan pakai baris kosong ya.", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya ya",
-    prepTitle: "Siap-siap dulu", prepHi: "Siapin ini dulu ya, nggak lama kok. Habis itu kita rekam bagian demi bagian.", ready: "Udah siap!",
-    shotTitle: (i, n) => `Bagian ${i} dari ${n}`, face: "Wajah sebelum mulai", suggest: "Saran cara rekam", suggestTip: "Ini cuma saran. Kalau kamu punya cara sendiri yang lebih natural, pakai cara kamu.", lines: "Yang diucapkan", noLines: "Bagian ini nggak ngomong. Inget gerakannya aja ya.",
-    rec: "REKAM", pick: "Pilih video dari galeri", again: "Ulang", next: "Lanjut →", finish: "Lihat semua →", back: "Kembali",
-    cheer: ["Santai aja, kayak ngobrol sama temen.", "Nggak harus persis. Yang penting natural.", "Kalau salah, tinggal ulang. Gampang!", "Senyum dikit, kamu udah keren kok.", "Pelan-pelan aja, nggak ada yang buru-buru."],
+    yourScripts: "Naskah kamu", pickOne: "Ini naskah buat kamu. Pilih satu, kita mulai!", noScripts: "Naskah buat kamu belum ada. Kamu bisa tulis sendiri dulu, nanti aku rapikan jadi bagian-bagian.",
+    bagian: n => `${n} bagian`, detik: n => `${n} detik`, record: "Buka", continueBtn: "Lanjutin", doneBtn: "Selesai ✓", writeOwn: "Tulis naskah sendiri", changeName: "Ganti nama", mineTag: "naskah kamu sendiri",
+    mineTitle: "Naskah saya", mineHi: "Tulis apa yang mau kamu omongin, bebas. Nanti aku rapikan jadi bagian-bagian buat direkam.", minePh: "Halo semua, aku mau cerita soal…", mineParse: "Rapikan jadi naskah", mineEmpty: "Tulis dulu isinya ya", mineBusy: "Lagi aku rapikan, sebentar ya…",
+    mineQuota: (u, l) => `Hari ini kamu sudah pakai ${u} dari ${l} kali. Kalau butuh lebih, hubungi brand ya.`, mineCompetitor: "Naskah hanya bisa untuk VEIRFOO atau SICENARI ya.", mineFail: "Belum berhasil, coba lagi sebentar lagi ya.", mineSaveGo: "Simpan & mulai rekam",
+    ovTitle: "Lihat dulu naskahnya", ovHi: "Ini gambaran lengkapnya. Dialognya bisa kamu ubah nanti di tiap bagian, biar sesuai gaya kamu. Selama rekam, brand nggak bisa lihat videomu, tenang aja ya.", allLines: "Semua dialog", noteLab: "Ada ide atau masukan buat naskah ini?", notePh: "Tulis di sini…", noteSend: "Kirim", noteSent: "Terkirim, makasih!", startBtn: "Mulai rekam",
+    prepTitle: "Siap-siap dulu", prepHi: "Siapin ini dulu ya, nggak lama kok. Baju, tempat, cahaya: terserah kamu, yang penting nyaman.", ready: "Udah siap!",
+    shotTitle: (i, n) => `Bagian ${i} dari ${n}`, face: "Wajah sebelum mulai", suggest: "Saran cara rekam", lines: "Yang diucapkan", noLines: "Bagian ini nggak ngomong. Inget gerakannya aja ya.", broll: "Bagian ini bisa pakai video kamu sendiri yang sudah ada, yang natural dan ada vibe kesehariannya.",
+    editLines: "Ubah dialog", editSave: "Pakai yang ini", editReset: "Balikin ke asli", editTip: "Ubah sesuai gaya ngomong kamu. Produk dan maksudnya tetap ya.",
+    rec: "REKAM", pick: "Pilih video dari galeri", again: "Ulang", next: "Lanjut →", finish: "Lihat semua →", back: "Kembali", zoom: "Perbesar",
+    cheer: ["Santai aja, kayak ngobrol sama temen.", "Selama rekam, brand nggak bisa lihat videomu. Tenang aja ya.", "Nggak harus persis. Yang penting natural.", "Kalau salah, tinggal ulang. Gampang!", "Senyum dikit, kamu udah keren kok.", "Habis selesai semua, bisa kamu simpan dulu buat dipercantik."],
     took: "Keren! Mau lihat dulu, atau langsung lanjut?", tookLast: "Semua bagian udah ada! Yuk lihat semuanya.",
-    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera",
+    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera", hideText: "Sembunyikan teks", showText: "Tampilkan teks",
+    autostopOn: "Habis ngomong, diam 1–2 detik → berhenti sendiri", autostopNow: "Diam sebentar, aku berhentikan…",
     camErr: n => `Kamera nggak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi ya.`,
     inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas, lalu pilih “Buka di Safari”.",
     processing: "Sebentar, lagi disimpan…", flip: "Videonya miring? Ketuk untuk memutar",
-    overview: "Semua bagian", ovHi: "Semua udah kamu rekam! Tinggal kirim ke aku ya.", ovHiSending: "Lagi aku kirim… jangan tutup halaman ini dulu ya.", ovHiDone: "Udah sampai semua! Makasih ya, kamu hebat banget.", ovHiMissing: n => `Masih ada ${n} bagian yang belum direkam.`,
-    sendAll: n => `Kirim ke kami (${n} bagian)`, sending: (i, n) => `Mengirim ${i} dari ${n}… jangan tinggalkan halaman ini`, sentAll: "Semua sudah terkirim ✓",
-    stSent: "Terkirim", stSending: "Mengirim…", stFail: "Gagal, kirim lagi", stMissing: "Belum direkam", redo: "Ulang", recordIt: "Rekam",
-    saveAll: "Simpan ke HP", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
+    overview: "Semua bagian", fHi: "Semua udah kamu rekam! Mau dipercantik dulu? Simpan jadi satu video, edit di aplikasi favoritmu, lalu balik ke sini buat kirim.", fHiMissing: n => `Masih ada ${n} bagian yang belum direkam.`, fHiSending: "Lagi aku kirim… kalau kamu keluar dari halaman ini, nanti balik lagi aku lanjutkan dari tempat berhenti.", fHiDone: "Udah sampai semua! Makasih ya, kamu hebat banget.",
+    saveBeauty: "Simpan buat dipercantik", saveBeautySub: "Semua bagian jadi satu video, tersimpan di HP kamu", saving: "Lagi digabung…", savedOk: "Tersimpan. Edit di aplikasi favoritmu, lalu balik ke sini ya.",
+    sendFinal: "Kirim video yang sudah dipercantik", sendFinalSub: "Pilih video hasil editan dari galeri", sendRaw: "Kirim apa adanya (tanpa edit)", sendRawSub: n => `${n} bagian, langsung ke kami`,
+    stMissing: "Belum direkam", stOk: "Sudah direkam", stSent: "Terkirim", stSending: "Mengirim…", stFail: "Terputus, lanjutkan", redo: "Ulang", recordIt: "Rekam", resume: "Lanjutkan kirim", finalSent: "Video hasil editan sudah terkirim ✓", finalSending: p => `Mengirim video editan… ${p}%`, pickAgain: "Pengiriman tadi terputus. Pilih lagi video yang sama, aku lanjutkan dari tempat berhenti.",
+    concatFail: "Nggak bisa digabung otomatis. Aku simpan satu per satu ya.",
+    clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
     logoutSure: "Ganti nama? Rekaman yang belum dikirim akan hilang.", yesLogout: "Ganti", loadFail: "Naskah ini nggak ketemu. Coba balik ke daftar naskah ya.",
   },
   zh: {
     appTitle: "拍脚本", hiName: "嗨！我是 <b>Momo</b>，陪你一起拍，放轻松。你叫什么？", whoPh: "你的名字，或 TikTok / IG 链接", start: "开始", needOne: "先写名字或链接",
-    yourScripts: "你的脚本", pickOne: "这是给你的脚本，选一本开始！", noScripts: "还没有分给你的脚本。可以先自己写一段，录的时候我帮你提词。",
-    bagian: n => `${n} 段`, detik: n => `${n} 秒`, record: "开拍", continueBtn: "继续", doneBtn: "已完成 ✓", writeOwn: "自己写脚本", changeName: "换人",
-    mineTitle: "我的脚本", mineHi: "写下要说的话。一段一个镜头，段和段之间空一行。", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "保存，开始拍", mineEmpty: "先写点内容",
-    prepTitle: "开拍前准备", prepHi: "先把这些准备好，不会很久。然后我们一段一段拍。", ready: "准备好了！",
-    shotTitle: (i, n) => `第 ${i} 段，共 ${n} 段`, face: "开拍前脸上", suggest: "推荐拍法", suggestTip: "只是建议。你有更自然的拍法就按你的来。", lines: "要说的话", noLines: "这段不说话，记住动作就行。",
-    rec: "开始录", pick: "从相册选视频", again: "重录", next: "下一段 →", finish: "看全部 →", back: "返回",
-    cheer: ["放松点，像跟朋友聊天。", "不用一模一样，自然最重要。", "错了就重录，很简单。", "笑一笑，你已经很棒了。", "慢慢来，不着急。"],
+    yourScripts: "你的脚本", pickOne: "这是给你的脚本，选一本开始！", noScripts: "还没有分给你的脚本。可以先自己写一段，我帮你整理成分镜。",
+    bagian: n => `${n} 段`, detik: n => `${n} 秒`, record: "打开", continueBtn: "继续", doneBtn: "已完成 ✓", writeOwn: "自己写脚本", changeName: "换人", mineTag: "你自己写的",
+    mineTitle: "我的脚本", mineHi: "想说什么就写什么。写完我帮你整理成一段一段可以录的。", minePh: "Halo semua, aku mau cerita soal…", mineParse: "整理成脚本", mineEmpty: "先写点内容", mineBusy: "正在整理，稍等…",
+    mineQuota: (u, l) => `今天已经用了 ${u}/${l} 次，需要更多联系品牌方。`, mineCompetitor: "脚本只能用于 VEIRFOO 或 SICENARI。", mineFail: "没成功，等会儿再试。", mineSaveGo: "保存，开始拍",
+    ovTitle: "先看看脚本", ovHi: "这是整本的样子。每段台词之后可以改成你自己的说法。录制过程品牌看不到你的视频，放心。", allLines: "全部台词", noteLab: "对这本脚本有想法？", notePh: "写在这里…", noteSend: "发送", noteSent: "收到了，谢谢！", startBtn: "开始拍",
+    prepTitle: "开拍前准备", prepHi: "先把这些准备好，不会很久。衣服、地点、光线都随你，舒服就行。", ready: "准备好了！",
+    shotTitle: (i, n) => `第 ${i} 段，共 ${n} 段`, face: "开拍前脸上", suggest: "推荐拍法", lines: "要说的话", noLines: "这段不说话，记住动作就行。", broll: "这段可以直接用你手机里已有的、有生活感的视频。",
+    editLines: "改台词", editSave: "就用这个", editReset: "恢复原文", editTip: "改成你自己的说法，产品和意思保留。",
+    rec: "开始录", pick: "从相册选视频", again: "重录", next: "下一段 →", finish: "看全部 →", back: "返回", zoom: "放大",
+    cheer: ["放松点，像跟朋友聊天。", "录制过程品牌看不到你的视频，放心。", "不用一模一样，自然最重要。", "错了就重录，很简单。", "笑一笑，你已经很棒了。", "全部录完可以先存下来去美颜。"],
     took: "很好！先看看，还是直接下一段？", tookLast: "全部都有了！去看看全部吧。",
-    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头",
+    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头", hideText: "隐藏提词", showText: "显示提词",
+    autostopOn: "说完后安静 1–2 秒自动停", autostopNow: "安静一下，我来停…",
     camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
     inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」，选「在 Safari 中打开」。",
     processing: "稍等，正在保存…", flip: "画面横了？点这里转正",
-    overview: "全部段落", ovHi: "都录完了！传给我就行。", ovHiSending: "正在传……先别关这个页面。", ovHiDone: "全都到了！谢谢你，太棒了。", ovHiMissing: n => `还有 ${n} 段没录。`,
-    sendAll: n => `传给我们（${n} 段）`, sending: (i, n) => `正在传 ${i}/${n}，别离开这个页面`, sentAll: "全部传好了 ✓",
-    stSent: "已传", stSending: "传送中…", stFail: "没传上，再传", stMissing: "还没录", redo: "重录", recordIt: "去录",
-    saveAll: "存到手机", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
+    overview: "全部段落", fHi: "都录完了！要先美颜吗？存成一条视频，去你常用的 App 里修，修完回来上传。", fHiMissing: n => `还有 ${n} 段没录。`, fHiSending: "正在传……离开页面也没关系，回来接着传。", fHiDone: "全都到了！谢谢你，太棒了。",
+    saveBeauty: "保存去美颜", saveBeautySub: "所有段拼成一条，存到手机", saving: "正在拼接…", savedOk: "存好了。去你常用的 App 修，修完回来上传。",
+    sendFinal: "上传美颜好的成片", sendFinalSub: "从相册选修好的视频", sendRaw: "直接传原片（不修）", sendRawSub: n => `${n} 段，直接给我们`,
+    stMissing: "还没录", stOk: "已录", stSent: "已传", stSending: "传送中…", stFail: "断了，继续", redo: "重录", recordIt: "去录", resume: "继续上传", finalSent: "成片已传到 ✓", finalSending: p => `正在传成片… ${p}%`, pickAgain: "上次没传完。再选一次同一个视频，我从断点接着传。",
+    concatFail: "没法自动拼接，我一段一段存。",
+    clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
     logoutSure: "换人？没传的录像会清掉。", yesLogout: "换人", loadFail: "找不到这本脚本，回脚本列表看看。",
   },
 };
@@ -203,7 +238,7 @@ const L = o => (o && typeof o === "object") ? (o[lang] || o.id || o.zh || "") : 
 const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
 const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
-// ===== 吉祥物：毛绒面膜猫（img/maskot_*.png，Nano Banana 出图后抠底，11-05）。表情：hi 打招呼 / go 举手机 / yay 欢呼 / wink 嘘 / zz 打瞌睡 / love 比心；没切出来的先用 hi =====
+// ===== 吉祥物 Momo：毛绒面膜猫（img/maskot_*.png）。表情：hi 打招呼 / go 举手机 / yay 欢呼 / wink 嘘 / zz 打瞌睡 / love 比心 =====
 const MASKOT = { hi: "maskot_hi.png", go: "maskot_go.png", yay: "maskot_yay.png", wink: "maskot_wink.png", zz: "maskot_zz.png", love: "maskot_love.png" };
 function cici(mood = "hi") { return `<img class="maskot" src="img/${MASKOT[mood] || MASKOT.hi}" alt="" width="64" height="64" decoding="async">`; }
 const bubble = (html, mood, big) => `<div class="cici ${big ? "lg" : ""}">${cici(mood)}<div class="bubble">${html}</div></div>`;
@@ -228,18 +263,20 @@ let profile = store.get("profile", null);        // { link, handle, name }
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
 let sid = (new URLSearchParams(location.search).get("s") || "").trim();   // 旧链接 ?s=V0158 还能直接进
 let script = null, cur = 0, loadErr = "";
-let lib = [], assignedIds = null, backendMeta = {}, mineText = "", mineMsg = "", camErr = "";
+let lib = [], assignedIds = null, mineIds = [], backendMeta = {}, mineText = "", mineMsg = "", mineDraft = null, mineBusy = false, camErr = "";
 let speedIdx = store.get("speed", 1);
-const takes = [];                                 // takes[i] = { blob, url, raw, rot, landscape, up: ""|"busy"|"done"|"fail", msg }
-let view = profile ? "scripts" : "login";        // login | scripts | mine | prep | shot | overview
-let cheerIdx = 0;
+const takes = [];                                 // takes[i] = { blob, url, raw, rot, landscape, up: ""|"busy"|"done"|"fail", pct, msg }
+let view = profile ? "scripts" : "login";        // login | scripts | mine | preview | prep | shot | overview
+let cheerIdx = 0, editing = false, noteMsg = "", finalState = null, finalFile = null, saveMsg = "";   // finalState = { name, pct, status: "busy"|"done"|"fail"|"wait" }
 
 function parseHandle(link) {
   const m = String(link).trim().match(/(?:tiktok\.com\/@|instagram\.com\/|^@)([A-Za-z0-9._]+)/i);
   return m ? m[1].replace(/\.$/, "") : "";
 }
+const api = async (params) => (await fetch(UPLOAD_URL + "?" + new URLSearchParams(params))).json();
+const post = async (body) => (await fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify(body) })).json();
 
-// 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新，回来都还在
+// 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新、来电，回来都还在
 const DB = { name: "rekam", store: "takes" };
 function dbOpen() {
   return new Promise((res, rej) => { if (!window.indexedDB) return rej(0); const r = indexedDB.open(DB.name, 1);
@@ -261,51 +298,44 @@ const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.bl
 // ===== 读脚本 =====
 async function loadLib() {
   try { lib = (await (await fetch("scripts/index.json", { cache: "no-cache" })).json()).scripts || []; } catch (e) { lib = []; }
-  assignedIds = []; backendMeta = {};
-  if (UPLOAD_URL && name) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "assigned", who: name }))).json(); assignedIds = r.scripts || []; backendMeta = r.meta || {}; } catch (e) {} }
+  assignedIds = []; mineIds = []; backendMeta = {};
+  if (UPLOAD_URL && name) { try { const r = await api({ action: "assigned", who: name }); assignedIds = r.scripts || []; mineIds = r.mine || []; backendMeta = r.meta || {}; } catch (e) {} }
 }
 async function loadScript(id) {
   script = null; loadErr = "";
+  if (id === "SELF") { script = store.get("self_" + name, null); if (!script) loadErr = t("loadFail"); return; }
   try { const r = await fetch(`scripts/${encodeURIComponent(id)}.json`, { cache: "no-cache" }); if (r.ok) script = await r.json(); } catch (e) {}
-  if (!script && UPLOAD_URL) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "script", id }))).json(); if (r.ok) script = r.script; } catch (e) {} }
+  if (!script && UPLOAD_URL) { try { const r = await api({ action: "script", id }); if (r.ok) script = r.script; } catch (e) {} }
   if (!script) loadErr = t("loadFail");
 }
-async function loadMine() {
-  mineText = store.get("mine_" + name, "");
-  if (UPLOAD_URL && name && !mineText) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "myscript", who: name }))).json(); if (r.content) mineText = JSON.parse(r.content).text || ""; } catch (e) {} }
-}
-function mineToScript(text) {
-  const paras = text.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
-  return { id: "SELF", brand: "", product: { zh: t("mineTitle"), id: t("mineTitle") }, cam: "user",
-    shots: paras.map((p, i) => ({ n: i + 1, sec: Math.max(3, Math.ceil(p.split(/\s+/).length / WPS) + 1), talk: true, face: null, do: { zh: "", id: "" }, lines: p })) };
-}
 async function openScript(id) {
-  sid = id;
-  if (id === "SELF") { script = mineToScript(mineText); }
-  else await loadScript(id);
+  sid = id; editing = false; noteMsg = ""; finalState = store.get("final_" + sid, null);
+  await loadScript(id);
   if (!script) { render(); return; }
   await dbLoad();
   cur = store.get("cur_" + sid, 0); if (cur > script.shots.length) cur = 0;
   const started = takes.some(x => x?.blob) || cur > 0;
-  go(started ? (cur >= script.shots.length ? "overview" : "shot") : (script.prep ? "prep" : "shot"));
+  go(started ? (cur >= script.shots.length ? "overview" : "shot") : "preview");
+  if (started) resumeUploads();
 }
+// 台词：达人改过的优先（本机存一份，也报给后台给剪辑配字幕）
+const editKey = i => `edit_${sid}_${script.shots[i].n}`;
+const linesOf = i => { const e = store.get(editKey(i), null); return e === null ? (script.shots[i].lines || "") : e; };
+const isEdited = i => store.get(editKey(i), null) !== null;
 
 // ===== 导航：每进一屏 pushState，手机的返回键和左上角 ← 都走 goBack =====
 function go(v, push = true) { view = v; if (push) history.pushState({ v, cur, sid }, ""); render(); }
 function goBack() {
-  if (view === "shot") { if (cur > 0) { cur--; store.set("cur_" + sid, cur); render(); } else go(script?.prep ? "prep" : "scripts", false); }
+  if (view === "shot") { if (editing) { editing = false; render(); return; } if (cur > 0) { cur--; store.set("cur_" + sid, cur); render(); } else go(script?.prep ? "prep" : "preview", false); }
   else if (view === "overview") { cur = script.shots.length - 1; store.set("cur_" + sid, cur); view = "shot"; render(); }
-  else if (view === "prep" || view === "mine") { go("scripts", false); }
+  else if (view === "prep") { go("preview", false); }
+  else if (view === "preview") { go("scripts", false); }
+  else if (view === "mine") { if (mineDraft) { mineDraft = null; render(); } else go("scripts", false); }
   else render();
 }
 window.addEventListener("popstate", () => { if (view === "login" || view === "scripts") { render(); return; } goBack(); });
 history.replaceState({ v: view }, "");
 
-// ===== 页面 =====
-const topbar = (title, sub, back) => `<div class="topbar">
-  ${back ? `<button class="back" id="back" aria-label="${t("back")}">${backIcon}${t("back")}</button>` : ""}
-  <div class="ttl">${title}${sub ? `<small>${sub}</small>` : ""}</div>
-  <div class="lang" role="group" aria-label="Language"><button data-lang="id" aria-pressed="${lang === "id"}">ID</button><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button></div></div>`;
 // 登录态：每换一屏悄悄报一次（谁、哪本、第几段、什么手机），审片页达人卡显示「最近在哪」；同一屏 20 秒内不重复报
 let seenKey = "", seenAt = 0;
 function ping() {
@@ -316,11 +346,17 @@ function ping() {
   try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "seen", who: name, handle: profile?.handle || "", nick: profile?.name || "", link: profile?.link || "",
     script: script?.id || "", shot: view === "shot" && script ? script.shots[cur]?.n : (view === "overview" ? "总览" : ""), view, lang, ua: navigator.userAgent }), keepalive: true }); } catch (e) {}
 }
+
+// ===== 页面 =====
+const topbar = (title, sub, back) => `<div class="topbar">
+  ${back ? `<button class="back" id="back" aria-label="${t("back")}">${backIcon}${t("back")}</button>` : ""}
+  <div class="ttl">${title}${sub ? `<small>${sub}</small>` : ""}</div>
+  <div class="lang" role="group" aria-label="Language"><button data-lang="id" aria-pressed="${lang === "id"}">ID</button><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button></div></div>`;
 function render() {
   document.documentElement.lang = lang;
   ping();
-  const fn = { login: renderLogin, scripts: renderScripts, mine: renderMine, prep: renderPrep, shot: renderShot, overview: renderOverview }[view] || renderScripts;
-  root.innerHTML = `<div class="screen">${fn()}</div>`;
+  const fn = { login: renderLogin, scripts: renderScripts, mine: renderMine, preview: renderPreview, prep: renderPrep, shot: renderShot, overview: renderOverview }[view] || renderScripts;
+  root.innerHTML = `<div class="screen">${loadErr && view !== "scripts" && view !== "login" && view !== "mine" ? `${topbar(t("appTitle"), "", true)}<div class="mid center"><p class="err">${esc(loadErr)}</p></div>` : fn()}</div>`;
   $$("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); render(); });
   const bk = $("#back"); if (bk) bk.onclick = () => history.back();
   bind();
@@ -338,14 +374,15 @@ function renderLogin() {
 }
 function renderScripts() {
   if (assignedIds === null) { loadLib().then(render); return `${topbar(t("yourScripts"), esc(name), false)}<div class="mid center">${bubble("…", "zz")}</div>`; }
-  const items = assignedIds.map(id => lib.find(x => x.id === id) || backendMeta[id] || { id, product: { zh: id, id } });
-  const prog = id => { const c = store.get("cur_" + id, 0); return c; };
+  const ids = [...assignedIds, ...mineIds.filter(x => !assignedIds.includes(x))];
+  const items = ids.map(id => lib.find(x => x.id === id) || backendMeta[id] || { id, product: { zh: id, id } });
+  const prog = id => store.get("cur_" + id, 0);
   return `${topbar(t("yourScripts"), esc(profile?.handle ? "@" + profile.handle : profile?.name || ""), false)}
     <div class="mid">
       ${bubble(items.length ? t("pickOne") : t("noScripts"), items.length ? "hi" : "wink")}
       <div class="slist scroll">
-        ${items.map((x, k) => { const n = x.shots || (x.sec ? "" : ""); const c = prog(x.id);
-          return `<button class="sitem" data-open="${esc(x.id)}"><span class="num">${k + 1}</span><span class="t"><b>${esc(L(x.product))}</b><span>${esc(L(x.hook) || x.id)}${x.shots ? ` · ${t("bagian", x.shots)}` : ""}${x.sec ? ` · ${t("detik", x.sec)}` : ""}</span></span>
+        ${items.map((x, k) => { const c = prog(x.id); const own = mineIds.includes(x.id);
+          return `<button class="sitem" data-open="${esc(x.id)}"><span class="num">${k + 1}</span><span class="t"><b>${esc(L(x.product))}</b><span>${own ? t("mineTag") : esc(L(x.hook) || x.id)}${x.shots ? ` · ${t("bagian", x.shots)}` : ""}${x.sec ? ` · ${t("detik", x.sec)}` : ""}</span></span>
             <span class="go ${c && x.shots && c >= x.shots ? "done" : ""}">${c && x.shots && c >= x.shots ? t("doneBtn") : c ? t("continueBtn") : t("record")}</span></button>`; }).join("")}
         <button class="sitem" id="mine"><span class="num">✎</span><span class="t"><b>${t("writeOwn")}</b></span><span class="go" style="background:var(--dark)">${t("record")}</span></button>
       </div>
@@ -353,13 +390,41 @@ function renderScripts() {
     <div class="foot"><button class="link" id="logout">${t("changeName")}</button></div>`;
 }
 function renderMine() {
+  if (mineDraft) {
+    return `${topbar(t("mineTitle"), "", true)}
+      <div class="mid">
+        ${bubble(t("ovHi"), "yay")}
+        <div class="card scroll ov" style="flex:1">${previewHtml(mineDraft)}</div>
+        ${mineMsg ? `<p class="err">${esc(mineMsg)}</p>` : ""}
+      </div>
+      <div class="foot"><button class="big" id="msavego">${t("mineSaveGo")}</button></div>`;
+  }
   return `${topbar(t("mineTitle"), "", true)}
     <div class="mid">
       ${bubble(t("mineHi"), "hi")}
       <textarea class="inp ta" id="mt" placeholder="${esc(t("minePh"))}">${esc(mineText)}</textarea>
       ${mineMsg ? `<p class="err">${esc(mineMsg)}</p>` : ""}
     </div>
-    <div class="foot"><button class="big" id="msave">${t("mineSave")}</button></div>`;
+    <div class="foot"><button class="big" id="mparse" ${mineBusy ? "disabled" : ""}>${mineBusy ? t("mineBusy") : t("mineParse")}</button></div>`;
+}
+function previewHtml(sc) {
+  const all = sc.shots.map(s => s.lines).filter(Boolean).join(" ");
+  return `<div><b style="font-size:17px">${esc(L(sc.product))}</b>${L(sc.hook) ? `<div class="tip">${esc(L(sc.hook))}</div>` : ""}</div>
+    ${sc.prep && L(sc.prep) ? `<div class="face"><b>${t("prepTitle")}</b>${esc(L(sc.prep))}</div>` : ""}
+    ${sc.shots.map(s => `<div class="seg"><b>${s.n}</b><div><span class="s">${t("detik", s.sec)}${s.talk === false || !s.lines ? ` · ${t("noLines").split(/[.。]/)[0]}` : ""}</span>
+      ${L(s.do) ? `<div class="d">${esc(L(s.do))}</div>` : ""}${s.lines ? `<div class="l">${esc(s.lines)}</div>` : ""}</div></div>`).join("")}
+    ${all ? `<div><div class="lab">${t("allLines")}</div><div class="all">${esc(all)}</div></div>` : ""}`;
+}
+function renderPreview() {
+  return `${topbar(t("ovTitle"), esc(L(script.product)), true)}
+    <div class="mid">
+      ${bubble(t("ovHi"), "hi")}
+      <div class="card scroll ov" style="flex:1">${previewHtml(script)}
+        <div><div class="lab">${t("noteLab")}</div><textarea class="inp ta sm" id="note" placeholder="${esc(t("notePh"))}"></textarea>
+          <div class="row2" style="margin-top:8px"><span class="tip" id="notemsg">${esc(noteMsg)}</span><button class="big ghost" id="notesend" style="min-height:44px;font-size:16px">${t("noteSend")}</button></div></div>
+      </div>
+    </div>
+    <div class="foot"><button class="big" id="startrec">${t("startBtn")}</button></div>`;
 }
 function renderPrep() {
   return `${topbar(t("prepTitle"), esc(L(script.product)), true)}
@@ -371,43 +436,57 @@ function renderPrep() {
 }
 const prog = () => `<div class="prog">${script.shots.map((s, i) => `<i class="${takes[i]?.blob ? "ok" : ""} ${i === cur ? "cur" : ""}"></i>`).join("")}</div>`;
 function renderShot() {
-  const i = cur, s = script.shots[i], tk = takes[i], last = i + 1 >= script.shots.length;
-  const say = tk?.blob ? (last ? t("tookLast") : t("took")) : t("cheer")[cheerIdx % t("cheer").length];
+  const i = cur, s = script.shots[i], tk = takes[i], last = i + 1 >= script.shots.length, ln = linesOf(i);
+  const say = tk?.blob ? (last ? t("tookLast") : t("took")) : (editing ? t("editTip") : t("cheer")[cheerIdx % t("cheer").length]);
   return `${topbar(t("shotTitle", s.n, script.shots.length), esc(L(script.product)), true)}
     ${prog()}
     <div class="mid">
       ${bubble(say, tk?.blob ? "yay" : "hi")}
       <div class="card shot">
         <div class="head"><span class="n">${s.n}</span><span class="s">${t("detik", s.sec)}</span></div>
-        ${tk?.blob ? `<video class="pv" src="${tk.url}" playsinline controls></video>${tk.msg ? `<p class="err">${esc(tk.msg)}</p>` : ""}${tk.landscape ? `<button class="big ghost" id="rot" style="min-height:48px;font-size:16px">${t("flip")}</button>` : ""}`
-        : `${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
+        ${tk?.blob ? `<div class="pvwrap"><video id="pv" src="${tk.url}" playsinline controls></video><button class="zoom" id="zoom" aria-label="${t("zoom")}">⤢</button></div>${tk.msg ? `<p class="err">${esc(tk.msg)}</p>` : ""}${tk.landscape ? `<button class="big ghost" id="rot" style="min-height:48px;font-size:16px">${t("flip")}</button>` : ""}`
+        : editing ? `<div><span class="lines-lab">${t("editLines")}</span><textarea class="inp ta sm" id="edit" style="min-height:140px;font-size:17px">${esc(ln)}</textarea></div>
+            <div class="row2"><button class="big ghost" id="editreset" style="min-height:48px;font-size:15px">${t("editReset")}</button><button class="big" id="editsave" style="min-height:48px;font-size:17px">${t("editSave")}</button></div>`
+        : `${s.broll ? `<div class="face">${esc(t("broll"))}</div>` : ""}
+          ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
           ${L(s.do) ? `<div class="do"><b>${t("suggest")}</b><p>${esc(L(s.do))}</p></div>` : ""}
-          ${s.talk && s.lines ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines">${esc(s.lines)}</div></div>` : `<div class="lines none">${t("noLines")}</div>`}
+          ${s.talk !== false && (ln || s.lines) ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines-row"><div class="lines ${isEdited(i) ? "edited" : ""}">${esc(ln)}</div><button class="pen" id="editbtn" aria-label="${t("editLines")}">✎</button></div></div>` : `<div class="lines none">${t("noLines")}</div>`}
           ${tk?.msg && !tk.blob ? `<p class="${tk.err ? "err" : "tip"}">${esc(tk.msg)}</p>` : ""}
           ${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}`}
       </div>
     </div>
     <div class="foot">
       ${tk?.blob ? `<div class="row2"><button class="big ghost" id="again">${t("again")}</button><button class="big" id="next">${last ? t("finish") : t("next")}</button></div>`
+      : editing ? "" : s.broll ? `<button class="big dark pickbtn">${t("pick")}<input type="file" id="pick" accept="video/*"></button><button class="link" id="rec">${t("rec")}</button>`
       : `<button class="big" id="rec">${t("rec")}</button><button class="link pickbtn">${t("pick")}<input type="file" id="pick" accept="video/*"></button>`}
     </div>`;
 }
 function renderOverview() {
-  const n = script.shots.length, have = takes.filter(x => x?.blob).length, missing = n - have, pending = todoUp();
-  const say = uploading ? t("ovHiSending") : missing ? t("ovHiMissing", missing) : pending ? t("ovHi") : t("ovHiDone");
+  const n = script.shots.length, have = takes.filter(x => x?.blob).length, missing = n - have;
+  const rawPending = takes.filter(x => x?.blob && x.up && x.up !== "done").length, rawSending = takes.some(x => x?.up === "busy");
+  const finalBusy = finalState?.status === "busy", finalDone = finalState?.status === "done", finalWait = finalState?.status === "wait" || finalState?.status === "fail";
+  const sending = rawSending || finalBusy;
+  const allRawSent = have > 0 && takes.filter(x => x?.blob).every(x => x.up === "done");
+  const say = sending ? t("fHiSending") : missing ? t("fHiMissing", missing) : (finalDone || allRawSent) ? t("fHiDone") : saveMsg || t("fHi");
   return `${topbar(t("overview"), esc(L(script.product)), true)}
     ${prog()}
     <div class="mid">
-      ${bubble(say, uploading ? "go" : (!missing && !pending) ? "love" : "hi")}
+      ${bubble(say, sending ? "go" : (finalDone || allRawSent) ? "love" : "hi")}
       <div class="card scroll" style="flex:1;padding-block:4px">
+        ${finalState ? `<div style="padding:10px 0;border-bottom:1px solid var(--line)"><div class="st ${finalDone ? "ok" : finalWait ? "bad" : ""}" style="font-weight:600;font-size:14px">${finalDone ? t("finalSent") : finalBusy ? t("finalSending", finalState.pct || 0) : t("pickAgain")}</div>${finalBusy ? `<div class="bar" style="margin-top:6px"><i style="width:${finalState.pct || 0}%"></i></div>` : ""}</div>` : ""}
         <ul class="list">${script.shots.map((s, i) => { const tk = takes[i];
-          const st = !tk?.blob ? `<span class="st bad">${t("stMissing")}</span>` : tk.up === "done" ? `<span class="st ok">✓ ${t("stSent")}</span>` : tk.up === "busy" ? `<span class="st"><i class="spin"></i>${t("stSending")}</span>` : tk.up === "fail" ? `<span class="st bad">${t("stFail")}</span>` : `<span class="st"><i class="spin"></i>${t("stSending")}</span>`;
-          return `<li><span class="n">${s.n}</span><span class="t">${esc(s.lines ? s.lines.slice(0, 40) : L(s.do).slice(0, 40))}</span>${st}<button data-rd="${i}">${tk?.blob ? t("redo") : t("recordIt")}</button></li>`; }).join("")}</ul>
+          const st = !tk?.blob ? `<span class="st bad">${t("stMissing")}</span>` : tk.up === "done" ? `<span class="st ok">✓ ${t("stSent")}</span>` : tk.up === "busy" ? `<span class="st"><i class="spin"></i>${tk.pct ? tk.pct + "%" : t("stSending")}</span>` : tk.up === "fail" ? `<span class="st bad">${t("stFail")}</span>` : `<span class="st ok">✓ ${t("stOk")}</span>`;
+          return `<li><span class="n">${s.n}</span><span class="t">${esc(linesOf(i) ? linesOf(i).slice(0, 40) : L(s.do).slice(0, 40))}</span>${st}<button data-rd="${i}">${tk?.blob ? t("redo") : t("recordIt")}</button></li>`; }).join("")}</ul>
       </div>
     </div>
     <div class="foot">
-      ${uploading ? `<button class="big" disabled>${esc(uploading)}</button>` : pending ? `<button class="big" id="upall">${t("sendAll", pending)}</button>` : have ? `<button class="big dark" disabled>${t("sentAll")}</button>` : ""}
-      <div class="row2">${have ? `<button class="link" id="saveall">${t("saveAll")}</button>` : "<span></span>"}<button class="link" id="clear">${t("clearAll")}</button></div>
+      ${sending ? `<button class="big" disabled>${esc(t("stSending"))}</button>`
+      : have && !missing ? `
+        ${!finalDone && !allRawSent ? `<button class="big" id="savebeauty">${t("saveBeauty")}<small>${t("saveBeautySub")}</small></button>` : ""}
+        ${!finalDone ? `<button class="big dark pickbtn">${finalWait ? t("resume") : t("sendFinal")}<small>${t("sendFinalSub")}</small><input type="file" id="pickfinal" accept="video/*"></button>` : ""}
+        ${!finalDone && !allRawSent ? `<button class="link" id="sendraw">${rawPending ? t("resume") : t("sendRaw")} · ${t("sendRawSub", have)}</button>` : ""}`
+      : ""}
+      <button class="link" id="clear">${t("clearAll")}</button>
     </div>`;
 }
 function bind() {
@@ -418,36 +497,73 @@ function bind() {
     profile = { link: isLink ? raw : "", handle: handle || (isLink ? raw.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: isLink ? "" : raw };
     name = profile.handle || profile.name; store.set("profile", profile); assignedIds = null; go("scripts", false); };
   $$("[data-open]").forEach(b => b.onclick = () => openScript(b.dataset.open));
-  on("mine", async () => { await loadMine(); go("mine"); });
+  on("mine", () => { mineDraft = null; mineMsg = ""; mineText = store.get("mine_" + name, ""); go("mine"); });
   on("logout", async () => {
     if (!(await confirmBox(t("logoutSure"), t("yesLogout"), t("cancel")))) return;
     profile = null; name = ""; store.del("profile");
     try { indexedDB.deleteDatabase(DB.name); } catch (e) {}
-    try { Object.keys(localStorage).filter(k => /^(cur_|mine_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
+    try { Object.keys(localStorage).filter(k => /^(cur_|mine_|edit_|final_|upq_|self_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
     takes.length = 0; assignedIds = null; go("login", false);
   });
-  const mt = $("#mt"); if (mt) mt.oninput = e => { mineText = e.target.value; };
-  on("msave", async () => {
-    const sc = mineToScript(mineText); if (!sc.shots.length) { mineMsg = t("mineEmpty"); render(); return; }
-    mineMsg = ""; store.set("mine_" + name, mineText);
-    if (UPLOAD_URL) { try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "myscript", who: name, content: JSON.stringify({ text: mineText, t: Date.now() }) }) }); } catch (e) {} }
-    openScript("SELF");
-  });
+  const mt = $("#mt"); if (mt) mt.oninput = e => { mineText = e.target.value; store.set("mine_" + name, mineText); };
+  on("mparse", parseMine);
+  on("msavego", saveMineAndGo);
+  on("startrec", () => { cur = 0; store.set("cur_" + sid, 0); go(script.prep && L(script.prep) ? "prep" : "shot"); });
+  on("notesend", async () => { const txt = $("#note").value.trim(); if (!txt) return; $("#notesend").disabled = true;
+    try { const r = await post({ action: "note", who: name, script: script.id, text: txt }); noteMsg = r.ok ? t("noteSent") : t("mineFail"); } catch (e) { noteMsg = t("mineFail"); } render(); });
   on("ready", () => { cur = 0; store.set("cur_" + sid, 0); go("shot"); });
   on("rec", () => startRec(cur));
   on("again", () => { takes[cur] = null; persist(cur); render(); });
   on("next", () => { cheerIdx++; cur++; store.set("cur_" + sid, cur); go(cur >= script.shots.length ? "overview" : "shot"); });
   on("rot", () => rotateTake(cur));
+  on("zoom", () => { const v = $("#pv"); if (!v) return; if (v.webkitEnterFullscreen) v.webkitEnterFullscreen(); else if (v.requestFullscreen) v.requestFullscreen(); });
+  on("editbtn", () => { editing = true; render(); });
+  on("editsave", () => { const v = $("#edit").value.trim(); store.set(editKey(cur), v); editing = false; render();
+    try { post({ action: "edits", who: name, script: script.id, shot: script.shots[cur].n, lines: v }); } catch (e) {} });
+  on("editreset", () => { store.del(editKey(cur)); editing = false; render(); try { post({ action: "edits", who: name, script: script.id, shot: script.shots[cur].n, lines: "" }); } catch (e) {} });
   const pk = $("#pick"); if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(cur, f); };
   $$("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); view = "shot"; render(); });
   on("clear", async () => { if (!(await confirmBox(t("clearSure"), t("yesClear"), t("cancel")))) return;
-    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
-  on("saveall", () => saveTakes(takes.map((x, i) => x?.blob ? i : -1).filter(i => i >= 0)));
-  on("upall", () => uploadTakes(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0), true));
+    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); finalState = null; store.del("final_" + sid); store.del("upq_" + sid); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
+  on("savebeauty", saveForBeauty);
+  on("sendraw", () => uploadRaw(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0)));
+  const pf = $("#pickfinal"); if (pf) pf.onchange = e => { const f = e.target.files[0]; if (f) uploadFinal(f); };
 }
 const safe = s => String(s).replace(/[\\/:*?"<>|\s]/g, "_");
 const today = () => { const d = new Date(); return `${d.getMonth() + 1}.${d.getDate()}`; };
 const fileName = i => `${script.id}.${safe(name)}.${today()}.s${pad2(script.shots[i].n)}.mp4`;
+const finalName = () => `${script.id}.${safe(name)}.${today()}.final.mp4`;
+
+// ===== 达人自己写的脚本 → 后台 Gemini 拆段（每天 5 次，竞品词不拆） =====
+async function parseMine() {
+  const text = mineText.trim(); if (text.length < 10) { mineMsg = t("mineEmpty"); render(); return; }
+  mineBusy = true; mineMsg = ""; render();
+  try {
+    const r = await post({ action: "parse", who: name, text });
+    if (r.ok) { mineDraft = r.script; mineDraft.shots.forEach((s, k) => { s.n = k + 1; s.talk = !!(s.lines || "").trim(); }); }
+    else if (r.error === "competitor") mineMsg = t("mineCompetitor");
+    else if (r.error === "quota") mineMsg = t("mineQuota", r.used, r.limit);
+    else if (r.error === "unknown action" || r.error === "no who") mineDraft = legacySplit(text);   // 后台还是旧版：按空行切
+    else mineMsg = t("mineFail");
+  } catch (e) { mineDraft = legacySplit(text); }
+  mineBusy = false; render();
+}
+function legacySplit(text) {
+  const paras = text.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
+  return { id: "", brand: "", product: { zh: t("mineTitle"), id: t("mineTitle") }, hook: { zh: "", id: "" }, cam: "user",
+    shots: paras.map((p, i) => ({ n: i + 1, sec: Math.max(3, Math.ceil(p.split(/\s+/).length / WPS) + 1), talk: true, face: null, do: { zh: "", id: "" }, lines: p })) };
+}
+async function saveMineAndGo() {
+  if (!mineDraft?.shots?.length) return;
+  $("#msavego").disabled = true;
+  let id = "";
+  try { const r = await post({ action: "savemine", who: name, script: mineDraft }); if (r.ok) id = r.id; else if (r.error === "competitor") { mineMsg = t("mineCompetitor"); render(); return; } } catch (e) {}
+  if (!id) { id = "SELF"; mineDraft.id = "SELF"; store.set("self_" + name, mineDraft); }   // 后台存不上就只放本机
+  assignedIds = null; mineText = ""; store.del("mine_" + name);
+  const d = mineDraft; mineDraft = null;
+  if (id === "SELF") { sid = id; script = d; await dbLoad(); cur = 0; store.set("cur_" + sid, 0); go("shot"); }
+  else openScript(id);
+}
 
 // ===== 录制 =====
 function mime() {
@@ -456,16 +572,19 @@ function mime() {
 }
 async function startRec(i) {
   const s = script.shots[i];
-  const words = s.talk && s.lines ? s.lines.trim().split(/\s+/).length : 0;
+  const lines = linesOf(i);
+  const words = s.talk !== false && lines ? lines.trim().split(/\s+/).length : 0;
   let front = (s.cam || script.cam || "user") === "user";
+  let showText = store.get("showText", true);
   const ov = document.createElement("div"); ov.className = "rec";
   ov.innerHTML = `<video autoplay muted playsinline class="${front ? "mirror" : ""}"></video>
-    <div class="rtop"><button class="rback" id="cancel">${backIcon}${t("cancelRec")}</button><div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div></div>
-    ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div><div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>`
+    <div class="rtop"><button class="rback" id="cancel">${backIcon}${t("cancelRec")}</button>${words ? `<button class="tgl" id="tgl" aria-pressed="${!showText}">${showText ? t("hideText") : t("showText")}</button>` : ""}<div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div></div>
+    ${words ? `<div class="prompt" id="prompt" ${showText ? "" : "hidden"}><div class="txt" id="txt">${esc(lines)}</div></div><div class="spd" id="spd" ${showText ? "" : "hidden"}><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>`
       : `<div class="silent">${cici("wink")}<div><div class="big1">${t("noLines")}</div>${L(s.do) ? `<div class="big2">${esc(L(s.do))}</div>` : ""}</div></div>`}
     <div class="hint" id="hint" ${L(s.do) && words ? "" : "hidden"}>${esc(L(s.do))}</div>
     <div class="count" id="count" hidden></div>
     <div class="framing" id="framing">${t("preparing")}</div>
+    <div class="autostop" id="auto" hidden></div>
     <button class="shutter" id="shutter" aria-label="${t("recBtn")}"><span></span></button>
     <button class="stop" id="stop" hidden>${t("stop")}</button>
     <button class="flipcam" id="flip">${t("flipCam")}</button>`;
@@ -482,13 +601,16 @@ async function startRec(i) {
     catch (e) { front = !front; }
   };
   $("#framing", ov).textContent = t("framing");
-  let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false, guard = 0;
+  let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false, guard = 0, actx = null, analyser = null, quietSince = 0, armed = false;
   const txt = $("#txt", ov), prompt = $("#prompt", ov);
-  const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); stream.getTracks().forEach(x => x.stop()); ov.remove(); try { lock?.release(); } catch (e) {} };
+  const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); try { actx?.close(); } catch (e) {} stream.getTracks().forEach(x => x.stop()); ov.remove(); try { lock?.release(); } catch (e) {} };
   $("#cancel", ov).onclick = () => { cancelled = true; if (rec && rec.state !== "inactive") rec.stop(); else cleanup(); };
+  const tgl = $("#tgl", ov); if (tgl) tgl.onclick = () => { showText = !showText; store.set("showText", showText); prompt.hidden = !showText; $("#spd", ov).hidden = !showText; tgl.setAttribute("aria-pressed", String(!showText)); tgl.textContent = showText ? t("hideText") : t("showText"); };
   const setSpeed = d => { speedIdx = Math.max(0, Math.min(SPEEDS.length - 1, speedIdx + d)); store.set("speed", speedIdx); scrollDur = words / (WPS * SPEEDS[speedIdx]); };
   if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
     prompt.onclick = () => { if (!rec) return; paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
+  // 静音自动停：台词滚完之后连续安静 1.5 秒就停，手不用伸过去按；手动「停」照旧
+  const rms = () => { if (!analyser) return 1; const buf = new Uint8Array(analyser.fftSize); analyser.getByteTimeDomainData(buf); let s2 = 0; for (let k = 0; k < buf.length; k++) { const d = (buf[k] - 128) / 128; s2 += d * d; } return Math.sqrt(s2 / buf.length); };
   $("#shutter", ov).onclick = async () => {
     $("#shutter", ov).hidden = true; $("#framing", ov).hidden = true; $("#hint", ov).hidden = true; $("#flip", ov).hidden = true;
     const count = $("#count", ov); count.hidden = false;
@@ -499,14 +621,27 @@ async function startRec(i) {
     rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
     rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b); };
     rec.start(500);
+    try { actx = new (window.AudioContext || window.webkitAudioContext)(); const src = actx.createMediaStreamSource(stream); analyser = actx.createAnalyser(); analyser.fftSize = 1024; src.connect(analyser); } catch (e) { analyser = null; }
     $("#timer", ov).hidden = false; $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
+    if (words && analyser) { $("#auto", ov).hidden = false; $("#auto", ov).textContent = t("autostopOn"); }
     t0 = performance.now();
     if (words) { setSpeed(0); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
     const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
     const tick = () => { const el = elapsed(); $("#tm", ov).textContent = el.toFixed(1);
       if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${-p * dist}px)`; } raf = requestAnimationFrame(tick); };
     raf = requestAnimationFrame(tick);
-    guard = setInterval(() => { if (rec.state === "inactive") { clearInterval(guard); return; } if (!paused && elapsed() > 300) { clearInterval(guard); rec.stop(); } }, 250);   // 只留 5 分钟保险
+    guard = setInterval(() => {
+      if (rec.state === "inactive") { clearInterval(guard); return; }
+      const el = elapsed();
+      if (!paused && el > 300) { clearInterval(guard); rec.stop(); return; }   // 5 分钟保险
+      if (!words || !analyser || paused) return;
+      if (el < scrollDur + 0.3) { quietSince = 0; return; }   // 台词还没滚完不算
+      const loud = rms() > 0.035;
+      if (loud) { quietSince = 0; if (armed) { armed = false; $("#auto", ov).textContent = t("autostopOn"); } return; }
+      if (!quietSince) quietSince = performance.now();
+      if (!armed && performance.now() - quietSince > 500) { armed = true; $("#auto", ov).textContent = t("autostopNow"); }
+      if (performance.now() - quietSince > QUIET_SEC * 1000) { clearInterval(guard); rec.stop(); }
+    }, 120);
   };
 }
 
@@ -536,8 +671,7 @@ async function finishTake(i, blob) {
   takes[i] = { blob: null, msg: t("processing") }; render();
   try { const r = await normalize(blob, fileName(i).replace(/\.mp4$/, "")); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, up: "", msg: "" }; }
   catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, up: "", msg: "" }; }
-  persist(i); render();
-  uploadTakes([i], false);   // 录完就悄悄开始传，她录下一段的时候这段已经在路上；总览只补没传完的
+  persist(i); render();   // 录完只存在手机里，不自动上传：她先去美颜，传不传、传哪版由她在总览决定
 }
 async function rotateTake(i) {
   const tk = takes[i]; const next = (tk.rot + 90) % 360 || 90;
@@ -545,45 +679,99 @@ async function rotateTake(i) {
   try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, up: "", msg: "" }; }
   catch (e) { takes[i] = tk; }
   persist(i); render();
-  uploadTakes([i], false);
 }
-async function saveTakes(idx) {
-  const fl = idx.map(i => new File([takes[i].blob], fileName(i), { type: "video/mp4" }));
+
+// ===== 保存去美颜：所有段拼成一条 mp4，走系统分享面板存到相册；拼不了就一段一段存 =====
+async function saveForBeauty() {
+  const idx = takes.map((x, i) => x?.blob ? i : -1).filter(i => i >= 0); if (!idx.length) return;
+  const btn = $("#savebeauty"); if (btn) { btn.disabled = true; btn.textContent = t("saving"); }
+  let files = [];
   try {
-    if (mobile && navigator.canShare && navigator.canShare({ files: fl })) await navigator.share({ files: fl });
-    else for (const f of fl) { const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 300)); }
+    const { concatTakes } = await import("./concat.mjs");
+    const r = await concatTakes(idx.map(i => takes[i].blob), { title: `${script.id}.${safe(name)}.${today()}`, portrait: window.innerHeight >= window.innerWidth });
+    files = [new File([r.blob], `${script.id}.${safe(name)}.${today()}.mp4`, { type: "video/mp4" })];
+  } catch (e) { files = idx.map(i => new File([takes[i].blob], fileName(i), { type: "video/mp4" })); }
+  try {
+    if (mobile && navigator.canShare && navigator.canShare({ files })) await navigator.share({ files });
+    else for (const f of files) { const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 300)); }
+    saveMsg = (files.length > 1 ? t("concatFail") + " " : "") + t("savedOk");
   } catch (e) {}
   render();
 }
-// ===== 传到我们的 Drive：Apps Script 收，按人建文件夹。一次一段排队传；页面在前台才会走（Safari 切后台就暂停，回来再按只补没传的） =====
-let uploading = "", queue = [], pumping = false;
-const todoUp = () => takes.filter(x => x?.blob && x.up !== "done").length;
+
+// ===== 上传：Drive 续传会话，6MB 一块。进度写在手机本地，来电/切 App/刷新回来从断点接着传 =====
+// 一个上传任务 = { key, session, offset, total, name, kind, shot, i, status }；队列存 upq_<sid>
+const queueKey = () => "upq_" + sid;
+const loadQueue = () => store.get(queueKey(), []);
+const saveQueue = q => store.set(queueKey(), q);
+function saveJob(job) { const q = loadQueue(); const k = q.findIndex(x => x.key === job.key); if (k >= 0) q[k] = job; else q.push(job); saveQueue(q); }
+function dropJob(key) { saveQueue(loadQueue().filter(x => x.key !== key)); }
+let pumping = false;
+async function beginSession(meta) {
+  const r = await post(Object.assign({ action: "begin", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, lang }, meta));
+  if (!r.ok) throw new Error(r.error || "begin");
+  return r;
+}
 const b64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1]); r.onerror = rej; r.readAsDataURL(blob); });
-function uploadTakes(idx, loud) {
-  if (!UPLOAD_URL) return;
-  idx.forEach(i => { if (takes[i]?.blob && takes[i].up !== "done" && !queue.includes(i)) { queue.push(i); takes[i].up = "busy"; } });
-  if (loud) uploading = t("sending", 1, queue.length);
-  render(); pump();
+// 把一个 blob 从 job.offset 传到底；每块成功后把 offset 存回队列
+async function pumpOne(job, blob, onPct, depth = 0) {
+  if (depth > 2) throw new Error("session");
+  if (!job.session) { const r = await beginSession({ filename: job.name, size: blob.size, mime: "video/mp4", shot: job.shot, kind: job.kind }); job.session = r.session; job.offset = 0; job.total = blob.size; saveJob(job); }
+  else { try { const st = await post({ action: "status", session: job.session }); if (st.ok) { if (st.done) return true; job.offset = st.received || 0; } else if (/expired|no session/.test(st.error || "")) { job.session = ""; saveJob(job); return pumpOne(job, blob, onPct, depth + 1); } } catch (e) {} }
+  while (job.offset < blob.size) {
+    const end = Math.min(blob.size, job.offset + CHUNK);
+    const data = await b64(blob.slice(job.offset, end));
+    const r = await post({ action: "chunk", session: job.session, offset: job.offset, total: blob.size, data });
+    if (!r.ok) { if (/expired|no session/.test(r.error || "")) { job.session = ""; saveJob(job); return pumpOne(job, blob, onPct, depth + 1); } throw new Error(r.error || "chunk"); }
+    job.offset = r.done ? blob.size : (r.received ?? end); saveJob(job); onPct(Math.round(job.offset / blob.size * 100));
+    if (r.done) return true;
+  }
+  return true;
 }
 async function pump() {
   if (pumping) return; pumping = true;
   let lock = null; try { lock = await navigator.wakeLock?.request("screen"); } catch (e) {}
-  const total = queue.length; let k = 0;
-  while (queue.length) {
-    const i = queue[0]; const tk = takes[i];
-    if (!tk?.blob) { queue.shift(); continue; }
-    k++; if (uploading) { uploading = t("sending", k, Math.max(total, k)); render(); }
-    try {
-      const body = JSON.stringify({ action: "upload", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, shot: script.shots[i].n, filename: fileName(i), mime: "video/mp4", lang, data: await b64(tk.blob) });
-      const r = await fetch(UPLOAD_URL, { method: "POST", body }); const j = await r.json();
-      if (!j.ok) throw new Error(j.error || "server");
-      tk.up = "done"; tk.msg = "";
-    } catch (e) { tk.up = "fail"; }
-    persist(i); queue.shift(); render();
+  for (;;) {
+    const job = loadQueue().find(x => x.status !== "done" && !(x.kind === "final" && x.status === "wait" && !(finalFile && `${finalFile.name}:${finalFile.size}` === x.key)));
+    if (!job) break;
+    if (job.kind === "final") {
+      finalState = { name: job.name, pct: Math.round((job.offset || 0) / finalFile.size * 100), status: "busy" }; store.set("final_" + sid, finalState); render();
+      try { await pumpOne(job, finalFile, p => { finalState.pct = p; store.set("final_" + sid, finalState); render(); }); finalState = { name: job.name, pct: 100, status: "done" }; store.set("final_" + sid, finalState); dropJob(job.key); }
+      catch (e) { finalState.status = "fail"; store.set("final_" + sid, finalState); job.status = "wait"; saveJob(job); render(); break; }
+    } else {
+      const tk = takes[job.i]; if (!tk?.blob) { dropJob(job.key); continue; }
+      tk.up = "busy"; tk.pct = Math.round((job.offset || 0) / tk.blob.size * 100); render();
+      try { await pumpOne(job, tk.blob, p => { tk.pct = p; render(); }); tk.up = "done"; tk.pct = 100; persist(job.i); dropJob(job.key); }
+      catch (e) { tk.up = "fail"; persist(job.i); job.status = "wait"; saveJob(job); render(); break; }
+    }
+    render();
   }
-  uploading = ""; pumping = false; try { lock?.release(); } catch (e) {}
+  pumping = false; try { lock?.release(); } catch (e) {}
   render();
 }
+function uploadRaw(idx) {
+  if (!UPLOAD_URL) return;
+  idx.forEach(i => { const key = `seg:${sid}:${script.shots[i].n}`; if (!loadQueue().some(x => x.key === key)) saveJob({ key, session: "", offset: 0, total: takes[i].blob.size, name: fileName(i), kind: "seg", shot: script.shots[i].n, i, status: "wait" }); takes[i].up = "busy"; takes[i].pct = 0; });
+  render(); pump();
+}
+function uploadFinal(file) {
+  finalFile = file;
+  const key = `${file.name}:${file.size}`;
+  const old = loadQueue().find(x => x.kind === "final");
+  if (old && old.key !== key) dropJob(old.key);   // 换了个文件就重新开始
+  if (!loadQueue().some(x => x.key === key)) saveJob({ key, session: "", offset: 0, total: file.size, name: finalName(), kind: "final", shot: "final", status: "wait" });
+  finalState = { name: finalName(), pct: 0, status: "busy" }; store.set("final_" + sid, finalState);
+  render(); pump();
+}
+// 回到页面 / 打开脚本时：队列里有没传完的原片就接着传；成片要她再选一次同一个文件（文件对象没法留在页面里）
+function resumeUploads() {
+  const q = loadQueue(); if (!q.length) return;
+  let any = false;
+  q.forEach(j => { if (j.kind === "seg" && takes[j.i]?.blob && takes[j.i].up !== "done") { takes[j.i].up = "busy"; any = true; } });
+  if (finalState && finalState.status === "busy" && !finalFile) { finalState.status = "wait"; store.set("final_" + sid, finalState); }
+  if (any) pump(); else render();
+}
+document.addEventListener("visibilitychange", () => { if (!document.hidden && script && (view === "overview")) resumeUploads(); });
 window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
 
 // ===== 启动 =====

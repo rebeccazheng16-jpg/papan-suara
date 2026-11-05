@@ -6,24 +6,25 @@
   "id": "VEIRFOO Purple Tube"
  },
  "hook": {
-  "zh": "快速上妆，告别暗沉，打造自然好气色",
-  "id": "Dandan cepat, kulit cerah alami, bye-bye kusam!"
+  "zh": "懒人伪素颜霜，30秒出门",
+  "id": "Krim wajah instan untuk tampilan natural, 30 detik siap jalan!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "在室内光线好的地方拍摄，确保脸部光线均匀，没有阴影。穿日常休闲的衣服。拍摄时手机离脸大约15厘米，与鼻子同高，保持稳定。确保产品盖子盖好，标签朝向镜头。",
-  "id": "Cari tempat di dalam ruangan dengan cahaya yang bagus, pastikan wajahmu terang merata tanpa bayangan. Pakai baju santai sehari-hari. Pegang HP sekitar 15 cm dari wajah, setinggi hidung, dan jaga stabil. Pastikan produk tertutup rapat dan labelnya menghadap kamera."
+  "zh": "素颜，脸部干净无妆。准备好VEIRFOO小紫管素颜霜（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部保持素颜，没有涂抹任何产品。将产品盖子拧开，用一只手拿着产品，轻轻挤出少量乳液到画面左侧的脸颊上。看着镜头，用轻松自然的语调说话，语速快而清晰。",
-    "id": "Wajahmu polos, belum pakai apa-apa. Buka tutup produk, pegang dengan satu tangan, lalu pelan-pelan pencet sedikit losion putih ke pipi kiri di layar. Lihat ke kamera, ngomong santai, cepat, dan jelas."
+    "zh": "素颜面对镜头，挤一点乳液到左脸颊（画面左侧）。边挤边轻松自然地说话。",
+    "id": "Hadap kamera dengan wajah bersih. Sambil bicara santai, keluarkan sedikit losion ke pipi kiri (sisi kiri di layar)."
    },
    "lines": "Pagi-pagi males banget dandan? Cobain deh VEIRFOO Purple Tube. Cara pakainya sama persis kayak kamu pakai pelembap biasa, jadi praktis banget. Nih lihat, sisi yang ini udah aku oles — buatku lembap, kelihatan mulus kayak kulit bawaan lahir."
   },
@@ -31,13 +32,14 @@
    "n": 2,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹素颜霜，右侧脸颊保持素颜。",
-    "id": "Pipi kiri di layar sudah pakai krim, pipi kanan masih polos."
+    "zh": "左脸颊已涂抹素颜霜，右脸颊未涂抹",
+    "id": "Pipi kiri sudah dioles, pipi kanan belum"
    },
    "do": {
-    "zh": "脸部靠近镜头一点。用食指指尖指向画面右侧未涂抹的脸颊，指尖悬停在空中。然后把头稍微转向镜头，让画面左侧已涂抹的脸颊靠近镜头，用食指按压鼻翼旁边的皮肤。",
-    "id": "Dekatkan wajahmu sedikit ke kamera. Angkat jari telunjukmu dan tunjuk pipi kanan di layar yang belum dioles, diamkan jarimu di sana. Lalu putar sedikit kepalamu agar pipi kiri di layar yang sudah dioles mendekat ke kamera, dan tekan jari telunjukmu ke kulit di samping hidungmu."
+    "zh": "脸靠近镜头，强调 右脸颊 (画面右侧) 还没涂抹。用食指指着未涂抹的右脸颊，然后转头展示已涂抹的左脸颊，用食指轻按皮肤，展示自然不卡粉。",
+    "id": "Dekatkan wajah ke kamera, tunjukkan pipi kanan (sisi kanan di layar) yang belum dioles. Tunjuk pipi kanan dengan jari telunjuk, lalu putar kepala sedikit ke kiri untuk menunjukkan pipi kiri yang sudah dioles. Tekan lembut pipi kiri dengan jari telunjuk untuk menunjukkan hasilnya natural."
    },
    "lines": "Sisi yang belum dioles tuh kusam, kuning, sama merah-merah. Sekarang lihat sisi yang udah — kusam sama merahnya buatku ketutup hampir semua. Didekatin pun nggak kelihatan cakey, kayak emang kulitku sebagus ini."
   },
@@ -45,13 +47,14 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹素颜霜，右侧脸颊保持素颜。",
-    "id": "Pipi kiri di layar sudah pakai krim, pipi kanan masih polos."
+    "zh": "左脸颊已涂抹素颜霜，右脸颊未涂抹",
+    "id": "Pipi kiri sudah dioles, pipi kanan belum"
    },
    "do": {
-    "zh": "用一只手拿起产品，盖子已拧开，轻轻挤出少量乳液到画面左侧脸颊的中心。看着镜头，用轻松自然的语调说话，语速快而清晰。然后，将镜头拉近到脸颊特写，用食指指腹在脸颊上轻轻向外涂抹乳液。最后，镜头回到脸部特写，用中指和无名指轻轻拍打脸颊，继续对着镜头说话。",
-    "id": "Ambil produk dengan satu tangan, tutupnya sudah terbuka, lalu pencet sedikit losion putih ke tengah pipi kiri di layar. Lihat ke kamera, ngomong santai, cepat, dan jelas. Lalu, dekatkan kamera ke pipi untuk close-up, gunakan ujung jari telunjukmu untuk mengoleskan losion ke luar dengan lembut. Terakhir, kembali ke wajahmu, tepuk-tepuk pipi kiri dengan jari tengah dan jari manis, sambil terus bicara ke kamera."
+    "zh": "面对镜头，左脸颊（画面左侧）已经提亮。再次挤一点乳液到左脸颊中央，边挤边说。然后，近距离拍摄手指在脸颊上涂抹乳液的动作，只拍皮肤和手指。最后，回到脸部特写，用中指和无名指轻柔地将乳液抹匀，边抹边说。",
+    "id": "Hadap kamera, pipi kiri (sisi kiri di layar) sudah cerah. Keluarkan lagi sedikit losion ke tengah pipi kiri sambil bicara. Lalu, ambil close-up jari yang mengoles losion di pipi, hanya kulit dan jari. Terakhir, kembali ke wajah penuh, ratakan losion dengan jari tengah dan manis sambil bicara."
    },
    "lines": "Aku kasih lihat teksturnya ya. Krim putih yang lembut banget, gampang diratain. Rasanya kayak krim serum yang biasa kamu pakai malam — adem di wajah, makin diratain makin nyatu, kulitku berasa makin cerah."
   },
@@ -59,13 +62,14 @@
    "n": 4,
    "sec": 14,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹素颜霜，右侧脸颊保持素颜。",
-    "id": "Pipi kiri di layar sudah pakai krim, pipi kanan masih polos."
+    "zh": "左脸颊已涂抹素颜霜，右脸颊未涂抹",
+    "id": "Pipi kiri sudah dioles, pipi kanan belum"
    },
    "do": {
-    "zh": "将产品盖子盖好，拿在下巴旁边，标签朝向镜头。看着镜头，用轻松自然的语调说话，语速快而清晰。然后放下产品，用手托着下巴，脸部靠近镜头一点。接着自然地笑起来，眼睛也带着笑意，语调变得温暖而有感染力。最后，抬起食指，清晰地指向画面左下方，轻敲两次，第一次慢，第二次快，脸部靠近镜头，微笑着结束。",
-    "id": "Pegang produk di samping dagumu, tutupnya sudah tertutup, labelnya menghadap kamera. Lihat ke kamera, ngomong santai, cepat, dan jelas. Lalu letakkan produk, topang dagumu dengan tangan, dekatkan wajahmu sedikit ke kamera. Kemudian tertawa alami sampai matamu ikut tersenyum, nada bicaramu jadi hangat dan mengundang. Terakhir, angkat jari telunjukmu dan tunjuk jelas ke kiri bawah layar, ketuk dua kali, pertama pelan lalu cepat, wajahmu mendekat sambil tersenyum dan menyelesaikan."
+    "zh": "面对镜头，左脸颊（画面左侧）已经提亮。手持产品（盖子盖好，标签朝前）放在下巴旁边，边说边展示产品。然后放下产品，用手托住下巴，脸靠近镜头，继续说话。接着，自然地笑，眼睛也带着笑意，语气变得热情。最后，用食指指向画面左下方，轻点两次，微笑着结束。",
+    "id": "Hadap kamera, pipi kiri (sisi kiri di layar) sudah cerah. Pegang produk (tutup terpasang, label menghadap kamera) di samping dagu, bicara sambil menunjukkan produk. Lalu letakkan produk, topang dagu dengan tangan, dekatkan wajah ke kamera, dan lanjutkan bicara. Kemudian, tertawa alami dengan mata berbinar, nada bicara hangat dan mengundang. Terakhir, tunjuk ke kiri bawah layar dengan jari telunjuk, ketuk dua kali, dan tersenyum saat mengakhiri."
    },
    "lines": "Pas buru-buru mau berangkat kerja atau cuma keluar beli sesuatu, males dandan tapi pengin wajah kelihatan segar — cobain ini deh. Oles 30 detik, langsung bisa berangkat. Beneran penyelamat buat yang males dandan. Harganya cuma segini loh, original Korea. Cek keranjang kuning di bawah ya."
   }

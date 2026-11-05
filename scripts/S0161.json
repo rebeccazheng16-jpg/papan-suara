@@ -3,27 +3,28 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari Masker PDRN"
+  "id": "SICENARI sheet mask PDRN Collagen"
  },
  "hook": {
-  "zh": "小纸箱塞满一箱，手抽一支把玩",
-  "id": "Unboxing masker Sicenari, satu kotak penuh!"
+  "zh": "敏感肌可用的大包装面膜",
+  "id": "Masker kemasan besar yang aman untuk kulit sensitif"
  },
  "src": "TikTok @yenialfina11",
  "cam": "user",
  "prep": {
-  "zh": "在深灰色地毯上拍摄。确保光线柔和均匀。准备一个无盖的矮纸箱，里面塞满三袋 SICENARI 面膜，让袋子高出箱口。穿白色长袖衣服，不要戴戒指或手链。",
-  "id": "Siapkan karpet abu-abu gelap dan cahaya yang lembut. Siapkan kotak kardus kecil tanpa tutup, isi dengan tiga bungkus masker Sicenari sampai penuh dan menonjol keluar. Pakai baju lengan panjang warna putih, jangan pakai cincin atau gelang."
+  "zh": "准备：SICENARI袋装面膜一袋（未开封），一个无盖矮纸箱，里面放两袋同款面膜。素颜出镜。",
+  "id": "Siapkan: satu kantong masker SICENARI (belum dibuka), satu kotak kardus kecil tanpa tutup, isi dengan dua kantong masker yang sama. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "把手机举高，从正上方往下拍。让装满面膜的纸箱在画面中间。一只手放在最前面的面膜袋上，然后把面膜袋从箱子里拉出来，举到靠近镜头的地方，轻轻左右晃动。",
-    "id": "Pegang HP di atas, rekam dari atas ke bawah. Kotak masker ada di tengah. Satu tangan pegang bungkus masker paling depan, lalu tarik keluar dari kotak. Angkat dekat ke kamera, goyang-goyangkan sedikit ke kiri dan kanan."
+    "zh": "俯拍，手从箱子里拿出一袋面膜，举到镜头前，轻轻左右晃动。语速快，像跟朋友聊天。",
+    "id": "Ambil satu kantong masker dari kotak, angkat ke dekat kamera, lalu goyangkan perlahan ke kiri dan kanan. Bicara cepat, seperti ngobrol dengan teman dekat."
    },
    "lines": "Masker ini khusus buat kalian yang kulitnya tuh kusam, susah cerah, yang punya flek bekas jerawat, bertekstur chicken skin gradakan, bisa banget pakai yang ini."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着面膜袋在纸箱上方晃动。然后切换镜头，两只手撕开面膜袋顶部的封条，再拉开拉链。注意不要把面膜拿出来。",
-    "id": "Satu tangan pegang bungkus masker di atas kotak, goyang-goyangkan. Lalu, ganti adegan, dua tangan sobek strip merah di atas, lalu buka resletingnya. Jangan keluarkan maskernya dulu."
+    "zh": "俯拍，一只手拿着面膜袋，另一只手撕开封条，再拉开拉链。语速快，像跟朋友聊天。",
+    "id": "Pegang kantong masker dengan satu tangan, lalu sobek strip merah di bagian atas dan buka zip-lock-nya dengan tangan yang lain. Bicara cepat, seperti ngobrol dengan teman dekat."
    },
    "lines": "Ini dari Sicenari ya beb, asli dari Korea, gentle banget, habis maskeran aku nggak ngerasa perih atau ketarik-tarik sama sekali. Yang ada di urutan pertama komposisinya itu Bifida, terus ada PDRN sama kolagen juga."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "从上方近距离拍摄打开的面膜袋，可以看到里面的面膜和精华液。然后切换镜头，两只手从面膜袋里夹出一片面膜，让精华液滴落回袋子里。",
-    "id": "Ambil gambar dekat dari atas ke dalam bungkus masker yang sudah terbuka, lihat masker dan esensnya. Lalu, ganti adegan, dua jari ambil satu lembar masker dari dalam, biarkan esensnya menetes kembali ke dalam bungkus."
+    "zh": "俯拍，一只手拿着打开的面膜袋，另一只手伸进去，捏住一片面膜的角，慢慢提起来，让精华液滴回袋子里。语速快，像跟朋友聊天。",
+    "id": "Pegang kantong masker yang sudah terbuka dengan satu tangan, lalu masukkan dua jari tangan yang lain, jepit sudut satu lembar masker dan angkat tinggi-tinggi agar esensnya menetes kembali ke dalam kantong. Bicara cepat, seperti ngobrol dengan teman dekat."
    },
    "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih kenyal, lebih cerah dan glowing. Jadi kalian maskeran tuh nggak cuma sekadar buat lembap doang, manfaatnya udah banyak banget."
   },
@@ -53,10 +56,11 @@
    "n": 4,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "两只手把面膜袋的拉链关上，然后把面膜袋塞回纸箱里。切换镜头，一只手拿着面膜袋靠近镜头，另一只手的手指指向画面左下角。",
-    "id": "Dua tangan tutup resleting bungkus masker, lalu masukkan kembali ke dalam kotak. Ganti adegan, satu tangan pegang bungkus masker dekat ke kamera, tangan satunya lagi tunjuk ke pojok kiri bawah layar."
+    "zh": "俯拍，两只手把面膜袋的拉链合上，然后把面膜塞回箱子里。再拿出一袋面膜举到镜头前，另一只手指向左下角。语速快，像跟朋友聊天。",
+    "id": "Tutup zip-lock kantong masker dengan dua tangan, lalu masukkan kembali ke dalam kotak. Kemudian, angkat satu kantong masker ke dekat kamera, dan tunjuk ke sudut kiri bawah layar dengan jari telunjuk tangan yang lain. Bicara cepat, seperti ngobrol dengan teman dekat."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, sehari pakai selembar nggak sampai tujuh ribu. Coba deh kalian cek di keranjang kuning, dapetnya di harga berapa beb. Ini bagus banget, seriusan cowok-cewek boleh banget pakai ya."
   }

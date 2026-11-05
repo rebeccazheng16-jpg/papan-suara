@@ -2,7 +2,7 @@
  "id": "V0143",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 光感奢润绵密洁面乳 Cloud Cleanser",
+  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
@@ -12,18 +12,22 @@
  "src": "TikTok @天天不懒",
  "cam": "user",
  "prep": {
-  "zh": "晚上，在电竞桌前，背景是亮着游戏画面的电脑屏幕。桌上放一个浅绿色脸盆，里面装满清水。穿黑色宽松短袖T恤。手机举到脸部高度，脸占画面一半。",
-  "id": "Malam hari, di meja gaming, dengan layar komputer menyala di belakang. Siapkan baskom hijau muda berisi air bersih di meja. Pakai kaos hitam longgar. Pegang HP setinggi wajah, pastikan wajah memenuhi setengah layar."
+  "zh": "素颜，脸上有水珠和两道洁面乳；VEIRFOO Cloud Cleanser 洁面乳（盖子开着入镜）",
+  "id": "Wajah polos, ada tetesan air dan dua garis pembersih di pipi; VEIRFOO Cloud Cleanser (tutupnya terbuka)"
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": false,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "脸上挂水珠和两道洁面乳",
+    "id": "Wajah basah dengan tetesan air dan dua garis pembersih di pipi"
+   },
    "do": {
-    "zh": "把脸浸在脸盆里，然后猛地抬起头，让水珠挂在脸上，两颊各有一道洁面乳。双手扶着脸盆边缘，直视镜头，然后稍微抬眉。接着，一只手拿着洁面乳管，盖子朝上，放在脸旁边，另一只手不动。然后，把洁面乳管倒过来，打开盖子，挤出乳液到另一只手掌心。最后，把手伸进脸盆沾水，双手合十搓揉，快速搓出大量泡沫。",
-    "id": "Celupkan wajah ke baskom, lalu angkat kepala dengan cepat, biarkan air menetes di wajah, dengan dua garis pembersih di pipi. Pegang tepi baskom dengan kedua tangan, tatap kamera, lalu angkat alis sedikit. Selanjutnya, pegang tube pembersih dengan satu tangan, tutupnya menghadap ke atas, di samping wajah, tangan yang lain diam. Lalu, balik tube pembersih, buka tutupnya, dan peras losion ke telapak tangan yang lain. Terakhir, celupkan tangan ke baskom untuk mengambil air, gosok kedua telapak tangan bersama-sama, dan cepat-cepat buat banyak busa."
+    "zh": "把脸浸在水里，然后快速从盆里抬起头，水从下巴滴落，脸上满是水珠，两道洁面乳依然整齐地留在脸颊上。面无表情地看着镜头，然后稍微抬起眉毛。双手可以放在盆边。然后，将VEIRFOO Cloud Cleanser拿在脸颊旁边，盖子是关着的，标签朝向镜头。自信地微笑。接着，倒着拿VEIRFOO Cloud Cleanser，盖子已经打开，然后挤出一点乳白色乳液到另一只手掌上。之后，将指尖浸入盆里的水，双手掌心互相搓揉，直到手掌间出现浓密的白色泡沫。",
+    "id": "Angkat kepala dari baskom dengan cepat, air menetes dari dagu, wajah penuh tetesan air, dua garis pembersih tetap rapi di pipi. Tatap kamera dengan ekspresi datar, lalu sedikit mengangkat alis. Kedua tangan bisa di tepi baskom. Lalu, pegang VEIRFOO Cloud Cleanser di samping pipi, tutupnya tertutup, label menghadap kamera. Tersenyum percaya diri. Kemudian, pegang VEIRFOO Cloud Cleanser terbalik, tutupnya sudah terbuka, dan peras sedikit losion putih susu ke telapak tangan yang lain. Setelah itu, celupkan ujung jari ke air di baskom, gosok kedua telapak tangan bersama-sama sampai busa putih tebal muncul di antara telapak tangan."
    },
    "lines": ""
   },
@@ -31,13 +35,14 @@
    "n": 2,
    "sec": 11,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "脸上涂满泡沫",
-    "id": "Wajah berbusa"
+    "zh": "脸上覆盖着一层纯白色泡沫",
+    "id": "Wajah tertutup lapisan busa putih bersih"
    },
    "do": {
-    "zh": "闭上眼睛，用指尖在两颊、额头、鼻子和下巴上轻轻打圈按摩泡沫。然后，身体前倾，用双手捧水泼到脸上两次，把泡沫洗掉。接着，抬起湿漉漉的脸，用一只手把湿头发往后拨。然后，打开房间灯，让光线变亮，用一根手指轻轻按压脸颊，露出满意的微笑。最后，一只手拿着洁面乳管放在脸旁边，另一只手食指指向左下角。",
-    "id": "Tutup mata, pijat busa dengan ujung jari di pipi, dahi, hidung, dan dagu dengan gerakan melingkar kecil. Lalu, condongkan badan ke depan, ambil air dengan kedua tangan dan basuh ke wajah dua kali untuk membilas busa. Selanjutnya, angkat wajah yang basah, dan gunakan satu tangan untuk menyisir rambut basah ke belakang. Kemudian, nyalakan lampu kamar agar lebih terang, tekan pipi dengan satu jari, dan tersenyum puas. Terakhir, pegang tube pembersih dengan satu tangan di samping wajah, dan jari telunjuk tangan yang lain menunjuk ke sudut kiri bawah."
+    "zh": "脸上覆盖着白色泡沫，用指尖轻轻按摩脸颊、额头、鼻子和下巴上的泡沫。然后，身体前倾到盆上方，用双手捧水，向脸上泼两次。接着，抬起湿漉漉、滴着水的脸对着镜头，用一只手将湿发从额头向后推。之后，打开房间灯，让光线更亮，用指尖触摸脸颊，脸颊感觉光滑、干净、有光泽，满意地微笑。最后，将VEIRFOO Cloud Cleanser拿在脸旁边，盖子是关着的，标签朝向镜头，另一只手指向屏幕左下角。",
+    "id": "Wajah tertutup busa putih, pijat busa dengan ujung jari secara perlahan di pipi, dahi, hidung, dan dagu. Lalu, condongkan badan ke depan di atas baskom, ambil air dengan kedua tangan dan cipratkan ke wajah dua kali. Kemudian, angkat wajah yang basah menetes ke arah kamera, dorong rambut basah ke belakang dari dahi dengan satu tangan. Setelah itu, nyalakan lampu ruangan agar lebih terang, sentuh pipi dengan ujung jari, pipi terasa halus, bersih, dan bercahaya, tersenyum puas. Terakhir, pegang VEIRFOO Cloud Cleanser di samping wajah, tutupnya tertutup, label menghadap kamera, dan tangan yang lain menunjuk ke sudut kiri bawah layar."
    },
    "lines": ""
   }

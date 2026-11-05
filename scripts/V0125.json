@@ -6,24 +6,25 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "连 Shannon 她们都在用，洗脸同时护肤",
-  "id": "Shannon dan yang lain aja pakai VEIRFOO, cuci muka sambil merawat kulit"
+  "zh": "连Shannon她们都在用，反向警告，嫩到掐出水",
+  "id": "Shannon dan yang lain aja pakai, awas jangan pakai sembarangan, kulit jadi lembut banget dicubit keluar air"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "在梳妆台前，素颜，穿白色荷叶边上衣。把手机固定好，让脸占画面一半高，额头在画面顶端，下巴在画面底端。产品盖子盖好，标签朝前。",
-  "id": "Di depan meja rias, wajah bersih tanpa makeup, pakai atasan putih berenda. Pasang HP, wajahmu penuhi setengah layar, dahi di atas, dagu di bawah. Produk tertutup, label menghadap kamera."
+  "zh": "素颜，备好产品（盖子盖好，标签朝前），湿毛巾",
+  "id": "Wajah bersih tanpa makeup, siapkan produk (tutupnya terpasang, label menghadap kamera), handuk basah"
  },
  "shots": [
   {
    "n": 1,
    "sec": 5,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸朝左边一点，看着镜头，把产品举到脸旁边，盖子盖好，标签朝前。带着骄傲又爱聊天的笑容，把产品稍微倾斜向镜头，像在跟朋友分享好消息一样，说完所有台词。",
-    "id": "Miringkan wajah sedikit ke kiri, tatap kamera, pegang produk di sebelah pipi, tutupnya tertutup, label menghadap ke depan. Dengan senyum bangga dan ramah, miringkan produk sedikit ke arah kamera, seolah berbagi kabar baik dengan teman, ucapkan semua baris."
+    "zh": "素颜，把产品举到脸旁边，盖子盖好，标签朝前，对着镜头微笑，像跟朋友聊天一样，说出台词。",
+    "id": "Wajah bersih tanpa makeup, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera. Tersenyum dan tatap kamera seperti sedang cerita ke teman, lalu ucapkan kalimat ini."
    },
    "lines": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸朝左边一点，看着镜头，双手空着。带着俏皮又假装严肃的表情，抬起一根食指放在下巴旁边，慢慢摇晃，像在警告朋友一样，说完第一句。然后镜头切换，脸朝右边一点，看着镜头。身体稍微向前倾，眉毛稍微抬起；说完最后几个字时，用两根手指轻轻捏一下右边的脸颊，然后露出一个顽皮的笑容。",
-    "id": "Miringkan wajah sedikit ke kiri, tatap kamera, tangan kosong. Dengan ekspresi lucu dan pura-pura serius, angkat jari telunjuk di samping dagu dan goyangkan perlahan, seperti memperingatkan teman, ucapkan kalimat pertama. Lalu ganti sudut, miringkan wajah sedikit ke kanan, tatap kamera. Condongkan badan sedikit ke depan dengan alis sedikit terangkat; pada kata-kata terakhir, dua ujung jari mencubit pipi kanan dengan ringan dan lucu, lalu tersenyum nakal."
+    "zh": "素颜，对着镜头，先举起一根手指左右摇晃，像在开玩笑地警告朋友，说出第一句台词。然后换个角度，身体稍微前倾，眉毛稍微抬起，说出第二句台词，最后两个手指轻轻捏一下脸颊，然后露出调皮的笑容。",
+    "id": "Wajah bersih tanpa makeup, tatap kamera. Angkat satu jari telunjuk dan goyangkan perlahan seperti memperingatkan teman sambil ucapkan kalimat pertama. Lalu, ganti sudut kamera, condongkan badan sedikit ke depan, angkat alis sedikit, ucapkan kalimat kedua. Di akhir kalimat, cubit pipi dengan dua jari, lalu tersenyum nakal."
    },
    "lines": "Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -42,10 +44,11 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸朝左边一点，看着镜头，双手把产品从画面下方举到脸旁边，盖子盖好，标签朝前，带着明亮又骄傲的笑容，说完第一句。然后镜头切换，只拍双手，把产品盖子打开，按压一次泵头，把精华液挤到另一只手的手指尖上，同时开始画外音。然后镜头切换，只拍脸部特写，从眉毛到上唇，脸颊和鼻子侧面被精华液覆盖，等待它自己起泡，同时继续画外音。然后镜头切换，同样是脸部特写，用一条湿毛巾擦掉泡沫，同时继续画外音。",
-    "id": "Miringkan wajah sedikit ke kiri, tatap kamera, angkat produk dari bawah layar ke samping pipi, tutupnya tertutup, label menghadap ke depan, dengan senyum cerah dan bangga, ucapkan kalimat pertama. Lalu ganti sudut, hanya tanganmu yang terlihat, buka tutup produk, tekan pump sekali, keluarkan essence ke ujung jari tangan yang lain, sambil mulai voiceover. Lalu ganti sudut, hanya wajahmu yang terlihat, dari alis sampai bibir atas, pipi dan sisi hidung tertutup essence, tunggu sampai berbusa sendiri, sambil lanjutkan voiceover. Lalu ganti sudut, masih wajahmu yang terlihat, gunakan handuk basah untuk menghapus busa, sambil lanjutkan voiceover."
+    "zh": "素颜，把产品举到脸旁边，盖子盖好，标签朝前，对着镜头微笑，说出第一句台词。然后，把产品盖子打开，用一只手按压泵头，把精华液挤到另一只手的手指上，说出第二句台词。接着，把精华液涂抹在湿润的脸上，不要揉搓，让它自己起泡，说出第三句台词。最后，用湿毛巾轻轻擦掉脸上的泡沫，说出第四句台词。",
+    "id": "Wajah bersih tanpa makeup, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera. Tersenyum dan ucapkan kalimat pertama. Lalu, buka tutup produk, tekan pump dengan satu tangan dan keluarkan essence ke jari tangan yang lain sambil ucapkan kalimat kedua. Kemudian, oleskan essence ke wajah yang sudah dibasahi, jangan digosok, biarkan busa muncul sendiri sambil ucapkan kalimat ketiga. Terakhir, gunakan handuk basah untuk membersihkan busa di wajah sambil ucapkan kalimat keempat."
    },
    "lines": "Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih."
   },
@@ -53,10 +56,14 @@
    "n": 4,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "刚洗完脸，素颜",
+    "id": "Wajah bersih tanpa makeup, baru selesai cuci muka"
+   },
    "do": {
-    "zh": "脸朝左边一点，看着镜头，双手空着。自信地靠近镜头一点，慢慢把脸颊转向光源，然后用手指背轻轻滑过干净的脸颊，展示它有多光滑；露出满足的笑容，说完第一句。然后镜头切换，脸朝右边一点，看着镜头，一只手把产品举到脸旁边，盖子盖好，标签朝前，自信地点头一次，说完所有台词。",
-    "id": "Miringkan wajah sedikit ke kiri, tatap kamera, tangan kosong. Dengan percaya diri, mendekat sedikit ke kamera dan perlahan putar pipi ke arah cahaya, lalu usapkan punggung jari dengan ringan ke pipi yang bersih untuk menunjukkan betapa halusnya; dengan senyum puas, ucapkan kalimat pertama. Lalu ganti sudut, miringkan wajah sedikit ke kanan, tatap kamera, satu tangan mengangkat produk di samping pipi, tutupnya tertutup, label menghadap ke depan, dengan anggukan yakin, ucapkan semua baris."
+    "zh": "素颜，脸部刚洗干净，对着镜头稍微靠近一点，慢慢转动脸颊，让光线照到，然后用手指轻轻滑过脸颊，展示皮肤的平滑，露出满意的笑容，说出第一句台词。然后换个角度，把产品举到脸旁边，盖子盖好，标签朝前，自信地点头，说出第二句台词。",
+    "id": "Wajah bersih tanpa makeup, baru selesai cuci muka. Condongkan badan sedikit ke depan, putar pipi perlahan ke arah cahaya, lalu usap pipi dengan jari untuk menunjukkan betapa halusnya kulit. Tersenyum puas sambil ucapkan kalimat pertama. Lalu, ganti sudut kamera, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera, mengangguk yakin sambil ucapkan kalimat kedua."
    },
    "lines": "Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -64,10 +71,11 @@
    "n": 5,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸朝左边一点，看着镜头，双手空着。带着一丝苦笑和眉毛的自然抬起，像在承认它很贵，然后自信地点头一次，说完第一句。然后镜头切换，只拍鼻子侧面特写，鼻子和脸颊被白色微泡沫覆盖，同时开始画外音。然后镜头切换，只拍一只干净的脸颊特写，用指尖按压脸颊，皮肤弹回柔软饱满，同时继续画外音。",
-    "id": "Miringkan wajah sedikit ke kiri, tatap kamera, tangan kosong. Dengan senyum kecut dan alis terangkat alami, seolah mengakui harganya mahal, lalu anggukkan kepala dengan percaya diri, ucapkan kalimat pertama. Lalu ganti sudut, hanya hidungmu yang terlihat, hidung dan pipi tertutup busa putih, sambil mulai voiceover. Lalu ganti sudut, hanya pipi bersihmu yang terlihat, tekan pipi dengan ujung jari, kulit membal kembali lembut dan kenyal, sambil lanjutkan voiceover."
+    "zh": "素颜，对着镜头，先露出一个苦笑，眉毛稍微抬起，像在承认产品很贵，然后自信地点头，说出第一句台词。然后，近距离拍摄鼻翼，展示泡沫，说出第二句台词。接着，近距离拍摄脸颊，用手指按压脸颊，展示皮肤的弹性和柔软，说出第三句台词。",
+    "id": "Wajah bersih tanpa makeup, tatap kamera. Tersenyum kecut dan angkat alis sedikit seperti mengakui harganya mahal, lalu mengangguk yakin sambil ucapkan kalimat pertama. Lalu, rekam close-up hidung yang tertutup busa sambil ucapkan kalimat kedua. Kemudian, rekam close-up pipi, tekan pipi dengan jari untuk menunjukkan kulit yang kenyal dan lembut sambil ucapkan kalimat ketiga."
    },
    "lines": "Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia."
   },
@@ -75,10 +83,11 @@
    "n": 6,
    "sec": 13,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "脸朝右边一点，下巴稍微向上倾斜，看着镜头，双手空着。在下巴旁边一个一个地数三根手指，然后把手掌朝向镜头打开，说完所有台词。然后镜头切换，脸朝左边一点，看着镜头，把产品举到脸旁边，盖子盖好，标签朝前，眉毛稍微抬起，像在分享秘密一样，说完所有台词。然后镜头保持不变，自信地摇摇头，露出会心的笑容，说完所有台词。然后镜头保持不变，另一只空着的手从下巴下方进入画面，食指指向左下方，朝向画面左下角，身体稍微向前倾，带着温暖友好的笑容，像在向朋友推荐一样，说完所有台词。",
-    "id": "Miringkan wajah sedikit ke kanan, dagu sedikit terangkat, tatap kamera, tangan kosong. Hitung tiga jari satu per satu di samping dagu, lalu buka telapak tangan ke arah kamera, ucapkan semua baris. Lalu ganti sudut, miringkan wajah sedikit ke kiri, tatap kamera, pegang produk di samping pipi, tutupnya tertutup, label menghadap ke depan, dengan alis sedikit terangkat, seolah berbagi rahasia, ucapkan semua baris. Lalu sudut tetap sama, gelengkan kepala sedikit dengan percaya diri dan senyum penuh arti, ucapkan semua baris. Lalu sudut tetap sama: tangan yang memegang produk di samping pipi tidak bergerak sama sekali; tanganmu yang lain, yang kosong, masuk dari samping di bawah dagu dan jari telunjuknya menunjuk ke bawah dan ke kiri, ke arah sudut kiri bawah layar, condongkan badan sedikit ke depan dengan senyum hangat dan ramah, seolah merekomendasikannya kepada teman, ucapkan semua baris."
+    "zh": "素颜，对着镜头，用手指一个一个地数，像在列举适合的人群，然后张开手掌对着镜头，说出第一句台词。然后，把产品举到脸旁边，盖子盖好，标签朝前，眉毛稍微抬起，像在分享秘密，说出第二句台词。接着，轻轻摇头，露出会心的笑容，说出第三句台词。最后，保持产品不动，用另一只手的手指指向左下角，身体稍微前倾，露出友好推荐的笑容，说出第四句台词。",
+    "id": "Wajah bersih tanpa makeup, tatap kamera. Hitung dengan jari satu per satu seperti menyebutkan siapa saja yang cocok, lalu buka telapak tangan ke arah kamera sambil ucapkan kalimat pertama. Lalu, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera, angkat alis sedikit seperti berbagi rahasia sambil ucapkan kalimat kedua. Kemudian, gelengkan kepala perlahan dan tersenyum penuh arti sambil ucapkan kalimat ketiga. Terakhir, produk tetap di tempat, jari tangan yang lain menunjuk ke kiri bawah, condongkan badan sedikit ke depan, tersenyum ramah seperti merekomendasikan sambil ucapkan kalimat keempat."
    },
    "lines": "Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
   }

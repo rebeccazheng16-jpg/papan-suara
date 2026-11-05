@@ -3,27 +3,28 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari Collagen Shot Mask"
+  "id": "SICENARI PDRN 9,900ppm Golden Mask"
  },
  "hook": {
   "zh": "一大袋面膜用一年，比买小瓶划算",
-  "id": "Satu kantong besar masker bisa dipakai setahun, lebih hemat daripada beli yang kecil-kecil"
+  "id": "Satu kantong besar masker bisa dipakai setahun, lebih hemat daripada beli yang kecil"
  },
  "src": "TikTok @putryls_ag",
  "cam": "user",
  "prep": {
-  "zh": "在白天，坐在卧室床前，素颜，光线要均匀照在脸上。把手机举到手臂的长度，让脸在画面里占一半高。准备好一整袋的SICENARI面膜，盖子盖好，标签朝向镜头。",
-  "id": "Di siang hari, duduk di depan tempat tidur di kamar. Wajah tanpa makeup, cahaya harus rata di wajah. Pegang HP sejauh lengan, biar wajah kamu memenuhi setengah layar. Siapkan satu kantong masker Sicenari yang masih tertutup, labelnya menghadap kamera."
+  "zh": "素颜，准备好SICENARI袋装面膜（21片装），再准备一个空白的单片面膜小袋（浅紫色，无字）",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker SICENARI kemasan kantong (isi 21 lembar). Siapkan juga satu sachet masker lembaran kosong (warna ungu muda, tanpa tulisan apa pun)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "用食指指向镜头，表情活泼兴奋，然后把大袋面膜举到脸旁边，让面膜和脸都在画面里，继续说话，保持面膜不动。另一只手放在画面外。",
-    "id": "Arahkan jari telunjuk ke kamera, ekspresi ceria dan semangat. Lalu angkat kantong masker besar ke samping pipi, biar masker dan wajah kamu sama-sama di layar. Terus bicara sambil pegang masker, jangan gerak. Tangan yang satu lagi di luar layar."
+    "zh": "用食指指向镜头，表情兴奋。然后把大袋面膜举到脸旁边，让面膜和脸都在画面里，继续说话。保持活力、自然、语速快，说完最后几个字时点头并微笑。",
+    "id": "Arahkan telunjuk ke kamera dengan ekspresi bersemangat. Lalu angkat kantong masker besar ke samping wajahmu, pastikan wajah dan masker terlihat di kamera, dan terus bicara. Tetap semangat, natural, dan bicara cepat. Di akhir kalimat, anggukkan kepala sedikit dan tersenyum."
    },
    "lines": "Sicenari Korea, sekantong isinya dua puluh satu lembar. Di Korea harganya mahal banget loh. Sekarang di link kanan bawah, dihitung-hitung sehari selembar nggak sampai tujuh ribu."
   },
@@ -31,10 +32,11 @@
    "n": 2,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手把大袋面膜举在脸旁边，脸在画面左半边，面膜在右半边，不要挡住脸。当说到“像这样”时，另一只手从画面下方拿出小片面膜，放在大袋旁边对比，保持两秒。然后把小片面膜放回画面下方。",
-    "id": "Satu tangan pegang kantong masker besar di samping pipi, wajah kamu di sisi kiri layar, masker di sisi kanan, jangan sampai menutupi wajah. Saat bilang \"kayak gini\", tangan yang satu lagi muncul dari bawah layar sambil pegang masker sachet kecil, taruh di sebelah kantong besar sekitar dua detik buat perbandingan. Lalu turunkan masker sachet itu ke bawah layar lagi."
+    "zh": "一只手拿着大袋面膜放在脸旁边，另一只手拿着空白小袋面膜，放在大袋旁边做对比。然后把小袋面膜放下，继续说话。保持随意、有说服力、语速快。",
+    "id": "Satu tangan memegang kantong masker besar di samping wajah. Tangan yang lain mengangkat sachet masker kecil kosong, letakkan di sebelah kantong besar untuk perbandingan. Lalu turunkan sachet kecil itu dan terus bicara. Tetap santai, meyakinkan, dan bicara cepat."
    },
    "lines": "Sekantong ini kalau dipakai tiap hari, kayaknya tiga minggu baru habis ya. Daripada kalian beli masker yang satuan, kayak gini. Mending langsung beli yang sekantong besar. Apalagi kalau kalian emang tiap hari maskeran."
   }
