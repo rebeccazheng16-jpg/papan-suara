@@ -1,0 +1,189 @@
+{
+ "id": "V0107",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "贴片面膜没用？试试这个！",
+  "id": "Masker lembaran nggak mempan? Coba ini!"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "找一个光线好的地方，比如窗户旁边。穿一件粉色罗纹针织上衣。准备好产品，盖子盖好，标签朝前。手机拿稳，脸部占画面一半。",
+  "id": "Cari tempat yang terang, misalnya dekat jendela. Pakai atasan rajut pink bergaris. Siapkan produknya, tutupnya terpasang, label menghadap kamera. Pegang HP-nya stabil, wajahmu sekitar setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "摸摸脸颊，然后把一只手举到下巴旁边，表现出困惑和沮丧。用抱怨的语气，像跟朋友说话一样。",
+    "id": "Sentuh pipimu, lalu angkat satu tangan ke dekat dagu, tunjukkan ekspresi bingung dan kesal. Dengan nada mengeluh, seperti bicara ke teman."
+   },
+   "lines": "Eh, aku mau nanya deh. Tiap hari aku maskeran, kok habis dilepas mukaku tetap gini-gini aja? Baru lepas sih glowing dikit, cuci muka, hilang!"
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先往下看，好像在看下面的人，然后抬头看镜头。接着，更激动地往下看，再看镜头，用手指在下巴旁边数数。",
+    "id": "Lihat ke bawah sebentar, seolah melihat seseorang di bawahmu, lalu kembali menatap kamera. Kemudian, dengan lebih bersemangat, lihat ke bawah lagi, lalu kembali menatap kamera, hitung dengan jari di dekat dagu."
+   },
+   "lines": "Dua lembar?? Cewek Korea sekali perawatan di klinik, glowing-nya tahan seminggu! Aku maskeran sebulan, nggak ada hasilnya sama sekali! Bang! Sekali suntik jutaan! Sakit, terus mukanya merah bengkak berhari-hari, nggak berani keluar rumah!"
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "戴上灰色棒球帽，把头发藏起来，穿上宽松的蓝色牛仔衬衫。把笔在手指间转动，眼睛看着笔，偶尔抬头看镜头。用平淡、懒散、不耐烦的语气说话。",
+    "id": "Pakai topi baseball abu-abu, sembunyikan rambutmu, dan pakai kemeja denim biru longgar. Putar-putar pulpen di antara jari-jarimu, matamu melihat pulpen, sesekali melirik kamera. Bicaralah dengan nada datar, malas, dan acuh tak acuh."
+   },
+   "lines": "Ya udah, pakai dua lembar lah, gitu aja repot. Ya udah, suntik skin booster aja sana, gampang kan."
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "戴上灰色棒球帽，把头发藏起来，穿上宽松的蓝色牛仔衬衫。把笔在手指间转动。听着画外的人说话，表现出不耐烦和无聊，轻轻翻白眼，然后闭着嘴巴轻轻叹气。",
+    "id": "Pakai topi baseball abu-abu, sembunyikan rambutmu, dan pakai kemeja denim biru longgar. Putar-putar pulpen di antara jari-jarimu. Dengarkan seseorang di luar layar, tunjukkan ekspresi bosan dan tidak sabar, putar mata sedikit ke atas sekali, tetap memutar pulpen dan menghela napas kecil tanpa suara melalui hidung, bibir tertutup sepanjang waktu."
+   },
+   "lines": ""
+  },
+  {
+   "n": 5,
+   "sec": 5,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "听着画外的人说话，往下看，表现出难以置信和无语，轻轻噘嘴，慢慢眨眼，嘴巴闭着。",
+    "id": "Dengarkan seseorang di luar layar, lihat ke bawah dengan tidak percaya, tunjukkan ekspresi cemberut kecil tanpa kata dan kedipan lambat, bibir tertutup sepanjang waktu."
+   },
+   "lines": ""
+  },
+  {
+   "n": 6,
+   "sec": 5,
+   "talk": false,
+   "face": {
+    "zh": "脸上敷着白色贴片面膜",
+    "id": "masker lembaran putih di wajah"
+   },
+   "do": {
+    "zh": "面对镜子，把脸上的白色贴片面膜从额头慢慢撕下来，然后扔掉。撕掉后，皮肤看起来暗沉、干燥、没有光泽。摸摸脸颊，表现出失望。",
+    "id": "Hadap cermin, lepaskan masker lembaran putih dari dahi ke bawah perlahan dan buang. Setelah dilepas, kulitmu terlihat kusam, kering, dan tanpa kilau. Sentuh pipimu dan tunjukkan kekecewaan."
+   },
+   "lines": ""
+  },
+  {
+   "n": 7,
+   "sec": 9,
+   "talk": false,
+   "face": {
+    "zh": "脸上敷着干燥的淡珍珠色面膜",
+    "id": "masker film kering berwarna mutiara pucat di wajah"
+   },
+   "do": {
+    "zh": "脸部特写，全脸敷着干燥的淡珍珠色面膜。轻轻按压脸颊，展示面膜已经干透成膜。然后，用拇指和食指捏住脸颊外侧的膜，慢慢向旁边撕开。撕掉后，皮肤看起来有光泽、水润。最后，膜完全撕掉，抚摸脸颊，露出开心的笑容。",
+    "id": "Close-up wajah, seluruh wajah tertutup masker film kering berwarna mutiara pucat. Tekan pipimu perlahan untuk menunjukkan bahwa masker sudah kering menjadi film. Lalu, dengan ibu jari dan telunjuk, cubit film di tepi luar pipimu dekat telinga dan tarik perlahan ke samping. Setelah dilepas, kulitmu terlihat bercahaya dan lembap. Terakhir, setelah film benar-benar terlepas, usap pipimu dan tersenyumlah dengan senang."
+   },
+   "lines": ""
+  },
+  {
+   "n": 8,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "走进画面，直视镜头，轻轻挥手，表情平静而略带幽默。用韩语口音的印尼语，像医生跟朋友说话一样，冷静自信地解释。",
+    "id": "Masuk ke dalam frame dan tatap lurus ke kamera, lambaikan tangan sedikit di dekat dagu, dengan ekspresi tenang dan sedikit geli. Berbicara bahasa Indonesia dengan aksen Korea ringan, dengan nada tenang, percaya diri, dan sedikit tajam seperti dokter yang berbicara langsung kepada teman."
+   },
+   "lines": "됐어 됐어. Udah, jangan ribut sama dia. Kamu tahu nggak, kenapa cewek Korea habis perawatan bisa glowing seminggu? Langkah terakhirnya, selalu satu lapisan masker."
+  },
+  {
+   "n": 9,
+   "sec": 5,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "把产品举到脸颊旁边，盖子盖好，标签朝前。自信地微笑，用韩语口音的印尼语，像医生跟朋友说话一样，冷静自信地解释。",
+    "id": "Pegang produk di samping pipimu setinggi wajah, tutupnya terpasang, bagian depan menghadap kamera. Tersenyum percaya diri, berbicara bahasa Indonesia dengan aksen Korea ringan, dengan nada tenang, percaya diri, dan sedikit tajam seperti dokter yang berbicara langsung kepada teman."
+   },
+   "lines": "Ini dia, VEIRFOO Golden Mask. Lihat, dilepas satu lembar utuh, kayak ngelupas kulit lama."
+  },
+  {
+   "n": 10,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "把产品举到脸颊旁边，盖子盖好，标签朝前。耐心解释，每句话都说清楚。然后，轻轻敲击产品盖子，继续解释。",
+    "id": "Pegang produk di samping pipimu setinggi wajah, tutupnya terpasang, bagian depan menghadap kamera. Jelaskan dengan sabar, setiap kalimat diucapkan dengan jelas dan berurutan. Lalu, ketuk tutup produk dengan lembut sambil terus menjelaskan."
+   },
+   "lines": "Aku kasih tahu ya. Masker lembaran itu serumnya di kain, begitu dilepas, airnya ikut kabur. Yang ini dioles, tunggu tiga puluh, empat puluh menit, dia kering sendiri jadi satu lapisan. Air sama nutrisinya kekunci di kulit, nggak bisa ke mana-mana."
+  },
+  {
+   "n": 11,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "双手放在下巴旁边，不要碰到脸。生动地描述感受。然后，带着自然的笑容，开玩笑地说话。",
+    "id": "Tangan di dekat dagu, jangan menyentuh wajah. Jelaskan perasaan dengan hangat dan jelas. Lalu, dengan senyum alami yang mencapai mata, berbicara dengan nada menggoda."
+   },
+   "lines": "Habis dilepas, coba pegang. Kulitku berasa halus kayak telur kupas, kencang, kayak ketarik ke atas. Pas aku begadang mukaku bengkak kayak bakpao, malamnya maskeran sekali, besoknya teman kantor nanya, kamu habis facial ya? 대박."
+  },
+  {
+   "n": 12,
+   "sec": 14,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "轻轻挑眉，好像在纠正一个常见的误解。用韩语口音的印尼语，像医生跟朋友说话一样，冷静自信地解释。然后，把产品举到脸颊旁边，盖子盖好，标签朝前，自信地继续解释。",
+    "id": "Angkat satu alis sedikit, seolah mengoreksi mitos umum. Berbicara bahasa Indonesia dengan aksen Korea ringan, dengan nada tenang, percaya diri, dan sedikit tajam seperti dokter yang berbicara langsung kepada teman. Lalu, pegang produk di samping pipimu setinggi wajah, tutupnya terpasang, bagian depan menghadap kamera, dan lanjutkan menjelaskan dengan percaya diri."
+   },
+   "lines": "Banyak yang kira oles kolagen bisa nambah kolagen. Jujur ya, molekul kolagen itu besar, nggak bisa masuk. Yang hebat itu PDRN dari salmon di dalamnya, mirip banget sama DNA kita, jadi kulit kenal. Klinik di Korea habis treatment juga pakai bahan sejenis buat recovery."
+  },
+  {
+   "n": 13,
+   "sec": 14,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
+   "do": {
+    "zh": "把产品举到脸颊旁边，盖子盖好，标签朝前。坚定而真诚地说话。最后，用空闲的手指向画面左下角，并温暖地微笑。",
+    "id": "Pegang produk di samping pipimu setinggi wajah, tutupnya terpasang, bagian depan menghadap kamera. Berbicara dengan tegas dan tulus. Terakhir, tunjuk ke sudut kiri bawah layar dengan tangan kosong dan tersenyum hangat."
+   },
+   "lines": "Dan ini bukan barang titipan nggak jelas. BPOM, pabrik Korea, importir resmi, semua tercetak di kemasan, cek sendiri. Di Korea, sekali perawatan kulit jutaan, satu tube ini bisa dipakai berkali-kali. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

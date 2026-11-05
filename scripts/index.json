@@ -596,6 +596,23 @@
    "source": "h3"
   },
   {
+   "id": "V0107",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "贴片面膜没用？试试这个！",
+    "id": "Masker lembaran nggak mempan? Coba ini!"
+   },
+   "src": "",
+   "shots": 13,
+   "sec": 117,
+   "na": false,
+   "source": "h3"
+  },
+  {
    "id": "V0106",
    "brand": "VEIRFOO",
    "product": {
