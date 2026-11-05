@@ -2,18 +2,18 @@
  "id": "V0062",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 blingbling cream",
-  "id": "VEIRFOO bling bling cream"
+  "zh": "水光霜 Blingbling Cream",
+  "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
   "zh": "皮肤干燥？试试水光霜！",
-  "id": "Kulit kering? Coba bling bling cream!"
+  "id": "Kulit kering? Coba Blingbling Cream!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光霜（盖子盖好，标签朝前）。素颜出镜。",
-  "id": "Produk: VEIRFOO bling bling cream (tutup terpasang, label menghadap kamera). Wajah tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前），素颜。",
+  "id": "Produk (tutupnya tertutup, label menghadap kamera), muka tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau kamu ngerasa cuacanya mulai kering, pakai apa pun nggak ngefek — kamu wajib coba bling bling cream-nya VEIRFOO Korea ini. Bagus banget, jujur."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "先用普通面霜涂抹手背，再用VEIRFOO水光霜涂抹同一位置，展示质地差异。",
-    "id": "Oleskan krim biasa di punggung tangan, lalu oleskan VEIRFOO bling bling cream di tempat yang sama, tunjukkan perbedaan teksturnya."
+    "zh": "",
+    "id": ""
    },
    "lines": "Bedanya sama pelembap yang pernah aku pakai — ini dioles udah langsung mencair. Banyak pelembap tuh teksturnya berat banget, tapi ini beneran beda. Teksturnya krim putih — nah, lihat nggak? Digosok langsung jadi air!"
   },
@@ -47,11 +47,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah tanpa makeup"
+    "id": "Muka tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。夜间护肤时，轻拍脸颊，展示不粘腻。早晨展示水润透亮肌肤。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Saat skincare malam, tepuk-tepuk pipi, tunjukkan tidak lengket. Pagi hari tunjukkan kulit yang lembap dan berkilau."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Udah pakai skincare selapis-lapis, mau ditimpa setebal apa pun, dia nggak nempel di bantal — sama sekali nggak lengket. Tapi buatku lembapnya awet: paginya kulitku kelihatan seger dan berkilau."
   },
@@ -60,13 +60,10 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "水润透亮肌肤",
-    "id": "Kulit lembap dan transparan"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。最后指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kamu yang kulitnya gampang kering tapi males rasa berat di muka, ini jawabannya. Langsung cek keranjang kuning di bawah, ya."
   }

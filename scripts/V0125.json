@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "连 Shannon 她们都在用",
-  "id": "Shannon dan yang lain aja pakai VEIRFOO"
+  "zh": "连Shannon她们都在用，我怕它！",
+  "id": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka. Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air. Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih. Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat. Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia. Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）。道具：湿毛巾一条（纯白，无字）。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Bubble Cleanser (tutup terpasang, label menghadap kamera). Alat: Handuk basah putih polos. Kulit: Wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO注氧小气泡精粹液（盖子盖好，标签朝前）。道具：湿毛巾。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Bubble Cleanser (tutupnya terpasang, label menghadap kamera). Alat: handuk basah. Kulit: wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka."
   },
@@ -41,8 +41,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先用一根手指做出警告的手势，然后换一个角度，用指尖轻捏脸颊。",
-    "id": "Pertama, tunjukkan jari telunjukmu seperti memperingatkan. Lalu, ganti sudut kamera dan cubit pipimu dengan lembut."
+    "zh": "捏脸颊时说“嫩到掐出水”。",
+    "id": "Pencet pipi pas bilang 'dicubit aja keluar air'."
    },
    "lines": "Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -56,8 +56,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后，将产品按压一次到指尖。接着，把精华涂在湿润的脸上，让它自己起泡。最后，用湿毛巾擦掉泡沫。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu, pump produk sekali ke ujung jari. Kemudian, oleskan essence ke wajah yang lembap, biarkan berbusa sendiri. Terakhir, bersihkan busa dengan handuk basah."
+    "zh": "展示产品时 logo 正面朝向镜头。用湿毛巾擦拭泡沫。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Lap busanya pakai handuk basah."
    },
    "lines": "Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih."
   },
@@ -71,8 +71,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先靠近镜头，把脸颊转向光源，然后用指尖轻抚脸颊。接着，换一个角度，展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Pertama, dekatkan wajah ke kamera, putar pipimu ke arah cahaya, lalu usap pipimu dengan lembut. Lalu, ganti sudut kamera dan tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -86,8 +86,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先对着镜头说话。然后，换一个角度，展示鼻翼和脸颊上的泡沫。接着，再换一个角度，用指尖轻按脸颊，让皮肤弹回来。",
-    "id": "Pertama, bicara ke kamera. Lalu, ganti sudut kamera dan tunjukkan busa di sisi hidung dan pipimu. Kemudian, ganti sudut kamera lagi dan tekan pipimu dengan jari, biarkan kulitnya membalas."
+    "zh": "按压脸颊时说“弹回”。",
+    "id": "Tekan pipi pas bilang 'kulitku yang kering dan ketarik habis cuci muka juga takut sama dia'."
    },
    "lines": "Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia."
   },
@@ -101,8 +101,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先用手指计数。然后，换一个角度，展示产品时，产品 logo 正面始终朝向镜头。接着，保持产品在旁边，然后用另一只手指向左下角。",
-    "id": "Pertama, hitung dengan jari. Lalu, ganti sudut kamera dan tunjukkan produknya, logo bagian depan selalu menghadap kamera. Kemudian, tetap pegang produk di samping pipi, lalu tunjuk ke sudut kiri bawah dengan tangan yang lain."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
   }

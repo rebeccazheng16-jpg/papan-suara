@@ -6,14 +6,14 @@
   "id": "VEIRFOO PDRN Twin Eye Cream"
  },
  "hook": {
-  "zh": "眼周肌肤老化快，用对眼霜是关键",
-  "id": "Area mata cepat tua, pakai eye cream yang tepat itu penting!"
+  "zh": "眼周抗老，从根源解决眼部问题",
+  "id": "Anti-aging area mata, atasi masalah mata dari akarnya"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，产品空罐，产品包装盒，产品管",
-  "id": "Wajah bersih tanpa makeup, toples krim mata kosong, kotak produk, tube produk"
+  "zh": "素颜，产品外包装盒，产品管，各种用完的眼霜空瓶，各种大牌抗老精华瓶",
+  "id": "Wajah bersih tanpa makeup, kotak kemasan produk, tube produk, botol-botol eye cream kosong, botol-botol serum anti-aging mewah"
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "用手机刷两下，然后用指尖揉搓眼角。",
-    "id": "Scroll HP dua kali, lalu gosok sudut mata dengan jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kamu ngerasa nggak, gara-gara tiap hari main HP, garis halus di ujung mata makin kelihatan? Kelopak mata mulai kendur? Area mata itu kulit paling tipis di wajah, kalau nggak dirawat ya paling cepat tua."
   },
@@ -38,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品外包装盒时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Eye cream mahal murah udah aku coba semua, ujungnya yang paling worth it ya Twin Eye Cream VEIRFOO dari Korea. Ada eye cream yang cuma pelembab wajah dikemas kecil, dipakai malah bikin bintik putih."
   },
@@ -50,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品外包装盒时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau VEIRFOO emang khusus riset skincare, bahannya beneran royal. BIFIDA itu bahan mahal yang diambil lewat proses fermentasi khusus, di aku, area mata berasa lebih lembap dan terawat."
   },
@@ -62,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Bahan bintang yang dipakai serum anti-aging kelas atas, di eye cream ini langsung ditulis paling depan di daftar komposisi. Artinya kandungannya paling banyak, jadi di aku hasilnya kerasa."
   },
@@ -74,8 +74,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品管时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, Made in Korea asli tercetak langsung di kotaknya. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -86,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dulu aku harus terbang ke Korea buat treatment mata di klinik, bolak-balik ribet, tiket sama hotel aja belasan juta, sekali treatment segini harganya. Sekarang di rumah tinggal oles pagi malam, bahan kelas klinik — coba lihat harganya berapa."
   },
@@ -98,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品管和外包装盒时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Mau mata menawan kayak cewek Korea? Satu box isi dua tube, pas buat satu periode, dipakai sendiri atau dikado sama-sama enak. Rutin sampai habis, aku sendiri ngerasa bedanya. Klik keranjang kuning, buruan cobain!"
   }

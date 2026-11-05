@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari sheet mask"
+  "id": "SICENARI sheet mask"
  },
  "hook": {
   "zh": "3D 皮肤问题小人 × 成分",
-  "id": "Kartun 3D masalah kulit x bahan aktif"
+  "id": "Masalah kulit 3D x kandungan bahan"
  },
  "src": "TikTok @detektif.kulitsolved Stacey",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 面膜袋装（21 片），素颜，短圆素甲。",
-  "id": "Sicenari sheet mask kemasan isi 21, muka bersih tanpa makeup, kuku pendek dan polos."
+  "zh": "SICENARI 袋装面膜，素颜，指甲短圆素色。",
+  "id": "Masker SICENARI kemasan isi 21, wajah bersih tanpa makeup, kuku pendek dan polos."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊。",
-    "id": "Muka bersih, bagian pipi."
+    "zh": "脸颊素颜，肤色不均。",
+    "id": "Pipi bersih, warna kulit tidak rata."
    },
    "do": {
-    "zh": "用指尖将面膜敷在脸颊上，轻轻按压。",
-    "id": "Tempelkan masker di pipi dengan ujung jari, tekan perlahan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Hah, sumpah kaget. Tau gak kenapa gue betah kusam di pipi lu? Karena belum kena niacinamide ini. Aduh, warna gue tersamarkan."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，鼻翼。",
-    "id": "Muka bersih, bagian samping hidung."
+    "zh": "鼻翼素颜，泛红。",
+    "id": "Sisi hidung bersih, ada kemerahan."
    },
    "do": {
-    "zh": "用指尖将面膜敷在鼻翼上，轻轻按压。",
-    "id": "Tempelkan masker di samping hidung dengan ujung jari, tekan perlahan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Woi, gawat. Kemerahan di hidung lu bikin gue betah. Tapi ada centella asiatica ini. Rasa seger bantu menenangkan. Gue panik."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，下巴。",
-    "id": "Muka bersih, bagian dagu."
+    "zh": "下巴素颜，干燥。",
+    "id": "Dagu bersih, kering."
    },
    "do": {
-    "zh": "展示产品，正面标志始终朝向镜头。从包装中取出一片面膜。然后将面膜贴在下巴上。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Angkat satu lembar masker dari kemasan. Lalu tempelkan masker di dagu."
+    "zh": "展示产品，正面标志面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Masa iya sih? Dagu kering gue ketemu hyaluronic acid. Pantesan Sicenari sheet mask viral. Pemakaian rutin, kering gue makin berkurang. Tolong!"
   }

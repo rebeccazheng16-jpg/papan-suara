@@ -2,18 +2,18 @@
  "id": "V0167",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜新版 PDRN Cream New Pack",
-  "id": "VEIRFOO PDRN Cream"
+  "zh": "水光霜新版 VEIRFOO PDRN Bling Bling Cream",
+  "id": "VEIRFOO PDRN Bling Bling Cream"
  },
  "hook": {
   "zh": "韩国免税店排长队的面霜、验证值不值",
-  "id": "Krim yang bikin orang rela antri di duty free Korea, worth it nggak ya?"
+  "id": "Krim yang bikin orang rela antri di duty free Korea, mari kita buktiin worth it nggak?"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品（新包装透明盖），素颜，无妆",
-  "id": "Produk (kemasan baru tutup transparan), muka bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 水光霜（新包装透明盖）。素颜，无妆。",
+  "id": "Produk: VEIRFOO PDRN Bling Bling Cream (kemasan baru tutup transparan). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，无妆",
-    "id": "Muka bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini dia krim yang bikin orang rela antri di duty free Korea sampai panjang banget. Mari kita buktiin, apakah worth it?"
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，无妆",
-    "id": "Muka bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Bisa nggak ya, habis pakai krim ini, aku ngerasa kulitku yang kusam jadi glowing kayak idol Korea?"
   },
@@ -53,11 +53,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，无妆",
-    "id": "Muka bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "挤出产品在颧骨上，然后用指尖轻拍至吸收。",
-    "id": "Keluarkan produk di tulang pipi, lalu tepuk-tepuk dengan ujung jari sampai meresap."
+    "zh": "挤出产品涂抹在颧骨上，然后轻拍至吸收。",
+    "id": "Peras produk ke tulang pipi lalu tepuk-tepuk sampai meresap."
    },
    "lines": "Wah, teksturnya lembut banget, kayak yogurt. PDRN emang lagi viral banget guys, dalam dua tahun terakhir ini. Soalnya bahan bakunya memang mahal. Bahkan harga bahan bakunya per mili bisa bikin kaget banget."
   },
@@ -68,11 +68,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，无妆",
-    "id": "Muka bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一根手指指向屏幕左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan satu jari ke sudut kiri bawah layar."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Makanya banyak orang lebih milih skincare dengan kandungan PDRN, daripada harus keluar uang banyak buat treatment. Sekarang kamu nggak perlu jauh-jauh lagi pergi ke Korea dan antri panjang. Karena kamu tinggal klik keranjang kuning di bawah sini, langsung cobain sekarang!"
   }

@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari masker PDRN"
+  "id": "Sicenari PDRN Masker Wajah"
  },
  "hook": {
   "zh": "拆快递囤货＋便宜得像做慈善",
-  "id": "Unboxing dan stok barang + murahnya kayak lagi sedekah"
+  "id": "Unboxing haul + murahnya kayak sedekah"
  },
  "src": "TikTok @nainem13 Glad2Glow",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜（21片装），素颜，无妆。",
-  "id": "Masker Sicenari kemasan kantong (isi 21 lembar), muka bersih tanpa makeup."
+  "zh": "SICENARI 袋装面膜（未开封），剪刀或小刀（用于拆快递盒）",
+  "id": "Masker Sicenari kemasan pouch (belum dibuka), gunting atau pisau kecil (untuk buka paket)"
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Beb, stop dulu beli masker sembarangan, lihat dulu yang aku stok ini! Ini Sicenari, masker PDRN dari Korea, murahnya kayak lagi sedekah, harganya aku nggak berani bilang."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Paketnya udah sampai, aku langsung stok beberapa kantong. Satu kantong isinya dua puluh satu lembar, sehari satu lembar, pas buat dua puluh satu hari."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Lihat, begitu dibuka essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, di dasar kantong masih sisa banyak, sekalian aku oles ke leher dan tangan."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一根手指指向屏幕左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu tunjuk ke sudut kiri bawah layar dengan satu jari."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Essence-nya sebanyak ini, dipakai tiap hari juga nggak sayang. Tapi harga tiap akun beda-beda ya Beb, klik sendiri keranjang kuning di bawah, kalau dapat yang murah langsung checkout aja!"
   }

@@ -6,27 +6,28 @@
   "id": "VEIRFOO Sodium DNA Collagen Mask"
  },
  "hook": {
-  "zh": "在家也能做的韩国医美级撕拉面膜",
-  "id": "Masker peel-off ala klinik Korea yang bisa dipakai di rumah"
+  "zh": "在家体验韩式医美级水光胶原蛋白面膜",
+  "id": "Masker kolagen ala klinik Korea yang bisa dipakai di rumah"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 水光胶原蛋白面膜，一个小刷子，素颜。",
-  "id": "Masker kolagen VEIRFOO, kuas kecil, muka polos tanpa makeup."
+  "zh": "VEIRFOO 胶原蛋白面膜和刷子。干净的素颜。",
+  "id": "Produk VEIRFOO Collagen Mask dan kuasnya. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上已经敷着干透的面膜",
-    "id": "Masker sudah kering di muka"
+    "zh": "脸上已经敷着干掉的面膜",
+    "id": "Masker sudah kering di wajah"
    },
    "do": {
-    "zh": "需要拍三个镜头：1. 撕掉脸上的面膜。2. 把产品拿到脸颊旁边。3. 在手臂上涂抹面膜膏。",
-    "id": "Kamu rekam 3 adegan ya: 1. Kamu lagi kelupas masker di muka. 2. Tunjukin produknya di sebelah pipi. 3. Olesin krim masker di lengan."
+    "zh": "撕下面膜。展示产品时 标志 正面朝向镜头。",
+    "id": "Kelupas maskernya. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Guys, kok pas mengelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Sodium DNA Collagen Mask dari VEIRFOO, brand Korea. Teksturnya creamy putih seperti yogurt, lembut banget."
   },
@@ -34,13 +35,14 @@
    "n": 2,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka polos"
+    "zh": "干净的素颜",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "需要拍三个镜头：1. 韩国美妆店的素材（用网图/视频）。2. 把面膜涂满全脸。3. 用手指按压脸颊。",
-    "id": "Kamu rekam 3 adegan ya: 1. Video/foto toko kosmetik Korea (ambil dari internet aja). 2. Kamu lagi olesin masker ke seluruh muka. 3. Tekan pipi pakai jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Bahannya itu satu keluarga sama Rejuran yang di klinik Korea — PDRN, kolagen, peptida. Liat deh, dari putih dia pelan-pelan menjadi bening, langsung keserap. Perawatan mahal ala klinik Korea, sekarang bisa dilakukan di rumah."
   },
@@ -48,13 +50,14 @@
    "n": 3,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka polos"
+    "zh": "干净的素颜",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "需要拍四个镜头：1. 涂面膜。2. 撕掉面膜后按压脸颊。3. 产品和其它大牌精华液摆在一起的空镜。4. 拿着产品指向左下角。",
-    "id": "Kamu rekam 4 adegan ya: 1. Kamu lagi olesin masker. 2. Sesudah masker dilepas, tekan pipi. 3. Rekam produknya dipajang bareng serum mahal. 4. Pegang produk sambil nunjuk ke kiri bawah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Oles tebal pakai kuasnya, tunggu sampai kering. Pas udah dilupas, kulitku berasa lebih cerah dan glowing! Perawatan ala klinik Korea, tapi bisa dilakukan sendiri di rumah. Cek keranjang kuning di bawah, ya!"
   }

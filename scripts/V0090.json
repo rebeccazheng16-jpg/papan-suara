@@ -6,14 +6,14 @@
   "id": "VEIRFOO White Tomato Mask"
  },
  "hook": {
-  "zh": "贵妇面膜平替，价格不到一杯奶茶",
-  "id": "Masker sultan, harga di bawah segelas boba!"
+  "zh": "贵妇级面膜平价替代",
+  "id": "Masker sultan harga merakyat"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜出镜，准备好产品（未开封），以及一个廉价的无品牌面膜（无包装，软塌塌的）。",
-  "id": "Wajah tanpa makeup. Siapkan produk (belum dibuka) dan satu masker murah tanpa merek (kemasan bening, lembek)."
+  "zh": "准备好产品（VEIRFOO白番茄面膜），确保面膜是未开封的。素颜出镜。",
+  "id": "Siapkan produk (masker VEIRFOO White Tomato Mask) yang masih tersegel. Wajah polos tanpa makeup."
  },
  "shots": [
   {
@@ -21,13 +21,10 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "对着镜头开玩笑地挥拳四次，每次挥拳都与台词中的重音词同步。",
-    "id": "Pura-pura meninju kamera empat kali, setiap pukulan disinkronkan dengan kata yang ditekankan dalam dialog."
+    "zh": "",
+    "id": ""
    },
    "lines": "Emang cewek nggak boleh manjain diri sendiri? Aku punya beberapa teman sultan yang sering bolak-balik Korea, skincare mereka tuh yang lihat harganya aja aku langsung mundur, nggak berani mimpi bisa pakai."
   },
@@ -36,13 +33,10 @@
    "sec": 15,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指做“价格下降”的手势。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Buat gerakan tangan 'harga turun'."
+    "zh": "展示产品，logo正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sampai akhirnya aku nemu brand yang mereka rekomendasiin semua, VEIRFOO, ternyata udah masuk Indonesia! Katanya partner brand-nya, Kak Lina, nego lama banget sampai harganya bisa turun. Aku lihat kok ternyata aku sanggup, ya udah aku beli satu buat coba, dan hasilnya bikin aku kaget banget."
   },
@@ -51,13 +45,10 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "先展示一个廉价的无品牌面膜，然后换成产品，展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Pertama tunjukkan masker murah tanpa merek, lalu ganti dengan produk. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Packagingnya aja udah beda jauh sama masker murahan, dipegang tuh mewah banget. Teman sultanku khusus nyuruh aku cek komposisinya, ternyata urutan pertamanya bukan air, tapi bahan mahal yang dipakai di serum brand besar. Dulu mana pernah aku pakai barang sebagus ini."
   },
@@ -66,13 +57,10 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "撕开面膜包装，取出面膜布，然后敷上面膜，最后展示敷完面膜后的皮肤。",
-    "id": "Robek kemasan masker, keluarkan lembaran masker, lalu pakai masker. Terakhir, tunjukkan kulit setelah memakai masker."
+    "zh": "撕开面膜包装，取出面膜布，然后敷在脸上。敷完面膜后，展示皮肤。",
+    "id": "Sobek kemasan masker, keluarkan lembaran masker, lalu pakai di wajah. Setelah maskeran, tunjukkan kulit wajah."
    },
    "lines": "Lembarannya tebal, esensnya melimpah banget, seminggu lembur plus commute berjam-jam tiap hari, capeknya langsung ilang. Yang paling penting, pas baru dilepas aku sampai bengong, kirain halusinasi, kulitku berasa bening bercahaya, putih bercahaya."
   },
@@ -81,13 +69,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "用手指戳脸颊，展示皮肤的弹性和光泽。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Sentuh pipi untuk menunjukkan kekenyalan dan kilau kulit. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "按压脸颊，展示产品时 logo 正面朝向镜头。",
+    "id": "Tekan pipi pas bilang kenyal. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Terus aku pakai sebulan lagi, lihat deh sekarang sama dulu, agak beda kan. Di Korea satu lembar ini harganya segini, di sini nggak sampai harga segelas boba!"
   },
@@ -96,13 +81,10 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "双手拿着一叠产品，展示产品时，产品 logo 正面始终朝向镜头。最后指向屏幕下方。",
-    "id": "Pegang setumpuk produk dengan kedua tangan, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke bagian bawah layar."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sering rayain kemenangan kecil biar sering menang, kata teman-teman suksesku. Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya. Keranjang kuning di bawah udah aku siapin, sayangi diri sendiri dari sekarang!"
   }

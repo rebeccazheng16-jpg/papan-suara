@@ -2,18 +2,18 @@
  "id": "S0150",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
-  "id": "SICENARI Pouch Masker Kolagen 21 lembar"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌) 袋装 21 片",
+  "id": "SICENARI Pouch Masker Kolagen Perbaikan Mikro 21 lembar"
  },
  "hook": {
-  "zh": "免税店货架前展示 SICENARI 大袋面膜",
-  "id": "Tunjukkan masker SICENARI kemasan besar di rak toko bebas bea"
+  "zh": "免税店货架前转动面膜袋",
+  "id": "Memutar kantong masker di depan rak toko bebas bea"
  },
  "src": "TikTok @sasaaa_",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜（21片装）",
-  "id": "Masker SICENARI kemasan pouch (isi 21 lembar)"
+  "zh": "SICENARI 袋装面膜，未开封，标签朝前。尽量在明亮、干净的背景下拍摄。",
+  "id": "Masker kantong SICENARI yang belum dibuka, label menghadap kamera. Kalau bisa, rekam dengan latar belakang yang terang dan bersih."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一只手拿着沉甸甸的面膜袋在SICENARI货架前，缓慢旋转以展示正面，然后翻转以展示背面。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pegang masker pouch yang berat dengan satu tangan di depan rak SICENARI, putar perlahan untuk menunjukkan bagian depan, lalu balikkan untuk menunjukkan bagian belakang."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

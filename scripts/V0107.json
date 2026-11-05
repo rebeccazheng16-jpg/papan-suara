@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "吵架钩子：面膜没用，打针太贵，怎么办？",
-  "id": "Maskeran nggak ngefek, suntik mahal, gimana dong?"
+  "zh": "面膜没用？那是你没用对！",
+  "id": "Maskeran tiap hari kok nggak ada hasil? Kamu salah pakai!"
  },
- "src": "Dewi",
+ "src": "H3/Seedance",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，标签朝前）。素颜出镜。",
-  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 鎏金蛋白膜（盖子盖好，标签朝前）。道具：一张白色面膜纸（无字），一个普通棒球帽，一件宽松牛仔衬衫，一支笔。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutupnya terpasang, label menghadap kamera). Properti: satu lembar masker wajah putih polos (tanpa tulisan), satu topi baseball biasa, satu kemeja denim longgar, satu pulpen. Kulit: wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "摸脸，然后摊手表示无奈。",
-    "id": "Sentuh pipi, lalu angkat tangan tanda frustrasi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Eh, aku mau nanya deh. Tiap hari aku maskeran, kok habis dilepas mukaku tetap gini-gini aja? Baru lepas sih glowing dikit, cuci muka, hilang!"
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "先看下方，再看镜头，然后数手指。",
-    "id": "Lihat ke bawah, lalu ke kamera, lalu hitung jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dua lembar?? Cewek Korea sekali perawatan di klinik, glowing-nya tahan seminggu! Aku maskeran sebulan, nggak ada hasilnya sama sekali! Bang! Sekali suntik jutaan! Sakit, terus mukanya merah bengkak berhari-hari, nggak berani keluar rumah!"
   },
@@ -45,10 +51,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "转笔，耸肩。",
-    "id": "Putar pulpen, angkat bahu."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ya udah, pakai dua lembar lah, gitu aja repot. Ya udah, suntik skin booster aja sana, gampang kan."
   },
@@ -57,10 +66,13 @@
    "sec": 6,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "转笔，翻白眼，叹气。",
-    "id": "Putar pulpen, putar mata, menghela napas."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -69,10 +81,13 @@
    "sec": 5,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "看下方，噘嘴，慢眨眼。",
-    "id": "Lihat ke bawah, cemberut, kedip perlahan."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -82,12 +97,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "脸上敷着白色贴片面膜。",
-    "id": "Wajah sudah memakai sheet mask putih."
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "撕掉面膜，摸脸，表现失望。",
-    "id": "Lepas masker, sentuh pipi, tunjukkan kekecewaan."
+    "zh": "从额头向下撕下面膜。",
+    "id": "Kelupas masker lembaran dari dahi ke bawah."
    },
    "lines": ""
   },
@@ -97,12 +112,12 @@
    "talk": false,
    "broll": true,
    "face": {
-    "zh": "脸上敷着VEIRFOO鎏金蛋白膜，已干。",
-    "id": "Wajah sudah memakai VEIRFOO Golden Mask yang sudah kering."
+    "zh": "脸上已涂抹 VEIRFOO 鎏金蛋白膜，已成膜。",
+    "id": "Wajah sudah pakai VEIRFOO Golden Mask, sudah jadi lapisan."
    },
    "do": {
-    "zh": "先轻按脸颊，再从侧面撕掉面膜，最后摸脸微笑。",
-    "id": "Tekan pipi, lalu kelupas masker dari samping, lalu sentuh pipi dan tersenyum."
+    "zh": "轻轻按压脸颊，然后从脸颊外侧边缘向内撕掉面膜。撕掉面膜后，用指背轻抚脸颊。",
+    "id": "Tekan pipi perlahan, lalu kelupas maskernya dari samping pipi ke arah dalam. Setelah maskernya terkelupas, usap pipi dengan punggung jari."
    },
    "lines": ""
   },
@@ -111,10 +126,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "挥手，然后身体前倾。",
-    "id": "Melambaikan tangan, lalu condongkan badan ke depan."
+    "zh": "",
+    "id": ""
    },
    "lines": "됐어 됐어. Udah, jangan ribut sama dia. Kamu tahu nggak, kenapa cewek Korea habis perawatan bisa glowing seminggu? Langkah terakhirnya, selalu satu lapisan masker."
   },
@@ -123,10 +141,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini dia, VEIRFOO Golden Mask. Lihat, dilepas satu lembar utuh, kayak ngelupas kulit lama."
   },
@@ -135,10 +156,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后轻敲产品盖子。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu ketuk tutup produk dengan jari."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku kasih tahu ya. Masker lembaran itu serumnya di kain, begitu dilepas, airnya ikut kabur. Yang ini dioles, tunggu tiga puluh, empat puluh menit, dia kering sendiri jadi satu lapisan. Air sama nutrisinya kekunci di kulit, nggak bisa ke mana-mana."
   },
@@ -147,10 +171,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "双手放在下巴附近，不碰脸。然后微笑。",
-    "id": "Tangan di dekat dagu, jangan sentuh wajah. Lalu tersenyum."
+    "zh": "",
+    "id": ""
    },
    "lines": "Habis dilepas, coba pegang. Kulitku berasa halus kayak telur kupas, kencang, kayak ketarik ke atas. Pas aku begadang mukaku bengkak kayak bakpao, malamnya maskeran sekali, besoknya teman kantor nanya, kamu habis facial ya? 대박."
   },
@@ -159,10 +186,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "抬眉。然后展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Angkat alis. Lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Banyak yang kira oles kolagen bisa nambah kolagen. Jujur ya, molekul kolagen itu besar, nggak bisa masuk. Yang hebat itu PDRN dari salmon di dalamnya, mirip banget sama DNA kita, jadi kulit kenal. Klinik di Korea habis treatment juga pakai bahan sejenis buat recovery."
   },
@@ -171,10 +201,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。最后指向左下角并微笑。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah dan tersenyum."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Lalu tunjuk ke keranjang kuning."
    },
    "lines": "Dan ini bukan barang titipan nggak jelas. BPOM, pabrik Korea, importir resmi, semua tercetak di kemasan, cek sendiri. Di Korea, sekali perawatan kulit jutaan, satu tube ini bisa dipakai berkali-kali. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

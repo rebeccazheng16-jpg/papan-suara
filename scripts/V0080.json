@@ -2,18 +2,18 @@
  "id": "V0080",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 蛋白膜 collagen treatment (银色镜面铝管)",
+  "zh": "VEIRFOO 蛋白膜 (银色镜面铝管) collagen treatment tube",
   "id": "VEIRFOO collagen treatment"
  },
  "hook": {
   "zh": "使用前后对比，无滤镜无P图",
-  "id": "Before-after muka aku, tanpa filter, tanpa edit"
+  "id": "Before after, tanpa filter, tanpa edit."
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 蛋白膜产品（银色镜面铝管）和包装盒。需要素颜拍摄'使用前'的镜头。",
-  "id": "Produk VEIRFOO collagen treatment (tube silver) sama kotaknya. Perlu muka polos tanpa makeup buat rekam shot 'sebelum'."
+  "zh": "VEIRFOO 蛋白膜产品（银色镜面铝管）和包装盒。素颜拍摄。",
+  "id": "Produk VEIRFOO collagen treatment tube sama kotaknya. Muka polos tanpa makeup."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "muka polos"
+    "id": "Muka polos"
    },
    "do": {
-    "zh": "首先，录一个'使用前'的素颜镜头。然后，把产品和盒子拿到脸旁边展示，标志朝向镜头。最后，录一个'使用后'的镜头，面带微笑。",
-    "id": "Pertama, rekam muka 'sebelum'. Terus, tunjukkan produk sama kotaknya di samping muka, logo menghadap kamera. Terakhir, rekam muka 'sesudah' sambil senyum."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Muka aku sebelum dan sesudah. Tanpa filter, tanpa edit. Bedanya satu, VEIRFOO. Ini bukan editan, bukan filter. Yang tadi itu kulit aku yang asli sebelum pakai ini."
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "muka polos"
+    "id": "Muka polos"
    },
    "do": {
-    "zh": "首先，录一个'使用前'的素颜镜头。然后，录一个'使用后'的镜头，同时用一根手指轻轻按压脸颊。最后，对着镜头微笑说话。",
-    "id": "Pertama, rekam muka 'sebelum'. Terus, rekam muka 'sesudah' sambil tekan pipi pelan pakai satu jari. Terakhir, ngomong ke kamera sambil senyum."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kusam, nggak merata, kelihatan capek. Yang ini setelah rutin pakai. Buatku sedikit lebih cerah, lebih rata, cahayanya agak beda. Temen-temen aku sampai nanya aku facial di mana."
   },
@@ -50,11 +50,11 @@
    "n": 3,
    "sec": 14,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "第一个镜头可以用任何生活化的视频片段代替，比如护肤的片段。然后，把产品从背后拿到脸旁边展示，标志朝向镜头。",
-    "id": "Shot pertama bisa pakai klip video estetik apa aja, misalnya lagi skincare-an. Terus, tunjukkan produknya dari belakang badan ke samping muka, logo menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku diundang brand-nya buat lihat langsung pabriknya. Setelah lihat sendiri aku makin yakin — pantes aja, ini pabrik skincare profesional di Korea. Yang katanya bikin glowing, rata-rata efeknya cuma di lapisan luar. Kelihatan bentar terus hilang. Yang ini beda."
   },
@@ -65,8 +65,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品拿到脸旁边。然后，录一个手部特写：拧开盖子，挤一点膏体到手指上，然后在手背上抹开，直到变成一层薄薄的透明膜。",
-    "id": "Pegang produk di samping muka. Terus, rekam close-up tangan: buka tutupnya, pencet sedikit isinya ke jari, terus olesin di punggung tangan sampai jadi lapisan tipis transparan."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Karena dia pakai kandungan PDRN. PDRN itu diambil dari salmon, dan struktur DNA salmon sangat mirip sama jaringan kulit manusia, jadi di kulitku ekstraknya berasa gampang banget nyatu, kerasa terawat dari dalam."
   },
@@ -77,11 +77,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "muka polos"
+    "id": "Muka polos"
    },
    "do": {
-    "zh": "首先，录一个把产品涂在脸上的特写。然后，一边说话一边把产品拿在脸旁边。最后，指向屏幕左下角。",
-    "id": "Pertama, rekam close-up lagi olesin produk ke muka. Terus, pegang produk di samping muka sambil ngomong. Terakhir, tunjuk ke arah kiri bawah layar."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Begitu aku oles, buatku udah agak kelihatan bedanya. Bukan cuma nunggu efek jangka panjang. Aku baru rekomendasiin kalau aku sendiri udah pakai dan cocok. Kalau kamu punya masalah kulit kusam dan nggak ada glow kayak aku dulu, aku saranin banget cobain. Klik keranjang kuning di kiri bawah, langsung checkout!"
   }

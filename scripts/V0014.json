@@ -2,7 +2,7 @@
  "id": "V0014",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 (Blingbling Cream)",
+  "zh": "水光霜 Blingbling Cream",
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
@@ -12,8 +12,8 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 水光霜（盖子盖好，标签朝前）；素颜，脸上无妆。",
-  "id": "Produk VEIRFOO Blingbling Cream (tutupnya terpasang, label menghadap kamera); wajah bersih tanpa makeup."
+  "zh": "VEIRFOO 水光霜（盖子盖好，标签朝前）。素颜出镜。",
+  "id": "VEIRFOO Blingbling Cream (tutupnya tertutup, label menghadap kamera). Wajah tanpa makeup."
  },
  "shots": [
   {
@@ -21,13 +21,10 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Masih belum tahu rahasia glass skin ala cewek Korea? Nih, aku kasih tahu. VEIRFOO Blingbling Cream, brand Korea yang lagi viral banget di sana."
   },
@@ -36,13 +33,10 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
-   },
+   "face": null,
    "do": {
-    "zh": "在手背上涂抹产品，然后涂抹在脸颊上，展示涂抹前后对比。",
-    "id": "Oleskan produk di punggung tangan, lalu oleskan di pipi, tunjukkan perbedaan sebelum dan sesudah."
+    "zh": "一边脸已经涂了产品，另一边没有，这样才能看到区别。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Pas dioles ke wajah, teksturnya lembut banget dan cepat meresap. Aku ngerasa kulitku langsung lebih glowing."
   },
@@ -51,13 +45,10 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Hero ingredient-nya itu Niacinamide dosis tinggi sama Centella, loh. Banyak serum high-end yang harganya jutaan juga mengandalkan dua kandungan ini."
   },
@@ -66,10 +57,7 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
-   },
+   "face": null,
    "do": {
     "zh": "",
     "id": ""

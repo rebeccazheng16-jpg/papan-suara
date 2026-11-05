@@ -2,7 +2,7 @@
  "id": "V0165",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 银管素颜霜 Tone-Up Cream",
+  "zh": "银管素颜霜 Tone-Up Cream",
   "id": "VEIRFOO Tone-Up Cream"
  },
  "hook": {
@@ -12,8 +12,8 @@
  "src": "TikTok @meimeimecin",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。准备好产品（盖子盖好，logo朝前）和一把干净的腮红刷。",
-  "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar. Siapkan produk (tutup terpasang, logo menghadap kamera) dan kuas blush on yang bersih."
+  "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。准备好VEIRFOO银管素颜霜（盖子盖好，标志朝前），一个干净的腮红刷。",
+  "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar. Siapkan VEIRFOO Tone-Up Cream (tutup terpasang, logo menghadap kamera), dan satu kuas blush on yang bersih."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。",
-    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar."
+    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar."
    },
    "do": {
-    "zh": "用一根手指轻点脸颊上的痘印，数数。",
-    "id": "Sentuh ringan bekas jerawat di pipi dengan satu jari, sambil menghitung."
+    "zh": "",
+    "id": ""
    },
    "lines": "Wajah aku lagi jerawatan nih, banyak banget. Satu, dua, tiga, empat. Gara-gara aku lagi suka makan cokelat akhir-akhir ini, tapi aku butuh coverage."
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。",
-    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar."
+    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar."
    },
    "do": {
-    "zh": "展示产品，logo朝前。然后拧开盖子，把乳液点涂在额头、脸颊、鼻子和下巴上。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu buka tutupnya, dan aplikasikan lotion ke dahi, pipi, hidung, dan dagu."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini aku pakai Tone-Up Cream dari VEIRFOO. Udah ada PDRN generasi kedua, bahan perawatan mewah dari ekstrak salmon. Buatku jadi berasa lebih gampang meresap ke kulit, kulitku juga berasa lebih terawat."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上点涂着乳液。",
-    "id": "Wajah dengan titik-titik lotion."
+    "zh": "脸上点涂了乳白色素颜霜。",
+    "id": "Wajah sudah ada totol-totol lotion putih susu."
    },
    "do": {
-    "zh": "用指尖将乳液从脸部中央向外涂抹开来。",
-    "id": "Dengan ujung jari, ratakan lotion dari tengah wajah ke arah luar."
+    "zh": "",
+    "id": ""
    },
    "lines": "Terus ada kandungan white tomato-nya juga, aku ngerasa kulitku kelihatan lebih cerah. Aku pakai tone up yang ringan-ringan aja, karena kan lagi jerawatan."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "乳液已均匀涂抹在脸上，痘印被淡化但仍可见。",
-    "id": "Lotion sudah merata di seluruh wajah, bekas jerawat tersamarkan tapi masih sedikit terlihat."
+    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
+    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
    },
    "do": {
-    "zh": "用指尖轻拍和按压脸颊、额头和下巴，然后用手背沿着下颌线缓慢滑动。",
-    "id": "Tepuk dan tekan ringan pipi, dahi, dan dagu dengan ujung jari, lalu usapkan punggung tangan perlahan di sepanjang garis rahang."
+    "zh": "",
+    "id": ""
    },
    "lines": "Yang penting warna kulitku kelihatan rata aja gitu, plus buatku sekaligus ngerawat kulit. Jadi aku pilih yang bisa dipakai buat kulit yang lagi sensitif dan meradang."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "乳液已均匀涂抹在脸上，痘印被淡化但仍可见。",
-    "id": "Lotion sudah merata di seluruh wajah, bekas jerawat tersamarkan tapi masih sedikit terlihat."
+    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
+    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
    },
    "do": {
-    "zh": "展示产品，logo朝前。然后放下产品，用指尖轻触脸颊。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu letakkan produk, dan sentuh ringan tulang pipi dengan ujung jari."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini Korean brand, sekarang udah masuk Indonesia. Dulu harus beli di Korea aja, sekarang udah terdaftar BPOM. Udah, kayak gini aja. Ini udah skincare, udah tone-up juga."
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "乳液已均匀涂抹在脸上，痘印被淡化但仍可见。",
-    "id": "Lotion sudah merata di seluruh wajah, bekas jerawat tersamarkan tapi masih sedikit terlihat."
+    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
+    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
    },
    "do": {
-    "zh": "稍微靠近镜头，将脸颊转向窗户光线，然后用指尖按压脸颊并抬起，展示手指干净无油光。",
-    "id": "Maju sedikit ke arah kamera, putar pipi sedikit ke arah cahaya jendela, lalu tekan pipi dengan ujung jari dan angkat untuk menunjukkan jari bersih tanpa minyak."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kebetulan udah sore juga, jadi aku nggak butuh sunblock, ini aja udah cukup. Pakai ini aku ngerasa kulitku auto cerah. Kulitku berasa lembap tapi nggak oily ya. Jerawatan kayak gini juga bisa pakai."
   },
@@ -112,12 +112,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "乳液已均匀涂抹在脸上，痘印被淡化但仍可见。",
-    "id": "Lotion sudah merata di seluruh wajah, bekas jerawat tersamarkan tapi masih sedikit terlihat."
+    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
+    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
    },
    "do": {
-    "zh": "用腮红刷在脸颊上扫两下，然后坐直，双手空着。",
-    "id": "Sapukan kuas blush on dua kali di pipi. Lalu duduk tegak, tangan kosong."
+    "zh": "",
+    "id": ""
    },
    "lines": "Terus kasih sedikit blush on biar seger. Udah, kayak gini aja. Looknya jadi kayak makeup no makeup deh. Wah, kulitku berasa glowing banget, cakep banget finishingnya."
   },
@@ -127,12 +127,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "乳液已均匀涂抹在脸上，痘印被淡化但仍可见，脸颊有淡淡的腮红。",
-    "id": "Lotion sudah merata di seluruh wajah, bekas jerawat tersamarkan tapi masih sedikit terlihat, dan pipi ada sedikit blush on."
+    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡，并涂抹了腮红。",
+    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan, dan sudah memakai blush on."
    },
    "do": {
-    "zh": "稍微靠近镜头，将脸颊转向窗户光线。然后坐直，展示产品，logo朝前，另一只手指向左下角。",
-    "id": "Maju sedikit ke arah kamera, putar pipi ke arah cahaya jendela. Lalu duduk tegak, tunjukkan produknya, logo bagian depan selalu menghadap kamera, dan tangan yang lain menunjuk ke sudut kiri bawah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dewi-dewi gitu, kayak kulit cewek-cewek Korea. Mau kulit glowing kayak cewek Korea? Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

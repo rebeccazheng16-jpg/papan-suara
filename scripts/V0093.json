@@ -2,18 +2,18 @@
  "id": "V0093",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO PDRN 水光霜",
-  "id": "VEIRFOO PDRN Blingbling Cream"
+  "zh": "水光霜 VEIRFOO PDRN Bling Bling Cream",
+  "id": "VEIRFOO PDRN Bling Bling Cream"
  },
  "hook": {
-  "zh": "女孩们，爱自己就从护肤开始！",
-  "id": "Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya."
+  "zh": "平价贵妇护肤，解锁水光肌",
+  "id": "Rahasia kulit glowing ala klinik kecantikan, tapi harga terjangkau!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO PDRN水光霜（盖子盖好），一个粉扑，一个手机。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO PDRN Blingbling Cream (tutupnya terpasang), satu spons bedak, dan satu HP."
+  "zh": "素颜，产品（盖子盖好，标签朝前）",
+  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "不需要特别的动作，自然就好。",
-    "id": "Tidak ada gerakan khusus, lakukan secara alami."
+    "zh": "",
+    "id": ""
    },
    "lines": "Emang cewek nggak boleh manjain diri sendiri? Dulu tiap lihat kulit glowing di FYP, aku cuma bisa nonton doang, mikirnya itu mah hasil suntik skinbooster di klinik. Pengin banget punya kulit kayak gitu, tapi jujur aku nggak sanggup bayarnya."
   },
@@ -38,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Terus belakangan ini kok di mana-mana pada bahas krim yang ini, sampai aku penasaran banget. Ternyata VEIRFOO, brand Korea yang udah masuk Indonesia, dan pas aku cek harganya, aku sanggup. Ya udah aku beli satu buat coba."
   },
@@ -53,8 +53,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "涂抹产品时，确保产品 logo 正面始终朝向镜头。",
-    "id": "Saat mengaplikasikan produk, pastikan logo produk selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Teksturnya tuh ringan banget, dioles langsung meresap, nggak ada sisa putih, nggak lengket sama sekali. Yang bikin aku kaget, baru beberapa detik kulitku berasa udah basah berkilau, kayak habis facial."
   },
@@ -64,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "带妆，底妆是水光肌效果",
+    "zh": "带妆，底妆是水光肌",
     "id": "Sudah pakai makeup, base makeup-nya glass skin"
    },
    "do": {
-    "zh": "不需要特别的动作，自然就好。",
-    "id": "Tidak ada gerakan khusus, lakukan secara alami."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dan ini rahasianya: pakai ini dulu sebelum foundation, base makeup-nya nyatu banget, nggak cakey, nggak nyangkut di pori. Seharian di luar pun, buatku masih kelihatan glowing, bukan berminyak."
   },
@@ -79,12 +79,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "带妆，脸部高光泽",
-    "id": "Sudah pakai makeup, wajah sangat berkilau"
+    "zh": "带妆，脸部高光",
+    "id": "Sudah pakai makeup, wajah sangat glowing"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di Korea satu tube kayak gini harganya segini. Di sini? Coba kamu cek sendiri sekarang, beda jauh banget. Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya. Keranjang kuningnya udah aku cariin buat kalian ya, mulai sayangi diri sendiri dari sekarang!"
   }

@@ -3,31 +3,30 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "水光胶原蛋白膜 Sodium DNA Hydraglow Collagen Mask",
-  "id": "Masker Collagen Second Skin dari VEIRFOO"
+  "id": "VEIRFOO Collagen Second Skin Mask"
  },
  "hook": {
-  "zh": "天呐，这皮肤也太玻璃了吧！",
-  "id": "Gilaa, ini glass skin banget sih!"
+  "zh": "皮肤看起来又累又暗沉怎么办？",
+  "id": "Kulit kelihatan capek dan kusam?"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光胶原蛋白膜（盖子盖好，标签朝前）；刷子。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (tutup terpasang, label menghadap kamera); kuas. Kulit: wajah bersih tanpa makeup."
+  "zh": "VEIRFOO 水光胶原蛋白膜，一个面膜刷。从素颜开始拍。",
+  "id": "Produk VEIRFOO Collagen Mask, satu kuas masker. Mulai rekam dengan wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆，略显疲惫，有淡淡黑眼圈和泪沟。",
-    "id": "Wajah bersih tanpa makeup, terlihat sedikit lelah, ada lingkaran hitam dan garis air mata samar."
+    "zh": "完全素颜",
+    "id": "Wajah polosan tanpa makeup"
    },
    "do": {
-    "zh": "先素颜轻拍眼下，再硬切到带淡妆的脸，然后举起产品管在脸旁边，标签朝前。",
-    "id": "Pertama, wajah tanpa makeup, tepuk-tepuk ringan di bawah mata. Lalu, cut ke wajah dengan makeup tipis, angkat produk di samping pipi, label menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau kulit lagi kelihatan capek dan kusam, wajib banget cobain masker ini. Masker Collagen Second Skin dari VEIRFOO ini wajib banget dicoba."
   },
@@ -35,14 +34,13 @@
    "n": 2,
    "sec": 7,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "先挤出产品在脸颊上，再硬切到用刷子涂抹在脸颊和额头上。",
-    "id": "Pertama, pencet produk di pipi. Lalu, cut ke adegan mengoleskan produk dengan kuas di pipi dan dahi."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini masker perawatan yang banyak dipakai di klinik kecantikan Korea. Pakai ini, aku ngerasa kandungannya lebih gampang meresap ke kulit."
   },
@@ -50,14 +48,13 @@
    "n": 3,
    "sec": 8,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤干净水润。",
-    "id": "Wajah bersih tanpa makeup, kulit bersih dan lembap."
+    "zh": "敷完面膜后的干净皮肤",
+    "id": "Wajah bersih setelah pakai masker"
    },
    "do": {
-    "zh": "先轻捏脸颊，感受皮肤弹性，再硬切到举起产品管在脸旁边，标签朝前。",
-    "id": "Pertama, cubit-cubit pipi dengan lembut, rasakan kekenyalan kulit. Lalu, cut ke adegan mengangkat produk di samping pipi, label menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Habis dipakai, aku langsung ngerasa kulitku lebih halus, lembut, dan glowing. Dulu aku beli di website resmi Korea, satu pcs harganya segini loh."
   },
@@ -65,14 +62,13 @@
    "n": 4,
    "sec": 5,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤干净水润。",
-    "id": "Wajah bersih tanpa makeup, kulit bersih dan lembap."
+    "zh": "敷完面膜后的干净皮肤",
+    "id": "Wajah bersih setelah pakai masker"
    },
    "do": {
-    "zh": "指向画面左下角的购物车。",
-    "id": "Arahkan jari ke keranjang kuning di kiri bawah layar."
+    "zh": "说到‘点下面链接’时，手指向左下角。",
+    "id": "Pas bilang 'klik keranjang kuning', tunjuk ke arah kiri bawah."
    },
    "lines": "Tapi sekarang lagi ada promo, langsung aja klik keranjang kuning di kiri bawah!"
   }

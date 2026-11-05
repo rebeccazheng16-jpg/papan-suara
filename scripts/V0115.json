@@ -2,18 +2,18 @@
  "id": "V0115",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Pink Bling Bling Cream 粉水光油霜",
+  "zh": "粉水光油霜 Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "回复粉丝评论：受害者？我的脸在发光！",
-  "id": "Balas komentar: korban? Wajahku glowing!"
+  "zh": "被叫“VEIRFOO受害者”的回评自拍",
+  "id": "Balas komentar 'korban VEIRFOO'"
  },
  "src": "TikTok @nnyimasske2",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 粉水光油霜（盖子盖好，标签朝前）。素颜，脸上无妆。",
-  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Wajah bersih, tanpa makeup."
+  "zh": "素颜，产品（盖子盖好，标签朝前）",
+  "id": "Wajah bersih tanpa makeup, produk (tutupnya terpasang, label menghadap kamera)"
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "指向左上角，然后张开手掌做闪光手势。",
-    "id": "Arahkan jari ke sudut kiri atas, lalu buka telapak tangan seperti menunjukkan kilauan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Korban VEIRFOO? Ya ampun, kirain korban VEIRFOO tuh kayak gimana. Pas lihat foto yang kamu kirim, wah, menurutku wajahmu glowing banget sampai kinclong, cantik banget!"
   },
@@ -33,10 +36,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。轻轻摇晃产品两次。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Goyangkan produknya dua kali."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kak sayang, aku juga pakai yang ini: VEIRFOO Pink Bling Bling Cream, oil cream pink dari Korea. Udah beli lagi sampai tube ketiga, pokoknya nggak bakal gagal deh. Lihat nih."
   },
@@ -45,10 +51,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "用指尖在脸颊旁边轻轻画圈，然后放下手。",
-    "id": "Gerakkan ujung jari melingkar ringan di samping pipi, lalu turunkan tangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dulu aku pakai toner sama pelembap berlapis-lapis, wajah tetap kering, tetap kusam. Ternyata bukan airnya yang kurang, tapi nggak ada minyak yang ngunci airnya."
   },
@@ -57,10 +66,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "展示打开盖子的产品，挤出一粒米大小的乳液在脸颊上，然后用指尖抹开并轻拍。再次展示产品，倾斜三次。",
-    "id": "Tunjukkan produknya tanpa tutup, keluarkan setitik lotion sebesar butir beras di pipi, lalu usap dan tepuk-tepuk. Tunjukkan produknya lagi, miringkan tiga kali."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Keluarnya lotion pink yang cair, sekali oles langsung meleleh kayak air. Tipis aja, tepuk-tepuk, langsung nyerap, nggak lengket sama sekali. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Kulit kering, berminyak, sensitif, semua bisa pakai."
   },
@@ -69,10 +81,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "脸部特写，慢慢转动脸部展示光泽。然后展示产品，指向左下角。",
-    "id": "Close-up wajah, putar perlahan untuk menunjukkan kilau. Lalu tunjukkan produknya, arahkan jari ke sudut kiri bawah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Coba lihat wajahku, sekarang glowing banget, kan? Di Korea harganya segini loh. Kalian wajib checkout! Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

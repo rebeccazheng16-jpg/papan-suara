@@ -6,14 +6,14 @@
   "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "含粉底一步到位，只用这一个就够",
-  "id": "foundation in one step, just this one is enough"
+  "zh": "含粉底一步到位、只用这一个就够",
+  "id": "Foundation in one step, just this one is enough"
  },
  "src": "TikTok @siskaismaya",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜（盒装），素颜，洗干净脸，不化妆",
-  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kemasan kotak), wajah bersih tanpa makeup"
+  "zh": "准备好：SICENARI 超光子胶原炮面膜（盒子和单片面膜），素颜，脸部已清洁。",
+  "id": "Siapkan: masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak dan satu lembar masker), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "下半张面膜已贴平，上半张面膜双手捏着上沿往额头贴",
-    "id": "masker bagian bawah sudah menempel, bagian atas dipegang kedua tangan di dahi"
+    "zh": "下半张面膜已敷好，上半张正要敷上。",
+    "id": "Setengah masker sudah terpasang di wajah bagian bawah, setengah bagian atas akan dipasang."
    },
    "do": {
-    "zh": "将面膜上半部分敷到脸上，抚平。面膜边缘保持平整，额头露出一小条皮肤，不粘头巾。精华不滴落。",
-    "id": "Tempelkan masker bagian atas ke wajah, ratakan. Pastikan pinggiran masker rapi, ada sedikit kulit dahi yang terlihat di antara masker dan kerudung, jangan sampai menempel ke kerudung. Essence tidak menetes."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini masker Sicenari yang udah direndam penuh essence, satu lembarnya ada dua puluh lima mililiter, jadi kalian tinggal langsung pakai habis cuci muka malam-malam."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "面膜已完全敷好，平整服帖",
-    "id": "masker sudah terpasang sempurna, rata dan menempel"
+    "zh": "面膜已敷好。",
+    "id": "Masker sudah terpasang penuh di wajah."
    },
    "do": {
-    "zh": "先敷着面膜说功效，然后硬切到揭膜后的干净脸，举着产品盒收尾。",
-    "id": "Pertama, pakai masker sambil bicara tentang manfaatnya. Lalu, langsung potong ke wajah bersih setelah melepas masker, dan tunjukkan kotak produknya."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini beneran bagus banget. Habis pakai, aku ngerasa mukaku lebih lembap dan sedikit lebih cerah, sampai besok paginya masih lembap. Cocok banget buat yang suka skincare simple, nggak usah banyak produk, cukup pakai selembar ini, udah mantul banget."
   }

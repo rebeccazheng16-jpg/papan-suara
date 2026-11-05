@@ -6,14 +6,14 @@
   "id": "VEIRFOO Breathing Cream"
  },
  "hook": {
-  "zh": "粉底卡粉浮粉？用呼吸霜！",
-  "id": "Foundation cakey dan kering? Pakai Breathing Cream!"
+  "zh": "拯救你闲置的粉底液",
+  "id": "Menyelamatkan foundation kamu yang nggak terpakai"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 呼吸霜（带盖），普通粉底液（带盖），素颜，无妆",
-  "id": "VEIRFOO Breathing Cream (dengan tutup), foundation biasa (dengan tutup), wajah bersih tanpa makeup"
+  "zh": "VEIRFOO 呼吸霜（带包装盒），一瓶你常用的粉底液，一个小粉色礼品盒。素颜开始拍摄。",
+  "id": "VEIRFOO Breathing Cream sama kotaknya, satu foundation lain yang biasa kamu pakai, satu kotak kado kecil warna pink. Mulai rekam dengan muka polos tanpa makeup."
  },
  "shots": [
   {
@@ -21,13 +21,10 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Foundation kamu kusam, nyangkut di garis halus, kering ngelupas — padahal masih sisa banyak? Jangan buru-buru beli baru. Foundation cuma nutupin, nggak ngerawat. Yang kamu butuh: penyelamat foundation — VEIRFOO Breathing Cream."
   },
@@ -36,13 +33,10 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "左脸是普通粉底，右脸是呼吸霜混合粉底",
-    "id": "Sisi kiri wajah dengan foundation biasa, sisi kanan wajah dengan campuran Breathing Cream dan foundation"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。左脸是普通粉底，右脸是呼吸霜混合粉底，确保对比明显。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sisi kiri wajah dengan foundation biasa, sisi kanan wajah dengan campuran Breathing Cream dan foundation, pastikan perbedaannya terlihat jelas."
+    "zh": "半边脸用普通粉底液，另半边脸用混合版，让对比效果更明显。",
+    "id": "Satu sisi wajah pakai foundation biasa, sisi satunya pakai yang sudah dicampur, biar bedanya kelihatan."
    },
    "lines": "Ini sebenarnya serum yang bisa dipakai buat makeup. Foundation kamu satu pump, ini setengah pump aja. Astaga — ini baru namanya base ala cewek Korea, kulitnya kayak bisa bernapas!"
   },
@@ -52,12 +46,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "半边脸是普通粉底，半边脸是混合版",
+    "id": "Muka masih setengah-setengah, satu sisi foundation biasa, satu sisi yang dicampur"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dan ini bukan barang jastip nggak jelas: BPOM-nya resmi, pabriknya di Korea, importirnya resmi. Semua bisa kamu cek sendiri."
   },
@@ -67,12 +61,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸是呼吸霜混合粉底",
-    "id": "Seluruh wajah dengan campuran Breathing Cream dan foundation"
+    "zh": "全脸已经用完混合版粉底",
+    "id": "Seluruh muka sudah pakai base yang dicampur VEIRFOO"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。最后指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu cuma bisa lewat jastip, harganya segitu. Sekarang aku mintain bonus khusus dari brand-nya — terbatas, siapa cepat dia dapat. Buka keranjang kuning di kiri bawah, buruan cobain!"
   }

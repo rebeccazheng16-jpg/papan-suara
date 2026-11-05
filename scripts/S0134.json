@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Sheet Mask PDRN 9,900ppm"
+  "id": "SICENARI Micro Sculpting Collagen Shot Mask"
  },
  "hook": {
-  "zh": "一个月敷膜日记：每一镜换一天",
-  "id": "Diary Masker Sebulan: Tiap Scene Beda Hari"
+  "zh": "一个月敷膜日记",
+  "id": "Diary Masker Satu Bulan"
  },
  "src": "TikTok @dianafadiaaa",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜 (21 片装)。素颜，脸部干净无妆。",
-  "id": "Masker SICENARI kemasan pouch (isi 21 lembar). Wajah bersih tanpa makeup."
+  "zh": "SICENARI 袋装面膜（21 片装），素颜，脸上无妆。",
+  "id": "Masker SICENARI kemasan pouch (isi 21 lembar), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤略显暗淡无光",
-    "id": "Wajah bersih, kulit agak kusam dan tidak bercahaya"
+    "zh": "素颜，脸色略显苍白暗淡，无血色，无光泽，嘴唇苍白略干。",
+    "id": "Muka bersih, agak pucat dan kusam, tidak ada warna di pipi, tidak glowing, bibir pucat dan sedikit kering."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。左手拿面膜袋，右手从袋中取出面膜。将面膜敷在脸上，用双手抚平。面膜完全取下后，用手掌按压脸颊帮助吸收。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tangan kiri memegang pouch masker, tangan kanan mengambil masker dari pouch. Tempelkan masker ke wajah dan ratakan dengan kedua telapak tangan. Setelah masker dilepas, tekan-tekan pipi dengan telapak tangan untuk membantu penyerapan."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤透亮有光泽，肤色更均匀",
-    "id": "Wajah bersih, kulit tampak lebih cerah, glowing, dan warna kulit lebih merata"
+    "zh": "素颜，肤色比第一晚更白皙，两颊有健康红润气色，明亮、清晰、肤色均匀，光滑、饱满、水润，有柔和的内在光泽。",
+    "id": "Muka bersih, warna kulit lebih cerah dari malam pertama, pipi merona sehat, cerah, bersih, warna kulit rata, halus, kenyal, lembap, glowing alami dari dalam."
    },
    "do": {
-    "zh": "用指尖轻抚脸颊，感受肌肤的柔滑。用指尖轻拍眼下脸颊，然后嘟嘴微笑。",
-    "id": "Usap lembut pipi dengan ujung jari, rasakan kehalusan kulit. Sentuh lembut pipi di bawah mata dengan ujung jari, lalu buat ekspresi manyun dan senyum."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   }

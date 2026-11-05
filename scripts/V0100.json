@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "早八人有色面霜",
-  "id": "Tone-up cream untuk yang buru-buru"
+  "id": "Tone-up cream untuk yang buru-buru di pagi hari"
  },
  "src": "哈哈婧",
  "cam": "user",
  "prep": {
-  "zh": "素颜，VEIRFOO紫管素颜霜（盖子盖好，标签朝前），化妆棉，普通粉底液，化妆海绵，小电风扇，喷雾瓶，白色纸巾，冰块，托盘",
-  "id": "Muka bersih tanpa makeup, VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera), kapas, foundation biasa, spons makeup, kipas angin kecil, botol semprot, tisu putih, es batu, nampan"
+  "zh": "产品（盖子盖好，标签朝前），素颜，无妆。",
+  "id": "Produk (tutup terpasang, label menghadap kamera), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。在脸颊右侧挤出产品，涂抹均匀，然后展示左右脸对比。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di pipi kanan, ratakan, lalu tunjukkan perbandingan kedua sisi wajah."
+    "zh": "展示产品时 logo 正面朝向镜头。一侧脸已经涂抹产品，另一侧没有，以便对比。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Krim putih begini, dibaur, kulitku berasa langsung rata dan cerah. Kamu udah pernah coba tone-up cream yang bisa gantiin foundation? Lebih glowing dari primer, lebih ringan dan nempel dari foundation."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "先表现热，再展示涂了普通素颜霜后不均匀的脸。",
-    "id": "Awalnya tunjukkan ekspresi kepanasan, lalu perlihatkan wajah yang memakai tone-up cream biasa dan terlihat tidak rata."
+    "zh": "",
+    "id": ""
    },
    "lines": "Apalagi cuaca panas begini, pengennya simpel. Pakai tone-up biasa, malah pucat nggak rata, belang, kelihatan palsu, kayak pakai topeng."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih tanpa makeup"
+    "zh": "已经涂抹粉底。",
+    "id": "Sudah memakai foundation."
    },
    "do": {
-    "zh": "用化妆海绵涂抹多层粉底液，然后用手指按压脸颊，留下指纹。",
-    "id": "Pakai spons makeup untuk mengaplikasikan foundation berlapis-lapis, lalu tekan pipi dengan jari sampai meninggalkan bekas."
+    "zh": "说'痕迹'时按压脸颊。",
+    "id": "Tekan pipi pas bilang 'bekasnya'."
    },
    "lines": "Ganti foundation, ditumpuk lapis demi lapis, makin tebal, gampang menggumpal dan luntur. Ditekan jari aja langsung ada bekasnya."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已涂抹产品",
-    "id": "Seluruh wajah sudah diaplikasikan produk"
+    "zh": "已经全脸涂抹产品。",
+    "id": "Sudah memakai produk di seluruh wajah."
    },
    "do": {
-    "zh": "产品放在冰块托盘中，然后拿起来。展示产品时，产品标志正面始终朝向镜头。用手指计数产品的五种功能。",
-    "id": "Produk diletakkan di nampan es batu, lalu ambil. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Hitung lima fungsi produk dengan jari."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Makanya sekarang aku ganti ini, VEIRFOO Purple Tube, dibuat buat yang males dandan pas cuaca panas. Satu tube lima fungsi: toner, pelembap, primer, tone-up, sekaligus pengganti foundation."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已涂抹产品",
-    "id": "Seluruh wajah sudah diaplikasikan produk"
+    "zh": "已经全脸涂抹产品。",
+    "id": "Sudah memakai produk di seluruh wajah."
    },
    "do": {
-    "zh": "在手背挤出产品并涂抹均匀，然后展示两只手掌的对比。",
-    "id": "Keluarkan produk di punggung tangan dan ratakan, lalu tunjukkan perbandingan kedua telapak tangan."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Teksturnya krim putih yang lembut, ringan dan gampang dibaur. Bahkan di telapak tangan yang banyak garisnya, warnanya buatku kelihatan lebih cerah dan rata, nggak ada kesan bedak sama sekali."
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "在脸颊右侧涂抹产品，然后展示涂抹后的脸颊，最后展示左右脸对比。",
-    "id": "Oleskan produk di pipi kanan, lalu tunjukkan pipi yang sudah diaplikasikan produk, terakhir tunjukkan perbandingan kedua sisi wajah."
+    "zh": "一侧脸已经涂抹产品，另一侧没有，以便对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Di muka rasanya kayak pakai moisturizer, tapi kulitku berasa langsung lebih cerah dan mulus. Kulit aku super kering, tanpa primer tetap lembap dan nempel. Kusam dan kemerahanku, satu lapis aja buatku udah tersamar."
   },
@@ -110,14 +110,14 @@
    "n": 7,
    "sec": 9,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": {
-    "zh": "全妆",
-    "id": "Full makeup"
+    "zh": "已经涂抹产品和全妆。",
+    "id": "Sudah memakai produk dan full makeup."
    },
    "do": {
-    "zh": "先近距离展示全妆，然后展示在不同环境下的妆容。",
-    "id": "Pertama, tunjukkan full makeup dari dekat, lalu perlihatkan makeup di berbagai lingkungan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini kamera asli, lihat dari dekat, tetap nggak ada kesan bedak. Mau di dalam ruangan, di parkiran, atau di bawah matahari, makeup-nya tetap mulus dan glowing."
   },
@@ -127,12 +127,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全妆",
-    "id": "Full makeup"
+    "zh": "已经涂抹产品和全妆。",
+    "id": "Sudah memakai produk dan full makeup."
    },
    "do": {
-    "zh": "先模仿怀疑的观众，然后用小电风扇吹脸，再用喷雾瓶喷脸，最后用白色纸巾按压脸颊并展示纸巾。",
-    "id": "Pertama, tirukan ekspresi penonton yang ragu, lalu hadapkan wajah ke kipas angin kecil, semprotkan air dengan botol semprot, terakhir tekan pipi dengan tisu putih dan tunjukkan tisu."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pasti ada yang nanya, selembap ini, keluar rumah langsung luntur nggak? Tenang. Matahari nggak sepanas kipas ini, keringat nggak sebanyak semprotan ini. Ditekan tisu, nggak ada bedak yang nempel."
   },
@@ -140,14 +140,14 @@
    "n": 9,
    "sec": 11,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": {
-    "zh": "全妆",
-    "id": "Full makeup"
+    "zh": "已经涂抹产品和全妆。",
+    "id": "Sudah memakai produk dan full makeup."
    },
    "do": {
-    "zh": "先在镜子前点头，然后展示早上出门和晚上回家的妆容。",
-    "id": "Pertama, mengangguk di depan cermin, lalu tunjukkan makeup saat berangkat pagi dan pulang malam."
+    "zh": "",
+    "id": ""
    },
    "lines": "Aku juga ngerti, banyak yang gampang berminyak dan makeup jadi kusam. Dulu seharian di luar, base pasti jadi lebih gelap. Sekarang pagi berangkat dandan kayak gini, malam pulang ganti piyama, makeup-nya tetap sama."
   },
@@ -157,12 +157,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全妆",
-    "id": "Full makeup"
+    "zh": "已经涂抹产品和全妆。",
+    "id": "Sudah memakai produk dan full makeup."
    },
    "do": {
-    "zh": "产品放在冰块托盘中，用手指轻敲产品标签。展示产品时，产品标志正面始终朝向镜头。指向屏幕左下角。",
-    "id": "Produk diletakkan di nampan es batu, ketuk label produk dengan jari. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "VEIRFOO juga nggak pelit bahan: niacinamide tinggi, centella yang lembut buat kulit sensitif, PDRN-nya langsung ditulis di tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

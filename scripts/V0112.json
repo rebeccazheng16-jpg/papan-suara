@@ -2,7 +2,7 @@
  "id": "V0112",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
+  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
@@ -12,8 +12,8 @@
  "src": "程女神",
  "cam": "user",
  "prep": {
-  "zh": "洁面乳（盖子盖好，标签朝前）。素颜，脸上无妆。",
-  "id": "Produk pembersih wajah (tutupnya tertutup, label menghadap ke depan). Wajah bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前）。素颜，脸上无妆。",
+  "id": "Produk (tutupnya tertutup, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "手持产品管身，产品 logo 正面始终朝向镜头，在海边露台背景下展示产品。",
-    "id": "Pegang tube produk, logo produk selalu menghadap kamera, tunjukkan dengan latar belakang teras tepi laut."
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sabun muka ini ngeri banget, aku sampai nggak berani jualin. Waktu cuci muka, aku iseng gosok hidung dua kali, kotoran di pori-porinya keluar semua. Habis bilas, ngaca, wajahku kelihatan cerah banget, bening."
   },
@@ -38,8 +38,8 @@
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "先展示手臂上涂抹了粉底和防晒霜，然后用泡沫揉搓，最后用化妆棉擦拭干净。",
-    "id": "Tunjukkan lengan yang sudah diolesi foundation dan sunscreen, lalu gosok dengan busa, dan terakhir bersihkan dengan kapas."
+    "zh": "",
+    "id": ""
    },
    "lines": "Sabun muka ini bakal ngubah cara kamu lihat cuci muka: pori-pori, minyak di wajah, sampai makeup tipis dan sunscreen, semua ikut bersih sekali cuci."
   },
@@ -53,8 +53,8 @@
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Makin sering begadang, wajah makin berminyak dan kusam. Kalau kamu juga gitu, cobain ini: VEIRFOO Cloud Cleanser, sabun muka dari Korea, yang dipakai di klinik-klinik kecantikan Korea."
   },
@@ -68,8 +68,8 @@
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "打开产品盖子，挤出乳液到手掌心，然后双手揉搓出泡沫。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Buka tutup produk, peras lotion ke telapak tangan, lalu gosok kedua tangan hingga berbusa. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Keluarnya lotion putih susu, digosok di tangan langsung jadi segumpal busa padat yang lembut banget. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -83,8 +83,8 @@
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau habis cuci muka wajah terasa ketarik, itu karena kandungan sabunnya ikut ngikis skin barrier. Yang ini habis cuci, kulitku berasa bersih dan segar, nggak ketarik sama sekali, lembap dan kelihatan cerah. Kulit sensitif juga nyaman pakai."
   },
@@ -98,8 +98,8 @@
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke kiri bawah."
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

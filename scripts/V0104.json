@@ -2,29 +2,28 @@
  "id": "V0104",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "粉水光油霜 Pink Bling Bling Cream",
+  "zh": "粉水光油霜 VEIRFOO Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
   "zh": "我宣布这是我的人生妆前",
-  "id": "Aku umumkan ini primer terbaik seumur hidupku"
+  "id": "Aku nobatkan ini primer terbaik seumur hidupku"
  },
- "src": "",
+ "src": "复刻包包大人",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO粉水光油霜（盖子盖好，标签朝前）。道具：一个没有带子的粉扑。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Properti: spons bedak tanpa tali. Kulit: wajah bersih, tanpa makeup."
+  "zh": "准备 VEIRFOO 粉水光油霜、一个普通妆前乳、粉底液、粉扑。需要露出素颜，皮肤暗沉干燥的状态。",
+  "id": "Siapin VEIRFOO Pink Bling Bling Cream, satu primer biasa, foundation, dan puff. Muka polos tanpa makeup, kondisi kulit lagi kusam dan kering."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
-   "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wajib banget aku share ini! Makeup se-glowing ini, padahal kulit asliku kusam dan kering parah. Rahasianya cuma satu: VEIRFOO Pink Bling Bling Cream. Pertama kali pakai, langsung aku rekomendasiin ke bestie."
   },
@@ -32,14 +31,13 @@
    "n": 2,
    "sec": 9,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih, tanpa makeup."
+    "zh": "素颜",
+    "id": "Muka polos"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Keluarnya lotion pink yang cair banget. Diratain, langsung meleleh kayak air, nyerap tanpa bekas. Beda sama primer lain yang tebal, digosok malah menggumpal, cuma numpang di atas kulit."
   },
@@ -47,14 +45,13 @@
    "n": 3,
    "sec": 12,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih, tanpa makeup."
+    "zh": "刚涂完油霜的素颜",
+    "id": "Muka polos setelah pakai oil cream"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。说 拍粉底 的时候用粉扑拍脸。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Pas bilang 'tap foundation', tepuk-tepuk pipi pakai puff."
    },
    "lines": "Kulit kering itu bukan kurang air, tapi nggak ada minyak yang ngunci. Ini oil cream: Jojoba plus tiga Hyaluronic Acid, ditambah Sodium DNA dan kolagen. Habis itu langsung tap foundation, hasilnya buatku kayak glass skin alami, lembap tapi nggak lengket."
   },
@@ -62,14 +59,13 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih, tanpa makeup."
+    "zh": "素颜，皮肤暗沉干燥",
+    "id": "Muka polos, kulit kusam dan kering"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "说 薄涂 的时候涂抹产品。展示产品时 logo 正面朝向镜头。",
+    "id": "Pas bilang 'oles tipis', usap produknya. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kemarin kulitku kering dan kusam banget. Aku oles tipis, lima menit langsung nyerap semua. Lanjut foundation, langsung nempel rapi, nggak ada yang ngangkat. Sudah terdaftar BPOM, dibuat di Korea, cek sendiri di kemasannya."
   },
@@ -77,11 +73,13 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "化好妆的样子",
+    "id": "Sudah makeup lengkap"
+   },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。说 小黄车 的时候手指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Pas bilang 'keranjang kuning', tunjuk ke arah kiri bawah."
    },
    "lines": "Yang foundation-nya sering cakey dan ngelupas, jangan buru-buru ganti foundation, coba ini dulu. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

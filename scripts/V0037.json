@@ -6,14 +6,14 @@
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "熬夜脸急救，一抹水光肌",
-  "id": "Wajah kusam habis begadang? Pakai ini langsung glowing!"
+  "zh": "熬夜脸急救，一抹透亮",
+  "id": "Muka kusam habis begadang? Pakai ini langsung cerah!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），粉扑（干净的，无品牌），素颜出镜。",
-  "id": "Produk (tutup terpasang, label menghadap kamera), spons bedak (bersih, tanpa merek), wajah tanpa makeup."
+  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好，标志朝前），一个粉扑。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Blingbling Cream (tutupnya terpasang, logo menghadap kamera) dan satu spons bedak tabur."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Blingbling Cream Korea ini— —kalian tuh, selama ini salah pakainya. Ini bukan buat skincare santai tiap malam — ini buat kebutuhan darurat. Abis bergadang, muka kusam dan lelah ? Jangan langsung dandan. Oles dulu ini."
   },
@@ -35,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dengerin aku, cukup ini satu. Ada Salmon PDRN-nya — kulitku berasa lembap sambil kerasa cerah. Teksturnya krim putih, cepat meresap."
   },
@@ -45,10 +48,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸颊已涂抹水光霜",
+    "id": "Pipi sudah pakai Blingbling Cream"
+   },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Timpa sama foundation, hasilnya nyatu, nggak cakey — buatku glowing kayak glass skin seharian. Di Korea satu tube mahal banget. Di sini tiga tube jauh lebih terjangkau, original Korea. Buruan, mumpung lagi promo spesial — cus keranjang kuning."
   }

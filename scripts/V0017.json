@@ -2,31 +2,29 @@
  "id": "V0017",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "素颜霜 (Sodium DNA Firming Tone-Up Primer)",
+  "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
   "id": "VEIRFOO Tone-Up Primer"
  },
  "hook": {
-  "zh": "韩系素颜霜，半脸对比一抹即亮",
-  "id": "Primer Korea, coba setengah muka langsung kelihatan cerahnya"
+  "zh": "韩国人在底妆这方面真的很厉害！",
+  "id": "Orang Korea emang jago banget soal base makeup!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜霜。素颜，脸上没化妆。",
-  "id": "Produk VEIRFOO Tone-Up Primer. Muka polos, jangan pakai makeup dulu."
+  "zh": "VEIRFOO 素颜霜。素颜无妆。",
+  "id": "Produk VEIRFOO Tone-Up Primer. Muka polos tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 11,
    "talk": true,
-   "face": {
-    "zh": "素颜",
-    "id": "Muka polos"
-   },
+   "broll": false,
+   "face": null,
    "do": {
-    "zh": "先把素颜霜涂在半边脸，展示提亮效果。然后，把素颜霜点涂在全脸，并把产品举到脸旁展示。",
-    "id": "Olesin dulu primernya ke setengah muka, tunjukkin bedanya sisi yang udah pakai sama yang belum. Terus, baru olesin ke seluruh muka sambil pegang produknya di sebelah pipi."
+    "zh": "半边脸涂了，半边脸没涂，这样能看出区别。展示产品时 logo 正面朝向镜头。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Astaga… beneran sih, orang Korea emang jago banget soal base makeup! Baru makeup dikit udah cakey, nggak makeup malah kelihatan kusam… Makanya wajib cobain VEIRFOO Tone-Up Primer dari Korea. Aku suka banget hasilnya!"
   },
@@ -34,13 +32,14 @@
    "n": 2,
    "sec": 15,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "已涂好素颜霜",
-    "id": "Muka sudah pakai primer"
+    "zh": "全脸已经涂好素颜霜",
+    "id": "Muka sudah rata pakai primer"
    },
    "do": {
-    "zh": "把产品举到脸旁展示。然后挤一点在手背上，展示它的质地。",
-    "id": "Pegang produknya di sebelah pipi. Terus, keluarin sedikit di punggung tangan buat tunjukkin teksturnya."
+    "zh": "半边脸涂了，半边脸没涂，这样能看出区别。展示产品时 logo 正面朝向镜头。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu tube ini punya tiga kandungan brightening dan multi-peptide, ibarat vitamin buat kulit. Lihat deh, creamy banget teksturnya! Lihat deh, kulitku berasa tetap flawless! Satu tube ini punya empat fungsi sekaligus: primer, tone-up, cover, dan glow. Original Korea, harganya cuma segini. Cek keranjang kuning di bawah, ya!"
   }

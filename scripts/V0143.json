@@ -6,14 +6,14 @@
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
-  "zh": "电竞桌前洗脸 零口播",
-  "id": "Cuci muka di meja gaming, tanpa bicara"
+  "zh": "等我洗把脸再开",
+  "id": "Nanti dulu, aku cuci muka dulu ya"
  },
  "src": "TikTok @天天不懒",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 光感奢润绵密洁面乳，一盆清水，素颜，脸上没有化妆。",
-  "id": "VEIRFOO Cloud Cleanser, satu baskom air bersih, muka polos tanpa makeup."
+  "zh": "产品：VEIRFOO Cloud Cleanser 洁面乳，盖子盖好，标志朝向镜头。道具：一个浅绿色脸盆，里面装满清水。皮肤：素颜，脸上没有化妆。",
+  "id": "Produk: VEIRFOO Cloud Cleanser, tutupnya tertutup, logo menghadap kamera. Properti: Satu baskom plastik hijau muda berisi air bersih. Kulit: Wajah polos, tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 10,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上带水珠和两道洁面乳",
+    "id": "Wajah basah dengan dua garis pembersih"
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上带泡沫",
+    "id": "Wajah berbusa"
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

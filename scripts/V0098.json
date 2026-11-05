@@ -2,31 +2,32 @@
  "id": "V0098",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
+  "zh": "光感奢润绵密洁面乳 Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
-  "zh": "油皮、黑头、防晒霜都能洗干净",
-  "id": "Solusi buat kulit berminyak, komedo, dan sisa sunscreen"
+  "zh": "洗面奶测评：油皮亲妈，洗完不紧绷",
+  "id": "Review pembersih wajah: Cocok untuk kulit berminyak, bersih tapi tidak ketarik"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 云洗面奶，一条干净的毛巾，素颜。",
-  "id": "VEIRFOO Cloud Cleanser, handuk bersih, wajah tanpa makeup."
+  "zh": "洗面奶（盖子盖好，标签朝前）；洗脸巾；素颜，脸上无妆。",
+  "id": "Pembersih wajah (tutupnya tertutup, label menghadap kamera); handuk muka; wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 15,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上有油光",
-    "id": "Muka lagi berminyak"
+    "zh": "素颜，脸上带油光。",
+    "id": "Wajah bersih, berminyak."
    },
    "do": {
-    "zh": "这是一个快速剪辑。分开录制几个短片：1. 油性皮肤。 2. 满脸泡沫洗脸。 3. 洗完后的干净皮肤。",
-    "id": "Ini montase cepat. Rekam beberapa klip pendek terpisah: 1. Muka berminyak. 2. Muka penuh busa sambil cuci muka. 3. Muka bersih sesudah cuci muka."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kulit super berminyak? Habis cuci muka, langsung seger. Komedo hitam kecil? Habis cuci muka, berasa lebih bersih. Sunscreen? Digosok beberapa kali, langsung hilang. Kalau kamu cuma sesekali berminyak, cukup pakai malam aja. Tapi kalau minyaknya bikin wajah kusam, ada komedo hitam sama putih, pakai pagi dan malam."
   },
@@ -34,13 +35,14 @@
    "n": 2,
    "sec": 14,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "干净的脸",
-    "id": "Wajah bersih"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "将两支产品展示在脸旁。然后，在手掌上展示产品质地。",
-    "id": "Tunjukkan kedua produk di samping wajah. Lalu, perlihatkan tekstur produk di telapak tangan."
+    "zh": "展示产品，正面Logo对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini dia, VEIRFOO Cloud Cleanser dari Korea, yang dipakai di klinik-klinik kecantikan. Teksturnya krim putih susu, lembut banget. Di muka rasanya empuk, nyaman banget. Di dalamnya ada tiga surfaktan asam amino yang lembut, cepat ngangkat minyak dan kotoran di pori-pori."
   },
@@ -48,10 +50,14 @@
    "n": 3,
    "sec": 15,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "在手中搓出大量泡沫，展示泡沫很绵密不会掉落。然后将产品拿在脸旁。",
-    "id": "Buat busa yang banyak di tangan, tunjukkan busanya padat dan tidak jatuh. Lalu pegang produk di samping wajah."
+    "zh": "展示产品，正面Logo对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang paling aku suka itu busanya — tambah sedikit air, digosok langsung jadi busa tebal kayak awan. Beda sama busa sabun muka biasa yang kasar dan cepat kempes. Kandungannya lebih gila lagi: Bifida Ferment yang dipakai brand-brand mewah, di sini ada di urutan kedua!"
   },
@@ -59,10 +65,14 @@
    "n": 4,
    "sec": 9,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "将产品拿在脸旁，指着 PDRN 标签。然后用毛巾轻拍脸，并触摸脸颊以显示皮肤有弹性。",
-    "id": "Pegang produk di samping wajah dan tunjuk label PDRN. Lalu, tepuk-tepuk wajah dengan handuk, dan sentuh pipi untuk menunjukkan kulit terasa kenyal."
+    "zh": "展示产品，正面Logo对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ada juga PDRN, bahan perawatan mewah dari ekstrak salmon — jadi bersih, dan buatku kulit kerasa lebih lembap. Habis cuci muka, kulitku berasa halus, lembut, empuk, kelihatan bersih dan cerah."
   },
@@ -70,10 +80,14 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "将两支产品拿在脸旁，在最后一句话时，手指向下。",
-    "id": "Pegang kedua produk di samping wajah, lalu di akhir kalimat, tunjuk ke arah bawah."
+    "zh": "展示产品，正面Logo对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Cocok banget buat kulit berminyak — bersih, tapi nggak ketarik. Kalau kamu udah pernah coba, beneran nggak bakal lirik yang lain. Mumpung promonya masih ada, checkout di keranjang kuning di bawah, lebih hemat!"
   }

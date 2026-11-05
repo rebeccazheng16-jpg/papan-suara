@@ -6,14 +6,14 @@
   "id": "VEIRFOO Purple Tube"
  },
  "hook": {
-  "zh": "懒人素颜霜，30秒出门",
-  "id": "Males dandan? Oles 30 detik, langsung bisa berangkat!"
+  "zh": "懒人急救素颜霜，30秒出门",
+  "id": "Males dandan tapi pengen wajah segar? Oles 30 detik, langsung bisa berangkat!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO小紫管素颜霜（盖子拧开）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Purple Tube (sudah dibuka tutupnya)."
+  "zh": "产品：VEIRFOO小紫管素颜霜。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Purple Tube. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
+    "zh": "素颜，脸上无妆",
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。把产品挤到画面左侧脸颊上。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk ke pipi kiri (di kamera)."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pagi-pagi males banget dandan? Cobain deh VEIRFOO Purple Tube. Cara pakainya sama persis kayak kamu pakai pelembap biasa, jadi praktis banget. Nih lihat, sisi yang ini udah aku oles — buatku lembap, kelihatan mulus kayak kulit bawaan lahir."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹产品，右侧脸颊素颜",
-    "id": "Pipi kiri (di kamera) sudah ada produk, pipi kanan (di kamera) masih bersih tanpa makeup."
+    "zh": "左脸已涂抹产品，右脸未涂抹",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "用手指指向画面右侧脸颊。",
-    "id": "Tunjuk pipi kanan (di kamera) dengan jari."
+    "zh": "一侧脸已涂抹产品，另一侧脸未涂抹，以便对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Sisi yang belum dioles tuh kusam, kuning, sama merah-merah. Sekarang lihat sisi yang udah — kusam sama merahnya buatku ketutup hampir semua. Didekatin pun nggak kelihatan cakey, kayak emang kulitku sebagus ini."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹产品，右侧脸颊素颜",
-    "id": "Pipi kiri (di kamera) sudah ada produk, pipi kanan (di kamera) masih bersih tanpa makeup."
+    "zh": "左脸已涂抹产品，右脸未涂抹",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。把产品挤到画面左侧脸颊上。然后近距离展示涂抹开的质地。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk ke pipi kiri (di kamera). Lalu dekatkan kamera untuk menunjukkan teksturnya saat diratakan."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku kasih lihat teksturnya ya. Krim putih yang lembut banget, gampang diratain. Rasanya kayak krim serum yang biasa kamu pakai malam — adem di wajah, makin diratain makin nyatu, kulitku berasa makin cerah."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "画面左侧脸颊已涂抹产品，右侧脸颊素颜",
-    "id": "Pipi kiri (di kamera) sudah ada produk, pipi kanan (di kamera) masih bersih tanpa makeup."
+    "zh": "左脸已涂抹产品，右脸未涂抹",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。最后指向画面左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah layar."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pas buru-buru mau berangkat kerja atau cuma keluar beli sesuatu, males dandan tapi pengin wajah kelihatan segar — cobain ini deh. Oles 30 detik, langsung bisa berangkat. Beneran penyelamat buat yang males dandan. Harganya cuma segini loh, original Korea. Cek keranjang kuning di bawah ya."
   }

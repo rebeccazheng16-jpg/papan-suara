@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 袋装 21 片",
-  "id": "Sicenari PDRN Collagen Shot Mask (isi 21)"
+  "id": "Sicenari PDRN Collagen Mask (isi 21)"
  },
  "hook": {
-  "zh": "皮肤日记：21天玻璃肌",
-  "id": "Skin diary: 21 hari jadi glass skin"
+  "zh": "谁能想到？韩国皮肤科都在用的面膜",
+  "id": "Siapa sangka, masker yang dipakai di klinik kulit Korea!"
  },
- "src": "TikTok @agallery8",
+ "src": "TikTok @agallery8 NPURE",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好Sicenari袋装面膜（袋子要鼓有厚度），面膜纸，如果可以的话，准备一个头带。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan pouch (pastikan pouch terlihat tebal dan berisi), dan lembaran maskernya. Kalau bisa, siapkan bando atau jepit rambut."
+  "zh": "SICENARI PDRN 面膜袋装（21 片装），素颜，无妆，无面膜，无乳霜，无痘痘，无红肿。",
+  "id": "Masker Sicenari PDRN (kemasan isi 21 lembar). Wajah bersih tanpa makeup, tanpa masker, tanpa krim, tanpa jerawat atau kemerahan."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊轻微泛红干燥",
-    "id": "Wajah bersih tanpa makeup, pipi sedikit kemerahan dan kering"
+    "zh": "素颜，脸颊微红干燥",
+    "id": "Wajah bersih, pipi sedikit merah dan kering"
    },
    "do": {
-    "zh": "素颜，脸颊轻微泛红干燥。拍摄时，嘴巴保持闭合，不要张开。每个镜头都从不同角度拍摄，光线和背景也不同，但都在卧室里。第一个镜头穿粉色拉链开衫，第三个镜头穿灰色T恤和米色发带，第五个镜头穿白色交叉领长袖上衣。",
-    "id": "Wajah bersih tanpa makeup, pipi sedikit kemerahan dan kering. Saat merekam, mulut tetap tertutup rapat, jangan dibuka. Setiap adegan diambil dari sudut yang berbeda, dengan pencahayaan dan latar belakang yang berbeda, tapi semua di kamar tidur. Adegan pertama memakai kardigan ritsleting pink, adegan ketiga memakai kaus abu-abu dan bando krem, adegan kelima memakai atasan lengan panjang putih dengan kerah silang."
+    "zh": "",
+    "id": ""
    },
    "lines": "Siapa sangka ya, ini masker PDRN dari Sicenari, beneran dipakai di klinik kulit Korea. PDRN ini diekstrak dari salmon, strukturnya mirip banget sama kulit manusia, makanya jadi bahan yang berharga banget."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤水润，无泛红",
-    "id": "Wajah bersih tanpa makeup, kulit lembap, tidak ada kemerahan"
+    "zh": "素颜，无泛红，皮肤水润有光泽",
+    "id": "Wajah bersih, tidak ada kemerahan, kulit lembap dan bercahaya"
    },
    "do": {
-    "zh": "素颜，皮肤水润，无泛红。拍摄时，嘴巴保持闭合，不要张开。第一个镜头穿棕色长袖上衣，戴珍珠发夹，一只手拿着Sicenari袋装面膜，袋子正面朝向镜头，袋身饱满。第三个镜头穿薄荷绿短袖针织上衣，双手空着。",
-    "id": "Wajah bersih tanpa makeup, kulit lembap, tidak ada kemerahan. Saat merekam, mulut tetap tertutup rapat, jangan dibuka. Adegan pertama memakai atasan lengan panjang cokelat dan jepit rambut mutiara, satu tangan memegang pouch masker Sicenari, bagian depan pouch menghadap kamera, pouch terlihat penuh. Adegan ketiga memakai atasan rajut lengan pendek hijau mint, tangan kosong."
+    "zh": "展示产品，标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sicenari berani langsung tulis kadarnya di kantong. Kulitku tiap ganti musim langsung merah dan kering, eh pakai sebulan aku ngerasa udah kayak glass skin cewek Korea."
   },
@@ -53,8 +53,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "只露一只手。Sicenari袋装面膜立在床上，袋身饱满。用一只手打开拉链，然后从袋中取出一片面膜纸，让精华液滴落。",
-    "id": "Hanya satu tangan yang terlihat. Pouch masker Sicenari berdiri tegak di tempat tidur, terlihat penuh. Gunakan satu tangan untuk membuka ritsleting, lalu ambil selembar masker dari dalam pouch, biarkan esens menetes."
+    "zh": "",
+    "id": ""
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, harganya juga bikin kaget, langsung bebas maskeran tiap hari."
   },
@@ -65,11 +65,11 @@
    "broll": false,
    "face": {
     "zh": "脸上敷着面膜",
-    "id": "Wajah sudah memakai masker"
+    "id": "Wajah sudah pakai masker"
    },
    "do": {
-    "zh": "脸上敷着面膜。拍摄时，嘴巴保持闭合，不要张开。第一个镜头只拍侧脸，眼睛闭着。第二个镜头眼睛睁开，微笑，一只手拿着Sicenari袋装面膜遮住下半脸，另一只手指向左下角。",
-    "id": "Wajah sudah memakai masker. Saat merekam, mulut tetap tertutup rapat, jangan dibuka. Adegan pertama hanya menampilkan sisi wajah, mata tertutup. Adegan kedua mata terbuka, tersenyum, satu tangan memegang pouch masker Sicenari menutupi bagian bawah wajah, tangan lainnya menunjuk ke sudut kiri bawah."
+    "zh": "展示产品，标志正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tiap lembarnya penuh essence, begitu nempel di wajah rasanya kulit lagi minum air, glek glek glek. Klik keranjang kuning di bawah, cobain satu kantong deh!"
   }

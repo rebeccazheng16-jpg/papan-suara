@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "水光霜 Bling Bling Cream",
-  "id": "Bling Bling Cream dari VEIRFOO"
+  "id": "Bling Bling Cream VEIRFOO"
  },
  "hook": {
-  "zh": "一个我从不跳过的护肤步骤",
-  "id": "satu step yang nggak pernah aku skip"
+  "zh": "一抹水光不油腻",
+  "id": "Satu step yang nggak pernah aku skip"
  },
  "src": "TikTok @inka.choices",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO Bling Bling Cream（新版透明盖）。素颜，或只化淡妆。",
-  "id": "Produk: VEIRFOO Bling Bling Cream (kemasan baru tutup transparan). Wajah bersih tanpa makeup, atau makeup tipis saja."
+  "zh": "素颜，准备好产品（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，或只化淡妆",
-    "id": "wajah bersih tanpa makeup, atau makeup tipis saja"
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。在脸颊上涂抹产品，然后用指尖轻拍至吸收。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di pipi, lalu tepuk-tepuk dengan ujung jari sampai meresap."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Hai guys, lihat deh. Kok bisa ya, habis pakai ini kulitku berasa se-glowing ini, lihat."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已涂抹产品，有水光感",
-    "id": "wajah sudah ada produk, terlihat glowing"
+    "zh": "脸上已经涂了产品",
+    "id": "Wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Nah, kalau kalian mau kulit glowing, lihat, tapi pengen tetap nggak berminyak walaupun keluar di cuaca sepanas ini, wajib cobain ini, Bling Bling Cream dari VEIRFOO."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已涂抹产品，有水光感",
-    "id": "wajah sudah ada produk, terlihat glowing"
+    "zh": "脸上已经涂了产品",
+    "id": "Wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。在手臂上挤出产品，然后用指尖轻推至吸收。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Keluarkan produk di lengan, lalu ratakan dengan ujung jari sampai meresap."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di Korea harganya segini loh. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Bling Bling Cream ini teksturnya lembut dan creamy, kayak yogurt, jadi gampang diratakan dan nyaman banget di wajah."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已涂抹产品，有水光感",
-    "id": "wajah sudah ada produk, terlihat glowing"
+    "zh": "脸上已经涂了产品",
+    "id": "Wajah sudah pakai produk"
    },
    "do": {
-    "zh": "用指尖轻按脸颊，展示皮肤的弹性和紧致。",
-    "id": "Tekan lembut pipi dengan ujung jari, tunjukkan kulit terasa kenyal dan kencang."
+    "zh": "按压脸颊。",
+    "id": "Tekan pipi pas bilang kenyal."
    },
    "lines": "Dan bukan cuma melembapkan aja, setelah aku pakai, aku ngerasa kulitku juga lebih kencang dan kenyal. Jadi lebih praktis, karena primer, krim, toner, dan lotion jadi satu."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已涂抹产品，有水光感",
-    "id": "wajah sudah ada produk, terlihat glowing"
+    "zh": "脸上已经涂了产品",
+    "id": "Wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用另一只手指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tunjuk ke arah kiri bawah dengan tangan yang lain."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Klik keranjang kuning di kiri bawah, lagi ada harga spesial, langsung checkout ya!"
   }

@@ -2,18 +2,18 @@
  "id": "S0137",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Collagen Bomb Mask"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "SICENARI sheet mask PDRN 21 lembar"
  },
  "hook": {
-  "zh": "无口播敷面膜",
-  "id": "Pakai masker tanpa bicara"
+  "zh": "敷面膜全过程，无口播",
+  "id": "Proses pakai masker, tanpa ngomong"
  },
- "src": "抖音 阜阳娟子 梦希蓝眼膜贴",
+ "src": "抖音 阜阳娟子",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜（21片装），素颜，脸部无妆。",
-  "id": "Masker SICENARI kemasan pouch (isi 21), muka bersih tanpa makeup."
+  "zh": "SICENARI 袋装面膜（21 片装），素颜",
+  "id": "Masker SICENARI kemasan pouch (isi 21), muka bersih tanpa makeup"
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用两根手指从袋子里取出一片面膜，让精华液滴回袋中。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ambil satu lembar masker dari pouch dengan dua jari, biarkan esens menetes kembali ke dalam pouch."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -34,12 +34,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "脸上已经敷好面膜。",
-    "id": "Masker sudah terpasang di wajah."
+    "zh": "脸上已敷好面膜",
+    "id": "Masker sudah terpasang di wajah"
    },
    "do": {
-    "zh": "用指尖轻压面膜，从眼下向外抚平。然后用双手捧住敷好面膜的脸。",
-    "id": "Dengan ujung jari, tekan lembut masker dari bawah mata ke arah pelipis. Lalu tangkupkan kedua telapak tangan di pipi yang sudah memakai masker."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -49,12 +49,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "脸上已经敷好面膜。",
-    "id": "Masker sudah terpasang di wajah."
+    "zh": "脸上已敷好面膜",
+    "id": "Masker sudah terpasang di wajah"
    },
    "do": {
-    "zh": "用双手捏住发际线处的面膜边缘，从额头到下巴，将整片面膜一次性撕下。然后用双手框住干净透亮的脸。",
-    "id": "Dengan kedua tangan, pegang ujung masker di garis rambut, lalu tarik seluruh masker ke bawah dari dahi sampai dagu. Lalu bingkai wajah yang bersih dan glowing dengan kedua tangan."
+    "zh": "剥下面膜，从额头到下巴。",
+    "id": "Kelupas maskernya dari dahi ke dagu."
    },
    "lines": ""
   }

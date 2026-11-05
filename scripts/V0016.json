@@ -6,14 +6,14 @@
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "我的脸瞬间超级水光",
-  "id": "Mukaku langsung glowing parah"
+  "zh": "原来拥有韩式水光肌这么简单！",
+  "id": "Ternyata dapetin glass skin ala Korea gampang banget!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，无妆。准备 VEIRFOO 水光霜和气垫粉扑。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produk VEIRFOO Blingbling Cream dan cushion puff."
+  "zh": "准备 VEIRFOO 水光霜和气垫粉扑，从干净的素颜开始。",
+  "id": "Siapin VEIRFOO Blingbling Cream sama cushion puff. Mulai dengan muka bersih tanpa makeup ya."
  },
  "shots": [
   {
@@ -25,8 +25,8 @@
     "id": "Muka bersih"
    },
    "do": {
-    "zh": "在半边脸上涂抹产品，然后将产品举到脸颊旁展示。",
-    "id": "Oleskan produk ke separuh wajah, lalu tunjukkan produknya di sebelah pipi."
+    "zh": "一边脸用产品，另一边不用，这样能看出区别。展示产品时 logo 正面朝向镜头。",
+    "id": "Pakai di satu sisi wajah aja, biar bedanya kelihatan. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Coba dulu deh, mukaku langsung glowing parah. Ternyata buatku dapetin glass skin ala Korea gampang banget ya! Ini nih, VEIRFOO Blingbling Cream dari Korea. Praktis banget, cukup satu produk ini aja buat melengkapi skincare harian."
   },
@@ -35,12 +35,12 @@
    "sec": 11,
    "talk": true,
    "face": {
-    "zh": "已涂抹水光霜",
-    "id": "Sudah pakai Blingbling Cream"
+    "zh": "涂了水光霜之后",
+    "id": "Muka sudah pakai Blingbling Cream"
    },
    "do": {
-    "zh": "用气垫粉扑在脸上拍上粉底，然后双手（如果用三脚架）将产品举到脸颊旁。",
-    "id": "Tepuk-tepuk foundation pakai cushion puff, lalu pegang produk di sebelah pipi dengan kedua tangan (kalau pakai tripod)."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku ngerasa kulitku glowing dari dalam. Mau pakai foundation apa pun, hasil akhirnya tetap kelihatan kayak glass skin ala Korea. Original Korea, harganya cuma segini loh! Cek keranjang kuning di bawah, ya"
   }

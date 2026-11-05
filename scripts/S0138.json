@@ -2,18 +2,18 @@
  "id": "S0138",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
-  "id": "SICENARI sheet mask pouch isi 21"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI Sheet Mask PDRN 9.900ppm"
  },
  "hook": {
-  "zh": "好久不见，还能认出我吗",
-  "id": "Udah lama nggak ketemu, masih ngenalin aku nggak?"
+  "zh": "敷面膜前后对比",
+  "id": "Perbandingan sebelum dan sesudah pakai masker"
  },
  "src": "TikTok @辣辣不甜",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜（21 片装），素颜，脸颊轻微泛红、肤色微微暗沉。",
-  "id": "SICENARI sheet mask pouch (isi 21), muka bare face, kulit agak kemerahan dan kusam."
+  "zh": "SICENARI 袋装面膜，素颜，脸颊轻微泛红、肤色微微暗沉",
+  "id": "Masker SICENARI kemasan pouch, wajah bersih tanpa makeup, kulit agak kemerahan dan sedikit kusam"
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊轻微泛红、肤色微微暗沉。",
-    "id": "Muka bare face, kulit agak kemerahan dan kusam."
+    "zh": "素颜，脸颊轻微泛红、肤色微微暗沉",
+    "id": "Wajah bersih tanpa makeup, kulit agak kemerahan dan sedikit kusam"
    },
    "do": {
-    "zh": "双手同时轻抚脸颊；展示打开的面膜袋，取出一片面膜；将面膜敷在脸上并抚平。",
-    "id": "Usap pipi dengan kedua tangan; tunjukkan pouch masker yang terbuka, ambil satu masker; tempelkan masker ke wajah dan ratakan."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，或面膜刚揭下后的素颜。",
-    "id": "Pakai masker, atau muka bare face setelah masker dilepas."
+    "zh": "敷面膜",
+    "id": "Pakai masker"
    },
    "do": {
-    "zh": "轻拍面膜；揭下面膜；用手指在脸颊比耶；展示面膜袋并指向左下角。",
-    "id": "Tepuk-tepuk masker; lepas masker; buat tanda V di pipi; tunjukkan pouch masker dan arahkan jari ke kiri bawah."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   }

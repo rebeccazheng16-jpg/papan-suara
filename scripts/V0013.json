@@ -2,18 +2,18 @@
  "id": "V0013",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 素颜霜 (Sodium DNA Firming Tone-Up Primer)",
+  "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
   "id": "VEIRFOO Sodium DNA Primer"
  },
  "hook": {
-  "zh": "别再买贵的妆前乳了",
+  "zh": "别再买贵价妆前乳了",
   "id": "Stop beli primer mahal!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 素颜霜。素颜，脸上无妆。",
-  "id": "Produk: VEIRFOO Sodium DNA Primer. Wajah bersih tanpa makeup."
+  "zh": "VEIRFOO 素颜霜（盖子盖好，标签朝前）。素颜，不化妆。",
+  "id": "VEIRFOO Sodium DNA Primer (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上无妆。",
+    "zh": "素颜，不化妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "在右脸颊涂抹产品，然后轻拍脸颊。",
-    "id": "Oleskan produk di pipi kanan, lalu tepuk-tepuk pipi."
+    "zh": "半边脸涂抹产品，半边脸不涂，以便对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Stop dulu beli primer mahal! Cobain VEIRFOO Sodium DNA Primer ini. Teksturnya ringan, nyaman dipakai, dan bikin makeup kelihatan lebih nyatu di kulit. Serius deh, wajib banget dicoba!"
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
-    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
+    "zh": "半边脸已涂抹产品，半边脸未涂。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Awalnya aku tahu produk ini dari temen dokter aku. Jujur, nggak nyangka cuma pakai ini aja aku ngerasa kulitku lebih glowing ala glass skin Korea. Apalagi ini original Korea dan sekarang harganya cuma segini. Jadi buat apa beli yang mahal kalau ada yang sebagus ini?"
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
-    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
+    "zh": "素颜，不化妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "在右脸颊打圈涂抹产品，然后轻戳脸颊。",
-    "id": "Oleskan produk di pipi kanan dengan gerakan memutar, lalu sentuh-sentuh pipi."
+    "zh": "半边脸涂抹产品，半边脸不涂，以便对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Teksturnya ringan banget kayak lotion. Sekali oles langsung nyatu di kulit. Buatku tampilannya lebih cerah tanpa terasa berminyak. Jujur, hasilnya nggak kalah sama primer mahal yang biasa aku pakai. Sumpah, aku kaget!"
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
-    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
+    "zh": "半边脸已涂抹产品，半边脸未涂。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sodium DNA Dual Repair-nya di kulitku ringan, nggak bikin terasa berat sama sekali. Praktisnya lagi, cukup satu produk ini aja untuk melengkapi skincare dan jadi base makeup sehari-hari."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
-    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
+    "zh": "半边脸已涂抹产品，半边脸未涂。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "VEIRFOO memang dikenal fokus mengembangkan formula Sodium DNA. Kandungannya simpel dan nyaman dipakai sehari-hari. Kalau lagi cari produk yang praktis dan worth it, produk ini layak banget dicoba. Yuk, langsung cek keranjang kuning di bawah, ya!"
   }

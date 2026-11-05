@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "我以为的素颜 vs 我真实的素颜",
-  "id": "Ekspektasi muka bare face vs Realita muka bare face"
+  "id": "Ekspektasi muka bare face-ku vs Realita muka bare face-ku"
  },
  "src": "TikTok @nia_sari290",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）。皮肤：素颜，不化妆。",
-  "id": "Produk: VEIRFOO Purple Tube Tone-Up Cream (tutup terpasang, label menghadap kamera). Kulit: muka bersih tanpa makeup."
+  "zh": "素颜，不化妆。产品：VEIRFOO小紫管素颜霜（盖子盖好，标签朝前）。",
+  "id": "Muka bare face, tanpa makeup. Produk: VEIRFOO Purple Tube Tone-Up Cream (tutup terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -33,13 +33,10 @@
    "sec": 10,
    "talk": false,
    "broll": false,
-   "face": {
-    "zh": "全脸已涂抹素颜霜，肤色提亮。",
-    "id": "Seluruh wajah sudah memakai tone-up cream, warna kulit lebih cerah."
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

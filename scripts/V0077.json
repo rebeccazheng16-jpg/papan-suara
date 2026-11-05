@@ -12,8 +12,8 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜出镜。",
-  "id": "Wajah bersih tanpa makeup."
+  "zh": "素颜，准备好产品（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无泡沫",
-    "id": "Wajah bersih tanpa busa"
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "双手轻按脸颊，向外轻拉皮肤，然后松开，好像在感受皮肤的紧绷感。然后用指尖摩擦鼻翼，再把指尖抬到眼前，指腹上应该有清晰的油光。",
-    "id": "Tekan kedua tangan ke pipi, tarik kulit keluar lalu lepaskan, seolah merasakan kulit mengencang. Lalu gosokkan jari di samping cuping hidung dan angkat jari ke mata; harus ada lapisan minyak yang jelas berkilau di bantalan jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Habis cuci muka langsung ketarik dan kering, eh nggak lama udah berminyak parah lagi? Kamu tuh sebenernya bukan kulit berminyak — sabun muka soap-base itu yang ngerusak skin barrier kamu."
   },
@@ -38,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手背上涂抹一层普通白色皂基洁面乳，看起来非常干燥。另一只手的手指尝试推开它，但它会拖拽，留下不均匀的颗粒和斑驳的条纹，并且无法铺展。然后用钢丝绒擦洗前臂，皮肤会迅速变红并出现细小的划痕。然后特写脸颊，皮肤看起来紧绷、片状，并有泛红。用一个指尖按压脸颊，然后抬起，皮肤回弹非常缓慢。最后，双手张开，轻轻摇头，然后伸直一根食指指向自己的脸颊。",
-    "id": "Oleskan sabun muka putih biasa di punggung satu tangan; itu terlihat sangat kering. Jari-jari tangan yang lain mencoba mendorongnya, tetapi menyeret, meninggalkan butiran tidak rata dan garis-garis tidak merata, dan menolak untuk menyebar. Lalu gosokkan sabut baja ke lengan bawah; kulit cepat memerah dan muncul goresan tipis. Lalu dekatkan ke pipi; kulit terlihat kencang dan mengelupas dengan bercak kemerahan. Tekan satu jari ke pipi dan angkat; kulit memantul sangat lambat. Terakhir, buka kedua tangan, gelengkan kepala perlahan, lalu luruskan satu jari telunjuk dan arahkan ke pipi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Sabun muka biasa harus dikucek keras, soap-base-nya kayak sabut kawat — kotoran keangkat, lapisan pelindung ikut keangkat. Kulit rusak jadi produksi minyak berlebihan buat nyelametin diri. Ini lingkaran setan: kering di dalam, berminyak di luar."
   },
@@ -50,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "双手藏在背后。提到产品时，一只手从背后拿出产品，举到脸颊旁边，与脸部同高，瓶盖关闭，正面朝向镜头。然后打开瓶盖，挤出少量乳白色乳液到一只手掌中。另一只手加一点水，然后两只手掌合拢揉搓，快速形成大量细腻、浓密的白色泡沫。然后将泡沫涂抹到脸上，用指腹非常轻柔地打圈按摩。",
-    "id": "Sembunyikan kedua tangan di belakang punggung. Saat menyebutkan produk, satu tangan mengeluarkan produk dari belakang dan mengangkatnya di samping pipi setinggi wajah, tutup tertutup, bagian depan menghadap kamera. Lalu buka tutup perak, peras sedikit losion putih susu ke satu telapak tangan. Tangan yang lain menambahkan sedikit air dan kedua telapak tangan menekan bersama dan menggosok; gumpalan besar busa putih yang sangat halus dan padat dengan cepat muncul di antara keduanya. Lalu oleskan busa ke wajah dan pijat dengan gerakan melingkar yang sangat lembut dengan bantalan jari."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kamu yang mau nyelametin kulitnya, cobain deh VEIRFOO Cloud Cleanser dari Korea ini. Busanya halus banget, kayak cuci muka pakai awan. Minyak, debu, sisa makeup keangkat semua — lembut, nol tarikan, enak banget di muka."
   },
@@ -62,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手将产品竖直举到脸颊旁边，与脸部同高，瓶盖关闭，正面朝向镜头。提到成分名称时，另一只手抬起，伸直食指指向画面上方，眼睛向上看，手指保持不动。然后拍摄静物，产品竖直放置在梳妆台上，旁边是一排国际高端精华液。",
-    "id": "Satu tangan memegang produk tegak di samping pipi setinggi wajah, tutup tertutup, bagian depan menghadap kamera. Saat menyebutkan nama bahan, angkat tangan yang lain dan arahkan jari telunjuk lurus ke bagian atas bingkai, mata mengikuti ke atas, dan jari tetap diam di sana. Lalu rekam still-life produk yang berdiri tegak di meja rias di depan deretan serum mewah internasional."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kandungannya juga nggak main-main. Bifida Ferment — kandungan mahal yang dipakai serum-serum high-end itu — di tube ini ada di urutan kedua!"
   },
@@ -74,8 +74,8 @@
    "broll": true,
    "face": null,
    "do": {
-    "zh": "使用你手机里现有的户外、阳光明媚、皮肤清透水润的日常视频素材，或者拍摄新的。闭上眼睛，微风吹拂，皮肤清透水润。",
-    "id": "Gunakan rekaman video sehari-hari yang sudah ada di ponselmu yang menampilkan suasana outdoor, cerah, dan kulitmu terlihat bersih dan lembap, atau rekam yang baru. Mata terpejam, angin sepoi-sepoi, kulit bersih dan lembap."
+    "zh": "可以用手机里现有的生活化视频素材。",
+    "id": "Bisa pakai klip video natural sehari-hari yang sudah ada di HP kamu."
    },
    "lines": "Setelah aku pakai, barrier kulitku berasa lebih kuat, masalah kulitku pelan-pelan berkurang: kulitku berasa lebih kuat, kusamku memudar, kemerahanku mereda, kulitku berasa lebih sehat. Bersih, sekaligus kulitku berasa terawat."
   },
@@ -83,11 +83,11 @@
    "n": 6,
    "sec": 11,
    "talk": true,
-   "broll": false,
+   "broll": true,
    "face": null,
    "do": {
-    "zh": "空手，指尖轻触脸颊，真诚地看着镜头。然后空手，放松，眉毛轻微上扬，带着自然的微笑，身体微微前倾。",
-    "id": "Tangan kosong, ujung jari menyentuh pipi dengan ringan, tatap kamera dengan tulus. Lalu tangan kosong dan rileks; dengan sedikit mengangkat alis dan senyum alami yang mencapai mata, condongkan tubuh sedikit ke depan."
+    "zh": "可以用手机里现有的生活化视频素材。",
+    "id": "Bisa pakai klip video natural sehari-hari yang sudah ada di HP kamu."
    },
    "lines": "Ini asli produksi Korea, BPOM-nya ada. Aku sendiri udah repurchase berkali-kali — beneran aman dan terpercaya. Dulu aku sampai terbang ke Korea buat nyetok, biayanya gede banget. Sekarang value for money-nya maksimal."
   },
@@ -98,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "双手将产品举到脸颊旁边，与脸部同高，瓶盖关闭，正面朝向镜头。然后一只手将产品举到脸颊旁边，与脸部同高，正面朝向镜头，另一只手的食指伸直指向画面左下方。",
-    "id": "Pegang produk dengan kedua tangan di samping pipi setinggi wajah, tutup tertutup, bagian depan menghadap kamera. Lalu satu tangan memegang produk di samping pipi setinggi wajah, bagian depan menghadap kamera, sementara jari telunjuk tangan yang lain lurus menunjuk ke kiri bawah bingkai."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang mau cuci muka sekaligus perbaiki barrier, lawan kusam, dan punya kulit yang stabil dan sehat — langsung klik keranjang kuning di bawah, ya!"
   }

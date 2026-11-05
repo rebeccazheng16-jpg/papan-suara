@@ -2,18 +2,18 @@
  "id": "V0009",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 VEIRFOO Bling Bling Cream",
-  "id": "VEIRFOO Bling Bling Cream"
+  "zh": "VEIRFOO PDRN 晶光面霜",
+  "id": "VEIRFOO PDRN Blingbling Cream"
  },
  "hook": {
-  "zh": "韩国水光霜，一抹即亮",
-  "id": "Krim glowing Korea, sekali pakai langsung cerah!"
+  "zh": "韩国院线PDRN面霜，一抹即亮",
+  "id": "Krim PDRN klinik Korea, langsung glowing!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好），粉底液。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Bling Bling Cream (tertutup rapat) dan foundation cair."
+  "zh": "产品（盖子盖好，标签朝前）；素颜，脸部干净无妆。",
+  "id": "Produk (tutupnya tertutup, label menghadap ke depan); muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊有点暗沉无光",
-    "id": "Wajah bersih tanpa makeup, pipi agak kusam dan tidak bercahaya"
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pakai aja dulu, kalau nggak cocok tinggal balikin kok. Cobain deh krim glowing dari Korea ini."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤清透饱满有光泽",
-    "id": "Wajah bersih tanpa makeup, kulit bersih, kenyal, dan bercahaya"
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面Logo面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Liat nih, aku masih polosan banget, tapi kulitku udah glowing. Krim glowing yang lagi viral gara-gara makeup artist Korea ini, satu tube doang udah gantiin toner, serum, sama pelembab kamu sekaligus."
   },
@@ -52,11 +52,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已涂水光霜，脸颊有几点粉底液",
-    "id": "Sudah pakai Bling Bling Cream, ada beberapa titik foundation cair di pipi"
+    "zh": "脸上已涂面霜，右侧脸颊有几点粉底液。",
+    "id": "Sudah pakai krim, ada beberapa titik foundation di pipi kanan."
    },
    "do": {
-    "zh": "无",
+    "zh": "",
     "id": ""
    },
    "lines": "Jadi pas aku udah pakai krim VEIRFOO ini, foundation-nya tuh jadi jauh lebih nempel, gampang banget diratain walaupun cuma pakai tangan. Ya ampun, nempel banget sih!"
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "带淡妆，皮肤水润有光泽",
-    "id": "Sudah pakai makeup tipis, kulit lembap dan bercahaya"
+    "zh": "已上淡妆，皮肤水润有光泽。",
+    "id": "Sudah pakai makeup tipis, kulit lembap dan glowing."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面Logo面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini krim glowing yang dijual di klinik kecantikan Korea. Di dalemnya ada Salmon PDRN sama peptide, bahan yang sering dipakai serum high-end. Formula semewah ini jarang banget ada di sini."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤柔软饱满有光泽",
-    "id": "Wajah bersih tanpa makeup, kulit lembut, kenyal, dan bercahaya"
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面Logo面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Malam aku pakai, garis halusku berasa keisi, pagi sebelum makeup aku ngerasa glowing kayak cewek Korea, pipi berasa lembut kenyal. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

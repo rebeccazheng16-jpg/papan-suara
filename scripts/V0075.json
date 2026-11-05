@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "注氧小气泡精粹液 VEIRFOO Oxygenated Bubble Essence",
-  "id": "VEIRFOO Oxygenated Bubble Essence"
+  "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "洗脸越洗越脏？试试这个注氧泡泡洁面",
-  "id": "Makin kotor mukanya, makin banyak busanya? Coba pembersih busa oksigen ini!"
+  "zh": "洗脸后皮肤又红又油？试试注氧小气泡！",
+  "id": "Habis cuci muka langsung merah dan berminyak? Coba VEIRFOO Bubble Cleanser!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前）；素颜，脸上无妆。",
-  "id": "Produk (tutup terpasang, label menghadap ke depan); wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）；道具：湿毛巾，手机（开手电筒）；皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Oxygenated Bubble Essence (tutupnya terpasang, label menghadap kamera); Alat: handuk basah, HP (nyalakan senter); Kulit: wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "满脸泡沫",
-    "id": "Wajah berbusa"
+    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
+    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
    },
    "do": {
-    "zh": "脸上涂满泡沫，只露出眼睛和嘴唇。轻轻捏脸颊两次，然后双手举到肩膀旁边，做投降姿势。",
-    "id": "Wajahmu sudah berbusa tebal, hanya mata dan bibir yang bersih. Cubit pipi berbusamu dua kali, lalu angkat kedua tanganmu ke samping bahu dalam pose menyerah."
+    "zh": "",
+    "id": ""
    },
    "lines": "Makin kotor mukanya, makin banyak busanya?? Tiap cuci muka langsung merah dan perih, eh baru sebentar udah berminyak lagi? Itu tandanya kamu lagi kasar banget sama kulit kamu sendiri."
   },
@@ -36,13 +36,10 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。用手机手电筒照亮瓶身底部，展示里面的气泡。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sorotkan senter HP ke bagian bawah botol untuk menunjukkan gelembung di dalamnya."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sabun muka biasa busanya harus dikucek keras, soap-base-nya itu kayak sabut kawat — barrier kulit kamu jadi rusak. Ini bukan serum, tapi pembersih yang berbusa sendiri — VEIRFOO Bubble Cleanser dari Korea."
   },
@@ -51,13 +48,10 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih"
-   },
+   "face": null,
    "do": {
-    "zh": "将产品泵头对准手背，挤出凝胶。保持双手不动，让凝胶自动起泡。然后展示脸上已经起泡的凝胶。",
-    "id": "Arahkan pump produk ke punggung tangan, keluarkan gel. Biarkan tanganmu diam, jangan digosok, biarkan gel berbusa sendiri. Lalu tunjukkan wajahmu yang sudah berbusa."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pas dioles masih bentuk gel, beberapa detik langsung muncul busa halus. Makin banyak kotoran di muka, makin banyak busanya — itu dia lagi ngangkat minyak sama sel kulit mati di permukaan."
   },
@@ -67,12 +61,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "满脸泡沫",
-    "id": "Wajah berbusa"
+    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
+    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
    },
    "do": {
-    "zh": "脸上涂满泡沫，只露出眼睛和嘴唇。展示产品时，产品标志正面始终朝向镜头。用另一只手的食指轻敲瓶身，然后张开手掌，从左向右滑动，展示兰蔻和雅诗兰黛的贴纸。",
-    "id": "Wajahmu sudah berbusa tebal, hanya mata dan bibir yang bersih. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ketuk botol dengan jari telunjukmu, lalu buka telapak tanganmu dan geser dari kiri ke kanan untuk menunjukkan stiker Lancôme dan Estée Lauder."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kulitnya berasa geli-geli seger, kayak lagi treatment ala klinik. Bifida Ferment itu kandungan andalan yang harganya mahal banget — serum-serum high-end itu semua pakai. Di botol ini dia ada di urutan pertama."
   },
@@ -82,12 +76,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "满脸泡沫",
-    "id": "Wajah berbusa"
+    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
+    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
    },
    "do": {
-    "zh": "脸上涂满泡沫，只露出眼睛和嘴唇。用湿毛巾擦掉泡沫，露出干净的皮肤。轻拍脸颊，展示水润光泽。展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Wajahmu sudah berbusa tebal, hanya mata dan bibir yang bersih. Gunakan handuk basah untuk membersihkan busa di wajahmu, lalu tepuk pipimu untuk menunjukkan kulit yang lembap dan berkilau. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tunggu sebentar, lap pakai handuk basah, langsung bersih — sekali langkah bersih, buatku kulit berasa lembap. Dan ini bukan barang jastip nggak jelas: BPOM sama Made in Korea-nya tertera di kemasan. Aku nggak bakal rekomendasiin kalau belum pakai sendiri."
   },
@@ -98,8 +92,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "拍摄第一人称视角，走向 Olive Young 商店入口，然后进入商店，走向 VEIRFOO 专柜。然后展示产品，产品标志正面始终朝向镜头。用手指指向画面下方，然后再次展示产品。",
-    "id": "Ambil video POV (sudut pandang orang pertama) berjalan menuju pintu masuk toko Olive Young, lalu masuk ke dalam toko dan berjalan menuju konter VEIRFOO. Lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jarimu ke bagian bawah layar, lalu tunjukkan produknya lagi."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu aku harus terbang ke klinik Korea cuma buat ini. Bolak-balik capek, tiket sama hotel aja belasan juta. Produknya ya segini. Sekarang di rumah lima menit doang, rasa ala klinik — coba lihat harganya. Buruan cek keranjang kuning di bawah, ya!"
   }

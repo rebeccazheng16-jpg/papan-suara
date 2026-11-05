@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari Collagen Shot Mask"
+  "id": "Masker Sicenari PDRN"
  },
  "hook": {
   "zh": "有一根纹光补水没用 → 敢印在包装上 → 冰凉收紧 → 天天敷不心疼 → 闺蜜要链接",
-  "id": "Ada kerutan cuma pakai hidrasi aja nggak cukup \tberani dicetak di kemasan \tdingin dan kencang \tpakai tiap hari nggak rugi \tteman-teman minta link"
+  "id": "Kalau ada kerutan, pakai masker anti-kerut ini. Ada PDRN 9,900ppm, dingin dan bikin kencang. Bisa dipakai tiap hari, teman-teman pasti minta link-nya!"
  },
- "src": "TikTok @shannondorothea",
+ "src": "抖音 菡菡是我 Panapopo",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封），打开一袋面膜，准备好一片面膜，让精华液滴落。",
-  "id": "Wajah polos tanpa makeup. Siapkan masker Sicenari yang masih tertutup. Buka satu bungkus masker, ambil satu lembar masker, biarkan essence menetes."
+  "zh": "素颜，准备好一袋 SICENARI 面膜（未开封），再准备一片面膜（从袋中取出，精华液滴落状态）",
+  "id": "Wajah polos tanpa makeup. Siapkan satu kantong masker SICENARI (belum dibuka) dan satu lembar masker (sudah dikeluarkan dari kantong, meneteskan essence)."
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "从打开的袋子里拿出一片 masker, 让精华液滴落。",
-    "id": "Angkat satu lembar masker dari kemasan yang terbuka, biarkan essence menetes."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kalau udah mulai muncul satu garis di wajah, cuma hidrasi aja udah nggak cukup, harus pakai masker anti-kerut kayak gini buat perawatan khusus."
   },
@@ -41,8 +41,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指点一下包装上的 PDRN 9,900ppm 字样。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ketuk tulisan PDRN 9,900ppm di kemasan."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Teman-temanku sekarang pakai masker Korea Sicenari ini semua. Lihat, PDRN sembilan ribu sembilan ratus ppm berani dicetak gede di kantongnya, jadi yakin kan?"
   },
@@ -56,8 +56,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "用指尖轻触眼下和脸颊，展示光滑的皮肤。举起一根食指。",
-    "id": "Sentuh kulit di bawah mata dan pipi dengan ujung jari, tunjukkan kulit yang halus. Angkat satu jari telunjuk."
+    "zh": "",
+    "id": ""
    },
    "lines": "Lihat wajah polosku, umurku udah lewat dua puluh lima. Aku sehari selembar, beneran sampai habis satu kantong."
   },
@@ -71,8 +71,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "用双手轻柔地捧住脸颊。用手掌轻压下颌线。从打开的袋子里拿出一片面膜，让精华液滴落。用指尖轻拍脸颊。",
-    "id": "Pegang pipi dengan lembut. Tekan garis rahang dengan telapak tangan. Angkat satu lembar masker dari kemasan yang terbuka, biarkan essence menetes. Tepuk pipi dengan ujung jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Begitu masker ini ditempel, rasanya dingin dan nyaman banget. Aku ngerasa wajahku pelan-pelan lebih kencang, kayak essence-nya ditekan masuk. Terus essence di kantongnya banyak banget, satu lembar diangkat netes terus, kulit sensitif juga bisa pakai. Sekali coba, kamu bakal langsung suka."
   },
@@ -86,8 +86,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。轻拍包装袋两次。举起一根食指。用双手轻柔地按压脸颊。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tepuk kemasan dua kali. Angkat satu jari telunjuk. Tekan pipi dengan lembut."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, sehari pakai selembar nggak sampai tujuh ribu. Kita cewek mau kelihatan awet muda, wajah harus dijaga. Harga segini, tiap hari pakai juga nggak sayang."
   },
@@ -101,8 +101,8 @@
     "id": "Wajah polos"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用食指指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari telunjuk ke kiri bawah."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pakai sebentar, bestie kamu pasti minta link-nya. Link-nya di keranjang kuning kiri bawah!"
   }

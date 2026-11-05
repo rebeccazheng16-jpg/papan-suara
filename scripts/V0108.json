@@ -2,7 +2,7 @@
  "id": "V0108",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "粉水光油霜 Pink Bling Bling Cream",
+  "zh": "粉水光油霜 VEIRFOO Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
@@ -12,8 +12,8 @@
  "src": "Mekri",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 粉水光油霜（盖子盖好，标签朝前）。皮肤：素颜，不化妆。",
-  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Kulit: wajah bersih, tanpa makeup."
+  "zh": "产品：VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。把脸转向光线，展示皮肤看起来清透发光。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Putar wajah ke arah cahaya untuk menunjukkan kulit terlihat bening dan glowing."
+    "zh": "",
+    "id": ""
    },
    "lines": "Guys, lihat deh! Kulitku pas kena sinar matahari langsung, tetap kelihatan bening dan glowing."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。用指尖轻触画面右侧脸颊并移到下巴附近，然后轻拍画面左侧脸颊一次。然后将脸转向光源，展示肌肤清透发光。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Ujung jari menyentuh pipi di sisi kanan frame dan bergerak ke titik dekat rahang, lalu ketuk sekali di pipi di sisi kiri frame. Lalu putar wajah ke arah cahaya untuk menunjukkan kulit terlihat bening dan glowing."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dulu kulitku ada bekas jerawat sama noda. Bekasnya udah hampir nggak kelihatan, cuma di sini agak kering, ada bruntusan dikit. Terus di sini habis makan pedas, muncul satu jerawat. Tapi lihat, kulitku jadi glowing banget."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。展示产品时，产品 logo 正面始终朝向镜头。拧开盖子，挤出少量乳液到画面右侧脸颊，然后用手指涂抹至吸收。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lepaskan tutupnya, peras sedikit lotion berwarna pink cair ke pipi di sisi kanan frame, lalu ratakan dengan jari sampai meresap."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kulit kering itu karena nggak ada minyak yang ngunci airnya. Sekarang aku cuma pakai ini: VEIRFOO Pink Bling Bling Cream, oil cream dari Korea. Keluarnya lotion pink yang cair, sekali oles langsung meleleh kayak air."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。展示产品时，产品 logo 正面始终朝向镜头。用手指向画面左侧，提示观众截图证书。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan tangan ke sisi kiri frame, tunjukkan ke penonton untuk screenshot sertifikat."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini brand beneran loh. Biasanya kita beli yang nggak jelas mereknya aja udah mahal. Sertifikat aslinya dari Korea aku taruh di sini ya, screenshot aja, boleh banget di-screenshot."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。展示产品时，产品 logo 正面始终朝向镜头。用手指在下巴旁边数着肤质。然后轻拍画面右侧脸颊三次。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Hitung jenis kulit dengan jari di samping dagu. Lalu tepuk-tepuk pipi di sisi kanan frame tiga kali dengan ringan."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Kulit kering, berminyak, sensitif, semua bisa pakai. Tipis aja, tepuk-tepuk, langsung nyerap, nggak lengket sama sekali."
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kamu yang bilang pengen kulitku bening, cerah, glowing, yang bilang belum nemu yang murah tapi bagus, di Korea harganya segini loh. Sekarang bandingin sama harga di aku."
   },
@@ -112,12 +112,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "手机就是相机，画面里不出现手机。坐在户外草地，手持自拍左右晃着拍脸，一镜到底不切。展示产品时，产品 logo 正面始终朝向镜头。用手指指向屏幕左下角。",
-    "id": "Ponsel adalah kamera itu sendiri, jangan sampai terlihat di dalam frame. Duduk di rumput luar ruangan, rekam selfie sambil mengayunkan ponsel ke kiri dan kanan untuk merekam wajah, satu pengambilan terus-menerus tanpa potongan. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke sudut kiri bawah layar."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang mau kulit bening kayak aku, klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu, cobain deh!"
   }

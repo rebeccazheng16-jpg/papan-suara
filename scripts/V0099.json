@@ -2,18 +2,18 @@
  "id": "V0099",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "呼吸霜 Breathing Cream",
+  "zh": "VEIRFOO 呼吸霜 Breathing Cream",
   "id": "VEIRFOO Breathing Cream"
  },
  "hook": {
-  "zh": "半脸测试拯救粉底液",
-  "id": "Tes setengah wajah, penyelamat foundation"
+  "zh": "半脸实测拯救粉底液",
+  "id": "Tes setengah wajah, foundation jadi bagus"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "你自己的粉底液，VEIRFOO呼吸霜，粉扑。需要半边脸用普通粉底，半边脸用混合粉底。最后一段需要素颜。",
-  "id": "Foundation kamu sendiri, VEIRFOO Breathing Cream, puff makeup. Nanti ada adegan setengah muka pakai foundation biasa, setengah lagi pakai campuran. Di bagian akhir perlu muka polos tanpa makeup."
+  "zh": "VEIRFOO 呼吸霜、你自己的粉底液、粉扑。开始前，半边脸只涂普通粉底液，另半边脸涂混合了 VEIRFOO 的粉底液。",
+  "id": "VEIRFOO Breathing Cream, foundation kamu sendiri, sama puff. Sebelum mulai, setengah wajah pakai foundation biasa aja, setengah lagi pakai foundation yang udah dicampur VEIRFOO."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 11,
    "talk": true,
    "face": {
-    "zh": "半边脸用普通粉底，半边脸用混合粉底",
-    "id": "Setengah muka pakai foundation biasa, setengah lagi pakai campuran foundation + VEIRFOO"
+    "zh": "半边脸涂普通粉底，另半边脸涂混合粉底",
+    "id": "Setengah wajah foundation biasa, setengah lagi foundation campuran"
    },
    "do": {
-    "zh": "展示半边脸对比：先展示只用普通粉底的一边，再展示混合了呼吸霜的一边。",
-    "id": "Tunjukkan perbandingan setengah wajah: pertama sisi yang pakai foundation biasa, lalu putar ke sisi yang pakai campuran."
+    "zh": "一边脸已经涂了，另一边还没涂，这样能看出区别。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Lihat sendiri seberapa penting penyelamat foundation ini. Dua sisi wajah aku pakai foundation yang sama. Sisi yang cuma foundation, sebentar aja udah cakey dan belang. Sisi satunya yang dicampur ini, buatku kelihatan lebih glowing dan halus."
   },
@@ -36,8 +36,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "展示产品。在手背上展示乳霜质地。",
-    "id": "Tunjukkan produknya. Tunjukkan tekstur krim di punggung tangan."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Penyelamat foundation ini, VEIRFOO Breathing Cream, bisa ngubah semua foundation kamu yang susah dipakai jadi foundation glowing. Kusam, nyangkut di garis halus, kering ngelupas, kelihatan abu-abu — semua masalah base makeup-ku berasa langsung beres. Teksturnya creamy, sekali dibaur langsung nyatu."
   },
@@ -47,8 +47,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "在手背上混合一泵粉底液和半泵呼吸霜，然后涂在脸上。",
-    "id": "Campurkan satu pump foundation dan setengah pump breathing cream di punggung tangan, lalu aplikasikan ke wajah."
+    "zh": "在手背上混合，然后涂到脸上。",
+    "id": "Campur di punggung tangan, lalu pakai ke muka."
    },
    "lines": "Caranya gampang banget: foundation kamu satu pump, ini setengah pump, campur di punggung tangan, langsung pakai ke muka. Hasilnya sebagus ini. Cuma glow yang keluar dari dalam kulit yang bisa ngalahin cakey dan belang. Dicampur, dibaur, selesai — makeup nggak sampai sepuluh menit."
   },
@@ -56,13 +56,10 @@
    "n": 4,
    "sec": 11,
    "talk": true,
-   "face": {
-    "zh": "化好妆（用混合粉底）",
-    "id": "Wajah sudah makeup (pakai campuran foundation)"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品。",
-    "id": "Tunjukkan produknya."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Cuacanya panas banget, paling takut siang-siang makeup udah berminyak dan luntur. Tapi pakai ini, kamu nggak perlu takut. Aku seharian syuting di luar, hampir tiga puluh derajat, sampai malam makeup-nya masih cantik banget."
   },
@@ -70,13 +67,10 @@
    "n": 5,
    "sec": 13,
    "talk": true,
-   "face": {
-    "zh": "化好妆",
-    "id": "Wajah sudah makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品。",
-    "id": "Tunjukkan produknya."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Jangan kira penyelamat foundation ini cuma gimmick. Di dalamnya beneran ada PDRN, bahan berharga dari ekstrak salmon — makeup sambil kulitku berasa terawat. Seminggu aku pakai, kulitku berasa lebih kencang. Keren banget, kan? Sekarang aku hampir tiap hari pakai ini."
   },
@@ -86,8 +80,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "先展示化好妆的样子，然后展示素颜的样子，最后再回到化好妆的样子并展示产品。",
-    "id": "Tunjukkan wajah pas makeup, lalu tunjukkan wajah polos tanpa makeup, lalu kembali ke wajah makeup sambil menunjukkan produknya."
+    "zh": "对比展示带妆和素颜的皮肤状态。展示产品时 标志 正面朝向镜头。",
+    "id": "Bandingin pas lagi makeup sama muka polos. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Makeup-nya rapi banget, kulit tanpa makeup juga buatku kelihatan lebih muda dan kenyal. Ingat, beban makeup ke kulit itu numpuk sedikit demi sedikit. Jadi base makeup kita sendiri harus bisa rawat kulit. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

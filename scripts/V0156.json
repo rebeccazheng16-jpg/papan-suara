@@ -2,18 +2,18 @@
  "id": "V0156",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 Hydra Glow Cream",
+  "zh": "水光霜 Hydra Glow Cream",
   "id": "VEIRFOO Hydra Glow Cream"
  },
  "hook": {
-  "zh": "没钱但想要好护肤品？",
+  "zh": "没钱也想用好护肤品？",
   "id": "Dompet tipis tapi pengen skincare bagus?"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子打开），素颜，无妆。",
-  "id": "Produk (tutupnya dilepas), muka bersih tanpa makeup."
+  "zh": "素颜，产品（盖子盖好，标签朝前）",
+  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Muka bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "用产品管口在脸颊、鼻梁和额头画几道乳白色乳液，然后用另一只手拍开。",
-    "id": "Pakai ujung produk untuk menggambar beberapa garis lotion putih susu di pipi, hidung, dan dahi, lalu tepuk-tepuk dengan tangan yang lain."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kamu sering begadang sampai kulitmu kelihatan kusam dan nggak fresh? Cobain deh pakai ini."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊上已经拍开乳液。",
-    "id": "Lotion sudah meresap di pipi."
+    "zh": "素颜，脸颊已涂抹产品",
+    "id": "Wajah bersih tanpa makeup, satu sisi pipi sudah ada produk"
    },
    "do": {
-    "zh": "拍开乳液，然后展示干净的皮肤。接着，用产品管口在另一边脸颊画几道乳白色乳液。最后，将产品正面朝向镜头，举到脸颊旁边。",
-    "id": "Tepuk-tepuk lotion, lalu tunjukkan kulit yang bersih. Selanjutnya, pakai ujung produk untuk menggambar beberapa garis lotion putih susu di pipi yang lain. Terakhir, tunjukkan produknya, logo bagian depan selalu menghadap kamera, di samping pipi."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku cuma sekali pakai aja, langsung ngerasa kulitku kelihatan fresh dan glowing banget, bahkan tanpa makeup. Di dalamnya ada Salmon PDRN dan juga White Tomato. Ini premium ingredients yang biasa dipakai di klinik kecantikan Korea."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊上已经拍开乳液。",
-    "id": "Lotion sudah meresap di pipi."
+    "zh": "素颜，脸颊已涂抹产品",
+    "id": "Wajah bersih tanpa makeup, satu sisi pipi sudah ada produk"
    },
    "do": {
-    "zh": "用产品管口在额头画几道乳白色乳液，然后用另一只手拍开。接着，用手比一个“OK”的手势，框住脸颊，然后稍微转动脸部，让光线照在皮肤上。",
-    "id": "Pakai ujung produk untuk menggambar beberapa garis lotion putih susu di dahi, lalu tepuk-tepuk dengan tangan yang lain. Selanjutnya, buat gerakan tangan “OK” di pipi, lalu putar sedikit wajah agar cahaya mengenai kulit."
+    "zh": "",
+    "id": ""
    },
    "lines": "Jadinya nggak usah ke klinik, pakai empat belas hari aku ngerasa kulitku kelihatan lebih fresh, lebih glowing. Wah, kulitku kelihatan glowing dan kenyal banget."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸干净，有水润光泽。",
-    "id": "Seluruh wajah bersih dan bercahaya."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "将产品（盖子盖好）正面朝向镜头，举到脸颊旁边。然后，用另一只手做出“stop”的手势，最后指向左下角。",
-    "id": "Tunjukkan produknya (tutupnya sudah terpasang), logo bagian depan selalu menghadap kamera, di samping pipi. Lalu, buat gerakan tangan “stop” dengan tangan yang lain, dan terakhir tunjuk ke arah kiri bawah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu Hydra Glow Cream ini aja udah cukup buat nemenin skincare rutin kamu setiap hari. Bahkan kalian yang punya kulit sensitif juga aman banget ya. Eh guys stop deh, jangan buru-buru beli satuan. Coba cek keranjang kuningku nih."
   }

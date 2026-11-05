@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Masker Korea Sicenari"
+  "id": "masker Korea Sicenari"
  },
  "hook": {
   "zh": "熬夜+晒一天 → 哐哐去敷",
-  "id": "Begadang + seharian kena matahari → langsung pakai masker"
+  "id": "begadang + seharian kena udara lembap → langsung pakai masker"
  },
- "src": "TikTok @tianjiujiu",
+ "src": "抖音 甜久久",
  "cam": "user",
  "prep": {
-  "zh": "准备好 SICENARI 袋装面膜（21 片装），确保面膜是湿润的，精华液充足。素颜，脸上无妆。",
-  "id": "Siapkan masker Sicenari kemasan pouch (isi 21 lembar), pastikan maskernya basah dan banyak essencenya. Wajah bersih tanpa makeup."
+  "zh": "SICENARI 袋装面膜（一袋 21 片），素颜，无妆。",
+  "id": "Masker kantong Sicenari (isi 21 lembar), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "脸上敷着金黄色面膜",
-    "id": "Wajah sudah pakai masker warna kuning keemasan"
+    "zh": "敷着金黄色面膜",
+    "id": "memakai masker warna kuning keemasan"
    },
    "do": {
-    "zh": "从画面上方倒入乳白色精华液，精华液流过的地方面膜会变白。然后快速揭下四次面膜，每次揭膜后皮肤都更透亮。",
-    "id": "Dari atas, tuang essence putih susu ke masker di wajah. Masker akan berubah putih di bagian yang terkena essence. Lalu, lepas masker dengan cepat empat kali, setiap kali kulit terlihat lebih cerah."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -36,10 +36,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Musim hujan gini, kalau kamu masih begadang tiap malam, siangnya seharian kena udara lembap di luar, wajah kelihatan kusam terus, wajib coba masker Korea Sicenari ini!"
   },
@@ -48,10 +51,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "轻拍面膜袋，然后举起一根手指。",
-    "id": "Tepuk-tepuk kemasan masker, lalu angkat satu jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, dihitung-hitung sehari pakai selembar nggak sampai tujuh ribu."
   },
@@ -60,10 +66,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "轻拍面膜袋，然后展示产品，产品 logo 正面始终朝向镜头。",
-    "id": "Tepuk-tepuk kemasan masker, lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pasti ada yang bilang, semurah ini emang bagus? Di masker, makin depan urutan bahannya, makin banyak kadarnya. Banyak masker bahan pertamanya cuma air. Bahan pertama Sicenari itu Bifida, sama sekali bukan air, dan di dalamnya juga ada PDRN."
   },
@@ -72,10 +81,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "撕开面膜袋封条，拉开拉链，取出一片面膜，展示袋底的精华液，然后轻拍脸颊。",
-    "id": "Sobek segel kemasan masker, buka resletingnya, ambil satu lembar masker, tunjukkan essence di dasar kemasan, lalu tepuk-tepuk pipi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Lihat, begitu kantongnya dibuka, essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, semuanya meresap ke kulit, kulit sensitif juga bisa pakai."
   },
@@ -84,10 +96,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "敷着白色面膜",
+    "id": "memakai masker putih"
+   },
    "do": {
-    "zh": "脸上敷着面膜，然后揭下面膜，轻按脸颊，最后展示产品并指向左下角。",
-    "id": "Wajah pakai masker, lalu lepas masker, tekan pipi dengan lembut, terakhir tunjukkan produk dan arahkan jari ke kiri bawah."
+    "zh": "说‘Q弹’时按压脸颊。",
+    "id": "Tekan pipi pas bilang kenyal. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau semalam tidur kemalaman, besoknya kulit kusam dan lesu, langsung aja tempel masker ini, aku ngerasa wajahku jadi lembut dan kenyal. Klik keranjang kuning di kiri bawah, cobain sekantong dulu!"
   }

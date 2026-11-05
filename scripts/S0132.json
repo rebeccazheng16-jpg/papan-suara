@@ -2,18 +2,18 @@
  "id": "S0132",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
-  "id": "Sicenari sheet mask PDRN 9,900ppm"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI sheet mask PDRN"
  },
  "hook": {
-  "zh": "黑头躲在毛孔缝里，绿泥进得去",
-  "id": "Komedi animasi 3D: Komedo bersembunyi di pori-pori, masker biasa nggak bisa masuk"
+  "zh": "干纹里的黑头嘲笑普通面膜进不去，SICENARI面膜精华灌满撑平干纹",
+  "id": "Komedo di kerutan mengejek masker biasa tidak bisa masuk, masker SICENARI mengisi kerutan dengan essence sampai rata"
  },
  "src": "抖音 BUV笔薇官方旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封），如果可以，准备好一个三脚架。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan pouch (masih tersegel). Kalau bisa, pakai tripod."
+  "zh": "SICENARI 袋装面膜（21片装），素颜，无妆。",
+  "id": "Masker SICENARI kemasan pouch (isi 21 lembar), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画，不需要真人出镜。",
-    "id": "Ini animasi, kamu tidak perlu muncul."
+    "zh": "",
+    "id": ""
    },
    "lines": "Hmm, tunggu si pemilik wajah pakai masker aja. Hahaha, percuma! Aku ngumpet di celah garis kering, dia nggak bisa masuk. Kok mengelupas lagi? Cuma formalitas, nggak ngefek."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画，不需要真人出镜。",
-    "id": "Ini animasi, kamu tidak perlu muncul."
+    "zh": "",
+    "id": ""
    },
    "lines": "Datang lagi, masker Korea namanya Sicenari. Ah, paling sama aja. Gawat! Di dalamnya ada PDRN, essence-nya juga dituang sekantong penuh, aku jadi nggak tenang!"
   },
@@ -46,12 +46,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini nggak usah dihemat, sehari satu lembar cukup, soalnya essence-nya banyak banget. Tapi jangan dipakai kalau kulitmu nggak kering, soalnya kulitku aja berasa lembut banget, dicubit aja keluar air. Aku rutin pakai tiap malam sebelum tidur, bangun besoknya kerasa ada kejutan."
   },
@@ -62,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Lihat, begitu kantongnya dibuka, essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, di dasar kantong masih sisa banyak, sekalian aku oles ke leher."
   },
@@ -73,12 +73,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Habis maskeran, garis keringku, kulit mengelupasku, kusamku, semuanya berasa jadi lembap, kulit kayak lagi minum air banyak-banyak. Aku udah rekomendasiin ke banyak teman, semuanya bilang enak."
   },
@@ -88,12 +88,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wajib cobain kalau kulitmu kering atau sensitif. Harganya berapa? Kamu tanya berapa? Murahnya sampai aku nggak berani sebut, dan itu buat satu kantong isi 21 lembar. Klik keranjang kuning di kiri bawah, cek harganya sekarang, beli satu kantong dulu buat coba!"
   }

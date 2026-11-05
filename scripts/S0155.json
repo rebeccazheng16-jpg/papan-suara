@@ -6,14 +6,14 @@
   "id": "masker Sicenari"
  },
  "hook": {
-  "zh": "毛孔/笑纹/眼下松→每晚睡前用→睡醒更好看",
-  "id": "Pori-pori besar, smile line, bawah mata kendur? Pakai ini sebelum tidur, besok pagi lebih bagus!"
+  "zh": "毛孔、笑纹、眼下松弛？睡前用，睡醒更好看",
+  "id": "Pori-pori besar, smile line, atau bawah mata kendur? Pakai ini sebelum tidur, besok paginya lebih bagus."
  },
  "src": "TikTok @bungaedelweis04",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI袋装面膜（未开封），一张已开封的SICENARI面膜（已取出面膜纸），一张SICENARI面膜纸（湿的，已展开）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan utuh, satu kemasan yang sudah dibuka, dan satu lembar masker basah yang sudah dibuka."
+  "zh": "SICENARI 袋装面膜（未开封），素颜，无妆",
+  "id": "Masker Sicenari kemasan pouch (belum dibuka), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "wajah bersih"
+    "zh": "素颜，无妆",
+    "id": "muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pori-pori besar, smile line mulai ada garis halus, atau bawah mata udah mulai kendur? Cobain deh pakai ini. Ini masker Sicenari dari Korea, sekantong isinya dua puluh satu lembar."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "wajah bersih"
+    "zh": "素颜，无妆",
+    "id": "muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Coba lihat, PDRN di sini sembilan ribu sembilan ratus ppm. Bifida-nya tujuh puluh persen, ada di urutan pertama komposisi, artinya kandungannya paling banyak. Terus ada sepuluh D hyaluronic acid, kolagen, sama niacinamide juga."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "wajah bersih"
+    "zh": "素颜，无妆",
+    "id": "muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku rutin pakai selembar tiap malam sebelum tidur. Lihat deh, pas diambil essence-nya netes terus, banyak banget."
   },
@@ -67,11 +67,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜",
-    "id": "pakai masker"
+    "zh": "敷着面膜，无妆",
+    "id": "pakai masker, tanpa makeup"
    },
    "do": {
-    "zh": "无",
+    "zh": "",
     "id": ""
    },
    "lines": "Khususnya di bawah mata, smile line, sama dahi yang rentan banget garis halus, aku tekan-tekan biar nempel."
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜",
-    "id": "pakai masker"
+    "zh": "敷着面膜，无妆",
+    "id": "pakai masker, tanpa makeup"
    },
    "do": {
-    "zh": "无",
-    "id": ""
+    "zh": "从额头往下巴揭掉面膜。",
+    "id": "Kelupas maskernya dari dahi sampai dagu."
    },
    "lines": "Dan lihat deh, habis maskeran, baru sebelum tidur aja, aku udah ngerasa kulitku jadi lembap dan glowing banget."
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "wajah bersih"
+    "zh": "素颜，无妆",
+    "id": "muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku kasih lihat dalamnya ya. Sekantong penuh masker, semuanya kerendam essence, bawahnya masih banyak banget, sekalian aku pakai ke leher. Sehari pakai selembar nggak sampai tujuh ribu."
   },
@@ -112,12 +112,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "wajah bersih"
+    "zh": "素颜，无妆",
+    "id": "muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Nih lihat, aku baru bangun tidur, aku ngerasa pori-poriku keliatan lebih samar dikit, bawah mata juga nggak sekendur kemarin. Kalau kamu mau lembap glowing tanpa ribet, klik keranjang kuning di kiri bawah, cobain masker Sicenari ini ya!"
   }

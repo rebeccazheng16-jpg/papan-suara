@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌)",
-  "id": "SICENARI Micro-Sculpting Collagen Booster Mask"
+  "id": "SICENARI Micro-Sculpt Collagen Shot Mask"
  },
  "hook": {
-  "zh": "每天敷面膜，皮肤变好",
+  "zh": "每天坚持敷面膜，皮肤越来越好",
   "id": "Usahanya setiap hari"
  },
  "src": "TikTok @willysfidia",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜 (21 片装)，素颜，皮肤干燥泛红",
-  "id": "Masker SICENARI kemasan sachet (isi 21), muka polos tanpa makeup, kulit kering dan kemerahan"
+  "zh": "SICENARI 袋装面膜（21片装），素颜，皮肤干燥泛红。",
+  "id": "Masker SICENARI kemasan sachet (isi 21), muka polos tanpa makeup, kulit kering dan kemerahan."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤干燥泛红",
-    "id": "Muka polos tanpa makeup, kulit kering dan kemerahan"
+    "zh": "素颜，皮肤干燥泛红。",
+    "id": "Muka polos tanpa makeup, kulit kering dan kemerahan."
    },
    "do": {
-    "zh": "特写脸颊，用指尖轻触干燥泛红的皮肤。",
-    "id": "Close-up pipi, sentuh perlahan kulit yang kering dan kemerahan dengan ujung jari."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka polos tanpa makeup"
+    "zh": "素颜。",
+    "id": "Muka polos tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。撕开面膜袋，展示袋内面膜和精华液，然后取出一片面膜敷在脸上。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sobek kemasan masker, tunjukkan masker dan esens di dalamnya, lalu ambil satu lembar masker dan tempelkan ke wajah."
+    "zh": "展示产品，logo正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -52,12 +52,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka polos tanpa makeup"
+    "zh": "素颜。",
+    "id": "Muka polos tanpa makeup."
    },
    "do": {
-    "zh": "蒙太奇：敷面膜放松，在客厅敷面膜，展示产品并倒出精华液涂抹在脖子上，最后揭下面膜，展示水润光滑的皮肤。",
-    "id": "Montase: santai pakai masker, pakai masker di ruang tamu, tunjukkan produk dan tuang esens ke leher, lalu lepas masker dan tunjukkan kulit yang lembap dan halus."
+    "zh": "展示产品时 logo 正面朝向镜头。揭下面膜。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Kelupas maskernya."
    },
    "lines": ""
   },
@@ -67,12 +67,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka polos tanpa makeup"
+    "zh": "素颜。",
+    "id": "Muka polos tanpa makeup."
    },
    "do": {
-    "zh": "先展示干燥泛红的皮肤，然后硬切到光滑水润的皮肤，用指尖轻抚脸颊。",
-    "id": "Pertama tunjukkan kulit yang kering dan kemerahan, lalu cut ke kulit yang halus dan lembap, usap pipi dengan ujung jari."
+    "zh": "一边脸敷面膜前，一边脸敷面膜后，让效果对比明显。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": ""
   },
@@ -82,12 +82,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤水润光滑",
-    "id": "Muka polos tanpa makeup, kulit lembap dan halus"
+    "zh": "素颜。",
+    "id": "Muka polos tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。将产品举到脸颊旁边，然后展示面膜和精华液，最后再次将产品举到脸颊旁边并指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pegang produk di samping pipi, lalu tunjukkan masker dan esens, terakhir pegang produk di samping pipi lagi dan tunjuk ke sudut kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

@@ -2,18 +2,18 @@
  "id": "V0146",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 小紫管素颜霜",
-  "id": "VEIRFOO Purple Tube Tone Up Cream"
+  "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
+  "id": "VEIRFOO Purple Tube"
  },
  "hook": {
   "zh": "早上睡过头、出门前只剩 5 分钟，一支救场",
-  "id": "Bangun kesiangan, sisa 5 menit sebelum pergi, satu produk ini bisa menyelamatkan!"
+  "id": "Bangun kesiangan, sisa 5 menit sebelum keluar, satu produk ini penyelamat!"
  },
  "src": "TikTok @najaetaime",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 小紫管素颜霜 (盖子盖好，标签朝前)。素颜，不化妆。",
-  "id": "VEIRFOO Purple Tube Tone Up Cream (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+  "zh": "素颜，不化妆；VEIRFOO 小紫管素颜霜（盖子盖好，logo 朝向镜头）。",
+  "id": "Wajah bersih tanpa makeup; VEIRFOO Purple Tube (tutup terpasang, logo menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，不化妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。用指尖在右脸颊点三点面霜，然后均匀涂开。保持不动，展示半脸对比：左脸是素颜，右脸是涂了面霜的。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pakai ujung jari untuk menaruh tiga titik krim di pipi kanan, lalu ratakan. Diam, tunjukkan perbandingan setengah wajah: sisi kiri wajah polos, sisi kanan wajah sudah pakai krim."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂面霜",
-    "id": "Pipi kanan sudah pakai krim"
+    "zh": "半边脸已涂抹素颜霜，另一半素颜。",
+    "id": "Satu sisi wajah sudah dipakai tone-up cream, sisi satunya belum."
    },
    "do": {
-    "zh": "用指尖在左脸颊眼下点两点面霜，然后轻拍均匀。用指尖轻拍一点腮红在右脸颊苹果肌上，然后用指尖轻拍一点唇釉在嘴唇上。展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Pakai ujung jari untuk menaruh dua titik krim di bawah mata pipi kiri, lalu tepuk-tepuk sampai rata. Pakai ujung jari untuk menepuk sedikit blush di tulang pipi kanan, lalu pakai ujung jari untuk menepuk sedikit lip gloss di bibir. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   }

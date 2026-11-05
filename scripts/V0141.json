@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-  "id": "VEIRFOO Purple Tube"
+  "id": "VEIRFOO Purple Tube Tone-Up Cream"
  },
  "hook": {
   "zh": "K-Beauty 水光妆",
-  "id": "K-Beauty Glass Skin Makeup Look"
+  "id": "K-Beauty Glowing Makeup Look"
  },
  "src": "TikTok @najaetaime",
  "cam": "user",
  "prep": {
-  "zh": "素颜，不带妆；VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）。",
-  "id": "Wajah bersih tanpa makeup; VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera)."
+  "zh": "产品：VEIRFOO 小紫管素颜霜。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Purple Tube Tone-Up Cream. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，不带腮红",
-    "id": "Wajah bersih, tanpa blush"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。在右脸颊点涂并推开素颜霜，然后保持不动，展示半脸对比效果（右脸涂了素颜霜，左脸素颜）。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan dan ratakan krim di pipi kanan, lalu diam untuk menunjukkan perbandingan setengah wajah (pipi kanan sudah pakai krim, pipi kiri polos)."
+    "zh": "展示产品时 logo 正面朝向镜头。一边脸已经用了，另一边还没用，这样才能看出区别。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂素颜霜",
-    "id": "Pipi kanan sudah pakai krim"
+    "zh": "全脸已涂抹素颜霜",
+    "id": "Seluruh wajah sudah pakai tone-up cream"
    },
    "do": {
-    "zh": "在左脸颊点涂并推开素颜霜，然后用手指轻点脸颊，再用指尖涂抹腮红和唇釉。最后展示产品，并嘟嘴。",
-    "id": "Oleskan dan ratakan krim di pipi kiri, lalu tunjuk pipi dengan jari. Oleskan blush dan lip tint dengan ujung jari. Terakhir, tunjukkan produknya dan manyun."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
-  "id": "VEIRFOO Sodium DNA Firming Tone-Up Primer"
+  "id": "VEIRFOO Sodium DNA Tone-Up Primer"
  },
  "hook": {
-  "zh": "伪素颜，好气色，一整天都清新！",
-  "id": "Tampil fresh sepanjang hari dengan makeup natural!"
+  "zh": "伪素颜妆容，心机好气色",
+  "id": "Makeup no-makeup look, biar kelihatan fresh seharian"
  },
  "src": "",
  "cam": "user",
  "prep": {
   "zh": "素颜，产品（盖子盖好，标签朝前）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap ke depan)."
+  "id": "Wajah bersih tanpa makeup. Produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示素颜，然后把产品拿到脸旁边，挤出一点乳液在手指上。",
-    "id": "Tunjukkan wajahmu yang tanpa makeup. Lalu pegang produknya di samping pipi, dan keluarkan sedikit losion ke jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Aku tuh senang deh kalau ada yang bilang, 'Kak, makeup-nya fresh banget kayak habis mandi'. Padahal, salah satu rahasianya tuh ada di complexion doang. Aku selalu suka makeup yang bikin muka kelihatan fresh..."
   },
@@ -41,8 +41,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "在脸上涂抹产品，展示涂抹效果。",
-    "id": "Oleskan produk di wajah, tunjukkan efeknya."
+    "zh": "展示产品，标志正面面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "...makanya kalau ada complexion yang bikin kulit kelihatan halus dan natural, aku pasti langsung cek out. Ini aku lagi pakai VEIRFOO Sodium DNA Tone-Up Primer ini..."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已涂抹产品",
-    "id": "Sudah pakai produk"
+    "zh": "全脸已涂抹产品",
+    "id": "Seluruh wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示涂抹产品后的效果，包括毛孔模糊和不卡粉。做半脸对比。",
-    "id": "Tunjukkan hasil setelah memakai produk, termasuk pori-pori yang tersamarkan dan tidak menggumpal. Lakukan perbandingan setengah wajah."
+    "zh": "一侧脸已涂抹产品，另一侧未涂抹，以便对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "...nih, lihat bedanya. Pori-pori jadi kelihatan lebih blur, tapi hasilnya tuh tetap natural dan enggak kerasa berat di muka. Yang aku suka lagi nih, finish-nya tuh kayak airbrushed, glowy tapi tetap nyatu ke kulit."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已涂抹产品",
-    "id": "Sudah pakai produk"
+    "zh": "全脸已涂抹产品",
+    "id": "Seluruh wajah sudah pakai produk"
    },
    "do": {
-    "zh": "把产品拿到脸旁边，然后自信地对着镜头说话，最后飞吻、眨眼、挥手再见。",
-    "id": "Pegang produk di samping pipi, lalu bicara dengan percaya diri ke kamera, akhiri dengan ciuman jauh, kedipan mata, dan lambaian tangan."
+    "zh": "展示产品，标志正面面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Jadi kelihatan itu smooth, fresh, dan enggak cakey. Emang ya kalau complexion-nya udah bagus tuh bawaannya jadi pede, terus kelihatan segar gitu sepanjang hari. Jadi kalau kalian sering nanya kenapa makeup aku selalu kelihatan fresh！"
   }

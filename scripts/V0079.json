@@ -6,14 +6,14 @@
   "id": "VEIRFOO Tone-Up Cream"
  },
  "hook": {
-  "zh": "素颜霜，打造韩式自然裸妆",
-  "id": "Tone-up cream untuk natural makeup ala Korea"
+  "zh": "告别暗沉毛孔粗大，打造韩式自然裸妆",
+  "id": "Kulit kusam, pori-pori besar? Pakai Tone-Up Cream biar muka cerah natural kayak cewek Korea!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，产品（盖子盖好，标签朝前）",
-  "id": "Wajah bersih tanpa makeup, produk (tutup terpasang, label menghadap kamera)"
+  "zh": "素颜，产品（盖子盖好，logo 朝向镜头）",
+  "id": "Wajah tanpa makeup, produk (tutup terpasang, logo menghadap kamera)"
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "轻拍脸颊和鼻翼，表现困扰。",
-    "id": "Tepuk-tepuk pipi dan hidung, ekspresi terganggu."
+    "zh": "",
+    "id": ""
    },
    "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "展示产品，产品 logo 正面始终朝向镜头。涂抹产品在半边脸，然后展示左右脸对比。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di separuh wajah, lalu tunjukkan perbandingan kiri-kanan wajah."
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai VEIRFOO Tone-Up Cream dari Korea. Teksturnya krim, nggak ada rasa bedak. Sekali oles jadi lapisan soft-focus, pori sama kusam ketutup halus, buatku kayak kulit bawaan lahir cewek Korea."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸涂抹了产品",
-    "id": "Separuh wajah sudah memakai produk"
+    "zh": "半边脸已涂产品",
+    "id": "Setengah wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品，产品 logo 正面始终朝向镜头。用手指指向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tunjuk ke kamera dengan jari."
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Niacinamide, di aku berasa muka kuning dan kusam jadi tampak lebih cerah, di tube ini posisinya masuk tiga besar, langsung tertulis di daftar komposisinya — bukan cuma numpang nama. Jadi makin rutin aku pakai, kulitku berasa makin cerah dan terawat."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂抹了产品",
-    "id": "Seluruh wajah sudah memakai produk"
+    "zh": "全脸已涂产品",
+    "id": "Seluruh wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品，产品 logo 正面始终朝向镜头。涂抹产品在全脸。可以插入自己之前拍的Olive Young门店和货架的视频素材。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di seluruh wajah. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk."
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂抹了产品",
-    "id": "Seluruh wajah sudah memakai produk"
+    "zh": "全脸已涂产品",
+    "id": "Seluruh wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品和包装盒，产品 logo 正面始终朝向镜头。可以插入自己之前拍的Olive Young门店和货架的视频素材。",
-    "id": "Tunjukkan produk dan kemasan, logo bagian depan selalu menghadap kamera. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk."
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂抹了产品",
-    "id": "Seluruh wajah sudah memakai produk"
+    "zh": "全脸已涂产品",
+    "id": "Seluruh wajah sudah pakai produk"
    },
    "do": {
-    "zh": "展示产品，产品 logo 正面始终朝向镜头。可以插入自己之前拍的Olive Young门店和货架的视频素材。指向左下方。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk. Tunjuk ke kiri bawah."
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

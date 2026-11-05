@@ -2,7 +2,7 @@
  "id": "V0142",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
+  "zh": "光感奢润绵密洁面乳 Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
@@ -12,8 +12,8 @@
  "src": "抖音 泡泡星球🫧",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，logo朝前）；手部皮肤干净，无戒指。",
-  "id": "Produk (tutup terpasang, logo menghadap kamera); tangan bersih, tanpa cincin."
+  "zh": "产品：VEIRFOO Cloud Cleanser 洁面乳（盖子盖好，logo 朝前）。",
+  "id": "Produk: VEIRFOO Cloud Cleanser (tutupnya tertutup, logo menghadap kamera)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "双手快速撕开黑色泡泡袋，抽出外包装盒，再抽出洗面奶。洗面奶银管举镜头、立台面、拿起。",
-    "id": "Kedua tangan dengan cepat merobek kantong bubble wrap hitam, mengeluarkan kotak kemasan luar, lalu mengeluarkan pembersih wajah. Pegang tube pembersih wajah di depan kamera, letakkan di meja, lalu ambil lagi."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sayang banget, wajahmu nggak berminyak, pori-porimu juga nggak besar, jadi kamu nggak bakal ngerti sebagus apa VEIRFOO Cloud Cleanser. Tapi kalau kamu kayak aku, sering begadang, suka makan manis, wajah kusam dan pori-pori besar, sabun muka dari Korea ini wajib kamu coba."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。挤出乳液，在手背上涂抹口红并用泡沫洗掉。用手指轻触 PDRN 标签。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Keluarkan lotion, oleskan lipstik di punggung tangan dan bersihkan dengan busa. Sentuh label PDRN dengan jari."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Klinik kecantikan di Korea juga pakai ini. Ini bukan sabun muka biasa: cuci muka sekaligus hapus makeup tipis, cukup satu ini. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "在手背上轻轻打圈涂抹泡沫。挤出乳液到手掌，加水搓出大量泡沫。",
-    "id": "Gosokkan busa dengan lembut di punggung tangan. Keluarkan lotion ke telapak tangan, tambahkan air dan gosok hingga berbusa banyak."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pas aku pakai, rasanya lembut, tapi minyak dan kotoran di pori-pori ikut keangkat. Lotion-nya putih susu, digosok di tangan beberapa kali langsung jadi segumpal busa yang lembut dan padat."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将泡沫涂抹在手背和前臂。在水龙头下冲洗干净。用手指按压手背。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Oleskan busa di punggung tangan dan lengan bawah. Bilas bersih di bawah keran. Tekan punggung tangan dengan jari. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di wajah lembut dan nyaman banget. Habis cuci, aku beneran ngerasa kulitku lembap, nggak kering, nggak ketarik sama sekali, kayak kulitku lagi minum air sampai kenyang. Sekali pakai langsung jatuh cinta."
   },
@@ -71,8 +71,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用另一只手的手指指向画面左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Gunakan jari tangan yang lain untuk menunjuk ke sudut kiri bawah layar."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, coba checkout satu dulu deh!"
   }

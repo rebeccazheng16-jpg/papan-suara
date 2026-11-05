@@ -2,18 +2,18 @@
  "id": "S0116",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 Hydraglow Infusion Mask",
-  "id": "Sicenari Hydraglow Infusion Mask"
+  "zh": "SICENARI 微塑修护胶原炮 袋装 (Hydraglow Infusion Wrinkle Repair Moisturizing Mask)",
+  "id": "Sicenari Hydraglow Infusion Wrinkle Repair Moisturizing Mask"
  },
  "hook": {
   "zh": "发明这款面膜的人祝你上天堂",
-  "id": "Yang nyiptain masker ini semoga masuk surga"
+  "id": "Yang nyiptain masker ini, semoga masuk surga"
  },
- "src": "TikTok @reyreiii",
+ "src": "TikTok @reyreiii Skintific Daily Mask",
  "cam": "user",
  "prep": {
-  "zh": "一张 SICENARI 面膜。开拍前先把面膜敷好在脸上。",
-  "id": "Satu sheet mask Sicenari. Sebelum mulai, pakai maskernya dulu di wajah."
+  "zh": "敷面膜（无切口整片，边缘融进皮肤），素颜，无妆",
+  "id": "Masker lembaran di wajah (satu lembar tanpa potongan, pinggirannya menyatu dengan kulit), wajah bersih tanpa makeup"
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上敷着面膜",
-    "id": "Wajah sudah pakai masker"
+    "zh": "敷着面膜",
+    "id": "Sudah pakai masker"
    },
    "do": {
-    "zh": "用指尖轻轻按压脸颊。",
-    "id": "Tekan-tekan pipi dengan ujung jari."
+    "zh": "",
+    "id": ""
    },
    "lines": "Hai, yang nyiptain masker Sicenari ini, semoga masuk surga. Oh... my... God... aku nyesel kenapa baru nyobain sekarang, karena bagus banget. Esensinya cakep banget."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上还敷着面膜",
-    "id": "Wajah masih pakai masker"
+    "zh": "敷着面膜",
+    "id": "Sudah pakai masker"
    },
    "do": {
-    "zh": "慢慢地左右转头展示脸颊。",
-    "id": "Pelan-pelan putar kepala ke kiri dan kanan untuk perlihatkan pipi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Sama aku pakai ini ngerasa kayak kulit lebih cerahan dan juga lembapnya oke banget. Ada... emm... apa ya... Ada PDRN, terus juga ada Bifida, pertama kali aku lihat masker yang bahan pertamanya bukan air."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上还敷着面膜",
-    "id": "Wajah masih pakai masker"
+    "zh": "敷着面膜",
+    "id": "Sudah pakai masker"
    },
    "do": {
-    "zh": "说到「害羞」的时候，可以笑着捂一下嘴。",
-    "id": "Pas bilang \"coy\", boleh sambil ketawa dan tutup mulut pakai tangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ohhh... my... God... buatku ini bagus banget, kulitku berasa lebih cerah dan lembap. Aku ngerasa bekas jerawatku juga ikutan memudar, coy. Oh my God, bagus banget. Nyesel kenapa nggak nyobain dari awal launching."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上还敷着面膜",
-    "id": "Wajah masih pakai masker"
+    "zh": "敷着面膜",
+    "id": "Sudah pakai masker"
    },
    "do": {
-    "zh": "说到「5件」的时候，可以张开五指展示一下。",
-    "id": "Pas bilang \"5 stok\", boleh tunjukkan kelima jari tangan ke kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Cuman sekarang ya udahlah, udah punya 5 stok, ya 5 produknya. Oh my God... bagus banget. Ayo cobain sih."
   }

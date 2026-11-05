@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "揭膜亮脸，皮肤发光",
-  "id": "Kulit glowing setelah pakai masker"
+  "zh": "揭膜亮脸，精华多，免洗",
+  "id": "Masker dibuka, wajah langsung glowing, serumnya banyak, nggak usah dibilas"
  },
- "src": "TikTok @linalie6666",
+ "src": "TikTok @linalie6666 Lina",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI面膜单片袋（未开封），浴室洗手台前拍摄，光线明亮柔和。",
-  "id": "Wajah bersih tanpa makeup. Siapkan 1 saset masker Sicenari (belum dibuka). Rekam di depan wastafel kamar mandi, dengan cahaya terang dan lembut."
+  "zh": "素颜，准备好 SICENARI 面膜（未开封），浴室洗手台前拍摄，光线明亮柔和。",
+  "id": "Wajah tanpa makeup. Siapkan masker SICENARI (masih tersegel). Rekam di depan wastafel kamar mandi, kalau bisa cahaya terang dan lembut."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "Memakai masker"
+    "id": "Wajah sudah pakai masker"
    },
    "do": {
-    "zh": "从额头往下撕掉整片面膜，然后展示面膜单片袋，用手指轻敲包装上的金色圆章和“PDRN 9,900ppm”字样。",
-    "id": "Lepaskan masker dari dahi ke dagu. Lalu tunjukkan saset masker, ketuk segel emas bulat dan tulisan \"PDRN 9,900ppm\" di kemasan."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wow! Aku ngerasa kulitku glowing banget, bukan main-main. Aku pakai masker dari Sicenari, ada delapan puluh sembilan persen Bifida, PDRN sembilan ribu sembilan ratus ppm, made in Korea."
   },
@@ -36,13 +36,10 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "撕开面膜袋，取出面膜敷在脸上，然后展示手心里的精华液。",
-    "id": "Sobek saset masker, tempelkan masker ke wajah, lalu tunjukkan serum di telapak tangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Sekarang aku buka, langsung tempel aja. Jangan lupa ada serumnya, wah, serumnya segini banyak, satu lembar isinya dua puluh lima ml."
   },
@@ -53,11 +50,11 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "Memakai masker"
+    "id": "Wajah sudah pakai masker"
    },
    "do": {
-    "zh": "敷着面膜轻拍脸颊，然后从额头往下撕掉整片面膜，最后展示素颜脸。",
-    "id": "Tepuk-tepuk pipi saat memakai masker. Lalu lepaskan masker dari dahi ke dagu. Terakhir, tunjukkan wajah tanpa makeup."
+    "zh": "揭下面膜。",
+    "id": "Kelupas maskernya."
    },
    "lines": "Tunggu lima menit. Udah lima menit, langsung dicopot, wah! Aku ngerasa wajahku glowing banget, bukan main-main."
   },
@@ -66,13 +63,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "用双手轻拍脸颊和下颌，将剩余精华液拍进皮肤，然后指向左下方并挥手告别。",
-    "id": "Tepuk-tepuk pipi dan rahang dengan kedua telapak tangan untuk meresapkan sisa serum. Lalu tunjuk ke kiri bawah dan lambaikan tangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Nggak usah dibilas, sisa serumnya tepuk-tepuk aja, langsung meresap. Wah, so cool! Yang mau glowing kayak gini, klik keranjang kuning di kiri bawah, cobain satu kotak ya. Bye-bye!"
   }

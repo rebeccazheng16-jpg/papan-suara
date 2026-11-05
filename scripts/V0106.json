@@ -2,18 +2,18 @@
  "id": "V0106",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Pink Bling Bling Cream",
+  "zh": "Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "换季钩子：皮肤干燥、暗沉、泛红？",
-  "id": "Kulit kering, kusam, gampang merah saat pancaroba?"
+  "zh": "换季皮肤问题？",
+  "id": "Kulit bermasalah saat pancaroba?"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "准备好VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）。确保素颜，脸上没有化妆。",
-  "id": "Siapkan VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera). Pastikan wajah bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前）。素颜。",
+  "id": "Produk (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -70,12 +70,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤略显暗沉、无光泽、有点干",
-    "id": "Wajah bersih, kulit terlihat sedikit kusam, matte, dan agak kering tanpa kilau."
+    "zh": "素颜，皮肤略暗沉、无光泽",
+    "id": "Wajah bersih, kulit agak kusam, tidak glowing"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Saya sendiri kulit kering, kerja di ruangan AC tiap hari. Jadi tujuh hari saya pakai ini: Pink Bling Bling Cream dari VEIRFOO. 자, 보세요. Hasilnya di akhir video."
   },
@@ -86,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kenapa saya suka? Ada tiga bahan yang kerja bareng. Tiga jenis hyaluronic acid bawa air masuk. Minyak jojoba tutup di atasnya, airnya terkunci. Sodium DNA dan kolagen, kulit saya terasa kenyal dan glowing. 완벽해요."
   },
@@ -98,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "涂抹产品。",
+    "id": "Oleskan produk."
    },
    "lines": "Pakai di langkah terakhir, malam. Sedikit saja, ratakan. Hari ketiga, kulit saya sudah tidak ketarik. 벌써요."
   },
@@ -122,8 +122,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Saya ngomong seribu kali, tetap lebih baik kamu coba sendiri. Di Korea harganya segini. Di sini seratus persen original, 정품이에요. Coba lihat di keranjang kuning, cuma berapa. Yuk, sama-sama punya kulit cantik!"
   }

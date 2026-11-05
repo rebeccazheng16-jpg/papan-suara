@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "宝妈担保，用脸保证好用",
-  "id": "Aku emak-emak, hari ini aku jaminin pakai wajahku sendiri."
+  "zh": "宝妈用脸担保，14天抗皱印在包装盒上",
+  "id": "Aku emak-emak, hari ini aku jaminin pakai wajahku sendiri. Nggak ada masker lain yang berani cetak kandungannya segede ini di kotak."
  },
  "src": "TikTok @余干雪碧",
  "cam": "user",
  "prep": {
-  "zh": "素颜，皮肤干净无妆；SICENARI 盒装面膜（未开封），SICENARI 单片面膜（已撕开），一块干净的婴儿毯子（素色无字）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan: masker SICENARI (kemasan kotak, belum dibuka), satu saset masker SICENARI (sudah disobek), selimut bayi polos (tanpa motif atau tulisan)."
+  "zh": "素颜，准备好SICENARI面膜盒（盖好盖子，logo朝前），以及一片已撕开包装袋的面膜，一张空白小婴儿毯。",
+  "id": "Wajah tanpa makeup. Siapkan kotak masker SICENARI (tertutup, logo menghadap kamera), satu bungkus masker yang sudah disobek, dan satu selimut bayi polos."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "用一根手指轻拍脸颊两次，然后慢慢弯曲手指计数，说到眼角时轻触眼角。",
-    "id": "Ketuk pipi dua kali dengan satu jari, lalu hitung kerutan dengan jari. Saat menyebut 'sudut mata', sentuh sudut mata dengan lembut."
+    "zh": "轻拍脸颊，然后掰手指计数纹路，说到眼角纹时轻触眼角。",
+    "id": "Ketuk pipi, lalu hitung kerutan di jari. Saat menyebut kerutan di sudut mata, sentuh sudut mata."
    },
    "lines": "Aku emak-emak, hari ini aku jaminin pakai wajahku sendiri. Masker yang aku rekomendasiin ini, habis aku pakai, aku ngerasa garis kering, garis halus, kerutan di sudut mata, crow's feet, sama kusam di wajahku jadi lebih enak dilihat."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "用指尖轻揉脸颊一次。",
-    "id": "Gosok pipi perlahan dengan ujung jari sekali."
+    "zh": "说到脸干时轻揉脸颊。",
+    "id": "Saat bilang wajah kering, gosok pipi pelan-pelan."
    },
    "lines": "Kalau kamu pikir aku bohong, omelin aku di kolom komentar, aku nggak bakal balas. Anakku tiap malam kebangun berkali-kali, habis nidurin dia wajahku kering sampai mengelupas."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "镜头一：展示 SICENARI 盒装面膜、已开封的单片面膜和婴儿毯子。镜头二：展示 SICENARI 盒装面膜，产品标志正面始终朝向镜头。镜头三：用两只手从面膜袋中取出面膜布，精华液滴落回袋中。",
-    "id": "Shot 1: Tunjukkan kotak masker SICENARI, saset masker yang sudah dibuka, dan selimut bayi. Shot 2: Tunjukkan kotak masker SICENARI, logo produk menghadap kamera. Shot 3: Angkat masker dari saset dengan kedua tangan, biarkan esens menetes kembali ke saset."
+    "zh": "展示产品时 logo 正面朝向镜头。然后从包装袋中取出面膜，让精华液滴落。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Lalu angkat masker dari bungkusnya, biarkan essence menetes."
    },
    "lines": "Sekarang tiap anakku udah tidur, aku pakai satu lembar. Belasan menit itu waktu buat aku sendiri. Ini Sicenari dari Korea, satu lembar isinya dua puluh lima mililiter essence, diangkat aja netes terus."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "展示 SICENARI 盒装面膜，产品标志正面始终朝向镜头。用另一只手的食指轻敲盒子上的 PDRN 字样两次。",
-    "id": "Tunjukkan kotak masker SICENARI, logo produk menghadap kamera. Ketuk tulisan PDRN di kotak dua kali dengan jari telunjuk tangan yang lain."
+    "zh": "展示产品，logo正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tulisan PDRN di kotak."
    },
    "lines": "Coba lihat kotaknya ini, tulisannya PDRN sembilan ribu sembilan ratus ppm. Nggak ada masker lain yang berani cetak kandungannya segede ini di kotak, nggak ada yang berani. Yang ini oke, yang ini beneran oke."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "展示 SICENARI 盒装面膜，产品标志正面始终朝向镜头。用空闲的手指向画面左下角。",
-    "id": "Tunjukkan kotak masker SICENARI, logo produk menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah layar."
+    "zh": "展示产品，logo正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Lalu tunjuk ke arah keranjang kuning."
    },
    "lines": "Aku pakai sendiri, sekalian bagi satu lembar ke mamaku. Murahnya sampai aku malu nyebut harganya. Link-nya ada di keranjang kuning kiri bawah, bisa langsung checkout."
   }

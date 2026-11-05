@@ -2,32 +2,31 @@
  "id": "V0073",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "粉水光油霜 VEIRFOO Pink Hydraglow Cream",
+  "zh": "粉水光油霜 Pink Hydraglow Cream",
   "id": "VEIRFOO Pink Hydraglow Cream"
  },
  "hook": {
-  "zh": "换了面霜，皮肤像自带滤镜一样发光",
-  "id": "Ganti krim, kulitku jadi glowing kayak ada filternya"
+  "zh": "换了面霜，脸像自带滤镜",
+  "id": "Ganti krim, wajah jadi kayak ada filter"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 粉水光油霜（管和盒）。素颜，皮肤有点暗沉。",
-  "id": "VEIRFOO Pink Hydraglow Cream (tube sama kotaknya). Muka polos tanpa makeup, agak kusam."
+  "zh": "VEIRFOO 粉水光油霜（带包装盒）。素颜，脸上没化妆。",
+  "id": "Produk VEIRFOO Pink Hydraglow Cream sama kotaknya. Muka polos, jangan pakai makeup dulu."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "素颜，皮肤有点暗沉",
-    "id": "Muka polos, agak kusam"
+    "zh": "素颜",
+    "id": "Muka polos"
    },
    "do": {
-    "zh": "将面霜涂在半边脸上，展示左右脸对比效果。然后展示产品和包装盒。",
-    "id": "Oleskan krim ke separuh wajah untuk menunjukkan perbandingan. Lalu tunjukkan produk dan kotaknya."
+    "zh": "展示产品时 logo 正面朝向镜头。一边脸涂了，另一边没涂，让大家看到区别。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti krim ke produk yang sama, wajahku kayak ada filter-nya sendiri, glow-nya keluar dari dalam. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Pink Hydraglow Cream dari Korea ini."
   },
@@ -35,11 +34,10 @@
    "n": 2,
    "sec": 12,
    "talk": true,
-   "broll": false,
    "face": null,
    "do": {
-    "zh": "从管子里挤出一点面霜，然后涂在脸颊上。",
-    "id": "Keluarkan sedikit krim dari tubenya, lalu oleskan ke pipi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Umur tiga puluhan kulit makin kering, udah pakai pelembap tetap ketarik. Itu bukan kurang air, tapi kurang yang ngunci. Pakai ini aja — beneran harta karun, rasanya kayak perawatan ala klinik Korea."
   },
@@ -47,11 +45,10 @@
    "n": 3,
    "sec": 10,
    "talk": true,
-   "broll": false,
    "face": null,
    "do": {
-    "zh": "将面霜涂满全脸。",
-    "id": "Oleskan krim ke seluruh wajah."
+    "zh": "",
+    "id": ""
    },
    "lines": "Sodium DNA, Kolagen, Niacinamide — kandungannya sebanyak itu, teksturnya tetap ringan kayak losion, nggak lengket sama sekali. Pas keluar warnanya pink muda, dioles langsung nyatu, tinggal glow-nya doang."
   },
@@ -59,11 +56,13 @@
    "n": 4,
    "sec": 9,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上已经涂了霜",
+    "id": "Muka sudah pakai krim"
+   },
    "do": {
-    "zh": "展示产品，然后指向左下方的黄色购物篮。",
-    "id": "Tunjukkan produknya, lalu tunjuk ke arah keranjang kuning di kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buatku lembapnya seharian, nggak bikin ketarik. Pagi buat base sebelum makeup, malam sebelum tidur, dua-duanya cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

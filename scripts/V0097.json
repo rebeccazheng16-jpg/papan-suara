@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "韩国欧利芙洋热卖的注氧洗面奶",
-  "id": "Pembersih muka beroksigen yang lagi hits di Olive Young Korea"
+  "zh": "韩国欧利芙洋热销，清潭洞女孩的护肤秘密",
+  "id": "Rahasia kulit glowing cewek Cheongdam-dong yang lagi viral di Olive Young Korea!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）。皮肤：素颜，湿润的脸。",
-  "id": "Produk: VEIRFOO Bubble Cleanser (tutup terpasang, label menghadap kamera). Kulit: Wajah bersih tanpa makeup, basah."
+  "zh": "产品（盖子盖好，标签朝前），素颜湿润的脸",
+  "id": "Produk (tutup terpasang, label menghadap kamera), wajah bersih tanpa makeup dan lembap."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Temenku terbang ke Korea cuma buat beli ini. cewek-cewek Cheongdam-dong yang langganan klinik mahal, semuanya pakai ini — VEIRFOO Bubble Cleanser. Oles ke muka yang basah, diam beberapa detik — dia berbusa sendiri, nggak perlu digosok. Busanya yang ngangkat minyak sama sel kulit mati di pori-pori."
   },
@@ -33,13 +33,10 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，脸上有泡沫",
-    "id": "Wajah tanpa makeup, ada busa"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Habis dibilas, pori-pori berasa napas lega banget. siapa yang ngerti rasanya? Hidung sama pipiku berasa langsung halus, nggak kesat. Kulitku kering dan gampang sensitif, tapi ini tetap aman. Bifida Ferment ada di urutan pertama, di atas air — cek sendiri di kemasannya."
   },
@@ -48,13 +45,10 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "Wajah tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Busanya halus banget, lembut kayak whipped cream yang baru dikocok. Kulit kering cukup sekali sehari, kulit berminyak pagi dan malam. Muka bersih, skincare habis ini langsung nyerap, nggak kebuang. Mau glass skin ala cewek Korea? Mulai dari Bubble Cleanser ini. Cek keranjang kuning, ya!"
   }

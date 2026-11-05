@@ -2,18 +2,18 @@
  "id": "V0145",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
+  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
   "zh": "男朋友在门口车里等着去吃饭，先洗把脸再出门",
-  "id": "Pacar sudah menunggu di mobil untuk makan malam, cuci muka dulu baru pergi"
+  "id": "Pacar sudah nunggu di mobil, cuci muka dulu baru pergi makan"
  },
  "src": "TikTok @天天不懒",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO Cloud Cleanser 洁面乳，素颜，脸盆里有水，一条干净毛巾",
-  "id": "VEIRFOO Cloud Cleanser, muka polos tanpa makeup, air di wastafel, handuk bersih"
+  "zh": "素颜，准备好VEIRFOO Cloud Cleanser洁面乳（盖子盖好，标签朝前），一条干净毛巾。",
+  "id": "Wajah tanpa makeup. Siapkan VEIRFOO Cloud Cleanser (tutup terpasang, label menghadap kamera) dan handuk bersih."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 10,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上带水珠，两颊各一道洁面乳",
+    "id": "Wajah basah dengan dua garis cleanser di pipi"
+   },
    "do": {
-    "zh": "从脸盆里猛抬头，脸上带水珠和两道洁面乳。瞟一眼门外的车，然后坏笑。",
-    "id": "Angkat kepala cepat dari wastafel, wajah basah dengan dua garis cleanser di pipi. Lirik mobil di luar pintu, lalu senyum nakal."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上带泡沫",
+    "id": "Wajah berbusa"
+   },
    "do": {
-    "zh": "举起洁面乳到脸旁，挤出乳液，在掌心搓出绵密泡沫。用泡沫在脸上打圈按摩，门外车灯闪两下。俯身用手捧水泼脸，抬头用毛巾按干。凑近镜头摸脸颊，然后举起洁面乳指向左下角。转身走出大门朝车走去。",
-    "id": "Pegang cleanser di samping wajah, keluarkan lotion, gosok di telapak tangan sampai berbusa. Pijat busa di wajah dengan gerakan melingkar, lampu mobil di luar berkedip dua kali. Bungkuk dan cipratkan air ke wajah, lalu keringkan dengan handuk. Dekatkan wajah ke kamera dan sentuh pipi, lalu tunjuk ke kiri bawah dengan cleanser. Berbalik dan berjalan keluar pintu menuju mobil."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   }

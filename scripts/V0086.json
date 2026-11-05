@@ -6,14 +6,14 @@
   "id": "VEIRFOO White Tomato Mask"
  },
  "hook": {
-  "zh": "韩国女生的发光肌秘密",
-  "id": "Rahasia kulit glowing cewek Korea"
+  "zh": "韩国女生皮肤发光的原因",
+  "id": "Pantesan cewek Korea kulitnya glowing semua!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO白番茄面膜（单片装）。素颜，脸上无妆。",
-  "id": "Produk: VEIRFOO White Tomato Mask (saset). Wajah bersih tanpa makeup."
+  "zh": "VEIRFOO 白番茄面膜（单片装），素颜，无妆。",
+  "id": "VEIRFOO White Tomato Mask (saset), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
+   },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti ke masker yang sama, kulitku tampak lebih cerah, halus kayak telur kupas. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO White Tomato Mask dari Korea ini."
   },
@@ -35,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。敷面膜，然后撕下面膜。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pakai masker, lalu kelupas maskernya."
+    "zh": "",
+    "id": ""
    },
    "lines": "Umur tiga puluhan kalau nggak dirawat rasanya cepet banget tuanya, mulai muncul garis senyum, atau muka kusam kekuningan — pakai ini aja. Ini beneran harta karun buat kulit, rasanya kayak perawatan ala klinik Korea."
   },
@@ -47,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示一个廉价的粉色面膜，成分表第一行是“水”。",
-    "id": "Tunjukkan masker pink murah, baris pertama daftar komposisinya adalah \"AIR\"."
+    "zh": "",
+    "id": ""
    },
    "lines": "Masker yang komposisi nomor satunya air, mending nggak usah dipakai! Urutan pertama itu artinya kandungannya paling banyak — sama aja kayak nempelin air putih di muka, sesering apa pun dipakai ya nggak akan kerasa hasilnya."
   },
@@ -59,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指轻捏脸颊，展示皮肤弹性。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Cubit pipi sedikit untuk menunjukkan kekenyalan kulit."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Nah, di masker VEIRFOO ini yang nomor satu justru Bifida Ferment — kandungan inti Lancôme Génifique sama Estée Lauder ANR. Setelah aku pakai, skin barrier-ku berasa lebih kuat, kulitku juga berasa lebih kencang dan penuh."
   },
@@ -69,13 +72,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "脸上敷着面膜。",
-    "id": "Wajah sudah pakai masker."
-   },
+   "face": null,
    "do": {
-    "zh": "脸上敷着面膜。展示多片产品，像扑克牌一样展开。",
-    "id": "Wajah sudah pakai masker. Tunjukkan beberapa saset produk seperti kartu yang dikipas."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pantesan cewek Korea kulitnya glowing semua! Aku baru berani rekomendasiin setelah aku pakai sendiri. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

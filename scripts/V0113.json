@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-  "id": "VEIRFOO Purple Tube"
+  "id": "VEIRFOO Purple Tube Tone-Up Cream"
  },
  "hook": {
-  "zh": "一管多用，告别暗沉泛红",
-  "id": "Satu tube untuk semua, ucapkan selamat tinggal pada kulit kusam dan kemerahan"
+  "zh": "小紫管素颜霜：暗沉泛红肌必备",
+  "id": "Buat kamu yang wajahnya kusam dan merah, harus pakai VEIRFOO Purple Tube ini!"
  },
  "src": "TikTok @ayii_beauty",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO小紫管素颜霜（盖子盖好，标签朝前），产品包装盒（标签朝前）。素颜，无妆。",
-  "id": "VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera), kotak produk (label menghadap kamera). Wajah bersih, tanpa makeup."
+  "zh": "产品：VEIRFOO 小紫管素颜霜（带盖），包装盒。皮肤：干净无妆的素手。",
+  "id": "Produk: VEIRFOO Purple Tube Tone-Up Cream (dengan tutup), dan kotak kemasan. Kulit: Tangan bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品和包装盒，logo朝前。",
-    "id": "Tunjukkan produk dan kotaknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品和包装盒，logo 正面朝向镜头。",
+    "id": "Tunjukkan produk dan kotak kemasannya, logo bagian depan menghadap kamera."
    },
    "lines": "Hai, buat kamu yang wajahnya kelihatan kusam dan merah, kamu harus pakai yang satu ini: VEIRFOO Purple Tube, tone-up cream dari Korea."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "拧开盖子，挤出少量产品到手背，然后涂抹开来，展示提亮效果。",
-    "id": "Putar tutupnya, keluarkan sedikit produk ke punggung tangan, lalu ratakan untuk menunjukkan efek mencerahkan."
+    "zh": "展示产品时 logo 正面朝向镜头。挤出产品到手背并涂抹开，展示提亮效果。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Keluarkan produk ke punggung tangan dan ratakan, tunjukkan efek mencerahkan."
    },
    "lines": "Ini udah sekalian jadi primer dan tone-up. Keluarnya krim putih, dibaur tipis aja, aku ngerasa kulitku kelihatan lebih cerah satu tingkat, rata, flawless. Terus nggak usah pakai bedak lagi."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，logo朝前。每说一个不需要的产品，用拇指轻敲管身一次。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Setiap kali menyebut produk yang tidak dibutuhkan lagi, ketuk tube-nya sekali dengan ibu jari."
+    "zh": "展示产品时 logo 正面朝向镜头。每说一个免去的产品，用拇指轻敲管身一次。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tube dengan jempol setiap menyebutkan produk yang tidak perlu lagi."
    },
    "lines": "Kalau pakai ini, pagi-pagi nggak usah pakai toner lagi, nggak usah pakai pelembap, nggak usah pakai primer, nggak usah pakai foundation juga."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，logo朝前。然后倾斜管身，用拇指指向管身上的PDRN标签。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu miringkan tube-nya dan tunjuk label PDRN di tube dengan ibu jari."
+    "zh": "展示产品时 logo 正面朝向镜头。倾斜产品，用拇指指向管身上的 PDRN 标签。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Miringkan produk, tunjuk label PDRN di tube dengan jempol."
    },
    "lines": "Lima langkah jadi satu tube, oles, langsung berangkat. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, langsung ditulis di tube-nya."
   },
@@ -71,8 +71,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，logo朝前。然后用另一只手的食指指向画面左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu tangan yang satu lagi masuk dan jari telunjuknya menunjuk ke sudut kiri bawah layar."
+    "zh": "展示产品时 logo 正面朝向镜头。用食指指向画面左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Arahkan jari telunjuk ke sudut kiri bawah layar."
    },
    "lines": "Di Korea harganya segini loh. Cek link yang aku kasih di bawah, jauh lebih murah, coba checkout satu dulu deh!"
   }

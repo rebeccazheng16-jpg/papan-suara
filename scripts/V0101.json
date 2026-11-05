@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "伪素颜神器·早上快速出门",
-  "id": "Rahasia Tampil Cantik Natural Cepat di Pagi Hari"
+  "id": "Produk ajaib untuk tampilan \"no-makeup makeup\" biar pagi-pagi cepat keluar rumah"
  },
  "src": "胡芸芸",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 紫管素颜霜（盖子盖好，标签朝前）。道具：无品牌化妆水、保湿霜、妆前乳、素颜霜、粉底液瓶各一，无品牌裸粉色口红一支，普通洗面奶。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera). Properti: Masing-masing satu botol toner, pelembap, primer, tone-up, dan foundation tanpa merek, satu lipstik nude-pink tanpa merek, dan sabun cuci muka biasa. Kulit: Wajah bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前），普通洗面奶，普通润唇膏，五瓶无标签的护肤品（爽肤水、面霜、妆前乳、素颜霜、粉底液），素颜，无妆。",
+  "id": "Produk (tutup terpasang, label menghadap kamera), sabun cuci muka biasa, lipstik nude-pink biasa, lima botol skincare tanpa label (toner, pelembap, primer, tone-up, foundation), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "挤出产品到一侧脸颊，然后快速涂抹。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Peras produk ke satu pipi, lalu ratakan dengan cepat. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "一边脸已经用了产品，另一边还没，这样区别就明显了。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "VEIRFOO Purple Tube, krim yang bikin kamu bisa tidur sepuluh menit lebih lama tiap pagi. Lihat, sisi yang dipakai ini buatku lebih glowing, sisi satunya kusam dan kekuningan."
   },
@@ -36,13 +36,10 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸已涂抹产品，肤色均匀提亮",
-    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。将五瓶无品牌产品依次放在 VEIRFOO 紫管素颜霜旁边。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Letakkan lima botol produk tanpa merek satu per satu di samping VEIRFOO Purple Tube."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu tube ini gantiin toner, pelembap, primer, tone-up, sekaligus foundation. Sekali dibaur, buatku langsung kelihatan kayak pakai ring light, kayak glass skin ala Korea."
   },
@@ -51,13 +48,10 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "涂抹普通面霜，使其搓泥。展示产品时，产品 logo 正面始终朝向镜头。涂抹口红。",
-    "id": "Oleskan krim biasa sampai menggumpal. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan lipstik."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Nggak perlu bangun pagi buat pakai lapis demi lapis, yang ujungnya menggumpal dan kayak topeng. Hasilnya lebih ringan dari foundation, lebih rapi dari tone-up biasa, tinggal pakai lipstik langsung berangkat."
   },
@@ -66,13 +60,10 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸已涂抹产品，肤色均匀提亮",
-    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
-   },
+   "face": null,
    "do": {
-    "zh": "挤出产品到手背，然后快速涂抹。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Peras produk ke punggung tangan, lalu ratakan dengan cepat. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang paling penting, ini skincare juga. Ada niacinamide, centella, dan PDRN, kulitku berasa lebih cerah dan terawat. Makin lama aku pakai, kulitku berasa makin glowing, nggak gampang kusam."
   },
@@ -81,13 +72,10 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸已涂抹产品，肤色均匀提亮",
-    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
-   },
+   "face": null,
    "do": {
-    "zh": "用洗面奶洗脸。展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Cuci muka dengan sabun cuci muka. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dan cukup pakai sabun cuci muka biasa udah bersih, nggak perlu ribet makeup remover. Satu tube ini bikin base makeup pagi-pagi beres dalam satu langkah, ringan, rapi, dan tetap kelihatan glowing seharian."
   },
@@ -96,13 +84,10 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸已涂抹产品，肤色均匀提亮",
-    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke sudut kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang mau base makeup cepat sebelum keluar rumah, wajib coba VEIRFOO Purple Tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

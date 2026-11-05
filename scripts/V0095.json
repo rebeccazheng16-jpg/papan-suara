@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "半脸紧致对比",
-  "id": "Muka beda sebelah"
+  "zh": "韩国艺人同款，小分子PDRN，提拉紧致",
+  "id": "Masker artis Korea, PDRN molekul kecil, bikin kulit kencang"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），素颜。",
-  "id": "Produk (tutupnya terpasang, label menghadap kamera), muka tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前），化妆刷，素颜，无妆。",
+  "id": "Produk (tutup terpasang, label menghadap kamera), kuas makeup, wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，半边脸已做护理，半边脸未做护理。",
-    "id": "Muka tanpa makeup, satu sisi wajah sudah dirawat, satu sisi belum."
+    "zh": "素颜，半边脸紧致，半边脸浮肿。",
+    "id": "Wajah bersih, satu sisi kencang, satu sisi bengkak."
    },
    "do": {
-    "zh": "用两根手指沿着脸部两侧的下颌线滑动，以展示其差异。",
-    "id": "Pakai dua jari menelusuri garis rahang di kedua sisi wajah untuk menunjukkan perbedaannya."
+    "zh": "展示产品时 logo 正面朝向镜头。一侧脸已用产品，另一侧脸未用，以便对比效果。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Ya ampun, muka aku jadi agak beda sebelah, guys!"
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸和脖子都涂了面膜。",
-    "id": "Muka tanpa makeup, wajah dan leher sudah tertutup masker."
+    "zh": "素颜，脸和脖子敷着面膜。",
+    "id": "Wajah bersih, muka dan leher sudah pakai masker."
    },
    "do": {
-    "zh": "将面膜从颈部一气呵成地撕到额头。",
-    "id": "Tarik masker dari leher ke dahi dalam satu gerakan."
+    "zh": "揭下面膜。",
+    "id": "Kelupas maskernya."
    },
    "lines": "Sisi yang baru aku kelupas ini rasanya kayak ada yang narik kulitnya ke atas, tanpa makeup aja buatku udah glowing."
   },
@@ -53,8 +53,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Bangun tidur muka bengkak kayak bakpao, apalagi kalau kolagennya udah mulai berkurang — sekali begadang, kulit langsung bengkak dan kendur. Yang mukanya kusam kekuningan, wajib coba VEIRFOO Golden Mask ini."
   },
@@ -65,8 +65,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。将面膜涂抹于整个面部，避开眼周区域。将面膜从额头撕到下巴。捏脸颊并抚摸下颌线。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan masker ke seluruh wajah kecuali area mata. Kelupas masker dari dahi ke dagu. Cubit pipi dan usap garis rahang."
+    "zh": "揭下面膜。捏脸颊时说“Q弹”。",
+    "id": "Kelupas maskernya. Tekan pipi pas bilang kenyal."
    },
    "lines": "Rahang yang nggak tegas, pipi yang turun, garis senyum, garis halus di mata — tinggal oles, tunggu tiga puluh sampai empat puluh menit sampai kering, terus kelupas pelan-pelan. Ngelupasnya satisfying banget! Nggak perlu es kopi lagi buat melek — lihat, rahangku berasa lebih tirus, dipegang halus dan kenyal."
   },
@@ -77,8 +77,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Jujur ya, cewek Korea tuh emang paling ngerti soal beginian. VEIRFOO punya klinik perawatan kulit sendiri di Seoul, dan artis sama idol Korea — yang kamu tahu maupun nggak — rutin perawatan di sana."
   },
@@ -89,8 +89,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，正面标志始终面向镜头。将面膜涂抹于脸颊。用海绵将粉底液轻拍在脸颊上。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan masker ke pipi. Tepuk-tepuk foundation ke pipi dengan spons."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kenapa sebagus itu? Karena di dalamnya ada PDRN salmon molekul kecil, mirip banget sama DNA kita sendiri, jadi nggak perlu khawatir soal penyerapannya. Sekali pakai cuma beberapa ribu doang. Kulitku berasa mulus, jadi nggak bakal cakey, mau pakai foundation apa aja pasti nyatu."
   },
@@ -101,8 +101,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品和包装盒，正面标志始终面向镜头。然后只展示产品。将手指指向黄色购物车。",
-    "id": "Tunjukkan produk dan kotaknya, logo bagian depan selalu menghadap kamera. Lalu tunjukkan produknya saja. Arahkan jari ke keranjang kuning."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Di Korea harganya segini, sekarang lagi promo new arrival — coba lihat sendiri berapa! Nggak perlu nitip jastip lagi, langsung cek keranjang kuning di bawah, ya!"
   }

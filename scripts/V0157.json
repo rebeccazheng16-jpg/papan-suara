@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "水光胶原蛋白膜 Sodium DNA Hydraglow Collagen Mask",
-  "id": "VEIRFOO Collagen Mask"
+  "id": "VEIRFOO Sodium DNA Hydraglow Collagen Mask"
  },
  "hook": {
-  "zh": "只用这个，常被误以为刚做完医美",
+  "zh": "用完像刚做完皮肤管理",
   "id": "Cuma pakai ini, suka dikira habis treatment"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，盖子盖好，标签朝前）。工具：平头刷子（白色刷柄，白色刷毛，无字）。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Collagen Mask (kemasan baru, tutupnya terpasang, label menghadap kamera). Alat: Kuas masker (pegangan putih, bulu putih, tanpa tulisan). Kulit: Wajah bersih, tanpa makeup."
+  "zh": "产品（盖子盖好，logo朝前）；刷子；素颜，脸上无妆。",
+  "id": "Produk (tutupnya terpasang, logo menghadap kamera); kuas; wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已涂好面膜，眼周和唇部留白",
-    "id": "Wajah sudah ada masker, area mata dan bibir kosong"
+    "zh": "脸上已涂好面膜，眼唇周围留空。",
+    "id": "Wajah sudah dilapisi masker, area mata dan bibir kosong."
    },
    "do": {
-    "zh": "用刷子在脸颊上再刷一笔乳白色面膜。然后，脸部干净，轻触脸颊。",
-    "id": "Sikatkan satu sapuan masker di pipi. Lalu, wajah bersih, sentuh pipi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Cobain sekali aja, kamu bakal langsung ngerti kenapa produk ini sering kehabisan di Korea."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "轻按左侧脸颊，然后轻触右侧脸颊。",
-    "id": "Tekan ringan pipi kiri, lalu sentuh pipi kanan."
+    "zh": "脸部一侧已使用，另一侧尚未，以便看出区别。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Lihat deh, sisi yang aku pakai ini buatku agak lebih cerah, kenyal, dan glowing. Sisi satunya masih agak kusam dan kurang fresh."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "将产品举到脸颊旁，标签朝前。然后，双手将产品水平举在水槽上方，标签朝前。最后，将产品举到脸颊旁，标签朝前。",
-    "id": "Pegang produk di samping pipi, label menghadap kamera. Lalu, kedua tangan pegang produk horizontal di atas wastafel, label menghadap kamera. Terakhir, pegang produk di samping pipi, label menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Nggak heran collagen mask ini jadi salah satu produk andalan para makeup artist Korea. Bahkan setelah treatment skin booster di klinik Korea, banyak yang tetap bawa pulang collagen mask ini buat dipakai di rumah. Rahasianya ada di PDRN dari ekstrak salmon Korea, dipadukan dengan kolagen."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "挤出产品涂抹在前额和脸颊上。然后，用刷子将面膜刷匀。接着，面膜干透后，从额头到下巴撕下整片面膜。最后，轻抚脸颊。",
-    "id": "Pencet produk di dahi dan pipi. Lalu, ratakan masker dengan kuas. Kemudian, setelah masker kering, kelupas seluruh lembaran dari dahi ke dagu. Terakhir, usap pipi."
+    "zh": "敷面膜；揭面膜。",
+    "id": "Aplikasikan masker; Kelupas maskernya."
    },
    "lines": "Pakai VEIRFOO Collagen Mask, aku ngerasa kulitku ternutrisi maksimal, lebih kenyal, lembap, dan glowing. Di website resmi Korea, satu pcs harganya segini loh."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "将产品举到脸颊旁，标签朝前。然后，指尖沿着下巴和脸颊滑动，最后指向左下角。",
-    "id": "Pegang produk di samping pipi, label menghadap kamera. Lalu, jari-jari meluncur di sepanjang rahang dan pipi, lalu tunjuk ke kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tapi hari ini lagi promo. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

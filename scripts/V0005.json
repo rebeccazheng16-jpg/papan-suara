@@ -2,18 +2,18 @@
  "id": "V0005",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Sodium DNA Firming Tone-Up Primer 素颜霜",
+  "zh": "VEIRFOO 素颜霜 (Sodium DNA Firming Tone-Up Primer)",
   "id": "VEIRFOO Tone-Up Primer"
  },
  "hook": {
-  "zh": "懒人快速出门素颜霜",
-  "id": "Tone-up cream untuk yang malas dandan"
+  "zh": "懒人必备素颜霜，一抹提亮好气色",
+  "id": "Tone-up cream praktis untuk yang malas dandan"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 素颜霜（盖子盖好，标签朝前）。素颜，不化妆。",
-  "id": "Produk VEIRFOO Tone-Up Primer (tutup terpasang, label menghadap kamera). Wajah bersih, tanpa makeup."
+  "zh": "产品：VEIRFOO 素颜霜（盖子盖好，标签朝前）。素颜出镜。",
+  "id": "Produk: VEIRFOO Tone-Up Primer (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kamu yang males dandan tapi pengen tetep cantik, pilih tone-up cream Korea ini. Di dalemnya ada Salmon PDRN sama Niacinamide. Liat deh, teksturnya lembut banget！"
   },
@@ -34,12 +34,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆。",
-    "id": "Wajah bersih, tanpa makeup."
+    "zh": "素颜出镜。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "在脸颊右侧涂抹产品，左侧不涂，以便对比。",
-    "id": "Oleskan produk di pipi kanan (dari sudut pandang kamera), pipi kiri biarkan tanpa produk untuk perbandingan."
+    "zh": "一侧脸颊已涂抹产品，另一侧未涂抹，以便对比效果。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Bangun tidur pencet sekali, langsung dapet pelembab, primer, sama foundation. Diliat deket pun gak ada efek ngebedak. Abis pakai langsung cus keluar, praktis banget."
   },
@@ -49,12 +49,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊已涂抹素颜霜。",
-    "id": "Pipi sudah memakai tone-up cream."
+    "zh": "全脸已涂抹产品。",
+    "id": "Seluruh wajah sudah memakai produk."
    },
    "do": {
-    "zh": "用两根食指对称地指向脸颊，展示玻璃肌效果。",
-    "id": "Arahkan kedua jari telunjuk ke pipi secara simetris, tunjukkan efek glass skin."
+    "zh": "",
+    "id": ""
    },
    "lines": "Komposisinya mewah, sambil cantik sambil skincare-an. Menurutku hasilnya glowing, bersih, ini nih rahasia glass skin cewek Korea!"
   },
@@ -64,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊已涂抹素颜霜。",
-    "id": "Pipi sudah memakai tone-up cream."
+    "zh": "全脸已涂抹产品。",
+    "id": "Seluruh wajah sudah memakai produk."
    },
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。洗脸时用洗面奶。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Cuci muka pakai facial wash."
    },
    "lines": "Yang penting formulanya bersih, aman buat kulit sensitif. Gak perlu pembersih khusus, facial wash aja udah keangkat. Punya ini, tiap pagi bisa tidur lebih banyak setengah jam!"
   }

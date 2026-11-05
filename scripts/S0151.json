@@ -2,18 +2,18 @@
  "id": "S0151",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (Sensitive Skin) Bagged 21 sheets",
-  "id": "SICENARI Collagen Shot Mask (isi 21)"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "SICENARI PDRN 9,900ppm Sheet Mask isi 21"
  },
  "hook": {
-  "zh": "敷膜日记：过程→结果→余液抹小腿→袋子静物收尾",
-  "id": "Masker diary: proses → hasil → sisa essence di kaki → penutup produk"
+  "zh": "敷膜日记：过程→结果→余液抹小腿→毛毯上袋子静物收尾",
+  "id": "Diary maskeran: proses → hasil → sisa essence dioles ke kaki → kemasan di karpet"
  },
  "src": "TikTok @priskilakaylaa AFTERMYSKIN",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜 (21 片装)，素颜，无妆",
-  "id": "Masker SICENARI (isi 21), muka bersih tanpa makeup"
+  "zh": "SICENARI PDRN 9,900ppm 面膜袋装（21片装），素颜，无妆。",
+  "id": "SICENARI PDRN 9,900ppm Sheet Mask kemasan isi 21, wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤略显苍白暗沉",
-    "id": "Muka bersih tanpa makeup, kulit agak pucat dan kusam"
+    "zh": "素颜，皮肤略显苍白暗沉，无光泽，嘴唇苍白略干。",
+    "id": "Wajah bersih, kulit agak pucat dan kusam, tidak ada kilau, bibir pucat dan sedikit kering."
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。用右手从袋子里取出一片面膜，精华液滴落回袋中。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ambil satu lembar masker dari kemasan dengan tangan kanan, biarkan essence menetes kembali ke kemasan."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤比上一镜更亮更均匀",
-    "id": "Muka bersih tanpa makeup, kulit lebih cerah dan rata dari sebelumnya"
+    "zh": "素颜，无妆，皮肤无瑕疵，比第一晚白一个色号，更透亮均匀，有健康红润光泽。",
+    "id": "Wajah bersih tanpa makeup, kulit mulus, satu tingkat lebih cerah dari malam pertama, lebih bening dan rata, dengan rona sehat."
    },
    "do": {
-    "zh": "用指尖轻抚脸颊，然后将脸颊朝向窗户，让日光照在皮肤上。用双手轻柔地轻托脸颊，微微一笑和点点头。",
-    "id": "Usap pipi dengan ujung jari, lalu putar pipi ke arah jendela agar cahaya matahari menyinari kulit. Tangkup kedua pipi dengan lembut, tersenyum kecil dan mengangguk."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   },
@@ -53,8 +53,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "第一人称俯拍双腿。左手捏住用过的面膜，将多余精华液挤到左小腿上。右手掌心从膝盖到脚踝涂抹精华液。",
-    "id": "Ambil video kaki sendiri dari atas. Tangan kiri memegang masker bekas, peras sisa essence ke betis kiri. Telapak tangan kanan mengoleskan essence dari lutut ke pergelangan kaki."
+    "zh": "",
+    "id": ""
    },
    "lines": ""
   }

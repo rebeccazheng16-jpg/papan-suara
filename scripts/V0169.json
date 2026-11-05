@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "皮肤发光像灯泡",
-  "id": "glowing kayak lampu"
+  "id": "kulit glowing kayak lampu"
  },
  "src": "TikTok @cicinora.xiaojia",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，银色管，盖子盖好，标签朝前）。素颜，不化妆。",
-  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru, tube silver, tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，银色管，PDRN 标签）。素颜，戴发箍。",
+  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru, tube silver, ada tulisan PDRN). Wajah bersih tanpa makeup, pakai bando."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸敷着透明高光膜，紧致提拉",
-    "id": "Wajah sudah dilapisi masker transparan yang glowing, kencang dan terangkat"
+    "zh": "全脸敷着透明发光面膜，紧致提拉",
+    "id": "seluruh wajah sudah pakai masker transparan glowing, kencang terangkat"
    },
    "do": {
-    "zh": "用两根食指指向脸颊，然后张开手掌，转动脸，让光线在光泽上滑动。",
-    "id": "Arahkan kedua jari telunjuk ke pipi, lalu buka tangan di samping wajah dan putar pipi agar cahaya meluncur di atas kilau."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini udah aku diamkan tiga puluh sampai empat puluh menit ya. Nah, aku ngerasa kulitku lagi cerah, glowing kayak lampu."
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "将产品挤到额头和脸颊上，然后用手涂抹。之后，将产品举到脸颊。",
-    "id": "Peras produk ke dahi dan pipi, lalu ratakan dengan tangan. Setelah itu, pegang produk di samping pipi."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kalian yang suka begadang atau kulitnya berminyak, kamu wajib coba masker ini. VEIRFOO merupakan brand dari Korea asli, dan fokus di perawatan kulit, kolagen, dan anti aging."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂着乳白色面膜",
-    "id": "Wajah sudah dilapisi masker berwarna putih susu"
+    "zh": "全脸敷着乳白色面膜",
+    "id": "seluruh wajah sudah pakai masker warna putih susu"
    },
    "do": {
-    "zh": "将产品挤到另一只手背上，然后将手举到脸颊。",
-    "id": "Peras produk ke punggung tangan yang lain, lalu angkat tangan itu di samping pipi."
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Lihat deh teksturnya. Di dalamnya ada salmon PDRN, serta kandungan pencerah. Pakai ini, aku ngerasa kulitku lebih kenyal dan lebih cerah."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸敷着透明高光膜，紧致提拉",
-    "id": "Wajah sudah dilapisi masker transparan yang glowing, kencang dan terangkat"
+    "zh": "全脸敷着透明发光面膜，紧致提拉",
+    "id": "seluruh wajah sudah pakai masker transparan glowing, kencang terangkat"
    },
    "do": {
-    "zh": "用食指指向脸颊，然后用指尖捏住发际线处的面膜边缘。之后，用双手将面膜从额头撕到下巴。最后，将撕下的面膜举到脸颊。",
-    "id": "Arahkan jari telunjuk ke pipi, lalu jepit ujung masker di garis rambut dengan ujung jari. Setelah itu, kelupas seluruh masker dari dahi ke dagu dengan kedua tangan. Terakhir, pegang masker yang sudah dikelupas di samping pipi."
+    "zh": "撕下面膜。",
+    "id": "Kelupas maskernya."
    },
    "lines": "Nah, lihat sekarang ini, warnanya dari putih jadi transparan. Wow, sekarang kita langsung buka. Nah, buatku itu tandanya essence di dalamnya udah meresap semua ke kulit."
   },
@@ -83,11 +83,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "用指尖滑过脸颊，然后轻压脸颊，再转动脸颊，让光线在光泽上滑动。",
-    "id": "Geser ujung jari di pipi, lalu tekan pipi dengan ringan, lalu putar pipi agar cahaya meluncur di atas kilau."
+    "zh": "说‘Q弹’时按压脸颊。",
+    "id": "Tekan pipi pas bilang kenyal."
    },
    "lines": "Nah, hasil akhirnya, aku ngerasa kulitku glowing dan cerah. Hmm, kenyal juga, kalian lihat. Wow, kulitku berasa kayak kulit cewek Korea."
   }

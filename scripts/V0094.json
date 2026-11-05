@@ -2,29 +2,32 @@
  "id": "V0094",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 (Bling Bling Cream)",
+  "zh": "水光霜 Bling Bling Cream",
   "id": "VEIRFOO Bling Bling Cream"
  },
  "hook": {
-  "zh": "我的皮肤曾经暗沉干燥，现在是玻璃肌",
-  "id": "Dulu kulitku kusam dan kering, sekarang glass skin"
+  "zh": "我的皮肤变化：从暗沉到水光肌",
+  "id": "Perubahan kulitku: dari kusam jadi glass skin"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，不化妆，不戴首饰。准备好VEIRFOO水光霜（盖子盖好，标签朝前），防晒霜。",
-  "id": "Wajah bersih tanpa makeup, tanpa perhiasan. Siapkan VEIRFOO Bling Bling Cream (tutup terpasang, label menghadap kamera), dan sunscreen."
+  "zh": "素颜，不化妆，不涂任何护肤品。",
+  "id": "Wajah bersih tanpa makeup atau skincare."
  },
  "shots": [
   {
    "n": 1,
    "sec": 7,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "broll": true,
+   "face": {
+    "zh": "素颜，皮肤暗沉，有黑眼圈、细纹、法令纹、泛红、小斑点。",
+    "id": "Wajah bare face, kusam, ada mata panda, garis halus, garis senyum, kemerahan, dan flek kecil."
+   },
    "do": {
-    "zh": "用前置摄像头自拍，特写，手持，轻微晃动。展示素颜、暗沉、有瑕疵的皮肤。",
-    "id": "Selfie pakai kamera depan, close-up, dipegang tangan, goyang sedikit. Tunjukkan kulit wajah yang kusam dan ada noda."
+    "zh": "",
+    "id": ""
    },
    "lines": "Guys, ini muka aku dulu. Kulitku itu kering banget, tiap foto wajib nyalain beauty filter. Ini muka aku sekarang. Beda dikit, kan?"
   },
@@ -34,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜",
-    "id": "Pakai sheet mask dan kacamata hitam"
+    "zh": "敷着面膜，戴着眼镜。",
+    "id": "Pakai sheet mask dan kacamata."
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍，特写。表情夸张，充满活力。用手指指向镜头。",
-    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Ekspresi dilebih-lebihkan, penuh energi. Jari menunjuk ke arah kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Aku tuh nggak pakai krim yang mahal-mahal, nggak pakai serum mahal juga, dan nggak pernah treatment di klinik. Aku cuma pakai satu benda, yang kalian pasti nggak nyangka: cuma satu Bling Bling Cream! Mungkin kalian mikir ini cuma efek sesaat doang. Tapi aku kasih tahu ya, kalian salah besar!"
   },
@@ -49,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜",
-    "id": "Pakai sheet mask dan kacamata hitam"
+    "zh": "敷着面膜，戴着眼镜。",
+    "id": "Pakai sheet mask dan kacamata."
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍，特写。表情夸张，充满活力。用拳头和手势强调。",
-    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Ekspresi dilebih-lebihkan, penuh energi. Gunakan kepalan tangan dan gerakan tangan untuk menekankan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini tuh bagus banget banget banget! Pokoknya semua orang harus beli Bling Bling Cream ini, ya? Aku udah lama banget posting ini di sini, dan sekarang udah banyak yang beli. Makanya aku sengaja bikin video buat ngajarin cara pakainya yang bener."
   },
@@ -64,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih"
+    "zh": "素颜，皮肤有点暗沉。",
+    "id": "Wajah bare face, agak kusam."
    },
    "do": {
-    "zh": "洗脸，挤出VEIRFOO水光霜涂抹在脸上，展示产品时，产品 logo 正面始终朝向镜头。然后涂抹防晒霜。",
-    "id": "Cuci muka, lalu oleskan VEIRFOO Bling Bling Cream ke wajah, tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu pakai sunscreen."
+    "zh": "展示产品，正面标志面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sebelum pakai, cuci muka dulu sampai bersih. Pencet sedikit ke wajah, ratakan ke seluruh muka. Tunggu satu menit, baru timpa sama sunscreen. Primer sekarang aku skip."
   },
@@ -79,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜",
-    "id": "Pakai sheet mask dan kacamata hitam"
+    "zh": "敷着面膜，戴着眼镜，皮肤水润透亮。",
+    "id": "Pakai sheet mask dan kacamata, kulit lembap dan glowing."
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍，特写。展示产品包装和产品质地。",
-    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Tunjukkan kemasan produk dan tekstur produk."
+    "zh": "展示产品，正面标志面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Malam juga jangan lupa dipakai ya. Ini tuh lima in one: siang jadi primer, malam krim, toner, lotion, sama serum semuanya bisa di-skip. Akhir-akhir ini tiap buka kamera depan, aku suka kaget sendiri lihat kulitku yang glowing."
   },
@@ -92,11 +95,14 @@
    "n": 6,
    "sec": 6,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "broll": true,
+   "face": {
+    "zh": "素颜，皮肤暗沉，有黑眼圈、细纹、法令纹、泛红、小斑点。",
+    "id": "Wajah bare face, kusam, ada mata panda, garis halus, garis senyum, kemerahan, dan flek kecil."
+   },
    "do": {
-    "zh": "展示素颜、暗沉的皮肤，然后是玻璃肌。最后在户外走路。",
-    "id": "Tunjukkan kulit wajah yang kusam, lalu kulit glass skin. Terakhir, berjalan di luar ruangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Dulu mukaku itu kusam dan kering. Nggak pernah kepikiran suatu hari kulitku bisa jadi glass skin."
   },
@@ -106,12 +112,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜",
-    "id": "Pakai sheet mask dan kacamata hitam"
+    "zh": "敷着面膜，戴着眼镜，皮肤水润透亮。",
+    "id": "Pakai sheet mask dan kacamata, kulit lembap dan glowing."
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍，特写。用手势和手指强调。",
-    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Gunakan gerakan tangan dan jari untuk menekankan."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini bukan iklan ya, aku juga nggak dibayar sama brand-nya. Mau beli ya beli, mau percaya sama aku ya percaya. Kalau nggak percaya ya... yaudah, bodo amat, bodo amat. Aku tuh cuma pengen banget banget banget rekomendasiin ini ke kalian. Aku pengen kulit kita semua jadi bagus bareng-bareng, ya?"
   }

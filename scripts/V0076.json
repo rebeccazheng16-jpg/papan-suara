@@ -2,31 +2,28 @@
  "id": "V0076",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 小紫管素颜霜",
+  "zh": "小紫管素颜霜 VEIRFOO purple tube tone-up cream",
   "id": "VEIRFOO tube ungu"
  },
  "hook": {
-  "zh": "素颜霜比粉底液更好用",
-  "id": "Tone-up cream lebih bagus dari foundation"
+  "zh": "素颜霜可以代替厚重粉底",
+  "id": "Krim tone-up bisa gantiin foundation yang berat"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 小紫管素颜霜（带包装盒），一支普通粉底液。从素颜开始拍。",
-  "id": "VEIRFOO tube ungu (dengan kotaknya), satu foundation biasa. Mulai syuting dengan muka polos tanpa makeup."
+  "zh": "VEIRFOO 小紫管素颜霜，普通粉底液。素颜，无妆。",
+  "id": "VEIRFOO tube ungu, foundation biasa. Muka bersih, nggak pakai makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 7,
    "talk": true,
-   "face": {
-    "zh": "素颜，皮肤有点暗沉",
-    "id": "Muka polosan, kulit agak kusam"
-   },
+   "face": null,
    "do": {
-    "zh": "点点脸颊和鼻子，然后将普通粉底涂在一部分脸上，展示卡粉的样子。",
-    "id": "Sentuh pipi dan hidung, lalu oleskan foundation biasa ke sebagian wajah untuk menunjukkan hasilnya yang cakey."
+    "zh": "",
+    "id": ""
    },
    "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
   },
@@ -34,13 +31,10 @@
    "n": 2,
    "sec": 11,
    "talk": true,
-   "face": {
-    "zh": "素颜",
-    "id": "Muka polosan"
-   },
+   "face": null,
    "do": {
-    "zh": "从背后拿出产品。挤出内容物，涂在半边脸上进行比较，然后展示效果。",
-    "id": "Keluarkan produk dari belakang punggung. Pencet isinya, oleskan ke separuh wajah untuk perbandingan, lalu tunjukkan hasilnya."
+    "zh": "展示产品时 标志 正面朝向镜头。一边脸涂了产品，另一边没有，这样能看出区别。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai tube ungu VEIRFOO dari Korea ini. Teksturnya krim, nggak ada rasa bedak. Ungu mudanya netralin warna kuning, jadi buatku kayak kulit bagus bawaan lahir cewek Korea."
   },
@@ -48,13 +42,10 @@
    "n": 3,
    "sec": 11,
    "talk": true,
-   "face": {
-    "zh": "半边脸涂了素颜霜",
-    "id": "Separuh wajah sudah pakai tone-up cream"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "PDRN itu ekstrak salmon yang strukturnya mirip banget sama DNA manusia, makanya di kulitku berasa gampang banget diserap. Bahan yang biasanya cuma ada di skincare sultan, di sini langsung ditulis di kemasannya."
   },
@@ -62,13 +53,10 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "素颜",
-    "id": "Muka polosan"
-   },
+   "face": null,
    "do": {
-    "zh": "一边解释四合一功能，一边将产品涂抹在全脸。",
-    "id": "Sambil menjelaskan empat fungsinya, oleskan produk ke seluruh wajah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
   },
@@ -76,13 +64,10 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "全脸已涂上素颜霜",
-    "id": "Seluruh wajah sudah pakai tone-up cream"
-   },
+   "face": null,
    "do": {
-    "zh": "先展示产品和包装盒，然后手持产品管并友好地微笑。",
-    "id": "Tunjukkan produk dan kotaknya dulu. Lalu, pegang tube produknya sambil tersenyum ramah."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -90,13 +75,10 @@
    "n": 6,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "全脸已涂上素颜霜",
-    "id": "Seluruh wajah sudah pakai tone-up cream"
-   },
+   "face": null,
    "do": {
-    "zh": "展示产品，最后指向小黄车的位置。",
-    "id": "Tunjukkan produknya, lalu di akhir, tunjuk ke arah keranjang kuning."
+    "zh": "展示产品时 标志 正面朝向镜头。说“点小黄车”的时候，用手指一下屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Pas bilang 'Klik keranjang kuning', tunjuk ke arah keranjang kuning."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

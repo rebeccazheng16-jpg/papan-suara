@@ -2,18 +2,18 @@
  "id": "S0119",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "masker PDRN Sicenari"
+  "zh": "SICENARI 超光子胶原炮面膜 (Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask)",
+  "id": "Masker PDRN Sicenari"
  },
  "hook": {
   "zh": "二话不说赶紧薅＋攥膜布挤精华",
-  "id": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari!"
+  "id": "Tanpa basa-basi, langsung serbu masker ini!"
  },
- "src": "TikTok @图图爱买 Eiio",
+ "src": "TikTok @图图爱买 Eiio 水光面膜",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜（盒装，单片袋），素颜，无妆。",
-  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kemasan kotak dan sachet), wajah bersih tanpa makeup."
+  "zh": "SICENARI 面膜盒，SICENARI 单片面膜袋，素颜。",
+  "id": "Siapkan kotak masker SICENARI dan satu sachet masker. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari dari Korea ini! Lagi ada promo pengenalan brand, dengan harga segini udah dapet satu kotak. Dikirim dari toko resmi, dijamin original!"
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau kamu juga sering begadang kayak aku, wajah jadi kuning kusam, gelap dan kering banget, langsung cobain ini. Isinya ada PDRN sembilan ribu sembilan ratus ppm, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -46,12 +46,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "撕开面膜袋，敷上面膜，然后撕下面膜。",
-    "id": "Sobek sachet masker, pakai maskernya, lalu lepas maskernya."
+    "zh": "撕开面膜袋。敷面膜。揭下面膜。",
+    "id": "Sobek sachetnya. Tempel maskernya. Kelupas maskernya."
    },
    "lines": "Cukup gini aja, sekali sobek, sekali tempel, pas dilepas aku ngerasa wajahku lembap banget, tanpa makeup pun berasa glowing."
   },
@@ -61,11 +61,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "把面膜袋里剩下的精华液挤到手上，然后涂抹到脖子和手背上。",
+    "zh": "把面膜袋里剩下的精华液挤到手上，然后涂抹到脖子和手背。",
     "id": "Peras sisa essence dari sachet ke telapak tangan, lalu oleskan ke leher dan punggung tangan."
    },
    "lines": "Essence-nya banyak banget, sisanya sayang kalau dibuang, oles aja ke leher dan tangan, di rumah sendiri udah kayak spa Korea."
@@ -76,12 +76,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时，产品标志正面始终朝向镜头。用一根手指指向屏幕左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。用手指指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Arahkan jari ke kiri bawah."
    },
    "lines": "Di Korea harganya segini, coba lihat harga promo brand-nya sekarang cuma berapa! Klik keranjang kuning di kiri bawah dan cek ya, yang lihat video ini buruan serbu!"
   }

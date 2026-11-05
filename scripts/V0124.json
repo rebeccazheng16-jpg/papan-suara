@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "黑头躲在毛孔缝里，绿泥进得去",
-  "id": "Komedomu ngumpet di pori-pori? Bubble Cleanser bisa masuk!"
+  "id": "Komedomu ngumpet di pori-pori, tapi VEIRFOO Bubble Cleanser bisa masuk!"
  },
  "src": "抖音 BUV笔薇官方旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "素颜，VEIRFOO Bubble Cleanser 一瓶（盖子盖好，标签朝前）",
-  "id": "Wajah bersih tanpa makeup. Siapkan satu botol VEIRFOO Bubble Cleanser (tutupnya terpasang, label menghadap kamera)."
+  "zh": "素颜，VEIRFOO注氧小气泡精粹液（盖子盖好，logo朝前）。",
+  "id": "Wajah bersih tanpa makeup. VEIRFOO Bubble Cleanser (tutupnya terpasang, logo menghadap kamera)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：黑头在毛孔里嘲笑普通洗面奶进不去。",
-    "id": "Animasi: Komedo di dalam pori-pori menertawakan pembersih wajah biasa yang tidak bisa masuk."
+    "zh": "",
+    "id": ""
    },
    "lines": "Hmm, tunggu si pemilik wajah cuci muka aja. Hahaha, percuma! Aku ngumpet di celah pori, dia nggak bisa masuk. Kok hitam lagi? Cuma formalitas, nggak ngefek."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：VEIRFOO Bubble Cleanser 滴入毛孔，起泡把黑头顶出来。",
-    "id": "Animasi: VEIRFOO Bubble Cleanser menetes ke pori-pori, berbusa, dan mendorong komedo keluar."
+    "zh": "",
+    "id": ""
    },
    "lines": "Datang lagi, namanya VEIRFOO Bubble Cleanser. Ah, paling sama aja. Gawat! Di dalamnya ada PDRN dan Bifida alami, kok aku jadi takut!"
   },
@@ -47,11 +47,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，湿润的皮肤",
-    "id": "Wajah bersih tanpa makeup, kulit lembap"
+    "id": "Wajah bersih dan lembap"
    },
    "do": {
-    "zh": "涂抹精华液，精华液自动起泡；然后用手指轻捏脸颊。",
-    "id": "Oleskan essence, biarkan berbusa sendiri; lalu cubit pipi dengan jari."
+    "zh": "捏脸颊。",
+    "id": "Cubit pipi."
    },
    "lines": "Ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu nggak berminyak dan nggak kotor, jangan pakai, takutnya jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -61,12 +61,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上布满泡沫；然后素颜，干净的脸",
-    "id": "Wajah bersih tanpa makeup, tertutup busa; lalu wajah bersih tanpa makeup, bersih"
+    "zh": "素颜，干净的皮肤",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "脸上布满泡沫；然后展示产品，产品 logo 正面始终朝向镜头。",
-    "id": "Wajah tertutup busa; lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku rutin pakai pagi dan malam, bangun besoknya kerasa ada kejutan. Sampai akhirnya aku ganti ke ini, VEIRFOO Bubble Cleanser dari Korea."
   },
@@ -77,11 +77,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，湿润的皮肤",
-    "id": "Wajah bersih tanpa makeup, kulit lembap"
+    "id": "Wajah bersih dan lembap"
    },
    "do": {
-    "zh": "按压产品泵头，将精华液挤到手掌心；然后将精华液涂抹在湿润的脸上，让它自动起泡。",
-    "id": "Tekan pump produk, keluarkan essence ke telapak tangan; lalu oleskan essence ke wajah yang lembap, biarkan berbusa sendiri."
+    "zh": "",
+    "id": ""
    },
    "lines": "Wajah dibasahi, oles, nggak usah digosok. Tunggu beberapa detik, muncul sendiri busa putih halus dan rapat, masuk ke sela pori, ngangkat minyak dan kotoran. Lihat, busanya makin naik."
   },
@@ -91,12 +91,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上布满泡沫；然后素颜，干净的脸",
-    "id": "Wajah bersih tanpa makeup, tertutup busa; lalu wajah bersih tanpa makeup, bersih"
+    "zh": "素颜，干净的皮肤",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "在水池边冲洗脸上的泡沫；然后展示产品，产品 logo 正面始终朝向镜头。",
-    "id": "Bilas busa dari wajah di wastafel; lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Habis dibilas, komedoku, minyak di wajahku, pori-poriku, semuanya bersih dan seger, pori-pori kayak bisa napas lega. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -106,12 +106,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，干净的脸",
-    "id": "Wajah bersih tanpa makeup, bersih"
+    "zh": "素颜，干净的皮肤",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "展示产品，产品 logo 正面始终朝向镜头；然后用手指计数；然后展示产品，产品 logo 正面始终朝向镜头；然后用手指指向左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera; lalu hitung dengan jari; lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera; lalu tunjuk ke sudut kiri bawah."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku udah rekomendasiin ke banyak teman, semuanya bilang enak. Kalau wajahmu berminyak, kasar, hidungnya banyak titik hitam, wajib cobain. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek harganya sekarang, beli satu botol dulu buat coba!"
   }
