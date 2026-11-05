@@ -144,9 +144,37 @@ button:disabled{cursor:default}
 .silent img{width:48px;height:48px;flex:none;object-fit:contain}
 .silent .big1{font-size:19px;font-weight:700;line-height:1.35}
 .silent .big2{font-size:16px;line-height:1.45;margin-top:6px;opacity:.95}
-.spd{position:relative;margin:8px 12px 0;display:flex;gap:6px;justify-content:flex-end}
-.spd[hidden]{display:none}
-.spd button{min-width:56px;min-height:40px;border:0;border-radius:10px;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:14px}
+/* 提词设置：速度 / 字号 两个滑块（分镜页和摄像头页同一个组件） */
+.tp{display:flex;flex-direction:column;gap:6px;background:var(--soft);border-radius:12px;padding:8px 12px}
+.tp[hidden]{display:none}
+.tp .tp-row{display:flex;align-items:center;gap:10px;min-height:36px}
+.tp .tp-row>span{flex:none;width:4.2em;font-size:13px;color:var(--mute);font-weight:600}
+.tp .tp-row>b{flex:none;width:3.2em;text-align:right;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:18px;color:var(--red);line-height:1}
+.tp input[type=range]{flex:1;min-width:0;height:32px;margin:0;accent-color:var(--red)}
+.tp.dark{position:relative;margin:8px 12px 0;background:rgba(0,0,0,.55);color:#fff}
+.tp.dark .tp-row>span{color:rgba(255,255,255,.8)}
+.tp.dark .tp-row>b{color:#fff}
+.tp.dark input[type=range]{accent-color:#fff}
+/* 产品图 */
+.pimg{width:96px;height:96px;object-fit:contain;background:#fff;border-radius:12px;border:1px solid var(--line);flex:none}
+.pimg.sm{width:48px;height:48px;border-radius:10px}
+.prod{display:flex;gap:12px;align-items:center}
+.prod .t b{display:block;font-size:16px;line-height:1.3}
+.prod .t span{display:block;font-size:13px;color:var(--mute);margin-top:2px;line-height:1.4}
+/* 主页「你拍过的」 */
+.hist{display:flex;flex-direction:column;gap:10px}
+.hcard{background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.hhead{display:flex;align-items:center;gap:10px}
+.hhead .t{flex:1;min-width:0}
+.hhead .t b{display:block;font-size:15px;line-height:1.3}
+.hhead .t span{display:block;font-size:13px;color:var(--mute);margin-top:2px}
+.hstrip{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+.hv{position:relative;flex:none;width:72px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#000}
+.hv video{width:100%;height:100%;object-fit:cover;display:block}
+.hv span{position:absolute;left:4px;top:4px;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:14px;color:#fff;background:rgba(0,0,0,.55);border-radius:6px;padding:1px 5px;pointer-events:none}
+.hv span.fin{left:auto;right:4px;background:var(--dark)}
+/* 分镜页顶部：这本有别的段要补拍 */
+.rsbar{border:0;border-radius:12px;background:var(--red);color:var(--on);font-weight:700;font-size:14px;min-height:40px;padding-inline:12px;text-align:left;flex:none}
 .count{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:46vw;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6);pointer-events:none}
 .hint{position:absolute;left:12px;right:12px;bottom:calc(136px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.55);border-radius:12px;padding:8px 12px;font-size:15px;line-height:1.4;max-height:28vh;overflow:auto}
 .framing,.autostop{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
@@ -163,8 +191,9 @@ button:disabled{cursor:default}
 <script type="module">
 const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/mediabunny.min.mjs";
 const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址
-const WPS = 3.5;                       // 脚本库排段密度：每秒 3.5 词，台词滚完刚好到段时长
-const SPEEDS = [0.7, 0.85, 1, 1.2, 1.4];
+const WPS = 3.0;                       // 提词 1× ＝ 每秒 3 词（她 11-05 定的默认速度，原来叫 0.85 档）
+const SPEEDS = [0.5, 0.75, 1, 1.25, 1.5];   // 标准档位，滑块上直接显示 1× / 1.25×，一眼知道调到哪了
+const FONTS = [18, 20, 22, 24, 26, 28, 32, 36];   // 提词字号，默认 24（小一点看起来更自然）
 const CHUNK = 6 * 1024 * 1024;         // 分块上传：6MB 一块（base64 后 8MB，后台一次能收）
 const QUIET_SEC = 1.5;                 // 提词滚完后安静这么久自动停
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -192,15 +221,18 @@ const I18N = {
     rec: "REKAM", pick: "Pilih video dari galeri", again: "Ulang", next: "Lanjut →", finish: "Lihat semua →", back: "Kembali", zoom: "Perbesar",
     cheer: ["Santai aja, kayak ngobrol sama temen.", "Selama rekam, brand nggak bisa lihat videomu. Tenang aja ya.", "Nggak harus persis. Yang penting natural.", "Kalau salah, tinggal ulang. Gampang!", "Senyum dikit, kamu udah keren kok.", "Habis selesai semua, bisa kamu simpan dulu buat dipercantik."],
     took: "Keren! Mau lihat dulu, atau langsung lanjut?", tookLast: "Semua bagian udah ada! Yuk lihat semuanya.",
-    reshootTag: n => `Perlu diulang: bagian ${n}`, reshootHi: "Ada bagian yang perlu diulang. Buka naskahnya, catatannya ada di sana.", reshootNote: "PERLU DIULANG", reshootTip: "Rekam ulang bagian ini aja, bagian lain nggak usah.", redoThis: "Rekam ulang bagian ini", afterRedo: "Udah direkam ulang! Simpan dulu buat dipercantik, edit di aplikasimu, lalu balik ke sini kirim bagian ini.", saveOne: "Simpan bagian ini buat dipercantik", saveOneSub: "Cuma bagian ini, masuk ke galeri", sendOne: n => `Kirim bagian ${n} (sudah diedit)`, sendOneSub: "Pilih video hasil editan dari galeri", sendOneRaw: "Kirim apa adanya (tanpa edit)", reshootDone: "Bagian ini udah sampai. Makasih ya!", oneSending: p => `Mengirim bagian ini… ${p}%`, oneFail: "Terputus. Pilih lagi video yang sama, aku lanjutkan.",
-    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera", hideText: "Sembunyikan teks", showText: "Tampilkan teks",
+    reshootTag: n => `Perlu diulang: bagian ${n}`, reshootHi: "Ada bagian yang perlu diulang. Buka naskahnya, catatannya ada di sana.", reshootNote: "PERLU DIULANG", reshootTip: "Rekam ulang bagian ini aja, bagian lain nggak usah.", redoThis: "Rekam ulang bagian ini", afterRedo: "Udah direkam ulang! Simpan dulu buat dipercantik, edit di aplikasimu, lalu balik ke sini kirim bagian ini.", saveOne: "Simpan bagian ini buat dipercantik", saveOneSub: "Cuma bagian ini, masuk ke galeri", sendOne: n => `Kirim bagian ${n} (sudah diedit)`, sendOneSub: "Pilih video hasil editan dari galeri", reshootDone: "Bagian ini udah sampai. Makasih ya!", oneSending: p => `Mengirim bagian ini… ${p}%`, oneFail: "Terputus. Pilih lagi video yang sama, aku lanjutkan.",
+    tpTitle: "Teks berjalan", speed: "Kecepatan", fontSize: "Ukuran huruf", productLab: "Produknya kayak gini",
+    history: "Rekaman kamu", histTakes: n => `${n} bagian terekam`, histFinal: "video editan", histSent: "terkirim ✓", histNotSent: "belum dikirim", histTip: "Ketuk video buat lihat.",
+    newReshoot: "Ada bagian baru yang perlu diulang!", rsJump: n => `Perlu diulang: bagian ${n} →`,
+    stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera", hideText: "Sembunyikan teks", showText: "Tampilkan teks",
     autostopOn: "Habis ngomong, diam 1–2 detik → berhenti sendiri", autostopNow: "Diam sebentar, aku berhentikan…",
     camErr: n => `Kamera nggak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi ya.`,
     inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas, lalu pilih “Buka di Safari”.",
     processing: "Sebentar, lagi disimpan…", flip: "Videonya miring? Ketuk untuk memutar",
     overview: "Semua bagian", fHi: "Semua udah kamu rekam! Mau dipercantik dulu? Simpan jadi satu video, edit di aplikasi favoritmu, lalu balik ke sini buat kirim.", fHiMissing: n => `Masih ada ${n} bagian yang belum direkam.`, fHiSending: "Lagi aku kirim… jangan tinggalkan halaman ini ya, kalau keluar nanti terputus. Tunggu beberapa menit aja, nggak apa-apa.", fHiDone: "Udah sampai semua! Makasih ya, kamu hebat banget.",
     saveBeauty: "Simpan buat dipercantik", saveBeautySub: "Semua bagian jadi satu video, tersimpan di HP kamu", saving: "Lagi digabung…", savedOk: "Tersimpan. Edit di aplikasi favoritmu, lalu balik ke sini ya.",
-    sendFinal: "Kirim video yang sudah dipercantik", sendFinalSub: "Pilih video hasil editan dari galeri", sendRaw: "Kirim apa adanya (tanpa edit)", sendRawSub: n => `${n} bagian, langsung ke kami`,
+    sendFinal: "Kirim video yang sudah dipercantik", sendFinalSub: "Pilih video hasil editan dari galeri",
     stMissing: "Belum direkam", stOk: "Sudah direkam", stSent: "Terkirim", stSending: "Mengirim…", stFail: "Terputus, lanjutkan", redo: "Ulang", recordIt: "Rekam", resume: "Lanjutkan kirim", finalSent: "Video hasil editan sudah terkirim ✓", finalSending: p => `Mengirim video editan… ${p}%`, pickAgain: "Pengiriman tadi terputus. Pilih lagi video yang sama, aku lanjutkan dari tempat berhenti.",
     concatFail: "Nggak bisa digabung otomatis. Aku simpan satu per satu ya.",
     doneTitle: "Terkirim ✓", backHome: "Kembali ke menu utama", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
@@ -219,15 +251,18 @@ const I18N = {
     rec: "开始录", pick: "从相册选视频", again: "重录", next: "下一段 →", finish: "看全部 →", back: "返回", zoom: "放大",
     cheer: ["放松点，像跟朋友聊天。", "录制过程品牌看不到你的视频，放心。", "不用一模一样，自然最重要。", "错了就重录，很简单。", "笑一笑，你已经很棒了。", "全部录完可以先存下来去美颜。"],
     took: "很好！先看看，还是直接下一段？", tookLast: "全部都有了！去看看全部吧。",
-    reshootTag: n => `要补拍：第 ${n} 段`, reshootHi: "有一段要补拍。打开那本脚本，备注写在里面。", reshootNote: "要补拍", reshootTip: "只重录这一段，其他段不用动。", redoThis: "重录这一段", afterRedo: "重录好了！先存去美颜，在你的 App 里修完，回来传这一段。", saveOne: "存这一段去美颜", saveOneSub: "只存这一段，进相册", sendOne: n => `传第 ${n} 段（修好的）`, sendOneSub: "从相册选修好的视频", sendOneRaw: "直接传这一段原片（不修）", reshootDone: "这一段补好了，谢谢！", oneSending: p => `正在传这一段… ${p}%`, oneFail: "断了。再选一次同一个视频，我接着传。",
-    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头", hideText: "隐藏提词", showText: "显示提词",
+    reshootTag: n => `要补拍：第 ${n} 段`, reshootHi: "有一段要补拍。打开那本脚本，备注写在里面。", reshootNote: "要补拍", reshootTip: "只重录这一段，其他段不用动。", redoThis: "重录这一段", afterRedo: "重录好了！先存去美颜，在你的 App 里修完，回来传这一段。", saveOne: "存这一段去美颜", saveOneSub: "只存这一段，进相册", sendOne: n => `传第 ${n} 段（修好的）`, sendOneSub: "从相册选修好的视频", reshootDone: "这一段补好了，谢谢！", oneSending: p => `正在传这一段… ${p}%`, oneFail: "断了。再选一次同一个视频，我接着传。",
+    tpTitle: "提词", speed: "速度", fontSize: "字号", productLab: "产品长这样",
+    history: "你拍过的", histTakes: n => `已录 ${n} 段`, histFinal: "成片", histSent: "已传 ✓", histNotSent: "还没传", histTip: "点视频可以看。",
+    newReshoot: "有新的补拍要求！", rsJump: n => `要补拍：第 ${n} 段 →`,
+    stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头", hideText: "隐藏提词", showText: "显示提词",
     autostopOn: "说完后安静 1–2 秒自动停", autostopNow: "安静一下，我来停…",
     camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
     inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」，选「在 Safari 中打开」。",
     processing: "稍等，正在保存…", flip: "画面横了？点这里转正",
     overview: "全部段落", fHi: "都录完了！要先美颜吗？存成一条视频，去你常用的 App 里修，修完回来上传。", fHiMissing: n => `还有 ${n} 段没录。`, fHiSending: "正在传……别离开这个页面，离开会中断。等几分钟就好，没事的。", fHiDone: "全都到了！谢谢你，太棒了。",
     saveBeauty: "保存去美颜", saveBeautySub: "所有段拼成一条，存到手机", saving: "正在拼接…", savedOk: "存好了。去你常用的 App 修，修完回来上传。",
-    sendFinal: "上传美颜好的成片", sendFinalSub: "从相册选修好的视频", sendRaw: "直接传原片（不修）", sendRawSub: n => `${n} 段，直接给我们`,
+    sendFinal: "上传美颜好的成片", sendFinalSub: "从相册选修好的视频",
     stMissing: "还没录", stOk: "已录", stSent: "已传", stSending: "传送中…", stFail: "断了，继续", redo: "重录", recordIt: "去录", resume: "继续上传", finalSent: "成片已传到 ✓", finalSending: p => `正在传成片… ${p}%`, pickAgain: "上次没传完。再选一次同一个视频，我从断点接着传。",
     concatFail: "没法自动拼接，我一段一段存。",
     doneTitle: "上传完成", backHome: "返回主菜单", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
@@ -267,8 +302,34 @@ let sid = (new URLSearchParams(location.search).get("s") || "").trim();   // 旧
 let script = null, cur = 0, loadErr = "";
 let lib = [], assignedIds = null, mineIds = [], backendMeta = {}, mineText = "", mineMsg = "", mineDraft = null, mineBusy = false, camErr = "";
 let reshoots = [], segFiles = {}, segState = {};   // reshoots：后台说要补拍的 [{script,shot,note}]；segFiles[i]：补拍段她选的修好视频；segState[i]：{pct,status}
-let speedIdx = store.get("speed", 1);
-const takes = [];                                 // takes[i] = { blob, url, raw, rot, landscape, up: ""|"busy"|"done"|"fail", pct, msg }
+let speedIdx = store.get("speed2", 2), fontIdx = store.get("font", 3);   // 提词速度/字号，两个滑块，记在本机
+let hist = null, newReshoot = false;             // hist：这台手机上所有本子的录像记录（主页「你拍过的」）；newReshoot：轮询到新的补拍要求
+const takes = [];                                 // takes[i] = { blob, url, raw, rot, landscape, up: ""|"busy"|"done"|"fail", pct, msg, at }
+
+// ===== 产品图：脚本的产品名 → 白底图（img/products/，来源 桌面/品牌/*/产品白底图）＋ 给达人看的正名/俗称。顺序有讲究：先匹配更具体的 =====
+const PRODUCTS = [
+  { re: /微塑|袋装|pouch|infusion|isi 21|21 片|21 lembar/i, img: "sic_pouch", zh: "SICENARI 面膜 袋装 21 片", id: "Masker SICENARI (pouch isi 21)" },
+  { re: /sicenari|超光子|胶原炮/i, img: "sic_box", zh: "SICENARI 面膜 盒装", id: "Masker SICENARI (kotak)" },
+  { re: /鎏金|golden/i, img: "golden_mask", zh: "鎏金蛋白膜（金管）", id: "Golden Mask (tube emas)" },
+  { re: /油霜|pink/i, img: "pink_cream", zh: "粉水光油霜（粉管）", id: "Pink Bling Bling Cream (tube pink)" },
+  { re: /胶原蛋白|collagen|蛋白膜/i, img: "collagen_mask", zh: "水光胶原蛋白膜（大银管）", id: "Collagen Mask (tube silver besar)" },
+  { re: /小气泡|bubble|oxygen/i, img: "bubble", zh: "注氧小气泡精粹液（透明瓶）", id: "Bubble Essence (botol bening)" },
+  { re: /洁面|cleanser|cleansing/i, img: "cleanser", zh: "洁面乳（银管，带 PDRN 蓝标）", id: "Cleanser (tube silver, label PDRN biru)" },
+  { re: /紫管|purple|ungu/i, img: "primer_purple", zh: "紫管素颜霜", id: "Tone-Up Cream (tube ungu)" },
+  { re: /银管|素颜霜|tone-?up|primer/i, img: "primer_silver", zh: "银管素颜霜", id: "Tone-Up Primer (tube silver)" },
+  { re: /番茄|tomato/i, img: "tomato_mask", zh: "白番茄面膜（单片）", id: "White Tomato Mask (sheet mask)" },
+  { re: /粉底|呼吸霜|breathing|foundation/i, img: "foundation", zh: "钻光粉底霜（呼吸霜，粉管）", id: "Foundation Cream (tube pink)" },
+  { re: /双支|twin/i, img: "eye2", zh: "PDRN 双支眼霜", id: "Twin Eye Cream (2 tube)" },
+  { re: /眼霜|eye/i, img: "eye1", zh: "眼霜", id: "Eye Cream" },
+  { re: /水光霜|晶光|bling|hydra ?glow/i, img: "bling_cream", zh: "水光霜", id: "Bling Bling Cream (tube silver kecil)" },
+];
+function productOf(sc) {
+  if (!sc?.product) return null;
+  const s = `${sc.product.zh || ""} ${sc.product.id || ""}`;
+  if (/头达口播|naskah pembuka/i.test(s)) return null;   // 钩子包不拿产品
+  return PRODUCTS.find(p => p.re.test(s)) || null;
+}
+const pimg = (p, cls = "") => p ? `<img class="pimg ${cls}" src="img/products/${p.img}.jpg" alt="" decoding="async" loading="lazy">` : "";
 let view = profile ? "scripts" : "login";        // login | scripts | mine | preview | prep | shot | overview
 let cheerIdx = 0, editing = false, noteMsg = "", finalState = null, finalFile = null, saveMsg = "";   // finalState = { name, pct, status: "busy"|"done"|"fail"|"wait" }
 
@@ -287,16 +348,32 @@ function dbOpen() {
 }
 async function dbPut(i, v) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).put(v, `${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
 async function dbDel(i) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).delete(`${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
+async function dbGet(k) { try { const d = await dbOpen(); const st = d.transaction(DB.store).objectStore(DB.store); return await new Promise(r => { const q = st.get(`${sid}:${k}`); q.onsuccess = () => r(q.result || null); q.onerror = () => r(null); }); } catch (e) { return null; } }
 async function dbLoad() {
   takes.length = 0;
   try { const d = await dbOpen(); const st = d.transaction(DB.store).objectStore(DB.store);
     const keys = await new Promise(r => { const q = st.getAllKeys(); q.onsuccess = () => r(q.result); q.onerror = () => r([]); });
-    for (const k of keys) { if (!String(k).startsWith(sid + ":")) continue; const i = +String(k).split(":")[1];
+    for (const k of keys) { if (!String(k).startsWith(sid + ":")) continue; const suf = String(k).slice(sid.length + 1); if (!/^\d+$/.test(suf)) continue; const i = +suf;
       const v = await new Promise(r => { const q = st.get(k); q.onsuccess = () => r(q.result); q.onerror = () => r(null); });
-      if (v?.blob) takes[i] = { blob: v.blob, url: URL.createObjectURL(v.blob), raw: v.raw || v.blob, rot: v.rot, landscape: v.landscape, up: v.up === "done" ? "done" : "", msg: "" }; }
+      if (v?.blob) takes[i] = { blob: v.blob, url: URL.createObjectURL(v.blob), raw: v.raw || v.blob, rot: v.rot, landscape: v.landscape, up: v.up === "done" ? "done" : "", msg: "", at: v.at || 0 }; }
   } catch (e) {}
 }
-const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, up: tk.up }); else dbDel(i); };
+// 主页「你拍过的」：这台手机上所有本子的段和成片，按本子分组（键 <本>:<段下标> 和 <本>:final）
+async function dbAll() {
+  const out = {};
+  try { const d = await dbOpen(); const st = d.transaction(DB.store).objectStore(DB.store);
+    const keys = await new Promise(r => { const q = st.getAllKeys(); q.onsuccess = () => r(q.result); q.onerror = () => r([]); });
+    for (const k of keys) { const m = String(k).match(/^(.+):([^:]+)$/); if (!m) continue; const id = m[1], suf = m[2];
+      const v = await new Promise(r => { const q = st.get(k); q.onsuccess = () => r(q.result); q.onerror = () => r(null); });
+      if (!v?.blob) continue; const h = out[id] = out[id] || { takes: [], final: null, at: 0 };
+      if (suf === "final") h.final = { blob: v.blob, name: v.name || "", up: v.up || "" }; else if (/^\d+$/.test(suf)) h.takes.push({ i: +suf, blob: v.blob, up: v.up || "" });
+      h.at = Math.max(h.at, v.at || 0); }
+    Object.values(out).forEach(h => h.takes.sort((a, b) => a.i - b.i));
+  } catch (e) {}
+  return out;
+}
+const urlOf = (() => { const m = new WeakMap(); return b => { if (!m.has(b)) m.set(b, URL.createObjectURL(b)); return m.get(b); }; })();
+const persist = i => { hist = null; const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, up: tk.up, at: tk.at || Date.now() }); else dbDel(i); };
 
 // ===== 读脚本 =====
 async function loadLib() {
@@ -316,6 +393,8 @@ async function openScript(id) {
   await loadScript(id);
   if (!script) { render(); return; }
   await dbLoad();
+  finalFile = null;   // 她选过的成片存在手机库里：刷新/切 App 回来不用再选一次，直接从断点接着传
+  if (finalState && finalState.status !== "done") { const f = await dbGet("final"); if (f?.blob) finalFile = new File([f.blob], f.name || finalName(), { type: f.blob.type || "video/mp4" }); }
   cur = store.get("cur_" + sid, 0); if (cur > script.shots.length) cur = 0;
   const started = takes.some(x => x?.blob) || cur > 0;
   const rs = script.shots.findIndex((x, i) => reshootFor(i));
@@ -391,14 +470,28 @@ function renderScripts() {
     <div class="mid">
       ${bubble(reshoots.length ? t("reshootHi") : items.length ? t("pickOne") : t("noScripts"), reshoots.length ? "go" : items.length ? "hi" : "wink")}
       <div class="slist scroll">
-        ${items.map((x, k) => { const c = prog(x.id); const own = mineIds.includes(x.id);
+        ${items.map((x, k) => { const c = prog(x.id); const own = mineIds.includes(x.id); const p = productOf(x);
           const rs = reshoots.filter(r => r.script === x.id).map(r => r.shot);
-          return `<button class="sitem" data-open="${esc(x.id)}"><span class="num">${k + 1}</span><span class="t"><b>${esc(L(x.product))}</b><span>${rs.length ? `<b style="color:var(--red)">${esc(t("reshootTag", rs.join("、")))}</b>` : own ? t("mineTag") : esc(L(x.hook) || x.id)}${x.shots ? ` · ${t("bagian", x.shots)}` : ""}${x.sec ? ` · ${t("detik", x.sec)}` : ""}</span></span>
+          return `<button class="sitem" data-open="${esc(x.id)}">${p ? pimg(p, "sm") : `<span class="num">${k + 1}</span>`}<span class="t"><b>${esc(L(x.product))}</b><span>${rs.length ? `<b style="color:var(--red)">${esc(t("reshootTag", rs.join("、")))}</b>` : own ? t("mineTag") : esc(L(x.hook) || x.id)}${x.shots ? ` · ${t("bagian", x.shots)}` : ""}${x.sec ? ` · ${t("detik", x.sec)}` : ""}</span></span>
             <span class="go ${rs.length ? "" : c && x.shots && c >= x.shots ? "done" : ""}" ${rs.length ? `style="background:var(--red)"` : ""}>${rs.length ? t("redo") : c && x.shots && c >= x.shots ? t("doneBtn") : c ? t("continueBtn") : t("record")}</span></button>`; }).join("")}
         <button class="sitem" id="mine"><span class="num">✎</span><span class="t"><b>${t("writeOwn")}</b></span><span class="go" style="background:var(--dark)">${t("record")}</span></button>
+        ${histHtml()}
       </div>
     </div>
     <div class="foot"><button class="link" id="logout">${t("changeName")}</button></div>`;
+}
+// 主页下半截「你拍过的」：每本一张卡（产品图/名字/日期/几段/成片传没传）＋ 一排竖版小视频，点开全屏看
+function histHtml() {
+  if (hist === null) { dbAll().then(h => { hist = h; if (view === "scripts") render(); }); return ""; }
+  const ids = Object.keys(hist).filter(id => hist[id].takes.length || hist[id].final).sort((a, b) => hist[b].at - hist[a].at);
+  if (!ids.length) return "";
+  const meta = id => lib.find(x => x.id === id) || backendMeta[id] || (id === "SELF" ? store.get("self_" + name, null) : null) || { id, product: { zh: id, id } };
+  const dstr = at => at ? new Date(at).toLocaleDateString(lang === "zh" ? "zh-CN" : "id-ID", { month: "numeric", day: "numeric" }) : "";
+  const cell = (blob, tag, fin) => `<div class="hv"><video src="${urlOf(blob)}" preload="metadata" muted playsinline data-play></video><span class="${fin ? "fin" : ""}">${tag}</span></div>`;
+  return `<div class="lab" style="margin-top:10px">${t("history")}</div><p class="tip" style="margin-top:-6px">${t("histTip")}</p><div class="hist">${ids.map(id => {
+    const h = hist[id], x = meta(id), p = productOf(x), fin = store.get("final_" + id, null);
+    return `<div class="hcard"><div class="hhead">${p ? pimg(p, "sm") : ""}<div class="t"><b>${esc(L(x.product))}</b><span>${[dstr(h.at), t("histTakes", h.takes.length), h.final ? `${t("histFinal")} ${fin?.status === "done" ? t("histSent") : t("histNotSent")}` : ""].filter(Boolean).join(" · ")}</span></div></div>
+      <div class="hstrip">${h.final ? cell(h.final.blob, "✓", true) : ""}${h.takes.map(tk => cell(tk.blob, tk.i + 1)).join("")}</div></div>`; }).join("")}</div>`;
 }
 function renderMine() {
   if (mineDraft) {
@@ -419,8 +512,8 @@ function renderMine() {
     <div class="foot"><button class="big" id="mparse" ${mineBusy ? "disabled" : ""}>${mineBusy ? t("mineBusy") : t("mineParse")}</button></div>`;
 }
 function previewHtml(sc) {
-  const all = sc.shots.map(s => s.lines).filter(Boolean).join(" ");
-  return `<div><b style="font-size:17px">${esc(L(sc.product))}</b>${L(sc.hook) ? `<div class="tip">${esc(L(sc.hook))}</div>` : ""}</div>
+  const all = sc.shots.map(s => s.lines).filter(Boolean).join(" "), p = productOf(sc);
+  return `<div class="prod">${pimg(p)}<div class="t"><b>${esc(L(sc.product))}</b>${p ? `<span>${esc(t("productLab"))}: ${esc(L(p))}</span>` : ""}${L(sc.hook) ? `<span>${esc(L(sc.hook))}</span>` : ""}</div></div>
     ${sc.prep && L(sc.prep) ? `<div class="face"><b>${t("prepTitle")}</b>${esc(L(sc.prep))}</div>` : ""}
     ${sc.shots.map(s => `<div class="seg"><b>${s.n}</b><div><span class="s">${t("detik", s.sec)}${s.talk === false || !s.lines ? ` · ${t("noLines").split(/[.。]/)[0]}` : ""}</span>
       ${L(s.do) ? `<div class="d">${esc(L(s.do))}</div>` : ""}${s.lines ? `<div class="l">${esc(s.lines)}</div>` : ""}</div></div>`).join("")}
@@ -441,7 +534,7 @@ function renderPrep() {
   return `${topbar(t("prepTitle"), esc(L(script.product)), true)}
     <div class="mid">
       ${bubble(t("prepHi"), "go")}
-      <div class="card scroll" style="flex:1"><p style="margin:0;line-height:1.6;font-size:17px">${esc(L(script.prep))}</p></div>
+      <div class="card scroll" style="flex:1">${(p => p ? `<div class="prod">${pimg(p)}<div class="t"><b>${esc(L(p))}</b><span>${esc(L(script.product))}</span></div></div>` : "")(productOf(script))}<p style="margin:0;line-height:1.6;font-size:17px">${esc(L(script.prep))}</p></div>
     </div>
     <div class="foot"><button class="big" id="ready">${t("ready")}</button></div>`;
 }
@@ -450,9 +543,11 @@ function renderShot() {
   const i = cur, s = script.shots[i], tk = takes[i], last = i + 1 >= script.shots.length, ln = linesOf(i);
   const rs = reshootFor(i), redone = rs && reshotDone(i), st = segState[i];
   const say = st?.status === "done" ? t("reshootDone") : rs ? (redone && tk?.blob ? t("afterRedo") : t("reshootTip")) : tk?.blob ? (last ? t("tookLast") : t("took")) : (editing ? t("editTip") : t("cheer")[cheerIdx % t("cheer").length]);
+  const other = rs ? -1 : script.shots.findIndex((x, k) => k !== i && reshootFor(k));   // 这本别的段要补拍：顶上一条红，点了跳过去
   return `${topbar(t("shotTitle", s.n, script.shots.length), esc(L(script.product)), true)}
     ${prog()}
     <div class="mid">
+      ${other >= 0 ? `<button class="rsbar" id="rsjump" data-i="${other}">${esc(t("rsJump", script.shots[other].n))}</button>` : ""}
       ${bubble(say, st?.status === "done" ? "ok" : rs ? "go" : tk?.blob ? "yay" : "hi")}
       <div class="card shot">
         <div class="head"><span class="n">${s.n}</span><span class="s">${t("detik", s.sec)}</span></div>
@@ -463,14 +558,14 @@ function renderShot() {
         : `${s.broll ? `<div class="face">${esc(t("broll"))}</div>` : ""}
           ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
           ${L(s.do) ? `<div class="do"><b>${t("suggest")}</b><p>${esc(L(s.do))}</p></div>` : ""}
-          ${s.talk !== false && (ln || s.lines) ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines-row"><div class="lines ${isEdited(i) ? "edited" : ""}">${esc(ln)}</div><button class="pen" id="editbtn" aria-label="${t("editLines")}">✎</button></div></div>` : `<div class="lines none">${t("noLines")}</div>`}
+          ${s.talk !== false && (ln || s.lines) ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines-row"><div class="lines ${isEdited(i) ? "edited" : ""}">${esc(ln)}</div><button class="pen" id="editbtn" aria-label="${t("editLines")}">✎</button></div></div>${tpPanel(false)}` : `<div class="lines none">${t("noLines")}</div>`}
           ${tk?.msg && !tk.blob ? `<p class="${tk.err ? "err" : "tip"}">${esc(tk.msg)}</p>` : ""}
           ${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}`}
       </div>
     </div>
     <div class="foot">
       ${rs && tk?.blob && !redone ? `<button class="big" id="redo1">${t("redoThis")}</button>`
-      : rs && tk?.blob && redone && st?.status !== "done" ? `<button class="big" id="saveone">${t("saveOne")}<small>${t("saveOneSub")}</small></button><button class="big dark pickbtn">${t("sendOne", s.n)}<small>${t("sendOneSub")}</small><input type="file" id="pickseg" accept="video/*"></button>${tk.up === "busy" ? "" : `<button class="link" id="sendoneraw">${t("sendOneRaw")}</button>`}<button class="link" id="again">${t("again")}</button>`
+      : rs && tk?.blob && redone && st?.status !== "done" ? `<button class="big" id="saveone">${t("saveOne")}<small>${t("saveOneSub")}</small></button><button class="big dark pickbtn">${t("sendOne", s.n)}<small>${t("sendOneSub")}</small><input type="file" id="pickseg" accept="video/*"></button><button class="link" id="again">${t("again")}</button>`
       : tk?.blob ? `<div class="row2"><button class="big ghost" id="again">${t("again")}</button><button class="big" id="next">${last ? t("finish") : t("next")}</button></div>`
       : editing ? "" : s.broll ? `<button class="big dark pickbtn">${t("pick")}<input type="file" id="pick" accept="video/*"></button><button class="link" id="rec">${t("rec")}</button>`
       : `<button class="big" id="rec">${t("rec")}</button><button class="link pickbtn">${t("pick")}<input type="file" id="pick" accept="video/*"></button>`}
@@ -478,7 +573,7 @@ function renderShot() {
 }
 function renderOverview() {
   const n = script.shots.length, have = takes.filter(x => x?.blob).length, missing = n - have;
-  const rawPending = takes.filter(x => x?.blob && x.up && x.up !== "done").length, rawSending = takes.some(x => x?.up === "busy");
+  const rawSending = takes.some(x => x?.up === "busy");
   const finalBusy = finalState?.status === "busy", finalDone = finalState?.status === "done", finalWait = finalState?.status === "wait" || finalState?.status === "fail";
   const sending = rawSending || finalBusy;
   const allRawSent = have > 0 && takes.filter(x => x?.blob).every(x => x.up === "done");
@@ -505,8 +600,7 @@ function renderOverview() {
       ${sending ? `<button class="big" disabled>${esc(t("stSending"))}</button>`
       : have && !missing ? `
         ${!finalDone && !allRawSent ? `<button class="big" id="savebeauty">${t("saveBeauty")}<small>${t("saveBeautySub")}</small></button>` : ""}
-        ${!finalDone ? `<button class="big dark pickbtn">${finalWait ? t("resume") : t("sendFinal")}<small>${t("sendFinalSub")}</small><input type="file" id="pickfinal" accept="video/*"></button>` : ""}
-        ${!finalDone && !allRawSent ? `<button class="link" id="sendraw">${rawPending ? t("resume") : t("sendRaw")} · ${t("sendRawSub", have)}</button>` : ""}`
+        ${!finalDone ? `<button class="big dark pickbtn">${finalWait ? t("resume") : t("sendFinal")}<small>${t("sendFinalSub")}</small><input type="file" id="pickfinal" accept="video/*"></button>` : ""}`
       : ""}
       <button class="link" id="clear">${t("clearAll")}</button>
     </div>`;
@@ -541,7 +635,10 @@ function bind() {
   on("rot", () => rotateTake(cur));
   on("redo1", () => { takes[cur] = null; persist(cur); render(); });
   on("saveone", () => saveOne(cur));
-  on("sendoneraw", () => uploadRaw([cur]));
+  on("rsjump", () => { cur = +$("#rsjump").dataset.i; store.set("cur_" + sid, cur); editing = false; render(); });
+  const tp = $("#tp"); if (tp) bindTp(tp);
+  $$("[data-play]").forEach(v => { v.onclick = () => { v.muted = false; v.controls = true; if (v.webkitEnterFullscreen) v.webkitEnterFullscreen(); else if (v.requestFullscreen) v.requestFullscreen(); v.play().catch(() => {}); };
+    v.addEventListener("webkitendfullscreen", () => { v.pause(); v.muted = true; v.controls = false; }); });
   const ps = $("#pickseg"); if (ps) ps.onchange = e => { const f = e.target.files[0]; if (f) uploadSegFile(cur, f); };
   on("zoom", () => { const v = $("#pv"); if (!v) return; if (v.webkitEnterFullscreen) v.webkitEnterFullscreen(); else if (v.requestFullscreen) v.requestFullscreen(); });
   on("editbtn", () => { editing = true; render(); });
@@ -551,10 +648,19 @@ function bind() {
   const pk = $("#pick"); if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(cur, f); };
   $$("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); view = "shot"; render(); });
   on("clear", async () => { if (!(await confirmBox(t("clearSure"), t("yesClear"), t("cancel")))) return;
-    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); finalState = null; store.del("final_" + sid); store.del("upq_" + sid); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
+    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); dbDel("final"); finalFile = null; hist = null; finalState = null; store.del("final_" + sid); store.del("upq_" + sid); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
   on("savebeauty", saveForBeauty);
-  on("sendraw", () => uploadRaw(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0)));
   const pf = $("#pickfinal"); if (pf) pf.onchange = e => { const f = e.target.files[0]; if (f) uploadFinal(f); };
+}
+// 提词设置：速度（0.5×…1.5× 标准档）＋ 字号，两个滑块；分镜页开拍前就能调，摄像头页同一个组件（dark）
+function tpPanel(dark) {
+  return `<div class="tp ${dark ? "dark" : ""}" id="tp"><div class="tp-row"><span>${t("speed")}</span><input type="range" id="spd" min="0" max="${SPEEDS.length - 1}" step="1" value="${speedIdx}" aria-label="${t("speed")}"><b id="spdv">${SPEEDS[speedIdx]}×</b></div>
+    <div class="tp-row"><span>${t("fontSize")}</span><input type="range" id="fnt" min="0" max="${FONTS.length - 1}" step="1" value="${fontIdx}" aria-label="${t("fontSize")}"><b id="fntv" style="font-size:${FONTS[fontIdx]}px">${FONTS[fontIdx]}</b></div></div>`;
+}
+function bindTp(el, onChange) {
+  const s = $("#spd", el), f = $("#fnt", el);
+  if (s) s.oninput = () => { speedIdx = +s.value; store.set("speed2", speedIdx); $("#spdv", el).textContent = SPEEDS[speedIdx] + "×"; onChange?.(); };
+  if (f) f.oninput = () => { fontIdx = +f.value; store.set("font", fontIdx); const b = $("#fntv", el); b.style.fontSize = FONTS[fontIdx] + "px"; b.textContent = FONTS[fontIdx]; onChange?.(); };
 }
 const safe = s => String(s).replace(/[\\/:*?"<>|\s]/g, "_");
 const today = () => { const d = new Date(); return `${d.getMonth() + 1}.${d.getDate()}`; };
@@ -606,7 +712,7 @@ async function startRec(i) {
   const ov = document.createElement("div"); ov.className = "rec";
   ov.innerHTML = `<video autoplay muted playsinline class="${front ? "mirror" : ""}"></video>
     <div class="rtop"><button class="rback" id="cancel">${backIcon}${t("cancelRec")}</button>${words ? `<button class="tgl" id="tgl" aria-pressed="${!showText}">${showText ? t("hideText") : t("showText")}</button>` : ""}<div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div></div>
-    ${words ? `<div class="prompt" id="prompt" ${showText ? "" : "hidden"}><div class="txt" id="txt">${esc(lines)}</div></div><div class="spd" id="spd" ${showText ? "" : "hidden"}><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>`
+    ${words ? `<div class="prompt" id="prompt" ${showText ? "" : "hidden"}><div class="txt" id="txt" style="font-size:${FONTS[fontIdx]}px">${esc(lines)}</div></div>${tpPanel(true).replace('id="tp"', `id="tp" ${showText ? "" : "hidden"}`)}`
       : `<div class="silent">${cici("wink")}<div><div class="big1">${t("noLines")}</div>${L(s.do) ? `<div class="big2">${esc(L(s.do))}</div>` : ""}</div></div>`}
     <div class="hint" id="hint" ${L(s.do) && words ? "" : "hidden"}>${esc(L(s.do))}</div>
     <div class="count" id="count" hidden></div>
@@ -632,9 +738,9 @@ async function startRec(i) {
   const txt = $("#txt", ov), prompt = $("#prompt", ov);
   const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); try { actx?.close(); } catch (e) {} stream.getTracks().forEach(x => x.stop()); ov.remove(); try { lock?.release(); } catch (e) {} };
   $("#cancel", ov).onclick = () => { cancelled = true; if (rec && rec.state !== "inactive") rec.stop(); else cleanup(); };
-  const tgl = $("#tgl", ov); if (tgl) tgl.onclick = () => { showText = !showText; store.set("showText", showText); prompt.hidden = !showText; $("#spd", ov).hidden = !showText; tgl.setAttribute("aria-pressed", String(!showText)); tgl.textContent = showText ? t("hideText") : t("showText"); };
-  const setSpeed = d => { speedIdx = Math.max(0, Math.min(SPEEDS.length - 1, speedIdx + d)); store.set("speed", speedIdx); scrollDur = words / (WPS * SPEEDS[speedIdx]); };
-  if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
+  const tgl = $("#tgl", ov); if (tgl) tgl.onclick = () => { showText = !showText; store.set("showText", showText); prompt.hidden = !showText; $("#tp", ov).hidden = !showText; tgl.setAttribute("aria-pressed", String(!showText)); tgl.textContent = showText ? t("hideText") : t("showText"); };
+  const setSpeed = () => { scrollDur = words / (WPS * SPEEDS[speedIdx]); };
+  if (words) { bindTp($("#tp", ov), () => { txt.style.fontSize = FONTS[fontIdx] + "px"; setSpeed(); if (rec) dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); });
     prompt.onclick = () => { if (!rec) return; paused = !paused; if (paused) { pausedAt = performance.now(); prompt.insertAdjacentHTML("beforeend", `<div class="paused" id="pz">${t("tapPause")}</div>`); } else { t0 += performance.now() - pausedAt; $("#pz", ov)?.remove(); } }; }
   // 静音自动停：台词滚完之后连续安静 1.5 秒就停，手不用伸过去按；手动「停」照旧
   const rms = () => { if (!analyser) return 1; const buf = new Uint8Array(analyser.fftSize); analyser.getByteTimeDomainData(buf); let s2 = 0; for (let k = 0; k < buf.length; k++) { const d = (buf[k] - 128) / 128; s2 += d * d; } return Math.sqrt(s2 / buf.length); };
@@ -652,7 +758,7 @@ async function startRec(i) {
     $("#timer", ov).hidden = false; $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
     if (words && analyser) { $("#auto", ov).hidden = false; $("#auto", ov).textContent = t("autostopOn"); }
     t0 = performance.now();
-    if (words) { setSpeed(0); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
+    if (words) { setSpeed(); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
     const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
     const tick = () => { const el = elapsed(); $("#tm", ov).textContent = el.toFixed(1);
       if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${-p * dist}px)`; } raf = requestAnimationFrame(tick); };
@@ -696,15 +802,15 @@ async function normalize(blob, title, forceRot) {
 }
 async function finishTake(i, blob) {
   takes[i] = { blob: null, msg: t("processing") }; render();
-  try { const r = await normalize(blob, fileName(i).replace(/\.mp4$/, "")); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, up: "", msg: "" }; }
-  catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, up: "", msg: "" }; }
+  try { const r = await normalize(blob, fileName(i).replace(/\.mp4$/, "")); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, up: "", msg: "", at: Date.now() }; }
+  catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, up: "", msg: "", at: Date.now() }; }
   if (reshootFor(i)) store.set(reshotKey(i), 1);
   persist(i); render();   // 录完只存在手机里，不自动上传：她先去美颜，传不传、传哪版由她在总览决定
 }
 async function rotateTake(i) {
   const tk = takes[i]; const next = (tk.rot + 90) % 360 || 90;
   takes[i] = { blob: null, msg: t("processing") }; render();
-  try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, up: "", msg: "" }; }
+  try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, up: "", msg: "", at: tk.at }; }
   catch (e) { takes[i] = tk; }
   persist(i); render();
 }
@@ -780,7 +886,7 @@ async function pump() {
       catch (e) { segState[job.i] = { pct: 0, status: "fail" }; job.status = "wait"; saveJob(job); render(); break; }
     } else if (job.kind === "final") {
       finalState = { name: job.name, pct: Math.round((job.offset || 0) / finalFile.size * 100), status: "busy" }; store.set("final_" + sid, finalState); render();
-      try { await pumpOne(job, finalFile, p => { finalState.pct = p; store.set("final_" + sid, finalState); render(); }); finalState = { name: job.name, pct: 100, status: "done" }; store.set("final_" + sid, finalState); dropJob(job.key); }
+      try { await pumpOne(job, finalFile, p => { finalState.pct = p; store.set("final_" + sid, finalState); render(); }); finalState = { name: job.name, pct: 100, status: "done" }; store.set("final_" + sid, finalState); dropJob(job.key); dbPut("final", { blob: finalFile, name: finalFile.name, up: "done", at: Date.now() }); hist = null; }
       catch (e) { finalState.status = "fail"; finalState.err = String(e?.message || e).slice(0, 160); store.set("final_" + sid, finalState); job.status = "wait"; saveJob(job); render(); break; }
     } else {
       const tk = takes[job.i]; if (!tk?.blob) { dropJob(job.key); continue; }
@@ -793,13 +899,9 @@ async function pump() {
   pumping = false; try { lock?.release(); } catch (e) {}
   render();
 }
-function uploadRaw(idx) {
-  if (!UPLOAD_URL) return;
-  idx.forEach(i => { const key = `seg:${sid}:${script.shots[i].n}`; if (!loadQueue().some(x => x.key === key)) saveJob({ key, session: "", offset: 0, total: takes[i].blob.size, name: fileName(i), kind: "seg", shot: script.shots[i].n, i, status: "wait" }); takes[i].up = "busy"; takes[i].pct = 0; });
-  render(); pump();
-}
 function uploadFinal(file) {
   finalFile = file;
+  dbPut("final", { blob: file, name: file.name, up: "", at: Date.now() }); hist = null;   // 存进手机库：主页「你拍过的」能看，刷新回来不用再选
   const key = `${file.name}:${file.size}`;
   const old = loadQueue().find(x => x.kind === "final");
   if (old && old.key !== key) dropJob(old.key);   // 换了个文件就重新开始
@@ -815,15 +917,35 @@ function uploadSegFile(i, file) {
   if (!loadQueue().some(x => x.key === key)) saveJob({ key, session: "", offset: 0, total: file.size, name: fileName(i), kind: "segfile", shot: script.shots[i].n, i, status: "wait" });
   segState[i] = { pct: 0, status: "busy" }; render(); pump();
 }
-// 回到页面 / 打开脚本时：队列里有没传完的原片就接着传；成片要她再选一次同一个文件（文件对象没法留在页面里）
+// 回到页面 / 打开脚本时：成片没传完就从断点接着传（文件从手机库里恢复了；库里没有才要她再选一次同一个文件）
 function resumeUploads() {
   const q = loadQueue(); if (!q.length) return;
-  let any = false;
-  q.forEach(j => { if (j.kind === "seg" && takes[j.i]?.blob && takes[j.i].up !== "done") { takes[j.i].up = "busy"; any = true; } });
-  if (finalState && finalState.status === "busy" && !finalFile) { finalState.status = "wait"; store.set("final_" + sid, finalState); }
-  if (any) pump(); else render();
+  if (finalState && finalState.status !== "done") {
+    if (finalFile) { finalState.status = "busy"; store.set("final_" + sid, finalState); pump(); return; }
+    if (finalState.status === "busy") { finalState.status = "wait"; store.set("final_" + sid, finalState); }
+  }
+  render();
 }
 document.addEventListener("visibilitychange", () => { if (!document.hidden && script && (view === "overview")) resumeUploads(); });
+
+// 补拍通知：网页收不到推送（GitHub Pages ＋ Apps Script 发不了 Web Push，iPhone 还要装成 App 才行），
+// 退一步＝页面开着每 30 秒问一次后台、切回页面立刻问一次；有新的补拍要求就震动一下、Momo 换话、这本带红标。页面关着的时候只能靠她发消息。
+let lastRs = null;
+async function pollReshoots() {
+  if (!UPLOAD_URL || !name || view === "login" || document.hidden) return;
+  try {
+    const r = await api({ action: "assigned", who: name }); if (!r.ok) return;
+    const key = x => `${x.script}:${x.shot}`;
+    const before = lastRs ?? reshoots.map(key); lastRs = (r.reshoots || []).map(key);
+    const fresh = lastRs.filter(k => !before.includes(k));
+    if (lastRs.join() === before.join()) return;
+    reshoots = r.reshoots || []; assignedIds = r.scripts || assignedIds; mineIds = r.mine || mineIds; backendMeta = r.meta || backendMeta;
+    if (fresh.length) { newReshoot = true; try { navigator.vibrate?.([120, 80, 120]); } catch (e) {} }
+    if (!editing && view !== "mine") render();
+  } catch (e) {}
+}
+setInterval(pollReshoots, 30000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) pollReshoots(); });
 window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
 
 // ===== 启动 =====
