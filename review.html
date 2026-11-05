@@ -165,6 +165,8 @@ function modal(html, wide) {
 // ===== 数据 =====
 const root = document.getElementById("root");
 let rows = [], assigns = {}, lib = {}, pres = {}, err = "", loading = false, backendOld = false;
+let role = "admin";   // admin＝她（全功能）；reviewer＝审核同事（只看达人和成片、发补拍）。后台 whoami 定
+const canEdit = () => role === "admin";
 let quotas = { limits: {}, used: {}, def: 5 }, noteRows = [], editRows = [], reshootRows = [];
 const ui = { prod: "all", q: "", open: null, brand: "all", notesOpen: {} };
 async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
@@ -176,6 +178,8 @@ async function load(quiet) {
   if (busy) return; busy = true;
   if (!quiet) { loading = true; err = ""; render(); }
   try {
+    try { const me = await api({ action: "whoami" }); if (me?.ok) role = me.role; } catch (e) {}   // 旧后台没这个接口：按 admin
+    if (role === "none") throw new Error("钥匙不对");
     const [l, a, idx, bl, pr, qt, nt, ed] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
       fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({})),
       api({ action: "quotas" }).catch(() => ({})), api({ action: "notes" }).catch(() => ({})), api({ action: "alledits" }).catch(() => ({}))]);
@@ -244,20 +248,20 @@ function render() {
   Object.values(pres).forEach(x => { const k = String(x.who).toLowerCase(); if (!byT[k]) byT[k] = { who: x.who, handle: x.handle, nick: x.nick, link: x.link, last: "", scripts: {} }; else { byT[k].handle ||= x.handle; byT[k].link ||= x.link; } });
   const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
   dirty = false;
-  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 在线 ${onlineCount()} 人 · 脚本库 ${Object.keys(lib).length} 本</small>
+  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 在线 ${onlineCount()} 人${canEdit() ? ` · 脚本库 ${Object.keys(lib).length} 本` : ""}</small>
       <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button></h1>
     ${err ? `<p class="err">${esc(err)}</p>` : ""}
-    ${backendOld ? `<p class="err">后台还是旧版：新增脚本、智能拆段、专属本子要等 Apps Script 发新版本后才能用（Code.gs 已在剪贴板）。派库里的本子不受影响。</p>` : ""}
-    <div class="cols">
-      <section class="card" id="libcard">${libPanel()}</section>
+    ${backendOld && canEdit() ? `<p class="err">后台还是旧版：新增脚本、智能拆段、专属本子要等 Apps Script 发新版本后才能用（Code.gs 已在剪贴板）。派库里的本子不受影响。</p>` : ""}
+    <div class="cols" ${canEdit() ? "" : `style="grid-template-columns:minmax(0,1fr)"`}>
+      ${canEdit() ? `<section class="card" id="libcard">${libPanel()}</section>` : ""}
       <section style="display:flex;flex-direction:column;gap:12px" id="talents">
-        <h2>达人<small>按最近上传排</small><button class="ghost sm" id="newtalent" style="margin-left:auto">＋ 新达人派单</button></h2>
+        <h2>达人<small>按最近上传排</small>${canEdit() ? `<button class="ghost sm" id="newtalent" style="margin-left:auto">＋ 新达人派单</button>` : ""}</h2>
         ${talents.map(t => talentCard(t)).join("") || `<p class="tip">还没有人传过，也没派过单。</p>`}
       </section>
     </div>`;
   $("#reload").onclick = load;
-  $("#newtalent").onclick = () => pickScriptsFor("");
-  bindLib(); bindTalents();
+  if (canEdit()) { $("#newtalent").onclick = () => pickScriptsFor(""); bindLib(); }
+  bindTalents();
 }
 
 // ----- 脚本库面板 -----
@@ -323,11 +327,11 @@ function talentCard(t) {
   const where = p ? (p.view === "shot" ? `在 ${p.script} 第 ${p.shot} 段` : p.view === "overview" ? `在 ${p.script} 总览` : p.view === "prep" ? `在 ${p.script} 准备页` : p.view === "scripts" ? "在脚本列表" : p.view === "mine" ? "在写自己的脚本" : "") : "";
   const dev = p ? (/iPhone/.test(p.device) ? "iPhone" : /Android/.test(p.device) ? "Android" : /iPad/.test(p.device) ? "iPad" : "电脑") : "";
   const seenLine = p ? `<span class="seen ${online ? "on" : ""}">${online ? "● 在线" : "○ 最近登录 " + fmtT(p.last)}${where ? " · " + esc(where) : ""} · ${dev} · 登录 ${p.n} 次</span>` : `<span class="tip">还没登录过</span>`;
-  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人</button></header>
+  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span>${canEdit() ? `<button class="del" data-delwho="${esc(t.who)}">删掉这个达人</button>` : ""}</header>
     ${seenLine}
-    <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span><button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button></span>`).join("") || `<span class="tip">还没派</span>`}
-      <button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
-    <div class="quota">自己拆脚本额度：今天 <b>${usedOf(t.who)}/${limitOf(t.who)}</b><input type="number" min="0" step="1" value="${limitOf(t.who)}" data-qin="${esc(t.who)}" aria-label="每日上限"><button class="ghost sm" data-qset="${esc(t.who)}">改</button></div>
+    <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span>${canEdit() ? `<button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button>` : ""}</span>`).join("") || `<span class="tip">还没派</span>`}
+      ${canEdit() ? `<button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>` : ""}${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
+    ${canEdit() ? `<div class="quota">自己拆脚本额度：今天 <b>${usedOf(t.who)}/${limitOf(t.who)}</b><input type="number" min="0" step="1" value="${limitOf(t.who)}" data-qin="${esc(t.who)}" aria-label="每日上限"><button class="ghost sm" data-qset="${esc(t.who)}">改</button></div>` : ""}
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid], t.who)).join("")}
     ${notesBlock(t.who)}</section>`;
 }
@@ -343,7 +347,7 @@ function notesBlock(who) {
 const editFor = (who, sid, n) => editRows.find(e => same(e.who, who) && same(e.script, sid) && String(e.shot) === String(n));
 function shotCard(label, list, extra, cls) {
   const r = list[0];
-  return `<div class="shot ${cls || ""} ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button><b>${esc(label)}</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span>${extra || ""}</div>`;
+  return `<div class="shot ${cls || ""} ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}">${canEdit() ? `<button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button>` : ""}<b>${esc(label)}</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span>${extra || ""}</div>`;
 }
 const byTime = (x, y) => (y.time > x.time ? 1 : -1);
 // shots：{ "1": [行…], "2": [...], "成片": [...] }；成片单独放前面，缺段只按数字段算
