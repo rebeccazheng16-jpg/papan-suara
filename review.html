@@ -167,6 +167,8 @@ const mb = n => (Number(n) / 1048576).toFixed(1) + " MB";
 const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "";
 const L = (o, k = "zh") => (o && typeof o === "object") ? (o[k] || o.zh || o.id || "") : (o || "");
 const scriptIds = s => String(s || "").split(/[,\s，、]+/).filter(Boolean);
+// 产品归类：每本的产品写法不一（"鎏金蛋白膜 Golden Mask" / "VEIRFOO Golden Mask 鎏金蛋白膜"），取第一段中文当家族名
+const famKey = s => { const zh = String(L(s.product) || "").replace(/（[^）]*）|\([^)]*\)/g, ""); const m = zh.match(/[\u4e00-\u9fff]+/); let k = m ? m[0] : zh.trim(); k = k.replace(/^小/, ""); return k || "其他"; };
 const talentNames = () => { const set = new Map(); rows.forEach(r => set.set(r.who.toLowerCase(), r.who)); Object.values(assigns).forEach(a => set.set(a.who.toLowerCase(), a.who)); return [...set.values()].sort((a, b) => a.localeCompare(b)); };
 async function fullScript(id) {
   const s = lib[id]; if (!s) return null;
@@ -210,9 +212,9 @@ function libList() {
 }
 function libPanel() {
   const list = libList();
-  const prods = {}; list.forEach(s => { const k = L(s.product) || "其他"; prods[k] = (prods[k] || 0) + 1; });
+  const prods = {}; list.forEach(s => { const k = famKey(s); prods[k] = (prods[k] || 0) + 1; });
   const q = ui.q.toLowerCase();
-  const shown = list.filter(s => (ui.prod === "all" || (L(s.product) || "其他") === ui.prod) && (!q || `${s.id} ${L(s.product)} ${L(s.hook)} ${s.src || ""} ${s.owner || ""}`.toLowerCase().includes(q)));
+  const shown = list.filter(s => (ui.prod === "all" || famKey(s) === ui.prod) && (!q || `${s.id} ${L(s.product)} ${L(s.hook)} ${s.src || ""} ${s.owner || ""}`.toLowerCase().includes(q)));
   const nOwn = Object.values(lib).filter(s => s.owner).length;
   return `<h2>脚本库<small>点一本看分镜 · 派给谁在右边</small><button class="solid sm" id="addscript" style="margin-left:auto">＋ 新增脚本（粘贴整段，自动拆）</button></h2>
     <div class="chips">
