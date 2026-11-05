@@ -41,8 +41,8 @@ button:disabled{cursor:default}
 .scroll{min-height:0;overflow:auto;-webkit-overflow-scrolling:touch}
 /* 吉祥物 Cici ＋ 气泡 */
 .cici{display:flex;align-items:flex-end;gap:10px;flex:none}
-.cici svg{width:64px;height:64px;flex:none}
-.cici.lg svg{width:96px;height:96px}
+.cici img{width:64px;height:64px;flex:none;object-fit:contain}
+.cici.lg img{width:104px;height:104px}
 .bubble{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:10px 14px;font-size:15px;line-height:1.45;color:var(--ink);flex:1;min-width:0}
 .bubble::before{content:"";position:absolute;left:-9px;bottom:14px;width:14px;height:14px;background:var(--card);border-left:1.5px solid var(--line);border-bottom:1.5px solid var(--line);transform:rotate(45deg)}
 .bubble b{color:var(--red)}
@@ -121,7 +121,7 @@ video.pv{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fi
 .prompt .txt{position:absolute;left:16px;right:16px;top:12px;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .prompt .paused{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:40px;background:rgba(0,0,0,.35)}
 .silent{margin:8px 12px 0;border-radius:14px;background:rgba(0,0,0,.6);padding:14px 16px;display:flex;gap:10px;align-items:flex-start}
-.silent svg{width:44px;height:44px;flex:none}
+.silent img{width:48px;height:48px;flex:none;object-fit:contain}
 .silent .big1{font-size:19px;font-weight:700;line-height:1.35}
 .silent .big2{font-size:16px;line-height:1.45;margin-top:6px;opacity:.95}
 .spd{position:relative;margin:8px 12px 0;display:flex;gap:6px;justify-content:flex-end}
@@ -203,20 +203,9 @@ const L = o => (o && typeof o === "object") ? (o[lang] || o.id || o.zh || "") : 
 const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
 const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
-// ===== 吉祥物 Cici：米白圆脸 + 正红发带 + 黑点眼；表情 hi / go / yay / wink =====
-function cici(mood = "hi") {
-  const eyes = mood === "yay" ? `<path d="M22 31 q4 -5 8 0" /><path d="M38 31 q4 -5 8 0" />`
-    : mood === "wink" ? `<circle cx="26" cy="31" r="2.6" fill="#111"/><path d="M38 31 q4 -4 8 0" />`
-    : mood === "go" ? `<path d="M21 29 l9 2" /><path d="M47 29 l-9 2" /><circle cx="26" cy="33" r="2.4" fill="#111"/><circle cx="42" cy="33" r="2.4" fill="#111"/>`
-    : `<circle cx="26" cy="31" r="2.6" fill="#111"/><circle cx="42" cy="31" r="2.6" fill="#111"/>`;
-  const mouth = mood === "yay" ? `<path d="M28 40 q6 7 12 0 z" fill="#D7263D" stroke="none"/>` : mood === "go" ? `<path d="M30 41 h8" />` : `<path d="M30 39 q4 4 8 0" />`;
-  return `<svg viewBox="0 0 68 68" aria-hidden="true"><g stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <ellipse cx="34" cy="38" rx="24" ry="22" fill="#F6F2EA"/>
-    <path d="M12 30 q22 -12 44 0 l0 -6 q-22 -11 -44 0 z" fill="#D7263D"/>
-    <path d="M24 20 q2 -7 10 -8 q-4 4 -4 9" fill="#F6F2EA"/>
-    <circle cx="18" cy="41" r="3" fill="#D7263D" stroke="none"/><circle cx="50" cy="41" r="3" fill="#D7263D" stroke="none"/>
-    ${eyes}${mouth}</g></svg>`;
-}
+// ===== 吉祥物：毛绒面膜猫（img/maskot_*.png，Nano Banana 出图后抠底，11-05）。表情：hi 打招呼 / go 举手机 / yay 欢呼 / wink 嘘 / zz 打瞌睡 / love 比心；没切出来的先用 hi =====
+const MASKOT = { hi: "maskot_hi.png", go: "maskot_hi.png", yay: "maskot_hi.png", wink: "maskot_hi.png", zz: "maskot_hi.png", love: "maskot_hi.png" };
+function cici(mood = "hi") { return `<img class="maskot" src="img/${MASKOT[mood] || MASKOT.hi}" alt="" width="64" height="64" decoding="async">`; }
 const bubble = (html, mood, big) => `<div class="cici ${big ? "lg" : ""}">${cici(mood)}<div class="bubble">${html}</div></div>`;
 const backIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>`;
 
