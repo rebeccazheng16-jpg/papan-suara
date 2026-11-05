@@ -39,7 +39,7 @@ button:disabled{cursor:default}
 .mid.center{justify-content:center}
 .foot{flex:none;display:flex;flex-direction:column;gap:10px;padding-top:10px}
 .scroll{min-height:0;overflow:auto;-webkit-overflow-scrolling:touch}
-/* 吉祥物 Cici ＋ 气泡 */
+/* 吉祥物 Momo ＋ 气泡 */
 .cici{display:flex;align-items:flex-end;gap:10px;flex:none}
 .cici img{width:64px;height:64px;flex:none;object-fit:contain}
 .cici.lg img{width:104px;height:104px}
@@ -157,7 +157,7 @@ const store = {
 // ===== 文案（印尼语为主，中文给她看） =====
 const I18N = {
   id: {
-    appTitle: "Rekam Naskah", hiName: "Hai! Aku <b>Cici</b>. Aku temenin kamu rekam ya, santai aja. Siapa nama kamu?", whoPh: "Nama kamu, atau link TikTok / IG", start: "Mulai", needOne: "Tulis nama atau link dulu ya",
+    appTitle: "Rekam Naskah", hiName: "Hai! Aku <b>Momo</b>. Aku temenin kamu rekam ya, santai aja. Siapa nama kamu?", whoPh: "Nama kamu, atau link TikTok / IG", start: "Mulai", needOne: "Tulis nama atau link dulu ya",
     yourScripts: "Naskah kamu", pickOne: "Ini naskah buat kamu. Pilih satu, kita mulai!", noScripts: "Naskah buat kamu belum ada. Kamu bisa tulis sendiri dulu, nanti aku bantu bacain pas rekam.",
     bagian: n => `${n} bagian`, detik: n => `${n} detik`, record: "Rekam", continueBtn: "Lanjutin", doneBtn: "Selesai ✓", writeOwn: "Tulis naskah sendiri", changeName: "Ganti nama",
     mineTitle: "Naskah saya", mineHi: "Tulis yang mau kamu omongin. Satu bagian satu rekaman, pisahkan pakai baris kosong ya.", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya ya",
@@ -177,7 +177,7 @@ const I18N = {
     logoutSure: "Ganti nama? Rekaman yang belum dikirim akan hilang.", yesLogout: "Ganti", loadFail: "Naskah ini nggak ketemu. Coba balik ke daftar naskah ya.",
   },
   zh: {
-    appTitle: "拍脚本", hiName: "嗨！我是 <b>Cici</b>，陪你一起拍，放轻松。你叫什么？", whoPh: "你的名字，或 TikTok / IG 链接", start: "开始", needOne: "先写名字或链接",
+    appTitle: "拍脚本", hiName: "嗨！我是 <b>Momo</b>，陪你一起拍，放轻松。你叫什么？", whoPh: "你的名字，或 TikTok / IG 链接", start: "开始", needOne: "先写名字或链接",
     yourScripts: "你的脚本", pickOne: "这是给你的脚本，选一本开始！", noScripts: "还没有分给你的脚本。可以先自己写一段，录的时候我帮你提词。",
     bagian: n => `${n} 段`, detik: n => `${n} 秒`, record: "开拍", continueBtn: "继续", doneBtn: "已完成 ✓", writeOwn: "自己写脚本", changeName: "换人",
     mineTitle: "我的脚本", mineHi: "写下要说的话。一段一个镜头，段和段之间空一行。", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "保存，开始拍", mineEmpty: "先写点内容",
