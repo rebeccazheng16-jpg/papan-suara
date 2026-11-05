@@ -178,7 +178,7 @@ async function load(quiet) {
   if (busy) return; busy = true;
   if (!quiet) { loading = true; err = ""; render(); }
   try {
-    try { const me = await api({ action: "whoami" }); if (me?.ok) role = me.role; } catch (e) {}   // 旧后台没这个接口：按 admin
+    try { const me = await api({ action: "whoami" }); role = (me?.ok && me.role) || "admin"; } catch (e) { role = "admin"; }   // 旧后台没这个接口（回的是 hello）：按 admin
     if (role === "none") throw new Error("钥匙不对");
     const [l, a, idx, bl, pr, qt, nt, ed] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
       fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({})),
