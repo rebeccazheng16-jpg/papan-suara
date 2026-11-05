@@ -8,57 +8,103 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
 <style>
+/* 配色只用：米白 / 纯白 / 深红 / 正红 / 黑 / 深灰（11-05 她定，粉调全去掉） */
 :root{
-  --bg:#FFFFFF; --panel:#FFF6F6; --ink:#1F1A1B; --mute:#7A6E70; --line:#EBD9DB;
-  --go:#D7263D; --go-ink:#FFFFFF; --chip:#F6E3E5; --ok:#1F8A4C; --warn:#B8860B;
+  --bg:#FFFFFF; --panel:#F6F2EA; --panel2:#EEE8DC; --ink:#111111; --mute:#4A4A4A; --line:#DED7C9;
+  --red:#D7263D; --dark:#8E1B26; --on:#FFFFFF; --ok:#1F1F1F;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){ color-scheme:dark;
-    --bg:#171213; --panel:#221A1B; --ink:#F3E9EA; --mute:#A89597; --line:#3E2E31; --go:#E8405A; --chip:#33262A; --ok:#2FAF66; --warn:#E3B23C; }
+    --bg:#121212; --panel:#1C1A17; --panel2:#262320; --ink:#F3EFE7; --mute:#B9B3A8; --line:#3A362F; --red:#E23B50; --dark:#A5202F; --on:#FFFFFF; --ok:#F3EFE7; }
 }
 html,body{margin:0;min-height:100%}
-body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,sans-serif;font-size:15px;padding-inline:16px;padding-block:12px 32px;box-sizing:border-box}
-.app{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
-h1{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;letter-spacing:.02em}
-h1 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute);margin-left:10px}
-button,input{font-family:inherit;font-size:14px;color:inherit}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,sans-serif;font-size:14px;padding-inline:16px;padding-block:12px 40px;box-sizing:border-box}
+.app{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;letter-spacing:.02em;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute)}
+h2{margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;letter-spacing:.02em;display:flex;align-items:center;gap:10px}
+h2 small{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:12px;color:var(--mute)}
+button,input,textarea,select{font-family:inherit;font-size:14px;color:inherit}
 button{cursor:pointer}
+button:disabled{cursor:default}
+.solid:disabled,.big:disabled,.modal .ok:disabled{background:var(--line);color:var(--mute)}   /* 禁用态用灰，不用半透明红（会发粉） */
 .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.bar input{min-height:40px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px;min-width:200px}
-.solid{border:0;border-radius:10px;background:var(--go);color:var(--go-ink);font-weight:600;min-height:40px;padding-inline:14px}
-.ghost{border:1px solid var(--line);border-radius:10px;background:var(--panel);min-height:40px;padding-inline:14px}
-.tip{color:var(--mute);font-size:13px;margin:0}
-.err{color:var(--go);font-size:13px;margin:0}
-.talent{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:12px;padding-inline:14px;display:flex;flex-direction:column;gap:10px}
+.in{min-height:38px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px;box-sizing:border-box}
+.solid{border:0;border-radius:10px;background:var(--red);color:var(--on);font-weight:600;min-height:38px;padding-inline:14px}
+.solid.dark{background:var(--dark)}
+.ghost{border:1px solid var(--line);border-radius:10px;background:var(--panel);min-height:38px;padding-inline:14px;color:var(--ink)}
+.ghost.sm,.solid.sm{min-height:30px;padding-inline:10px;font-size:12px;border-radius:8px}
+.tip{color:var(--mute);font-size:13px;margin:0;line-height:1.5}
+.err{color:var(--red);font-size:13px;margin:0;font-weight:600}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+/* 脚本库索引（抄金榜：产品 chip + 搜索 + 一行一本） */
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);border-radius:999px;background:var(--bg);min-height:28px;padding-inline:10px;font-size:12px;color:var(--mute)}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.slist{display:flex;flex-direction:column;max-height:70vh;overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.srow{display:grid;grid-template-columns:64px minmax(90px,.8fr) minmax(0,1.6fr) auto auto;gap:10px;align-items:center;padding:8px 10px;border-top:1px solid var(--line);cursor:pointer;font-size:13px}
+.srow:first-child{border-top:0}
+.srow:hover{background:var(--panel)}
+.srow.on{background:var(--panel2)}
+.srow .no{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:17px}
+.srow .prod{color:var(--ink);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srow .hook{color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srow .meta{color:var(--mute);font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.srow .own{font-size:11px;border:1px solid var(--red);color:var(--red);border-radius:6px;padding:1px 5px;margin-left:6px}
+.sdetail{padding:10px 12px 12px;border-top:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;gap:8px;font-size:13px}
+.sdetail .prep{color:var(--mute);line-height:1.5}
+.shotline{display:grid;grid-template-columns:36px 1fr;gap:8px;align-items:start;line-height:1.5}
+.shotline b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
+.shotline .do{color:var(--mute)}
+.shotline .ln{font-weight:600}
+.shotline .ln.none{font-weight:400;color:var(--mute)}
+/* 达人卡 */
+.talent{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:10px}
 .talent header{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 .talent header b{font-size:17px}
 .talent header a{color:var(--mute);font-size:13px}
-.assign{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--mute)}
-.assign input{min-height:34px;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding-inline:10px;width:220px}
-.assign button{min-height:34px;border-radius:8px;border:0;background:var(--go);color:var(--go-ink);padding-inline:10px;font-weight:600}
+.talent header .del{margin-left:auto;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--mute);min-height:28px;padding-inline:10px;font-size:12px}
+.assigned{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px}
+.assigned .tag{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding:3px 6px 3px 9px}
+.assigned .tag b{font-family:"Barlow Condensed",sans-serif;font-size:15px;font-weight:800}
+.assigned .tag span{color:var(--mute);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.assigned .tag button{border:0;background:transparent;color:var(--mute);font-size:14px;line-height:1;padding:2px 4px}
+.assigned .tag button:hover{color:var(--red)}
 .script{border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:8px}
 .script .h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 .script .h b{font-family:"Barlow Condensed",sans-serif;font-size:20px;font-weight:800}
-.miss{color:var(--go);font-size:13px;font-weight:600}
+.miss{color:var(--red);font-size:13px;font-weight:600}
 .full{color:var(--ok);font-size:13px;font-weight:600}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
-.shot{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:8px;display:flex;flex-direction:column;gap:4px;font-size:12px;cursor:pointer}
-.shot:hover{border-color:var(--go)}
-.shot{position:relative}
-.shot .x{position:absolute;top:4px;right:4px;width:26px;height:26px;border-radius:50%;border:0;background:var(--chip);color:var(--mute);font-size:14px;line-height:1;padding:0}
-.shot .x:hover,.shot .x.sure{background:var(--go);color:#fff}
-.talent header .del{margin-left:auto;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--mute);min-height:30px;padding-inline:10px;font-size:12px}
-.talent header .del.sure{background:var(--go);color:#fff;border-color:var(--go)}
+.shot{position:relative;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:8px;display:flex;flex-direction:column;gap:4px;font-size:12px;cursor:pointer}
+.shot:hover{border-color:var(--red)}
+.shot .x{position:absolute;top:4px;right:4px;width:26px;height:26px;border-radius:50%;border:0;background:var(--panel2);color:var(--mute);font-size:14px;line-height:1;padding:0}
+.shot .x:hover{background:var(--red);color:#fff}
 .shot b{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:800}
 .shot .m{color:var(--mute);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
-.shot.dup b::after{content:" ×2";color:var(--warn);font-size:13px}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:20;padding:24px;box-sizing:border-box}
-.modal .box{background:var(--panel);color:var(--ink);border-radius:16px;padding:20px;width:100%;max-width:340px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
-.modal .q{font-size:18px;font-weight:600;line-height:1.4;margin:0}
+.shot.dup b::after{content:" ×2";color:var(--dark);font-size:13px}
+/* 弹窗 */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:20;padding:20px;box-sizing:border-box}
+.modal .box{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:18px;width:100%;max-width:380px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3);max-height:92vh;overflow:auto;box-sizing:border-box}
+.modal .box.wide{max-width:860px}
+.modal .q{font-size:17px;font-weight:600;line-height:1.4;margin:0}
 .modal .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.modal button{min-height:48px;border-radius:12px;font-weight:600;font-size:16px}
-.modal .ok{border:0;background:var(--go);color:var(--go-ink)}
+.modal .row button{min-height:44px;border-radius:12px;font-weight:600;font-size:15px}
+.modal .ok{border:0;background:var(--red);color:var(--on)}
 .modal .no{border:1.5px solid var(--line);background:transparent;color:var(--ink)}
+.lab{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+textarea.in{min-height:160px;padding:10px 12px;line-height:1.5;resize:vertical;width:100%}
+.who-list{display:flex;gap:6px;flex-wrap:wrap}
+.edit{display:grid;grid-template-columns:40px 56px 1fr 1fr;gap:8px;align-items:start;border-top:1px solid var(--line);padding-top:8px}
+.edit:first-child{border-top:0;padding-top:0}
+.edit b{font-family:"Barlow Condensed",sans-serif;font-size:20px;font-weight:800;padding-top:6px}
+.edit input,.edit textarea{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:6px 8px;font-size:13px;line-height:1.4}
+.edit textarea{min-height:58px;resize:vertical}
+.edit .cell{display:flex;flex-direction:column;gap:4px}
+.edit .cell small{color:var(--mute);font-size:11px}
+.edit .lines{grid-column:3 / span 2}
 .player{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:9;padding:16px;box-sizing:border-box}
 .player iframe{width:min(100%,420px);aspect-ratio:9/16;max-height:80vh;border:0;border-radius:12px;background:#000}
 .player .pt{color:#fff;font-size:14px;text-align:center;overflow-wrap:anywhere}
@@ -71,86 +117,290 @@ button{cursor:pointer}
 <script type="module">
 const API = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";
 const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const store = { get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
 let key = store.get("review_key", "");
 const qk = new URLSearchParams(location.search).get("key"); if (qk) { key = qk; store.set("review_key", key); history.replaceState(null, "", location.pathname); }
-// 弹窗确认：返回 true/false
+const same = (a, b) => String(a).trim().toLowerCase() === String(b).trim().toLowerCase();
+
+// ===== 弹窗 =====
 function confirmBox(q, okLabel, noLabel) {
   return new Promise(res => {
     const m = document.createElement("div"); m.className = "modal";
     m.innerHTML = `<div class="box"><p class="q"></p><div class="row"><button class="no"></button><button class="ok"></button></div></div>`;
-    m.querySelector(".q").textContent = q; m.querySelector(".ok").textContent = okLabel; m.querySelector(".no").textContent = noLabel;
+    $(".q", m).textContent = q; $(".ok", m).textContent = okLabel; $(".no", m).textContent = noLabel;
     const done = v => { m.remove(); res(v); };
-    m.querySelector(".ok").onclick = () => done(true); m.querySelector(".no").onclick = () => done(false);
+    $(".ok", m).onclick = () => done(true); $(".no", m).onclick = () => done(false);
     m.onclick = e => { if (e.target === m) done(false); };
-    document.body.appendChild(m); m.querySelector(".no").focus();
+    document.body.appendChild(m); $(".no", m).focus();
   });
 }
-const root = document.getElementById("root");
-let rows = [], assigns = {}, lib = {}, err = "", loading = false;
+function modal(html, wide) {
+  const m = document.createElement("div"); m.className = "modal";
+  m.innerHTML = `<div class="box ${wide ? "wide" : ""}">${html}</div>`;
+  m.onclick = e => { if (e.target === m) m.remove(); };
+  document.body.appendChild(m); return m;
+}
 
+// ===== 数据 =====
+const root = document.getElementById("root");
+let rows = [], assigns = {}, lib = {}, err = "", loading = false, backendOld = false;
+const ui = { prod: "all", q: "", open: null, brand: "all" };
 async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
 async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
 async function load() {
   loading = true; err = ""; render();
   try {
-    const [l, a, idx] = await Promise.all([api({ action: "list", n: 200 }), api({ action: "assignments" }), fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json())]);
+    const [l, a, idx, bl] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
+      fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({}))]);
     if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
     rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
-    lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = s);
+    lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = Object.assign({ owner: "", where: "site" }, s));
+    backendOld = !bl || !bl.ok;                       // 后台还没发新版本：没有脚本库接口
+    (bl?.scripts || []).forEach(s => lib[s.id] = Object.assign({ where: "backend" }, s));
   } catch (e) { err = String(e?.message || e); }
   loading = false; render();
 }
 const fmtT = t => { const d = new Date(t); return isNaN(d) ? "" : `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
 const mb = n => (Number(n) / 1048576).toFixed(1) + " MB";
 const fileId = url => (String(url).match(/\/d\/([A-Za-z0-9_-]+)/) || [])[1] || "";
+const L = (o, k = "zh") => (o && typeof o === "object") ? (o[k] || o.zh || o.id || "") : (o || "");
+const scriptIds = s => String(s || "").split(/[,\s，、]+/).filter(Boolean);
+const talentNames = () => { const set = new Map(); rows.forEach(r => set.set(r.who.toLowerCase(), r.who)); Object.values(assigns).forEach(a => set.set(a.who.toLowerCase(), a.who)); return [...set.values()].sort((a, b) => a.localeCompare(b)); };
+async function fullScript(id) {
+  const s = lib[id]; if (!s) return null;
+  if (s.full) return s.full;
+  try { s.full = s.where === "backend" ? (await api({ action: "script", id })).script : await fetch(`scripts/${encodeURIComponent(id)}.json`, { cache: "no-cache" }).then(r => r.json()); } catch (e) { s.full = null; }
+  return s.full;
+}
 
+// ===== 页面 =====
 function render() {
   if (!key) {
-    root.innerHTML = `<h1>达人自录 · 审片</h1><div class="bar"><input id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div><p class="tip">钥匙在 backend/Code.gs 的 ADMIN_KEY。</p>`;
+    root.innerHTML = `<h1>达人自录 · 审片</h1><div class="bar"><input class="in" id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div>`;
     $("#go").onclick = () => { key = $("#k").value.trim(); if (!key) return; store.set("review_key", key); load(); };
     return;
   }
-  // 按达人 → 脚本 → 段 分组；同一段多条按时间排，最新在前
   const byT = {};
-  rows.forEach(r => { const t = byT[r.who] ||= { who: r.who, handle: r.handle, nick: r.nick, link: r.link, last: r.time, scripts: {} };
+  rows.forEach(r => { const k = r.who.toLowerCase(); const t = byT[k] ||= { who: r.who, handle: r.handle, nick: r.nick, link: r.link, last: r.time, scripts: {} };
     if (r.time > t.last) t.last = r.time; const sc = t.scripts[r.script] ||= {}; (sc[r.shot] ||= []).push(r); });
+  Object.values(assigns).forEach(a => { const k = a.who.toLowerCase(); if (!byT[k]) byT[k] = { who: a.who, handle: "", nick: "", link: "", last: "", scripts: {} }; });
   const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
-  // 派了脚本但还没传过的达人也列出来
-  Object.values(assigns).forEach(a => { if (!byT[a.who]) talents.push({ who: a.who, handle: "", nick: "", link: "", last: "", scripts: {} }); });
-  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人</small></h1>
-    <div class="bar"><button class="ghost" id="reload">${loading ? "读取中…" : "刷新"}</button>
-      <input id="newwho" placeholder="新达人 handle 或名字"><input id="newsc" placeholder="脚本号，逗号隔开，如 V0158"><button class="solid" id="newassign">派脚本</button>
-      <span class="tip">脚本库：${Object.keys(lib).join("、") || "—"}（加本子＝往 site/scripts/ 放 json 并登记 index.json）</span></div>
+  root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 脚本库 ${Object.keys(lib).length} 本</small>
+      <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button></h1>
     ${err ? `<p class="err">${esc(err)}</p>` : ""}
-    ${talents.map(t => talentCard(t)).join("") || `<p class="tip">还没有人传过。</p>`}`;
+    ${backendOld ? `<p class="err">后台还是旧版：新增脚本、智能拆段、专属本子要等 Apps Script 发新版本后才能用（Code.gs 已在剪贴板）。派库里的本子不受影响。</p>` : ""}
+    <div class="cols">
+      <section class="card" id="libcard">${libPanel()}</section>
+      <section style="display:flex;flex-direction:column;gap:12px" id="talents">
+        <h2>达人<small>按最近上传排</small><button class="ghost sm" id="newtalent" style="margin-left:auto">＋ 新达人派单</button></h2>
+        ${talents.map(t => talentCard(t)).join("") || `<p class="tip">还没有人传过，也没派过单。</p>`}
+      </section>
+    </div>`;
   $("#reload").onclick = load;
-  $("#newassign").onclick = () => assign($("#newwho").value.trim(), $("#newsc").value.trim());
-  root.querySelectorAll("[data-assign]").forEach(b => b.onclick = () => assign(b.dataset.assign, $(`#as-${CSS.escape(b.dataset.assign)}`).value.trim()));
-  root.querySelectorAll("[data-play]").forEach(el => el.onclick = e => { if (e.target.closest("[data-del]")) return; play(el.dataset.play, el.dataset.name); });
-  root.querySelectorAll("[data-del]").forEach(b => b.onclick = async e => { e.stopPropagation(); const n = b.dataset.del.split(",").length;
-    if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
-  root.querySelectorAll("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
-    if (await confirmBox(`删掉 ${b.dataset.delwho} 的全部上传？文件进 Drive 回收站。`, "全部删掉", "取消")) del({ who: b.dataset.delwho }); });
+  $("#newtalent").onclick = () => pickScriptsFor("");
+  bindLib(); bindTalents();
 }
+
+// ----- 脚本库面板 -----
+function libList() {
+  const all = Object.values(lib).sort((a, b) => b.id.localeCompare(a.id));
+  return all.filter(s => ui.brand === "all" || (ui.brand === "V" ? /^V/i.test(s.id) : ui.brand === "S" ? /^S/i.test(s.id) : s.owner));
+}
+function libPanel() {
+  const list = libList();
+  const prods = {}; list.forEach(s => { const k = L(s.product) || "其他"; prods[k] = (prods[k] || 0) + 1; });
+  const q = ui.q.toLowerCase();
+  const shown = list.filter(s => (ui.prod === "all" || (L(s.product) || "其他") === ui.prod) && (!q || `${s.id} ${L(s.product)} ${L(s.hook)} ${s.src || ""} ${s.owner || ""}`.toLowerCase().includes(q)));
+  const nOwn = Object.values(lib).filter(s => s.owner).length;
+  return `<h2>脚本库<small>点一本看分镜 · 派给谁在右边</small><button class="solid sm" id="addscript" style="margin-left:auto">＋ 新增脚本（粘贴整段，自动拆）</button></h2>
+    <div class="chips">
+      <button class="chip ${ui.brand === "all" ? "on" : ""}" data-brand="all">全部 ${Object.keys(lib).length}</button>
+      <button class="chip ${ui.brand === "V" ? "on" : ""}" data-brand="V">VEIRFOO</button>
+      <button class="chip ${ui.brand === "S" ? "on" : ""}" data-brand="S">SICENARI</button>
+      <button class="chip ${ui.brand === "own" ? "on" : ""}" data-brand="own">达人专属 ${nOwn}</button>
+    </div>
+    <div class="chips">${[`<button class="chip ${ui.prod === "all" ? "on" : ""}" data-prod="all">所有产品</button>`].concat(Object.keys(prods).sort((x, y) => prods[y] - prods[x]).map(k => `<button class="chip ${ui.prod === k ? "on" : ""}" data-prod="${esc(k)}">${esc(k)} ${prods[k]}</button>`)).join("")}</div>
+    <input class="in" id="q" value="${esc(ui.q)}" placeholder="搜号 / 产品 / 钩子 / 博主 / 达人名">
+    <div class="slist">${shown.map(s => srow(s)).join("") || `<p class="tip" style="padding:10px">没有符合的本子</p>`}</div>`;
+}
+function srow(s) {
+  const on = ui.open === s.id;
+  return `<div class="srow ${on ? "on" : ""}" data-open="${esc(s.id)}" title="${esc(s.src || "")}">
+      <span class="no">${esc(s.id)}</span><span class="prod">${esc(L(s.product) || "—")}${s.owner ? `<span class="own">${esc(s.owner)} 专属</span>` : ""}</span>
+      <span class="hook">${esc(L(s.hook) || s.src || "")}</span>
+      <span class="meta">${s.shots || "?"} 段 · ${s.sec || "?"}s${s.na ? " · 不露脸" : ""}</span>
+      <span class="bar"><button class="solid sm" data-assignscript="${esc(s.id)}">派给…</button>${s.where === "backend" ? `<button class="ghost sm" data-editscript="${esc(s.id)}">改</button>` : ""}</span>
+    </div>${on ? `<div class="sdetail" id="sdetail">读取中…</div>` : ""}`;
+}
+function bindLib() {
+  $$("[data-brand]").forEach(b => b.onclick = () => { ui.brand = b.dataset.brand; ui.prod = "all"; render(); });
+  $$("[data-prod]").forEach(b => b.onclick = () => { ui.prod = b.dataset.prod; render(); });
+  const q = $("#q"); q.oninput = () => { ui.q = q.value; const panel = $("#libcard"); panel.innerHTML = libPanel(); bindLib(); const nq = $("#q"); nq.focus(); nq.setSelectionRange(nq.value.length, nq.value.length); };
+  $$("[data-open]").forEach(r => r.onclick = e => { if (e.target.closest("button")) return; ui.open = ui.open === r.dataset.open ? null : r.dataset.open; render(); });
+  $$("[data-assignscript]").forEach(b => b.onclick = () => pickTalentFor(b.dataset.assignscript));
+  $$("[data-editscript]").forEach(b => b.onclick = () => addScriptDialog(lib[b.dataset.editscript]));
+  $("#addscript").onclick = () => addScriptDialog(null);
+  if (ui.open) fullScript(ui.open).then(f => { const d = $("#sdetail"); if (d) d.innerHTML = detailHtml(f); });
+}
+function detailHtml(f) {
+  if (!f) return `<p class="err">读不到这本的内容</p>`;
+  return `${f.prep ? `<div class="prep"><b>开拍前：</b>${esc(L(f.prep))}<br><span style="opacity:.8">${esc(L(f.prep, "id"))}</span></div>` : ""}
+    ${(f.shots || []).map(s => `<div class="shotline"><b>${s.n}</b><div><span class="meta" style="color:var(--mute)">${s.sec}s${s.talk === false ? " · 不说话" : ""}</span>
+      ${s.face && L(s.face) ? `<div class="do">脸上：${esc(L(s.face))}</div>` : ""}
+      ${L(s.do) ? `<div class="do">推荐拍法：${esc(L(s.do))}</div>` : ""}
+      <div class="ln ${s.lines ? "" : "none"}">${esc(s.lines || "（无台词）")}</div></div></div>`).join("")}`;
+}
+
+// ----- 达人卡 -----
 function talentCard(t) {
-  const a = assigns[t.who];
+  const a = assigns[Object.keys(assigns).find(k => same(k, t.who))];
   const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
+  const ids = scriptIds(a?.scripts);
   const scripts = Object.keys(t.scripts).sort();
-  return `<section class="talent"><header><b>${esc(t.nick ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
-    <div class="assign">派给她的脚本：<input id="as-${esc(t.who)}" value="${esc(a?.scripts || "")}" placeholder="脚本号"><button data-assign="${esc(t.who)}">保存</button><span>${a?.scripts ? `已派 ${esc(a.scripts)}` : "还没派"}${a?.saving ? " · 保存中…" : ""}</span></div>
+  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
+    <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span><button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button></span>`).join("") || `<span class="tip">还没派</span>`}
+      <button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
 }
 function scriptBlock(sid, shots) {
   const total = lib[sid]?.shots || 0, nums = Object.keys(shots).map(Number).sort((a, b) => a - b);
   const miss = []; for (let i = 1; i <= total; i++) if (!shots[i]) miss.push(i);
   const status = total ? (miss.length ? `<span class="miss">缺第 ${miss.join("、")} 段</span>` : `<span class="full">${total} 段齐了</span>`) : `<span class="tip">脚本库里没有这本</span>`;
-  const prod = lib[sid]?.product?.zh || "";
-  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(prod)}</span>${status}</div>
+  return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}</div>
     <div class="grid">${nums.map(n => { const list = shots[n].slice().sort((x, y) => (y.time > x.time ? 1 : -1)); const r = list[0];
       return `<div class="shot ${list.length > 1 ? "dup" : ""}" data-play="${esc(fileId(r.url))}" data-name="${esc(r.name)}"><button class="x" data-del="${esc(list.map(x => fileId(x.url)).join(","))}" aria-label="删除">✕</button><b>第 ${n} 段</b><span class="m">${fmtT(r.time)} · ${mb(r.size)}</span><span class="m">${esc(r.name)}</span></div>`; }).join("")}</div></div>`;
 }
+function bindTalents() {
+  $$("[data-pick]").forEach(b => b.onclick = () => pickScriptsFor(b.dataset.pick));
+  $$("[data-unassign]").forEach(b => b.onclick = async () => { const who = b.dataset.unassign, id = b.dataset.id;
+    if (await confirmBox(`把 ${id} 从 ${who} 那里收回？`, "收回", "取消")) saveAssign(who, currentIds(who).filter(x => !same(x, id))); });
+  $$("[data-play]").forEach(el => el.onclick = e => { if (e.target.closest("[data-del]")) return; play(el.dataset.play, el.dataset.name); });
+  $$("[data-del]").forEach(b => b.onclick = async e => { e.stopPropagation(); const n = b.dataset.del.split(",").length;
+    if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
+  $$("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
+    if (await confirmBox(`删掉 ${b.dataset.delwho} 的全部上传？文件进 Drive 回收站。`, "全部删掉", "取消")) del({ who: b.dataset.delwho }); });
+}
+const currentIds = who => { const k = Object.keys(assigns).find(x => same(x, who)); return k ? scriptIds(assigns[k].scripts) : []; };
+
+// ----- 派单：给达人挑本子（多选） -----
+function pickScriptsFor(who) {
+  const names = talentNames();
+  const m = modal(`<p class="q">${who ? `给 ${esc(who)} 派脚本` : "新达人派单"}</p>
+    ${who ? "" : `<div><div class="lab">达人名或 handle（大小写都行）</div><input class="in" id="pw" style="width:100%" list="names" placeholder="ruben / @handle"><datalist id="names">${names.map(n => `<option value="${esc(n)}">`).join("")}</datalist></div>`}
+    <input class="in" id="pq" style="width:100%" placeholder="搜号 / 产品 / 钩子">
+    <div class="slist" id="pl" style="max-height:50vh"></div>
+    <p class="tip" id="pcount"></p>
+    <div class="row"><button class="no" id="pno">取消</button><button class="ok" id="pok">保存</button></div>`, true);
+  const sel = new Set(who ? currentIds(who).map(x => x.toUpperCase()) : []);
+  const draw = () => {
+    const q = $("#pq", m).value.toLowerCase();
+    const w = who || ($("#pw", m)?.value.trim() || "");
+    const list = Object.values(lib).filter(s => !s.owner || same(s.owner, w)).sort((a, b) => b.id.localeCompare(a.id))
+      .filter(s => !q || `${s.id} ${L(s.product)} ${L(s.hook)} ${s.src || ""}`.toLowerCase().includes(q));
+    $("#pl", m).innerHTML = list.map(s => `<div class="srow ${sel.has(s.id.toUpperCase()) ? "on" : ""}" data-sel="${esc(s.id)}">
+        <span class="no">${sel.has(s.id.toUpperCase()) ? "✓ " : ""}${esc(s.id)}</span><span class="prod">${esc(L(s.product) || "—")}${s.owner ? `<span class="own">专属</span>` : ""}</span>
+        <span class="hook">${esc(L(s.hook) || s.src || "")}</span><span class="meta">${s.shots || "?"} 段 · ${s.sec || "?"}s</span><span></span></div>`).join("") || `<p class="tip" style="padding:10px">没有</p>`;
+    $("#pcount", m).textContent = sel.size ? `已选 ${[...sel].join("、")}` : "还没选";
+    $$("[data-sel]", m).forEach(r => r.onclick = () => { const id = r.dataset.sel.toUpperCase(); sel.has(id) ? sel.delete(id) : sel.add(id); draw(); });
+  };
+  draw();
+  $("#pq", m).oninput = draw; if ($("#pw", m)) $("#pw", m).oninput = draw;
+  $("#pno", m).onclick = () => m.remove();
+  $("#pok", m).onclick = () => { const w = who || $("#pw", m).value.trim(); if (!w) { $("#pw", m).focus(); return; } m.remove(); saveAssign(w, [...sel]); };
+}
+// ----- 派单：从本子出发挑达人 -----
+function pickTalentFor(id) {
+  const names = talentNames();
+  const m = modal(`<p class="q">${esc(id)} 派给谁</p>
+    <div class="who-list">${names.map(n => `<button class="chip ${currentIds(n).some(x => same(x, id)) ? "on" : ""}" data-w="${esc(n)}">${esc(n)}</button>`).join("") || `<span class="tip">还没有达人</span>`}</div>
+    <div><div class="lab">或者新名字</div><input class="in" id="nw" style="width:100%" placeholder="ruben / @handle"></div>
+    <div class="row"><button class="no" id="pno">取消</button><button class="ok" id="pok">派给新名字</button></div>`);
+  $$("[data-w]", m).forEach(b => b.onclick = () => { const w = b.dataset.w; m.remove();
+    const ids = currentIds(w); saveAssign(w, ids.some(x => same(x, id)) ? ids.filter(x => !same(x, id)) : ids.concat([id])); });
+  $("#pno", m).onclick = () => m.remove();
+  $("#pok", m).onclick = () => { const w = $("#nw", m).value.trim(); if (!w) { $("#nw", m).focus(); return; } m.remove(); saveAssign(w, currentIds(w).concat([id])); };
+}
+async function saveAssign(who, ids) {
+  const k = Object.keys(assigns).find(x => same(x, who)) || who;
+  const scripts = [...new Set(ids.map(x => x.toUpperCase()))].join(", ");
+  const prev = assigns[k];
+  assigns[k] = { who: k, scripts, time: new Date().toISOString(), saving: true }; err = ""; render();
+  const r = await post({ action: "assign", who: k, scripts });
+  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; if (prev) assigns[k] = prev; else delete assigns[k]; render(); return; }
+  assigns[k].saving = false; render();
+}
+
+// ----- 新增 / 改脚本：粘贴整段 → 智能拆段 → 预览可改 → 保存（公共 or 专属） -----
+function addScriptDialog(existing) {
+  const names = talentNames();
+  const m = modal(`<p class="q">${existing ? `改 ${esc(existing.id)}` : "新增脚本"}</p>
+    ${existing ? "" : `<div><div class="lab">粘贴整段（H3 提示词 / SD2 四块 / 纯台词都行）</div><textarea class="in" id="src" placeholder="整段复制过来就行，会自动拆成一段一段的分镜"></textarea></div>
+    <div class="bar"><button class="solid" id="parse">智能拆段</button><span class="tip" id="pmsg"></span></div>`}
+    <div id="preview"></div>
+    <div class="bar" id="savebar" hidden>
+      <span class="lab">归属</span><select class="in" id="owner"><option value="">公共（所有达人可派）</option>${names.map(n => `<option value="${esc(n)}">${esc(n)} 专属</option>`).join("")}<option value="__new">新达人…</option></select>
+      <input class="in" id="ownernew" placeholder="达人名" hidden>
+      <span class="lab">脚本号</span><input class="in" id="sid" style="width:140px" placeholder="留空自动">
+    </div>
+    <div class="row"><button class="no" id="pno">关闭</button><button class="ok" id="pok" disabled>保存到脚本库</button></div>`, true);
+  let draft = existing?.full || null;
+  const ownerSel = $("#owner", m), ownerNew = $("#ownernew", m);
+  ownerSel.onchange = () => { ownerNew.hidden = ownerSel.value !== "__new"; if (!ownerNew.hidden) ownerNew.focus(); };
+  const showPreview = () => {
+    $("#preview", m).innerHTML = editHtml(draft); $("#savebar", m).hidden = false; $("#pok", m).disabled = false;
+    $("#sid", m).value = draft.id || "";
+    if (existing?.owner) { ownerSel.value = names.includes(existing.owner) ? existing.owner : "__new"; ownerSel.onchange(); if (ownerSel.value === "__new") ownerNew.value = existing.owner; }
+    $$("[data-f]", m).forEach(inp => inp.oninput = () => setPath(draft, inp.dataset.f, inp.type === "number" ? Number(inp.value) : inp.value));
+    $$("[data-addshot]", m).forEach(b => b.onclick = () => { const i = +b.dataset.addshot; draft.shots.splice(i + 1, 0, { n: 0, sec: 5, talk: true, face: null, do: { zh: "", id: "" }, lines: "" }); renum(); showPreview(); });
+    $$("[data-delshot]", m).forEach(b => b.onclick = () => { draft.shots.splice(+b.dataset.delshot, 1); renum(); showPreview(); });
+  };
+  const renum = () => draft.shots.forEach((s, i) => { s.n = i + 1; s.talk = !!(s.lines || "").trim(); });
+  if (existing) { $("#preview", m).innerHTML = `<p class="tip">读取中…</p>`; fullScript(existing.id).then(f => { draft = JSON.parse(JSON.stringify(f)); showPreview(); }); }
+  const parseBtn = $("#parse", m);
+  if (parseBtn) parseBtn.onclick = async () => {
+    const text = $("#src", m).value.trim(); if (text.length < 20) { $("#pmsg", m).textContent = "先粘贴内容"; return; }
+    parseBtn.disabled = true; $("#pmsg", m).textContent = "Gemini 在拆，约 20 秒…";
+    const ownerGuess = ownerSel.value === "__new" ? ownerNew.value.trim() : ownerSel.value;
+    try {
+      const r = await post({ action: "parse", text, owner: ownerGuess });
+      if (!r.ok) throw new Error(r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error);
+      draft = r.script; renum(); showPreview();
+      $("#pmsg", m).textContent = r.warn || "拆好了，看一眼再保存";
+    } catch (e) { $("#pmsg", m).textContent = "没拆成：" + (e?.message || e); }
+    parseBtn.disabled = false;
+  };
+  $("#pno", m).onclick = () => m.remove();
+  $("#pok", m).onclick = async () => {
+    if (!draft || !draft.shots?.length) return;
+    const owner = ownerSel.value === "__new" ? ownerNew.value.trim() : ownerSel.value;
+    if (ownerSel.value === "__new" && !owner) { ownerNew.focus(); return; }
+    let id = $("#sid", m).value.trim().toUpperCase();
+    if (!id) { if (!owner) { $("#sid", m).focus(); $("#sid", m).placeholder = "公共本子要填号"; return; } id = ""; }
+    renum(); draft.id = id; draft.cam = draft.cam || "user";
+    $("#pok", m).disabled = true; $("#pok", m).textContent = "保存中…";
+    const r = await post({ action: "putscript", script: draft, owner, source: "review" });
+    if (!r.ok) { $("#pok", m).disabled = false; $("#pok", m).textContent = "保存到脚本库"; alert("没存上：" + (r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error)); return; }
+    m.remove(); await load();
+    if (owner && r.id && !currentIds(owner).some(x => same(x, r.id))) saveAssign(owner, currentIds(owner).concat([r.id]));   // 专属本子存完直接派给她
+  };
+}
+function setPath(obj, path, val) { const ks = path.split("."); let o = obj; for (let i = 0; i < ks.length - 1; i++) { if (o[ks[i]] == null) o[ks[i]] = {}; o = o[ks[i]]; } o[ks[ks.length - 1]] = val; }
+function editHtml(d) {
+  const zi = (path, o, ph) => `<div class="cell"><small>${esc(ph)} 中</small><textarea data-f="${path}.zh">${esc(o?.zh || "")}</textarea></div><div class="cell"><small>${esc(ph)} ID</small><textarea data-f="${path}.id">${esc(o?.id || "")}</textarea></div>`;
+  return `<div class="edit" style="grid-template-columns:1fr 1fr"><div class="cell"><small>产品 中</small><input data-f="product.zh" value="${esc(d.product?.zh || "")}"></div><div class="cell"><small>Produk ID</small><input data-f="product.id" value="${esc(d.product?.id || "")}"></div>
+      <div class="cell"><small>钩子 中</small><input data-f="hook.zh" value="${esc(d.hook?.zh || "")}"></div><div class="cell"><small>Hook ID</small><input data-f="hook.id" value="${esc(d.hook?.id || "")}"></div>
+      ${zi("prep", d.prep, "开拍前准备")}</div>
+    <div class="lab" style="margin-top:10px">分镜 ${d.shots.length} 段 · 合计 ${d.shots.reduce((a, s) => a + (+s.sec || 0), 0)} 秒</div>
+    ${d.shots.map((s, i) => `<div class="edit"><b>${s.n}</b><div class="cell"><small>秒</small><input type="number" min="2" data-f="shots.${i}.sec" value="${+s.sec || 0}"></div>
+      ${zi(`shots.${i}.face`, s.face, "脸上")}
+      <span></span><span></span>${zi(`shots.${i}.do`, s.do, "推荐拍法")}
+      <span></span><span></span><div class="cell lines"><small>台词（印尼语，空＝不说话）</small><textarea data-f="shots.${i}.lines">${esc(s.lines || "")}</textarea></div>
+      <span></span><span class="bar" style="grid-column:2 / span 3"><button class="ghost sm" data-addshot="${i}">在后面加一段</button><button class="ghost sm" data-delshot="${i}">删这段</button></span></div>`).join("")}`;
+}
+
+// ----- 播放 / 删 -----
 function play(id, name) {
   const ov = document.createElement("div"); ov.className = "player";
   ov.innerHTML = `<div class="pt">${esc(name)}</div><iframe src="https://drive.google.com/file/d/${esc(id)}/preview" allow="autoplay"></iframe>
@@ -161,18 +411,11 @@ function play(id, name) {
 }
 async function del(what) {
   const keep = rows;
-  rows = rows.filter(r => !(what.ids ? what.ids.includes(fileId(r.url)) : r.who === what.who)); err = ""; render();
+  rows = rows.filter(r => !(what.ids ? what.ids.includes(fileId(r.url)) : same(r.who, what.who))); err = ""; render();
   const r = await post(Object.assign({ action: "del" }, what));
-  if (!r.ok) { rows = keep; err = r.error === "no key" ? "钥匙不对" : (r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error); render(); }
+  if (!r.ok) { rows = keep; err = r.error === "no key" ? "钥匙不对" : r.error; render(); }
 }
-async function assign(who, scripts) {
-  if (!who) return;
-  scripts = scripts.split(/[,\s，、]+/).filter(Boolean).map(x => x.toUpperCase()).join(", ");
-  assigns[who] = { who, scripts, time: new Date().toISOString(), saving: true }; err = ""; render();
-  const r = await post({ action: "assign", who, scripts });
-  if (!r.ok) { err = r.error === "no key" ? "钥匙不对" : r.error; delete assigns[who]; render(); return; }
-  assigns[who].saving = false; render();
-}
+document.addEventListener("keydown", e => { if (e.key === "Escape") { const ms = $$(".modal"); if (ms.length) ms[ms.length - 1].remove(); } });
 render();
 if (key) load();
 </script>

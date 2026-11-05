@@ -2,204 +2,253 @@
 <html lang="id">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#F6F2EA">
 <title>Rekam Naskah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans:wght@400;600;700&display=swap">
 <style>
+/* 配色只用：米白 / 纯白 / 深红 / 正红 / 黑 / 深灰（11-05 她定，粉调全去掉） */
 :root{
-  --bg:#FFFFFF; --panel:#FFF6F6; --ink:#1F1A1B; --mute:#7A6E70; --line:#EBD9DB;
-  --go:#D7263D; --go-ink:#FFFFFF; --hold:#D7263D; --hold-ink:#FFFFFF; --end:#9E1B2B; --end-ink:#FFFFFF;
-  --btn:#D7263D; --btn-ink:#FFFFFF; --chip:#F6E3E5;
+  --bg:#F6F2EA; --card:#FFFFFF; --ink:#111111; --mute:#4A4A4A; --line:#DED7C9; --soft:#EEE8DC;
+  --red:#D7263D; --dark:#8E1B26; --on:#FFFFFF;
 }
 @media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --bg:#171213; --panel:#221A1B; --ink:#F3E9EA; --mute:#A89597; --line:#3E2E31;
-    --go:#E8405A; --go-ink:#FFFFFF; --hold:#E8405A; --hold-ink:#FFFFFF; --end:#C22E45; --end-ink:#FFFFFF;
-    --btn:#E8405A; --btn-ink:#FFFFFF; --chip:#33262A;
-  }
+  :root:not([data-theme="light"]){ color-scheme:dark;
+    --bg:#121212; --card:#1C1A17; --ink:#F3EFE7; --mute:#B9B3A8; --line:#3A362F; --soft:#262320; --red:#E23B50; --dark:#A5202F; --on:#FFFFFF; }
 }
-html,body{min-height:100%;margin:0}
-body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,-apple-system,sans-serif;font-size:16px;
-  padding-inline:16px;padding-block:calc(10px + env(safe-area-inset-top,0px)) calc(24px + env(safe-area-inset-bottom,0px));box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-.app{width:100%;max-width:520px;margin:0 auto;box-sizing:border-box;display:flex;flex-direction:column;gap:14px}
-button,input{font-family:inherit;font-size:16px;color:inherit}
-button{cursor:pointer}
-button:focus-visible,input:focus-visible{outline:3px solid var(--hold);outline-offset:2px}
-button:disabled{opacity:.45;cursor:default}
-.top{display:flex;gap:8px;align-items:center}
-.top h1{flex:1;margin:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:22px;letter-spacing:.02em;overflow-wrap:anywhere}
-.top h1 small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:13px;color:var(--mute);letter-spacing:0}
-.lang{display:flex;background:var(--chip);border-radius:12px;padding:4px;gap:2px}
-.lang button{border:0;background:transparent;border-radius:9px;min-width:44px;min-height:44px;font-size:13px;font-weight:600;color:var(--mute)}
-.lang button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
-.lab{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding-block:14px;padding-inline:16px;display:flex;flex-direction:column;gap:10px}
-.card p{margin:0;line-height:1.5}
-.tip{font-size:14px;line-height:1.5;color:var(--mute);margin:0}
-.add{display:flex;gap:8px}
-.add input{flex:1;min-width:0;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
-.inp{width:100%;box-sizing:border-box;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding-inline:12px}
-.ta{padding-block:10px;font-size:17px;line-height:1.5;resize:vertical}
-.crumb{color:var(--go);font-weight:600;font-size:14px;text-decoration:none;align-self:flex-start;min-height:32px;display:inline-flex;align-items:center}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:20;padding:24px;box-sizing:border-box}
-.modal .box{background:var(--panel);color:var(--ink);border-radius:16px;padding:20px;width:100%;max-width:340px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;overflow:hidden;overscroll-behavior:none}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,-apple-system,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%}
+button,input,textarea{font-family:inherit;font-size:16px;color:inherit}
+button{cursor:pointer;touch-action:manipulation}
+button:disabled{cursor:default}
+.solid:disabled,.big:disabled,.modal .ok:disabled{background:var(--line);color:var(--mute)}   /* 禁用态用灰，不用半透明红（会发粉） */
+/* 每一屏＝固定满屏三段：顶栏 / 中间 / 底部按钮，不整页滚动 */
+.screen{position:fixed;inset:0;display:flex;flex-direction:column;padding:calc(6px + env(safe-area-inset-top,0px)) 16px calc(14px + env(safe-area-inset-bottom,0px));max-width:520px;margin:0 auto}
+.topbar{display:flex;align-items:center;gap:8px;min-height:48px;flex:none}
+.topbar .back{display:inline-flex;align-items:center;gap:4px;border:0;background:transparent;color:var(--ink);font-weight:600;font-size:16px;min-height:44px;padding-inline:4px 10px;margin-left:-4px}
+.topbar .back svg{width:22px;height:22px}
+.topbar .ttl{flex:1;min-width:0;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar .ttl small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:12px;color:var(--mute);letter-spacing:0}
+.lang{display:flex;background:var(--soft);border-radius:12px;padding:3px;gap:2px;flex:none}
+.lang button{border:0;background:transparent;border-radius:9px;min-width:42px;min-height:38px;font-size:13px;font-weight:600;color:var(--mute)}
+.lang button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.mid{flex:1;min-height:0;display:flex;flex-direction:column;gap:12px;padding-block:6px}
+.mid.center{justify-content:center}
+.foot{flex:none;display:flex;flex-direction:column;gap:10px;padding-top:10px}
+.scroll{min-height:0;overflow:auto;-webkit-overflow-scrolling:touch}
+/* 吉祥物 Cici ＋ 气泡 */
+.cici{display:flex;align-items:flex-end;gap:10px;flex:none}
+.cici svg{width:64px;height:64px;flex:none}
+.cici.lg svg{width:96px;height:96px}
+.bubble{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:10px 14px;font-size:15px;line-height:1.45;color:var(--ink);flex:1;min-width:0}
+.bubble::before{content:"";position:absolute;left:-9px;bottom:14px;width:14px;height:14px;background:var(--card);border-left:1.5px solid var(--line);border-bottom:1.5px solid var(--line);transform:rotate(45deg)}
+.bubble b{color:var(--red)}
+/* 卡片 */
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.lab{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.inp{width:100%;min-height:54px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);padding-inline:14px;font-size:17px}
+.inp:focus{outline:none;border-color:var(--ink)}
+.ta{padding-block:12px;line-height:1.5;resize:none;min-height:0;flex:1}
+.err{color:var(--red);font-size:14px;margin:0;font-weight:600;line-height:1.4}
+.tip{color:var(--mute);font-size:14px;line-height:1.5;margin:0}
+.big{width:100%;min-height:60px;border:0;border-radius:16px;background:var(--red);color:var(--on);font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:24px;letter-spacing:.04em}
+.big.dark{background:var(--dark)}
+.big.ghost{background:transparent;border:2px solid var(--ink);color:var(--ink);font-size:20px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.link{align-self:center;border:0;background:transparent;color:var(--mute);font-size:14px;min-height:40px;padding-inline:12px;text-decoration:underline}
+/* 脚本列表 */
+.slist{display:flex;flex-direction:column;gap:10px}
+.sitem{display:flex;align-items:center;gap:12px;background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:12px 14px;text-align:left;width:100%}
+.sitem .num{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:22px;color:var(--red);flex:none;min-width:34px}
+.sitem .t{flex:1;min-width:0}
+.sitem .t b{display:block;font-size:16px;line-height:1.3}
+.sitem .t span{display:block;font-size:13px;color:var(--mute);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sitem .go{flex:none;background:var(--red);color:var(--on);border-radius:10px;font-weight:700;font-size:14px;padding:8px 12px}
+.sitem .go.done{background:var(--soft);color:var(--mute)}
+/* 分镜屏 */
+.prog{display:flex;gap:4px;flex:none}
+.prog i{flex:1;height:6px;border-radius:3px;background:var(--line)}
+.prog i.ok{background:var(--dark)}
+.prog i.cur{background:var(--red)}
+.shot{flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:auto;-webkit-overflow-scrolling:touch}
+.shot .head{display:flex;align-items:baseline;gap:10px}
+.shot .head .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:30px;line-height:1}
+.shot .head .s{font-size:14px;color:var(--mute)}
+.face{background:var(--soft);border-radius:12px;padding:8px 12px;font-size:14px;line-height:1.45}
+.face b,.do b,.lines-lab{display:block;font-size:12px;color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
+.do{font-size:15px;line-height:1.5;color:var(--mute)}
+.do p{margin:0;color:var(--ink)}
+.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--red);padding-left:12px}
+.lines.none{color:var(--mute);font-weight:400;font-size:16px;border-color:var(--line)}
+video.pv{width:100%;max-height:34vh;border-radius:14px;background:#000;object-fit:contain}
+.pickbtn{position:relative;overflow:hidden}
+.pickbtn input{position:absolute;inset:0;opacity:0;width:100%;height:100%}
+/* 总览 */
+.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.list li{display:flex;align-items:center;gap:10px;min-height:52px;border-top:1px solid var(--line);font-size:15px}
+.list li:first-child{border-top:0}
+.list .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;width:1.6em;color:var(--mute)}
+.list .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.list .st{font-size:13px;font-weight:600;color:var(--mute);flex:none;display:inline-flex;align-items:center;gap:6px}
+.list .st.ok{color:var(--dark)}
+.list .st.bad{color:var(--red)}
+.list button{min-height:38px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding-inline:12px;font-size:14px;font-weight:600;flex:none}
+.spin{width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--red);border-radius:50%;animation:sp 1s linear infinite;display:inline-block}
+@keyframes sp{to{transform:rotate(360deg)}}
+/* 弹窗 */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:30;padding:24px}
+.modal .box{background:var(--card);color:var(--ink);border-radius:18px;padding:20px;width:100%;max-width:340px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
 .modal .q{font-size:18px;font-weight:600;line-height:1.4;margin:0}
 .modal .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .modal button{min-height:48px;border-radius:12px;font-weight:600;font-size:16px}
-.modal .ok{border:0;background:var(--go);color:var(--go-ink)}
+.modal .ok{border:0;background:var(--red);color:var(--on)}
 .modal .no{border:1.5px solid var(--line);background:transparent;color:var(--ink)}
-.out{align-self:center;margin-top:18px;border:0;background:transparent;color:var(--mute);font-size:14px;min-height:44px;padding-inline:16px;text-decoration:underline}
-.solid{border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);font-weight:600;min-height:48px;padding-inline:16px}
-.solid.go{background:var(--go);color:var(--go-ink)}
-.sec{min-height:52px;border-radius:12px;border:1.5px solid var(--go);background:transparent;color:var(--ink);font-size:15px;font-weight:600;line-height:1.25;padding-inline:12px}
-.sec small{display:block;font-weight:400;font-size:12px;color:var(--mute)}
-.dots{display:flex;gap:6px;flex-wrap:wrap}
-.dot{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:16px;background:var(--panel);color:var(--mute);padding:0}
-.dot.cur{border-color:var(--ink);color:var(--ink)}
-.dot.ok{background:var(--go);border-color:var(--go);color:var(--go-ink)}
-.shot .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:30px;line-height:1}
-.shot .n span{font-size:16px;font-weight:600;color:var(--mute);margin-left:8px;font-family:"Noto Sans",sans-serif}
-.face{background:var(--chip);border-radius:10px;padding-block:8px;padding-inline:12px;font-size:14px}
-.face b,.do b{display:block;font-size:12px;color:var(--mute);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
-.lines{font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--go);padding-left:12px}
-.lines.none{color:var(--mute);font-weight:400;font-size:16px}
-.main{width:100%;min-height:84px;border:0;border-radius:16px;background:var(--go);color:var(--go-ink);
-  font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:32px;letter-spacing:.04em;line-height:1.05}
-.main small{display:block;font-family:"Noto Sans",sans-serif;font-weight:400;font-size:14px;letter-spacing:0;opacity:.85;margin-top:3px}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.pickbtn{position:relative;overflow:hidden}
-.pickbtn input{position:absolute;inset:0;opacity:0;width:100%;height:100%}
-video.pv{width:100%;max-height:52vh;border-radius:12px;background:#000}
-.err{color:var(--end);font-size:14px;margin:0}
-.msg{font-size:14px;color:var(--go);font-weight:600;margin:0}
-.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-.list li{display:flex;align-items:center;gap:10px;min-height:48px;border-top:1px solid var(--line);font-size:15px}
-.list li:first-child{border-top:0}
-.list .n{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:20px;width:2em;color:var(--mute)}
-.list .t{flex:1;min-width:0;overflow-wrap:anywhere}
-.list button{min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding-inline:12px;font-size:14px;font-weight:600}
 /* 录制全屏 */
-.rec{position:fixed;inset:0;background:#000;color:#fff;z-index:10;display:flex;flex-direction:column}
+.rec{position:fixed;inset:0;background:#000;color:#fff;z-index:20;display:flex;flex-direction:column}
 .rec video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .rec video.mirror{transform:scaleX(-1)}
-.prompt{position:relative;margin:calc(8px + env(safe-area-inset-top,0px)) 12px 0;height:38vh;overflow:hidden;border-radius:14px;background:rgba(0,0,0,.55);
+.rec .rtop{position:relative;display:flex;align-items:center;gap:8px;margin:calc(6px + env(safe-area-inset-top,0px)) 12px 0}
+.rec .rback{display:inline-flex;align-items:center;gap:4px;border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:12px;min-height:44px;padding-inline:10px 14px;font-weight:600}
+.rec .rback svg{width:20px;height:20px}
+.timer{margin-left:auto;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:24px;font-variant-numeric:tabular-nums;background:rgba(0,0,0,.5);border-radius:10px;padding-inline:10px;min-height:40px;display:flex;align-items:center;gap:8px}
+.timer i{width:12px;height:12px;border-radius:50%;background:#E23B2E;display:inline-block;animation:bl 1s steps(2) infinite}
+@keyframes bl{to{opacity:.2}}
+.prompt{position:relative;margin:8px 12px 0;height:36vh;overflow:hidden;border-radius:14px;background:rgba(0,0,0,.55);
   -webkit-mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(transparent 0,#000 12%,#000 88%,transparent 100%)}
 .prompt .txt{position:absolute;left:16px;right:16px;top:12px;font-size:30px;line-height:1.4;font-weight:600;will-change:transform;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .prompt .paused{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:40px;background:rgba(0,0,0,.35)}
-.recbar{position:relative;margin:8px 12px 0;display:flex;align-items:center;gap:10px}
-.timer{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;font-variant-numeric:tabular-nums;background:rgba(0,0,0,.5);border-radius:10px;padding-inline:10px;min-height:40px;display:flex;align-items:center;gap:8px}
-.timer i{width:12px;height:12px;border-radius:50%;background:#E23B2E;display:inline-block}
-.spd{margin-left:auto;display:flex;gap:6px}
-.spd button{min-width:56px;min-height:44px;border:0;border-radius:10px;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:15px}
-.spd span{color:#fff;font-size:13px;align-self:center;opacity:.8}
+.silent{margin:8px 12px 0;border-radius:14px;background:rgba(0,0,0,.6);padding:14px 16px;display:flex;gap:10px;align-items:flex-start}
+.silent svg{width:44px;height:44px;flex:none}
+.silent .big1{font-size:19px;font-weight:700;line-height:1.35}
+.silent .big2{font-size:16px;line-height:1.45;margin-top:6px;opacity:.95}
+.spd{position:relative;margin:8px 12px 0;display:flex;gap:6px;justify-content:flex-end}
+.spd button{min-width:56px;min-height:40px;border:0;border-radius:10px;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:14px}
 .count{position:absolute;inset:0;display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:46vw;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6);pointer-events:none}
-.stop{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(28px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:#E23B2E;color:#fff;font-weight:800;font-size:18px}
-.hint{position:absolute;left:12px;right:12px;bottom:calc(136px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.55);border-radius:12px;padding-block:8px;padding-inline:12px;font-size:15px;line-height:1.4;max-height:30vh;overflow:auto}
+.hint{position:absolute;left:12px;right:12px;bottom:calc(136px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.55);border-radius:12px;padding:8px 12px;font-size:15px;line-height:1.4;max-height:28vh;overflow:auto}
 .framing{position:absolute;left:0;right:0;bottom:calc(118px + env(safe-area-inset-bottom,0px));text-align:center;font-size:14px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.7)}
 .shutter{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:transparent;padding:0}
 .shutter span{display:block;width:62px;height:62px;border-radius:50%;background:#E23B2E;margin:0 auto}
+.stop{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));width:84px;height:84px;border-radius:50%;border:5px solid #fff;background:#E23B2E;color:#fff;font-weight:800;font-size:18px}
 .flipcam{position:absolute;left:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
-.up{font-size:13px;color:var(--mute)}
-.up.ok{color:var(--go);font-weight:600}
-.cancel{position:absolute;right:16px;bottom:calc(44px + env(safe-area-inset-bottom,0px));border:0;background:rgba(0,0,0,.5);color:#fff;border-radius:10px;min-height:44px;padding-inline:14px;font-weight:600}
-@media (prefers-reduced-motion: reduce){.prompt .txt{transition:none}}
+@media (prefers-reduced-motion: reduce){.prompt .txt{transition:none}.timer i{animation:none}}
 </style>
 </head>
 <body>
-<div class="app" id="root"></div>
+<div id="root"></div>
 
 <script type="module">
 const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/mediabunny.min.mjs";
+const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址
 const WPS = 3.5;                       // 脚本库排段密度：每秒 3.5 词，台词滚完刚好到段时长
 const SPEEDS = [0.7, 0.85, 1, 1.2, 1.4];
 const $ = (sel, el = document) => el.querySelector(sel);
+const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const pad2 = n => String(n).padStart(2, "0");
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+  del(k) { try { localStorage.removeItem(k); } catch (e) {} },
 };
+
+// ===== 文案（印尼语为主，中文给她看） =====
 const I18N = {
-  zh: {
-    title: "拍脚本", login: "登录", who: "你的 TikTok 或 Instagram 链接", whoTip: "", orName: "或者写名字", ok: "好", logout: "退出", prep: "开拍前准备",
-    needOne: "链接或名字至少填一个", flipCam: "换摄像头", upload: "传给我们", uploading: p => `上传 ${p}%`, uploaded: "已传", uploadFail: "没传上，再按一次：",
-    uploadAll: n => `传给我们（${n} 段）`, uploadTip: "", uploadingAll: (i, n) => `正在传 ${i}/${n}，别离开这个页面`, uploadedAll: "全部传好了",
-    shot: n => `第 ${n} 段`, of: n => `共 ${n} 段`, sec: n => `${n} 秒`, face: "开拍前脸上", do_: "怎么拍", lines: "要说的话", noLines: "这段不说话",
-    rec: "开始录", recSub: "", pick: "选已录好的视频", pickSub: "",
-    again: "重录", next: "好了，下一段", finish: "好了，看全部", back: "上一段",
-    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停",
-    noCam: "打不开摄像头。请在浏览器里允许使用摄像头和麦克风，再试一次。",
-    done: "全部录完了", saveAll: n => `保存全部（${n} 段）`, save: "保存", saved: "已存", redo: "重录", missing: "还没录",
-    saveTip: "", processing: "处理中…", saveFail: "没保存上：",
-    flip: "画面横了？点这里转正", loadFail: "找不到这本脚本。链接要带脚本号，例如 ?s=V0158",
-    clear: "全部清掉，重新拍", clearSub: "", clearSure: "把录好的全部清掉，重新拍？", cancel: "取消", logoutSure: "确定退出？", yesLogout: "退出", yesClear: "清掉",
-    pickScript: "你的脚本", assignedTip: "这些是分给你的，点一本开始。", libTip: "还没有分给你的脚本。", mine: "我自己的脚本", mineSub: "自己写台词，录的时候也会提词",
-    mineTitle: "我自己的脚本", mineTip: "一段一段写要说的话，两段之间空一行。每段就是一个镜头。", mineSave: "保存，开始拍", mineEmpty: "先写点内容", mineSaved: "已保存", selfName: "我的脚本",
-    shots: n => `${n} 段`, loading: "读取中…", changeName: "换人",
-    inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」或右下角的浏览器图标，选「在 Safari 中打开」。",
-    camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
-    framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…",
-  },
   id: {
-    title: "Rekam naskah", login: "Masuk", who: "Link TikTok atau Instagram kamu", whoTip: "", orName: "Atau tulis nama", ok: "OK", logout: "Keluar", prep: "Sebelum mulai",
-    needOne: "Isi link atau nama, salah satu saja", flipCam: "Ganti kamera", upload: "Kirim ke kami", uploading: p => `Mengirim ${p}%`, uploaded: "Terkirim", uploadFail: "Gagal kirim, coba lagi: ",
-    uploadAll: n => `Kirim ke kami (${n} bagian)`, uploadTip: "", uploadingAll: (i, n) => `Mengirim ${i}/${n}, jangan tinggalkan halaman ini`, uploadedAll: "Semua sudah terkirim",
-    shot: n => `Bagian ${n}`, of: n => `dari ${n}`, sec: n => `${n} dtk`, face: "Wajah sebelum mulai", do_: "Cara rekam", lines: "Yang diucapkan", noLines: "Bagian ini tanpa bicara",
-    rec: "MULAI REKAM", recSub: "", pick: "Pilih video yang sudah direkam", pickSub: "",
-    again: "Ulang", next: "Oke, bagian berikutnya", finish: "Oke, lihat semua", back: "Sebelumnya",
-    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda",
-    noCam: "Kamera tidak bisa dibuka. Izinkan kamera dan mikrofon di browser, lalu coba lagi.",
-    done: "Semua sudah direkam", saveAll: n => `Simpan semua (${n} bagian)`, save: "Simpan", saved: "Tersimpan", redo: "Ulang", missing: "Belum direkam",
-    saveTip: "", processing: "Memproses…", saveFail: "Gagal menyimpan: ",
-    flip: "Videonya miring? Ketuk untuk memutar", loadFail: "Naskah tidak ketemu. Link harus ada nomor naskah, contoh ?s=V0158",
-    clear: "Hapus semua, rekam ulang", clearSub: "", clearSure: "Hapus semua rekaman dan mulai dari awal?", cancel: "Batal", logoutSure: "Yakin mau keluar?", yesLogout: "Keluar", yesClear: "Hapus",
-    pickScript: "Naskah kamu", assignedTip: "Ini naskah untuk kamu. Ketuk satu untuk mulai.", libTip: "Belum ada naskah untuk kamu.", mine: "Naskah saya sendiri", mineSub: "Tulis sendiri, saat rekam tetap ada teksnya",
-    mineTitle: "Naskah saya sendiri", mineTip: "Tulis yang mau diucapkan, bagian demi bagian. Pisahkan tiap bagian dengan satu baris kosong. Satu bagian = satu rekaman.", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya", mineSaved: "Tersimpan", selfName: "Naskah saya",
-    shots: n => `${n} bagian`, loading: "Memuat…", changeName: "Ganti orang",
-    inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas atau ikon browser di kanan bawah, lalu pilih “Buka di Safari”.",
-    camErr: n => `Kamera tidak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi.`,
-    framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…",
+    appTitle: "Rekam Naskah", hiName: "Hai! Aku <b>Cici</b>. Aku temenin kamu rekam ya, santai aja. Siapa nama kamu?", whoPh: "Nama kamu, atau link TikTok / IG", start: "Mulai", needOne: "Tulis nama atau link dulu ya",
+    yourScripts: "Naskah kamu", pickOne: "Ini naskah buat kamu. Pilih satu, kita mulai!", noScripts: "Naskah buat kamu belum ada. Kamu bisa tulis sendiri dulu, nanti aku bantu bacain pas rekam.",
+    bagian: n => `${n} bagian`, detik: n => `${n} detik`, record: "Rekam", continueBtn: "Lanjutin", doneBtn: "Selesai ✓", writeOwn: "Tulis naskah sendiri", changeName: "Ganti nama",
+    mineTitle: "Naskah saya", mineHi: "Tulis yang mau kamu omongin. Satu bagian satu rekaman, pisahkan pakai baris kosong ya.", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "Simpan, mulai rekam", mineEmpty: "Tulis dulu isinya ya",
+    prepTitle: "Siap-siap dulu", prepHi: "Siapin ini dulu ya, nggak lama kok. Habis itu kita rekam bagian demi bagian.", ready: "Udah siap!",
+    shotTitle: (i, n) => `Bagian ${i} dari ${n}`, face: "Wajah sebelum mulai", suggest: "Saran cara rekam", suggestTip: "Ini cuma saran. Kalau kamu punya cara sendiri yang lebih natural, pakai cara kamu.", lines: "Yang diucapkan", noLines: "Bagian ini nggak ngomong. Inget gerakannya aja ya.",
+    rec: "REKAM", pick: "Pilih video dari galeri", again: "Ulang", next: "Lanjut →", finish: "Lihat semua →", back: "Kembali",
+    cheer: ["Santai aja, kayak ngobrol sama temen.", "Nggak harus persis. Yang penting natural.", "Kalau salah, tinggal ulang. Gampang!", "Senyum dikit, kamu udah keren kok.", "Pelan-pelan aja, nggak ada yang buru-buru."],
+    took: "Keren! Mau lihat dulu, atau langsung lanjut?", tookLast: "Semua bagian udah ada! Yuk lihat semuanya.",
+    slow: "Pelan", fast: "Cepat", stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera",
+    camErr: n => `Kamera nggak bisa dibuka (${n}). Buka Pengaturan → Safari → Kamera / Mikrofon, pilih “Izinkan”, lalu coba lagi ya.`,
+    inApp: "Halaman ini harus dibuka di Safari atau Chrome supaya kamera bisa dipakai. Ketuk “…” di kanan atas, lalu pilih “Buka di Safari”.",
+    processing: "Sebentar, lagi disimpan…", flip: "Videonya miring? Ketuk untuk memutar",
+    overview: "Semua bagian", ovHi: "Semua udah kamu rekam! Tinggal kirim ke aku ya.", ovHiSending: "Lagi aku kirim… jangan tutup halaman ini dulu ya.", ovHiDone: "Udah sampai semua! Makasih ya, kamu hebat banget.", ovHiMissing: n => `Masih ada ${n} bagian yang belum direkam.`,
+    sendAll: n => `Kirim ke kami (${n} bagian)`, sending: (i, n) => `Mengirim ${i} dari ${n}… jangan tinggalkan halaman ini`, sentAll: "Semua sudah terkirim ✓",
+    stSent: "Terkirim", stSending: "Mengirim…", stFail: "Gagal, kirim lagi", stMissing: "Belum direkam", redo: "Ulang", recordIt: "Rekam",
+    saveAll: "Simpan ke HP", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
+    logoutSure: "Ganti nama? Rekaman yang belum dikirim akan hilang.", yesLogout: "Ganti", loadFail: "Naskah ini nggak ketemu. Coba balik ke daftar naskah ya.",
+  },
+  zh: {
+    appTitle: "拍脚本", hiName: "嗨！我是 <b>Cici</b>，陪你一起拍，放轻松。你叫什么？", whoPh: "你的名字，或 TikTok / IG 链接", start: "开始", needOne: "先写名字或链接",
+    yourScripts: "你的脚本", pickOne: "这是给你的脚本，选一本开始！", noScripts: "还没有分给你的脚本。可以先自己写一段，录的时候我帮你提词。",
+    bagian: n => `${n} 段`, detik: n => `${n} 秒`, record: "开拍", continueBtn: "继续", doneBtn: "已完成 ✓", writeOwn: "自己写脚本", changeName: "换人",
+    mineTitle: "我的脚本", mineHi: "写下要说的话。一段一个镜头，段和段之间空一行。", minePh: "Halo semua…\n\nAku mau cerita…", mineSave: "保存，开始拍", mineEmpty: "先写点内容",
+    prepTitle: "开拍前准备", prepHi: "先把这些准备好，不会很久。然后我们一段一段拍。", ready: "准备好了！",
+    shotTitle: (i, n) => `第 ${i} 段，共 ${n} 段`, face: "开拍前脸上", suggest: "推荐拍法", suggestTip: "只是建议。你有更自然的拍法就按你的来。", lines: "要说的话", noLines: "这段不说话，记住动作就行。",
+    rec: "开始录", pick: "从相册选视频", again: "重录", next: "下一段 →", finish: "看全部 →", back: "返回",
+    cheer: ["放松点，像跟朋友聊天。", "不用一模一样，自然最重要。", "错了就重录，很简单。", "笑一笑，你已经很棒了。", "慢慢来，不着急。"],
+    took: "很好！先看看，还是直接下一段？", tookLast: "全部都有了！去看看全部吧。",
+    slow: "慢", fast: "快", stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头",
+    camErr: n => `打不开摄像头（${n}）。到 设置 → Safari → 相机 / 麦克风，改成「允许」，再回来试。`,
+    inApp: "这个页面要在 Safari 或 Chrome 里打开才能用摄像头。点右上角的「…」，选「在 Safari 中打开」。",
+    processing: "稍等，正在保存…", flip: "画面横了？点这里转正",
+    overview: "全部段落", ovHi: "都录完了！传给我就行。", ovHiSending: "正在传……先别关这个页面。", ovHiDone: "全都到了！谢谢你，太棒了。", ovHiMissing: n => `还有 ${n} 段没录。`,
+    sendAll: n => `传给我们（${n} 段）`, sending: (i, n) => `正在传 ${i}/${n}，别离开这个页面`, sentAll: "全部传好了 ✓",
+    stSent: "已传", stSending: "传送中…", stFail: "没传上，再传", stMissing: "还没录", redo: "重录", recordIt: "去录",
+    saveAll: "存到手机", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
+    logoutSure: "换人？没传的录像会清掉。", yesLogout: "换人", loadFail: "找不到这本脚本，回脚本列表看看。",
   },
 };
 let lang = store.get("lang", /^zh/i.test(navigator.language || "") ? "zh" : "id");
 const t = (k, ...a) => { const v = I18N[lang][k]; return typeof v === "function" ? v(...a) : v; };
 const L = o => (o && typeof o === "object") ? (o[lang] || o.id || o.zh || "") : (o || "");
 const mobile = /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent);
-const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
-// ===== 状态 =====
-// 弹窗确认：返回 true/false
+// ===== 吉祥物 Cici：米白圆脸 + 正红发带 + 黑点眼；表情 hi / go / yay / wink =====
+function cici(mood = "hi") {
+  const eyes = mood === "yay" ? `<path d="M22 31 q4 -5 8 0" /><path d="M38 31 q4 -5 8 0" />`
+    : mood === "wink" ? `<circle cx="26" cy="31" r="2.6" fill="#111"/><path d="M38 31 q4 -4 8 0" />`
+    : mood === "go" ? `<path d="M21 29 l9 2" /><path d="M47 29 l-9 2" /><circle cx="26" cy="33" r="2.4" fill="#111"/><circle cx="42" cy="33" r="2.4" fill="#111"/>`
+    : `<circle cx="26" cy="31" r="2.6" fill="#111"/><circle cx="42" cy="31" r="2.6" fill="#111"/>`;
+  const mouth = mood === "yay" ? `<path d="M28 40 q6 7 12 0 z" fill="#D7263D" stroke="none"/>` : mood === "go" ? `<path d="M30 41 h8" />` : `<path d="M30 39 q4 4 8 0" />`;
+  return `<svg viewBox="0 0 68 68" aria-hidden="true"><g stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <ellipse cx="34" cy="38" rx="24" ry="22" fill="#F6F2EA"/>
+    <path d="M12 30 q22 -12 44 0 l0 -6 q-22 -11 -44 0 z" fill="#D7263D"/>
+    <path d="M24 20 q2 -7 10 -8 q-4 4 -4 9" fill="#F6F2EA"/>
+    <circle cx="18" cy="41" r="3" fill="#D7263D" stroke="none"/><circle cx="50" cy="41" r="3" fill="#D7263D" stroke="none"/>
+    ${eyes}${mouth}</g></svg>`;
+}
+const bubble = (html, mood, big) => `<div class="cici ${big ? "lg" : ""}">${cici(mood)}<div class="bubble">${html}</div></div>`;
+const backIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>`;
+
+// ===== 弹窗确认 =====
 function confirmBox(q, okLabel, noLabel) {
   return new Promise(res => {
     const m = document.createElement("div"); m.className = "modal";
     m.innerHTML = `<div class="box"><p class="q"></p><div class="row"><button class="no"></button><button class="ok"></button></div></div>`;
-    m.querySelector(".q").textContent = q; m.querySelector(".ok").textContent = okLabel; m.querySelector(".no").textContent = noLabel;
+    $(".q", m).textContent = q; $(".ok", m).textContent = okLabel; $(".no", m).textContent = noLabel;
     const done = v => { m.remove(); res(v); };
-    m.querySelector(".ok").onclick = () => done(true); m.querySelector(".no").onclick = () => done(false);
+    $(".ok", m).onclick = () => done(true); $(".no", m).onclick = () => done(false);
     m.onclick = e => { if (e.target === m) done(false); };
-    document.body.appendChild(m); m.querySelector(".no").focus();
+    document.body.appendChild(m); $(".no", m).focus();
   });
 }
+
+// ===== 状态 =====
 const root = document.getElementById("root");
-const sid = (new URLSearchParams(location.search).get("s") || "").trim();
-let script = null, loadErr = "";
 let profile = store.get("profile", null);        // { link, handle, name }
-if (!profile && store.get("name", "")) { profile = { link: "", handle: "", name: store.get("name", "") }; store.set("profile", profile); }   // 老版本只存了名字
-try { localStorage.removeItem("name"); } catch (e) {}
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
-const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbwkzJKhqvJkTh-jHsVNhYcfKnJ2raDLCS2GIkJ7i96mvZ7UKM3-SApkFBCob25VZFNV/exec";   // backend/Code.gs 的部署网址；空＝只给「保存」
+let sid = (new URLSearchParams(location.search).get("s") || "").trim();   // 旧链接 ?s=V0158 还能直接进
+let script = null, cur = 0, loadErr = "";
+let lib = [], assignedIds = null, backendMeta = {}, mineText = "", mineMsg = "", camErr = "";
+let speedIdx = store.get("speed", 1);
+const takes = [];                                 // takes[i] = { blob, url, raw, rot, landscape, up: ""|"busy"|"done"|"fail", msg }
+let view = profile ? "scripts" : "login";        // login | scripts | mine | prep | shot | overview
+let cheerIdx = 0;
+
 function parseHandle(link) {
   const m = String(link).trim().match(/(?:tiktok\.com\/@|instagram\.com\/|^@)([A-Za-z0-9._]+)/i);
   return m ? m[1].replace(/\.$/, "") : "";
 }
-let cur = store.get("cur_" + sid, 0);           // 当前段下标；= shots.length 表示总览
-const takes = [];                                 // takes[i] = { blob, url, saved, msg, rot }
-let speedIdx = store.get("speed", 1);          // 默认 0.85 档（每秒约 3 词），她试过 3.5 偏快
-let camErr = "";                                   // 摄像头打不开的原因，显示在卡片上
-const inApp = /FBAN|FBAV|Instagram|Line\/|MicroMessenger|Lark|WhatsApp|TikTok|Musical/i.test(navigator.userAgent) || !navigator.mediaDevices?.getUserMedia;
 
 // 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新，回来都还在
 const DB = { name: "rekam", store: "takes" };
@@ -210,25 +259,27 @@ function dbOpen() {
 async function dbPut(i, v) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).put(v, `${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
 async function dbDel(i) { try { const d = await dbOpen(); const tx = d.transaction(DB.store, "readwrite"); tx.objectStore(DB.store).delete(`${sid}:${i}`); await new Promise(r => tx.oncomplete = r); } catch (e) {} }
 async function dbLoad() {
+  takes.length = 0;
   try { const d = await dbOpen(); const st = d.transaction(DB.store).objectStore(DB.store);
     const keys = await new Promise(r => { const q = st.getAllKeys(); q.onsuccess = () => r(q.result); q.onerror = () => r([]); });
     for (const k of keys) { if (!String(k).startsWith(sid + ":")) continue; const i = +String(k).split(":")[1];
       const v = await new Promise(r => { const q = st.get(k); q.onsuccess = () => r(q.result); q.onerror = () => r(null); });
-      if (v?.blob) takes[i] = { blob: v.blob, url: URL.createObjectURL(v.blob), raw: v.raw || v.blob, rot: v.rot, landscape: v.landscape, saved: !!v.saved, msg: "" }; }
+      if (v?.blob) takes[i] = { blob: v.blob, url: URL.createObjectURL(v.blob), raw: v.raw || v.blob, rot: v.rot, landscape: v.landscape, up: v.up === "done" ? "done" : "", msg: "" }; }
   } catch (e) {}
 }
-const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, saved: tk.saved }); else dbDel(i); };
+const persist = i => { const tk = takes[i]; if (tk?.blob) dbPut(i, { blob: tk.blob, raw: tk.raw, rot: tk.rot, landscape: tk.landscape, up: tk.up }); else dbDel(i); };
 
-let lib = [], assignedIds = null, mineText = "", mineMsg = "";
-async function loadScript() {
-  if (!sid || sid === "mine") return;      // 选脚本页 / 自写脚本页，等名字填好再读
-  try { const r = await fetch(`scripts/${encodeURIComponent(sid)}.json`, { cache: "no-cache" }); if (!r.ok) throw 0; script = await r.json(); }
-  catch (e) { loadErr = t("loadFail"); }
-}
+// ===== 读脚本 =====
 async function loadLib() {
   try { lib = (await (await fetch("scripts/index.json", { cache: "no-cache" })).json()).scripts || []; } catch (e) { lib = []; }
-  if (UPLOAD_URL && name) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "assigned", who: name }))).json(); assignedIds = r.scripts || []; } catch (e) { assignedIds = []; } }
-  else assignedIds = [];
+  assignedIds = []; backendMeta = {};
+  if (UPLOAD_URL && name) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "assigned", who: name }))).json(); assignedIds = r.scripts || []; backendMeta = r.meta || {}; } catch (e) {} }
+}
+async function loadScript(id) {
+  script = null; loadErr = "";
+  try { const r = await fetch(`scripts/${encodeURIComponent(id)}.json`, { cache: "no-cache" }); if (r.ok) script = await r.json(); } catch (e) {}
+  if (!script && UPLOAD_URL) { try { const r = await (await fetch(UPLOAD_URL + "?" + new URLSearchParams({ action: "script", id }))).json(); if (r.ok) script = r.script; } catch (e) {} }
+  if (!script) loadErr = t("loadFail");
 }
 async function loadMine() {
   mineText = store.get("mine_" + name, "");
@@ -236,142 +287,169 @@ async function loadMine() {
 }
 function mineToScript(text) {
   const paras = text.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
-  return { id: "SELF", brand: "", product: { zh: t("selfName"), id: t("selfName") }, cam: "user",
+  return { id: "SELF", brand: "", product: { zh: t("mineTitle"), id: t("mineTitle") }, cam: "user",
     shots: paras.map((p, i) => ({ n: i + 1, sec: Math.max(3, Math.ceil(p.split(/\s+/).length / WPS) + 1), talk: true, face: null, do: { zh: "", id: "" }, lines: p })) };
 }
+async function openScript(id) {
+  sid = id;
+  if (id === "SELF") { script = mineToScript(mineText); }
+  else await loadScript(id);
+  if (!script) { render(); return; }
+  await dbLoad();
+  cur = store.get("cur_" + sid, 0); if (cur > script.shots.length) cur = 0;
+  const started = takes.some(x => x?.blob) || cur > 0;
+  go(started ? (cur >= script.shots.length ? "overview" : "shot") : (script.prep ? "prep" : "shot"));
+}
+
+// ===== 导航：每进一屏 pushState，手机的返回键和左上角 ← 都走 goBack =====
+function go(v, push = true) { view = v; if (push) history.pushState({ v, cur, sid }, ""); render(); }
+function goBack() {
+  if (view === "shot") { if (cur > 0) { cur--; store.set("cur_" + sid, cur); render(); } else go(script?.prep ? "prep" : "scripts", false); }
+  else if (view === "overview") { cur = script.shots.length - 1; store.set("cur_" + sid, cur); view = "shot"; render(); }
+  else if (view === "prep" || view === "mine") { go("scripts", false); }
+  else render();
+}
+window.addEventListener("popstate", () => { if (view === "login" || view === "scripts") { render(); return; } goBack(); });
+history.replaceState({ v: view }, "");
 
 // ===== 页面 =====
-function shell() {
+const topbar = (title, sub, back) => `<div class="topbar">
+  ${back ? `<button class="back" id="back" aria-label="${t("back")}">${backIcon}${t("back")}</button>` : ""}
+  <div class="ttl">${title}${sub ? `<small>${sub}</small>` : ""}</div>
+  <div class="lang" role="group" aria-label="Language"><button data-lang="id" aria-pressed="${lang === "id"}">ID</button><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button></div></div>`;
+function render() {
   document.documentElement.lang = lang;
-  const title = script ? (script.id === "SELF" ? esc(L(script.product)) : `${script.id} · ${esc(L(script.product))}`) : t("title");
-  const whoLine = profile ? [profile.handle ? "@" + profile.handle : "", profile.name].filter(Boolean).join(" · ") : "";
-  root.innerHTML = `
-  ${script && sid ? `<a class="crumb" href="${location.pathname}">← ${t("pickScript")}</a>` : ""}
-  <div class="top"><h1>${title}<small>${esc(whoLine)}</small></h1>
-    <div class="lang" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button><button data-lang="id" aria-pressed="${lang === "id"}">ID</button></div></div>
-  <section id="pane"></section>
-  ${profile ? `<button class="out" id="logout">${t("logout")}</button>` : ""}`;
-  const lo = $("#logout"); if (lo) lo.onclick = async () => {
+  const fn = { login: renderLogin, scripts: renderScripts, mine: renderMine, prep: renderPrep, shot: renderShot, overview: renderOverview }[view] || renderScripts;
+  root.innerHTML = `<div class="screen">${fn()}</div>`;
+  $$("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); render(); });
+  const bk = $("#back"); if (bk) bk.onclick = () => history.back();
+  bind();
+}
+function renderLogin() {
+  return `${topbar(t("appTitle"), "", false)}
+    <div class="mid center">
+      ${bubble(t("hiName"), "hi", true)}
+      <form class="card" id="nf">
+        <input class="inp" id="who" autocomplete="off" autocapitalize="none" placeholder="${esc(t("whoPh"))}">
+        <p class="err" id="nerr" hidden>${t("needOne")}</p>
+        <button class="big">${t("start")}</button>
+      </form>
+    </div>`;
+}
+function renderScripts() {
+  if (assignedIds === null) { loadLib().then(render); return `${topbar(t("yourScripts"), esc(name), false)}<div class="mid center">${bubble("…", "hi")}</div>`; }
+  const items = assignedIds.map(id => lib.find(x => x.id === id) || backendMeta[id] || { id, product: { zh: id, id } });
+  const prog = id => { const c = store.get("cur_" + id, 0); return c; };
+  return `${topbar(t("yourScripts"), esc(profile?.handle ? "@" + profile.handle : profile?.name || ""), false)}
+    <div class="mid">
+      ${bubble(items.length ? t("pickOne") : t("noScripts"), items.length ? "hi" : "wink")}
+      <div class="slist scroll">
+        ${items.map((x, k) => { const n = x.shots || (x.sec ? "" : ""); const c = prog(x.id);
+          return `<button class="sitem" data-open="${esc(x.id)}"><span class="num">${k + 1}</span><span class="t"><b>${esc(L(x.product))}</b><span>${esc(L(x.hook) || x.id)}${x.shots ? ` · ${t("bagian", x.shots)}` : ""}${x.sec ? ` · ${t("detik", x.sec)}` : ""}</span></span>
+            <span class="go ${c && x.shots && c >= x.shots ? "done" : ""}">${c && x.shots && c >= x.shots ? t("doneBtn") : c ? t("continueBtn") : t("record")}</span></button>`; }).join("")}
+        <button class="sitem" id="mine"><span class="num">✎</span><span class="t"><b>${t("writeOwn")}</b></span><span class="go" style="background:var(--dark)">${t("record")}</span></button>
+      </div>
+    </div>
+    <div class="foot"><button class="link" id="logout">${t("changeName")}</button></div>`;
+}
+function renderMine() {
+  return `${topbar(t("mineTitle"), "", true)}
+    <div class="mid">
+      ${bubble(t("mineHi"), "hi")}
+      <textarea class="inp ta" id="mt" placeholder="${esc(t("minePh"))}">${esc(mineText)}</textarea>
+      ${mineMsg ? `<p class="err">${esc(mineMsg)}</p>` : ""}
+    </div>
+    <div class="foot"><button class="big" id="msave">${t("mineSave")}</button></div>`;
+}
+function renderPrep() {
+  return `${topbar(t("prepTitle"), esc(L(script.product)), true)}
+    <div class="mid">
+      ${bubble(t("prepHi"), "go")}
+      <div class="card scroll" style="flex:1"><p style="margin:0;line-height:1.6;font-size:17px">${esc(L(script.prep))}</p></div>
+    </div>
+    <div class="foot"><button class="big" id="ready">${t("ready")}</button></div>`;
+}
+const prog = () => `<div class="prog">${script.shots.map((s, i) => `<i class="${takes[i]?.blob ? "ok" : ""} ${i === cur ? "cur" : ""}"></i>`).join("")}</div>`;
+function renderShot() {
+  const i = cur, s = script.shots[i], tk = takes[i], last = i + 1 >= script.shots.length;
+  const say = tk?.blob ? (last ? t("tookLast") : t("took")) : t("cheer")[cheerIdx % t("cheer").length];
+  return `${topbar(t("shotTitle", s.n, script.shots.length), esc(L(script.product)), true)}
+    ${prog()}
+    <div class="mid">
+      ${bubble(say, tk?.blob ? "yay" : "hi")}
+      <div class="card shot">
+        <div class="head"><span class="n">${s.n}</span><span class="s">${t("detik", s.sec)}</span></div>
+        ${tk?.blob ? `<video class="pv" src="${tk.url}" playsinline controls></video>${tk.msg ? `<p class="err">${esc(tk.msg)}</p>` : ""}${tk.landscape ? `<button class="big ghost" id="rot" style="min-height:48px;font-size:16px">${t("flip")}</button>` : ""}`
+        : `${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
+          ${L(s.do) ? `<div class="do"><b>${t("suggest")}</b><p>${esc(L(s.do))}</p></div>` : ""}
+          ${s.talk && s.lines ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines">${esc(s.lines)}</div></div>` : `<div class="lines none">${t("noLines")}</div>`}
+          ${tk?.msg && !tk.blob ? `<p class="${tk.err ? "err" : "tip"}">${esc(tk.msg)}</p>` : ""}
+          ${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}`}
+      </div>
+    </div>
+    <div class="foot">
+      ${tk?.blob ? `<div class="row2"><button class="big ghost" id="again">${t("again")}</button><button class="big" id="next">${last ? t("finish") : t("next")}</button></div>`
+      : `<button class="big" id="rec">${t("rec")}</button><button class="link pickbtn">${t("pick")}<input type="file" id="pick" accept="video/*"></button>`}
+    </div>`;
+}
+function renderOverview() {
+  const n = script.shots.length, have = takes.filter(x => x?.blob).length, missing = n - have, pending = todoUp();
+  const say = uploading ? t("ovHiSending") : missing ? t("ovHiMissing", missing) : pending ? t("ovHi") : t("ovHiDone");
+  return `${topbar(t("overview"), esc(L(script.product)), true)}
+    ${prog()}
+    <div class="mid">
+      ${bubble(say, uploading ? "go" : (!missing && !pending) ? "yay" : "hi")}
+      <div class="card scroll" style="flex:1;padding-block:4px">
+        <ul class="list">${script.shots.map((s, i) => { const tk = takes[i];
+          const st = !tk?.blob ? `<span class="st bad">${t("stMissing")}</span>` : tk.up === "done" ? `<span class="st ok">✓ ${t("stSent")}</span>` : tk.up === "busy" ? `<span class="st"><i class="spin"></i>${t("stSending")}</span>` : tk.up === "fail" ? `<span class="st bad">${t("stFail")}</span>` : `<span class="st"><i class="spin"></i>${t("stSending")}</span>`;
+          return `<li><span class="n">${s.n}</span><span class="t">${esc(s.lines ? s.lines.slice(0, 40) : L(s.do).slice(0, 40))}</span>${st}<button data-rd="${i}">${tk?.blob ? t("redo") : t("recordIt")}</button></li>`; }).join("")}</ul>
+      </div>
+    </div>
+    <div class="foot">
+      ${uploading ? `<button class="big" disabled>${esc(uploading)}</button>` : pending ? `<button class="big" id="upall">${t("sendAll", pending)}</button>` : have ? `<button class="big dark" disabled>${t("sentAll")}</button>` : ""}
+      <div class="row2">${have ? `<button class="link" id="saveall">${t("saveAll")}</button>` : "<span></span>"}<button class="link" id="clear">${t("clearAll")}</button></div>
+    </div>`;
+}
+function bind() {
+  const on = (id, fn) => { const b = $("#" + id); if (b) b.onclick = fn; };
+  const nf = $("#nf"); if (nf) nf.onsubmit = ev => { ev.preventDefault();
+    const raw = $("#who").value.trim(); if (!raw) { $("#nerr").hidden = false; return; }
+    const isLink = /tiktok\.com|instagram\.com|^@|^https?:/i.test(raw), handle = isLink ? parseHandle(raw) : "";
+    profile = { link: isLink ? raw : "", handle: handle || (isLink ? raw.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: isLink ? "" : raw };
+    name = profile.handle || profile.name; store.set("profile", profile); assignedIds = null; go("scripts", false); };
+  $$("[data-open]").forEach(b => b.onclick = () => openScript(b.dataset.open));
+  on("mine", async () => { await loadMine(); go("mine"); });
+  on("logout", async () => {
     if (!(await confirmBox(t("logoutSure"), t("yesLogout"), t("cancel")))) return;
-    profile = null; name = "";
-    try { localStorage.removeItem("profile"); localStorage.removeItem("name"); } catch (e) {}
+    profile = null; name = ""; store.del("profile");
     try { indexedDB.deleteDatabase(DB.name); } catch (e) {}
     try { Object.keys(localStorage).filter(k => /^(cur_|mine_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
-    takes.length = 0; location.search = "";
-  };
-  root.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); shell(); });
-  render();
-}
-function render() {
-  const el = $("#pane");
-  if (loadErr) { el.innerHTML = `<p class="err">${esc(loadErr)}</p>`; return; }
-  if (!profile) return renderName(el);
-  if (!sid) return renderPick(el);
-  if (sid === "mine" && !script) return renderMine(el);
-  if (cur >= script.shots.length) return renderOverview(el);
-  renderShot(el, cur);
-}
-function renderName(el) {
-  el.innerHTML = `<form class="card" id="nf">
-    <div class="n" style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:28px">${t("login")}</div>
-    <div class="lab">${t("who")}</div>
-    <input class="inp" id="lk" inputmode="url" autocomplete="off" autocapitalize="none" placeholder="tiktok.com/@…">
-    <div class="lab">${t("orName")}</div>
-    <input class="inp" id="nm" maxlength="30" autocomplete="off" placeholder="${esc(t("orName"))}">
-    <p class="err" id="nerr" hidden>${t("needOne")}</p>
-    <button class="solid">${t("ok")}</button></form>`;
-  $("#nf", el).onsubmit = ev => { ev.preventDefault();
-    const link = $("#lk", el).value.trim(), nm = $("#nm", el).value.trim(), handle = parseHandle(link);
-    if (!handle && !nm && !link) { $("#nerr", el).hidden = false; return; }
-    profile = { link, handle: handle || (link ? link.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: nm };
-    name = profile.handle || profile.name; store.set("profile", profile); shell(); };
-}
-function renderPick(el) {
-  if (assignedIds === null) { el.innerHTML = `<p class="tip">${t("loading")}</p>`; loadLib().then(render); return; }
-  const items = assignedIds.map(id => lib.find(x => x.id === id) || { id, product: { zh: id, id } });
-  el.innerHTML = `<div class="app"><div class="card"><div class="lab">${t("pickScript")}</div><p class="tip">${esc(assignedIds.length ? t("assignedTip") : t("libTip"))}</p>
-    ${assignedIds.length ? `<ul class="list">${items.map(x => `<li><span class="n">${esc(x.id.replace(/^[A-Z]0*/, ""))}</span><span class="t"><b>${esc(x.id)}</b> ${esc(L(x.product))}${x.shots ? ` · ${t("shots", x.shots)}` : ""}</span><button data-open="${esc(x.id)}">${t("ok")}</button></li>`).join("")}</ul>` : ""}</div>
-    <button class="sec" id="mine">${t("mine")}<small>${t("mineSub")}</small></button>
-    <button class="sec" id="chg">${t("changeName")}</button></div>`;
-  el.querySelectorAll("[data-open]").forEach(b => b.onclick = () => location.search = "?s=" + encodeURIComponent(b.dataset.open));
-  $("#mine", el).onclick = () => location.search = "?s=mine";
-  $("#chg", el).onclick = () => $("#logout")?.click();
-}
-function renderMine(el) {
-  if (mineText === "" && !el.dataset.loaded) { el.dataset.loaded = 1; loadMine().then(render); }
-  el.innerHTML = `<div class="app"><div class="card"><div class="lab">${t("mineTitle")}</div><p class="tip">${esc(t("mineTip"))}</p>
-    <textarea class="inp ta" id="mt" rows="12" placeholder="Halo semua…\n\nAku mau cerita…">${esc(mineText)}</textarea>
-    ${mineMsg ? `<p class="err">${esc(mineMsg)}</p>` : ""}
-    <button class="solid go" id="msave">${t("mineSave")}</button></div>
-    <button class="sec" id="back0">${t("back")}</button></div>`;
-  $("#mt", el).oninput = e => { mineText = e.target.value; };
-  $("#back0", el).onclick = () => location.search = "";
-  $("#msave", el).onclick = async () => {
+    takes.length = 0; assignedIds = null; go("login", false);
+  });
+  const mt = $("#mt"); if (mt) mt.oninput = e => { mineText = e.target.value; };
+  on("msave", async () => {
     const sc = mineToScript(mineText); if (!sc.shots.length) { mineMsg = t("mineEmpty"); render(); return; }
-    store.set("mine_" + name, mineText);
-    if (UPLOAD_URL) { try { await fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "myscript", who: name, content: JSON.stringify({ text: mineText, t: Date.now() }) }) }); } catch (e) {} }
-    script = sc; cur = store.get("cur_" + sid, 0); if (cur > sc.shots.length) cur = 0; await dbLoad(); shell();
-  };
-}
-function dots() {
-  return `<div class="dots">${script.shots.map((s, i) => `<button class="dot ${i === cur ? "cur" : ""} ${takes[i]?.blob ? "ok" : ""}" data-go="${i}" aria-label="${t("shot", s.n)}">${s.n}</button>`).join("")}</div>`;
-}
-function renderShot(el, i) {
-  const s = script.shots[i], tk = takes[i];
-  el.innerHTML = `<div class="app">
-    ${i === 0 && script.prep ? `<div class="card"><div class="lab">${t("prep")}</div><p>${esc(L(script.prep))}</p></div>` : ""}
-    ${dots()}
-    <div class="card shot">
-      <div class="n">${t("shot", s.n)}<span>${t("of", script.shots.length)} · ${t("sec", s.sec)}</span></div>
-      ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
-      ${L(s.do) ? `<div class="do"><b>${t("do_")}</b>${esc(L(s.do))}</div>` : ""}
-      ${s.talk && s.lines ? `<div class="lines">${esc(s.lines)}</div>` : `<div class="lines none">${t("noLines")}</div>`}
-    </div>
-    ${tk?.blob ? `<video class="pv" id="pv" src="${tk.url}" playsinline controls></video>
-      ${tk.msg ? `<p class="${tk.err ? "err" : "msg"}">${esc(tk.msg)}</p>` : ""}
-      ${tk.landscape ? `<button class="sec" id="rot">${t("flip")}</button>` : ""}
-      <div class="row"><button class="sec" id="again">${t("again")}</button><button class="solid" id="next">${i + 1 < script.shots.length ? t("next") : t("finish")}</button></div>`
-    : `${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}
-      <button class="main" id="rec">${t("rec")}${t("recSub") ? `<small>${t("recSub")}</small>` : ""}</button>
-      <button class="sec pickbtn">${t("pick")}${t("pickSub") ? `<small>${t("pickSub")}</small>` : ""}<input type="file" id="pick" accept="video/*"></button>`}
-    ${i > 0 ? `<button class="sec" id="back">${t("back")}</button>` : ""}
-  </div>`;
-  el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
-  const on = (id, fn) => { const b = $("#" + id, el); if (b) b.onclick = fn; };
-  on("rec", () => startRec(i));
-  on("again", () => { takes[i] = null; persist(i); render(); });
-  on("next", () => { cur = i + 1; store.set("cur_" + sid, cur); render(); });
-  on("back", () => { cur = i - 1; store.set("cur_" + sid, cur); render(); });
-  on("rot", () => rotateTake(i));
-  const pk = $("#pick", el);
-  if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(i, f, false); };
-}
-function renderOverview(el) {
-  const n = script.shots.length, have = takes.filter(x => x?.blob).length;
-  el.innerHTML = `<div class="app">
-    ${dots()}
-    <div class="card"><div class="lab">${t("done")}</div>
-      <ul class="list">${script.shots.map((s, i) => `<li><span class="n">${s.n}</span><span class="t">${esc(fileName(i))}${takes[i]?.msg ? ` · <span class="${takes[i].err ? "err" : "msg"}">${esc(takes[i].msg)}</span>` : ""}</span>
-        ${takes[i]?.blob ? `${takes[i].up === "done" ? `<span class="up ok">${t("uploaded")}</span>` : takes[i].up === "busy" ? `<span class="up">${esc(takes[i].upMsg)}</span>` : ""}<button data-rd="${i}">${t("redo")}</button>` : `<button data-rd="${i}">${t("missing")}</button>`}</li>`).join("")}</ul>
-      ${have && UPLOAD_URL ? (uploading ? `<button class="solid go" disabled>${esc(uploading)}</button>` : todoUp() ? `<button class="solid go" id="upall">${t("uploadAll", todoUp())}</button>` : `<p class="msg">${t("uploadedAll")}</p>`) : ""}
-      ${have ? `<button class="${UPLOAD_URL ? "sec" : "solid go"}" id="saveall">${t("saveAll", have)}</button>` : ""}
-    </div>
-    <button class="sec" id="clear">${t("clear")}</button>
-    </div>`;
-  el.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { cur = +b.dataset.go; store.set("cur_" + sid, cur); render(); });
-  el.querySelectorAll("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); render(); });
-  $("#clear", el).onclick = async () => { if (!(await confirmBox(t("clearSure"), t("yesClear"), t("cancel")))) return;
-    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); render(); };
-  el.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => saveTakes([+b.dataset.sv]));
-  const sa = $("#saveall", el); if (sa) sa.onclick = () => saveTakes(takes.map((x, i) => x?.blob && !x.saved ? i : -1).filter(i => i >= 0));
-  const ua = $("#upall", el); if (ua) ua.onclick = () => uploadTakes(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0));
+    mineMsg = ""; store.set("mine_" + name, mineText);
+    if (UPLOAD_URL) { try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "myscript", who: name, content: JSON.stringify({ text: mineText, t: Date.now() }) }) }); } catch (e) {} }
+    openScript("SELF");
+  });
+  on("ready", () => { cur = 0; store.set("cur_" + sid, 0); go("shot"); });
+  on("rec", () => startRec(cur));
+  on("again", () => { takes[cur] = null; persist(cur); render(); });
+  on("next", () => { cheerIdx++; cur++; store.set("cur_" + sid, cur); go(cur >= script.shots.length ? "overview" : "shot"); });
+  on("rot", () => rotateTake(cur));
+  const pk = $("#pick"); if (pk) pk.onchange = e => { const f = e.target.files[0]; if (f) finishTake(cur, f); };
+  $$("[data-rd]").forEach(b => b.onclick = () => { cur = +b.dataset.rd; takes[cur] = null; persist(cur); store.set("cur_" + sid, cur); view = "shot"; render(); });
+  on("clear", async () => { if (!(await confirmBox(t("clearSure"), t("yesClear"), t("cancel")))) return;
+    script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
+  on("saveall", () => saveTakes(takes.map((x, i) => x?.blob ? i : -1).filter(i => i >= 0)));
+  on("upall", () => uploadTakes(takes.map((x, i) => x?.blob && x.up !== "done" ? i : -1).filter(i => i >= 0), true));
 }
 const safe = s => String(s).replace(/[\\/:*?"<>|\s]/g, "_");
 const today = () => { const d = new Date(); return `${d.getMonth() + 1}.${d.getDate()}`; };
 const fileName = i => `${script.id}.${safe(name)}.${today()}.s${pad2(script.shots[i].n)}.mp4`;
 
 // ===== 录制 =====
-let media = null;
 function mime() {
   const c = ['video/mp4;codecs="avc1.640028,mp4a.40.2"', 'video/mp4;codecs="avc1.42E01E,mp4a.40.2"', "video/mp4", 'video/webm;codecs="vp9,opus"', "video/webm"];
   return c.find(x => window.MediaRecorder && MediaRecorder.isTypeSupported(x)) || "";
@@ -380,37 +458,33 @@ async function startRec(i) {
   const s = script.shots[i];
   const words = s.talk && s.lines ? s.lines.trim().split(/\s+/).length : 0;
   let front = (s.cam || script.cam || "user") === "user";
-  // 先全屏开摄像头让她摆位置，按红点才倒数开录
   const ov = document.createElement("div"); ov.className = "rec";
   ov.innerHTML = `<video autoplay muted playsinline class="${front ? "mirror" : ""}"></video>
-    ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div>` : ""}
-    <div class="recbar"><div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div>
-      ${words ? `<div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>` : ""}</div>
-    <div class="hint" id="hint" ${L(s.do) ? "" : "hidden"}>${esc(L(s.do))}</div>
+    <div class="rtop"><button class="rback" id="cancel">${backIcon}${t("cancelRec")}</button><div class="timer" id="timer" hidden><i></i><span id="tm">0.0</span></div></div>
+    ${words ? `<div class="prompt" id="prompt"><div class="txt" id="txt">${esc(s.lines)}</div></div><div class="spd"><button id="slow">${t("slow")}</button><button id="fast">${t("fast")}</button></div>`
+      : `<div class="silent">${cici("wink")}<div><div class="big1">${t("noLines")}</div>${L(s.do) ? `<div class="big2">${esc(L(s.do))}</div>` : ""}</div></div>`}
+    <div class="hint" id="hint" ${L(s.do) && words ? "" : "hidden"}>${esc(L(s.do))}</div>
     <div class="count" id="count" hidden></div>
     <div class="framing" id="framing">${t("preparing")}</div>
     <button class="shutter" id="shutter" aria-label="${t("recBtn")}"><span></span></button>
     <button class="stop" id="stop" hidden>${t("stop")}</button>
-    <button class="flipcam" id="flip">${t("flipCam")}</button>
-    <button class="cancel" id="cancel">${t("cancelRec")}</button>`;
+    <button class="flipcam" id="flip">${t("flipCam")}</button>`;
   document.body.appendChild(ov);
-  // 要横向尺寸（1920×1080）让 iOS 给最高档，再按手机竖着拿自动转；竖屏标记在存文件时补
+  let lock = null; try { lock = await navigator.wakeLock?.request("screen"); } catch (e) {}
   const open = () => navigator.mediaDevices.getUserMedia({ audio: true, video: { facingMode: front ? "user" : "environment", width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } });
   let stream;
-  try {
-    if (!navigator.mediaDevices?.getUserMedia) throw new Error("no mediaDevices");
-    stream = await open();
-  } catch (e) { ov.remove(); camErr = inApp ? "" : t("camErr", e?.name || e?.message || "?"); render(); return; }
+  try { if (!navigator.mediaDevices?.getUserMedia) throw new Error("no mediaDevices"); stream = await open(); }
+  catch (e) { ov.remove(); try { lock?.release(); } catch (x) {} camErr = inApp ? "" : t("camErr", e?.name || e?.message || "?"); render(); return; }
   camErr = "";
   const v = $("video", ov); v.srcObject = stream; v.play().catch(() => {});
-  $("#flip", ov).onclick = async () => {   // 开录前可以换前后摄像头
+  $("#flip", ov).onclick = async () => {
     try { const ns = await (front = !front, open()); stream.getTracks().forEach(x => x.stop()); stream = ns; v.srcObject = ns; v.classList.toggle("mirror", front); v.play().catch(() => {}); }
     catch (e) { front = !front; }
   };
   $("#framing", ov).textContent = t("framing");
   let rec = null, chunks = [], raf = 0, t0 = 0, paused = false, pausedAt = 0, scrollDur = 0, dist = 0, cancelled = false, guard = 0;
   const txt = $("#txt", ov), prompt = $("#prompt", ov);
-  const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); stream.getTracks().forEach(x => x.stop()); ov.remove(); };
+  const cleanup = () => { cancelAnimationFrame(raf); clearInterval(guard); stream.getTracks().forEach(x => x.stop()); ov.remove(); try { lock?.release(); } catch (e) {} };
   $("#cancel", ov).onclick = () => { cancelled = true; if (rec && rec.state !== "inactive") rec.stop(); else cleanup(); };
   const setSpeed = d => { speedIdx = Math.max(0, Math.min(SPEEDS.length - 1, speedIdx + d)); store.set("speed", speedIdx); scrollDur = words / (WPS * SPEEDS[speedIdx]); };
   if (words) { $("#slow", ov).onclick = () => setSpeed(-1); $("#fast", ov).onclick = () => setSpeed(1);
@@ -423,25 +497,16 @@ async function startRec(i) {
     try { rec = new MediaRecorder(stream, Object.assign({ videoBitsPerSecond: 12e6, audioBitsPerSecond: 128e3 }, mime() ? { mimeType: mime() } : {})); }
     catch (e) { rec = new MediaRecorder(stream); }
     rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
-    rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b, true); };
+    rec.onstop = () => { const b = new Blob(chunks, { type: rec.mimeType || "video/mp4" }); cleanup(); if (!cancelled) finishTake(i, b); };
     rec.start(500);
     $("#timer", ov).hidden = false; $("#stop", ov).hidden = false; $("#stop", ov).onclick = () => rec.state !== "inactive" && rec.stop();
     t0 = performance.now();
-    // 台词从顶上开始显示，只往上滚到最后一行露出来为止；一屏放得下就不动
     if (words) { setSpeed(0); dist = Math.max(0, txt.offsetHeight - prompt.clientHeight + 24); txt.style.transform = "translateY(0px)"; }
-    // 什么时候停由达人自己按红色「停」；台词滚到底就停在那里。只留 5 分钟保险
     const elapsed = () => (performance.now() - (paused ? pausedAt : 0) - t0) / 1000;
-    const shouldStop = el => el > 300;
-    const tick = () => {
-      const el = elapsed();
-      $("#tm", ov).textContent = el.toFixed(1);
-      if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${-p * dist}px)`; }
-      raf = requestAnimationFrame(tick);
-    };
+    const tick = () => { const el = elapsed(); $("#tm", ov).textContent = el.toFixed(1);
+      if (words) { const p = Math.min(1, el / scrollDur); txt.style.transform = `translateY(${-p * dist}px)`; } raf = requestAnimationFrame(tick); };
     raf = requestAnimationFrame(tick);
-    // 停录单独用计时器查：画面刷新被系统暂停（切 App、截图）时 rAF 会停，计时器照常走
-    guard = setInterval(() => { const el = elapsed(); if (rec.state === "inactive") { clearInterval(guard); return; }
-      if (!paused && shouldStop(el)) { clearInterval(guard); rec.stop(); } }, 250);
+    guard = setInterval(() => { if (rec.state === "inactive") { clearInterval(guard); return; } if (!paused && elapsed() > 300) { clearInterval(guard); rec.stop(); } }, 250);   // 只留 5 分钟保险
   };
 }
 
@@ -454,7 +519,6 @@ async function normalize(blob, title, forceRot) {
   const vt = await input.getPrimaryVideoTrack(); if (!vt) throw new Error("no video");
   const at = await input.getPrimaryAudioTrack();
   const rot = await vt.getRotation(), w = await vt.getCodedWidth(), h = await vt.getCodedHeight();
-  // iOS 26.6 录前置竖屏文件缺旋转标记（画面是横放的 1920×1080）：手机竖着拿时补 90
   const portrait = window.innerHeight >= window.innerWidth;
   let fix = forceRot ?? (rot === 0 && w > h && portrait ? 90 : rot);
   const output = new M.Output({ format: new M.Mp4OutputFormat({ fastStart: "in-memory" }), target: new M.BufferTarget() });
@@ -468,61 +532,62 @@ async function normalize(blob, title, forceRot) {
   await output.finalize();
   return { blob: new Blob([output.target.buffer], { type: "video/mp4" }), landscape: fix === 0 && w > h, rot: fix };
 }
-async function finishTake(i, blob, recorded) {
+async function finishTake(i, blob) {
   takes[i] = { blob: null, msg: t("processing") }; render();
-  try {
-    const r = await normalize(blob, fileName(i).replace(/\.mp4$/, ""));
-    takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, msg: "" };
-  } catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, msg: "" }; }
+  try { const r = await normalize(blob, fileName(i).replace(/\.mp4$/, "")); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: r.landscape, rot: r.rot, raw: blob, up: "", msg: "" }; }
+  catch (e) { takes[i] = { blob, url: URL.createObjectURL(blob), raw: blob, up: "", msg: "" }; }
   persist(i); render();
+  uploadTakes([i], false);   // 录完就悄悄开始传，她录下一段的时候这段已经在路上；总览只补没传完的
 }
 async function rotateTake(i) {
   const tk = takes[i]; const next = (tk.rot + 90) % 360 || 90;
   takes[i] = { blob: null, msg: t("processing") }; render();
-  try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, msg: "" }; }
+  try { const r = await normalize(tk.raw, fileName(i).replace(/\.mp4$/, ""), next); takes[i] = { blob: r.blob, url: URL.createObjectURL(r.blob), landscape: true, rot: next, raw: tk.raw, up: "", msg: "" }; }
   catch (e) { takes[i] = tk; }
   persist(i); render();
+  uploadTakes([i], false);
 }
 async function saveTakes(idx) {
   const fl = idx.map(i => new File([takes[i].blob], fileName(i), { type: "video/mp4" }));
   try {
     if (mobile && navigator.canShare && navigator.canShare({ files: fl })) await navigator.share({ files: fl });
     else for (const f of fl) { const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 300)); }
-    idx.forEach(i => { takes[i].saved = true; takes[i].msg = ""; persist(i); });
-  } catch (e) { if (e?.name !== "AbortError") idx.forEach(i => takes[i].msg = t("saveFail") + (e?.message || e)); }
+  } catch (e) {}
   render();
 }
-// 传到我们的 Drive：Apps Script 收，按人建文件夹。每段单独一个请求，base64 发，35MB 以内（12Mbps 的 1080p 约 20 秒）
-let uploading = "";
+// ===== 传到我们的 Drive：Apps Script 收，按人建文件夹。一次一段排队传；页面在前台才会走（Safari 切后台就暂停，回来再按只补没传的） =====
+let uploading = "", queue = [], pumping = false;
 const todoUp = () => takes.filter(x => x?.blob && x.up !== "done").length;
 const b64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result.split(",")[1]); r.onerror = rej; r.readAsDataURL(blob); });
-async function uploadTakes(idx) {
+function uploadTakes(idx, loud) {
+  if (!UPLOAD_URL) return;
+  idx.forEach(i => { if (takes[i]?.blob && takes[i].up !== "done" && !queue.includes(i)) { queue.push(i); takes[i].up = "busy"; } });
+  if (loud) uploading = t("sending", 1, queue.length);
+  render(); pump();
+}
+async function pump() {
+  if (pumping) return; pumping = true;
   let lock = null; try { lock = await navigator.wakeLock?.request("screen"); } catch (e) {}
-  let k = 0;
-  for (const i of idx) {
-    const tk = takes[i]; if (!tk?.blob) continue;
-    k++; uploading = t("uploadingAll", k, idx.length);
-    tk.up = "busy"; tk.upMsg = t("uploading", 0); render();
+  const total = queue.length; let k = 0;
+  while (queue.length) {
+    const i = queue[0]; const tk = takes[i];
+    if (!tk?.blob) { queue.shift(); continue; }
+    k++; if (uploading) { uploading = t("sending", k, Math.max(total, k)); render(); }
     try {
-      const body = JSON.stringify({ action: "upload", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, shot: script.shots[i].n,
-        filename: fileName(i), mime: "video/mp4", lang, data: await b64(tk.blob) });
-      tk.upMsg = t("uploading", 50); render();
-      const r = await fetch(UPLOAD_URL, { method: "POST", body });
-      const j = await r.json();
+      const body = JSON.stringify({ action: "upload", who: name, handle: profile.handle, link: profile.link, nick: profile.name, script: script.id, shot: script.shots[i].n, filename: fileName(i), mime: "video/mp4", lang, data: await b64(tk.blob) });
+      const r = await fetch(UPLOAD_URL, { method: "POST", body }); const j = await r.json();
       if (!j.ok) throw new Error(j.error || "server");
-      tk.up = "done"; tk.upMsg = ""; tk.saved = true; persist(i);
-    } catch (e) { tk.up = ""; tk.upMsg = ""; tk.msg = t("uploadFail") + (e?.message || e); }
-    render();
+      tk.up = "done"; tk.msg = "";
+    } catch (e) { tk.up = "fail"; }
+    persist(i); queue.shift(); render();
   }
-  uploading = ""; try { lock?.release(); } catch (e) {}
+  uploading = ""; pumping = false; try { lock?.release(); } catch (e) {}
   render();
 }
 window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
 
-await loadScript();
-if (script) await dbLoad();
-if (sid === "mine" && profile) { await loadMine(); if (mineText.trim()) { script = mineToScript(mineText); cur = store.get("cur_" + sid, 0); if (cur > script.shots.length) cur = 0; await dbLoad(); } }
-shell();
+// ===== 启动 =====
+if (profile && sid) await openScript(sid); else render();
 </script>
 </body>
 </html>
