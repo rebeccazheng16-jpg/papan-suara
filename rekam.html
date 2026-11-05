@@ -940,7 +940,7 @@ async function pollReshoots() {
     const fresh = lastRs.filter(k => !before.includes(k));
     if (lastRs.join() === before.join()) return;
     reshoots = r.reshoots || []; assignedIds = r.scripts || assignedIds; mineIds = r.mine || mineIds; backendMeta = r.meta || backendMeta;
-    if (fresh.length) { newReshoot = true; try { navigator.vibrate?.([120, 80, 120]); } catch (e) {} }
+    if (fresh.length) newReshoot = true;
     if (!editing && view !== "mine") render();
   } catch (e) {}
 }
