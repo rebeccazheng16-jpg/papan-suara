@@ -93,6 +93,11 @@ button:disabled{cursor:default}
 .do p{margin:0;color:var(--ink)}
 .lines-row{display:flex;align-items:flex-start;gap:8px}
 .lines{flex:1;font-size:20px;line-height:1.45;font-weight:600;border-left:4px solid var(--red);padding-left:12px}
+/* 分镜页的提词预览：和摄像头页一样的滚动框，字号/速度一动就实时看到 */
+.pvp{flex:1;min-width:0;height:min(30vh,210px);overflow:hidden;border-left:4px solid var(--red);padding-left:12px;
+  -webkit-mask-image:linear-gradient(transparent 0,#000 8%,#000 85%,transparent 100%);mask-image:linear-gradient(transparent 0,#000 8%,#000 85%,transparent 100%)}
+.pvp.edited{border-color:var(--dark)}
+.pvp .lines{border:0;padding:0;will-change:transform}
 .lines.none{color:var(--mute);font-weight:400;font-size:16px;border-color:var(--line)}
 .lines.edited{border-color:var(--dark)}
 .pen{flex:none;border:1.5px solid var(--line);background:var(--card);border-radius:10px;min-width:44px;min-height:44px;font-size:18px}
@@ -222,7 +227,7 @@ const I18N = {
     cheer: ["Santai aja, kayak ngobrol sama temen.", "Selama rekam, brand nggak bisa lihat videomu. Tenang aja ya.", "Nggak harus persis. Yang penting natural.", "Kalau salah, tinggal ulang. Gampang!", "Senyum dikit, kamu udah keren kok.", "Habis selesai semua, bisa kamu simpan dulu buat dipercantik."],
     took: "Keren! Mau lihat dulu, atau langsung lanjut?", tookLast: "Semua bagian udah ada! Yuk lihat semuanya.",
     reshootTag: n => `Perlu diulang: bagian ${n}`, reshootHi: "Ada bagian yang perlu diulang. Buka naskahnya, catatannya ada di sana.", reshootNote: "PERLU DIULANG", reshootTip: "Rekam ulang bagian ini aja, bagian lain nggak usah.", redoThis: "Rekam ulang bagian ini", afterRedo: "Udah direkam ulang! Simpan dulu buat dipercantik, edit di aplikasimu, lalu balik ke sini kirim bagian ini.", saveOne: "Simpan bagian ini buat dipercantik", saveOneSub: "Cuma bagian ini, masuk ke galeri", sendOne: n => `Kirim bagian ${n} (sudah diedit)`, sendOneSub: "Pilih video hasil editan dari galeri", reshootDone: "Bagian ini udah sampai. Makasih ya!", oneSending: p => `Mengirim bagian ini… ${p}%`, oneFail: "Terputus. Pilih lagi video yang sama, aku lanjutkan.",
-    tpTitle: "Teks berjalan", speed: "Kecepatan", fontSize: "Ukuran huruf", productLab: "Produknya kayak gini",
+    tpTitle: "Teks berjalan", tpPreview: "pratinjau teks berjalan", speed: "Kecepatan", fontSize: "Ukuran huruf", productLab: "Produknya kayak gini",
     history: "Rekaman kamu", histTakes: n => `${n} bagian terekam`, histFinal: "video editan", histSent: "terkirim ✓", histNotSent: "belum dikirim", histTip: "Ketuk video buat lihat.",
     newReshoot: "Ada bagian baru yang perlu diulang!", rsJump: n => `Perlu diulang: bagian ${n} →`,
     stop: "STOP", cancelRec: "Batal", tapPause: "Ketuk untuk jeda", framing: "Atur posisi, lalu ketuk tombol merah", recBtn: "REKAM", preparing: "Membuka kamera…", flipCam: "Ganti kamera", hideText: "Sembunyikan teks", showText: "Tampilkan teks",
@@ -252,7 +257,7 @@ const I18N = {
     cheer: ["放松点，像跟朋友聊天。", "录制过程品牌看不到你的视频，放心。", "不用一模一样，自然最重要。", "错了就重录，很简单。", "笑一笑，你已经很棒了。", "全部录完可以先存下来去美颜。"],
     took: "很好！先看看，还是直接下一段？", tookLast: "全部都有了！去看看全部吧。",
     reshootTag: n => `要补拍：第 ${n} 段`, reshootHi: "有一段要补拍。打开那本脚本，备注写在里面。", reshootNote: "要补拍", reshootTip: "只重录这一段，其他段不用动。", redoThis: "重录这一段", afterRedo: "重录好了！先存去美颜，在你的 App 里修完，回来传这一段。", saveOne: "存这一段去美颜", saveOneSub: "只存这一段，进相册", sendOne: n => `传第 ${n} 段（修好的）`, sendOneSub: "从相册选修好的视频", reshootDone: "这一段补好了，谢谢！", oneSending: p => `正在传这一段… ${p}%`, oneFail: "断了。再选一次同一个视频，我接着传。",
-    tpTitle: "提词", speed: "速度", fontSize: "字号", productLab: "产品长这样",
+    tpTitle: "提词", tpPreview: "提词预览", speed: "速度", fontSize: "字号", productLab: "产品长这样",
     history: "你拍过的", histTakes: n => `已录 ${n} 段`, histFinal: "成片", histSent: "已传 ✓", histNotSent: "还没传", histTip: "点视频可以看。",
     newReshoot: "有新的补拍要求！", rsJump: n => `要补拍：第 ${n} 段 →`,
     stop: "停", cancelRec: "取消", tapPause: "点一下暂停", framing: "摆好位置，按红点开始", recBtn: "录", preparing: "正在打开摄像头…", flipCam: "换摄像头", hideText: "隐藏提词", showText: "显示提词",
@@ -558,7 +563,7 @@ function renderShot() {
         : `${s.broll ? `<div class="face">${esc(t("broll"))}</div>` : ""}
           ${s.face && L(s.face) ? `<div class="face"><b>${t("face")}</b>${esc(L(s.face))}</div>` : ""}
           ${L(s.do) ? `<div class="do"><b>${t("suggest")}</b><p>${esc(L(s.do))}</p></div>` : ""}
-          ${s.talk !== false && (ln || s.lines) ? `<div><span class="lines-lab">${t("lines")}</span><div class="lines-row"><div class="lines ${isEdited(i) ? "edited" : ""}">${esc(ln)}</div><button class="pen" id="editbtn" aria-label="${t("editLines")}">✎</button></div></div>${tpPanel(false)}` : `<div class="lines none">${t("noLines")}</div>`}
+          ${s.talk !== false && (ln || s.lines) ? `<div><span class="lines-lab">${t("lines")} · ${t("tpPreview")}</span><div class="lines-row"><div class="pvp ${isEdited(i) ? "edited" : ""}" id="pvp"><div class="lines" id="pvt" style="font-size:${FONTS[fontIdx]}px">${esc(ln)}</div></div><button class="pen" id="editbtn" aria-label="${t("editLines")}">✎</button></div></div>${tpPanel(false)}` : `<div class="lines none">${t("noLines")}</div>`}
           ${tk?.msg && !tk.blob ? `<p class="${tk.err ? "err" : "tip"}">${esc(tk.msg)}</p>` : ""}
           ${camErr ? `<p class="err">${esc(camErr)}</p>` : ""}${inApp ? `<p class="err">${esc(t("inApp"))}</p>` : ""}`}
       </div>
@@ -636,7 +641,8 @@ function bind() {
   on("redo1", () => { takes[cur] = null; persist(cur); render(); });
   on("saveone", () => saveOne(cur));
   on("rsjump", () => { cur = +$("#rsjump").dataset.i; store.set("cur_" + sid, cur); editing = false; render(); });
-  const tp = $("#tp"); if (tp) bindTp(tp);
+  const tp = $("#tp"); if (tp) bindTp(tp, startPreview);
+  startPreview();
   $$("[data-play]").forEach(v => { v.onclick = () => { v.muted = false; v.controls = true; if (v.webkitEnterFullscreen) v.webkitEnterFullscreen(); else if (v.requestFullscreen) v.requestFullscreen(); v.play().catch(() => {}); };
     v.addEventListener("webkitendfullscreen", () => { v.pause(); v.muted = true; v.controls = false; }); });
   const ps = $("#pickseg"); if (ps) ps.onchange = e => { const f = e.target.files[0]; if (f) uploadSegFile(cur, f); };
@@ -656,6 +662,22 @@ function bind() {
 function tpPanel(dark) {
   return `<div class="tp ${dark ? "dark" : ""}" id="tp"><div class="tp-row"><span>${t("speed")}</span><input type="range" id="spd" min="0" max="${SPEEDS.length - 1}" step="1" value="${speedIdx}" aria-label="${t("speed")}"><b id="spdv">${SPEEDS[speedIdx]}×</b></div>
     <div class="tp-row"><span>${t("fontSize")}</span><input type="range" id="fnt" min="0" max="${FONTS.length - 1}" step="1" value="${fontIdx}" aria-label="${t("fontSize")}"><b id="fntv" style="font-size:${FONTS[fontIdx]}px">${FONTS[fontIdx]}</b></div></div>`;
+}
+// 分镜页提词预览：按当前字号/速度把台词滚一遍，停 1.2 秒再来；滑块一动立刻重来
+let pvToken = 0;
+function startPreview() {
+  const my = ++pvToken;
+  const box = $("#pvp"), txt = $("#pvt"); if (!box || !txt) return;
+  const words = txt.textContent.trim().split(/\s+/).filter(Boolean).length || 1;
+  const run = () => {
+    if (my !== pvToken || !document.contains(txt)) return;
+    txt.style.fontSize = FONTS[fontIdx] + "px"; txt.style.transform = "translateY(0px)";
+    const dist = Math.max(0, txt.offsetHeight - box.clientHeight + 8), dur = words / (WPS * SPEEDS[speedIdx]) * 1000, t0 = performance.now();
+    const tick = () => { if (my !== pvToken) return; const p = Math.min(1, (performance.now() - t0) / dur); txt.style.transform = `translateY(${-p * dist}px)`;
+      if (p < 1) requestAnimationFrame(tick); else setTimeout(run, 1200); };
+    requestAnimationFrame(tick);
+  };
+  run();
 }
 function bindTp(el, onChange) {
   const s = $("#spd", el), f = $("#fnt", el);
