@@ -1,0 +1,111 @@
+{
+ "id": "V0094",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光霜 Bling Bling Cream",
+  "id": "Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "我的皮肤以前又干又暗，现在是玻璃肌！",
+  "id": "Dulu kulitku kusam dan kering, sekarang jadi glass skin!"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在卧室或梳妆台前，确保光线柔和均匀照亮脸部。准备好产品，盖子盖好，标签朝向镜头。穿休闲家居服。手机放在面前，脸部占据画面一半。",
+  "id": "Di kamar tidur atau meja rias, pastikan cahaya lembut dan merata di wajah. Siapkan produk dengan tutup terpasang dan label menghadap kamera. Pakai baju santai. Pegang HP di depanmu, wajahmu sekitar setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用前置摄像头自拍特写，手持，轻微晃动。脸上没有化妆，皮肤暗沉，有黑眼圈、细纹、法令纹、泛红和小斑点。平静地看着镜头，头稍微倾斜。嘴唇闭着，画外音说：",
+    "id": "Ambil selfie close-up dengan kamera depan, pegang HP dengan sedikit goyang. Wajahmu tanpa makeup, kulit kusam, ada lingkaran hitam, garis halus, kerutan, kemerahan, dan bintik kecil. Lihat ke kamera dengan tenang, miringkan kepala sedikit. Bibir tertutup, voiceover bilang:"
+   },
+   "lines": "Guys, ini muka aku dulu. Kulitku itu kering banget, tiap foto wajib nyalain beauty filter. Ini muka aku sekarang. Beda dikit, kan?"
+  },
+  {
+   "n": 2,
+   "sec": 15,
+   "talk": true,
+   "face": {
+    "zh": "面膜和黑框眼镜",
+    "id": "masker lembar dan kacamata hitam"
+   },
+   "do": {
+    "zh": "躺在床上，用前置摄像头自拍超近景，脸部充满画面。脸上敷着面膜，戴着黑框眼镜，表情夸张、活泼。从一开始就对着镜头说话，眼睛经常盯着镜头，每次强调时眉毛都会收缩。大约在第二秒，一只手在下巴下方轻轻挥动。用夸张、热情、快速、清晰的语气说：然后摇两次头，举起右食指做出“一”的手势，向镜头戳三次，一次比一次快，同时说：大约在第九秒，她看向画面右上角，好像在思考，左手抚摸头发一次，同时说：大约在第十一秒，她的目光回到镜头，逐字逐句地说下一句话，强调“但是”、“我告诉”、“你们”和“大错特错”：每次强调时，伸直的右食指都会沿着镜头轴线伸向摄像头，直到指尖几乎碰到镜头，指纹可见，边缘模糊，然后迅速回到脸旁。动作只在深度上发生，不会向下砍。在脸旁时手指是一个小点；完全伸展时它会占据大部分画面。第一次戳最直最用力，第二次稍微收回，第三次稍微向左偏，第四次最重最慢。她一直躺在床上。",
+    "id": "Berbaring di tempat tidur, ambil selfie ultra-close-up dengan kamera depan, wajahmu memenuhi bingkai. Pakai masker lembar dan kacamata berbingkai hitam, ekspresimu berlebihan dan energik. Dari awal, bicaralah langsung ke kamera, matamu sering menatapnya, alismu mengerut setiap kali menekankan. Sekitar detik kedua, satu tangan melambai ringan di bawah dagumu. Dengan nada yang berlebihan, antusias, cepat, dan jelas, katakan: Lalu gelengkan kepala dua kali, angkat jari telunjuk kananmu membentuk isyarat 'satu' dan tusuk ke arah lensa tiga kali, masing-masing lebih cepat dari sebelumnya, sambil berkata: Sekitar detik kesembilan, dia melihat ke kanan atas di luar bingkai seolah sedang berpikir dan tangan kirinya mengelus rambutnya sekali, sambil berkata: Sekitar detik kesebelas, tatapannya kembali ke lensa dan dia mengucapkan kalimat berikutnya kata demi kata, dengan empat penekanan pada 'Tapi', 'aku kasih tahu', 'kalian', dan 'salah besar': Pada setiap penekanan, jari telunjuk kanannya yang lurus bergerak jauh sepanjang sumbu lensa ke arah kamera hingga ujung jari hampir menyentuh lensa, sidik jarinya terlihat dan tepinya buram di luar kedalaman bidang, lalu kembali ke samping wajahnya; gerakan hanya terjadi dalam kedalaman, tidak pernah memotong ke bawah. Di samping wajahnya, jari itu adalah titik kecil; saat direntangkan penuh, jari itu memenuhi sebagian besar bingkai. Tusukan pertama paling lurus dan keras, yang kedua sedikit menarik, yang ketiga sedikit melenceng ke kiri, yang keempat paling berat dan paling lambat. Dia tetap berbaring di tempat tidur sepanjang waktu."
+   },
+   "lines": "Aku tuh nggak pakai krim yang mahal-mahal, nggak pakai serum mahal juga, dan nggak pernah treatment di klinik. Aku cuma pakai satu benda, yang kalian pasti nggak nyangka: cuma satu Bling Bling Cream! Mungkin kalian mikir ini cuma efek sesaat doang. Tapi aku kasih tahu ya, kalian salah besar!"
+  },
+  {
+   "n": 3,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "面膜和黑框眼镜",
+    "id": "masker lembar dan kacamata hitam"
+   },
+   "do": {
+    "zh": "躺在床上，用前置摄像头自拍超近景，脸部充满画面。脸上敷着面膜，戴着黑框眼镜，表情夸张、充满活力。举起右拳与脸平齐，在三次强调时，向下推拳头三次，一次比一次用力，拳头始终在画面内。用夸张、热情、快速、清晰的语气说：大约在第二秒，她举起食指做出“一”的手势，向镜头轻敲一次，然后张开手掌，手心朝向镜头，非常快地从身体一侧向另一侧滑动，中途停下，就像一个未完成的拒绝手势，同时说：大约在第五秒，她放下手，自然地对着镜头说话，手只在下巴下方做小动作，不指点，眼睛盯着镜头，同时说：她一直躺在床上。",
+    "id": "Berbaring di tempat tidur, ambil selfie ultra-close-up dengan kamera depan, wajahmu memenuhi bingkai. Pakai masker lembar dan kacamata berbingkai hitam, dengan ekspresi berlebihan dan energik. Angkat tangan kananmu mengepal setinggi wajah dan, pada tiga penekanan, dorong kepalan tangan ke bawah tiga kali, masing-masing lebih keras dan lebih rendah dari sebelumnya, kepalan tangan tidak pernah meninggalkan bingkai. Dengan nada yang berlebihan, antusias, cepat, dan jelas, katakan: Sekitar detik kedua, dia mengangkat jari telunjuknya membentuk 'satu' dan mengetuknya sekali ke arah lensa, lalu membuka tangannya dan menggesekkan telapak tangannya, menghadap lensa, sangat cepat dari satu sisi tubuhnya ke sisi lain, berhenti di tengah jalan seperti gelombang penolakan yang setengah jadi, sambil berkata: Sekitar detik kelima, dia menurunkan tangannya dan berbicara secara alami ke lensa, tangannya hanya membuat gerakan kecil di bawah dagunya tanpa menunjuk, matanya terkunci pada lensa, dan dia berkata: Dia tetap berbaring di tempat tidur sepanjang waktu."
+   },
+   "lines": "Ini tuh bagus banget banget banget! Pokoknya semua orang harus beli Bling Bling Cream ini, ya? Aku udah lama banget posting ini di sini, dan sekarang udah banyak yang beli. Makanya aku sengaja bikin video buat ngajarin cara pakainya yang bener."
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "在浴室里特写。脸上涂满白色洁面泡沫，用手在脸颊上打圈，然后弯腰，用水泼脸，泡沫洗掉；她直起身，干净的皮肤上沾着水珠，看起来有点暗沉。嘴唇闭着，画外音用耐心、一步一步教学的语气，快速清晰地说：然后切换到正面特写，背景是柔和的室内环境。她将乳液从产品管口挤出短线到指尖，产品正面“VEIRFOO”朝向镜头，然后点涂并涂抹在双颊、额头、鼻梁和下巴，只留下眼周区域，沿着皮肤向外推开，边缘自然不均匀。嘴唇闭着，画外音说：然后切换到脸颊特写。乳液迅速在皮肤上变成透明水膜，白色痕迹瞬间消失，区域从暗沉变得高度反光和湿润，没有搓泥和白色残留；她用指尖轻拍脸颊，皮肤凹陷并弹回。嘴唇闭着，画外音说：然后切换回正面特写。指尖沾一点白色防晒霜，她均匀地、一点一点地从中心向外拍打在已经吸收的皮肤上，皮肤保持水润反光；没有出现防晒霜瓶或管。",
+    "id": "Close-up di kamar mandi. Wajahmu penuh busa pembersih putih, lingkari pipimu dengan tangan, lalu membungkuk, percikkan air ke wajahmu, dan busa terbilas; kamu berdiri tegak dengan tetesan air di kulit bersih yang terlihat sedikit kusam. Bibir tertutup, voiceover dengan nada mengajar yang sabar, langkah demi langkah, cepat dan jelas, berkata: Lalu beralih ke close-up frontal dengan latar belakang interior yang lembut. Dia memencet sedikit losion putih susu yang mengkilap dan buram dari ujung tabung produk ke bantalan jarinya, bagian depan tabung dengan tulisan 'VEIRFOO' menghadap kamera, lalu menepuk dan meratakannya ke kedua pipi, dahi, batang hidung, dan dagu, hanya menyisakan area mata, mendorong keluar sepanjang kulit dengan tepi yang tidak rata dan diaplikasikan secara alami dengan tangan. Bibir tertutup, voiceover berkata: Lalu beralih ke close-up ekstrem pipinya. Losion susu dengan cepat menyatu di kulit menjadi lapisan air transparan, tanda putih langsung hilang, dan area tersebut berubah dari kusam menjadi sangat reflektif dan lembap, tanpa pilling dan tanpa residu putih; dia mengetuk pipinya dengan ujung jari dan melepaskannya, dan kulitnya melesak dan kembali. Bibir tertutup, voiceover berkata: Lalu beralih kembali ke close-up frontal. Dengan sedikit tabir surya putih di bantalan jarinya, dia menepuknya secara merata, titik demi titik, dari tengah ke luar ke kulitnya yang sudah menyerap, yang tetap lembap dan reflektif; tidak ada botol atau tabung tabir surya yang muncul."
+   },
+   "lines": "Sebelum pakai, cuci muka dulu sampai bersih. Pencet sedikit ke wajah, ratakan ke seluruh muka. Tunggu satu menit, baru timpa sama sunscreen. Primer sekarang aku skip."
+  },
+  {
+   "n": 5,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "面膜和黑框眼镜",
+    "id": "masker lembar dan kacamata hitam"
+   },
+   "do": {
+    "zh": "躺在床上，脸上敷着面膜，戴着黑框眼镜，皮肤湿润且高度反光。对着镜头说话，大约在第二秒，她举起右手，五指张开，手心朝向镜头，向前轻推手腕以强调数字。用轻松、满意、炫耀的语气，快速清晰地说：然后切换到俯视静物拍摄，在一个铺有奢华护肤品的木托盘桌面上。几个银色反光的盒子，上面印有“VEIRFOO Sodium DNA Hydraglow Firming Cream”，在明亮的光线下放置。一只手，戴着精致的半透明法式美甲，伸入托盘，拿起一支产品，并将其转动以展示管身；然后特写她的手背，她从喷嘴挤出一小块半透明的乳白色丝滑乳霜，并用另一根手指涂抹，展示其易于滑动和保湿。嘴唇闭着，画外音说：然后切换回床上相同的超近低角度自拍。她继续对着镜头说话；在台词的后半部分，她用右手手指背面轻刷脸颊，然后左右转头欣赏自己的皮肤，笑容不止。",
+    "id": "Berbaring di tempat tidur, pakai masker lembar dan kacamata berbingkai hitam, kulitmu lembap dan sangat reflektif. Berbicara ke lensa, sekitar detik kedua, dia mengangkat tangan kanannya dengan lima jari terbuka, telapak tangan menghadap lensa, dan mendorong pergelangan tangannya ke depan untuk menekankan angka. Dengan nada yang ringan, puas, pamer, cepat dan jelas, berkata: Lalu beralih ke still life dari atas, di atas meja baki kayu yang dilapisi dengan produk perawatan kulit mewah. Beberapa kotak perak reflektif, bertuliskan 'VEIRFOO Sodium DNA Hydraglow Firming Cream', diletakkan di bawah cahaya terang. Sebuah tangan dengan manikur Prancis transparan yang halus meraih ke dalam baki, mengangkat satu produk, dan memutarnya untuk menunjukkan tabung; lalu close-up di punggung tangannya saat dia memencet sedikit krim susu semi-transparan, halus, dari nosel dan meratakannya dengan jari lain, menunjukkan kemudahan meluncur dan kelembapannya. Bibir tertutup, voiceover berkata: Lalu beralih kembali ke selfie ultra-close-up sudut rendah yang sama di tempat tidur. Dia terus berbicara ke lensa; di paruh kedua kalimat, dia menyentuh pipinya dengan punggung jari kanannya, lalu memutar kepalanya ke kiri dan ke kanan untuk mengagumi kulitnya, tidak bisa berhenti tersenyum."
+   },
+   "lines": "Malam juga jangan lupa dipakai ya. Ini tuh lima in one: siang jadi primer, malam krim, toner, lotion, sama serum semuanya bisa di-skip. Akhir-akhir ini tiap buka kamera depan, aku suka kaget sendiri lihat kulitku yang glowing."
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用前置摄像头自拍特写。脸上没有化妆，皮肤暗沉，有黑眼圈、泪沟、细纹、法令纹、干燥暗沉的表面和鼻周轻微泛红。她稍微倾斜头部，平静地看着镜头。嘴唇闭着，画外音用反思、回顾的语气，快速清晰地说：然后切换到前置摄像头特写，在梳妆台前，皮肤是玻璃肌：饱满、半透明，颧骨高光非常明亮，毛孔几乎不可见，眼下光滑饱满，整个脸像水膜一样反光。她微笑着稍微转头，让高光滑过颧骨。嘴唇闭着，画外音说：然后切换到俯视高角度拍摄，在餐桌上方，皮肤再次暗沉。一只手放在桌上的手机屏幕上；她抬眼看着镜头，眉毛自然地轻微上扬。嘴唇闭着，画外音说：然后切换到户外第三人称中景跟踪拍摄，在人行道上；镜头随着她向后移动，阳光透过头顶的树叶在她身上洒下斑驳的光线，有自然的镜头眩光和轻微的手持晃动。她以玻璃肌状态慢慢走向镜头，回头看了一眼，灿烂地微笑着。",
+    "id": "Ambil selfie close-up dengan kamera depan. Wajahmu tanpa makeup, kulit kusam, ada lingkaran hitam, tear trough, garis halus, lipatan nasolabial, permukaan kering kusam dengan tekstur terlihat dan sedikit kemerahan di sekitar hidung. Dia memiringkan kepalanya sedikit dan melihat kembali ke lensa, ekspresinya tenang. Bibir tertutup, voiceover dengan nada reflektif, melihat ke belakang, cepat dan jelas, berkata: Lalu beralih ke close-up ekstrem kamera depan di meja rias, dengan kulit kaca: sangat kenyal dan transparan, highlight tulang pipi sangat cerah, pori-pori hampir tidak terlihat, area bawah mata halus penuh, seluruh wajah memantulkan cahaya seperti lapisan air. Dia tersenyum dan memutar kepalanya sedikit sehingga highlight meluncur di tulang pipinya. Bibir tertutup, voiceover berkata: Lalu beralih ke bidikan sudut tinggi orang ketiga dari atas meja makan, kulitnya kusam dan tidak terawat lagi. Satu tangan bertumpu pada layar ponsel di meja; dia melihat ke lensa dengan sedikit mengangkat alis secara alami. Bibir tertutup, voiceover berkata: Lalu beralih ke bidikan pelacakan medium orang ketiga di luar ruangan di trotoar; kamera bergerak mundur bersamanya saat sinar matahari melalui dedaunan di atas menyebarkan cahaya berbintik-bintik di seluruh tubuhnya, dengan suar lensa alami dan sedikit guncangan genggam. Dengan kulit kaca, dia berjalan perlahan ke arah kamera, melirik ke belakang bahunya, dan tersenyum cerah."
+   },
+   "lines": "Dulu mukaku itu kusam dan kering. Nggak pernah kepikiran suatu hari kulitku bisa jadi glass skin."
+  },
+  {
+   "n": 7,
+   "sec": 15,
+   "talk": true,
+   "face": {
+    "zh": "面膜和黑框眼镜",
+    "id": "masker lembar dan kacamata hitam"
+   },
+   "do": {
+    "zh": "躺在床上，脸上敷着面膜，戴着黑框眼镜，皮肤湿润且高度反光，表情真诚，微表情丰富。她双手在下巴下方张开，轻轻摇头，眉毛上扬，眼睛真诚地看着镜头；然后右食指向镜头轻敲一次，左食指轻敲一次，一左一右，一轻一重；然后她的目光短暂地移开，然后双手向镜头挥动两次，做出“随便”的表情。用真诚、认真、带点自嘲的语气，快速清晰地说：大约在第八秒，她举起右食指在镜头前，在“非常”的三个强调音上向摄像头轻敲三次，每次敲击都更用力、更靠近镜头，眼睛变得更急切；大约在第十二秒，她温暖地微笑着，脸稍微倾向镜头，像向朋友推荐一样，然后将伸直的右食指指向镜头中心并保持不动，视频在她最后一句话结束时结束。",
+    "id": "Berbaring di tempat tidur, pakai masker lembar dan kacamata berbingkai hitam, kulitmu lembap dan sangat reflektif, ekspresimu tulus dengan mikro-ekspresi yang kaya. Dia membuka kedua tangannya tepat di bawah dagunya dan dengan lembut menggelengkan kepalanya, alis terangkat, mata menatap lensa dengan sungguh-sungguh; lalu jari telunjuk kanannya mengetuk sekali ke arah lensa, dan jari telunjuk kirinya mengetuk sekali, satu kiri dan satu kanan, satu ringan dan satu tegas; lalu tatapannya melayang sebentar sebelum dia melambaikan kedua telapak tangannya ke lensa dua kali dengan ekspresi 'terserah'. Dengan nada yang tulus, sungguh-sungguh dengan sedikit ejekan diri, cepat dan jelas, berkata: Sekitar detik kedelapan, dia mengangkat jari telunjuk kanannya di depan lensa dan mengetuknya ke arah kamera tiga kali pada tiga penekanan 'banget', setiap ketukan lebih keras dan lebih dekat ke lensa, matanya semakin mendesak; sekitar detik kedua belas dia tersenyum hangat, sedikit memiringkan wajahnya ke arah lensa seperti merekomendasikan kepada teman, dan menunjuk jari telunjuk kanannya yang lurus ke tengah lensa dan menahannya diam, video berakhir tepat pada kata terakhirnya."
+   },
+   "lines": "Ini bukan iklan ya, aku juga nggak dibayar sama brand-nya. Mau beli ya beli, mau percaya sama aku ya percaya. Kalau nggak percaya ya... yaudah, bodo amat, bodo amat. Aku tuh cuma pengen banget banget banget rekomendasiin ini ke kalian. Aku pengen kulit kita semua jadi bagus bareng-bareng, ya?"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "V0028",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光胶原蛋白面膜 Sodium DNA Water Light Collagen Mask",
+  "id": "VEIRFOO Sodium DNA Collagen Mask"
+ },
+ "hook": {
+  "zh": "撕掉一张隐形面膜，很爽",
+  "id": "Satisfying banget pas lepasin masker transparan"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内光线好的地方拍摄。准备好VEIRFOO面膜产品。脸上要先敷好面膜，等它完全干透变成透明的膜。",
+  "id": "Shooting di dalam ruangan, cahayanya yang bagus ya. Siapin produk masker VEIRFOO. Mukanya udah pakai masker dan udah kering total jadi lapisan bening."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着一层干透的透明面膜",
+    "id": "Wajah sudah tertutup masker yang kering dan transparan"
+   },
+   "do": {
+    "zh": "用两只手从下巴开始，慢慢地把整张面膜往上撕下来。撕的时候可以表现出很惊喜、好玩的样子。",
+    "id": "Kamu bisa pakai dua tangan, mulai dari dagu, pelan-pelan kelupas maskernya ke atas. Pas ngelupas, ekspresinya bisa kaget-kaget seneng gitu."
+   },
+   "lines": "Guys, kok pas mengelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Sodium DNA Collagen Mask dari VEIRFOO, brand Korea. Teksturnya creamy putih seperti yogurt, lembut banget."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸，刚撕下面膜",
+    "id": "Muka bersih, baru selesai lepas masker"
+   },
+   "do": {
+    "zh": "把VEIRFOO面膜产品举到脸颊旁边，让脸和产品一起入镜。看着镜头说话。",
+    "id": "Pegang produk masker VEIRFOO di samping pipi, jadi muka kamu dan produknya kelihatan jelas. Sambil ngomong, lihat ke kamera ya."
+   },
+   "lines": "Bahannya itu satu keluarga sama Rejuran yang di klinik Korea — PDRN, kolagen, peptida. Liat deh, dari putih dia pelan-pelan menjadi bening, langsung keserap. Perawatan mahal ala klinik Korea, sekarang bisa dilakukan di rumah."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用小刷子把像酸奶一样的白色面膜膏涂在手臂内侧。这个镜头里不用露脸。",
+    "id": "Ini rekam lengan bagian dalam aja, nggak usah kelihatan muka. Pakai kuas kecil, olesin krim masker yang putih kayak yogurt ke kulit lengan kamu."
+   },
+   "lines": "Oles tebal pakai kuasnya, tunggu sampai kering. Pas udah dilupas, kulitku berasa lebih cerah dan glowing! Perawatan ala klinik Korea, tapi bisa dilakukan sendiri di rumah. Cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

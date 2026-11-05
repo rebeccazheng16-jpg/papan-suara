@@ -1,0 +1,44 @@
+{
+ "id": "V0024-女",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 素颜霜 Tone-Up Primer",
+  "id": "VEIRFOO Tone-Up Primer"
+ },
+ "hook": {
+  "zh": "肤色不均？一抹提亮！",
+  "id": "Warna kulit tidak rata? Sekali oles langsung cerah!"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内自然光下拍摄。穿日常服装。准备好产品，盖子盖好，标签朝向镜头。确保脸部干净，没有涂抹任何产品。",
+  "id": "Rekam di dalam ruangan dengan cahaya alami. Pakai baju santai. Siapkan produknya, tutupnya terpasang, label menghadap kamera. Pastikan wajahmu bersih, tanpa produk apa pun."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机举到脸部高度，脸部占画面一半。看着镜头，表情活泼。用一只手指向画面中插入的双手对比图。用有点不耐烦但友好的语气说台词。",
+    "id": "Pegang HP setinggi wajah, wajahmu mengisi setengah layar. Lihat ke kamera dengan ekspresi ceria. Tunjuk ke foto perbandingan tangan yang muncul di layar. Ucapkan kalimat dengan nada sedikit kesal tapi ramah."
+   },
+   "lines": "Muka keliatan kusam sama warna kulit nggak rata tuh nyebelin banget, ya. Nih liat — sebelah ini belum aku pakein VEIRFOO Tone-Up Primer, sebelahnya udah. Bedanya keliatan kan?"
+  },
+  {
+   "n": 2,
+   "sec": 15,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把产品拿到脸旁边，盖子朝上，标签朝向镜头，让产品和脸一起出现在画面中。看着镜头，眉毛微微上扬，带着自然的微笑。用手指取少量乳液，涂抹在脸的右半边，打圈涂抹直到均匀。然后，用食指轻戳脸颊，强调皮肤的真实感。最后，指向画面下方，带着充满活力的语气说台词。",
+    "id": "Pegang produk di samping wajahmu, tutupnya ke atas, label menghadap kamera, biar produk dan wajahmu sama-sama di layar. Lihat ke kamera, alis sedikit terangkat, senyum alami. Ambil sedikit losion dengan jari, oleskan melingkar di separuh wajah kananmu sampai merata. Lalu, sentuh pipi yang sudah dioles dengan jari telunjuk untuk menunjukkan kulit asli tanpa bedak. Terakhir, tunjuk ke bawah layar dengan nada semangat saat mengucapkan kalimat."
+   },
+   "lines": "Sekali oles langsung nyatu, kulitku kerasa lebih cerah dan merata, nggak keliatan dempul. Ada Sodium DNA PDRN juga di dalamnya. Jadi kalau muka kamu keliatan kusam sama belang, wajib banget punya ini! Original Korea, harganya cuma segini — cek keranjang kuning, lagi ada promo spesial!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

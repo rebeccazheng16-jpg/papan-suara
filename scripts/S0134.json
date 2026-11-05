@@ -1,0 +1,50 @@
+{
+ "id": "S0134",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI Micro Sculpt Collagen Shot Mask"
+ },
+ "hook": {
+  "zh": "一个月敷膜日记：皮肤一镜比一镜亮一点",
+  "id": "Diary maskeran sebulan: kulit makin cerah tiap hari"
+ },
+ "src": "TikTok @dianafadiaaa",
+ "cam": "user",
+ "prep": {
+  "zh": "选择家里不同的角落，确保每个场景都有不同的光线和背景。准备好 SICENARI 袋装面膜，确保标签朝向镜头。准备好几套不同的衣服和头巾，以便在不同场景中更换。确保脸部是素颜，没有化妆。",
+  "id": "Pilih sudut-sudut rumah yang berbeda, pastikan setiap adegan punya cahaya dan latar belakang yang beda. Siapkan masker SICENARI kemasan pouch, pastikan labelnya menghadap kamera. Siapkan beberapa baju dan kerudung yang berbeda untuk ganti-ganti di tiap adegan. Pastikan wajahmu bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": false,
+   "face": {
+    "zh": "素颜，皮肤略显苍白暗淡，没有血色，哑光，嘴唇苍白略干。",
+    "id": "Wajah bersih, kulit agak pucat dan kusam, tidak ada rona, matte, bibir pucat dan sedikit kering."
+   },
+   "do": {
+    "zh": "在床边暖色灯光下，手机略高于眼睛。左手拿着打开的面膜袋，右手从袋中取出一片湿面膜，精华液滴回袋中。脸部朝向镜头三分之二，眼神看向镜头。",
+    "id": "Di samping lampu tidur yang hangat, pegang HP sedikit di atas mata. Tangan kiri pegang pouch masker yang terbuka, tangan kanan ambil satu lembar masker basah dari dalamnya, esens menetes kembali ke pouch. Wajah serong ke kamera, tatap lensa."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 6,
+   "talk": false,
+   "face": {
+    "zh": "素颜，皮肤依然苍白略显暗淡，没有血色，没有光泽，嘴唇苍白。",
+    "id": "Wajah bersih, kulit masih pucat dan sedikit kusam, tidak ada rona, tidak glowing, bibir pucat."
+   },
+   "do": {
+    "zh": "坐在客厅浅灰色沙发上，暖色落地灯在身后。手机在下巴高度，脸部朝向镜头三分之二。双手拿着湿面膜，敷在脸上并抚平，边缘塞进头巾里。眼睛闭上。",
+    "id": "Duduk di sofa abu-abu muda di ruang tamu, lampu lantai hangat di belakangmu. Pegang HP setinggi dagu, wajah serong ke kamera. Pegang masker basah, tempelkan ke wajah dan ratakan dengan kedua telapak tangan, selipkan pinggirannya di balik kerudung. Pejamkan mata."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

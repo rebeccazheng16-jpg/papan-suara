@@ -1,0 +1,97 @@
+{
+ "id": "V0075",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "注氧小气泡精粹液 Oxygenated Bubble Essence",
+  "id": "VEIRFOO Bubble Cleanser"
+ },
+ "hook": {
+  "zh": "脸越脏，泡泡越多？",
+  "id": "Makin kotor muka, makin banyak busa?"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在浴室里拍，光线要好。准备好产品（VEIRFOO 注氧小气泡精粹液），一个白毛巾，还有一个带手电筒的手机。整场视频穿同一件衣服。",
+  "id": "Syuting di kamar mandi, cari cahaya yang bagus. Siapkan produknya (VEIRFOO Bubble Cleanser), handuk putih, dan HP yang ada senternya. Pakai baju yang sama untuk semua adegan ya."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "脸上涂满白色泡泡",
+    "id": "Muka penuh busa putih tebal"
+   },
+   "do": {
+    "zh": "你可以先满脸泡沫，带着困惑的表情捏捏脸颊。然后，镜头切换到干净的脸，你指着镜头抱怨。最后，双臂交叉，冷静地解释。",
+    "id": "Kamu bisa mulai dengan muka penuh busa, kelihatan bingung sambil cubit pipi. Terus, mukanya bersih, kamu nunjuk kamera sambil ngeluh. Terakhir, kamu bisa silangkan tangan sambil jelasin dengan tenang."
+   },
+   "lines": "Makin kotor mukanya, makin banyak busanya?? Tiap cuci muka langsung merah dan perih, eh baru sebentar udah berminyak lagi? Itu tandanya kamu lagi kasar banget sama kulit kamu sendiri."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "首先，展示普通洁面乳在手上的干燥质地。然后，你可以用粗糙的海绵摩擦手臂，让它看起来有点红。接着，把产品举到脸旁说话。最后，把瓶子放在手机手电筒前，展示里面的气泡。",
+    "id": "Pertama, tunjukin cleanser biasa yang kering di tangan. Terus, bisa gosok lengan pakai spons kasar biar kelihatan agak merah. Lalu, pegang produk di samping muka sambil ngomong. Terakhir, pegang botol di depan senter HP buat nunjukin gelembung di dalamnya."
+   },
+   "lines": "Sabun muka biasa busanya harus dikucek keras, soap-base-nya itu kayak sabut kawat — barrier kulit kamu jadi rusak. Ini bukan serum, tapi pembersih yang berbusa sendiri — VEIRFOO Bubble Cleanser dari Korea."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "你可以将凝胶泵到手背上，然后等着它自己起泡，不要揉搓。之后，再录一个脸上已经满是泡沫的镜头，然后对着镜头说话。",
+    "id": "Kamu bisa pump gel ke punggung tangan, terus tungguin aja sampai jadi busa sendiri tanpa diusap. Setelah itu, rekam lagi dengan muka yang udah penuh busa, lalu ngomong ke kamera."
+   },
+   "lines": "Pas dioles masih bentuk gel, beberapa detik langsung muncul busa halus. Makin banyak kotoran di muka, makin banyak busanya — itu dia lagi ngangkat minyak sama sel kulit mati di permukaan."
+  },
+  {
+   "n": 4,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "脸上涂满白色泡泡",
+    "id": "Muka penuh busa putih tebal"
+   },
+   "do": {
+    "zh": "开始时，你可以闭上眼睛，享受脸上的泡沫，面带微笑。然后，拿着瓶子说话，并指指瓶身。最后，再次将瓶子举到脸颊旁，对着镜头微笑。",
+    "id": "Awalnya, kamu bisa pejamkan mata sambil senyum nikmatin busa di muka. Terus, pegang botolnya sambil ngomong dan tunjuk-tunjuk botolnya. Terakhir, pegang lagi botol di samping pipi sambil senyum ke kamera."
+   },
+   "lines": "Kulitnya berasa geli-geli seger, kayak lagi treatment ala klinik. Bifida Ferment itu kandungan andalan yang harganya mahal banget — serum-serum high-end itu semua pakai. Di botol ini dia ada di urutan pertama."
+  },
+  {
+   "n": 5,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "脸上涂满白色泡泡",
+    "id": "Muka penuh busa putih tebal"
+   },
+   "do": {
+    "zh": "你可以先满脸泡沫，然后用湿毛巾擦干净。接着，轻轻拍拍脸颊。最后，拿着产品，真诚地对着镜头说话，然后微笑。",
+    "id": "Kamu bisa mulai dengan muka penuh busa, terus lap pakai handuk basah sampai bersih. Lalu, tepuk-tepuk pipi pelan. Terakhir, pegang produknya sambil ngomong dengan tulus ke kamera, lalu senyum."
+   },
+   "lines": "Tunggu sebentar, lap pakai handuk basah, langsung bersih — sekali langkah bersih, buatku kulit berasa lembap. Dan ini bukan barang jastip nggak jelas: BPOM sama Made in Korea-nya tertera di kemasan. Aku nggak bakal rekomendasiin kalau belum pakai sendiri."
+  },
+  {
+   "n": 6,
+   "sec": 15,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "你可以用双手把产品举到脸旁说话。然后，摸摸你的脸颊。接着，手指向下，好像在指黄色购物篮。最后，再次拿着产品，友好地微笑。",
+    "id": "Kamu bisa pegang produknya dengan dua tangan di samping muka sambil ngomong. Lalu, sentuh pipi kamu. Terus, tunjuk ke arah bawah seolah-olah nunjuk keranjang kuning. Terakhir, pegang lagi produknya sambil senyum ramah."
+   },
+   "lines": "Dulu aku harus terbang ke klinik Korea cuma buat ini. Bolak-balik capek, tiket sama hotel aja belasan juta. Produknya ya segini. Sekarang di rumah lima menit doang, rasa ala klinik — coba lihat harganya. Buruan cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

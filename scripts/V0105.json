@@ -1,0 +1,103 @@
+{
+ "id": "V0105",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "粉水光油霜 Pink Bling Bling Cream",
+  "id": "VEIRFOO Pink Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "原来韩国女生水光肌这么简单",
+  "id": "Ternyata glass skin ala cewek Korea segampang ini"
+ },
+ "src": "抖音 xiongxiaoxiong.",
+ "cam": "user",
+ "prep": {
+  "zh": "在客厅沙发上，手机放在前面，用后置摄像头拍摄。穿休闲T恤，不戴项链。素颜，嘴唇自然色，眉毛自然。皮肤有自然的水润光泽。产品不入镜。",
+  "id": "Di sofa ruang tamu, taruh HP di depan, rekam pakai kamera belakang. Pakai kaos santai, jangan pakai kalung. Muka polos, warna bibir dan alis natural. Kulit kelihatan glowing basah natural. Produknya jangan sampai kelihatan."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用后置摄像头从几步远拍摄。你懒洋洋地靠在沙发上，头向后仰，用指尖轻拍脸颊，动作缓慢而心不在焉，眼睛看向镜头侧面，眼神涣散，嘴唇轻轻闭合。在画外音中说台词。",
+    "id": "Rekam pakai kamera belakang dari beberapa langkah. Kamu bersandar malas di sofa, kepala agak mendongak, tepuk-tepuk pipi dengan ujung jari, pelan dan melamun, tatapan kosong ke samping kamera, bibir tertutup rapat. Ucapkan dialog sebagai voiceover."
+   },
+   "lines": "Sekali kena ini, udah tamat deh. Ternyata dua puluh tahun ini aku hidup salah. Ternyata glass skin ala cewek Korea segampang ini. Dulu kita pakai sheet mask, basah-basahan, minimal dua puluh menit, ya kan?"
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "素颜，脸颊和鼻子周围有点泛红。",
+    "id": "Muka polos, ada sedikit kemerahan di pipi dan sekitar hidung."
+   },
+   "do": {
+    "zh": "用前置摄像头拍摄。你坐在沙发上，把产品举到脸颊旁边，盖子盖好，正面朝向镜头。然后把盖子打开，在颧骨上点一小滴粉色乳液，用指尖轻轻抹开，让它变成水润的光泽。轻拍脸颊和鼻子，对着镜头微笑。最后，慢慢转动脸，让窗户的光线滑过脸颊，展现光泽。在画外音和口播中交替说台词。",
+    "id": "Rekam pakai kamera depan. Kamu duduk di sofa, pegang produk di samping pipi, tutupnya rapat, bagian depan menghadap kamera. Lalu buka tutupnya, taruh setitik kecil losion pink di tulang pipi, ratakan dengan ujung jari sampai jadi glowing basah. Tepuk-tepuk pipi dan hidung, senyum ke kamera. Terakhir, putar wajah perlahan agar cahaya jendela menyinari pipi, menunjukkan kilau. Ucapkan dialog bergantian sebagai voiceover dan langsung bicara ke kamera."
+   },
+   "lines": "Tapi Pink Bling Bling ini, tiga detik langsung meresap, tunggu tiga puluh detik, kulitku berasa langsung glowing. Lihat, yang pink ini cocok banget buat pagi-pagi, kulitku berasa cepet tenang, kayak kebangun. Buatku super glowing, merah-merah tadi berasa udah nggak ada."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "皮肤有水润光泽。",
+    "id": "Kulit glowing basah."
+   },
+   "do": {
+    "zh": "用前置摄像头拍摄，一镜到底。你坐在沙发上，用指尖轻触脸颊，然后用粉扑在画面左侧的脸颊上轻拍一层粉底。放下粉扑，用食指先指着左侧脸颊，再指着右侧脸颊，好奇地看着镜头，眉毛微挑。对着镜头说台词。",
+    "id": "Rekam pakai kamera depan, satu kali take tanpa putus. Kamu duduk di sofa, sentuh pipi dengan ujung jari, lalu tepuk-tepuk foundation tipis di pipi bagian kiri frame pakai spons bedak. Letakkan spons, tunjuk pipi kiri frame, lalu pipi kanan frame, tatap kamera dengan ekspresi penasaran dan alis sedikit terangkat. Ucapkan dialog langsung ke kamera."
+   },
+   "lines": "Habis meresap, kulitnya jadi agak lengket, jadi foundation apa pun nempel kuat, lebih rapi dan nyatu. Bagian yang pakai foundation sama yang cuma pakai Pink Bling Bling, bedanya cuma di noda."
+  },
+  {
+   "n": 4,
+   "sec": 5,
+   "talk": true,
+   "face": {
+    "zh": "左侧脸颊有粉底，右侧脸颊没有，两边都有水润光泽。",
+    "id": "Pipi kiri frame pakai foundation, pipi kanan frame tidak, kedua sisi glowing basah."
+   },
+   "do": {
+    "zh": "用前置摄像头拍摄，一镜到底。你指着有粉底的一侧，然后慢慢将脸颊转向光源，让光泽透过粉底显现出来，最后露出开心的笑容。对着镜头说台词。",
+    "id": "Rekam pakai kamera depan, satu kali take tanpa putus. Kamu tunjuk sisi yang pakai foundation, lalu perlahan putar pipi ke arah cahaya agar kilau terlihat menembus foundation, dan tersenyum senang. Ucapkan dialog langsung ke kamera."
+   },
+   "lines": "Lihat, glow di bawahnya sama persis. Glow-nya nerus sampai ke bawah, nggak ketutup foundation. Ajaib!"
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "左侧脸颊有粉底，全脸有水润光泽。",
+    "id": "Pipi kiri frame pakai foundation, seluruh wajah glowing basah."
+   },
+   "do": {
+    "zh": "用前置摄像头拍摄，一镜到底。你闭着一只眼，用刷子在画面左侧的脸颊上扫上定妆粉。放下刷子，指着右侧脸颊，再指着左侧脸颊。用手掌轻触脸颊，然后拿开，手掌是干净的。最后，将纸巾按在脸颊上，然后撕下，纸巾干净无油痕或粉痕，眉毛微挑。对着镜头说台词。",
+    "id": "Rekam pakai kamera depan, satu kali take tanpa putus. Kamu pejamkan satu mata, sapukan bedak tabur di pipi kiri frame. Letakkan kuas, tunjuk pipi kanan frame, lalu pipi kiri frame. Sentuh pipi dengan telapak tangan lalu angkat, telapak tangan bersih. Terakhir, tempelkan tisu di pipi lalu lepaskan ke arah kamera, tisu bersih tanpa bekas minyak atau bedak, alis sedikit terangkat. Ucapkan dialog langsung ke kamera."
+   },
+   "lines": "Udah pakai bedak pun, masih kelihatan kilau tipis. Ini yang belum, ini yang udah, tetap ada glow cantik. Tapi dipegang, super fresh, sama sekali nggak nempel di muka. Wah, ajaib!"
+  },
+  {
+   "n": 6,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "底妆完成，清透自然，有水润光泽。",
+    "id": "Base makeup selesai, tipis dan natural, glowing basah."
+   },
+   "do": {
+    "zh": "用前置摄像头拍摄，一镜到底。你将一点粉色液体腮红点在画面右侧脸颊的苹果肌上，用指尖晕开。然后懒洋洋地用一只手将头发拨开，露出一个困倦而满足的笑容，脸颊发光。对着镜头说台词。",
+    "id": "Rekam pakai kamera depan, satu kali take tanpa putus. Kamu tap-tap sedikit liquid blush pink di apple of the cheek pipi kanan frame, ratakan dengan ujung jari. Lalu dengan malas singkirkan rambut dari wajah dengan satu tangan dan tersenyum mengantuk tapi puas, pipi bersinar. Ucapkan dialog langsung ke kamera."
+   },
+   "lines": "Sekarang aku ngerti kenapa banyak yang repurchase. Cocok banget buat pagi yang males, tapi pengen kulit glowing hari ini. Cukup tiga puluh detik, tidur setengah jam lebih lama."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

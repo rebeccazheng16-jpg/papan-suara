@@ -1,0 +1,88 @@
+{
+ "id": "V0154",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO Pink Bling Bling Cream 粉水光油霜",
+  "id": "VEIRFOO Pink Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "女明星上镜有气血、化妆师早不用粉红腮红",
+  "id": "Artis-artis di kamera kelihatan seger dan bening banget, tapi wajahnya nggak kelihatan pakai apa-apa?"
+ },
+ "src": "小红书 Meili蜜语美妆",
+ "cam": "user",
+ "prep": {
+  "zh": "白天在梳妆台前，用中性白光打亮脸部。穿日常服装。准备好产品（盖子盖好，标签朝前），以及一个没有标签的普通滴管精华瓶。手机固定好，让脸部占据画面一半。",
+  "id": "Siapkan di meja rias di siang hari, pakai cahaya putih netral untuk menerangi wajah. Pakai baju sehari-hari. Siapkan produk (tutupnya terpasang, label menghadap ke depan), dan satu botol serum pipet biasa tanpa label. Pasang HP biar wajah kamu kelihatan sekitar setengah dari layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，快速挤一点产品到指尖，然后立即用双手同时轻拍两颊。边拍边说。",
+    "id": "Hadap kamera, cepat pencet satu titik produk ke ujung jari, lalu langsung tepuk-tepuk kedua pipi dengan kedua tangan barengan. Ngomong sambil menepuk."
+   },
+   "lines": "Pernah sadar nggak, artis-artis di kamera kelihatan seger dan bening banget, tapi wajahnya nggak kelihatan pakai apa-apa?"
+  },
+  {
+   "n": 2,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，先举起滴管精华瓶在脸颊旁，表情略带不屑，然后放下，再举起 VEIRFOO Pink Bling Bling Cream 在脸颊旁，盖子盖好，微笑。最后放下产品，用指尖轻拍颧骨。",
+    "id": "Hadap kamera, pertama angkat botol serum pipet di samping pipi, ekspresi agak nggak suka, lalu turunkan. Setelah itu, angkat VEIRFOO Pink Bling Bling Cream di samping pipi, tutupnya terpasang, senyum. Terakhir, turunkan produk dan tepuk-tepuk tulang pipi dengan ujung jari."
+   },
+   "lines": "Sebenernya makeup artist mereka udah lama nggak pakai serum lotion lengket kayak gini. Mereka pakai oil cream pink ini, di antara krim wajah sama primer. Habis pakai, aku ngerasa wajahku beneran lebih seger."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，同时进行：左手拿滴管精华滴在左脸颊，右手拿 VEIRFOO Pink Bling Bling Cream 挤在右脸颊。然后快速切换，双手同时抹开两颊。左手食指按压左脸颊并慢慢拉开，展示黏腻感。最后，脸稍微转向左边，让右脸颊（涂了粉水光）靠近镜头，停留 2 秒以上，右手食指轻拍两下。",
+    "id": "Hadap kamera, lakukan bersamaan: tangan kiri meneteskan serum dari pipet ke pipi kiri, tangan kanan memencet VEIRFOO Pink Bling Bling Cream ke pipi kanan. Lalu cepat ganti, kedua tangan mengoleskan ke kedua pipi barengan. Jari telunjuk kiri menekan pipi kiri dan perlahan ditarik, tunjukkan lengketnya. Terakhir, putar wajah sedikit ke kiri, biar pipi kanan (yang pakai Pink Bling Bling Cream) mendekat ke kamera, tahan lebih dari 2 detik, jari telunjuk kanan tepuk dua kali."
+   },
+   "lines": "Lihat deh, pipi kiri ini aku tetesin serum biasa, lengket, sebentar aja udah kering. Yang kanan pakai ini, menurutku pipiku kayak ada rona seger dari dalam, bening dan glowing, kan?"
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，举起 VEIRFOO Pink Bling Bling Cream，盖子盖好，介绍产品。然后快速挤一小点产品到指尖。再快速切换，双手同时轻拍两颊和额头，说话时同步进行。",
+    "id": "Hadap kamera, angkat VEIRFOO Pink Bling Bling Cream, tutupnya terpasang, kenalkan produk. Lalu cepat pencet sedikit produk ke ujung jari. Setelah itu, cepat ganti, kedua tangan menepuk-nepuk pipi dan dahi barengan, lakukan sambil bicara."
+   },
+   "lines": "Yang aku pakai ini VEIRFOO Pink Bling Bling Cream, oil cream dari Korea. Keluarnya lotion cair warna pink muda, oles aja di pipi sama dahi, tepuk-tepuk pakai dua tangan."
+  },
+  {
+   "n": 5,
+   "sec": 14,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，双手轻拍脸颊，然后双手离开脸部，展示不黏腻。接着举起 VEIRFOO Pink Bling Bling Cream，盖子盖好，介绍成分。最后放下产品，慢慢左右转动脸部，稍微抬起下巴，展示脸颊和鼻梁的光泽感。",
+    "id": "Hadap kamera, tepuk-tepuk pipi dengan kedua tangan, lalu angkat tangan dari wajah, tunjukkan nggak lengket. Setelah itu, angkat VEIRFOO Pink Bling Bling Cream, tutupnya terpasang, kenalkan kandungannya. Terakhir, turunkan produk, pelan-pelan putar wajah ke kiri dan kanan, angkat dagu sedikit, tunjukkan kilau di tulang pipi dan batang hidung."
+   },
+   "lines": "Lihat, langsung nyatu ke kulit, sama sekali nggak lengket. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Habis ratain ke seluruh wajah, aku ngerasa kulitku glowing kayak glass skin ala Korea. Sekarang aku udah nggak pakai stick highlighter lagi, glowing tapi nempel di kulit."
+  },
+  {
+   "n": 6,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "正对镜头，手在下巴旁边轻轻比划，表情真诚。然后举起 VEIRFOO Pink Bling Bling Cream，盖子盖好，微笑。最后，手持产品的手指向画面左下角，点头并微笑。",
+    "id": "Hadap kamera, tangan bergerak lembut di samping dagu, ekspresi tulus. Lalu angkat VEIRFOO Pink Bling Bling Cream, tutupnya terpasang, senyum. Terakhir, tangan yang memegang produk menunjuk ke pojok kiri bawah layar, mengangguk dan senyum."
+   },
+   "lines": "Kalau kulitmu kering dan makeup-mu sering kelihatan pucat, ganti aja serum lotion kamu pakai ini. Di Korea harganya segini loh. Cek link yang aku temuin di bawah, lihat lebih murahnya seberapa, checkout satu dulu deh!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

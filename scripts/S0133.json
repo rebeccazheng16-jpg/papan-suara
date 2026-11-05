@@ -1,0 +1,88 @@
+{
+ "id": "S0133",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "masker Korea Sicenari"
+ },
+ "hook": {
+  "zh": "熬夜+晒一天 → 哐哐去敷",
+  "id": "begadang + seharian kena udara lembap → langsung pakai masker"
+ },
+ "src": "TikTok @甜久久",
+ "cam": "user",
+ "prep": {
+  "zh": "在客厅沙发上，素颜，穿居家服。把手机放在一个地方，让脸在画面里占一半高，不要太近也不要太远。准备好两袋SICENARI面膜，都撕开封条。",
+  "id": "Di sofa ruang tamu, wajah bersih tanpa makeup, pakai baju santai. Letakkan HP di satu tempat, pastikan wajahmu di tengah frame, jangan terlalu dekat atau jauh. Siapkan dua kantong masker Sicenari, sudah disobek bagian atasnya."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "脸上敷着金黄色面膜，闭眼。两只手从画面上方伸进来，各拿一袋面膜，把乳白色精华倒在面膜上。精华流过的地方，面膜会从黄色变成白色。面膜一直敷在脸上，不要揭掉。然后快速换四次衣服和场景，每次都从上往下快速揭掉面膜，素颜一次比一次透亮。最后一次回到客厅，揭掉面膜后看向镜头。",
+    "id": "Pakai masker warna kuning keemasan di wajah, pejamkan mata. Dua tangan masuk dari atas frame, masing-masing pegang satu kantong masker, tuangkan essence putih susu ke masker. Di mana essence mengalir, masker akan berubah dari kuning menjadi putih. Masker tetap di wajah, jangan dilepas. Lalu cepat ganti baju dan lokasi empat kali, setiap kali lepas masker dari atas ke bawah dengan cepat, wajahmu makin cerah setiap kali. Terakhir kembali ke ruang tamu, setelah melepas masker, tatap kamera."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，直视镜头，表情生动，一只手在下巴旁边轻轻比划。说完话后，快速切换到侧面特写，一只手从下方拿起一袋面膜，举到脸颊旁边，袋子正面朝向镜头，微笑。",
+    "id": "Wajah close-up, tatap kamera, ekspresi hidup, satu tangan gerak-gerak ringan di samping dagu. Setelah bicara, cepat pindah ke close-up dari sisi lain, satu tangan angkat kantong masker dari bawah, pegang di samping pipi, bagian depan kantong menghadap kamera, tersenyum."
+   },
+   "lines": "Musim hujan gini, kalau kamu masih begadang tiap malam, siangnya seharian kena udara lembap di luar, wajah kelihatan kusam terus, wajib coba masker Korea Sicenari ini!"
+  },
+  {
+   "n": 3,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "面膜袋放在沙发垫上，一只手轻拍袋子两次，袋子会晃动。然后切换到脸部特写，侧面看镜头，一只食指举在下巴旁边，满意地微笑。",
+    "id": "Kantong masker diletakkan di bantal sofa, satu tangan menepuk perut kantong dua kali, kantong akan bergoyang. Lalu pindah ke close-up wajah, lihat kamera dari samping, satu jari telunjuk di samping dagu, tersenyum puas."
+   },
+   "lines": "Satu kantong isinya dua puluh satu lembar, dihitung-hitung sehari pakai selembar nggak sampai tujuh ribu."
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，直视镜头，先是怀疑的表情，然后一只手在下巴旁边轻轻比划。说完话后，切换到面膜袋特写，袋子立在沙发垫上，一只手轻按袋子。再切换到脸部侧面特写，一只手举着面膜袋在脸颊旁边，自信地点头。",
+    "id": "Wajah close-up, tatap kamera, awalnya ekspresi ragu, lalu satu tangan gerak-gerak ringan di samping dagu. Setelah bicara, pindah ke close-up kantong masker, kantong berdiri di bantal sofa, satu tangan menekan perut kantong. Lalu pindah lagi ke close-up wajah dari sisi lain, satu tangan memegang kantong masker di samping pipi, mengangguk yakin."
+   },
+   "lines": "Pasti ada yang bilang, semurah ini emang bagus? Di masker, makin depan urutan bahannya, makin banyak kadarnya. Banyak masker bahan pertamanya cuma air. Bahan pertama Sicenari itu Bifida, sama sekali bukan air, dan di dalamnya juga ada PDRN."
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手托着面膜袋底部，另一只手撕开顶部封条，再拉开拉链。然后切换到面膜袋内部特写，一只手伸进去，拿出面膜纸，面膜纸会一直滴精华。再切换到面膜袋底部特写，倾斜袋子，让精华液晃动。最后切换到脸部特写，一只手轻拍脸颊，皮肤柔软有弹性。",
+    "id": "Satu tangan menopang bagian bawah kantong masker, tangan lain merobek strip merah di bagian atas, lalu membuka zip-lock. Lalu pindah ke close-up bagian dalam kantong masker, satu tangan masuk dan mengangkat satu lembar masker, essence akan terus menetes. Lalu pindah ke close-up bagian bawah kantong masker, miringkan kantong agar essence di dalamnya bergoyang. Terakhir pindah ke close-up wajah, satu tangan menepuk pipi, kulit terasa lembut dan kenyal."
+   },
+   "lines": "Lihat, begitu kantongnya dibuka, essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, semuanya meresap ke kulit, kulit sensitif juga bisa pakai."
+  },
+  {
+   "n": 6,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "敷着面膜，舒服地靠在沙发上，闭眼。然后切换到脸部特写，面膜已揭掉，脸部干净，一只手指轻按脸颊，微笑。再切换到脸部侧面特写，一只手举着面膜袋在脸颊旁边，另一只手食指指向左下方，微笑。",
+    "id": "Pakai masker, bersandar nyaman di sofa, pejamkan mata. Lalu pindah ke close-up wajah, masker sudah dilepas, wajah bersih, satu jari menekan pipi, tersenyum. Lalu pindah lagi ke close-up wajah dari sisi lain, satu tangan memegang kantong masker di samping pipi, tangan lain menunjuk ke kiri bawah, tersenyum."
+   },
+   "lines": "Kalau semalam tidur kemalaman, besoknya kulit kusam dan lesu, langsung aja tempel masker ini, aku ngerasa wajahku jadi lembut dan kenyal. Klik keranjang kuning di kiri bawah, cobain sekantong dulu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

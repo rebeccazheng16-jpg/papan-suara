@@ -1,0 +1,91 @@
+{
+ "id": "V0079",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "素颜霜 Tone-Up Cream",
+  "id": "VEIRFOO Tone-Up Cream"
+ },
+ "hook": {
+  "zh": "脸暗沉、毛孔粗大？",
+  "id": "Wajah kusam, pori-pori besar?"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在化妆台或普通桌子前拍摄，灯光要柔和。把手机固定好，拍特写，画面从额头到下巴。准备好 VEIRFOO 素颜霜和你平时用的粉底液。",
+  "id": "Siapin meja rias atau meja biasa buat latar. Pastikan cahayanya lembut dan terang. Taruh HP di tripod atau sandarin, rekam close-up dari dahi sampai bawah dagu. Siapin produk VEIRFOO Tone-Up Cream sama foundation biasa yang kamu punya."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "可以先露出有点烦恼的表情，指指脸颊和鼻子。然后一边说话，一边把普通粉底液涂在脸上，演出厚重卡粉的感觉。",
+    "id": "Kamu bisa mulai dengan muka yang agak lesu, tunjukin pipi dan hidungmu. Terus, sambil ngomong, coba pakai foundation biasa di pipi, tunjukin kalau hasilnya jadi berat dan cakey."
+   },
+   "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "可以先笑着，然后像分享秘密一样，从身后拿出 VEIRFOO 素颜霜。给镜头看一下产品，然后打开盖子，挤一点在手指上。只涂半边脸，然后给镜头看看对比效果。",
+    "id": "Mulai dengan senyum, lalu keluarin produk VEIRFOO dari belakang badan seolah-olah ini rahasia. Tunjukin produknya ke kamera, terus buka tutupnya, keluarin sedikit isinya ke jari. Olesin ke sebelah muka aja, lalu tunjukin perbedaannya ke kamera."
+   },
+   "lines": "Mau praktis tapi kulit tetap seger natural? Pakai VEIRFOO Tone-Up Cream dari Korea. Teksturnya krim, nggak ada rasa bedak. Sekali oles jadi lapisan soft-focus, pori sama kusam ketutup halus, buatku kayak kulit bawaan lahir cewek Korea."
+  },
+  {
+   "n": 3,
+   "sec": 14,
+   "talk": true,
+   "face": {
+    "zh": "半边脸已经涂了素颜霜",
+    "id": "Satu sisi wajah sudah pakai tone-up cream"
+   },
+   "do": {
+    "zh": "可以一边自信地说话，一边把产品拿在脸颊旁边。说到“烟酰胺”的时候可以指一下镜头。最后一句，可以一边拿着产品，一边身体微微前倾。",
+    "id": "Pegang produk di samping pipi sambil ngomong dengan yakin. Kamu bisa tunjuk ke arah kamera pas sebut 'Niacinamide'. Terakhir, sambil pegang produknya, condongin badan sedikit ke depan pas ngomong kalimat terakhir."
+   },
+   "lines": "Niacinamide, di aku berasa muka kuning dan kusam jadi tampak lebih cerah, di tube ini posisinya masuk tiga besar, langsung tertulis di daftar komposisinya — bukan cuma numpang nama. Jadi makin rutin aku pakai, kulitku berasa makin cerah dan terawat."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把产品拿在脸旁边，有活力地念出四个功能。然后，把一点产品涂在全脸上，同时念旁白的台词（但嘴唇要闭着，这是为画外音准备的）。",
+    "id": "Pegang produk di samping muka, sebutin empat fungsinya dengan semangat. Setelah itu, olesin sedikit produknya ke seluruh muka sambil rekam audio untuk kalimat selanjutnya (tapi bibir tetap tutup ya, ini buat voice-over)."
+   },
+   "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "这个部分你要录两样东西。第一，只录第一句台词的音频（画外音）。第二，录你把产品拿在脸颊旁边，对着镜头温暖地微笑，然后说出最后一句台词的视频。",
+    "id": "Untuk bagian ini, kamu rekam audio untuk kalimat pertama (buat voice-over). Setelah itu, baru rekam video kamu pegang produk di samping pipi, senyum hangat ke kamera sambil ngomong kalimat terakhir."
+   },
+   "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
+  },
+  {
+   "n": 6,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先录好前两句台词的音频（画外音）。然后录视频：先用手托着下巴，微微一笑。接着，把产品拿到脸旁边，做出“猜猜多少钱”的表情。最后，指一下小黄车的方向，号召大家试试。",
+    "id": "Rekam suara kamu dulu untuk dua kalimat pertama (buat voice-over). Lalu, rekam video kamu: pertama, topang dagu sambil senyum tipis. Terus, pegang produk di samping muka, kasih ekspresi 'coba tebak harganya'. Terakhir, tunjuk ke arah keranjang kuning sambil ajak orang buat coba."
+   },
+   "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

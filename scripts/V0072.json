@@ -1,0 +1,69 @@
+{
+ "id": "V0072",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "撕拉面膜，皮肤像剥了壳的鸡蛋",
+  "id": "Masker peel-off, kulit seperti telur kupas"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内光线明亮的地方拍摄。背景要干净整洁。确保产品（带盖）标签朝向镜头。手机举到脸部高度，让脸部占据画面一半。穿休闲服装。",
+  "id": "Ambil video di dalam ruangan dengan cahaya terang. Pastikan latar belakang rapi. Pegang produk (dengan tutup) agar labelnya menghadap kamera. Angkat HP setinggi wajah, agar wajahmu memenuhi setengah bingkai. Pakai baju santai."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着一层薄薄的金色面膜，已经干了",
+    "id": "Wajah sudah dilapisi masker tipis warna emas muda yang sudah kering"
+   },
+   "do": {
+    "zh": "用指尖捏住发际线处的面膜边缘，从额头到下巴一次性撕下整片面膜。面膜要保持完整，不要撕裂。同时发出清脆的撕裂声。带着惊讶的表情说台词。",
+    "id": "Jepit ujung masker di garis rambut dengan ujung jari, lalu tarik seluruh masker dari dahi sampai dagu dalam satu gerakan. Pastikan maskernya tetap utuh, jangan sampai sobek. Buat suara robekan yang jelas. Ucapkan baris ini dengan ekspresi terkejut."
+   },
+   "lines": "Ternyata mereka nggak bohong! Pas aku ganti ke produk yang sama, kulitku tampak lebih cerah, halus kayak telur kupas. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Golden Mask dari Korea ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "将产品管和外盒举到脸颊旁边，与脸部同高，让产品和脸部同时出现在画面中。产品正面朝向镜头。带着更兴奋的语气说台词。",
+    "id": "Pegang tube produk dan kotak di samping pipimu setinggi wajah, agar produk dan wajahmu terlihat bersamaan. Hadapkan bagian depan produk ke kamera. Ucapkan baris ini dengan nada yang lebih bersemangat."
+   },
+   "lines": "Umur tiga puluhan mulai muncul garis senyum, atau muka kusam kekuningan — pakai ini aja. Ini beneran harta karun buat kulit, rasanya kayak perawatan ala klinik Korea."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "对着镜头微笑，眼睛也带着笑意。皮肤看起来更亮、更均匀、更光滑。嘴唇保持闭合，用画外音说台词。",
+    "id": "Senyum ke kamera, matamu juga ikut tersenyum. Kulitmu terlihat lebih cerah, rata, dan halus. Tetap tutup mulutmu, ucapkan baris ini sebagai sulih suara."
+   },
+   "lines": "Niacinamide, PDRN, Bifida Ferment — kandungannya sebanyak itu, teksturnya tetep silky banget. Pas dioles masih putih, lama-lama kolagennya menyerap, jadi lapisan tipis warna emas muda."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "将产品管从身后拿出来，举到脸颊旁边，就像揭示一个秘密一样。产品正面朝向镜头。说完台词后，闭上嘴唇，自然微笑。",
+    "id": "Ambil tube produk dari belakang punggungmu, lalu angkat di samping pipimu seperti sedang menunjukkan rahasia. Hadapkan bagian depan produk ke kamera. Setelah mengucapkan baris ini, tutup mulutmu dan senyum alami."
+   },
+   "lines": "Versi upgrade-nya sekarang ada kilau emas halus di dalamnya, buat kado atau dipakai sendiri sama-sama cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

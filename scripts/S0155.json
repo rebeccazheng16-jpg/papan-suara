@@ -1,0 +1,105 @@
+{
+ "id": "S0155",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "masker Sicenari"
+ },
+ "hook": {
+  "zh": "毛孔/笑纹/眼下松→每晚睡前用→睡醒更好看",
+  "id": "Pori-pori besar, smile line mulai ada garis halus, atau bawah mata udah mulai kendur? Cobain deh pakai ini."
+ },
+ "src": "TikTok @bungaedelweis04",
+ "cam": "user",
+ "prep": {
+  "zh": "白天在车内拍摄。素颜，不化妆。穿米白斗篷式上衣配米头巾。手机自拍，脸占画面三分之二，袋子放左下角，上沿齐嘴，下半出画，不挡脸。",
+  "id": "Syuting di dalam mobil saat siang hari. Wajah tanpa makeup. Pakai atasan model jubah warna krem dan kerudung krem. Selfie, wajahmu memenuhi dua pertiga layar, dan kantong masker di pojok kiri bawah, bagian atasnya sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan tidak menutupi wajahmu."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "对着镜头，脸在画面中央，用食指轻点鼻翼、法令纹、眼下，然后把鼓鼓的袋子举到下巴旁边，袋子正面朝向镜头，袋子顶部和嘴巴齐平，袋子下半部分出画，脸保持在画面中央，不被袋子遮挡。活泼、随意、语速快地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah. Pakai jari telunjukmu sentuh pelan di samping hidung, lalu di garis senyum, lalu di bawah mata. Kemudian angkat kantong masker yang menggembung di samping dagumu, bagian depan kantong menghadap kamera, bagian atas kantong sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan wajahmu tetap di tengah, tidak tertutup kantong. Bicaralah dengan semangat, santai, dan cepat."
+   },
+   "lines": "Pori-pori besar, smile line mulai ada garis halus, atau bawah mata udah mulai kendur? Cobain deh pakai ini. Ini masker Sicenari dari Korea, sekantong isinya dua puluh satu lembar."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "对着镜头，脸在画面中央，一只手把袋子举到下巴旁边，袋子正面朝向镜头，袋子顶部和嘴巴齐平，袋子下半部分出画，脸保持在画面中央，不被袋子遮挡。另一只手用食指轻点袋子上的“PDRN 9,900ppm”字样。明亮、专业、干脆地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah. Satu tangan memegang kantong masker di samping dagumu, bagian depan kantong menghadap kamera, bagian atas kantong sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan wajahmu tetap di tengah, tidak tertutup kantong. Tangan yang lain pakai jari telunjukmu sentuh tulisan \"PDRN 9,900ppm\" di kantong. Bicaralah dengan cerah, berpengetahuan, dan cepat."
+   },
+   "lines": "Coba lihat, PDRN di sini sembilan ribu sembilan ratus ppm. Bifida-nya tujuh puluh persen, ada di urutan pertama komposisi, artinya kandungannya paling banyak. Terus ada sepuluh D hyaluronic acid, kolagen, sama niacinamide juga."
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "对着镜头，脸在画面中央，一只手把打开的袋子举到下巴旁边，袋子正面朝向镜头，袋子顶部和嘴巴齐平，袋子下半部分出画，脸保持在画面中央，不被袋子遮挡。另一只手从袋子里捏出一片湿润的白色面膜，精华液会滴落回袋子里。温暖、随意、语速快地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah. Satu tangan memegang kantong masker yang sudah terbuka di samping dagumu, bagian depan kantong menghadap kamera, bagian atas kantong sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan wajahmu tetap di tengah, tidak tertutup kantong. Tangan yang lain mengambil satu lembar masker putih yang basah dari dalam kantong, esensnya akan menetes kembali ke dalam kantong. Bicaralah dengan hangat, santai, dan cepat."
+   },
+   "lines": "Aku rutin pakai selembar tiap malam sebelum tidur. Lihat deh, pas diambil essence-nya netes terus, banyak banget."
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着湿润的白色面膜",
+    "id": "masker lembaran putih basah di wajah"
+   },
+   "do": {
+    "zh": "对着镜头，脸在画面中央，脸上敷着面膜。用指尖轻柔地按压眼下、法令纹和额头，确保面膜服帖。温暖、随意、干脆地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah, dengan masker di wajah. Pakai ujung jarimu tekan pelan di bawah mata, lalu di garis senyum, lalu di dahi, pastikan maskernya menempel. Bicaralah dengan hangat, santai, dan cepat."
+   },
+   "lines": "Khususnya di bawah mata, smile line, sama dahi yang rentan banget garis halus, aku tekan-tekan biar nempel."
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着湿润的白色面膜",
+    "id": "masker lembaran putih basah di wajah"
+   },
+   "do": {
+    "zh": "对着镜头，脸在画面中央，脸上敷着面膜。用双手从额头往下巴，一次性撕掉整片面膜，然后把手和面膜放到画面下方。面膜撕掉后，对着镜头，脸保持在画面中央，露出干净、水润、透亮的素颜。高兴、干脆地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah, dengan masker di wajah. Pakai kedua tanganmu, tarik masker dari dahi ke dagu dalam satu gerakan, lalu turunkan tangan dan masker ke bawah layar. Setelah masker dilepas, lihat ke kamera, wajahmu tetap di tengah, tunjukkan wajah bersih, lembap, dan glowing. Bicaralah dengan senang dan cepat."
+   },
+   "lines": "Dan lihat deh, habis maskeran, baru sebelum tidur aja, aku udah ngerasa kulitku jadi lembap dan glowing banget."
+  },
+  {
+   "n": 6,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "对着镜头，脸在画面中央，一只手把打开的袋子举到下巴旁边，袋子正面朝向镜头，袋子顶部和嘴巴齐平，袋子下半部分出画，脸保持在画面中央，不被袋子遮挡。然后把袋子口朝向镜头，展示袋子里的精华液。另一只手用湿润的指尖轻拍下颌线和下巴。最后对着镜头，微笑着点头。随意、干脆地说。",
+    "id": "Lihat ke kamera, wajahmu di tengah. Satu tangan memegang kantong masker yang sudah terbuka di samping dagumu, bagian depan kantong menghadap kamera, bagian atas kantong sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan wajahmu tetap di tengah, tidak tertutup kantong. Lalu miringkan mulut kantong ke arah kamera, tunjukkan esens di dalamnya. Tangan yang lain pakai ujung jarimu yang basah tepuk-tepuk sedikit esens di garis rahang dan di bawah dagumu. Terakhir, lihat ke kamera, tersenyum dan mengangguk kecil. Bicaralah dengan santai dan cepat."
+   },
+   "lines": "Aku kasih lihat dalamnya ya. Sekantong penuh masker, semuanya kerendam essence, bawahnya masih banyak banget, sekalian aku pakai ke leher. Sehari pakai selembar nggak sampai tujuh ribu."
+  },
+  {
+   "n": 7,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第二天早上，在车窗旁，对着镜头，脸在画面中央，露出刚睡醒的素颜。身体稍微靠近镜头，用食指轻点鼻翼和眼下，然后把鼓鼓的袋子举到下巴旁边，袋子正面朝向镜头，袋子顶部和嘴巴齐平，袋子下半部分出画，脸保持在画面中央，不被袋子遮挡。另一只手用食指指向画面左下角。精神、自信、干脆地说。",
+    "id": "Pagi berikutnya, di samping jendela mobil, lihat ke kamera, wajahmu di tengah, tunjukkan wajahmu yang baru bangun tidur. Dekatkan sedikit badanmu ke kamera, pakai jari telunjukmu sentuh pelan di samping hidung dan di bawah mata. Lalu angkat kantong masker yang menggembung di samping dagumu, bagian depan kantong menghadap kamera, bagian atas kantong sejajar dengan mulutmu, bagian bawahnya tidak terlihat, dan wajahmu tetap di tengah, tidak tertutup kantong. Tangan yang lain pakai jari telunjukmu menunjuk ke pojok kiri bawah layar. Bicaralah dengan segar, yakin, dan cepat."
+   },
+   "lines": "Nih lihat, aku baru bangun tidur, aku ngerasa pori-poriku keliatan lebih samar dikit, bawah mata juga nggak sekendur kemarin. Kalau kamu mau lembap glowing tanpa ribet, klik keranjang kuning di kiri bawah, cobain masker Sicenari ini ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

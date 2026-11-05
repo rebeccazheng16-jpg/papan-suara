@@ -1,0 +1,99 @@
+{
+ "id": "V0078",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "PDRN 双支眼霜 PDRN Twin Eye Cream",
+  "id": "VEIRFOO Twin Eye Cream PDRN"
+ },
+ "hook": {
+  "zh": "手机用太多，眼周细纹和松弛怎么办？",
+  "id": "Gara-gara tiap hari main HP, garis halus di ujung mata makin kelihatan? Kelopak mata mulai kendur?"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在梳妆台前拍摄，背景干净整洁，光线柔和。穿日常休闲服。确保产品（如果出现）标签朝向镜头，盖子盖好。手机与脸部保持一定距离，使脸部占据画面一半。",
+  "id": "Syuting di depan meja rias, latar belakang rapi dan bersih, cahaya lembut. Pakai baju santai sehari-hari. Pastikan produk (kalau muncul) labelnya menghadap kamera, tutupnya terpasang. Jaga jarak HP dengan wajah, agar wajah memenuhi separuh frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在梳妆台前，拿着手机刷屏，然后抬头看向镜头，用食指轻揉眼角。表情有点无奈和抱怨。",
+    "id": "Duduk di meja rias, pegang HP dan scroll layar, lalu angkat kepala lihat kamera, gosok sudut mata pakai jari telunjuk. Ekspresi sedikit pasrah dan mengeluh."
+   },
+   "lines": "Kamu ngerasa nggak, gara-gara tiap hari main HP, garis halus di ujung mata makin kelihatan? Kelopak mata mulai kendur? Area mata itu kulit paling tipis di wajah, kalau nggak dirawat ya paling cepat tua."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍一堆用过的眼霜空瓶。然后你摇头，手在旧瓶子上空画圈，再从画面外拿出产品盒，举到脸颊旁边，让脸和产品都在画面里。然后用手指挖出一点面霜，最后再举起产品盒。",
+    "id": "Pertama, rekam tumpukan botol eye cream bekas. Lalu kamu geleng-geleng kepala, putar tangan di atas tumpukan botol bekas, lalu ambil kotak produk dari luar frame dan pegang di samping pipi, agar wajah dan produk terlihat jelas. Lalu ambil sedikit krim dengan jari, dan terakhir, angkat lagi kotak produk."
+   },
+   "lines": "Eye cream mahal murah udah aku coba semua, ujungnya yang paling worth it ya Twin Eye Cream VEIRFOO dari Korea. Ada eye cream yang cuma pelembab wajah dikemas kecil, dipakai malah bikin bintik putih."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "自信地拿着产品盒，一只手举着产品盒在脸颊旁，另一只手食指向上指，眼睛跟着手指向上看。然后拍摄走过货架的视角。最后再举着产品盒，身体微微前倾，强调重点。",
+    "id": "Pegang kotak produk dengan percaya diri, satu tangan memegang kotak di samping pipi, jari telunjuk tangan lain menunjuk lurus ke atas, mata mengikuti jari ke atas. Lalu rekam pemandangan saat berjalan melewati rak toko. Terakhir, pegang lagi kotak produk, condongkan badan sedikit ke depan untuk menekankan."
+   },
+   "lines": "Kalau VEIRFOO emang khusus riset skincare, bahannya beneran royal. BIFIDA itu bahan mahal yang diambil lewat proses fermentasi khusus, di aku, area mata berasa lebih lembap dan terawat."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍梳妆台上摆放的各种高端精华液。然后俯拍双手，拧开眼霜盖子，挤出豌豆大小的眼霜在指腹。最后特写眼部区域，将眼霜点涂在眼下，然后用指腹轻拍，让眼霜融化。",
+    "id": "Pertama, rekam berbagai serum anti-aging mewah di meja rias. Lalu rekam tangan dari atas, buka tutup eye cream, dan peras krim seukuran kacang polong ke jari manis. Terakhir, rekam close-up area mata, oleskan krim dalam empat titik kecil di bawah mata, lalu tepuk-tepuk dengan jari manis agar krim meresap."
+   },
+   "lines": "Bahan bintang yang dipakai serum anti-aging kelas atas, di eye cream ini langsung ditulis paling depan di daftar komposisi. Artinya kandungannya paling banyak, jadi di aku hasilnya kerasa."
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先以第一人称视角拍摄走进韩国美妆店，走过购物者，最后停在VEIRFOO货架前。然后切换到你拿着两支眼霜管，放在脸颊旁边，另一只手轻抚脸颊，对着镜头温暖地微笑。",
+    "id": "Pertama, rekam dari sudut pandang orang pertama saat masuk ke toko kecantikan Korea, melewati pembeli, dan berhenti di depan rak VEIRFOO. Lalu, rekam kamu memegang dua tube eye cream di samping pipi, jari tangan lain menyentuh pipi, dan tersenyum hangat ke kamera."
+   },
+   "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, Made in Korea asli tercetak langsung di kotaknya. Aku nggak akan rekomendasiin kalau belum aku pakai."
+  },
+  {
+   "n": 6,
+   "sec": 14,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在梳妆台前，手托下巴，身体微微前倾，另一只手做两个小手势。提到累的时候，微微摇头，皱眉，表情有点痛苦。然后切换到卧室，你躺在床上，闭眼微笑，慢慢伸懒腰，产品盒放在床头柜上。然后睁开眼，转向镜头微笑。",
+    "id": "Duduk di meja rias, dagu ditopang tangan, badan sedikit condong ke depan, tangan lain membuat dua gerakan kecil. Saat menyebutkan lelah, gelengkan kepala sedikit dan mengerutkan kening, ekspresi sedikit kesakitan. Lalu beralih ke kamar tidur, kamu berbaring di tempat tidur, mata tertutup dan tersenyum lembut, perlahan meregangkan tangan ke atas kepala, kotak produk diletakkan di meja samping tempat tidur. Lalu buka mata, dan putar wajah tersenyum ke arah kamera."
+   },
+   "lines": "Dulu aku harus terbang ke Korea buat treatment mata di klinik, bolak-balik ribet, tiket sama hotel aja belasan juta, sekali treatment segini harganya. Sekarang di rumah tinggal oles pagi malam, bahan kelas klinik — coba lihat harganya berapa."
+  },
+  {
+   "n": 7,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在梳妆台前，空着手，右手食指向下指，眼睛跟着手指向下看，微笑。然后左手拿着两支眼霜管，放在脸颊旁，右手拿着产品盒，轻轻挥动两次。最后，双手同时举起眼霜管和产品盒靠近镜头，身体微微前倾，对着镜头温暖地微笑。",
+    "id": "Duduk di meja rias, tangan kosong, jari telunjuk kanan menunjuk lurus ke bawah, mata mengikuti jari ke bawah, tersenyum. Lalu tangan kiri memegang dua tube eye cream di samping pipi, tangan kanan memegang kotak produk dan melambaikannya dua kali. Terakhir, kedua tangan mengangkat tube eye cream dan kotak produk bersamaan mendekat ke lensa, condongkan badan sedikit ke depan, dan tersenyum hangat ke kamera."
+   },
+   "lines": "Mau mata menawan kayak cewek Korea? Satu box isi dua tube, pas buat satu periode, dipakai sendiri atau dikado sama-sama enak. Rutin sampai habis, aku sendiri ngerasa bedanya. Klik keranjang kuning, buruan cobain!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

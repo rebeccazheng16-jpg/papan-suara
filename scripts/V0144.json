@@ -1,0 +1,102 @@
+{
+ "id": "V0144",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "你该不会还在…其实你一直用错方法了",
+  "id": "Kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah."
+ },
+ "src": "TikTok @shannondorothea",
+ "cam": "user",
+ "prep": {
+  "zh": "在法式梳妆台前拍摄，背景虚化。穿米色针织衫，露出小臂。手上不要戴首饰。确保手和手臂皮肤干净、白皙、无毛发。产品盖子盖好，标签朝前。",
+  "id": "Syuting di depan meja rias gaya Prancis, latar belakangnya diburamkan. Pakai baju rajut warna krem, lengan baju ditarik ke atas sampai siku. Jangan pakai perhiasan di tangan. Pastikan kulit tangan dan lengan bersih, putih, dan tidak berbulu. Produk dalam keadaan tertutup rapat, label menghadap ke depan."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把产品挤到手腕内侧，然后举起产品，慢慢转动，同时画外音解说。",
+    "id": "Kamu bisa memencet sedikit produk ke pergelangan tangan bagian dalam. Lalu, angkat produknya, putar perlahan sambil berbicara di luar kamera."
+   },
+   "lines": "Eh, kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah. Aku juga sering begadang, kulitku kusam, nggak glowing, kering sampai makeup-nya cakey, skincare udah beli banyak tapi nggak kerasa apa-apa."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "左手拿产品包装盒，右手拿产品管，并排举起。然后把产品和包装盒平放在桌上，用指尖轻敲产品管。",
+    "id": "Kamu bisa memegang kotak produk di tangan kiri dan tube produk di tangan kanan, angkat sejajar. Lalu, letakkan produk dan kotaknya di meja, ketuk tube produk dua kali dengan jari."
+   },
+   "lines": "Kalau kamu juga gitu, wajib lihat ini: VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak kerasa itu sering karena bahan aktifnya nggak sempat nempel di kulit."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "拧开产品盖子，挤出少量膏体到小臂内侧。然后用刷子把膏体涂抹均匀。",
+    "id": "Kamu bisa memutar tutup produk, lalu pencet sedikit krim ke lengan bagian dalam. Lalu, pakai kuas untuk meratakan krimnya."
+   },
+   "lines": "Tinggal diputar dan dipencet sedikit, teksturnya creamy kayak krim wajah, ada kilau keemasan tipis. Oles rata pakai kuas ke seluruh wajah, tangan sama sekali nggak kotor."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "小臂上涂抹好的面膜已干",
+    "id": "Masker di lengan sudah kering"
+   },
+   "do": {
+    "zh": "用指尖轻按小臂上的干膜，然后从手腕处开始，慢慢撕下整片面膜，并举起展示。",
+    "id": "Kamu bisa menekan masker kering di lengan dengan jari untuk menunjukkan sudah kering. Lalu, kelupas masker dari pergelangan tangan ke arah siku secara perlahan, dan angkat masker yang sudah terkelupas ke arah kamera."
+   },
+   "lines": "Tunggu sampai benar-benar kering jadi lapisan, bahan aktifnya nempel terus di kulit. Terus kelupas pelan dari pinggirnya, lepas satu lembar utuh, tipis kayak plastik wrap, satisfying banget!"
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用指尖轻抚小臂上已撕膜的干净皮肤。然后左手拿产品包装盒，右手拿产品管，并排举起。",
+    "id": "Kamu bisa mengelus lembut kulit lengan yang sudah bersih setelah masker dikelupas. Lalu, pegang kotak produk di tangan kiri dan tube produk di tangan kanan, angkat sejajar."
+   },
+   "lines": "Yang penting teksturnya juga lembut, pas dikelupas sama sekali nggak sakit. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 6,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用指背轻抚小臂皮肤。然后举起产品管，标签朝前。",
+    "id": "Kamu bisa mengelus kulit lengan dengan punggung jari. Lalu, angkat tube produk, label menghadap ke depan."
+   },
+   "lines": "Setelah aku pakai, aku ngerasa kulitku nggak ketarik dan nggak kering, pas diraba halus dan lembut banget, nyaman banget. Sampai deket-deketan sama pacar pun aku pede. Di Korea harganya segini loh."
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "举起产品管，标签朝前。然后另一只手伸入画面，食指指向画面左下角。",
+    "id": "Kamu bisa mengangkat tube produk, label menghadap ke depan. Lalu, masukkan tangan kosong yang lain ke dalam frame, jari telunjuk menunjuk ke sudut kiri bawah frame."
+   },
+   "lines": "Pokoknya semuanya oke banget. Klik keranjang kuning di kiri bawah, cek sekarang harganya berapa, coba beli satu dulu!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

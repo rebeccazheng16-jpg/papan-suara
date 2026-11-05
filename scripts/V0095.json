@@ -1,0 +1,102 @@
+{
+ "id": "V0095",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "半边脸紧致挑战",
+  "id": "Tantangan wajah kencang sebelah"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在家，素颜，穿家居服。确保光线均匀照亮整张脸，没有阴影。手机拿稳，但可以有一点点晃动，不要用三脚架。背景是家里的环境，不要是白墙。产品管身和包装盒标签朝前，盖子盖好。",
+  "id": "Di rumah, tanpa makeup, pakai baju santai. Pastikan cahaya merata di seluruh wajah, tanpa bayangan. Pegang HP dengan stabil, tapi boleh sedikit goyang, jangan pakai tripod. Latar belakangnya suasana rumah, jangan dinding polos. Produk dan kotak kemasan menghadap ke depan, tutupnya tertutup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "素颜，面带惊喜的笑容，直视镜头。先保持不动一秒，让大家看清脸部左右两边的区别。然后用两根手指沿着脸颊右侧（画面右侧）的轮廓向上描画，再移到脸颊左侧（画面左侧）描画，对比两边的紧致度，手停留在那里。语速快而清晰，带着惊喜感说台词。",
+    "id": "Tanpa makeup, senyum terkejut, lihat ke kamera. Diam dulu satu detik, biar orang lihat bedanya dua sisi wajah. Lalu pakai dua jari telusuri rahang sisi kanan (di layar) ke atas, lalu pindah ke sisi kiri (di layar) dan telusuri juga, bandingkan kekencangannya, tangan tetap di sana. Bicara cepat dan jelas, dengan nada terkejut."
+   },
+   "lines": "Ya ampun, muka aku jadi agak beda sebelah, guys!"
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "face": {
+    "zh": "脸和脖子上敷着香槟金色半透明面膜",
+    "id": "Wajah dan leher tertutup masker peel-off warna champagne gold transparan"
+   },
+   "do": {
+    "zh": "脸和脖子上敷着香槟金色半透明面膜。用两手拇指和食指捏住面膜颈部边缘，向上稳稳地撕下整张面膜，从脖子到额头一次性撕掉。撕的时候面膜保持完整，不要撕裂。撕完后，慢慢转头展示脸部左侧（画面左侧）紧致的轮廓，再转到右侧（画面右侧）较宽的轮廓，然后面向镜头，用手指背轻抚左侧脸颊和下颌线，露出自然的笑容。台词是画外音，嘴巴保持闭合。",
+    "id": "Wajah dan leher tertutup masker peel-off warna champagne gold transparan. Pakai jempol dan telunjuk kedua tangan, cubit ujung bawah masker di leher, lalu tarik ke atas dengan stabil, kelupas seluruh masker dari leher sampai dahi dalam satu tarikan. Saat mengelupas, masker harus tetap utuh, jangan sampai sobek. Setelah selesai, pelan-pelan putar kepala untuk menunjukkan sisi kiri wajah (di layar) yang kencang, lalu ke sisi kanan (di layar) yang lebih lebar, lalu hadap kamera, usap pipi dan rahang sisi kiri dengan punggung jari, senyum alami. Dialognya voiceover, bibir tetap tertutup."
+   },
+   "lines": "Sisi yang baru aku kelupas ini rasanya kayak ada yang narik kulitnya ke atas, tanpa makeup aja buatku udah glowing."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "素颜，穿棉质睡衣，直视镜头，语气坚定，像和朋友抱怨一样，语速快而清晰地说台词。然后切换到第三人称视角，坐在书桌前，手托着脸颊，另一只手不停地打字，眼睛看着屏幕，显得疲惫。最后切换回近景，化好精致的妆容，穿上日常服装，一只手拿着产品管身，放在脸颊旁边，产品正面朝向镜头，产品和脸部同时出现在画面中。正常语速对着镜头说台词。",
+    "id": "Tanpa makeup, pakai piyama katun, lihat ke kamera, nada bicara tegas, seperti mengeluh ke teman, bicara cepat dan jelas. Lalu ganti ke sudut pandang orang ketiga, duduk di meja, satu tangan menopang pipi, tangan lain mengetik terus, mata melihat layar, terlihat lelah. Terakhir, kembali ke close-up, sudah pakai makeup lengkap, pakai baju biasa, satu tangan memegang produk di samping pipi, bagian depan produk menghadap kamera, produk dan wajah ada di frame yang sama. Bicara normal ke kamera."
+   },
+   "lines": "Bangun tidur muka bengkak kayak bakpao, apalagi kalau kolagennya udah mulai berkurang — sekali begadang, kulit langsung bengkak dan kendur. Yang mukanya kusam kekuningan, wajib coba VEIRFOO Golden Mask ini."
+  },
+  {
+   "n": 4,
+   "sec": 15,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "穿睡衣，刚睡醒的样子。一只手漫不经心地用卷发棒卷着头发，眼睛失焦，完全放空。台词是画外音，嘴巴保持闭合。然后切换到桌面近景，产品管身和包装盒立着，盖子平放在桌上。一只手拿着产品管身，轻轻挤出少量乳白色膏体到另一只手拿的金色刷头上。台词是画外音，嘴巴保持闭合。然后切换到脸部近景，用刷子将膏体均匀薄薄地涂抹在除眼周外的全脸。台词是画外音，嘴巴保持闭合。然后切换到脸部近景，面膜已干，呈香槟金色半透明状。双手捏住发际线处的面膜上边缘，从额头到下巴一次性向下撕掉整张面膜。台词是画外音，嘴巴保持闭合。最后切换到脸颊特写，用拇指和食指捏住一小块脸颊皮肤，然后松开，皮肤立即弹回，紧致光滑。然后用食指和中指背沿着下颌线向上滑动，指腹轻按住下巴尖，甜美地微笑。台词是画外音，嘴巴保持闭合。",
+    "id": "Pakai piyama, baru bangun tidur. Satu tangan pelan-pelan mengeriting rambut dengan catokan, mata kosong, melamun. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up meja, produk dan kotak kemasan berdiri, tutupnya tergeletak di meja. Satu tangan memegang produk, pelan-pelan memencet sedikit krim putih susu ke kuas emas di tangan lain. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up wajah, oleskan krim secara merata dan tipis ke seluruh wajah kecuali area mata dengan kuas. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke close-up wajah, masker sudah kering, berwarna champagne gold transparan. Ujung jari kedua tangan mencubit ujung atas masker di garis rambut, lalu kelupas seluruh masker dari dahi ke dagu dalam satu tarikan bersih. Dialognya voiceover, bibir tetap tertutup. Terakhir, ganti ke extreme close-up pipi, cubit sedikit kulit pipi dengan jempol dan telunjuk lalu lepas; kulit langsung kembali kencang dan halus. Lalu punggung jari telunjuk dan tengah meluncur ke atas sepanjang garis rahang yang bersih dan bantalan jari menekan ringan ujung dagu sambil tersenyum manis. Dialognya voiceover, bibir tetap tertutup."
+   },
+   "lines": "Rahang yang nggak tegas, pipi yang turun, garis senyum, garis halus di mata — tinggal oles, tunggu tiga puluh sampai empat puluh menit sampai kering, terus kelupas pelan-pelan. Ngelupasnya satisfying banget! Nggak perlu es kopi lagi buat melek — lihat, rahangku berasa lebih tirus, dipegang halus dan kenyal."
+  },
+  {
+   "n": 5,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "在家，穿家居服，手拿产品管身，身体稍微倾斜，像分享秘密一样，用食指在下巴下方轻敲两次以示强调。语气认真，像在分享“真的告诉你”一样，语速快而清晰地说台词。然后切换到第一人称视角，手持手机在品牌门店里走动，经过柜台和货架，旁边有顾客在挑选产品或聊天。台词是画外音。最后切换到第一人称视角，手持手机在护理室里走动，走向护理床，经过推车，停在床头。台词是画外音。",
+    "id": "Di rumah, pakai baju santai, pegang produk, badan sedikit miring, seperti berbagi rahasia, ketuk dua kali dengan jari telunjuk di bawah dagu untuk penekanan. Nada bicara serius, seperti berbagi 'aku serius bilang ini', bicara cepat dan jelas. Lalu ganti ke sudut pandang orang pertama, pegang HP sambil berjalan di toko brand, melewati konter dan rak, ada pelanggan yang memilih produk atau mengobrol. Dialognya voiceover. Terakhir, ganti ke sudut pandang orang pertama, pegang HP sambil berjalan di ruang perawatan, menuju ranjang perawatan, melewati troli, berhenti di kepala ranjang. Dialognya voiceover."
+   },
+   "lines": "Jujur ya, cewek Korea tuh emang paling ngerti soal beginian. VEIRFOO punya klinik perawatan kulit sendiri di Seoul, dan artis sama idol Korea — yang kamu tahu maupun nggak — rutin perawatan di sana."
+  },
+  {
+   "n": 6,
+   "sec": 15,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "在家，穿家居服，产品管身放在旁边，身体稍微倾斜，直视镜头。说到重点时，一只手在下巴下方短暂停留。语气带着炫耀和分享事实的感觉，语速快而清晰地说台词。然后切换到脸部近景，用金色刷子将乳白色膏体从脸颊中心向外侧推开，避开眼周。台词是画外音，嘴巴保持闭合。然后切换到脸颊特写，甜美地微笑，不说话。台词是画外音，嘴巴保持闭合。然后切换回近景，再次对着镜头说话。台词是画外音。然后切换到脸部近景，用美妆蛋将中性自然色调的粉底液拍打在脸颊上，然后将脸颊转向光源，展示光滑的底妆。台词是画外音，嘴巴保持闭合。最后切换回近景，双手做出“就这么简单”的手势，以自然的笑容结束。",
+    "id": "Di rumah, pakai baju santai, produk di samping, badan sedikit miring, lihat ke kamera. Saat poin penting, satu tangan berhenti sebentar di bawah dagu. Nada bicara pamer dan berbagi fakta, bicara cepat dan jelas. Lalu ganti ke close-up wajah, pakai kuas emas untuk mengoleskan krim putih susu dari tengah pipi ke luar, hindari area mata. Dialognya voiceover, bibir tetap tertutup. Lalu ganti ke extreme close-up pipi, senyum manis, tanpa bicara. Dialognya voiceover, bibir tetap tertutup. Lalu ganti kembali ke close-up, bicara lagi ke kamera. Dialognya voiceover. Lalu ganti ke close-up wajah, tepuk-tepuk foundation warna natural netral dengan beauty sponge di pipi, lalu putar pipi ke arah cahaya untuk menunjukkan dasar yang halus. Dialognya voiceover, bibir tetap tertutup. Terakhir, ganti kembali ke close-up; buka kedua tangan dengan gestur 'sesimpel itu' dan akhiri dengan senyum alami."
+   },
+   "lines": "Kenapa sebagus itu? Karena di dalamnya ada PDRN salmon molekul kecil, mirip banget sama DNA kita sendiri, jadi nggak perlu khawatir soal penyerapannya. Sekali pakai cuma beberapa ribu doang. Kulitku berasa mulus, jadi nggak bakal cakey, mau pakai foundation apa aja pasti nyatu."
+  },
+  {
+   "n": 7,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "在家，皮肤白皙透亮，穿日常服装。一只手拿着产品管身和包装盒，放在脸颊旁边，产品正面朝向镜头，产品和脸部同时出现在画面中，身体稍微倾斜。提到价格时，眉毛自然地轻微上扬。语气逐渐高昂，带着紧迫感，语速快而清晰地说台词。然后切换到另一个角度的近景。将产品管身换到另一只手，放在脸颊旁边，正面朝向镜头，对着镜头温暖地微笑，身体稍微前倾，像向朋友推荐一样。说到最后一句话时，食指指向画面左下方，并保持在那里。",
+    "id": "Di rumah, kulit cerah bercahaya, pakai baju biasa. Satu tangan memegang produk dan kotak kemasan di samping pipi, bagian depan produk menghadap kamera, produk dan wajah ada di frame yang sama, badan sedikit miring. Saat menyebut harga, alis sedikit terangkat secara alami. Nada bicara semakin meninggi, dengan nada mendesak, bicara cepat dan jelas. Lalu ganti ke close-up dari sudut berbeda. Pindahkan produk ke tangan lain, di samping pipi, bagian depan menghadap kamera, senyum hangat ke kamera dan sedikit condong ke depan seperti merekomendasikan ke teman. Pada kalimat terakhir, jari telunjuk menunjuk ke kiri bawah layar dan tetap di sana."
+   },
+   "lines": "Di Korea harganya segini, sekarang lagi promo new arrival — coba lihat sendiri berapa! Nggak perlu nitip jastip lagi, langsung cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

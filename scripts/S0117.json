@@ -1,0 +1,80 @@
+{
+ "id": "S0117",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI Micro Sculpt Collagen Shot Mask"
+ },
+ "hook": {
+  "zh": "每天坚持敷面膜，皮肤真的会变好",
+  "id": "Usahanya setiap hari"
+ },
+ "src": "TikTok @willysfidia",
+ "cam": "user",
+ "prep": {
+  "zh": "在卧室里拍，晚上开着暖光灯。素颜，脸部没有化妆。准备好SICENARI面膜袋，确保标签朝向镜头。手机拿稳，脸部占画面一半。",
+  "id": "Rekam di kamar tidur, malam hari dengan lampu hangat. Wajah tanpa makeup. Siapkan pouch masker SICENARI, pastikan label menghadap kamera. Pegang ponsel dengan stabil, wajah mengisi setengah bingkai."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，侧脸看向别处。用指尖轻触并滑动干燥泛红的脸颊，轻轻叹气。然后镜头切到脸颊特写，保持不动。",
+    "id": "Ambil close-up wajah, pandangan ke samping. Sentuh dan geser perlahan jari di pipi yang kering dan kemerahan, lalu hembuskan napas pelan. Kemudian, potong ke close-up pipi, diamkan."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 8,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "双手拿着面膜袋，撕开顶部封条，然后拉开拉链。镜头切到面膜袋内部特写，可以看到湿润的面膜片和精华液。再切回，用手指从袋子里取出一片面膜，让精华液滴落，然后把面膜敷在脸上，轻轻按压，眼睛闭上。",
+    "id": "Pegang pouch masker dengan kedua tangan, sobek segel atas, lalu buka zip-nya. Potong ke close-up bagian dalam pouch, perlihatkan lembaran masker basah dan esens. Kembali ke tampilan awal, ambil satu lembar masker dari pouch dengan jari, biarkan esens menetes, lalu tempelkan masker ke wajah, tekan perlahan, mata tertutup."
+   },
+   "lines": ""
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": false,
+   "face": {
+    "zh": "脸上敷着面膜",
+    "id": "Masker di wajah"
+   },
+   "do": {
+    "zh": "第一个场景：躺在床上，敷着面膜，闭眼放松。第二个场景：换上睡衣，坐在沙发上，敷着面膜，闭眼微笑。第三个场景：在浴室，一只手拿着面膜袋，倒出一点精华液到另一只手背上，然后涂抹在脖子上。第四个场景：回到卧室，从额头边缘开始，慢慢撕下面膜，整片撕下。然后对着镜头微笑，皮肤看起来光滑水润。",
+    "id": "Adegan pertama: Berbaring di tempat tidur, dengan masker di wajah, mata tertutup, santai. Adegan kedua: Ganti baju tidur, duduk di sofa, dengan masker di wajah, mata tertutup, senyum kecil. Adegan ketiga: Di kamar mandi, satu tangan memegang pouch masker, tuangkan sedikit esens ke punggung tangan yang lain, lalu oleskan ke leher. Adegan keempat: Kembali ke kamar tidur, mulai dari dahi, lepaskan masker perlahan, lepaskan seluruh lembaran. Lalu tersenyum ke kamera, kulit terlihat halus dan lembap."
+   },
+   "lines": ""
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，侧脸看向别处。皮肤看起来干燥泛红，表情疲惫。然后镜头切到同样的角度，皮肤现在光滑水润，有光泽。轻轻抚摸脸颊，然后对着镜头露出一个害羞的微笑。",
+    "id": "Close-up wajah, pandangan ke samping. Kulit terlihat kering dan kemerahan, ekspresi lelah. Lalu potong ke sudut yang sama, kulit sekarang halus, lembap, dan bercahaya. Belai pipi perlahan, lalu berikan senyum malu-malu ke kamera."
+   },
+   "lines": ""
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，侧脸看向镜头。一只手拿着面膜袋放在脸颊旁边，轻轻向镜头倾斜，自豪地微笑。然后镜头切到双手特写，从面膜袋中取出一片面膜，让精华液滴落。再切回，一只手拿着面膜袋放在脸颊旁边不动，另一只空手指向画面左下角，友好地微笑。",
+    "id": "Close-up wajah, pandangan ke kamera. Satu tangan memegang pouch masker di samping pipi, miringkan sedikit ke arah kamera, tersenyum bangga. Lalu potong ke close-up tangan, ambil satu lembar masker dari pouch, biarkan esens menetes. Kembali ke tampilan awal, satu tangan memegang pouch masker di samping pipi tanpa bergerak, tangan kosong yang lain menunjuk ke sudut kiri bawah layar, tersenyum ramah."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

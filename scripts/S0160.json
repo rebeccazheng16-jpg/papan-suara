@@ -1,0 +1,55 @@
+{
+ "id": "S0160",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "Sicenari sheet mask"
+ },
+ "hook": {
+  "zh": "3D 皮肤问题小人 × 成分",
+  "id": "Masalah kulit 3D x bahan"
+ },
+ "src": "TikTok @detektif.kulitsolved Stacey",
+ "cam": "user",
+ "prep": {
+  "zh": "在白天或光线充足的地方拍摄。背景要干净，比如白墙。确保脸部干净，没有化妆。指甲要短而圆，没有指甲油。把手机拿近一点，让脸部特写充满画面。",
+  "id": "Syuting di siang hari atau tempat yang terang. Pastikan latar belakang bersih, seperti dinding putih. Wajah harus bersih, tanpa makeup. Kuku pendek dan bulat, tanpa kuteks. Pegang HP dekat, biar wajah close-up memenuhi frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把面膜敷在脸颊上，用指尖轻轻按压。确保面膜平整，没有气泡。假装有卡通小人在皮肤上说话。",
+    "id": "Tempelkan masker di pipi, tekan perlahan dengan ujung jari. Pastikan masker rata, tanpa gelembung. Bayangkan ada karakter kartun kecil berbicara di kulit."
+   },
+   "lines": "Hah, sumpah kaget. Tau gak kenapa gue betah kusam di pipi lu? Karena belum kena niacinamide ini. Aduh, warna gue tersamarkan."
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把面膜敷在鼻翼旁边，用指尖轻轻按压。假装有卡通小人在皮肤上说话，它们会因为面膜的凉爽而颤抖。",
+    "id": "Tempelkan masker di samping hidung, tekan perlahan dengan ujung jari. Bayangkan ada karakter kartun kecil berbicara di kulit, mereka akan menggigil karena dinginnya masker."
+   },
+   "lines": "Woi, gawat. Kemerahan di hidung lu bikin gue betah. Tapi ada centella asiatica ini. Rasa seger bantu menenangkan. Gue panik."
+  },
+  {
+   "n": 3,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍下巴特写，假装有卡通小人在说话。然后切换到手从袋子里拿出面膜的镜头。最后再回到下巴特写，假装只剩下一个卡通小人在喊救命。",
+    "id": "Pertama, rekam close-up dagu, bayangkan ada karakter kartun kecil berbicara. Lalu, pindah ke tangan yang mengambil masker dari kemasan. Terakhir, kembali ke close-up dagu, bayangkan hanya ada satu karakter kartun kecil yang berteriak minta tolong."
+   },
+   "lines": "Masa iya sih? Dagu kering gue ketemu hyaluronic acid. Pantesan Sicenari sheet mask viral. Pemakaian rutin, kering gue makin berkurang. Tolong!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

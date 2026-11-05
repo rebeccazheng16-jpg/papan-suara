@@ -1,0 +1,121 @@
+{
+ "id": "V0106",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "Pink Bling Bling Cream",
+  "id": "Pink Bling Bling Cream dari VEIRFOO"
+ },
+ "hook": {
+  "zh": "换季皮肤脱水怎么办？",
+  "id": "Kulit dehidrasi saat pancaroba?"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "找一个安静、明亮的地方，背景干净。穿一件像居家服的T恤。把VEIRFOO Pink Bling Bling Cream放在手边，盖子盖好，标签朝前。手机拿稳，脸在画面中间。",
+  "id": "Cari tempat yang tenang dan terang, latar belakangnya bersih. Pakai baju kaos santai. Siapkan VEIRFOO Pink Bling Bling Cream, tutupnya rapat, labelnya menghadap kamera. Pegang HP yang stabil, wajahmu di tengah frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "看着镜头，眉毛稍微抬高一点，像在问问题。手不要入镜。",
+    "id": "Lihat ke kamera, alis sedikit terangkat, seperti bertanya. Tangan jangan masuk frame."
+   },
+   "lines": "Musim pancaroba begini, kulit kamu ketarik, kusam, gampang merah, padahal tiap hari sudah pakai mist dan toner?"
+  },
+  {
+   "n": 2,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先用食指在下巴旁边轻轻摇晃，不要碰到脸，带着一点点知道的微笑。然后靠近镜头，清楚地说出诊断。",
+    "id": "Awalnya, goyangkan jari telunjuk di samping dagu, jangan sentuh wajah, senyum tipis. Lalu, dekatkan wajah ke kamera dan ucapkan diagnosisnya dengan jelas."
+   },
+   "lines": "Ini bukan kulit kering biasa. 이건 탈수예요. Namanya dehidrasi, kulitnya haus air."
+  },
+  {
+   "n": 3,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "举起一只手在脸颊旁边，手掌平坦像一层皮肤，用另一只手的指尖轻轻敲击手背，边解释边说。然后放下手，看向旁边，再看回镜头，一只手放在下巴旁边，像有什么东西溜走了。",
+    "id": "Angkat satu tangan di samping pipi, telapak tangan datar seperti lapisan kulit, ketuk punggung tangan dengan ujung jari tangan lain sambil menjelaskan. Lalu, turunkan tangan, lihat ke samping, lalu kembali ke kamera, satu tangan di dekat dagu seolah ada yang lepas."
+   },
+   "lines": "Mist, toner, serum hyaluronic acid. Semua itu bawa air masuk ke kulit. Tapi kalau tidak ditutup lapisan minyak, airnya menguap lagi. Sekarang pancaroba, panas dan hujan ganti-ganti, ditambah ruangan AC, airnya kabur lebih cepat. 그래서 더 건조해져요."
+  },
+  {
+   "n": 4,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "表情变得严肃而平静，眉毛平整，直视镜头。最后轻轻点头，表示知道。",
+    "id": "Ekspresi jadi serius dan tenang, alis datar, lihat lurus ke kamera. Di akhir, anggukkan kepala sedikit, seperti tahu."
+   },
+   "lines": "Kalau dibiarkan, kulit makin ketarik, gampang sensitif, garis halus makin kelihatan. 무섭죠?"
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先在家里晚上，穿T恤，皮肤看起来有点暗沉干燥，没有光泽。把脸转向镜头展示脸颊。然后回到原来的场景，把产品举到脸颊旁边，盖子盖好，标签朝前，对着镜头说话。",
+    "id": "Pertama, di rumah malam hari, pakai kaos, kulit terlihat agak kusam dan kering, tanpa kilau. Miringkan wajah untuk menunjukkan pipi ke kamera. Lalu, kembali ke setting awal, angkat produk di samping pipi, tutupnya rapat, labelnya menghadap kamera, dan bicara ke kamera."
+   },
+   "lines": "Saya sendiri kulit kering, kerja di ruangan AC tiap hari. Jadi tujuh hari saya pakai ini: Pink Bling Bling Cream dari VEIRFOO. 자, 보세요. Hasilnya di akhir video."
+  },
+  {
+   "n": 6,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "举着产品在脸颊旁边，盖子盖好，标签朝前，微笑。然后用另一只手在画面下方数一、二、三，每说一个成分就伸出一根手指，不要碰到脸。",
+    "id": "Pegang produk di samping pipi, tutupnya rapat, labelnya menghadap kamera, senyum tipis. Lalu, dengan tangan lain di bagian bawah frame, hitung satu, dua, tiga dengan jari, satu jari untuk setiap bahan, jangan sentuh wajah."
+   },
+   "lines": "Kenapa saya suka? Ada tiga bahan yang kerja bareng. Tiga jenis hyaluronic acid bawa air masuk. Minyak jojoba tutup di atasnya, airnya terkunci. Sodium DNA dan kolagen, kulit saya terasa kenyal dan glowing. 완벽해요."
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一天晚上，在梳妆台前，把米粒大小的乳液挤到指尖，点在脸颊上，然后轻轻向上涂抹直到吸收。然后第三天早上，在卧室里，皮肤看起来不那么暗沉，有淡淡的光泽。把脸颊转向光线，然后满意地微笑。",
+    "id": "Hari pertama malam, di meja rias, pencet lotion sebesar biji beras ke ujung jari, oleskan di pipi dan ratakan dengan gerakan ke atas sampai meresap. Lalu, hari ketiga pagi, di kamar tidur, kulit terlihat tidak kusam lagi dan ada kilau sehat. Putar pipi ke arah cahaya, lalu senyum puas."
+   },
+   "lines": "Pakai di langkah terakhir, malam. Sedikit saja, ratakan. Hari ketiga, kulit saya sudah tidak ketarik. 벌써요."
+  },
+  {
+   "n": 8,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第五天晚上，在客厅书桌前，皮肤看起来更光滑，有湿润的光泽。把脸颊转向光线展示。然后第七天，回到原来的场景，皮肤水润有光泽，在颧骨和鼻梁有自然的高光。把脸颊转向光线，然后带着自豪的微笑看回镜头，对着镜头说话。",
+    "id": "Hari kelima malam, di meja ruang tamu, kulit terlihat lebih halus dan lembap. Putar pipi ke arah cahaya untuk menunjukkan. Lalu, hari ketujuh, kembali ke setting awal, kulit lembap dan glowing, ada highlight alami di tulang pipi dan batang hidung. Putar pipi ke arah cahaya, lalu kembali ke kamera dengan senyum bangga, dan bicara ke kamera."
+   },
+   "lines": "Hari kelima, kulit saya makin halus. Hari ketujuh, kulit saya lembap dan glowing, kayak kaca. 물광 피부! Dan tidak lengket, walau Jakarta panas."
+  },
+  {
+   "n": 9,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "举着产品在脸颊旁边，盖子盖好，标签朝前，表情真诚。然后坚定地点头，用空闲的手指向画面左下角。最后对着镜头温暖地微笑。",
+    "id": "Pegang produk di samping pipi, tutupnya rapat, labelnya menghadap kamera, ekspresi tulus. Lalu, anggukkan kepala dengan tegas, tunjuk ke sudut kiri bawah frame dengan tangan kosong. Terakhir, senyum hangat ke kamera."
+   },
+   "lines": "Saya ngomong seribu kali, tetap lebih baik kamu coba sendiri. Di Korea harganya segini. Di sini seratus persen original, 정품이에요. Coba lihat di keranjang kuning, cuma berapa. Yuk, sama-sama punya kulit cantik!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

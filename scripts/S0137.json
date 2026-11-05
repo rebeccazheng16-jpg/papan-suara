@@ -1,0 +1,61 @@
+{
+ "id": "S0137",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI Micro Sculpting Collagen Shot Mask"
+ },
+ "hook": {
+  "zh": "无口播敷面膜，展现水光肌",
+  "id": "Pakai masker tanpa bicara, tunjukkan kulit glowing"
+ },
+ "src": "TikTok @阜阳娟子",
+ "cam": "user",
+ "prep": {
+  "zh": "在白天，卧室拱窗自然光下拍摄。素颜，穿居家服。把手机放在一个地方，让脸部能被自然光充分地照亮。准备好 SICENARI 面膜袋，确保它已经打开。",
+  "id": "Syuting di kamar tidur dengan cahaya alami dari jendela di siang hari. Wajah tanpa makeup, pakai baju rumah. Posisikan HP agar wajahmu terang kena cahaya alami. Siapkan kemasan masker SICENARI yang sudah terbuka."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着打开的面膜袋，从上方俯视袋内。用两根手指从袋中夹起一片面膜，让精华液滴回袋中。",
+    "id": "Pegang kemasan masker yang sudah terbuka dengan satu tangan, lihat ke dalam dari atas. Ambil satu lembar masker dengan dua jari, biarkan esensnya menetes kembali ke dalam kemasan."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 5,
+   "talk": false,
+   "face": {
+    "zh": "脸上已敷好面膜",
+    "id": "Masker sudah terpasang di wajah"
+   },
+   "do": {
+    "zh": "面膜已敷在脸上。用指尖轻轻按压面膜，从眼下向太阳穴方向抚平。然后用双手轻轻捧住敷着面膜的脸，闭上眼睛，放松地呼气，露出平静满足的微笑。",
+    "id": "Masker sudah di wajahmu. Tekan lembut masker dengan ujung jari dari bawah mata ke arah pelipis. Lalu, tangkupkan kedua telapak tanganmu di pipi yang tertutup masker, pejamkan mata, hembuskan napas perlaks, dan tersenyum tipis."
+   },
+   "lines": ""
+  },
+  {
+   "n": 3,
+   "sec": 5,
+   "talk": false,
+   "face": {
+    "zh": "脸上已敷好面膜",
+    "id": "Masker sudah terpasang di wajah"
+   },
+   "do": {
+    "zh": "面膜已敷在脸上。用双手捏住发际线处的面膜边缘，从额头向下巴方向，一次性完整地撕下面膜。然后抬起双手，用手掌框住脸颊和下巴，对着镜头微笑。",
+    "id": "Masker sudah di wajahmu. Jepit ujung masker di garis rambut dengan kedua tangan, lalu tarik masker ke bawah dari dahi ke dagu dalam satu gerakan utuh. Kemudian, angkat kedua tanganmu dan bingkai wajahmu dengan telapak tangan di sepanjang rahang dan pipi, lalu tersenyum ke kamera."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

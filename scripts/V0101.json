@@ -1,0 +1,100 @@
+{
+ "id": "V0101",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "紫管素颜霜 Purple Tube",
+  "id": "VEIRFOO Purple Tube"
+ },
+ "hook": {
+  "zh": "伪素颜神器·早上快速出门",
+  "id": "Produk rahasia untuk tampilan no-makeup makeup, cepat siap-siap di pagi hari"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在梳妆台前，光线要好，产品标签朝前。穿日常出门的衣服。手机拿稳，脸部占画面一半。",
+  "id": "Siapkan di meja rias, pastikan cahaya bagus. Produk VEIRFOO Purple Tube tutupnya tertutup, label menghadap kamera. Pakai baju santai untuk keluar rumah. Pegang HP stabil, wajahmu penuhi setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，从额头到下巴。一开始脸是素颜的。从第一秒开始，把产品挤到脸颊上，用手指快速涂抹。涂抹的区域会立刻变亮。继续快速涂抹半边脸。看着镜头，兴奋地说。",
+    "id": "Ambil close-up wajahmu, dari dahi sampai bawah dagu. Awalnya wajahmu polos. Dari detik pertama, pencet produk ke pipimu, lalu ratakan cepat dengan jari. Area yang diolesi akan langsung terlihat lebih cerah. Terus ratakan cepat di separuh wajahmu. Lihat ke kamera, bicara dengan semangat."
+   },
+   "lines": "VEIRFOO Purple Tube, krim yang bikin kamu bisa tidur sepuluh menit lebih lama tiap pagi. Lihat, sisi yang dipakai ini buatku lebih glowing, sisi satunya kusam dan kekuningan."
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "face": {
+    "zh": "半边脸已经涂好产品，另一半素颜。",
+    "id": "Separuh wajah sudah pakai produk, separuh lagi polos."
+   },
+   "do": {
+    "zh": "脸部特写，看着镜头。涂好产品的那半边脸是亮的，另一半是暗的。用食指轻拍亮的脸颊，然后跳到暗的脸颊，眉毛兴奋地扬起。用画外音说。",
+    "id": "Ambil close-up wajahmu, lihat ke kamera. Separuh wajah yang sudah pakai produk terlihat glowing, separuh lagi kusam. Ketuk pipi yang glowing dengan jari telunjuk, lalu pindah ke pipi yang kusam, angkat alis dengan semangat. Ucapkan ini sebagai voiceover."
+   },
+   "lines": "Satu tube ini gantiin toner, pelembap, primer, tone-up, sekaligus foundation. Sekali dibaur, buatku langsung kelihatan kayak pakai ring light, kayak glass skin ala Korea."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，从额头到下巴。看起来很困，眼睛半闭。涂抹其他面霜，面霜会搓泥，看起来厚重、斑驳、像面具。轻轻叹气，然后说。",
+    "id": "Ambil close-up wajahmu, dari dahi sampai bawah dagu. Terlihat mengantuk, mata setengah tertutup. Oleskan krim lain, krimnya menggumpal dan terlihat tebal, belang-belang, seperti topeng. Hela napas pelan, lalu bicara."
+   },
+   "lines": "Nggak perlu bangun pagi buat pakai lapis demi lapis, yang ujungnya menggumpal dan kayak topeng. Hasilnya lebih ringan dari foundation, lebih rapi dari tone-up biasa, tinggal pakai lipstik langsung berangkat."
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "face": {
+    "zh": "脸部干净，素颜。",
+    "id": "Wajah bersih, polos."
+   },
+   "do": {
+    "zh": "脸部特写，脸部干净，素颜。用指尖轻按脸颊，然后咧嘴笑。说。",
+    "id": "Ambil close-up wajahmu, wajah bersih, polos. Tekan pipimu pelan dengan ujung jari, lalu tersenyum lebar. Bicara."
+   },
+   "lines": "Yang paling penting, ini skincare juga. Ada niacinamide, centella, dan PDRN, kulitku berasa lebih cerah dan terawat. Makin lama aku pakai, kulitku berasa makin glowing, nggak gampang kusam."
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "脸部已经涂好产品，看起来完美。",
+    "id": "Wajah sudah pakai produk, terlihat sempurna."
+   },
+   "do": {
+    "zh": "脸部特写，脸部完美。一只手拿着产品放在脸颊旁边，盖子盖好，标签朝前。自信地、兴奋地轻轻点头。说。",
+    "id": "Ambil close-up wajahmu, wajahmu terlihat sempurna. Satu tangan memegang produk di samping pipimu, tutupnya tertutup, label menghadap kamera. Anggukkan kepala sedikit dengan percaya diri dan semangat. Bicara."
+   },
+   "lines": "Dan cukup pakai sabun cuci muka biasa udah bersih, nggak perlu ribet makeup remover. Satu tube ini bikin base makeup pagi-pagi beres dalam satu langkah, ringan, rapi, dan tetap kelihatan glowing seharian."
+  },
+  {
+   "n": 6,
+   "sec": 8,
+   "talk": true,
+   "face": {
+    "zh": "脸部已经涂好产品，看起来完美。",
+    "id": "Wajah sudah pakai produk, terlihat sempurna."
+   },
+   "do": {
+    "zh": "脸部特写，脸部完美。一只手拿着产品放在脸颊旁边，盖子盖好，标签朝前。身体稍微向镜头倾斜。说。",
+    "id": "Ambil close-up wajahmu, wajahmu terlihat sempurna. Satu tangan memegang produk di samping pipimu, tutupnya tertutup, label menghadap kamera. Condongkan sedikit badan ke arah kamera. Bicara."
+   },
+   "lines": "Yang mau base makeup cepat sebelum keluar rumah, wajib coba VEIRFOO Purple Tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "V0036",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
+  "id": "VEIRFOO Sodium DNA Tone-Up Primer"
+ },
+ "hook": {
+  "zh": "伪素颜霜，打造自然好气色",
+  "id": "Tone-up primer untuk tampilan natural dan segar"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在家，光线柔和。穿日常衣服。把手机放在一个地方，让你的脸在画面中央。产品（盖子盖好，标签朝前）放在旁边，方便拿取。",
+  "id": "Di rumah, dengan cahaya lembut. Pakai baju santai. Posisikan HP agar wajahmu di tengah frame. Siapkan produk (tutup rapat, label menghadap kamera) agar mudah diambil."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，面带微笑看镜头。一只手托着下巴，自然地微笑，眼睛也带着笑意。说第一句话。",
+    "id": "Dekatkan wajah ke kamera, senyum ke lensa. Satu tangan menopang dagu, senyum alami sampai ke mata. Ucapkan kalimat pertama."
+   },
+   "lines": "Aku tuh senang deh kalau ada yang bilang, 'Kak, makeup-nya fresh banget kayak habis mandi'. Padahal, salah satu rahasianya tuh ada di complexion doang. Aku selalu suka makeup yang bikin muka kelihatan fresh..."
+  },
+  {
+   "n": 2,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉",
+    "id": "Kulit polos, agak kusam"
+   },
+   "do": {
+    "zh": "用指腹取少量乳液，从脸颊中央向外推开。乳液会瞬间铺开，让皮肤看起来更亮更均匀。然后用一只手拿着产品，放在脸颊旁边，让脸和产品都在画面里。再用食指指向鼻翼附近的泛红处，然后用乳液涂抹均匀。最后用指尖在额头、鼻翼、下巴和眼周点涂乳液，然后轻拍均匀。涂抹时嘴巴闭紧，用画外音说台词。",
+    "id": "Ambil sedikit losion dengan jari, lalu ratakan dari tengah pipi ke luar. Losion akan langsung menyebar, membuat kulit tampak lebih cerah dan rata. Lalu, pegang produk di samping pipi, agar wajah dan produk terlihat di kamera. Kemudian, tunjuk area kemerahan di dekat hidung dengan jari telunjuk, lalu ratakan dengan losion. Terakhir, oleskan losion di dahi, cuping hidung, dagu, dan sekitar mata dengan ujung jari, lalu tepuk-tepuk perlahan. Saat mengaplikasikan, tutup mulutmu dan ucapkan dialog sebagai voiceover."
+   },
+   "lines": "...makanya kalau ada complexion yang bikin kulit kelihatan halus dan natural, aku pasti langsung cek out. Ini aku lagi pakai VEIRFOO Sodium DNA Tone-Up Primer ini..."
+  },
+  {
+   "n": 3,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "涂抹了素颜霜，皮肤提亮均匀",
+    "id": "Sudah pakai tone-up primer, kulit cerah merata"
+   },
+   "do": {
+    "zh": "脸部特写，稍微侧脸，用手指托着下巴，展示涂抹了素颜霜的脸颊，看起来更亮更均匀。然后一只手拿着产品，放在脸颊旁边，做出可爱的表情，然后微笑。用食指轻触脸颊，然后滑过太阳穴，展示产品不卡粉。最后，全脸特写，对着镜头眨眼微笑。",
+    "id": "Dekatkan wajah ke kamera, sedikit miringkan wajah, topang dagu dengan jari, tunjukkan pipi yang sudah pakai tone-up primer, terlihat lebih cerah dan rata. Lalu, pegang produk di samping pipi, buat ekspresi lucu, lalu senyum. Sentuh pipi dengan jari telunjuk, lalu usapkan ke pelipis, tunjukkan produk tidak menggumpal. Terakhir, dekatkan seluruh wajah ke kamera, kedipkan mata dan senyum ke lensa."
+   },
+   "lines": "...nih, lihat bedanya. Pori-pori jadi kelihatan lebih blur, tapi hasilnya tuh tetap natural dan enggak kerasa berat di muka. Yang aku suka lagi nih, finish-nya tuh kayak airbrushed, glowy tapi tetap nyatu ke kulit."
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "涂抹了素颜霜，皮肤清透有光泽",
+    "id": "Sudah pakai tone-up primer, kulit bersih dan bercahaya"
+   },
+   "do": {
+    "zh": "脸部特写，整理头发，然后双手拿着产品，放在脸颊旁边，自然微笑。然后一只手拿着产品，放在身体前方，脸部出画。再双手拿着产品，放在脸颊旁边，自信地对着镜头说话。然后双手托着下巴，闭眼微笑。最后，双手做出无奈又好笑的姿势，然后对着镜头飞吻并眨眼。最后对着镜头挥手告别，然后双手在脸旁做出花朵盛开的姿势。",
+    "id": "Dekatkan wajah ke kamera, rapikan rambut, lalu pegang produk dengan kedua tangan di samping pipi, senyum alami. Lalu, pegang produk dengan satu tangan di depan badan, wajah tidak terlihat. Kemudian, pegang produk dengan kedua tangan di samping pipi, bicara percaya diri ke lensa. Lalu, topang dagu dengan kedua tangan, tutup mata dan senyum. Terakhir, rentangkan tangan seolah tak berdaya tapi geli, lalu berikan ciuman jauh dan kedipkan mata ke kamera. Terakhir, lambaikan tangan ke kamera, lalu buat gerakan tangan seperti bunga mekar di samping wajah."
+   },
+   "lines": "Jadi kelihatan itu smooth, fresh, dan enggak cakey. Emang ya kalau complexion-nya udah bagus tuh bawaannya jadi pede, terus kelihatan segar gitu sepanjang hari. Jadi kalau kalian sering nanya kenapa makeup aku selalu kelihatan fresh！"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "V0073",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "粉水光油霜 Pink Hydraglow Cream",
+  "id": "VEIRFOO Pink Hydraglow Cream"
+ },
+ "hook": {
+  "zh": "粉水光油霜：皮肤水润透亮，告别干燥紧绷",
+  "id": "Pink Hydraglow Cream: Kulit lembap, cerah, dan nggak ketarik lagi!"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内明亮处拍摄。确保背景干净整洁。准备好产品：VEIRFOO粉水光油霜（盖子盖好，标签朝向镜头），以及它的包装盒。穿上漂亮的衣服，化好妆。手机拿稳，脸部占画面一半左右。",
+  "id": "Ambil video di dalam ruangan yang terang. Pastikan latar belakang rapi. Siapkan produk: VEIRFOO Pink Hydraglow Cream (tutupnya tertutup, label menghadap kamera), dan kotak kemasannya. Pakai baju dan makeup yang cantik. Pegang HP dengan stabil, wajahmu sekitar setengah dari bingkai."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 13,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "特写你的脸。先用指尖取少量粉色乳液，快速打圈涂抹在脸的右半边，让它瞬间吸收，变得更亮。然后抬头，微笑。说出台词。",
+    "id": "Close-up wajahmu. Ambil sedikit losion pink dengan ujung jari, lalu oleskan cepat dengan gerakan melingkar di sisi kanan wajahmu, biar langsung meresap dan jadi lebih cerah. Lalu angkat kepala, senyum. Ucapkan dialog."
+   },
+   "lines": "Ternyata mereka nggak bohong! Pas aku ganti krim ke produk yang sama, wajahku kayak ada filter-nya sendiri, glow-nya keluar dari dalam. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Pink Hydraglow Cream dari Korea ini."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "身体稍微侧向镜头。先举起一只手，食指向上指，眼睛跟着看。然后放下，再举起另一只手，食指向下指，眼睛跟着看。动作要快。自信地像给朋友建议一样说出台词。",
+    "id": "Badanmu agak serong ke kamera. Angkat satu tangan, jari telunjuk menunjuk ke atas, matamu ikut melihat ke atas. Lalu turunkan, dan angkat tangan satunya, jari telunjuk menunjuk ke bawah, matamu ikut melihat ke bawah. Gerakannya cepat. Dengan nada percaya diri, seperti memberi tips ke teman, ucapkan dialog."
+   },
+   "lines": "Umur tiga puluhan kulit makin kering, udah pakai pelembap tetap ketarik. Itu bukan kurang air, tapi kurang yang ngunci. Pakai ini aja — beneran harta karun, rasanya kayak perawatan ala klinik Korea."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "特写你的双手。产品盖子已经拧开。轻轻挤压软管，让少量粉色乳液从管口出来，滴在手背上。快速地、有点炫耀地用画外音说出台词。",
+    "id": "Close-up kedua tanganmu. Tutup produk sudah terbuka. Tekan pelan tube-nya, biar sedikit losion pink keluar dari ujungnya, menetes ke punggung tanganmu. Dengan cepat dan sedikit pamer, ucapkan dialog sebagai voiceover."
+   },
+   "lines": "Sodium DNA, Kolagen, Niacinamide — kandungannya sebanyak itu, teksturnya tetap ringan kayak losion, nggak lengket sama sekali. Pas keluar warnanya pink muda, dioles langsung nyatu, tinggal glow-nya doang."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "特写你的双手。双手拿着产品和包装盒，举到脸颊旁边，和脸部一起入镜。产品和包装盒正面朝向镜头。你的声音逐渐高昂，用画外音说出台词。",
+    "id": "Close-up kedua tanganmu. Pegang produk dan kotak kemasannya, angkat di samping pipimu, biar wajahmu dan produknya masuk frame. Produk dan kotaknya menghadap kamera. Suaramu makin meninggi, ucapkan dialog sebagai voiceover."
+   },
+   "lines": "Buatku lembapnya seharian, nggak bikin ketarik. Pagi buat base sebelum makeup, malam sebelum tidur, dua-duanya cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

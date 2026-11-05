@@ -1,0 +1,106 @@
+{
+ "id": "V0099",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "呼吸霜 Breathing Cream",
+  "id": "VEIRFOO Breathing Cream"
+ },
+ "hook": {
+  "zh": "半脸粉底液对比测试",
+  "id": "Tes foundation setengah muka"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在化妆镜前拍，光线要好。准备好 VEIRFOO Breathing Cream、你平时用的粉底液、还有一个化妆粉扑。穿一件简单的上衣。开始拍第一个镜头前，先把妆化好：半边脸只涂普通粉底液，另外半边脸涂混合了VEIRFOO的粉底液。",
+  "id": "Syuting di depan cermin rias, cahayanya yang bagus ya. Siapkan produk VEIRFOO Breathing Cream, foundation kamu yang biasa, sama satu puff bedak. Pakai atasan yang simpel. Sebelum mulai syuting adegan pertama, makeup dulu: setengah muka pakai foundation biasa aja, setengahnya lagi pakai foundation yang udah dicampur VEIRFOO."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "左半边脸涂普通粉底液，右半边脸涂混合了VEIRFOO的粉底液",
+    "id": "Setengah muka kiri pakai foundation biasa, setengah muka kanan pakai foundation yang sudah dicampur VEIRFOO"
+   },
+   "do": {
+    "zh": "你可以先侧着脸，展示并轻拍只涂了普通粉底液的那半边脸。然后，慢慢转头展示另一边，也拍一拍。最后，脸朝前，用粉扑在两边脸颊上都按几下。",
+    "id": "Kamu bisa mulai dengan hadap samping, tunjukkin muka sisi kiri sambil tepuk-tepuk pipi. Terus, putar kepala pelan-pelan ke sisi kanan, tepuk-tepuk pipi kanan. Terakhir, hadap depan dan tekan-tekan kedua pipi pakai puff."
+   },
+   "lines": "Lihat sendiri seberapa penting penyelamat foundation ini. Dua sisi wajah aku pakai foundation yang sama. Sisi yang cuma foundation, sebentar aja udah cakey dan belang. Sisi satunya yang dicampur ini, buatku kelihatan lebih glowing dan halus."
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "全脸涂好混合了VEIRFOO的粉底液，妆感清透发光",
+    "id": "Muka sudah full makeup pakai foundation yang dicampur VEIRFOO, hasilnya glowing dan tipis"
+   },
+   "do": {
+    "zh": "首先，你可以把产品举到脸颊旁，自信地微笑。然后，一边说底妆的问题，一边用手指一个个数，表情可以有点烦。最后，在手背上展示乳霜的质地。",
+    "id": "Pertama, kamu bisa pegang produk di samping pipi sambil senyum bangga. Terus, sambil ngomongin masalah makeup, hitung pakai jari dengan ekspresi agak kesal. Terakhir, tunjukkin tekstur krimnya di punggung tangan."
+   },
+   "lines": "Penyelamat foundation ini, VEIRFOO Breathing Cream, bisa ngubah semua foundation kamu yang susah dipakai jadi foundation glowing. Kusam, nyangkut di garis halus, kering ngelupas, kelihatan abu-abu — semua masalah base makeup-ku berasa langsung beres. Teksturnya creamy, sekali dibaur langsung nyatu."
+  },
+  {
+   "n": 3,
+   "sec": 14,
+   "talk": true,
+   "face": {
+    "zh": "素颜，干净的脸",
+    "id": "Muka bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "你可以在手背上演示怎么混合：一泵粉底液，半泵VEIRFOO。之后，用手指点涂在脸上，然后拍开。最后，脸朝前，慢慢转头展示妆效。",
+    "id": "Kamu bisa tunjukkin cara campurnya di punggung tangan: satu pump foundation biasa, setengah pump VEIRFOO. Setelah itu, aplikasikan ke muka pakai jari, totol-totol terus ratain. Terakhir, hadap depan dan putar kepala pelan-pelan buat pamerin hasilnya yang bagus."
+   },
+   "lines": "Caranya gampang banget: foundation kamu satu pump, ini setengah pump, campur di punggung tangan, langsung pakai ke muka. Hasilnya sebagus ini. Cuma glow yang keluar dari dalam kulit yang bisa ngalahin cakey dan belang. Dicampur, dibaur, selesai — makeup nggak sampai sepuluh menit."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "全脸带妆",
+    "id": "Muka sudah full makeup"
+   },
+   "do": {
+    "zh": "开始时，你可以表演很热的样子，用手扇风。然后，自信地笑着举起产品。最后，摸摸脸颊，展示你的底妆依然完美、有光泽。",
+    "id": "Awalnya, kamu bisa akting kepanasan sambil kipas-kipas muka. Terus, pegang produknya dengan yakin sambil senyum. Terakhir, sentuh-sentuh pipi buat nunjukkin makeup-nya masih nempel sempurna dan glowing."
+   },
+   "lines": "Cuacanya panas banget, paling takut siang-siang makeup udah berminyak dan luntur. Tapi pakai ini, kamu nggak perlu takut. Aku seharian syuting di luar, hampir tiga puluh derajat, sampai malam makeup-nya masih cantik banget."
+  },
+  {
+   "n": 5,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "全脸带妆",
+    "id": "Muka sudah full makeup"
+   },
+   "do": {
+    "zh": "你可以把产品举在脸边，摇摇食指，好像在说“别小看它”。然后，一边解释成分，一边用手指比划。最后，对镜头竖个大拇指，开心地抱着产品微笑。",
+    "id": "Kamu bisa pegang produk di samping muka sambil goyangin telunjuk seolah bilang 'jangan salah'. Terus, sambil jelasin kandungannya, tunjukkin angka pakai jari. Terakhir, kasih jempol ke kamera dan peluk produknya sambil senyum senang."
+   },
+   "lines": "Jangan kira penyelamat foundation ini cuma gimmick. Di dalamnya beneran ada PDRN, bahan berharga dari ekstrak salmon — makeup sambil kulitku berasa terawat. Seminggu aku pakai, kulitku berasa lebih kencang. Keren banget, kan? Sekarang aku hampir tiap hari pakai ini."
+  },
+  {
+   "n": 6,
+   "sec": 14,
+   "talk": true,
+   "face": {
+    "zh": "全脸带妆",
+    "id": "Muka sudah full makeup"
+   },
+   "do": {
+    "zh": "这个镜头有三个部分。第一，带妆展示你精致的妆容。第二，卸妆，展示你健康的素颜皮肤。第三，重新化好妆，拿起产品，一边解释一边指向左下角的购物篮。",
+    "id": "Di bagian ini ada tiga adegan. Pertama, dengan makeup, tunjukkin hasil makeup yang rapi. Kedua, hapus makeup-mu dan tunjukkin kulit aslimu yang sehat. Ketiga, pakai makeup lagi, pegang produknya, dan jelasin sambil nunjuk ke arah keranjang kuning di pojok kiri bawah."
+   },
+   "lines": "Makeup-nya rapi banget, kulit tanpa makeup juga buatku kelihatan lebih muda dan kenyal. Ingat, beban makeup ke kulit itu numpuk sedikit demi sedikit. Jadi base makeup kita sendiri harus bisa rawat kulit. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

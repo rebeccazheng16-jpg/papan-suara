@@ -1,0 +1,69 @@
+{
+ "id": "S0162",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 超光子胶原炮 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+ },
+ "hook": {
+  "zh": "揭膜亮脸，精华超多，免洗面膜",
+  "id": "Masker ini bikin glowing, serumnya banyak, dan nggak perlu dibilas!"
+ },
+ "src": "TikTok @linalie6666",
+ "cam": "user",
+ "prep": {
+  "zh": "在浴室洗手台前，光线要明亮柔和。素颜，皮肤干净。准备好一整盒面膜和一片未开封的面膜。手机放在前面，确保脸部在画面中央。",
+  "id": "Di kamar mandi depan wastafel, pastikan cahayanya terang dan lembut. Wajah harus bersih tanpa makeup. Siapkan sekotak masker dan satu sachet masker yang belum dibuka. Letakkan HP di depanmu, pastikan wajahmu di tengah frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "从额头往下撕掉面膜，露出水润的脸。然后拿着面膜袋，轻拍上面的图案。",
+    "id": "Tarik masker dari dahi ke dagu sampai lepas, tunjukkan wajahmu yang glowing. Lalu pegang sachet masker di samping pipi dan ketuk-ketuk gambarnya."
+   },
+   "lines": "Wow! Aku ngerasa kulitku glowing banget, bukan main-main. Aku pakai masker dari Sicenari, ada delapan puluh sembilan persen Bifida, PDRN sembilan ribu sembilan ratus ppm, made in Korea."
+  },
+  {
+   "n": 2,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "双手撕开面膜袋。然后把面膜敷在脸上，用手指轻轻按压抚平。接着把手掌弯起来，展示手心里的精华液。",
+    "id": "Robek sachet masker dengan kedua tangan. Lalu tempel masker ke wajah, ratakan dengan jari. Setelah itu, tunjukkan serum yang banyak di telapak tanganmu."
+   },
+   "lines": "Sekarang aku buka, langsung tempel aja. Jangan lupa ada serumnya, wah, serumnya segini banyak, satu lembar isinya dua puluh lima ml."
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着面膜",
+    "id": "Masker sudah menempel di wajah"
+   },
+   "do": {
+    "zh": "敷着面膜，用指尖轻拍脸颊。然后从额头往下撕掉面膜。最后把脸凑近镜头，展示水润的皮肤。",
+    "id": "Saat pakai masker, tepuk-tepuk pipi dengan ujung jari. Lalu tarik masker dari dahi ke dagu sampai lepas. Terakhir, dekatkan wajahmu ke kamera, tunjukkan kulitmu yang glowing."
+   },
+   "lines": "Tunggu lima menit. Udah lima menit, langsung dicopot, wah! Aku ngerasa wajahku glowing banget, bukan main-main."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "用手掌轻拍脸颊和下巴，帮助精华液吸收。然后对着镜头微笑，用食指指向左下角，最后挥手说再见。",
+    "id": "Tepuk-tepuk pipi dan rahang dengan telapak tangan untuk membantu serum meresap. Lalu senyum ke kamera, tunjuk ke kiri bawah, dan lambaikan tangan sambil bilang sampai jumpa."
+   },
+   "lines": "Nggak usah dibilas, sisa serumnya tepuk-tepuk aja, langsung meresap. Wah, so cool! Yang mau glowing kayak gini, klik keranjang kuning di kiri bawah, cobain satu kotak ya. Bye-bye!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

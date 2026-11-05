@@ -1,0 +1,83 @@
+{
+ "id": "V0009",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光霜 VEIRFOO Blingbling Cream",
+  "id": "VEIRFOO Blingbling Cream"
+ },
+ "hook": {
+  "zh": "水光肌的秘密：韩国PDRN肽面霜",
+  "id": "Rahasia kulit glowing: Krim PDRN Peptide Korea"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在浴室或卧室里，找一个光线明亮、温暖的地方。确保背景干净整洁。穿上你最喜欢的衣服，看起来自然又漂亮。把VEIRFOO面霜放在手边，盖子盖好，标签朝向镜头。把手机放在一个固定的地方，让你的脸占据屏幕的一半左右。",
+  "id": "Di kamar mandi atau kamar tidur, cari tempat dengan cahaya terang dan hangat. Pastikan latar belakang bersih dan rapi. Pakai baju favoritmu yang terlihat natural dan cantik. Siapkan krim VEIRFOO, tutupnya terpasang, label menghadap kamera. Letakkan HP di tempat yang stabil, wajahmu sekitar setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把盖子拿掉，挤一小点乳液到脸颊上。把管子放下，用指尖轻轻拍打乳液，直到它融化变透明，皮肤看起来更亮、更有光泽。然后，拿起盖好的管子，放在脸颊旁边，看着管子，再看着镜头，微笑推荐。",
+    "id": "Buka tutupnya, lalu pencet sedikit krim ke pipimu. Letakkan tube-nya, lalu tepuk-tepuk lembut krimnya dengan ujung jari sampai meresap dan kulitmu terlihat lebih cerah dan glowing. Lalu, ambil tube yang sudah tertutup, pegang di samping pipimu, lihat ke tube sebentar, lalu lihat ke kamera dan senyum merekomendasikan."
+   },
+   "lines": "Pakai aja dulu, kalau nggak cocok tinggal balikin kok. Cobain deh krim glowing dari Korea ini."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把头稍微倾斜，用食指轻轻指着你饱满、发光的脸颊，然后沿着下巴滑到下巴，自信地微笑。然后，把盖好的管子放在一个小木托盘上，标签朝上。最后，用双手把盖好的管子举到脸颊旁边，标签朝向镜头，轻轻点头数着步骤。",
+    "id": "Miringkan kepala sedikit, lalu tunjuk pipimu yang kenyal dan glowing dengan jari telunjuk, lalu geser jarimu sepanjang rahang sampai dagu, senyum percaya diri. Lalu, letakkan tube yang sudah tertutup di atas nampan kayu kecil, label menghadap ke atas. Terakhir, pegang tube yang sudah tertutup dengan kedua tangan di samping pipimu, label menghadap kamera, dan anggukkan kepala sambil menghitung langkahnya."
+   },
+   "lines": "Liat nih, aku masih polosan banget, tapi kulitku udah glowing. Krim glowing yang lagi viral gara-gara makeup artist Korea ini, satu tube doang udah gantiin toner, serum, sama pelembab kamu sekaligus."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "水光霜打底，脸颊上有一些粉底液点。",
+    "id": "Sudah pakai krim glowing sebagai dasar, dan ada beberapa titik foundation cair di pipi."
+   },
+   "do": {
+    "zh": "用无名指和中指的指尖，从中心向外轻轻涂抹脸颊上的粉底液点，使其融入皮肤。然后，稍微抬起下巴，用食指轻拍脸颊，露出惊喜的笑容。",
+    "id": "Dengan ujung jari manis dan tengah, ratakan titik-titik foundation cair di pipimu dari tengah ke luar, biarkan meresap ke kulit. Lalu, angkat dagumu sedikit dan tepuk pipimu dengan jari telunjuk, tunjukkan senyum terkejut."
+   },
+   "lines": "Jadi pas aku udah pakai krim VEIRFOO ini, foundation-nya tuh jadi jauh lebih nempel, gampang banget diratain walaupun cuma pakai tangan. Ya ampun, nempel banget sih!"
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": {
+    "zh": "淡妆，皮肤水润有光泽。",
+    "id": "Makeup tipis, kulit glowing dan lembap."
+   },
+   "do": {
+    "zh": "把盖好的管子举到脸颊旁边，标签朝向镜头，轻轻转动手腕，让银色表面捕捉光线。然后，把盖子拿掉，挤一点乳液到手背上，用指尖轻轻涂抹，直到它变成透明、有光泽的薄膜。最后，把盖好的管子举到脸颊旁边，标签朝向镜头，轻轻抬起眉毛。",
+    "id": "Pegang tube yang sudah tertutup di samping pipimu, label menghadap kamera, lalu putar sedikit pergelangan tanganmu agar permukaan peraknya menangkap cahaya. Lalu, buka tutupnya, pencet sedikit krim ke punggung tanganmu, lalu ratakan dengan ujung jari sampai menjadi lapisan bening dan glowing. Terakhir, pegang tube yang sudah tertutup di samping pipimu, label menghadap kamera, dan angkat alis sedikit."
+   },
+   "lines": "Ini krim glowing yang dijual di klinik kecantikan Korea. Di dalemnya ada Salmon PDRN sama peptide, bahan yang sering dipakai serum high-end. Formula semewah ini jarang banget ada di sini."
+  },
+  {
+   "n": 5,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "晚上，穿着睡衣，在昏暗的灯光下，用指尖以缓慢、向上、小圆圈的方式按摩脸颊，放松而平静。然后，早上，在明亮的日光下，轻轻捏住饱满的脸颊，然后松开。最后，把盖好的管子举到脸颊旁边，标签朝向镜头，抬起眉毛，然后用食指指向屏幕左下角，真诚地看着镜头，快速而热情地结束。",
+    "id": "Malam hari, pakai piyama, di bawah cahaya lampu tidur yang redup, pijat pipimu dengan ujung jari secara perlahan, melingkar ke atas, santai dan tenang. Lalu, pagi hari, di bawah cahaya matahari yang terang, cubit lembut pipimu yang kenyal, lalu lepaskan. Terakhir, pegang tube yang sudah tertutup di samping pipimu, label menghadap kamera, angkat alis, lalu tunjuk sudut kiri bawah layar dengan jari telunjuk, lihat ke kamera dengan tulus, dan akhiri dengan cepat dan antusias."
+   },
+   "lines": "Malam aku pakai, garis halusku berasa keisi, pagi sebelum makeup aku ngerasa glowing kayak cewek Korea, pipi berasa lembut kenyal. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

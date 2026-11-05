@@ -1,0 +1,66 @@
+{
+ "id": "V0128",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO Golden Mask 鎏金蛋白膜",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "何泓姗同款洗面奶",
+  "id": "Masker yang sama kayak Vallene"
+ },
+ "src": "TikTok @vallene",
+ "cam": "user",
+ "prep": {
+  "zh": "在家中室内拍摄，使用手机前置摄像头自拍。确保脸部光线明亮柔和，化淡妆，涂裸粉色口红。准备好产品，盖子盖好，标签朝向镜头。确保脸部干净，没有任何化妆品残留。",
+  "id": "Syuting di dalam rumah, pakai kamera depan HP. Pastikan muka kena cahaya terang dan lembut, pakai makeup natural, lipstik pink nude. Siapin produknya, tutupnya terpasang, labelnya menghadap kamera. Pastikan muka bersih, nggak ada sisa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机举到手臂长度，像在和朋友聊天一样兴奋。把产品举到脸颊旁边，对着镜头晃动一下，露出大大的笑容。然后切换角度，用手指轻触脸颊、鼻侧和下巴，同时列举皮肤问题。",
+    "id": "Pegang HP sejauh lengan, semangat kayak lagi cerita ke teman. Angkat produknya di samping pipi, goyang-goyangkan ke arah kamera sambil senyum lebar. Lalu ganti sudut, sentuh ringan pipi, sisi hidung, dan dagu sambil menyebutkan masalah kulitmu."
+   },
+   "lines": "Selalu percaya sama selera Vallene soal pilih masker, dan ternyata dia memang nggak bohong! Pas aku ganti ke masker yang sama kayak dia, wajahku yang kusam, pori-poriku, kulitku yang kering mengelupas..."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机举到手臂长度。把产品举到脸颊旁边，对着镜头推近再拉远，眉毛兴奋地挑起。然后切换角度，把产品举到脸颊旁边，慢慢倾斜，让金色全息光泽在光线下闪烁，同时肯定地点头。",
+    "id": "Pegang HP sejauh lengan. Angkat produknya di samping pipi, dorong sedikit ke arah kamera lalu tarik lagi, alisnya diangkat karena semangat. Lalu ganti sudut, angkat produknya lagi di samping pipi, lalu miringkan perlahan agar kilau emas holografiknya berkilauan di cahaya, sambil mengangguk yakin."
+   },
+   "lines": "Ini dia VEIRFOO Golden Mask yang lagi viral banget, masker protein yang tinggal dioles, terus pas kering bisa dikelupas satu lembar utuh. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机举到手臂长度。用刷子把乳白色面霜均匀地刷在脸颊上，涂抹两三下。然后切换到全脸覆盖着干膜的镜头，用指尖轻按脸颊，展示它已经变干成膜。接着用拇指和食指捏住脸颊外侧的膜，向旁边拉开，撕下一片薄膜。最后切换到脸部发光的镜头，用指背轻抚脸颊，露出开心的笑容。",
+    "id": "Pegang HP sejauh lengan. Pakai kuas, oleskan krim putih susu secara merata di pipi, dua atau tiga kali usapan. Lalu ganti ke tampilan seluruh wajah tertutup masker kering, tekan ringan pipi dengan ujung jari untuk menunjukkan sudah kering jadi lapisan. Kemudian cubit lapisan masker di tepi luar pipi dekat telinga dengan ibu jari dan telunjuk, lalu tarik ke samping dari wajahmu, lepaskan lapisan tipisnya. Terakhir, ganti ke tampilan wajah yang bercahaya, usap pipi dengan punggung jari dan tersenyum senang."
+   },
+   "lines": "Teksturnya kayak krim, cukup oles tipis selapis, tunggu sampai kering, terus kelupas dari pinggir wajah. Kulit wajahku kerasa lebih halus, kelihatan lebih cerah dan glowing, tapi tetap lembut."
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机举到手臂长度。把产品举到脸颊旁边，眉毛挑起，露出会心一笑。然后把头转向另一边，用拿着产品的同一只手的手指指向画面左下角，同时保持产品在脸颊旁边。最后开心地轻轻点头，像在向朋友推荐。",
+    "id": "Pegang HP sejauh lengan. Angkat produknya di samping pipi, angkat alis dengan senyum tipis. Lalu miringkan kepala ke sisi lain, jari tangan yang memegang produk menunjuk ke pojok kiri bawah layar, sambil tetap memegang produk di samping pipi. Terakhir, mengangguk kecil dengan ceria, seperti merekomendasikan ke teman."
+   },
+   "lines": "Di Korea harganya segini loh. Sis, kalau wajahmu kusam dan pori-porimu besar, langsung klik keranjang kuning di kiri bawah, cobain Golden Mask dari Korea ini!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

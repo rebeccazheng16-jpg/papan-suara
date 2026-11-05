@@ -1,0 +1,50 @@
+{
+ "id": "V0017",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 素颜霜",
+  "id": "VEIRFOO Tone-Up Primer"
+ },
+ "hook": {
+  "zh": "韩国底妆真的很厉害",
+  "id": "Orang Korea jago banget soal base makeup"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在卧室里拍，光线要好，比如白天靠窗。准备好VEIRFOO素颜霜。手机自拍模式，脸大概占画面一半。穿一件简单的上衣。",
+  "id": "Shooting di kamar, cari cahaya yang terang, misalnya deket jendela pas siang. Siapin produk VEIRFOO Tone-Up Primer. Rekam pakai kamera depan, pegang HP-nya deket aja biar muka kamu kelihatan setengah layar. Pakai baju atasan yang simpel."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "素颜，脸上什么都没涂",
+    "id": "Muka bersih, belum pakai apa-apa"
+   },
+   "do": {
+    "zh": "先把一点素颜霜涂在一边脸颊上，拍开。看到效果后，做出有点惊讶的表情，然后说第一句话。接着，一边往脸上其他地方点涂素颜霜，一边举起产品，说剩下的话。",
+    "id": "Coba olesin sedikit primer ke satu sisi pipi, tepuk-tepuk sampai rata. Pas lihat hasilnya, kamu bisa tunjukin ekspresi kaget, terus bilang kalimat pertama. Sambil ngomong kalimat kedua dan ketiga, kamu bisa pegang produknya di sebelah muka sambil olesin primernya ke seluruh wajah."
+   },
+   "lines": "Astaga… beneran sih, orang Korea emang jago banget soal base makeup! Baru makeup dikit udah cakey, nggak makeup malah kelihatan kusam… Makanya wajib cobain VEIRFOO Tone-Up Primer dari Korea. Aku suka banget hasilnya!"
+  },
+  {
+   "n": 2,
+   "sec": 15,
+   "talk": true,
+   "face": {
+    "zh": "全脸已经涂好素颜霜",
+    "id": "Muka sudah rata pakai tone-up primer"
+   },
+   "do": {
+    "zh": "开始时，把产品举在脸旁边，说第一句话。然后，可以在手背上展示一下质地，说第二句话。指指自己的脸颊，展示效果，说第三句话。最后，再次举起产品，有活力地说完最后两句。",
+    "id": "Mulai dengan pegang produk di samping muka sambil bilang kalimat pertama. Terus, kamu bisa tunjukin teksturnya di punggung tangan sambil ngomong kalimat kedua. Tunjuk pipi kamu buat nunjukkin hasilnya, lalu bilang kalimat ketiga. Terakhir, pegang lagi produknya dan ucapin dua kalimat terakhir dengan semangat."
+   },
+   "lines": "Satu tube ini punya tiga kandungan brightening dan multi-peptide, ibarat vitamin buat kulit. Lihat deh, creamy banget teksturnya! Lihat deh, kulitku berasa tetap flawless! Satu tube ini punya empat fungsi sekaligus: primer, tone-up, cover, dan glow. Original Korea, harganya cuma segini. Cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

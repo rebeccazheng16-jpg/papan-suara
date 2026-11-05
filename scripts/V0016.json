@@ -1,0 +1,50 @@
+{
+ "id": "V0016",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光霜（Blingbling Cream）",
+  "id": "VEIRFOO Blingbling Cream"
+ },
+ "hook": {
+  "zh": "试一下，我的脸马上就水光感满满",
+  "id": "Coba dulu, mukaku langsung glowing parah"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内拍，白天光线好的时候。准备好VEIRFOO水光霜，桌子上可以放几瓶其他大牌护肤品当背景。穿日常的衣服就行。手机拿近一点，让脸占屏幕一半左右。",
+  "id": "Syuting di dalam ruangan pas siang hari, cari cahaya yang bagus. Siapkan produk VEIRFOO Blingbling Cream dan beberapa botol skincare merek lain. Pakai baju santai aja. Pegang HP agak dekat, biar muka kamu kelihatan setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "先化好一个韩式水光妆",
+    "id": "Muka sudah pakai makeup dewy ala Korea"
+   },
+   "do": {
+    "zh": "这部分需要拍几个短镜头再剪辑到一起。镜头1：先化好妆，手托着下巴，对镜头笑一下，然后可以稍微转头，展示皮肤的光泽。镜头2：卸妆后素颜出镜，用手指在脸颊上涂一点产品。镜头3：再回到化好妆的样子，把产品拿到脸旁边。镜头4：只拍桌子上的护肤品，然后用手把VEIRFOO产品从中间拿起来。镜头5：回到化好妆的样子，用手指一下脸颊。",
+    "id": "Ini ada beberapa klip pendek yang nanti digabung. Klip 1: Muka sudah makeup, topang dagu, senyum ke kamera, terus coba gerakin kepala sedikit biar kelihatan glowing-nya. Klip 2: Muka bersih tanpa makeup, ambil sedikit produk pakai jari terus olesin ke pipi. Klip 3: Balik ke muka makeup lagi, angkat produknya di samping pipi. Klip 4: Syuting meja rias aja, ada beberapa botol skincare mahal, terus tangan kamu ambil produk VEIRFOO dari situ. Klip 5: Muka makeup lagi, sambil tunjuk pipi pakai jari."
+   },
+   "lines": "Coba dulu deh, mukaku langsung glowing parah. Ternyata buatku dapetin glass skin ala Korea gampang banget ya! Ini nih, VEIRFOO Blingbling Cream dari Korea. Praktis banget, cukup satu produk ini aja buat melengkapi skincare harian."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "脸上是刚涂完水光霜的状态，还没上粉底",
+    "id": "Muka sudah pakai Blingbling Cream, sebelum pakai foundation"
+   },
+   "do": {
+    "zh": "这部分也需要拍几个镜头剪辑。镜头1：脸上只涂了水光霜，用手指轻轻点一下脸颊，然后可以转头展示皮肤的光泽。镜头2：用气垫粉扑在脸上轻轻拍粉底。镜头3：双手拿着产品放在脸旁边，看着镜头说话，说完微笑一下。",
+    "id": "Ini juga ada beberapa klip pendek. Klip 1: Muka cuma pakai Blingbling Cream, coba tepuk-tepuk pipi pelan pakai jari, terus gerakin kepala dikit biar kelihatan glowing-nya. Klip 2: Ambil cushion puff, terus tepuk-tepuk foundation ke muka secara merata. Klip 3: Pegang produk pakai dua tangan di samping pipi, lihat ke kamera sambil ngomong, terus senyum di akhir."
+   },
+   "lines": "Aku ngerasa kulitku glowing dari dalam. Mau pakai foundation apa pun, hasil akhirnya tetap kelihatan kayak glass skin ala Korea. Original Korea, harganya cuma segini loh! Cek keranjang kuning di bawah, ya"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

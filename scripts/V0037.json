@@ -1,0 +1,61 @@
+{
+ "id": "V0037",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 水光霜 (blingbling cream)",
+  "id": "VEIRFOO Blingbling Cream"
+ },
+ "hook": {
+  "zh": "你用错了韩国水光霜",
+  "id": "Kalian salah pakai Blingbling Cream Korea"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在家里拍，白天，光线从前面来。准备好 VEIRFOO 水光霜和气垫粉扑。穿日常的衣服。手机拿稳，脸大概占屏幕一半。",
+  "id": "Shooting di rumah pas siang hari, cahaya dari depan. Siapin produk VEIRFOO Blingbling Cream sama cushion puff. Pakai baju santai aja. Pegang HP yang stabil, muka kamu kira-kira setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "素颜，脸颊有点暗沉",
+    "id": "Muka polos, pipi agak kusam"
+   },
+   "do": {
+    "zh": "开始时，把水光霜举到脸颊旁边，表情自信。然后拿开产品，直视镜头说话。说到“熬夜后”，可以稍微侧脸展示一下有点暗沉的脸颊。然后打开盖子，挤一点膏体涂在脸上，最后再次把产品举到脸颊旁边，微笑。",
+    "id": "Mulai dengan pegang produk di samping pipi, pasang muka pede. Terus, turunin produknya dan lihat lurus ke kamera sambil ngomong. Pas bilang 'abis bergadang', kamu bisa tunjukin pipi kamu yang agak kusam. Terus buka tutupnya, keluarin dikit krimnya, olesin ke pipi. Terakhir, angkat lagi produknya di samping pipi sambil senyum."
+   },
+   "lines": "Blingbling Cream Korea ini— —kalian tuh, selama ini salah pakainya. Ini bukan buat skincare santai tiap malam — ini buat kebutuhan darurat. Abis bergadang, muka kusam dan lelah ? Jangan langsung dandan. Oles dulu ini."
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "这个镜头只拍手。先把盖子拧开，挤一点膏体在手背上。可以先展示一下那滴膏体，然后用手指把它抹开，展示质地。",
+    "id": "Shot ini fokus ke tangan aja ya. Kamu buka tutupnya, terus keluarin dikit krimnya ke punggung tangan. Bisa tunjukin dulu krimnya, baru kamu olesin pake jari buat liatin teksturnya."
+   },
+   "lines": "Dengerin aku, cukup ini satu. Ada Salmon PDRN-nya — kulitku berasa lembap sambil kerasa cerah. Teksturnya krim putih, cepat meresap."
+  },
+  {
+   "n": 3,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "脸上已经涂了水光霜",
+    "id": "Muka sudah pakai Blingbling Cream"
+   },
+   "do": {
+    "zh": "先用气垫粉扑在脸上拍粉底。然后稍微歪头，让光照在脸上，展示“水光肌”效果。接着把产品举到脸颊旁边说话。最后，直视镜头，说到最后一句时，用手指指向左下方（模拟小黄车的位置）。",
+    "id": "Pertama, tepuk-tepuk foundation ke pipi pake cushion puff. Terus, miringin kepala dikit biar keliatan glowing 'glass skin'-nya. Abis itu, pegang produk di samping pipi sambil ngomong. Terakhir, lihat lurus ke kamera, pas ngomong kalimat terakhir, tunjuk ke arah kiri bawah, pura-pura ada keranjang kuning."
+   },
+   "lines": "Timpa sama foundation, hasilnya nyatu, nggak cakey — buatku glowing kayak glass skin seharian. Di Korea satu tube mahal banget. Di sini tiga tube jauh lebih terjangkau, original Korea. Buruan, mumpung lagi promo spesial — cus keranjang kuning."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "V0102",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "注氧小气泡精粹液 VEIRFOO Bubble Cleanser",
+  "id": "VEIRFOO Bubble Cleanser"
+ },
+ "hook": {
+  "zh": "韩女都在用的泡泡膜，在家也能做皮肤管理",
+  "id": "Rahasia kulit halus ala cewek Korea, bisa facial sendiri di rumah!"
+ },
+ "src": "TikTok @xiaoxiao",
+ "cam": "user",
+ "prep": {
+  "zh": "在梳妆台前拍摄，确保背景干净整洁。光线要好，最好是自然光。产品要放在手边，盖子盖好，标签朝向镜头。拍摄时手机要拿稳，脸部占画面一半。穿休闲居家服，素颜出镜。",
+  "id": "Syuting di depan meja rias, pastikan latar belakang rapi. Cahaya harus bagus, kalau bisa cahaya alami. Produk harus siap di tangan, tutupnya tertutup, label menghadap kamera. Pegang HP dengan stabil, wajah mengisi setengah frame. Pakai baju santai di rumah, tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": {
+    "zh": "全脸涂抹薄薄一层淡黄色凝胶",
+    "id": "Wajah sudah dioles tipis gel kuning pucat"
+   },
+   "do": {
+    "zh": "把手机拿近，让脸部充满画面。脸上已经涂了一层薄薄的淡黄色凝胶。凝胶会自己变成白色泡沫，覆盖全脸。看着镜头，好奇又开心，快速有力地说出台词。",
+    "id": "Dekatkan HP, penuhi frame dengan wajahmu. Wajahmu sudah dioles tipis gel kuning pucat. Gelnya akan berubah jadi busa putih, menutupi seluruh wajah. Lihat ke kamera, tunjukkan ekspresi penasaran dan senang, ucapkan kalimat dengan cepat dan bersemangat."
+   },
+   "lines": "Apa rahasianya? Dioles masih bentuk gel, didiamkan sebentar, langsung jadi busa sendiri! Yang sering makeup, hidung sama dagu kerasa kasar dan bruntusan, kayak ada pasirnya?"
+  },
+  {
+   "n": 2,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先不露脸，用手机拍韩国街景，靠近Olive Young店面。然后切换到脸部特写，把产品举到脸颊旁边，瓶盖盖好，标签朝前，面带微笑。最后切换到手部特写，挤出普通洗面奶，揉搓出稀薄的泡沫，泡沫很快消失。不露脸，用画外音说出台词。",
+    "id": "Pertama, rekam jalanan Korea, mendekati toko Olive Young. Lalu, rekam wajahmu dari dekat, pegang produk di samping pipi, tutupnya tertutup, label menghadap depan, senyum sedikit bangga. Terakhir, rekam tanganmu dari dekat, peras sedikit sabun cuci muka biasa ke telapak tangan, gosok sampai berbusa tipis dan cepat hilang. Kamu tidak perlu terlihat, ucapkan kalimat sebagai suara latar."
+   },
+   "lines": "Ini dibawain temenku yang sering bolak-balik Korea. Katanya di sana, sepuluh cewek Korea, sembilan pakai ini — VEIRFOO Bubble Cleanser. Sabun cuci muka biasa cuma bersihin permukaan, kotoran di pori-pori tetap nyangkut."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍手部特写，产品瓶盖已取下，按压泵头，挤出淡黄色凝胶到另一只手掌。不说话。然后切换到脸部特写，脸上已覆盖白色泡沫。看着镜头，像教朋友一样，清晰利落地说出台词。最后切换到脸部特写，泡沫已洗净，用湿毛巾擦拭脸颊，然后用指尖轻触鼻翼，满意地微笑。",
+    "id": "Pertama, rekam tanganmu dari dekat, tutup produk sudah dilepas, tekan pump-nya, keluarkan gel kuning pucat ke telapak tanganmu yang lain. Jangan bicara. Lalu, rekam wajahmu dari dekat, wajahmu sudah tertutup busa putih. Lihat ke kamera, bicara dengan jelas dan cepat seperti mengajari teman. Terakhir, rekam wajahmu dari dekat, busanya sudah hilang, usap pipi dengan handuk basah, lalu sentuh hidungmu dengan ujung jari, senyum puas."
+   },
+   "lines": "Muka dibasahi dulu, oles tipis, tunggu beberapa detik. Busanya muncul sendiri, masuk ke pori-pori, ngangkat minyak sama kotoran yang numpuk. Habis dilap handuk basah, hidungku berasa langsung halus, pori-pori kayak bisa napas lagi."
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍脸部特写，把产品举到脸颊旁边，轻敲瓶身。自信又有点骄傲地说出台词。然后点头一次。再拍脸部特写，轻拍脸颊，露出自然的笑容。然后看着镜头，用两根手指在下巴旁边数数。最后再把产品举到脸颊旁边，身体微微前倾，坚定地点头。",
+    "id": "Pertama, rekam wajahmu dari dekat, pegang produk di samping pipi, ketuk botolnya sekali. Ucapkan kalimat dengan yakin dan sedikit bangga. Lalu, anggukkan kepala sekali. Rekam wajahmu dari dekat lagi, tepuk pipi dengan lembut, berikan senyum alami. Lalu, lihat ke kamera, hitung dengan dua jari di samping dagu. Terakhir, pegang produk di samping pipi lagi, condongkan badan sedikit ke depan, dan anggukkan kepala dengan mantap."
+   },
+   "lines": "Bahan nomor satunya Bifida Ferment, posisinya di atas air, banyak serum high-end harga jutaan juga mengandalkan bahan ini. Lembut, kulit sensitif juga aman. Sudah terdaftar BPOM, dibuat di pabrik Korea, importirnya resmi, semua bisa kamu cek sendiri di kemasannya."
+  },
+  {
+   "n": 5,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍脸部特写，把手机举到下巴附近，屏幕朝外，向上滑动两次，然后放下手机，看着镜头，眉毛微挑，半开玩笑地说出台词。然后切换到手部特写，手背上有一团白色泡沫，用另一只手指按压泡沫，留下一个小凹痕。不露脸，用画外音说出台词。最后切换到脸部特写，把产品举到脸颊旁边，身体微微前倾，面带友好的笑容，用另一只手指指向画面左下角。",
+    "id": "Pertama, rekam wajahmu dari dekat, pegang HP di dekat dagu, layarnya menghadap keluar, geser ke atas dua kali, lalu turunkan HP, lihat ke kamera, angkat alis sedikit, bicara setengah bercanda. Lalu, rekam tanganmu dari dekat, punggung tanganmu tertutup busa putih, tekan busa dengan jari tanganmu yang lain, meninggalkan sedikit lekukan. Kamu tidak perlu terlihat, ucapkan kalimat sebagai suara latar. Terakhir, rekam wajahmu dari dekat, pegang produk di samping pipi, condongkan badan sedikit ke depan, senyum ramah, dan tunjuk ke sudut kiri bawah layar dengan jari telunjukmu yang lain."
+   },
+   "lines": "Dulu aku sampai ke klinik di Korea, sekali treatment hampir 38 juta. Sekarang tiap minggu bisa facial sendiri di rumah. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "V0145",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
+  "id": "VEIRFOO Cloud Cleanser"
+ },
+ "hook": {
+  "zh": "男朋友在门口车里等着去吃饭，先洗把脸再出门",
+  "id": "Pacar sudah menunggu di mobil untuk makan malam, cuci muka dulu sebelum pergi"
+ },
+ "src": "TikTok @天天不懒",
+ "cam": "user",
+ "prep": {
+  "zh": "傍晚，在玄关洗手台前拍摄。大门敞开，门外停一辆浅天蓝色小车。穿浅蓝色牛津纺长袖衬衫，袖子卷起。素颜，脸上没有妆。产品盖子盖好，标签朝向镜头。",
+  "id": "Sore hari, syuting di depan wastafel dekat pintu depan. Pintu terbuka lebar, ada mobil biru muda parkir di luar. Pakai kemeja lengan panjang oxford biru muda, lengan digulung. Wajah polos tanpa makeup. Produk dengan tutup tertutup, label menghadap kamera."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "把脸浸在水盆里，然后快速抬起头，水珠从下巴滴落，脸上都是水珠，两颊有两条洁面乳。快速回头看一眼门外等候的汽车，然后转回镜头，脸部特写，眉毛轻轻上扬，露出坏笑。双手放在水盆边缘。",
+    "id": "Celupkan wajah ke dalam wastafel, lalu angkat kepala dengan cepat, air menetes dari dagu, wajah penuh tetesan air, dan ada dua garis pembersih di pipi. Cepat menoleh ke belakang melihat mobil yang menunggu di luar, lalu kembali ke kamera, close-up wajah, alis sedikit terangkat, senyum nakal. Kedua tangan di tepi wastafel."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": false,
+   "face": {
+    "zh": "脸上覆盖着一层纯白色泡沫",
+    "id": "Wajah tertutup lapisan busa putih bersih"
+   },
+   "do": {
+    "zh": "脸朝左侧，眼睛轻轻闭上。两手手指同时在两颊上快速打圈按摩泡沫。汽车大灯闪烁两次。然后身体前倾，用双手捧水泼脸两次。抬起湿漉漉的脸，拿起毛巾轻拍脸部擦干，然后用一只手把头发从额头向后推。靠近镜头，用一只手指轻按右侧脸颊，露出满意的笑容。一只手拿着产品管，另一只空手食指指向左下角。最后转身走出大门，走向汽车，挥手。",
+    "id": "Wajah menghadap ke kiri, mata tertutup lembut. Ujung jari kedua tangan memijat busa dengan gerakan melingkar cepat di kedua pipi secara bersamaan. Lampu depan mobil berkedip dua kali. Lalu condongkan badan ke depan, ambil air dengan kedua tangan dan basuh wajah dua kali. Angkat wajah yang basah kuyup, ambil handuk putih dari meja dan tepuk-tepuk wajah hingga kering, lalu dorong rambut dari dahi dengan satu tangan. Dekat ke kamera, ujung jari satu tangan menekan lembut pipi di sisi kanan bingkai, yang terasa halus, bersih, dan segar, dengan senyum puas. Satu tangan memegang tube produk, tangan kosong lainnya menunjuk ke sudut kiri bawah. Terakhir, berbalik dan berjalan keluar pintu depan menuju mobil, melambaikan tangan."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

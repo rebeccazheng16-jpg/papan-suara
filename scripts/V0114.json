@@ -1,0 +1,102 @@
+{
+ "id": "V0114",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "贵护肤品真有效",
+  "id": "Skincare mahal itu beneran efektif"
+ },
+ "src": "TikTok @renny.antonious",
+ "cam": "user",
+ "prep": {
+  "zh": "在家，素颜，穿宽松的浅灰色T恤。手机拿远一点，脸占画面一半。光线要柔和明亮。准备好VEIRFOO Golden Mask，盖子盖好，标签朝前。",
+  "id": "Di rumah, muka polos tanpa makeup, pakai kaos abu-abu muda yang longgar. Pegang HP agak jauh, muka kira-kira separuh layar. Cahaya harus lembut dan terang. Siapkan VEIRFOO Golden Mask, tutupnya terpasang, label menghadap kamera."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": false,
+   "face": {
+    "zh": "全脸厚涂一层乳白膏体，还在推开",
+    "id": "Seluruh muka sudah dioles krim putih tebal, masih diratakan"
+   },
+   "do": {
+    "zh": "素颜，穿宽松的浅灰色T恤。全脸涂满乳白色膏体，用指尖慢慢涂抹脸颊，看着镜头。",
+    "id": "Muka polos tanpa makeup, pakai kaos abu-abu muda yang longgar. Seluruh muka sudah dioles krim putih tebal, ratakan perlahan di pipi dengan ujung jari sambil melihat ke kamera."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先做个可爱的嘟嘴表情，然后露出自然的笑容。一只手把产品举到脸旁边，标签朝前，然后稍微推向镜头。",
+    "id": "Buat ekspresi cemberut lucu seperti mau menangis, lalu senyum alami. Angkat produk di samping pipi, label menghadap kamera, lalu dorong sedikit ke arah lensa."
+   },
+   "lines": "Sama banget! Aku dari cobain satu tube, sekarang di rumah selalu ada stok yang ini."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一句话时，一只手把产品举到脸旁边，标签朝前，稍微向镜头倾斜，自豪地点头。第二句话时，把产品放下，手在下巴旁边轻轻比划，解释护肤品无效的原因。",
+    "id": "Saat kalimat pertama, angkat produk di samping pipi, label menghadap kamera, miringkan sedikit ke arah lensa sambil mengangguk bangga. Saat kalimat kedua, turunkan produk, gerakkan tangan di samping dagu, jelaskan kenapa skincare sering tidak efektif."
+   },
+   "lines": "Ini dia VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak ngefek itu sering bukan karena produknya jelek, tapi bahan aktifnya nggak sempat nempel di kulit."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一句话时，用刷子把乳白色膏体涂抹在脸颊上。第二句话时，全脸覆盖着一层干透的膜，用指尖轻按脸颊。第三句话时，用拇指和食指捏住脸颊外侧的膜，向旁边撕下。",
+    "id": "Saat kalimat pertama, oleskan krim putih susu di pipi dengan kuas. Saat kalimat kedua, seluruh muka sudah tertutup lapisan film yang kering, sentuh pipi dengan ujung jari. Saat kalimat ketiga, cubit film di tepi luar pipi dekat telinga dengan ibu jari dan telunjuk, lalu tarik ke samping."
+   },
+   "lines": "Cara pakainya dioles pakai kuas ke seluruh wajah, tunggu sampai kering jadi lapisan, bahan aktifnya kekunci terus di kulit, terakhir dikelupas satu lembar utuh."
+  },
+  {
+   "n": 5,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一句话时，一只手在下巴旁边轻轻数着手指，每说一个场合就数一根手指，并轻轻点头。第二句话时，另一只手把产品举到脸旁边，标签朝前，坚定地点头。",
+    "id": "Saat kalimat pertama, satu tangan menghitung jari di samping dagu, satu jari untuk setiap kesempatan, sambil mengangguk kecil. Saat kalimat kedua, angkat produk di samping pipi, label menghadap kamera, dengan anggukan yakin."
+   },
+   "lines": "Dan ini multifungsi banget: sebelum kencan atau sebelum makeup bisa dipakai sekali, habis pakai retinol, habis treatment di klinik, atau habis eksfoliasi juga bisa. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 6,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一句话时，一只手在下巴旁边随意挥动，手掌朝上，像在抱怨自己的脸，带着一丝苦笑。第二句话时，另一只手把产品举到脸旁边，标签朝前，然后把脸颊稍微转向光源，露出明亮自然的笑容。",
+    "id": "Saat kalimat pertama, satu tangan melambai santai di samping dagu, telapak tangan ke atas, seperti mengeluh tentang wajahnya sendiri, dengan senyum kecut. Saat kalimat kedua, angkat produk di samping pipi, label menghadap kamera, lalu putar pipi sedikit ke arah cahaya jendela, dan berikan senyum cerah alami."
+   },
+   "lines": "Apalagi habis begadang, pas wajah kelihatan lelah, kusam dan nggak ada glow-nya, oles selapis terus dikelupas, kulitku berasa lebih kencang dan kelihatan glowing, beres."
+  },
+  {
+   "n": 7,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一句话时，一只手把产品举到脸旁边，标签朝前，带着一丝狡黠的笑容和耸肩。第二句话时，另一只手保持产品在脸旁边，空着的食指指向画面左下角。",
+    "id": "Saat kalimat pertama, satu tangan memegang produk di samping pipi, label menghadap kamera, dengan senyum nakal dan mengangkat bahu. Saat kalimat kedua, tangan yang memegang produk tetap di samping pipi, dan jari telunjuk tangan yang kosong menunjuk ke pojok kiri bawah layar."
+   },
+   "lines": "Emang sih, ada harga ada kualitas. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

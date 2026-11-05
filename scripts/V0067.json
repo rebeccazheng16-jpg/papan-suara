@@ -1,0 +1,75 @@
+{
+ "id": "V0067",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光胶原蛋白面膜 Sodium DNA Water Light Collagen Mask",
+  "id": "VEIRFOO Sodium DNA Collagen Mask"
+ },
+ "hook": {
+  "zh": "皮肤暗沉、脸颊下垂？别再乱用面膜了",
+  "id": "Kulit kusam, pipi mulai turun? Jangan asal pakai masker lagi"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "准备好手机支架，在室内光线好的地方拍摄。准备好VEIRFOO面膜产品、一个面膜刮刀和一个黑色发带。",
+  "id": "Siapkan HP di tripod atau sandaran, rekam di dalam ruangan dengan cahaya terang dari depan. Siapkan produk VEIRFOO, spatula masker, dan bando hitam."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": {
+    "zh": "脸上已经敷好变干变透明的面膜膜",
+    "id": "Wajah sudah dilapisi masker yang sudah kering jadi lapisan transparan."
+   },
+   "do": {
+    "zh": "先从额头往下撕掉透明的整片面膜，露出水光的皮肤。然后，拿起产品管，举到脸颊旁边给镜头看，面带微笑。",
+    "id": "Mulai rekam sambil kelupas masker dari dahi ke bawah dalam satu lembar utuh. Setelah itu, langsung angkat produknya di samping pipi sambil senyum."
+   },
+   "lines": "Kulit kusam, pipi mulai turun, tanda-tanda usia udah kelihatan? Jangan asal pakai masker lagi. Coba ini — VEIRFOO Sodium DNA Collagen Mask dari Korea."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "Muka bersih"
+   },
+   "do": {
+    "zh": "先用刮刀把面膜涂在脸上。然后，在手背上展示面膜拉丝的质地。接着，戴上发带，把面膜涂满全脸。最后，撕下一个已经干透的面膜，然后捏捏脸颊。",
+    "id": "Pertama, kamu bisa oleskan masker ke wajah pakai spatula. Lalu, tunjukkan tekstur masker yang stretchy di punggung tangan. Pakai bando, lalu oleskan masker ke seluruh wajah. Terakhir, kelupas masker yang sudah kering dan tekan-tekan pipi."
+   },
+   "lines": "Masker biasa cuma nempel di permukaan, cepat kering, lembapnya sebentar. Yang ini aku ngerasa nutrisinya masuk ke dalam — pas dikelupas kulitku kerasa halus, glowing-nya bening, yang tadinya kempis buatku kelihatan berisi lagi."
+  },
+  {
+   "n": 3,
+   "sec": 12,
+   "talk": true,
+   "face": {
+    "zh": "干净的脸",
+    "id": "Muka bersih"
+   },
+   "do": {
+    "zh": "先拿着产品在脸颊旁说话。然后拍一个用手指涂面膜的特写。接着，拍一个轻拍脸颊的镜头。最后，再次拿着产品在脸颊旁微笑。",
+    "id": "Awalnya, pegang produk di samping pipi sambil bicara. Terus, rekam close-up waktu kamu olesin masker pakai jari, lalu rekam pas kamu tepuk-tepuk pipi. Terakhir, pegang lagi produknya di samping pipi sambil senyum."
+   },
+   "lines": "PDRN generasi kedua — ekstrak DNA salmon yang strukturnya mirip banget sama DNA manusia, bahan ala klinik Korea yang di kulitku berasa lebih kencang. Plus hyaluronic acid 8D, buatku lembapnya berasa berlapis. Wajahku tuh berasa penuh kolagen."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先在户外阳光好的地方拍走路回头笑的镜头。然后拍一个用手挡太阳的镜头。最后，回到室内，拿着产品对着镜头说话，然后用手指指向左下角。",
+    "id": "Pertama, rekam di luar pas lagi jalan sambil nengok ke belakang dan senyum. Terus, rekam pas kamu pose kayak nutupin mata dari matahari. Terakhir, rekam di dalam ruangan, pegang produknya sambil bicara ke kamera, terus tunjuk ke arah kiri bawah."
+   },
+   "lines": "Dulu aku titip jastip dari Korea, satu tube harganya segini loh. Sekarang buka keranjang kuning di kiri bawah, lihat sendiri harganya setelah brand-nya masuk Indonesia! Buruan cobain!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

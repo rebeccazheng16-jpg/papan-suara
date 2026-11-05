@@ -1,0 +1,72 @@
+{
+ "id": "V0005",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "素颜霜 (Sodium DNA Firming Tone-Up Primer)",
+  "id": "VEIRFOO tone-up cream"
+ },
+ "hook": {
+  "zh": "懒人必备韩系素颜霜",
+  "id": "Krim buat yang males dandan tapi mau tetap cantik"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内靠近窗户的地方拍，光线要好。准备好VEIRFOO素颜霜。穿一件简单的日常衣服。手机自拍模式，脸大概占画面一半。",
+  "id": "Syuting di dalam ruangan, deket jendela biar cahayanya bagus. Siapin produk VEIRFOO tone-up cream-nya. Pakai baju yang simpel aja. Pegang HP buat selfie, muka kamu kira-kira setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "开始时把产品举到脸颊旁边，看着镜头说第一句话。然后，镜头稍微向下移动，只拍手和产品，说第二句话。最后，挤一点产品在手臂上抹开，同时说第三句话。",
+    "id": "Kamu bisa mulai dengan pegang produk di samping pipi, lihat kamera, dan bilang kalimat pertama. Terus, turunin HP sedikit biar cuma kelihatan tangan kamu pegang produk, dan bilang kalimat kedua. Terakhir, pencet sedikit isinya ke lengan, ratain sambil bilang kalimat ketiga."
+   },
+   "lines": "Buat kamu yang males dandan tapi pengen tetep cantik, pilih tone-up cream Korea ini. Di dalemnya ada Salmon PDRN sama Niacinamide. Liat deh, teksturnya lembut banget！"
+  },
+  {
+   "n": 2,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "挤一点产品到一边脸颊上，抹开，同时说第一句话。然后，用手指点一下变亮的脸颊和鼻子，说第二句话。最后，手托着下巴微笑，说最后一句话。",
+    "id": "Coba pencet sedikit produk ke satu pipi, terus ratain sambil ngomong kalimat pertama. Setelah itu, tunjuk pipi yang udah cerahan dan hidung kamu sambil bilang kalimat kedua. Terakhir, senyum sambil topang dagu, dan bilang kalimat terakhir."
+   },
+   "lines": "Bangun tidur pencet sekali, langsung dapet pelembab, primer, sama foundation. Diliat deket pun gak ada efek ngebedak. Abis pakai langsung cus keluar, praktis banget."
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "face": {
+    "zh": "全脸已涂好素颜霜",
+    "id": "Muka sudah pakai tone-up cream"
+   },
+   "do": {
+    "zh": "这里你的脸上已经涂好了素颜霜。你可以用手指着两边脸颊，展示韩式水光肌的效果。一边微笑一边稍微歪头，然后说台词。",
+    "id": "Di sini, muka kamu sudah pakai cream-nya ya. Kamu bisa tunjuk kedua pipi kamu buat pamerin hasil 'glass skin' Korea. Sambil senyum dan sedikit miringin kepala, bilang semua kalimatnya."
+   },
+   "lines": "Komposisinya mewah, sambil cantik sambil skincare-an. Menurutku hasilnya glowing, bersih, ini nih rahasia glass skin cewek Korea!"
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "全脸已涂好素颜霜",
+    "id": "Muka sudah pakai tone-up cream"
+   },
+   "do": {
+    "zh": "这个部分需要分两个场景拍。首先在你的房间，拿着产品说第一句话。然后，去洗手间拍洗脸的镜头（后期配音用）。最后再回到房间，再次拿起产品说结尾的话。",
+    "id": "Bagian ini perlu rekam di dua tempat. Pertama, di kamarmu, pegang produk sambil bilang kalimat pertama. Kedua, rekam di kamar mandi pas kamu cuci muka, nanti suaranya diisi kalimat kedua. Terakhir, balik lagi ke kamarmu, pegang lagi produknya dan bilang kalimat penutup."
+   },
+   "lines": "Yang penting formulanya bersih, aman buat kulit sensitif. Gak perlu pembersih khusus, facial wash aja udah keangkat. Punya ini, tiap pagi bisa tidur lebih banyak setengah jam!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

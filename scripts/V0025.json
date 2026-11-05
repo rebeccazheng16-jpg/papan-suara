@@ -1,0 +1,69 @@
+{
+ "id": "V0025",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "在家享受韩国美容院级蛋白面膜",
+  "id": "Masker protein ala klinik Korea di rumah"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内明亮的地方拍摄，背景是你的家。确保光线柔和明亮。穿上你喜欢的衣服。准备好产品（盖子盖好，标签朝向镜头），还有一把干净的刷子。拍摄时手机拿远一点，让你的脸占据画面的一半。",
+  "id": "Ambil video di dalam ruangan yang terang, dengan latar belakang rumahmu. Pastikan cahayanya lembut dan terang. Pakai baju yang kamu suka. Siapkan produk (tutupnya tertutup, label menghadap kamera) dan kuas bersih. Pegang HP agak jauh, biar mukamu kelihatan sekitar setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "脸上涂好一层薄薄的珍珠色面膜，看起来像一层光滑的白色缎面。",
+    "id": "Wajah sudah dilapisi masker tipis berwarna mutiara, terlihat seperti lapisan satin putih yang halus."
+   },
+   "do": {
+    "zh": "把手机拿近一点，让你的脸占据画面的一半。用指尖从额头开始，慢慢地把面膜撕下来，一直撕到下巴。面膜应该是一整片撕下来，不要撕破。撕的时候发出清脆、缓慢、有点粘的声音。眉毛稍微抬起，表情惊喜，然后快速清晰地说出台词。",
+    "id": "Dekatkan HP, biar mukamu kelihatan sekitar setengah layar. Pakai ujung jari, cubit bagian atas masker di garis rambut, lalu pelan-pelan kelupas ke bawah dari dahi sampai dagu. Maskernya harus terkelupas utuh, jangan sampai sobek. Buat suara kelupas yang renyah, pelan, dan sedikit lengket. Angkat alis sedikit, ekspresi senang, lalu ucapkan kalimat dengan cepat dan jelas."
+   },
+   "lines": "Guys, kok dikelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Golden Mask dari VEIRFOO, brand Korea. Teksturnya creamy kayak yogurt, lembut banget."
+  },
+  {
+   "n": 2,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机拿近一点，让你的脸占据画面的一半。一只手拿着产品，放在脸颊旁边，标签朝向镜头，盖子盖好。像和朋友聊天一样，随意地说出台词。然后把镜头拉近到你的前臂。拧开盖子，轻轻挤出一点乳白色的面霜到前臂上。用刷子把它均匀地涂开。然后用画外音说出台词。",
+    "id": "Dekatkan HP, biar mukamu kelihatan sekitar setengah layar. Satu tangan pegang produk di samping pipi, label menghadap kamera, tutupnya tertutup. Ngomong santai, kayak cerita ke teman. Lalu dekatkan kamera ke lengan bawahmu. Buka tutupnya, pelan-pelan pencet produknya sampai keluar sedikit krim putih susu ke lengan bawahmu. Pakai kuas, ratakan krimnya. Lalu ucapkan kalimat sebagai voiceover."
+   },
+   "lines": "Teksturnya creamy kayak yogurt. Ada Sodium DNA, PDRN, sama kolagen, lembut banget pas dioles."
+  },
+  {
+   "n": 3,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机拿近一点，让你的脸占据画面的一半。一只手拿着刷子，在脸颊上刷两三下，把面霜均匀地涂开。涂的时候，表情开朗，声音清脆地说出台词。然后切换到另一个角度，脸颊朝上倾斜。用指尖轻按脸颊，让它弹回来，露出自然的笑容。",
+    "id": "Dekatkan HP, biar mukamu kelihatan sekitar setengah layar. Satu tangan pegang kuas, oleskan krim ke pipi dua atau tiga kali dengan gerakan halus. Sambil mengoles, ucapkan kalimat dengan ceria dan jelas. Lalu ganti sudut, miringkan dagu ke atas. Tekan pipi dengan ujung jari dan biarkan membal, sambil tersenyum alami."
+   },
+   "lines": "Oles tebal pakai kuasnya, tunggu sampai mengering. Pas dikelupas, aku ngerasa kulitku cerah dan glowing!"
+  },
+  {
+   "n": 4,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把手机拿近一点，让你的脸占据画面的一半。一只手拿着产品，放在脸颊旁边，标签朝向镜头，盖子盖好，手不要动。快结束的时候，另一只空手从旁边伸进来，食指指向画面左下角。用清脆、友好、开朗的语气说出台词。",
+    "id": "Dekatkan HP, biar mukamu kelihatan sekitar setengah layar. Satu tangan pegang produk di samping pipi, label menghadap kamera, tutupnya tertutup, tangan jangan bergerak. Menjelang akhir, tangan kosong yang lain masuk dari samping dan jari telunjuk menunjuk ke pojok kiri bawah layar. Ucapkan kalimat dengan nada yang renyah, ramah, dan ceria."
+   },
+   "lines": "Mau masker protein ala klinik Korea di rumah? Klik keranjang kuning, boleh coba dulu ya."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

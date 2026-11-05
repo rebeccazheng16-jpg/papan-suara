@@ -1,0 +1,77 @@
+{
+ "id": "V0111",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO Breathing Cream 钻光粉底霜",
+  "id": "VEIRFOO Breathing Cream"
+ },
+ "hook": {
+  "zh": "懒人底妆，告别卡粉暗沉",
+  "id": "Makeup dasar untuk yang malas, bye-bye cakey dan kusam"
+ },
+ "src": "TikTok @vinpiglet",
+ "cam": "user",
+ "prep": {
+  "zh": "在家拍摄，背景是沙发角，光线柔和。穿米白色高领针织衫。产品管盖子盖好，标签朝向镜头。手机放好，脸部占画面一半，不要太近也不要太远。",
+  "id": "Rekam di rumah, latar belakang sudut sofa, cahaya lembut. Pakai baju rajut kerah tinggi warna krem. Produk dengan tutupnya, label menghadap kamera. Letakkan HP, wajahmu sekitar setengah bingkai, jangan terlalu dekat atau jauh."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "从一开始就用粉扑轻拍脸颊上的粉底液，直到均匀。粉扑在下巴旁边停顿一下，然后继续轻拍。说话时，粉扑不要遮住嘴巴或靠近眼睛。一边说话一边轻轻点头。",
+    "id": "Dari awal, tepuk-tepuk foundation di pipi dengan spons sampai merata. Spons berhenti sebentar di samping dagu, lalu lanjut menepuk. Saat bicara, spons jangan menutupi mulut atau dekat mata. Sambil bicara, anggukkan kepala sedikit."
+   },
+   "lines": "Buat kamu yang malas pakai bedak atau nggak sempat makeup di pagi hari, jangan buru-buru ganti foundation dulu. Foundation cakey, kelihatan abu-abu, sorenya belang, masalahnya bukan di foundation-nya, tapi kulit dasar kamu terlalu kering."
+  },
+  {
+   "n": 2,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一开始就把产品管举到脸颊旁边，盖子盖好，正面朝向镜头，一直拿着。另一只手用粉扑轻拍另一侧脸颊和下颌线。说话时，粉扑不要遮住嘴巴或靠近眼睛。说到产品名称时，把产品管稍微倾斜向镜头。",
+    "id": "Dari awal, angkat tube produk ke samping pipi, tutupnya tertutup, bagian depan menghadap kamera, dan pegang terus. Tangan yang lain menepuk-nepuk spons di pipi dan rahang. Saat bicara, spons jangan menutupi mulut atau dekat mata. Saat menyebut nama produk, miringkan sedikit tube ke arah kamera."
+   },
+   "lines": "Saya sendiri dokter, sehari-hari juga malas full makeup. Jadi saya cuma pakai ini: VEIRFOO Breathing Cream, foundation serum cream dari Korea. Ini memang serum yang bisa dipakai sebagai makeup."
+  },
+  {
+   "n": 3,
+   "sec": 13,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "产品管一直举在脸颊旁边。说到“半泵”时，稍微倾斜产品管，然后用粉扑在额头和下巴上点上粉底液，然后快速轻拍均匀。说到“看”时，脸上已经均匀，粉扑停在脸颊上，露出自然的笑容。",
+    "id": "Tube produk tetap di samping pipi. Saat bilang \"setengah pump\", miringkan sedikit tube, lalu pakai spons untuk menotolkan foundation di dahi dan dagu, lalu tepuk-tepuk cepat sampai merata. Saat bilang \"Lihat\", wajahmu sudah merata, spons menempel di pipi, dan tersenyum alami."
+   },
+   "lines": "Foundation kamu satu pump, ini setengah pump, campur dulu di punggung tangan ya. Lalu titik-titik di wajah dan ratakan. Lihat, gampang banget diratakan, nggak abu-abu sama sekali, nggak pucat, kulit saya rasanya kelihatan lebih cerah dan lebih bening."
+  },
+  {
+   "n": 4,
+   "sec": 14,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "产品管一直举在脸颊旁边。另一只手用粉扑在脸颊上做最后的轻拍。说到PDRN时，倾斜产品管。说到“自己看”时，把粉扑拿开，慢慢转动脸部看向光线，然后露出自然的笑容。",
+    "id": "Tube produk tetap di samping pipi. Tangan yang lain menepuk-nepuk pipi dengan spons sebagai sentuhan akhir. Miringkan tube produk saat menyebut PDRN. Saat bilang \"Lihat sendiri\", angkat spons, lalu perlahan putar wajahmu ke arah cahaya dan kembali, lalu tersenyum alami."
+   },
+   "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil makeup kulit ikut dirawat. Kulit kering, kulit sensitif, semua bisa pakai dengan tenang. Menurut saya hasilnya natural, flawless, kulit saya kelihatan glowing dari dalam, sampai malam pun nggak cakey."
+  },
+  {
+   "n": 5,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "说到第一句话时，稍微倾斜产品管，粉扑停在脸颊上。然后拿粉扑的手放到下巴下方，食指指向左下角。对着镜头温暖地微笑，并轻轻点头。",
+    "id": "Saat kalimat pertama, miringkan sedikit tube produk, spons menempel di pipi. Lalu tangan yang memegang spons turun ke bawah dagu, jari telunjuk menunjuk ke sudut kiri bawah. Tersenyum hangat ke kamera dengan anggukan kecil yang menyemangati."
+   },
+   "lines": "Di Korea harganya segini loh. Cek keranjang kuning di bawah, sekali checkout kamu bakal tahu sendiri!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

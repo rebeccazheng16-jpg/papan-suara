@@ -1,0 +1,86 @@
+{
+ "id": "V0080",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "蛋白膜 VEIRFOO collagen treatment",
+  "id": "VEIRFOO collagen treatment"
+ },
+ "hook": {
+  "zh": "使用前后对比，无滤镜无P图",
+  "id": "Before-after mukaku, tanpa filter, tanpa edit"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "准备好产品（银色管）和包装盒。在室内光线好的地方拍摄，比如窗边。准备两种灯光：一种是普通的冷光灯，用于'使用前'镜头；另一种是柔和的暖光，用于'使用后'镜头。穿着简单的日常服装。",
+  "id": "Siapin produk (tube silver) sama kotaknya. Syuting di dalam rumah deket jendela biar cahayanya bagus. Siapin dua lighting beda: satu lampu biasa yang agak redup buat shot 'sebelum', satu lagi cahaya natural yang terang dan hangat buat shot 'sesudah'. Pakai baju rumah yang simpel aja."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉",
+    "id": "Muka bersih tanpa makeup, kelihatan agak kusam"
+   },
+   "do": {
+    "zh": "这个镜头分三段拍。第一段：拍一个脸部特写，表情有点累，皮肤暗沉，不用说话。第二段：拿起产品和盒子，对着镜头说台词。第三段：在光线好的地方再拍一个特写，皮肤看起来亮一点，微笑，也不用说话。",
+    "id": "Shot ini rekamnya tiga bagian ya. Pertama, rekam close-up muka kamu yang kelihatan kusam, nggak usah ngomong. Kedua, angkat produk sama kotaknya di samping muka sambil ngomong dialognya. Ketiga, rekam lagi close-up muka yang kelihatan lebih cerah, terus senyum, nggak usah ngomong juga."
+   },
+   "lines": "Muka aku sebelum dan sesudah. Tanpa filter, tanpa edit. Bedanya satu, VEIRFOO. Ini bukan editan, bukan filter. Yang tadi itu kulit aku yang asli sebelum pakai ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉",
+    "id": "Muka bersih tanpa makeup, kelihatan agak kusam"
+   },
+   "do": {
+    "zh": "这个镜头也分三段拍。第一段：拍一个脸部特写，皮肤暗沉，表情有点累，不用说话。第二段：在光线好的地方拍一个脸部特写，皮肤看起来亮一点，用手指轻轻按一下脸颊，然后微笑，不用说话。第三段：对着镜头微笑，身体稍微侧一点，然后说台词。",
+    "id": "Ini juga rekamnya tiga bagian. Pertama, rekam close-up muka kusam, ekspresi capek, nggak usah ngomong. Kedua, rekam close-up muka di cahaya bagus, tekan pipi pelan pakai jari, terus senyum, nggak usah ngomong. Ketiga, lihat ke kamera sambil senyum, badan agak miring dikit, baru ucapin dialognya."
+   },
+   "lines": "Kusam, nggak merata, kelihatan capek. Yang ini setelah rutin pakai. Buatku sedikit lebih cerah, lebih rata, cahayanya agak beda. Temen-temen aku sampai nanya aku facial di mana."
+  },
+  {
+   "n": 3,
+   "sec": 14,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "第一段可以用一个工厂的视频素材，然后你配音。第二段，你出现在镜头前，表情有点不屑，挥挥手说台词。第三段，把藏在身后的产品拿出来，举到脸旁边，说最后一句话。",
+    "id": "Bagian pertama bisa pakai video stok pabrik, nanti kamu isi suara aja (voiceover). Terus bagian kedua, kamu muncul di kamera, ekspresinya kayak nggak terlalu impressed sambil lambaikan tangan dan ngomong dialognya. Terakhir, keluarin produk dari belakang badan, angkat ke sebelah muka sambil ngomong kalimat terakhir."
+   },
+   "lines": "Aku diundang brand-nya buat lihat langsung pabriknya. Setelah lihat sendiri aku makin yakin — pantes aja, ini pabrik skincare profesional di Korea. Yang katanya bikin glowing, rata-rata efeknya cuma di lapisan luar. Kelihatan bentar terus hilang. Yang ini beda."
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先举着产品，对着镜头自信地说第一段台词。然后，拍手的特写：拧开盖子，挤一点膏体在手指上，这部分不用说话。最后，拍另一个手的特写：把膏体在手背上抹开，直到变透明，这部分也不用说话。",
+    "id": "Pertama, pegang produk sambil lihat kamera, ucapin dialog pertama dengan yakin. Terus, rekam close-up tangan kamu: buka tutupnya, keluarin sedikit krim ke jari, bagian ini nggak usah ngomong. Terakhir, rekam close-up tangan lagi: olesin krimnya di punggung tangan sampai jadi transparan, bagian ini juga nggak usah ngomong."
+   },
+   "lines": "Karena dia pakai kandungan PDRN. PDRN itu diambil dari salmon, dan struktur DNA salmon sangat mirip sama jaringan kulit manusia, jadi di kulitku ekstraknya berasa gampang banget nyatu, kerasa terawat dari dalam."
+  },
+  {
+   "n": 5,
+   "sec": 15,
+   "talk": true,
+   "face": {
+    "zh": "脸上涂着白色膏体",
+    "id": "Ada krim putih diolesin di muka"
+   },
+   "do": {
+    "zh": "第一段：拍自己把膏体涂在脸上的特写，不用看镜头，也不用说话。第二段：膏体干了之后，举着产品，对着镜头说台词。第三段：身体前倾，像和朋友聊天一样说台词。第四段：再次举起产品，另一只手指着左下角，说最后的号召性用语。",
+    "id": "Bagian pertama, rekam close-up kamu lagi olesin krim ke muka, nggak usah lihat kamera dan nggak usah ngomong. Bagian kedua, setelah krimnya kering, pegang produknya sambil lihat kamera dan ucapin dialognya. Ketiga, badan agak maju ke depan kayak lagi ngobrol, sambil ucapin dialog berikutnya. Terakhir, angkat lagi produknya, terus jari telunjuk nunjuk ke arah kiri bawah sambil ngomong kalimat ajakan."
+   },
+   "lines": "Begitu aku oles, buatku udah agak kelihatan bedanya. Bukan cuma nunggu efek jangka panjang. Aku baru rekomendasiin kalau aku sendiri udah pakai dan cocok. Kalau kamu punya masalah kulit kusam dan nggak ada glow kayak aku dulu, aku saranin banget cobain. Klik keranjang kuning di kiri bawah, langsung checkout!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

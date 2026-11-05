@@ -1,0 +1,44 @@
+{
+ "id": "V0141",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
+  "id": "VEIRFOO Purple Tube"
+ },
+ "hook": {
+  "zh": "素颜霜打造韩式水光肌",
+  "id": "Tone-up cream untuk K-Beauty glass skin"
+ },
+ "src": "TikTok @najaetaime",
+ "cam": "user",
+ "prep": {
+  "zh": "在粉色卧室里，光线要明亮干净。穿白色棉蕾丝开衫，戴浅粉色雪纺头巾，头巾外面要宽松，用两个毛绒发夹夹住。脸上已经化好韩式淡妆：棕色美瞳、长睫毛、裸粉色口红，不要腮红。素颜的皮肤是自然的浅米色，有点暗沉不均。",
+  "id": "Di kamar tidur pink, pastikan cahaya terang dan bersih. Pakai kardigan renda katun putih dan hijab sifon pink muda, bagian luar hijab longgar, pakai dua jepit rambut pompom pink. Wajah sudah pakai makeup Korea tipis: softlens cokelat, bulu mata panjang, lipstik nude-pink, tanpa blush. Kulit wajah sebelum pakai krim berwarna beige muda alami, sedikit kusam dan tidak rata."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 13,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "把产品举到脸颊旁边，盖子盖好，正面朝向镜头。眨一下眼睛，头稍微歪一下，然后抿嘴微笑。保持微笑，把产品举到脸旁边，离镜头近一点，另一只手竖起大拇指。然后把产品放下，用一根手指在右脸颊点三小点面霜，轻轻推开，直到完全融合，让脸颊看起来更亮更均匀。最后，脸朝向镜头，保持不动，微笑，让左脸颊保持素颜，右脸颊涂好面霜，对比效果。",
+    "id": "Pegang produk di samping pipi, tutupnya tertutup, bagian depan menghadap kamera. Berkedip pelan, miringkan kepala sedikit, lalu tersenyum tipis dengan bibir tertutup. Tetap tersenyum, pegang produk di samping wajah lebih dekat ke lensa, tangan yang lain mengacungkan jempol. Lalu letakkan produk, pakai satu jari untuk menaruh tiga titik krim di pipi kanan, ratakan perlahan sampai menyatu sempurna, membuat pipi terlihat lebih cerah dan rata. Terakhir, hadapkan wajah lurus ke kamera, diam, tersenyum, biarkan pipi kiri tetap polos, pipi kanan sudah pakai krim, untuk perbandingan."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "用一根手指在左脸颊眼睛下方点两小点面霜，用无名指轻拍，直到完全融合。然后脸朝向镜头，用食指指着脸颊，微笑，稍微把脸转向窗户光线。接着，用一根手指蘸取一点点粉色腮红，轻拍在右脸颊苹果肌上，然后用同一根手指蘸取一点点裸粉色唇釉，轻拍在嘴唇上，并抿一下嘴唇。最后，把产品举到脸颊旁边，盖子盖好，正面朝向镜头，做个嘟嘴的表情，保持不动。",
+    "id": "Pakai satu jari untuk menaruh dua titik krim di pipi kiri di bawah mata, tepuk-tepuk dengan jari manis sampai menyatu sempurna. Lalu hadapkan wajah ke kamera, tunjuk pipi dengan jari telunjuk, tersenyum, sedikit palingkan wajah ke arah cahaya jendela. Selanjutnya, pakai satu jari yang sudah ada sedikit blush on pink, tepuk-tepuk ringan di tulang pipi kanan, lalu dengan jari yang sama yang sudah ada sedikit lip tint nude-pink, tepuk-tepuk di bibir dan katupkan bibir sekali. Terakhir, pegang produk di samping pipi, tutupnya tertutup, bagian depan menghadap kamera, buat ekspresi manyun yang lucu, dan diam."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "V0076",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "小紫管素颜霜 VEIRFOO Tone-Up Cream",
+  "id": "VEIRFOO tube ungu"
+ },
+ "hook": {
+  "zh": "素颜霜，打造韩剧女主的自然好气色",
+  "id": "Tone-up cream untuk kulit cerah alami ala cewek Korea"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在梳妆台前拍摄，背景干净整洁。确保光线柔和，脸部光线均匀。准备好产品（盖子盖好，标签朝向镜头）。手机固定好，确保脸部占据画面一半。",
+  "id": "Syuting di depan meja rias, pastikan background rapi. Cahaya harus lembut dan merata di wajah. Siapkan produk (tutupnya terpasang, label menghadap kamera). Pastikan HP stabil, wajahmu sekitar setengah frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "近距离拍摄脸部，表情有点困扰。用指尖轻拍脸颊，然后轻拍鼻侧，第二次拍重一点。语气有点无奈。",
+    "id": "Ambil close-up wajahmu, ekspresi sedikit terganggu. Ketuk pipimu dengan ujung jari, lalu ketuk bagian samping hidungmu, ketukan kedua lebih keras. Nada bicara sedikit mengeluh."
+   },
+   "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "身体向镜头转 30 度，双手藏在背后，自然微笑。一只手从背后伸出指向画面下方，眼睛跟着看。然后另一只手把产品从背后拿出来，放在脸颊旁边，像在揭示秘密。语气轻松，乐于助人。",
+    "id": "Badanmu miring 30 derajat dari kamera, tangan di belakang punggung, senyum alami. Satu tangan muncul dari belakang menunjuk ke bawah frame, matamu mengikuti. Lalu tangan lain mengeluarkan produk dari belakang dan meletakkannya di samping pipimu, seperti sedang mengungkapkan rahasia. Nada bicara ringan dan membantu."
+   },
+   "lines": "Mau praktis tapi kulit tetap seger natural? Pakai tube ungu VEIRFOO dari Korea ini. Teksturnya krim, nggak ada rasa bedak. Ungu mudanya netralin warna kuning, jadi buatku kayak kulit bagus bawaan lahir cewek Korea."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "身体向镜头转 30 度，一只手拿着产品放在脸颊旁边，另一只手食指轻指镜头，表情自信放松。语气自信，越来越肯定。",
+    "id": "Badanmu miring 30 derajat dari kamera, satu tangan memegang produk di samping pipimu, tangan lain menunjuk ringan ke lensa dengan jari telunjuk, ekspresi santai dan percaya diri. Nada bicara percaya diri dan semakin yakin."
+   },
+   "lines": "PDRN itu ekstrak salmon yang strukturnya mirip banget sama DNA manusia, makanya di kulitku berasa gampang banget diserap. Bahan yang biasanya cuma ada di skincare sultan, di sini langsung ditulis di kemasannya."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "表情自信放松。双手拿着产品放在脸颊旁边，盖子盖好，正面朝向镜头。逐字数着四个功能，语气充满活力。",
+    "id": "Ekspresi percaya diri dan santai. Pegang produk dengan kedua tangan di samping pipimu, tutupnya terpasang, bagian depan menghadap kamera. Hitung empat fungsi kata demi kata dengan energi yang membangkitkan semangat."
+   },
+   "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "只拍双手，一只手拿着产品外盒，另一只手拿着产品，都放在脸颊旁边，正面朝向镜头。语气真诚。",
+    "id": "Hanya tampilkan kedua tanganmu, satu tangan memegang kotak produk dan tangan lainnya memegang produk, keduanya di samping pipimu, bagian depan menghadap kamera. Nada bicara tulus."
+   },
+   "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
+  },
+  {
+   "n": 6,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "手托下巴，身体稍微前倾，另一只手在旁边做短暂手势，带着一丝狡黠的微笑。语气略带伤感。",
+    "id": "Dagumu bertumpu pada satu tangan dan sedikit condong ke kamera, tangan lain memberi isyarat singkat di samping, dengan senyum kecil yang sinis. Nada bicara sedikit melankolis."
+   },
+   "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "S0164",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 超光子胶原炮 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+ },
+ "hook": {
+  "zh": "已通过印尼药监局认证，韩国正品，成分第一位双歧杆菌，大牌精华也用但贵，一盒5片，投资在脸上",
+  "id": "Sudah BPOM, produk asli Korea, kandungan utama Bifida, serum mahal juga pakai tapi harganya mahal, satu kotak 5 lembar, investasi untuk wajah"
+ },
+ "src": "TikTok @linalie6666",
+ "cam": "user",
+ "prep": {
+  "zh": "坐在客厅小圆木桌前，桌上摊开几盒面膜。穿浅粉色拉链开衫，内搭白色上衣。光线明亮柔和，脸部和皮肤干净无瑕。",
+  "id": "Duduk di depan meja kayu bundar kecil di ruang tamu, beberapa kotak masker tersebar di meja. Pakai jaket ritsleting pink muda yang terbuka di atas atasan putih. Cahaya terang dan lembut, wajah dan kulit bersih tanpa noda."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把几盒面膜推近，然后侧脸用拳头抵住嘴唇，好像在听问题。",
+    "id": "Dorong beberapa kotak masker ke dekatmu, lalu miringkan wajah dan letakkan kepalan tangan di bibirmu, seolah sedang mendengarkan pertanyaan."
+   },
+   "lines": "Udah, udah! Masker Sicenari ini udah terdaftar BPOM, original dari Korea, ingredient-nya jelas banget. Di urutan pertama ada Bifida, kamu tahu nggak? Ada PDRN juga. Serum brand mewah ini juga pakai Bifida, harganya berapa?"
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头，然后用食指轻敲面膜盒上的金色印章两次，再用手掌向上示意。",
+    "id": "Pegang kotak masker di samping pipimu, bagian depan menghadap kamera, lalu ketuk segel emas di kotak dua kali dengan jari telunjukmu, lalu tunjukkan telapak tanganmu ke atas."
+   },
+   "lines": "Sebotol kecil aja mahalnya bikin syok! Tapi yang ini, satu kotak isinya lima lembar, satu lembar dua puluh lima ml, harganya murah sampai bikin kaget, langsung bawa pulang, bisa skincare-an kayak eonni-eonni Korea."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "轻轻摇头，然后把面膜盒举到脸颊旁边，另一只手张开五指，最后把面膜盒抱在脸颊旁边，露出温暖的笑容。",
+    "id": "Goyangkan kepala sedikit, lalu pegang kotak masker di samping pipimu, tunjukkan lima jari dengan tanganmu yang lain, lalu peluk kotak masker di pipimu dengan senyum hangat."
+   },
+   "lines": "Jadi anggap aja ini investasi buat wajah sendiri, sehari selembar nggak sampai tiga puluh ribu loh. Langsung klik keranjang kuning di bawah, checkout sekarang ya!"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "把面膜盒举到脸颊旁边，轻轻歪头微笑，然后另一只手用食指指向画面下方。",
+    "id": "Pegang kotak masker di samping pipimu, miringkan kepala sedikit dan tersenyum lembut, lalu tunjukkan jari telunjukmu ke bagian bawah layar dengan tanganmu yang lain."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

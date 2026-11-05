@@ -1,0 +1,47 @@
+{
+ "id": "V0146",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
+  "id": "VEIRFOO Purple Tube Tone-up Cream"
+ },
+ "hook": {
+  "zh": "早上睡过头，5分钟出门妆",
+  "id": "Bangun kesiangan, makeup 5 menit sebelum berangkat"
+ },
+ "src": "TikTok @najaetaime",
+ "cam": "user",
+ "prep": {
+  "zh": "早上在卧室里拍，光线要好，像窗边的日光。准备好小紫管素颜霜。脸上不要化妆，头发可以自然一点，像刚睡醒的样子。",
+  "id": "Shooting di kamar pagi-pagi, cari cahaya yang terang kayak deket jendela. Siapin produk VEIRFOO Purple Tube-nya. Muka bersih tanpa makeup, rambut natural aja kayak baru bangun tidur."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 13,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "先拿着小紫管在脸颊旁边，睡眼惺忪地眨眨眼，然后微笑。接着，把产品推近镜头展示一下。然后在右边脸颊点三点霜，涂抹开。最后，正对镜头，展示涂了和没涂的半边脸对比效果，保持不动。",
+    "id": "Pertama, pegang produk di samping pipi, kedip pelan kayak orang ngantuk, terus senyum. Terus, deketin produknya ke kamera biar kelihatan jelas. Habis itu, totolin 3 titik krim di pipi kanan terus ratain. Terakhir, lihat lurus ke kamera, tunjukkin bedanya muka yang udah pake sama yang belum, tahan posisinya."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": false,
+   "face": {
+    "zh": "右半边脸已经涂了素颜霜",
+    "id": "Setengah muka (bagian kanan) udah pakai tone-up cream"
+   },
+   "do": {
+    "zh": "在另一边脸的眼下点两点霜，拍开。然后，歪头做一个可爱得意的表情，用手捂住嘴偷笑。接着，用手指点一点腮红和唇釉。最后，拿着产品在脸旁边，嘟嘴眨眼，保持不动。",
+    "id": "Sekarang, totolin 2 titik kecil di bawah mata sisi satunya, tepuk-tepuk sampai rata. Terus, pasang muka senang, tutup mulut pakai tangan sambil senyum-senyum. Habis itu, pakai sedikit blush dan lip gloss pakai jari. Terakhir, pegang lagi produknya di samping muka, pasang pose manyun sambil kedip, tahan."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

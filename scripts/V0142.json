@@ -1,0 +1,77 @@
+{
+ "id": "V0142",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 光感奢润绵密洁面乳 Cloud Cleanser",
+  "id": "VEIRFOO Cloud Cleanser"
+ },
+ "hook": {
+  "zh": "可惜你脸不油、毛孔不大，不懂它的含金量",
+  "id": "Sayang banget, wajahmu nggak berminyak, pori-porimu juga nggak besar, jadi kamu nggak bakal ngerti sebagus apa VEIRFOO Cloud Cleanser."
+ },
+ "src": "抖音 泡泡星球🫧",
+ "cam": "user",
+ "prep": {
+  "zh": "在浴室洗手台拍摄，背景是白色大理石台面，有白色水槽和水龙头。光线要明亮柔和，产品是画面中最亮的。手要白皙无瑕，没有首饰。全程只拍手，不露脸。",
+  "id": "Syuting di kamar mandi, di wastafel marmer putih. Cahaya harus terang dan lembut, produk harus jadi yang paling terang di layar. Tangan harus putih bersih, tanpa perhiasan. Sepanjang video hanya tangan yang terlihat, wajah tidak."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 14,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "双手快速撕开黑色泡泡袋，抽出盒子，再立刻从盒子里抽出洗面奶。然后一只手把洗面奶举到镜头前，再切到洗面奶立在台面上，用指尖轻敲瓶身，最后再拿起洗面奶对着镜头。语速快，自信地画外音说台词。",
+    "id": "Kedua tangan cepat merobek kantong bubble wrap hitam, keluarkan kotak, lalu langsung keluarkan sabun muka dari kotak. Lalu satu tangan pegang sabun muka ke arah kamera, lalu potong ke sabun muka berdiri di meja, ketuk-ketuk botolnya dengan ujung jari, lalu angkat lagi sabun muka ke arah lensa. Bicara cepat dan percaya diri di luar layar."
+   },
+   "lines": "Sayang banget, wajahmu nggak berminyak, pori-porimu juga nggak besar, jadi kamu nggak bakal ngerti sebagus apa VEIRFOO Cloud Cleanser. Tapi kalau kamu kayak aku, sering begadang, suka makan manis, wajah kusam dan pori-pori besar, sabun muka dari Korea ini wajib kamu coba."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着洗面奶对着镜头轻轻晃动。然后双手打开盖子，挤出一点乳液到指尖。再切到手背上涂抹口红，用泡沫洗掉。最后一只手拿着洗面奶，食指指着PDRN标签。语速快，自信地画外音说台词。",
+    "id": "Satu tangan pegang sabun muka ke arah kamera dan goyang sedikit. Lalu kedua tangan buka tutupnya, peras sedikit losion ke ujung jari. Lalu potong ke punggung tangan yang ada lipstik, gosok dengan busa sampai bersih. Terakhir, satu tangan pegang sabun muka, jari telunjuk menunjuk label PDRN. Bicara cepat dan percaya diri di luar layar."
+   },
+   "lines": "Klinik kecantikan di Korea juga pakai ini. Ini bukan sabun muka biasa: cuci muka sekaligus hapus makeup tipis, cukup satu ini. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手背上涂着泡沫，另一只手轻轻打圈。然后双手打开洗面奶盖子，挤出乳液到手掌。再切到双手搓出大量泡沫，像打发奶油一样。语速快，温柔地画外音说台词。",
+    "id": "Satu punggung tangan ada busa, tangan lain menggosok perlahan. Lalu kedua tangan buka tutup sabun muka, peras losion ke telapak tangan. Lalu potong ke kedua tangan menggosok busa banyak, seperti krim kocok. Bicara cepat dan lembut di luar layar."
+   },
+   "lines": "Pas aku pakai, rasanya lembut, tapi minyak dan kotoran di pori-pori ikut keangkat. Lotion-nya putih susu, digosok di tangan beberapa kali langsung jadi segumpal busa yang lembut dan padat."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手和前臂上涂着泡沫，另一只手轻轻涂抹。然后前臂和手在水龙头下冲洗干净。再切到洗干净的手背，用指尖轻按。最后一只手拿着洗面奶对着镜头轻轻晃动。语速快，温柔地画外音说台词。",
+    "id": "Satu tangan dan lengan bawah ada busa, tangan lain mengoleskan perlahan. Lalu lengan bawah dan tangan dibilas bersih di bawah keran. Lalu potong ke punggung tangan yang sudah bersih, tekan perlahan dengan ujung jari. Terakhir, satu tangan pegang sabun muka ke arah kamera dan goyang sedikit. Bicara cepat dan lembut di luar layar."
+   },
+   "lines": "Di wajah lembut dan nyaman banget. Habis cuci, aku beneran ngerasa kulitku lembap, nggak kering, nggak ketarik sama sekali, kayak kulitku lagi minum air sampai kenyang. Sekali pakai langsung jatuh cinta."
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着洗面奶对着镜头，保持不动。另一只手从左下角进入画面，食指指向左下角，保持姿势。语速快，热情地画外音说台词。",
+    "id": "Satu tangan pegang sabun muka ke arah kamera, diam. Tangan lain masuk dari kiri bawah layar, jari telunjuk menunjuk ke kiri bawah, tahan posisi. Bicara cepat dan antusias di luar layar."
+   },
+   "lines": "Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, coba checkout satu dulu deh!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

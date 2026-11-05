@@ -1,0 +1,99 @@
+{
+ "id": "V0108",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 粉水光油霜 Pink Bling Bling Cream",
+  "id": "VEIRFOO Pink Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "大太阳下素颜透亮",
+  "id": "Kulit bening dan glowing di bawah sinar matahari langsung"
+ },
+ "src": "Mekri",
+ "cam": "user",
+ "prep": {
+  "zh": "在户外草地，下午阳光直射，脸部半框，手机就是相机，画面里不出现手机。穿休闲装，素颜，皮肤干净，没有涂任何东西。产品盖子盖好，标签朝向镜头。",
+  "id": "Duduk di rumput di luar, di bawah sinar matahari sore langsung. Wajahmu memenuhi sekitar setengah bingkai. Pakai HP-mu sendiri buat merekam, jangan sampai HP-nya kelihatan di video. Pakai baju santai, wajah bersih tanpa makeup, tanpa krim atau apa pun. Produknya ditutup, labelnya menghadap kamera."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 5,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。把脸转向阳光，展示皮肤看起来清透发光。保持自然微笑，眼神看向镜头。手机轻轻左右晃动。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Putar wajahmu ke arah matahari, tunjukkan kulitmu yang bening dan glowing. Senyum alami, tatap lensa. Goyangkan HP-mu pelan-pelan ke kiri dan kanan."
+   },
+   "lines": "Guys, lihat deh! Kulitku pas kena sinar matahari langsung, tetap kelihatan bening dan glowing."
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。先看着镜头，然后用手指轻触脸颊，指向痘痕和干燥的地方。最后把手放下，把脸转向阳光，展示皮肤发光。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, sentuh pipimu dengan jari, tunjukkan bekas jerawat dan area kering. Terakhir, turunkan tanganmu, putar wajahmu ke arah matahari, tunjukkan kulitmu yang glowing."
+   },
+   "lines": "Dulu kulitku ada bekas jerawat sama noda. Bekasnya udah hampir nggak kelihatan, cuma di sini agak kering, ada bruntusan dikit. Terus di sini habis makan pedas, muncul satu jerawat. Tapi lihat, kulitku jadi glowing banget."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。先看着镜头，然后把产品举到脸颊旁边，盖子盖好，标签朝向镜头。接着打开盖子，挤出一点乳液到脸颊上，然后用手指快速抹开，让它吸收。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Kemudian, buka tutupnya, peras sedikit losion ke pipimu, lalu usapkan cepat dengan jari sampai meresap."
+   },
+   "lines": "Kulit kering itu karena nggak ada minyak yang ngunci airnya. Sekarang aku cuma pakai ini: VEIRFOO Pink Bling Bling Cream, oil cream dari Korea. Keluarnya lotion pink yang cair, sekali oles langsung meleleh kayak air."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头，轻轻摇晃。然后放下产品，手指向画面左侧，示意观众截图韩国证书。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera, goyangkan sedikit. Lalu, turunkan produknya, tunjuk ke sisi kiri layar, ajak penonton untuk screenshot sertifikat Korea."
+   },
+   "lines": "Ini brand beneran loh. Biasanya kita beli yang nggak jelas mereknya aja udah mahal. Sertifikat aslinya dari Korea aku taruh di sini ya, screenshot aja, boleh banget di-screenshot."
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头。然后放下产品，用手指在下巴旁边数三种肤质。最后用指尖轻拍脸颊，展示皮肤清爽不粘腻。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Lalu, turunkan produknya, hitung tiga jenis kulit dengan jari di samping dagumu. Terakhir, tepuk-tepuk pipimu dengan ujung jari, tunjukkan kulit yang bersih dan tidak lengket."
+   },
+   "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Kulit kering, berminyak, sensitif, semua bisa pakai. Tipis aja, tepuk-tepuk, langsung nyerap, nggak lengket sama sekali."
+  },
+  {
+   "n": 6,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。先看着镜头，然后把产品举到脸颊旁边，盖子盖好，标签朝向镜头，轻轻倾斜产品。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Pertama, tatap lensa. Lalu, angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera, miringkan produknya sedikit."
+   },
+   "lines": "Buat kamu yang bilang pengen kulitku bening, cerah, glowing, yang bilang belum nemu yang murah tapi bagus, di Korea harganya segini loh. Sekarang bandingin sama harga di aku."
+  },
+  {
+   "n": 7,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "坐在草地上，用手机自拍。把产品举到脸颊旁边，盖子盖好，标签朝向镜头。然后用手指指向画面左下角的购物车。",
+    "id": "Duduk di rumput, rekam dirimu sendiri pakai HP. Angkat produknya ke samping pipimu, tutupnya terpasang, labelnya menghadap kamera. Lalu, tunjuk ke keranjang kuning di kiri bawah layar dengan jari."
+   },
+   "lines": "Yang mau kulit bening kayak aku, klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu, cobain deh!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

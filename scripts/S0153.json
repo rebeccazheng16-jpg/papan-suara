@@ -1,0 +1,47 @@
+{
+ "id": "S0153",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 超光子胶原炮 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+ },
+ "hook": {
+  "zh": "含粉底一步到位、只用这一个就够",
+  "id": "Cukup pakai selembar ini, udah mantul banget"
+ },
+ "src": "TikTok @siskaismaya",
+ "cam": "user",
+ "prep": {
+  "zh": "晚上在卧室里，背景干净整洁。确保光线柔和均匀，让皮肤看起来自然明亮。准备好面膜，确保精华液不会滴落。手机自拍，脸部在画面中央，大约占画面一半。",
+  "id": "Malam hari di kamar tidur, pastikan latar belakang rapi. Cahaya harus lembut dan merata agar kulit terlihat cerah alami. Siapkan masker, pastikan tidak menetes. Pegang HP untuk selfie, wajah di tengah frame, sekitar setengah dari layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "面对镜头，下半张面膜已经敷好。在第一秒内，用双手将面膜上半部分敷到眼睛和额头上，然后用指尖从中间向外轻轻抚平。双手放下，让面膜覆盖全脸，嘴巴清晰可见。保持自然活泼的语调，像分享日常护肤一样。",
+    "id": "Hadap kamera, bagian bawah masker sudah menempel. Dalam satu detik pertama, pakai kedua tangan untuk menempelkan bagian atas masker ke mata dan dahi, lalu ratakan dengan ujung jari dari tengah ke luar. Turunkan tangan, biarkan masker menutupi seluruh wajah, mulut terlihat jelas. Bicara dengan nada alami dan ceria, seperti berbagi rutinitas malam."
+   },
+   "lines": "Ini masker Sicenari yang udah direndam penuh essence, satu lembarnya ada dua puluh lima mililiter, jadi kalian tinggal langsung pakai habis cuci muka malam-malam."
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": true,
+   "face": {
+    "zh": "脸上敷着面膜",
+    "id": "Masker masih menempel di wajah"
+   },
+   "do": {
+    "zh": "面对镜头，面膜敷在脸上。用一只手的指尖轻轻按压脸颊，然后手放下。眼睛带笑，语气明亮而坚定。硬切后，面膜已取下，脸部干净。一只手举着产品盒放在脸颊旁边，另一只手在画面下方。保持放松愉快的笑容，最后点头。",
+    "id": "Hadap kamera, masker masih menempel di wajah. Pakai ujung jari satu tangan untuk menekan pipi dengan lembut, lalu turunkan tangan. Senyum dengan mata, bicara dengan nada cerah dan yakin. Setelah cut, masker sudah dilepas, wajah bersih. Satu tangan memegang kotak produk di samping pipi, tangan lain di bawah frame. Senyum santai dan bahagia, di akhir kalimat mengangguk kecil."
+   },
+   "lines": "Ini beneran bagus banget. Habis pakai, aku ngerasa mukaku lebih lembap dan sedikit lebih cerah, sampai besok paginya masih lembap. Cocok banget buat yang suka skincare simple, nggak usah banyak produk, cukup pakai selembar ini, udah mantul banget."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "V0143",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 光感奢润绵密洁面乳 Cloud Cleanser",
+  "id": "VEIRFOO Cloud Cleanser"
+ },
+ "hook": {
+  "zh": "等我洗把脸再开",
+  "id": "Tunggu aku cuci muka dulu baru mulai"
+ },
+ "src": "TikTok @天天不懒",
+ "cam": "user",
+ "prep": {
+  "zh": "晚上，在电竞桌前，背景是亮着游戏画面的电脑屏幕。桌上放一个浅绿色脸盆，里面装满清水。穿黑色宽松短袖T恤。手机举到脸部高度，脸占画面一半。",
+  "id": "Malam hari, di meja gaming, dengan layar komputer menyala di belakang. Siapkan baskom hijau muda berisi air bersih di meja. Pakai kaos hitam longgar. Pegang HP setinggi wajah, pastikan wajah memenuhi setengah layar."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": false,
+   "face": null,
+   "do": {
+    "zh": "把脸浸在脸盆里，然后猛地抬起头，让水珠挂在脸上，两颊各有一道洁面乳。双手扶着脸盆边缘，直视镜头，然后稍微抬眉。接着，一只手拿着洁面乳管，盖子朝上，放在脸旁边，另一只手不动。然后，把洁面乳管倒过来，打开盖子，挤出乳液到另一只手掌心。最后，把手伸进脸盆沾水，双手合十搓揉，快速搓出大量泡沫。",
+    "id": "Celupkan wajah ke baskom, lalu angkat kepala dengan cepat, biarkan air menetes di wajah, dengan dua garis pembersih di pipi. Pegang tepi baskom dengan kedua tangan, tatap kamera, lalu angkat alis sedikit. Selanjutnya, pegang tube pembersih dengan satu tangan, tutupnya menghadap ke atas, di samping wajah, tangan yang lain diam. Lalu, balik tube pembersih, buka tutupnya, dan peras losion ke telapak tangan yang lain. Terakhir, celupkan tangan ke baskom untuk mengambil air, gosok kedua telapak tangan bersama-sama, dan cepat-cepat buat banyak busa."
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 11,
+   "talk": false,
+   "face": {
+    "zh": "脸上涂满泡沫",
+    "id": "Wajah berbusa"
+   },
+   "do": {
+    "zh": "闭上眼睛，用指尖在两颊、额头、鼻子和下巴上轻轻打圈按摩泡沫。然后，身体前倾，用双手捧水泼到脸上两次，把泡沫洗掉。接着，抬起湿漉漉的脸，用一只手把湿头发往后拨。然后，打开房间灯，让光线变亮，用一根手指轻轻按压脸颊，露出满意的微笑。最后，一只手拿着洁面乳管放在脸旁边，另一只手食指指向左下角。",
+    "id": "Tutup mata, pijat busa dengan ujung jari di pipi, dahi, hidung, dan dagu dengan gerakan melingkar kecil. Lalu, condongkan badan ke depan, ambil air dengan kedua tangan dan basuh ke wajah dua kali untuk membilas busa. Selanjutnya, angkat wajah yang basah, dan gunakan satu tangan untuk menyisir rambut basah ke belakang. Kemudian, nyalakan lampu kamar agar lebih terang, tekan pipi dengan satu jari, dan tersenyum puas. Terakhir, pegang tube pembersih dengan satu tangan di samping wajah, dan jari telunjuk tangan yang lain menunjuk ke sudut kiri bawah."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

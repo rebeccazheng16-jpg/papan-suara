@@ -1,0 +1,77 @@
+{
+ "id": "V0013",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 素颜霜 Sodium DNA Firming Tone-Up Primer",
+  "id": "VEIRFOO Sodium DNA Primer"
+ },
+ "hook": {
+  "zh": "别再买贵价妆前乳了",
+  "id": "Stop dulu beli primer mahal!"
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "在室内，背景干净，光线充足。穿日常服装。产品盖子盖好，标签朝向镜头。手机举到脸部高度，脸部占画面一半。",
+  "id": "Di dalam ruangan dengan latar belakang bersih dan cahaya yang cukup. Pakai baju sehari-hari. Produk dengan tutup terpasang, label menghadap kamera. Pegang HP setinggi wajah, wajah mengisi setengah frame."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "脸部特写，表情自然。把少量乳液涂抹在右脸颊，用指腹向外抹开，直到完全融入肌肤。同时说台词。",
+    "id": "Ambil close-up wajahmu, ekspresi natural. Oleskan sedikit lotion di pipi kanan, ratakan dengan jari sampai menyatu di kulit. Sambil bicara."
+   },
+   "lines": "Stop dulu beli primer mahal! Cobain VEIRFOO Sodium DNA Primer ini. Teksturnya ringan, nyaman dipakai, dan bikin makeup kelihatan lebih nyatu di kulit. Serius deh, wajib banget dicoba!"
+  },
+  {
+   "n": 2,
+   "sec": 15,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍手挤出产品，然后切到脸部特写，用手指快速轻扫右脸颊两次。再切到产品特写，手拿着产品竖直放在大理石台面上。最后切回脸部，手拿着产品竖直放在脸颊旁边，产品和脸部同时入镜。同时说台词。",
+    "id": "Mulai dengan tangan memencet produk, lalu cut ke close-up wajahmu, usap pipi kanan dua kali dengan jari. Lalu cut ke produk shot, tangan memegang produk tegak di meja marmer. Terakhir, cut kembali ke wajahmu, pegang produk tegak di samping pipi, wajah dan produk terlihat bersamaan. Sambil bicara."
+   },
+   "lines": "Awalnya aku tahu produk ini dari temen dokter aku. Jujur, nggak nyangka cuma pakai ini aja aku ngerasa kulitku lebih glowing ala glass skin Korea. Apalagi ini original Korea dan sekarang harganya cuma segini. Jadi buat apa beli yang mahal kalau ada yang sebagus ini?"
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍手臂内侧特写，将少量乳液涂抹开。然后切到脸部特写，表情认真。用指尖在右脸颊打圈涂抹乳液，直到完全吸收。然后用食指轻戳脸颊三次，展示不粘腻。同时说台词。",
+    "id": "Mulai dengan close-up lengan bagian dalam, oleskan sedikit lotion. Lalu cut ke close-up wajahmu, ekspresi serius. Oleskan lotion di pipi kanan dengan gerakan melingkar sampai meresap. Lalu sentuh pipi tiga kali dengan jari telunjuk untuk menunjukkan tidak lengket. Sambil bicara."
+   },
+   "lines": "Teksturnya ringan banget kayak lotion. Sekali oles langsung nyatu di kulit. Buatku tampilannya lebih cerah tanpa terasa berminyak. Jujur, hasilnya nggak kalah sama primer mahal yang biasa aku pakai. Sumpah, aku kaget!"
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍脸部四分之三侧面特写，轻轻按压右脸颊。然后切到手部特写，手拿着产品竖直放在脸颊旁边，产品和脸部同时入镜，脸部出镜。再切到梳妆台上的护肤品。最后切到脸部，双手拿着产品竖直放在脸颊旁边，产品和脸部同时入镜。同时说台词。",
+    "id": "Mulai dengan close-up wajahmu dari samping, tekan pipi kanan dengan lembut. Lalu cut ke close-up tangan, pegang produk tegak di samping pipi, wajah keluar frame. Lalu cut ke meja rias dengan produk skincare lain. Terakhir, cut ke wajahmu, pegang produk tegak dengan kedua tangan di samping pipi, wajah dan produk terlihat bersamaan. Sambil bicara."
+   },
+   "lines": "Sodium DNA Dual Repair-nya di kulitku ringan, nggak bikin terasa berat sama sekali. Praktisnya lagi, cukup satu produk ini aja untuk melengkapi skincare dan jadi base makeup sehari-hari."
+  },
+  {
+   "n": 5,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "先拍脸部特写，下巴微抬，眼睛直视镜头。用手背沿着下颌线向后滑动。然后切到相同构图，手拿着产品竖直放在脸颊旁边，产品和脸部同时入镜。最后切到相同构图，双手各拿一个产品竖直放在脸颊旁边，产品和脸部同时入镜，然后点头示意下方购物车。同时说台词。",
+    "id": "Mulai dengan close-up wajahmu, dagu sedikit terangkat, mata melihat lurus ke kamera. Geser punggung tanganmu di sepanjang garis rahang. Lalu cut ke komposisi yang sama, pegang produk tegak di samping pipi, wajah dan produk terlihat bersamaan. Terakhir, cut ke komposisi yang sama, pegang dua produk tegak di samping pipi, satu di setiap tangan, lalu anggukkan kepala ke arah keranjang kuning di bawah. Sambil bicara."
+   },
+   "lines": "VEIRFOO memang dikenal fokus mengembangkan formula Sodium DNA. Kandungannya simpel dan nyaman dipakai sehari-hari. Kalau lagi cari produk yang praktis dan worth it, produk ini layak banget dicoba. Yuk, langsung cek keranjang kuning di bawah, ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

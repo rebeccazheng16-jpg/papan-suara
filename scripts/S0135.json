@@ -1,0 +1,77 @@
+{
+ "id": "S0135",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI sheet mask PDRN"
+ },
+ "hook": {
+  "zh": "小破面霜，居家素颜分肤质讲用法",
+  "id": "Masker receh ini, pakai di rumah tanpa makeup, sesuai jenis kulit"
+ },
+ "src": "抖音 蛇姨没疯🐍",
+ "cam": "user",
+ "prep": {
+  "zh": "把手机放在桌上，稍微俯拍。头发扎成凌乱丸子头，穿睡衣，素颜，营造刚起床的松弛感。表情要平淡认真，语速放慢，自然停顿。",
+  "id": "Taruh HP di meja, agak menunduk. Rambut diikat cepol berantakan, pakai piyama, muka polos tanpa makeup, biar kelihatan baru bangun tidur dan santai. Ekspresi datar dan serius, bicara pelan, ada jeda alami."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着鼓鼓的面膜袋放在脸颊旁边，袋子正面朝向镜头。开始说话，然后把袋子放下，用一根手指轻点鼻翼、脸颊和嘴角，像指出问题部位。眼睛可以看向旁边，不要一直盯着镜头。",
+    "id": "Pegang kantong masker yang gemuk di samping pipi, bagian depan menghadap kamera. Mulai bicara, lalu turunkan kantongnya dan tunjuk sisi hidung, pipi, lalu sudut mulutmu dengan satu jari, seperti menunjukkan area masalah. Matamu bisa melihat ke samping, jangan terus menatap kamera."
+   },
+   "lines": "Masker receh ini nih... Tiap hari kena AC, wajah makin kering. Kulit berminyak sering ngerasa luarnya berminyak tapi dalamnya kering... wajahnya mengkilap, tapi pinggirnya ngelupas, sekali makeup langsung cakey."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着打开的面膜袋放在脸颊旁边。开始说话，然后另一只手伸进袋子里，拿出一片湿面膜，让精华液滴回袋子里。眼睛看着滴落的精华液。然后放下袋子和面膜，用指尖沾取精华液轻拍脸颊和鼻翼，让精华液吸收。眼睛可以看向旁边，不要一直盯着镜头。",
+    "id": "Pegang kantong masker yang sudah terbuka di samping pipi. Mulai bicara, lalu tanganmu yang lain ambil satu lembar masker basah dari dalam, biarkan esensnya menetes kembali ke kantong. Matamu melihat ke tetesan esens. Lalu turunkan kantong dan maskernya, tepuk-tepuk sedikit esens di pipi dan sisi hidungmu dengan ujung jari, biar meresap. Matamu bisa melihat ke samping, jangan terus menatap kamera."
+   },
+   "lines": "Siang hari nggak usah pakai... malam sebelum tidur pakai selembar. Essence-nya banyak banget, bagian yang kering, ngelupas, minyaknya nggak stabil... tepuk satu lapis lagi."
+  },
+  {
+   "n": 3,
+   "sec": 12,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "双手空着，一只手抬到下巴旁边，边说话边慢慢弯下手指计数。然后放下手，停顿一下。接着，双手掌心轻轻按压和轻拍脸颊两次，然后放下。稍微把脸转向灯光，让脸颊骨呈现出柔和的光泽。",
+    "id": "Tangan kosong, satu tangan naik ke samping dagu, pelan-pelan tekuk jari satu per satu sambil bicara. Lalu turunkan tangan dan jeda sebentar. Kemudian, kedua telapak tanganmu naik dan tepuk-tepuk pipi dua kali dengan lembut, lalu turunkan. Miringkan sedikit wajahmu ke arah lampu agar ada kilau lembut di tulang pipi."
+   },
+   "lines": "Mau kulit kering, berminyak, atau kombinasi, semuanya cocok. Kalau makeup-mu sering kering dan kurang lembap... pagi pakai selembar sebelum makeup. Habis dilepas, tepuk-tepuk... nggak berminyak, nggak berat, nggak lengket, aku ngerasa glow-nya keluar dari kulitku sendiri."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着鼓鼓的面膜袋放在脸颊旁边，袋子正面朝向镜头。开始说话，眼睛可以看向袋子或旁边，不要一直盯着镜头。然后放下袋子，看向房间的侧面，像在回忆。最后几句话时，眼睛再回到镜头。说完后轻轻摇头，表情平静认真。",
+    "id": "Pegang kantong masker yang gemuk di samping pipi, bagian depan menghadap kamera. Mulai bicara, matamu bisa melihat ke kantong atau ke samping, jangan terus menatap kamera. Lalu turunkan kantongnya, dan lihat ke samping ruangan, seperti sedang mengingat. Matamu kembali ke kamera di beberapa kata terakhir. Setelah selesai bicara, gelengkan kepala pelan, ekspresimu tenang dan serius."
+   },
+   "lines": "Dia cuma punya harga yang bikin ketawa... sehari selembar nggak sampai tujuh ribu. Setelah pakai ini, aku baru sadar skincare mahal yang dulu aku beli mungkin cuma penipuan."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "face": null,
+   "do": {
+    "zh": "一只手拿着鼓鼓的面膜袋放在脸颊旁边，袋子正面朝向镜头。开始说话。然后同一只手把袋子伸向画面右侧边缘，像递给画面外的人，眼睛也看向那边。然后把袋子收回脸颊旁边，用同一只手的一个指尖轻拍一下鼓鼓的袋子正面，最后肯定地点头，表情平静。",
+    "id": "Pegang kantong masker yang gemuk di samping pipi, bagian depan menghadap kamera. Mulai bicara. Lalu tangan yang sama julurkan kantong yang tertutup ke tepi kanan frame, bagian depan tetap menghadap kamera, seolah menyerahkannya kepada seseorang di luar gambar, sambil melirik ke samping. Lalu tarik kembali ke samping pipi dan tepuk ringan bagian depan kantong yang menggelembung dengan ujung jari tangan yang sama, akhiri dengan anggukan kecil yang yakin dan wajah tenang."
+   },
+   "lines": "Komposisinya nggak usah dipelajari, balik kantongnya, kasih lihat suamimu... dia yang nggak pernah baca komposisi aja ngerti isinya bagus semua."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}
