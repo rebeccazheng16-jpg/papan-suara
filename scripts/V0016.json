@@ -2,29 +2,31 @@
  "id": "V0016",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 (Blingbling Cream)",
+  "zh": "水光霜 Blingbling Cream",
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "用这款霜，轻松打造韩式水光肌",
-  "id": "Dapetin glass skin ala Korea gampang banget"
+  "zh": "我的脸瞬间超级水光",
+  "id": "Mukaku langsung glowing parah"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 水光霜。素颜，脸上没有化妆品。还有一个气垫粉扑。如果方便的话，可以准备几瓶其他大牌精华液当背景。",
-  "id": "VEIRFOO Blingbling Cream. Muka bersih tanpa makeup. Siapin juga cushion puff. Kalau ada, siapin beberapa botol serum mewah lain buat pajangan."
+  "zh": "素颜，无妆。准备 VEIRFOO 水光霜和气垫粉扑。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produk VEIRFOO Blingbling Cream dan cushion puff."
  },
  "shots": [
   {
    "n": 1,
    "sec": 12,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka bersih"
+   },
    "do": {
-    "zh": "这部分有几个短镜头。你可以先拍素颜涂抹产品的镜头，之后再化妆拍剩下的。所以，先展示你化好妆的光泽肌，然后拍在脸颊上涂抹乳霜的镜头，最后回到化好妆的样子，拿着产品。",
-    "id": "Di bagian ini ada beberapa adegan pendek. Kamu bisa rekam dulu adegan pas muka bersih lagi pakai krimnya. Setelah itu, baru makeup-an buat rekam adegan sisanya. Jadi, pertama tunjukin muka glowing kamu, terus rekam pas lagi olesin krim di pipi, lalu kembali ke muka glowing sambil pegang produknya."
+    "zh": "在半边脸上涂抹产品，然后将产品举到脸颊旁展示。",
+    "id": "Oleskan produk ke separuh wajah, lalu tunjukkan produknya di sebelah pipi."
    },
    "lines": "Coba dulu deh, mukaku langsung glowing parah. Ternyata buatku dapetin glass skin ala Korea gampang banget ya! Ini nih, VEIRFOO Blingbling Cream dari Korea. Praktis banget, cukup satu produk ini aja buat melengkapi skincare harian."
   },
@@ -32,14 +34,13 @@
    "n": 2,
    "sec": 11,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "脸上已经涂了水光霜",
-    "id": "Muka sudah pakai Blingbling Cream"
+    "zh": "已涂抹水光霜",
+    "id": "Sudah pakai Blingbling Cream"
    },
    "do": {
-    "zh": "这部分，先拍一个你用手指轻点脸颊的特写。然后，拍一个你用气垫粉扑上粉底的镜头。最后，拿着产品对着镜头说话，邀请大家去看看小黄车。",
-    "id": "Untuk bagian ini, rekam close-up pas kamu tepuk-tepuk pipi. Terus, rekam juga pas kamu lagi pakai foundation pakai cushion puff. Terakhir, sambil pegang produknya, kamu ngomong ke kamera dan ajak mereka cek keranjang kuning."
+    "zh": "用气垫粉扑在脸上拍上粉底，然后双手（如果用三脚架）将产品举到脸颊旁。",
+    "id": "Tepuk-tepuk foundation pakai cushion puff, lalu pegang produk di sebelah pipi dengan kedua tangan (kalau pakai tripod)."
    },
    "lines": "Aku ngerasa kulitku glowing dari dalam. Mau pakai foundation apa pun, hasil akhirnya tetap kelihatan kayak glass skin ala Korea. Original Korea, harganya cuma segini loh! Cek keranjang kuning di bawah, ya"
   }

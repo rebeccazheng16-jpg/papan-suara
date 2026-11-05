@@ -2,18 +2,18 @@
  "id": "V0009",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 VEIRFOO Blingbling Cream",
-  "id": "VEIRFOO Blingbling Cream"
+  "zh": "VEIRFOO 水光霜 VEIRFOO Bling Bling Cream",
+  "id": "VEIRFOO Bling Bling Cream"
  },
  "hook": {
-  "zh": "韩国水光霜，一瓶多效",
-  "id": "Krim glowing Korea, satu tube banyak manfaat"
+  "zh": "韩国水光霜，一抹即亮",
+  "id": "Krim glowing Korea, sekali pakai langsung cerah!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好），粉底液",
-  "id": "Wajah bersih tanpa makeup, siapkan VEIRFOO Blingbling Cream (tutupnya terpasang), dan foundation cair"
+  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好），粉底液。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Bling Bling Cream (tertutup rapat) dan foundation cair."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊有点暗淡无光",
-    "id": "Wajah bersih tanpa makeup, pipi agak kusam"
+    "zh": "素颜，脸颊有点暗沉无光",
+    "id": "Wajah bersih tanpa makeup, pipi agak kusam dan tidak bercahaya"
    },
    "do": {
-    "zh": "一只手拿着产品，挤一点乳液到脸颊上，然后放下产品，用指尖轻拍乳液，让它吸收。然后把盖子盖好，产品举到脸颊旁边，对着镜头推荐，微笑。",
-    "id": "Pegang produk dengan satu tangan, keluarkan sedikit krim ke pipi, lalu letakkan produk. Tepuk-tepuk krim dengan ujung jari sampai meresap. Lalu, tutup produk, pegang di samping pipi, tatap kamera dan tersenyum sambil merekomendasikan."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Pakai aja dulu, kalau nggak cocok tinggal balikin kok. Cobain deh krim glowing dari Korea ini."
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，皮肤清透饱满有光泽",
-    "id": "Wajah bersih tanpa makeup, kulit bersih, kenyal, dan glowing"
+    "id": "Wajah bersih tanpa makeup, kulit bersih, kenyal, dan bercahaya"
    },
    "do": {
-    "zh": "用食指轻点脸颊，沿着下颌线滑到下巴，自信地微笑。然后把产品（盖子盖好）放在托盘上。最后，双手拿着产品（盖子盖好）举到脸颊旁边，对着镜头解释产品功效。",
-    "id": "Dengan ujung jari telunjuk, tunjuk pipi lalu usapkan ke rahang sampai dagu, tersenyum percaya diri. Lalu, letakkan produk (tutupnya terpasang) di atas nampan. Terakhir, pegang produk (tutupnya terpasang) dengan kedua tangan di samping pipi, tatap kamera dan jelaskan manfaat produk."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Liat nih, aku masih polosan banget, tapi kulitku udah glowing. Krim glowing yang lagi viral gara-gara makeup artist Korea ini, satu tube doang udah gantiin toner, serum, sama pelembab kamu sekaligus."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已涂抹水光霜，脸颊有几点粉底液",
-    "id": "Sudah pakai Blingbling Cream, ada beberapa titik foundation cair di pipi"
+    "zh": "已涂水光霜，脸颊有几点粉底液",
+    "id": "Sudah pakai Bling Bling Cream, ada beberapa titik foundation cair di pipi"
    },
    "do": {
-    "zh": "用无名指和中指将粉底液从脸颊中央向外推开，然后轻抬下巴，用食指轻拍脸颊，露出惊喜的笑容。",
-    "id": "Dengan jari manis dan tengah, ratakan foundation dari tengah pipi ke luar. Lalu, angkat dagu sedikit dan tepuk pipi dengan ujung jari telunjuk, tersenyum terkejut."
+    "zh": "无",
+    "id": ""
    },
    "lines": "Jadi pas aku udah pakai krim VEIRFOO ini, foundation-nya tuh jadi jauh lebih nempel, gampang banget diratain walaupun cuma pakai tangan. Ya ampun, nempel banget sih!"
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已上淡妆，皮肤水润有光泽",
-    "id": "Sudah pakai makeup tipis, kulit lembap dan glowing"
+    "zh": "带淡妆，皮肤水润有光泽",
+    "id": "Sudah pakai makeup tipis, kulit lembap dan bercahaya"
    },
    "do": {
-    "zh": "拿着产品（盖子盖好）举到脸颊旁边，轻轻转动手腕让产品反光。然后挤一点乳液到手背上，用指尖涂开。最后，再拿着产品（盖子盖好）举到脸颊旁边，对着镜头说话。",
-    "id": "Pegang produk (tutupnya terpasang) di samping pipi, putar sedikit pergelangan tangan agar permukaannya memantulkan cahaya. Lalu, keluarkan sedikit krim ke punggung tangan, ratakan dengan ujung jari. Terakhir, pegang lagi produk (tutupnya terpasang) di samping pipi, tatap kamera dan bicara."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini krim glowing yang dijual di klinik kecantikan Korea. Di dalemnya ada Salmon PDRN sama peptide, bahan yang sering dipakai serum high-end. Formula semewah ini jarang banget ada di sini."
   },
@@ -83,11 +83,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，皮肤柔软饱满有光泽",
-    "id": "Wajah bersih tanpa makeup, kulit lembut, kenyal, dan glowing"
+    "id": "Wajah bersih tanpa makeup, kulit lembut, kenyal, dan bercahaya"
    },
    "do": {
-    "zh": "晚上，穿着睡衣，用指尖在脸颊上缓慢地向上打圈按摩。早上，轻轻捏一下脸颊，然后松开。最后，拿着产品（盖子盖好）举到脸颊旁边，对着镜头说话，然后用食指指向屏幕左下角。",
-    "id": "Malam hari, pakai piyama, pijat pipi dengan ujung jari secara perlahan ke atas. Pagi hari, cubit pipi dengan lembut lalu lepaskan. Terakhir, pegang produk (tutupnya terpasang) di samping pipi, tatap kamera dan bicara, lalu tunjuk sudut kiri bawah layar dengan jari telunjuk."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Malam aku pakai, garis halusku berasa keisi, pagi sebelum makeup aku ngerasa glowing kayak cewek Korea, pipi berasa lembut kenyal. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

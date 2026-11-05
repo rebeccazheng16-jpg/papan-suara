@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "素颜霜，打造韩式自然裸妆",
-  "id": "Tone-up cream, untuk natural look ala cewek Korea"
+  "id": "Tone-up cream untuk natural makeup ala Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，产品盖子盖好，标签朝向镜头。准备好普通粉底液。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produk dengan tutup terpasang, label menghadap kamera. Siapkan juga foundation cair biasa."
+  "zh": "素颜，产品（盖子盖好，标签朝前）",
+  "id": "Wajah bersih tanpa makeup, produk (tutup terpasang, label menghadap kamera)"
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "看着镜头，表情有点烦恼。用指尖轻拍脸颊，然后用力拍鼻翼下方。用抱怨的语气说。",
-    "id": "Lihat kamera dengan ekspresi sedikit kesal. Tepuk pipi dengan ujung jari, lalu tepuk lebih keras di bagian bawah hidung. Ucapkan dengan nada mengeluh."
+    "zh": "轻拍脸颊和鼻翼，表现困扰。",
+    "id": "Tepuk-tepuk pipi dan hidung, ekspresi terganggu."
    },
    "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
   },
@@ -33,10 +36,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "看着镜头，带着自然的微笑。一只手从背后伸出，指向画面下方，然后放下。另一只手将产品从背后拿出，放在脸颊旁边，像分享秘密一样。用轻松、乐于助人的语气说。",
-    "id": "Lihat kamera dengan senyum natural. Satu tangan keluar dari belakang dan menunjuk ke bawah, lalu turunkan. Tangan lain mengeluarkan produk dari belakang dan meletakkannya di samping pipi, seperti berbagi rahasia. Ucapkan dengan nada ringan dan membantu."
+    "zh": "展示产品，产品 logo 正面始终朝向镜头。涂抹产品在半边脸，然后展示左右脸对比。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di separuh wajah, lalu tunjukkan perbandingan kiri-kanan wajah."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai VEIRFOO Tone-Up Cream dari Korea. Teksturnya krim, nggak ada rasa bedak. Sekali oles jadi lapisan soft-focus, pori sama kusam ketutup halus, buatku kayak kulit bawaan lahir cewek Korea."
   },
@@ -45,10 +51,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "半边脸涂抹了产品",
+    "id": "Separuh wajah sudah memakai produk"
+   },
    "do": {
-    "zh": "看着镜头，表情自信。一只手拿着产品放在脸颊旁边，盖子盖好，标签朝向镜头。另一只手的食指轻指向镜头。用越来越自信的语气说。",
-    "id": "Lihat kamera dengan ekspresi yakin. Satu tangan memegang produk di samping pipi, tutup terpasang, label menghadap kamera. Jari telunjuk tangan lain menunjuk ringan ke arah kamera. Ucapkan dengan nada yang semakin percaya diri."
+    "zh": "展示产品，产品 logo 正面始终朝向镜头。用手指指向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tunjuk ke kamera dengan jari."
    },
    "lines": "Niacinamide, di aku berasa muka kuning dan kusam jadi tampak lebih cerah, di tube ini posisinya masuk tiga besar, langsung tertulis di daftar komposisinya — bukan cuma numpang nama. Jadi makin rutin aku pakai, kulitku berasa makin cerah dan terawat."
   },
@@ -57,10 +66,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "全脸涂抹了产品",
+    "id": "Seluruh wajah sudah memakai produk"
+   },
    "do": {
-    "zh": "看着镜头，表情自信。双手拿着产品放在脸颊旁边，盖子盖好，标签朝向镜头。用充满活力的语气，一个一个地数出四个功能。",
-    "id": "Lihat kamera dengan ekspresi percaya diri. Pegang produk dengan kedua tangan di samping pipi, tutup terpasang, label menghadap kamera. Hitung empat fungsi satu per satu dengan energi yang membangkitkan semangat."
+    "zh": "展示产品，产品 logo 正面始终朝向镜头。涂抹产品在全脸。可以插入自己之前拍的Olive Young门店和货架的视频素材。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di seluruh wajah. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk."
    },
    "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
   },
@@ -69,10 +81,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "全脸涂抹了产品",
+    "id": "Seluruh wajah sudah memakai produk"
+   },
    "do": {
-    "zh": "双手拿着产品外盒和产品管，放在脸颊旁边，标签朝向镜头。用真诚的语气说。",
-    "id": "Pegang kotak produk dan tube produk dengan kedua tangan di samping pipi, label menghadap kamera. Ucapkan dengan nada tulus."
+    "zh": "展示产品和包装盒，产品 logo 正面始终朝向镜头。可以插入自己之前拍的Olive Young门店和货架的视频素材。",
+    "id": "Tunjukkan produk dan kemasan, logo bagian depan selalu menghadap kamera. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -81,10 +96,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "全脸涂抹了产品",
+    "id": "Seluruh wajah sudah memakai produk"
+   },
    "do": {
-    "zh": "看着镜头，一只手托着下巴，另一只手在旁边做手势，带着一丝苦笑。用略带讽刺的语气说。",
-    "id": "Lihat kamera, satu tangan menopang dagu, tangan lain memberi isyarat di samping, dengan senyum kecil yang masam. Ucapkan dengan nada sedikit menyindir."
+    "zh": "展示产品，产品 logo 正面始终朝向镜头。可以插入自己之前拍的Olive Young门店和货架的视频素材。指向左下方。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Bisa sisipkan video lama kamu saat di toko Olive Young dan rak produk. Tunjuk ke kiri bawah."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

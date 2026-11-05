@@ -6,14 +6,14 @@
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "水光霜的正确用法",
-  "id": "Cara pakai Blingbling Cream yang benar"
+  "zh": "熬夜脸急救，一抹水光肌",
+  "id": "Wajah kusam habis begadang? Pakai ini langsung glowing!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好），一个粉扑。",
-  "id": "Muka bersih tanpa makeup. Siapkan VEIRFOO Blingbling Cream (tutupnya terpasang). Siapkan satu spons bedak tabur."
+  "zh": "产品（盖子盖好，标签朝前），粉扑（干净的，无品牌），素颜出镜。",
+  "id": "Produk (tutup terpasang, label menghadap kamera), spons bedak (bersih, tanpa merek), wajah tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "举起产品到脸颊旁边，然后直视镜头，表情坚定且富有挑衅性，然后说话。",
-    "id": "Angkat produk ke samping pipi, lalu tatap kamera dengan ekspresi tegas dan provokatif, lalu bicara."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Blingbling Cream Korea ini— —kalian tuh, selama ini salah pakainya. Ini bukan buat skincare santai tiap malam — ini buat kebutuhan darurat. Abis bergadang, muka kusam dan lelah ? Jangan langsung dandan. Oles dulu ini."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用一只手打开产品盖子，挤出一点乳霜到手背上，然后用手指抹匀。聚焦乳霜质地。",
-    "id": "Dengan satu tangan, buka tutup produk, lalu peras sedikit krim ke punggung tangan, lalu ratakan dengan jari. Fokus pada tekstur krimnya."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Dengerin aku, cukup ini satu. Ada Salmon PDRN-nya — kulitku berasa lembap sambil kerasa cerah. Teksturnya krim putih, cepat meresap."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用粉扑轻拍 foundation 到湿润的脸颊上。然后稍微倾斜头部，让光线反射在脸上。然后把产品拿在脸颊旁边，对着镜头说话。最后，指向小黄车。",
-    "id": "Dengan spons bedak, tepuk-tepuk foundation ke pipi yang sudah lembap. Lalu miringkan kepala sedikit agar cahaya memantul di wajah. Lalu pegang produk di samping pipi dan bicara ke kamera. Terakhir, tunjuk ke keranjang kuning."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Timpa sama foundation, hasilnya nyatu, nggak cakey — buatku glowing kayak glass skin seharian. Di Korea satu tube mahal banget. Di sini tiga tube jauh lebih terjangkau, original Korea. Buruan, mumpung lagi promo spesial — cus keranjang kuning."
   }

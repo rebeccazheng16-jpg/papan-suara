@@ -2,18 +2,18 @@
  "id": "V0167",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 VEIRFOO PDRN Bling Bling Cream",
-  "id": "VEIRFOO PDRN Bling Bling Cream"
+  "zh": "VEIRFOO 水光霜新版 PDRN Cream New Pack",
+  "id": "VEIRFOO PDRN Cream"
  },
  "hook": {
-  "zh": "韩国免税店排长队的面霜，验证值不值",
-  "id": "Krim yang bikin antri panjang di duty free Korea, yuk buktiin worth it nggak"
+  "zh": "韩国免税店排长队的面霜、验证值不值",
+  "id": "Krim yang bikin orang rela antri di duty free Korea, worth it nggak ya?"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好，标签朝前）",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO PDRN Bling Bling Cream (tutupnya terpasang, label menghadap kamera)."
+  "zh": "产品（新包装透明盖），素颜，无妆",
+  "id": "Produk (kemasan baru tutup transparan), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Muka bersih tanpa makeup"
+   },
    "do": {
-    "zh": "从画面下方拿起产品，举到脸颊旁边，标签朝前。保持兴奋和健谈，语速快。在4.2秒时，把产品稍微放低一点，然后扬眉毛一点，带着好奇的微笑。",
-    "id": "Angkat produk dari bawah frame dan pegang di samping pipi setinggi wajah, tutup terpasang, bagian depan menghadap kamera. Tetap semangat dan banyak bicara, dengan tempo cepat. Pada detik 4.2, turunkan tube sedikit dan angkat alis sedikit dengan senyum penasaran."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini dia krim yang bikin orang rela antri di duty free Korea sampai panjang banget. Mari kita buktiin, apakah worth it?"
   },
@@ -33,10 +36,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Muka bersih tanpa makeup"
+   },
    "do": {
-    "zh": "产品举在脸颊旁边，盖子盖好，标签朝前。保持好奇和活泼，语速快。在2.5秒时，头稍微倾斜一点，用另一只手的手指轻触颧骨一下，然后那只手离开画面。",
-    "id": "Pegang produk di samping pipi setinggi wajah, tutup terpasang, bagian depan menghadap kamera. Tetap penasaran dan bersemangat, dengan tempo cepat. Pada detik 2.5, miringkan kepala sedikit dengan rasa ingin tahu, ujung jari tangan yang lain menyentuh tulang pipi sebentar, lalu tangan itu keluar dari frame."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Bisa nggak ya, habis pakai krim ini, aku ngerasa kulitku yang kusam jadi glowing kayak idol Korea?"
   },
@@ -45,10 +51,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Muka bersih tanpa makeup"
+   },
    "do": {
-    "zh": "【Shot 1】从画面下方拿起产品，盖子打开，管口朝向脸颊。挤出一点乳液沿着颧骨画一笔。在1.5秒时，把产品放下，用另一只手轻拍乳液直到吸收。保持高兴和惊讶，语速快。 【Shot 2】换一个角度，脸是干净的。一只手放在下巴，并根据话语轻轻示意。说到“贵”字时，轻轻点头。保持开朗和自信，语速快。",
-    "id": "【Shot 1】Angkat produk dari bawah frame, buka tutupnya, dan arahkan ujungnya ke pipi. Oleskan sedikit losion putih susu di sepanjang tulang pipi. Pada detik 1.5, turunkan produk dan gunakan tangan yang lain untuk menepuk-nepuk losion sampai meresap. Tetap senang dan terkejut, dengan tempo cepat. 【Shot 2】Ganti sudut, wajah bersih. Satu tangan diletakkan di dekat dagu dan memberi isyarat ringan sesuai kata-kata. Pada kata \"mahal\", berikan anggukan kecil. Tetap cerah dan yakin, dengan tempo cepat."
+    "zh": "挤出产品在颧骨上，然后用指尖轻拍至吸收。",
+    "id": "Keluarkan produk di tulang pipi, lalu tepuk-tepuk dengan ujung jari sampai meresap."
    },
    "lines": "Wah, teksturnya lembut banget, kayak yogurt. PDRN emang lagi viral banget guys, dalam dua tahun terakhir ini. Soalnya bahan bakunya memang mahal. Bahkan harga bahan bakunya per mili bisa bikin kaget banget."
   },
@@ -57,10 +66,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Muka bersih tanpa makeup"
+   },
    "do": {
-    "zh": "【Shot 1】一只手轻触发光的颧骨。说到“treatment”时，带着了然的微笑轻轻摇头。手不拿任何东西。保持温暖和令人信服，语速快。 【Shot 2】换一个角度。从画面下方拿起产品，举到脸颊旁边，盖子盖好，标签朝前。在9.0秒时，另一只空手从侧面进入，食指指向画面左下角。保持开朗和吸引人，语速快。",
-    "id": "【Shot 1】Ujung jari satu tangan menyentuh tulang pipi yang glowing. Pada kata \"treatment\", gelengkan kepala sedikit dengan senyum tahu. Tangan tidak memegang apa-apa. Tetap hangat dan meyakinkan, dengan tempo cepat. 【Shot 2】Ganti sudut. Angkat produk dari bawah frame dan pegang di samping pipi setinggi wajah, tutup terpasang, bagian depan menghadap kamera. Pada detik 9.0, tangan kosong yang lain masuk dari samping dan jari telunjuknya menunjuk ke sudut kiri bawah frame. Tetap ceria dan mengundang, dengan tempo cepat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一根手指指向屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan satu jari ke sudut kiri bawah layar."
    },
    "lines": "Makanya banyak orang lebih milih skincare dengan kandungan PDRN, daripada harus keluar uang banyak buat treatment. Sekarang kamu nggak perlu jauh-jauh lagi pergi ke Korea dan antri panjang. Karena kamu tinggal klik keranjang kuning di bawah sini, langsung cobain sekarang!"
   }

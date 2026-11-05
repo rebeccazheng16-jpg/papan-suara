@@ -12,8 +12,8 @@
  "src": "TikTok @apingkosmetikaa",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO小紫管素颜霜（盖子盖好，标签朝前）。道具：一个空的小包包（纯色无logo），一个装满同款素颜霜的透明圆筒。素颜，手背干净。",
-  "id": "Produk: VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera). Properti: Satu tas tangan kecil polos tanpa logo, satu wadah bening berisi tube yang sama. Wajah bersih, punggung tangan bersih."
+  "zh": "产品：VEIRFOO小紫管素颜霜（3支）。",
+  "id": "Produk: VEIRFOO Purple Tube (3 buah)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着三支产品，像扇子一样展开，盖子朝上，标签朝前。慢慢地左右摇晃你的手，让光线反射到管体上。边说第二句话，把产品稍微抬高一点靠近镜头。",
-    "id": "Pegang tiga tube produk seperti kipas, tutup di atas, label menghadap kamera. Goyang-goyangkan tanganmu pelan ke kiri dan ke kanan agar pantulan cahaya mengenai tube. Sambil mengucapkan kalimat kedua, angkat sedikit produknya mendekat ke kamera."
+    "zh": "一只手拿着三支产品，正面朝向镜头，慢慢转动让光线照到管身。保持管身细长比例。",
+    "id": "Pegang tiga produk dengan satu tangan, bagian depan menghadap kamera, putar perlahan agar cahaya mengenai tube. Jaga proporsi tube tetap ramping dan panjang."
    },
    "lines": "Guys, kalian suka nggak pede kalau keluar rumah, wajahnya kelihatan kusam dan merah? Mau berani tampil polos atau nggak, yang kurang cuma satu lapisan tipis aja."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着一支产品，盖子朝上，标签朝前。在它后面放一桶同款产品。说第一句话的时候，把产品稍微倾斜一点对着镜头。说第二句话的时候，用拇指轻敲产品正面五次，每说一个功能敲一次。",
-    "id": "Pegang satu tube produk, tutup di atas, label menghadap kamera. Di belakangnya, letakkan wadah berisi tube yang sama. Saat mengucapkan kalimat pertama, miringkan sedikit produk ke arah kamera. Saat mengucapkan kalimat kedua, ketuk bagian depan tube dengan jempolmu lima kali, satu ketukan untuk setiap fungsi yang disebutkan."
+    "zh": "一只手拿着一支产品，正面朝向镜头。用拇指轻敲管身五次。",
+    "id": "Pegang satu produk dengan satu tangan, bagian depan menghadap kamera. Ketuk tube lima kali dengan ibu jari."
    },
    "lines": "Pakai ini aja: VEIRFOO Purple Tube, tone-up cream dari Korea. Satu tube lima fungsi sekaligus: toner, pelembap, primer, tone-up, sama pengganti foundation."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "如果用三脚架: 一只手拿着产品，另一只手打开盖子，放在桌上。然后挤一点米粒大小的乳霜到另一只手的手背上。用指尖抹开乳霜直到均匀并看起来更亮。慢慢转动你的手来展示区别。",
-    "id": "Kalau pakai tripod: Satu tangan memegang produk, tangan lain membuka tutupnya dan meletakkannya di meja. Lalu, peras sedikit krim seukuran biji beras ke punggung tangan yang lain. Ratakan krim dengan ujung jari sampai merata dan terlihat lebih cerah. Putar tanganmu pelan-pelan untuk menunjukkan perbedaannya."
+    "zh": "一只手拿着产品，另一只手拧开盖子，挤出米粒大小的膏体到手背，然后用指尖抹开。展示涂抹后的手背，让提亮效果明显。",
+    "id": "Pegang produk dengan satu tangan, tangan lain putar buka tutupnya, lalu peras sedikit krim seukuran butir beras ke punggung tangan dan ratakan dengan ujung jari. Tunjukkan punggung tangan yang sudah diolesi agar efek cerahnya terlihat jelas."
    },
    "lines": "Kamu nggak perlu lagi ribet pakai foundation, pagi-pagi ini langkah terakhir, oles, langsung berangkat. Keluarnya krim putih, dibaur tipis aja, aku ngerasa kulitku kelihatan lebih cerah satu tingkat, rata, flawless, kayak bagus dari lahir."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着三支产品，像扇子一样展开，盖子朝上。把产品倾斜一点，让 PDRN 标签朝向镜头，拇指指向那个标签，但不要遮住它。然后慢慢地左右摇晃你的手，让光线反射到管体上。",
-    "id": "Pegang tiga tube produk seperti kipas, tutup di atas. Miringkan produk sedikit agar label PDRN menghadap kamera, dengan jempol menunjuk ke label tanpa menutupinya. Lalu, goyang-goyangkan tanganmu pelan ke kiri dan ke kanan agar pantulan cahaya mengenai tube."
+    "zh": "一只手拿着三支产品，正面朝向镜头。倾斜管身，让PDRN标签朝向镜头，拇指指向标签。然后慢慢转动管身。",
+    "id": "Pegang tiga produk dengan satu tangan, bagian depan menghadap kamera. Miringkan tube agar label PDRN menghadap kamera, tunjuk label dengan ibu jari. Lalu putar tube perlahan."
    },
    "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, langsung ditulis di tube-nya. Rawat kulit sekaligus bikin cantik, cewek Korea hampir semuanya punya."
   },
@@ -71,8 +71,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品放进包包里，然后拿出来。把产品举起来，标签朝前，稍微倾斜一点对着镜头。",
-    "id": "Masukkan produk ke dalam tas, lalu ambil lagi. Angkat produk, label menghadap kamera, dan miringkan sedikit ke arah kamera."
+    "zh": "一只手拿着产品，正面朝向镜头，把它放进包里，再拿出来，然后举起来展示。",
+    "id": "Pegang produk dengan satu tangan, bagian depan menghadap kamera, masukkan ke dalam tas, lalu keluarkan lagi dan angkat untuk ditunjukkan."
    },
    "lines": "Masukin tas, dibawa ke mana aja gampang, sat set anti ribet. Di Korea harganya segini loh."
   },
@@ -83,8 +83,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着三支产品，像扇子一样展开，盖子朝上，标签朝前。另一只手伸进来，食指指向左下方（小黄车的位置）。",
-    "id": "Pegang tiga tube produk seperti kipas, tutup di atas, label menghadap kamera. Tangan yang lain masuk ke frame, jari telunjuk menunjuk ke kiri bawah (tempat keranjang kuning)."
+    "zh": "一只手拿着三支产品，正面朝向镜头。另一只手伸入画面，食指指向左下角。",
+    "id": "Pegang tiga produk dengan satu tangan, bagian depan menghadap kamera. Tangan lain masuk ke frame, jari telunjuk menunjuk ke sudut kiri bawah."
    },
    "lines": "Baru launching aja udah banyak banget yang nyerbu. Klik keranjang kuning di kiri bawah, cobain deh!"
   }

@@ -2,31 +2,29 @@
  "id": "V0104",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "粉水光油霜 VEIRFOO Pink Bling Bling Cream",
+  "zh": "粉水光油霜 Pink Bling Bling Cream",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
   "zh": "我宣布这是我的人生妆前",
-  "id": "Aku nobatkan ini primer terbaik seumur hidupku"
+  "id": "Aku umumkan ini primer terbaik seumur hidupku"
  },
- "src": "包包大人",
+ "src": "",
  "cam": "user",
  "prep": {
-  "zh": "准备 VEIRFOO 粉水光油霜，一个普通的白色妆前乳管，一个气垫粉扑，还有粉底液。需要露出素颜，皮肤有点暗沉干燥。",
-  "id": "Siapin VEIRFOO Pink Bling Bling Cream, satu primer lain warna putih (nggak ada merek), cushion puff, sama foundation. Muka harus bersih tanpa makeup, kelihatan agak kusam & kering."
+  "zh": "产品：VEIRFOO粉水光油霜（盖子盖好，标签朝前）。道具：一个没有带子的粉扑。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera). Properti: spons bedak tanpa tali. Kulit: wajah bersih, tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "化好全套水光妆",
-    "id": "Sudah makeup glass skin lengkap"
-   },
+   "broll": false,
+   "face": null,
    "do": {
-    "zh": "这个镜头需要两种妆：一个完整的水光妆，一个完全素颜。先化好妆，对着镜头说第一句。然后卸妆，露出素颜，说第二句。再化好妆，说第三句，最后拿起产品说结尾的话。这部分可能需要分开拍再剪辑。",
-    "id": "Segmen ini butuh 2 look: satu makeup glowing, satu lagi muka polos. Coba rekam pas kamu sudah makeup, bilang kalimat pertama. Terus hapus makeup, rekam lagi pas muka polos bilang kalimat kedua. Balik lagi ke look makeup, rekam kalimat ketiga & keempat sambil pegang produknya."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Wajib banget aku share ini! Makeup se-glowing ini, padahal kulit asliku kusam dan kering parah. Rahasianya cuma satu: VEIRFOO Pink Bling Bling Cream. Pertama kali pakai, langsung aku rekomendasiin ke bestie."
   },
@@ -34,13 +32,14 @@
    "n": 2,
    "sec": 9,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "素颜出镜。先把一滴产品挤在脸上抹开，说第一句话。然后可以拍个特写，在手背上抹开产品，说第二句。再拍个对比，把另一个白色妆前乳在手上搓开，它会搓泥，说第三句。最后回到脸上，摇摇头说最后一句话。",
-    "id": "Muka polos ya. Pencet produknya dikit ke pipi terus ratain sambil ngomong kalimat pertama. Terus bisa rekam close-up di punggung tangan, ratain produknya sambil ngomong. Buat perbandingan, coba gosok primer lain di tangan sampai ngegumpal, sambil ngomong. Terakhir balik ke muka, geleng-geleng kepala dikit."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Keluarnya lotion pink yang cair banget. Diratain, langsung meleleh kayak air, nyerap tanpa bekas. Beda sama primer lain yang tebal, digosok malah menggumpal, cuma numpang di atas kulit."
   },
@@ -48,13 +47,14 @@
    "n": 3,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "刚涂完产品的素颜，水润的",
-    "id": "Muka bersih, sudah pakai produknya, kelihatan lembap"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "脸上是刚吸收完产品的状态。用手指按一下脸颊，说第一句话。然后拿起产品，举到脸旁边，自信地点点头说第二句。接着用粉扑拍上粉底，说第三句。最后展示完成的底妆，可以稍微转转脸，笑着说最后一句话。",
-    "id": "Muka kamu sudah pakai produknya & kelihatan lembap. Coba tekan pipi pakai jari sambil ngomong kalimat pertama. Terus angkat produknya di sebelah muka, ngangguk dikit, sambil ngomong kalimat kedua. Lanjut tap-tap foundation pakai puff. Terakhir, tunjukin hasil base makeup-nya sambil senyum."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kulit kering itu bukan kurang air, tapi nggak ada minyak yang ngunci. Ini oil cream: Jojoba plus tiga Hyaluronic Acid, ditambah Sodium DNA dan kolagen. Habis itu langsung tap foundation, hasilnya buatku kayak glass skin alami, lembap tapi nggak lengket."
   },
@@ -62,13 +62,14 @@
    "n": 4,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜，皮肤暗沉哑光",
-    "id": "Muka bersih, kelihatan kusam & matte"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "素颜，脸稍微侧一点。看着镜头说第一句话。然后用指尖抹一点产品在脸颊上，说第二句。接着用粉扑拍上粉底，说第三句。最后展示完成的底妆，把产品举到脸旁边，认真地说最后一句话。",
-    "id": "Muka polos, hadapnya agak nyamping dikit ya. Lihat kamera sambil ngomong kalimat pertama. Terus olesin produknya tipis-tipis di pipi sambil ngomong kalimat kedua. Lanjut, tap-tap foundation pakai puff. Terakhir, tunjukin hasil makeup-nya sambil pegang produk di sebelah muka."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kemarin kulitku kering dan kusam banget. Aku oles tipis, lima menit langsung nyerap semua. Lanjut foundation, langsung nempel rapi, nggak ada yang ngangkat. Sudah terdaftar BPOM, dibuat di Korea, cek sendiri di kemasannya."
   },
@@ -76,13 +77,11 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "化好全套水光妆",
-    "id": "Sudah makeup glass skin lengkap"
-   },
+   "broll": false,
+   "face": null,
    "do": {
-    "zh": "化好完整的水光妆。看着镜头，像和朋友说话一样，说第一句话。然后稍微侧脸展示光泽，说第二句。最后拿起产品，笑着指向左下角，说最后一句话。",
-    "id": "Ini pas sudah makeup lengkap & glowing ya. Lihat kamera, ngomong kalimat pertama kayak lagi ngobrol sama teman. Terus, putar muka dikit buat tunjukin glowing-nya. Terakhir, pegang produknya, senyum, terus tunjuk ke arah keranjang kuning sambil ngomong."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Yang foundation-nya sering cakey dan ngelupas, jangan buru-buru ganti foundation, coba ini dulu. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

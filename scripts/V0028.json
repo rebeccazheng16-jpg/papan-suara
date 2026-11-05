@@ -6,14 +6,14 @@
   "id": "VEIRFOO Sodium DNA Collagen Mask"
  },
  "hook": {
-  "zh": "韩国家庭式医美护理",
-  "id": "Perawatan ala klinik Korea di rumah"
+  "zh": "在家也能做的韩国医美级撕拉面膜",
+  "id": "Masker peel-off ala klinik Korea yang bisa dipakai di rumah"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 水光胶原蛋白面膜 (盖子盖好，标签朝前)，面膜刷。脸上没有化妆。",
-  "id": "VEIRFOO Sodium DNA Collagen Mask (tutupnya terpasang, label menghadap kamera), kuas masker. Muka bersih tanpa makeup."
+  "zh": "VEIRFOO 水光胶原蛋白面膜，一个小刷子，素颜。",
+  "id": "Masker kolagen VEIRFOO, kuas kecil, muka polos tanpa makeup."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 10,
    "talk": true,
    "face": {
-    "zh": "脸上已经敷了一层干掉的透明面膜",
-    "id": "Masker transparan yang sudah kering di seluruh wajah"
+    "zh": "脸上已经敷着干透的面膜",
+    "id": "Masker sudah kering di muka"
    },
    "do": {
-    "zh": "首先，从下巴开始，慢慢地把脸上干掉的透明面膜往上撕掉。然后，拿起 VEIRFOO 面膜，把它举到脸颊旁边给镜头看。最后，可以拍一个用刷子在手臂内侧涂抹面膜的特写镜头。",
-    "id": "Pertama, kamu bisa kelupas masker transparan yang sudah kering di wajah, pelan-pelan dari dagu ke atas. Setelah itu, ambil produk VEIRFOO-nya dan tunjukkin di samping pipi. Terakhir, bisa rekam close-up pas kamu olesin krimnya di lengan pakai kuas."
+    "zh": "需要拍三个镜头：1. 撕掉脸上的面膜。2. 把产品拿到脸颊旁边。3. 在手臂上涂抹面膜膏。",
+    "id": "Kamu rekam 3 adegan ya: 1. Kamu lagi kelupas masker di muka. 2. Tunjukin produknya di sebelah pipi. 3. Olesin krim masker di lengan."
    },
    "lines": "Guys, kok pas mengelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Sodium DNA Collagen Mask dari VEIRFOO, brand Korea. Teksturnya creamy putih seperti yogurt, lembut banget."
   },
@@ -34,10 +34,13 @@
    "n": 2,
    "sec": 12,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka polos"
+   },
    "do": {
-    "zh": "用刷子把面膜均匀地涂满全脸。一边涂抹一边说台词，让镜头记录下面膜从白色慢慢变透明的过程。最后，用手指轻轻按压脸颊，展示皮肤的水润感。",
-    "id": "Kamu bisa olesin masker ke seluruh wajah pakai kuas sampai rata. Sambil ngomong, biarin kamera merekam prosesnya dari putih jadi bening. Terakhir, coba tekan-tekan pipi pakai jari buat nunjukkin kulitnya jadi kenyal."
+    "zh": "需要拍三个镜头：1. 韩国美妆店的素材（用网图/视频）。2. 把面膜涂满全脸。3. 用手指按压脸颊。",
+    "id": "Kamu rekam 3 adegan ya: 1. Video/foto toko kosmetik Korea (ambil dari internet aja). 2. Kamu lagi olesin masker ke seluruh muka. 3. Tekan pipi pakai jari."
    },
    "lines": "Bahannya itu satu keluarga sama Rejuran yang di klinik Korea — PDRN, kolagen, peptida. Liat deh, dari putih dia pelan-pelan menjadi bening, langsung keserap. Perawatan mahal ala klinik Korea, sekarang bisa dilakukan di rumah."
   },
@@ -45,10 +48,13 @@
    "n": 3,
    "sec": 11,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka polos"
+   },
    "do": {
-    "zh": "首先，用刷子把面膜厚厚地涂在脸上。然后，拍一个揭下面膜后的镜头，用手指按压脸颊展示效果。最后，把产品拿到脸旁边，指着左下角做结尾动作。",
-    "id": "Pertama, kamu bisa olesin masker tebal-tebal ke wajah sambil ngomong baris pertama. Lalu, di adegan berikutnya (setelah maskernya dilepas), tekan pipi buat nunjukkin hasilnya yang glowing. Terakhir, pegang produknya di samping wajah dan tunjuk ke bawah."
+    "zh": "需要拍四个镜头：1. 涂面膜。2. 撕掉面膜后按压脸颊。3. 产品和其它大牌精华液摆在一起的空镜。4. 拿着产品指向左下角。",
+    "id": "Kamu rekam 4 adegan ya: 1. Kamu lagi olesin masker. 2. Sesudah masker dilepas, tekan pipi. 3. Rekam produknya dipajang bareng serum mahal. 4. Pegang produk sambil nunjuk ke kiri bawah."
    },
    "lines": "Oles tebal pakai kuasnya, tunggu sampai kering. Pas udah dilupas, kulitku berasa lebih cerah dan glowing! Perawatan ala klinik Korea, tapi bisa dilakukan sendiri di rumah. Cek keranjang kuning di bawah, ya!"
   }

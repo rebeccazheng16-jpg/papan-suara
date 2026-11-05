@@ -6,24 +6,28 @@
   "id": "VEIRFOO Breathing Cream"
  },
  "hook": {
-  "zh": "拯救你闲置的旧粉底",
-  "id": "Selamatkan foundation lama kamu yang nggak terpakai"
+  "zh": "粉底卡粉浮粉？用呼吸霜！",
+  "id": "Foundation cakey dan kering? Pakai Breathing Cream!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO呼吸霜（带盖子），产品外盒，一瓶你常用的粉底液，一个粉色小礼盒。需要素颜。",
-  "id": "VEIRFOO Breathing Cream (sama tutupnya), dusnya, satu foundation biasa kamu, dan satu kotak kado kecil warna pink. Muka harus bersih ya, tanpa makeup."
+  "zh": "VEIRFOO 呼吸霜（带盖），普通粉底液（带盖），素颜，无妆",
+  "id": "VEIRFOO Breathing Cream (dengan tutup), foundation biasa (dengan tutup), wajah bersih tanpa makeup"
  },
  "shots": [
   {
    "n": 1,
    "sec": 12,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "表情严肃地看着镜头，先伸手指镜头，再指指自己的脸颊，说第一段话。然后，只拍手部，双手举着产品和包装盒，说第二段话。",
-    "id": "Kamu bisa mulai dengan muka serius, tunjuk ke kamera, terus tunjuk pipi kamu sambil ngomong bagian pertama. Setelah itu, rekam tangan kamu aja yang pegang produk sama dusnya sambil ngomong bagian kedua."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Foundation kamu kusam, nyangkut di garis halus, kering ngelupas — padahal masih sisa banyak? Jangan buru-buru beli baru. Foundation cuma nutupin, nggak ngerawat. Yang kamu butuh: penyelamat foundation — VEIRFOO Breathing Cream."
   },
@@ -31,13 +35,14 @@
    "n": 2,
    "sec": 12,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "半边脸涂普通粉底，另半边脸涂混合呼吸霜的粉底。",
-    "id": "Sebelah muka pakai foundation biasa, sebelahnya lagi pakai yang sudah dicampur Breathing Cream."
+    "zh": "左脸是普通粉底，右脸是呼吸霜混合粉底",
+    "id": "Sisi kiri wajah dengan foundation biasa, sisi kanan wajah dengan campuran Breathing Cream dan foundation"
    },
    "do": {
-    "zh": "先只拍手。在手背上挤一泵普通粉底和半泵呼吸霜，然后混合。接着，拍脸部皮肤的特写做对比，最后拍出两种效果的半边脸，笑着指向效果好的那边。",
-    "id": "Pertama, rekam tangan kamu aja. Pencet satu pump foundation biasa dan setengah pump Breathing Cream ke punggung tangan, terus campur. Lanjut, rekam close-up perbandingan pipi kamu, lalu rekam muka kamu yang setengah-setengah sambil senyum dan tunjuk sisi yang bagus."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。左脸是普通粉底，右脸是呼吸霜混合粉底，确保对比明显。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sisi kiri wajah dengan foundation biasa, sisi kanan wajah dengan campuran Breathing Cream dan foundation, pastikan perbedaannya terlihat jelas."
    },
    "lines": "Ini sebenarnya serum yang bisa dipakai buat makeup. Foundation kamu satu pump, ini setengah pump aja. Astaga — ini baru namanya base ala cewek Korea, kulitnya kayak bisa bernapas!"
   },
@@ -45,13 +50,14 @@
    "n": 3,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全脸用呼吸霜混合粉底，打造水光肌。",
-    "id": "Seluruh muka sudah pakai base yang dicampur Breathing Cream, jadi kelihatan glowing."
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先自信地看着镜头说话。然后，只拍手部：打开盒子，拿出产品。最后，只拍手拿着产品的样子。",
-    "id": "Mulai dengan ngomong ke kamera dengan yakin. Terus, rekam tangan kamu aja: buka dusnya, keluarin produknya. Terakhir, rekam tangan kamu pegang produknya aja."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Dan ini bukan barang jastip nggak jelas: BPOM-nya resmi, pabriknya di Korea, importirnya resmi. Semua bisa kamu cek sendiri."
   },
@@ -59,13 +65,14 @@
    "n": 4,
    "sec": 11,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全脸用呼吸霜混合粉底，打造水光肌。",
-    "id": "Seluruh muka sudah pakai base yang dicampur Breathing Cream, jadi kelihatan glowing."
+    "zh": "全脸是呼吸霜混合粉底",
+    "id": "Seluruh wajah dengan campuran Breathing Cream dan foundation"
    },
    "do": {
-    "zh": "把产品拿在脸旁边，说第一句话。然后只拍手拿着产品和盒子。最后，双手举着粉色礼品盒，用指甲敲敲盒子，然后微笑着指向左下角。",
-    "id": "Sambil pegang produk di samping muka, kamu ngomong kalimat pertama. Terus rekam tangan kamu pegang produk dan dusnya. Terakhir, pegang kotak kado pink, ketuk-ketuk kotaknya, lalu senyum dan tunjuk ke arah kiri bawah."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。最后指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah."
    },
    "lines": "Dulu cuma bisa lewat jastip, harganya segitu. Sekarang aku mintain bonus khusus dari brand-nya — terbatas, siapa cepat dia dapat. Buka keranjang kuning di kiri bawah, buruan cobain!"
   }

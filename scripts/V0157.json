@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "水光胶原蛋白膜 Sodium DNA Hydraglow Collagen Mask",
-  "id": "VEIRFOO Sodium DNA Hydraglow Collagen Mask"
+  "id": "VEIRFOO Collagen Mask"
  },
  "hook": {
-  "zh": "只用这个，常被误以为刚做完护理",
+  "zh": "只用这个，常被误以为刚做完医美",
   "id": "Cuma pakai ini, suka dikira habis treatment"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO水光胶原蛋白膜（新包装），盖子盖好。道具：平头刷子（白色刷柄，白色刷毛，无字无logo）。皮肤：素颜，脸部干净无妆。",
-  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru), tutupnya terpasang. Alat: Kuas masker (pegangan putih, bulu putih, tanpa tulisan atau logo). Kulit: Wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，盖子盖好，标签朝前）。工具：平头刷子（白色刷柄，白色刷毛，无字）。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Collagen Mask (kemasan baru, tutupnya terpasang, label menghadap kamera). Alat: Kuas masker (pegangan putih, bulu putih, tanpa tulisan). Kulit: Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸上已涂好面膜，眼周和唇部留白",
+    "id": "Wajah sudah ada masker, area mata dan bibir kosong"
+   },
    "do": {
-    "zh": "涂抹面膜：用刷子在脸颊上刷一层乳白色面膜。然后，切换到脸部特写，闭眼微笑，手指轻触脸颊，然后睁眼看向镜头，微笑。说台词。",
-    "id": "Oleskan masker: Pakai kuas untuk mengoleskan masker putih susu di pipi. Lalu, ambil wajah close-up, pejamkan mata sambil tersenyum, sentuh pipi dengan jari, lalu buka mata dan lihat ke kamera sambil tersenyum. Ucapkan dialog."
+    "zh": "用刷子在脸颊上再刷一笔乳白色面膜。然后，脸部干净，轻触脸颊。",
+    "id": "Sikatkan satu sapuan masker di pipi. Lalu, wajah bersih, sentuh pipi."
    },
    "lines": "Cobain sekali aja, kamu bakal langsung ngerti kenapa produk ini sering kehabisan di Korea."
   },
@@ -33,10 +36,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
+   },
    "do": {
-    "zh": "半脸对比：先展示涂抹产品的一侧脸颊，用指尖轻触，皮肤看起来更亮、更饱满、更水润。然后切换到另一侧脸颊，轻触，皮肤看起来稍微暗沉、不那么新鲜。说台词。",
-    "id": "Perbandingan setengah wajah: Pertama tunjukkan pipi yang sudah pakai produk, sentuh dengan ujung jari, kulit terlihat lebih cerah, kenyal, dan glowing. Lalu, beralih ke pipi satunya, sentuh, kulit terlihat sedikit lebih kusam dan kurang segar. Ucapkan dialog."
+    "zh": "轻按左侧脸颊，然后轻触右侧脸颊。",
+    "id": "Tekan ringan pipi kiri, lalu sentuh pipi kanan."
    },
    "lines": "Lihat deh, sisi yang aku pakai ini buatku agak lebih cerah, kenyal, dan glowing. Sisi satunya masih agak kusam dan kurang fresh."
   },
@@ -45,10 +51,13 @@
    "sec": 15,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
+   },
    "do": {
-    "zh": "产品介绍：先拿着产品管放在脸颊旁边，微笑看向镜头。然后切换到双手展示产品管的俯拍镜头，管身倾斜，让光线反射在银色表面和蓝色PDRN标签上。最后切换回脸部特写，再次举起产品管，露出PDRN标签，点头。说台词。",
-    "id": "Perkenalan produk: Pertama pegang tube produk di samping pipi, tersenyum ke kamera. Lalu, beralih ke shot tangan dari atas yang menunjukkan tube produk, miringkan sedikit agar cahaya memantul di permukaan perak dan label PDRN biru. Terakhir, kembali ke close-up wajah, angkat lagi tube produk, tunjukkan label PDRN, dan mengangguk. Ucapkan dialog."
+    "zh": "将产品举到脸颊旁，标签朝前。然后，双手将产品水平举在水槽上方，标签朝前。最后，将产品举到脸颊旁，标签朝前。",
+    "id": "Pegang produk di samping pipi, label menghadap kamera. Lalu, kedua tangan pegang produk horizontal di atas wastafel, label menghadap kamera. Terakhir, pegang produk di samping pipi, label menghadap kamera."
    },
    "lines": "Nggak heran collagen mask ini jadi salah satu produk andalan para makeup artist Korea. Bahkan setelah treatment skin booster di klinik Korea, banyak yang tetap bawa pulang collagen mask ini buat dipakai di rumah. Rahasianya ada di PDRN dari ekstrak salmon Korea, dipadukan dengan kolagen."
   },
@@ -57,10 +66,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
+   },
    "do": {
-    "zh": "使用过程：先挤出产品在额头和脸颊上。然后切换到用刷子涂抹均匀的镜头。接着切换到撕下面膜的镜头，从额头到下巴，整片撕下，面膜是透明的，有眼鼻嘴的洞。最后切换到脸部特写，用指尖轻抚脸颊，微笑。说台词。",
-    "id": "Proses penggunaan: Pertama, keluarkan produk di dahi dan pipi. Lalu, beralih ke shot saat mengoleskan dengan kuas sampai rata. Kemudian, beralih ke shot saat melepas masker, tarik dari dahi ke dagu, lepaskan seluruh lembaran, maskernya transparan dengan lubang mata, hidung, dan mulut. Terakhir, beralih ke close-up wajah, usap pipi dengan ujung jari, tersenyum. Ucapkan dialog."
+    "zh": "挤出产品涂抹在前额和脸颊上。然后，用刷子将面膜刷匀。接着，面膜干透后，从额头到下巴撕下整片面膜。最后，轻抚脸颊。",
+    "id": "Pencet produk di dahi dan pipi. Lalu, ratakan masker dengan kuas. Kemudian, setelah masker kering, kelupas seluruh lembaran dari dahi ke dagu. Terakhir, usap pipi."
    },
    "lines": "Pakai VEIRFOO Collagen Mask, aku ngerasa kulitku ternutrisi maksimal, lebih kenyal, lembap, dan glowing. Di website resmi Korea, satu pcs harganya segini loh."
   },
@@ -69,10 +81,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
+   },
    "do": {
-    "zh": "结尾：先拿着产品管放在脸颊旁边，微笑看向镜头，说有促销活动。然后切换到脸部特写，指尖沿着下巴和脸颊滑动，然后指向左下角，推荐点击购物车。说台词。",
-    "id": "Penutup: Pertama, pegang tube produk di samping pipi, tersenyum ke kamera, bilang ada promo. Lalu, beralih ke close-up wajah, ujung jari meluncur di sepanjang rahang dan pipi, lalu tunjuk ke sudut kiri bawah, rekomendasikan untuk klik keranjang kuning. Ucapkan dialog."
+    "zh": "将产品举到脸颊旁，标签朝前。然后，指尖沿着下巴和脸颊滑动，最后指向左下角。",
+    "id": "Pegang produk di samping pipi, label menghadap kamera. Lalu, jari-jari meluncur di sepanjang rahang dan pipi, lalu tunjuk ke kiri bawah."
    },
    "lines": "Tapi hari ini lagi promo. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

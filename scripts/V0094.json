@@ -2,18 +2,18 @@
  "id": "V0094",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 Bling Bling Cream",
+  "zh": "VEIRFOO 水光霜 (Bling Bling Cream)",
   "id": "VEIRFOO Bling Bling Cream"
  },
  "hook": {
-  "zh": "皮肤前后对比，水光肌的秘密",
-  "id": "Transformasi kulit: Rahasia kulit glowing!"
+  "zh": "我的皮肤曾经暗沉干燥，现在是玻璃肌",
+  "id": "Dulu kulitku kusam dan kering, sekarang glass skin"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO水光霜（盖子盖好，标签朝前），洗面奶，防晒霜。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Bling Bling Cream (tutupnya terpasang, label menghadap kamera), pembersih wajah, dan sunscreen."
+  "zh": "素颜，不化妆，不戴首饰。准备好VEIRFOO水光霜（盖子盖好，标签朝前），防晒霜。",
+  "id": "Wajah bersih tanpa makeup, tanpa perhiasan. Siapkan VEIRFOO Bling Bling Cream (tutup terpasang, label menghadap kamera), dan sunscreen."
  },
  "shots": [
   {
@@ -21,13 +21,10 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，皮肤暗沉，有黑眼圈、细纹、法令纹、泛红和小斑点。",
-    "id": "Wajah bersih tanpa makeup, kulit kusam, ada lingkaran hitam di bawah mata, garis halus, garis senyum, kemerahan, dan bintik kecil."
-   },
+   "face": null,
    "do": {
-    "zh": "用前置摄像头自拍特写，手持手机稍微晃动。平静地看向镜头, 头稍微倾斜。嘴巴闭着，画外音说台词。",
-    "id": "Ambil selfie close-up pakai kamera depan, goyangkan sedikit HP-nya. Lihat ke kamera dengan tenang, miringkan kepala sedikit. Ucapkan kalimat ini sebagai voiceover, bibir tetap tertutup."
+    "zh": "用前置摄像头自拍，特写，手持，轻微晃动。展示素颜、暗沉、有瑕疵的皮肤。",
+    "id": "Selfie pakai kamera depan, close-up, dipegang tangan, goyang sedikit. Tunjukkan kulit wajah yang kusam dan ada noda."
    },
    "lines": "Guys, ini muka aku dulu. Kulitku itu kering banget, tiap foto wajib nyalain beauty filter. Ini muka aku sekarang. Beda dikit, kan?"
   },
@@ -37,12 +34,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜。",
-    "id": "Memakai sheet mask dan kacamata berbingkai hitam."
+    "zh": "敷着面膜，戴着黑框眼镜",
+    "id": "Pakai sheet mask dan kacamata hitam"
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍特写，脸部充满画面。表情夸张，充满活力。看着镜头说话，眼睛经常锁定镜头，眉毛随着强调而收缩。在第2秒左右，一只手在下巴下方轻轻挥动。在第5秒左右，摇头两次，然后举起右手食指做出“一”的手势，并向镜头戳三次，每次都比上次快。在第9秒左右，看向画框右上角，好像在思考，左手抚摸头发一次。在第11秒左右，目光回到镜头，逐字逐句地说出下一行，在“但是”、“我告诉你”、“你们”和“大错特错”上重读。每次重读时，伸直的右食指沿着镜头轴线向相机移动，直到指尖几乎碰到镜头。",
-    "id": "Berbaring di tempat tidur, ambil selfie close-up pakai kamera depan, penuhi layar dengan wajahmu. Ekspresikan wajahmu dengan heboh dan bersemangat. Bicara ke kamera, sering-sering tatap lensa, kerutkan alis setiap kali menekankan sesuatu. Sekitar detik ke-2, lambaikan tanganmu sedikit di bawah dagu. Sekitar detik ke-5, gelengkan kepala dua kali, lalu angkat jari telunjuk kananmu membentuk angka 'satu' dan tusukkan ke arah lensa tiga kali, makin cepat setiap kali. Sekitar detik ke-9, lihat ke kanan atas di luar frame seolah sedang berpikir, dan usap rambutmu sekali dengan tangan kiri. Sekitar detik ke-11, tatap kembali lensa dan ucapkan kalimat berikutnya kata demi kata, dengan penekanan pada 'Tapi', 'aku kasih tahu', 'kalian', dan 'salah besar'. Setiap penekanan, luruskan jari telunjuk kananmu ke arah kamera sampai ujung jari hampir menyentuh lensa."
+    "zh": "躺在床上，用前置摄像头自拍，特写。表情夸张，充满活力。用手指指向镜头。",
+    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Ekspresi dilebih-lebihkan, penuh energi. Jari menunjuk ke arah kamera."
    },
    "lines": "Aku tuh nggak pakai krim yang mahal-mahal, nggak pakai serum mahal juga, dan nggak pernah treatment di klinik. Aku cuma pakai satu benda, yang kalian pasti nggak nyangka: cuma satu Bling Bling Cream! Mungkin kalian mikir ini cuma efek sesaat doang. Tapi aku kasih tahu ya, kalian salah besar!"
   },
@@ -52,12 +49,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜。",
-    "id": "Memakai sheet mask dan kacamata berbingkai hitam."
+    "zh": "敷着面膜，戴着黑框眼镜",
+    "id": "Pakai sheet mask dan kacamata hitam"
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍特写，脸部充满画面。表情夸张，充满活力。举起右手握拳与脸平齐，在三次重音上，向下推拳头三次，每次都比上次更用力、更低，拳头始终在画面内。在第2秒左右，举起食指做出“一”的手势，并向镜头轻敲一次，然后张开手，手掌朝向镜头，非常快速地从身体一侧向另一侧滑动，中途停下，像一个未完成的拒绝手势。在第5秒左右，放下手，自然地对着镜头说话，双手只在下巴下方做小手势，不指点，眼睛锁定镜头。",
-    "id": "Berbaring di tempat tidur, ambil selfie close-up pakai kamera depan, penuhi layar dengan wajahmu. Ekspresikan wajahmu dengan heboh dan bersemangat. Angkat tangan kananmu mengepal setinggi wajah, dan pada tiga penekanan, dorong kepalan tangan ke bawah tiga kali, setiap kali lebih kuat dan lebih rendah dari sebelumnya, kepalan tangan tidak pernah keluar dari frame. Sekitar detik ke-2, angkat jari telunjukmu membentuk angka 'satu' dan ketuk sekali ke arah lensa, lalu buka tanganmu dan geser telapak tanganmu, menghadap lensa, sangat cepat dari satu sisi tubuhmu ke sisi lain, berhenti di tengah jalan seperti gerakan menolak yang belum selesai. Sekitar detik ke-5, turunkan tanganmu dan bicara secara alami ke kamera, tanganmu hanya membuat gerakan kecil di bawah dagu tanpa menunjuk, mata terkunci pada lensa."
+    "zh": "躺在床上，用前置摄像头自拍，特写。表情夸张，充满活力。用拳头和手势强调。",
+    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Ekspresi dilebih-lebihkan, penuh energi. Gunakan kepalan tangan dan gerakan tangan untuk menekankan."
    },
    "lines": "Ini tuh bagus banget banget banget! Pokoknya semua orang harus beli Bling Bling Cream ini, ya? Aku udah lama banget posting ini di sini, dan sekarang udah banyak yang beli. Makanya aku sengaja bikin video buat ngajarin cara pakainya yang bener."
   },
@@ -67,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上沾有洁面泡沫。",
-    "id": "Wajah bersih tanpa makeup, ada busa pembersih di wajah."
+    "zh": "素颜",
+    "id": "Wajah bersih"
    },
    "do": {
-    "zh": "在浴室里，用特写镜头拍摄。脸上沾满洁面泡沫，用手在脸颊上打圈，然后弯腰，用水泼脸，冲洗掉泡沫；直起身，干净的皮肤上沾有水珠，看起来有点暗沉。嘴巴闭着，画外音说台词。",
-    "id": "Di kamar mandi, ambil close-up. Wajahmu penuh busa pembersih, gosok pipimu dengan tangan, lalu membungkuk, cipratkan air ke wajah, dan bilas busanya; tegakkan badan dengan tetesan air di kulit bersih yang terlihat sedikit kusam. Ucapkan kalimat ini sebagai voiceover, bibir tetap tertutup."
+    "zh": "洗脸，挤出VEIRFOO水光霜涂抹在脸上，展示产品时，产品 logo 正面始终朝向镜头。然后涂抹防晒霜。",
+    "id": "Cuci muka, lalu oleskan VEIRFOO Bling Bling Cream ke wajah, tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu pakai sunscreen."
    },
    "lines": "Sebelum pakai, cuci muka dulu sampai bersih. Pencet sedikit ke wajah, ratakan ke seluruh muka. Tunggu satu menit, baru timpa sama sunscreen. Primer sekarang aku skip."
   },
@@ -82,12 +79,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜，皮肤湿润有光泽。",
-    "id": "Memakai sheet mask dan kacamata berbingkai hitam, kulit lembap dan sangat reflektif."
+    "zh": "敷着面膜，戴着黑框眼镜",
+    "id": "Pakai sheet mask dan kacamata hitam"
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍特写。皮肤湿润有光泽。对着镜头说话，在第2秒左右，举起右手，五指张开，手掌朝向镜头，向前轻推手腕以强调数字。嘴巴闭着，画外音说台词。",
-    "id": "Berbaring di tempat tidur, ambil selfie close-up pakai kamera depan. Kulitmu lembap dan sangat reflektif. Bicara ke kamera, sekitar detik ke-2, angkat tangan kananmu dengan lima jari terbuka, telapak tangan menghadap lensa, dan dorong pergelangan tanganmu ke depan untuk menekankan angka. Ucapkan kalimat ini sebagai voiceover, bibir tetap tertutup."
+    "zh": "躺在床上，用前置摄像头自拍，特写。展示产品包装和产品质地。",
+    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Tunjukkan kemasan produk dan tekstur produk."
    },
    "lines": "Malam juga jangan lupa dipakai ya. Ini tuh lima in one: siang jadi primer, malam krim, toner, lotion, sama serum semuanya bisa di-skip. Akhir-akhir ini tiap buka kamera depan, aku suka kaget sendiri lihat kulitku yang glowing."
   },
@@ -96,13 +93,10 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜，皮肤暗沉，有黑眼圈、细纹、法令纹、泛红。",
-    "id": "Wajah bersih tanpa makeup, kulit kusam, ada lingkaran hitam di bawah mata, garis halus, garis senyum, kemerahan."
-   },
+   "face": null,
    "do": {
-    "zh": "用前置摄像头自拍特写。素颜，皮肤暗沉，有黑眼圈、泪沟、细纹、法令纹、干燥暗沉的表面和鼻周轻微泛红。头稍微倾斜，平静地看向镜头。嘴巴闭着，画外音说台词。",
-    "id": "Ambil selfie close-up pakai kamera depan. Wajah bersih tanpa makeup, kulit kusam, ada lingkaran hitam di bawah mata, garis air mata yang jelas, garis halus di bawah dan di samping mata, garis senyum yang terlihat, permukaan kering dan kusam dengan tekstur yang terlihat, dan sedikit kemerahan di sekitar hidung. Miringkan kepala sedikit dan lihat kembali ke lensa dengan ekspresi tenang. Ucapkan kalimat ini sebagai voiceover, bibir tetap tertutup."
+    "zh": "展示素颜、暗沉的皮肤，然后是玻璃肌。最后在户外走路。",
+    "id": "Tunjukkan kulit wajah yang kusam, lalu kulit glass skin. Terakhir, berjalan di luar ruangan."
    },
    "lines": "Dulu mukaku itu kusam dan kering. Nggak pernah kepikiran suatu hari kulitku bisa jadi glass skin."
   },
@@ -112,12 +106,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "敷着面膜，戴着黑框眼镜，皮肤湿润有光泽。",
-    "id": "Memakai sheet mask dan kacamata berbingkai hitam, kulit lembap dan sangat reflektif."
+    "zh": "敷着面膜，戴着黑框眼镜",
+    "id": "Pakai sheet mask dan kacamata hitam"
    },
    "do": {
-    "zh": "躺在床上，用前置摄像头自拍特写，脸部充满画面。皮肤湿润有光泽，表情真诚，微表情丰富。在下巴下方张开双手，轻轻摇头，眉毛上扬，眼睛真诚地看着镜头；然后右手食指轻敲镜头一次，左手食指轻敲一次，一左一右，一轻一重；然后目光短暂地移开，然后用“随便”的表情向镜头挥动双手两次。在第8秒左右，在镜头前举起右手食指，在“非常”的三个重音上向相机轻敲三次，每次轻敲都更用力、更靠近镜头，眼睛变得更急切；在第12秒左右，她温暖地微笑，脸稍微倾向镜头，像向朋友推荐一样，然后将伸直的右手食指指向镜头中心并保持不动，视频在她最后一句台词结束时结束。",
-    "id": "Berbaring di tempat tidur, ambil selfie close-up pakai kamera depan, penuhi layar dengan wajahmu. Kulitmu lembap dan sangat reflektif, ekspresimu tulus dengan mikro-ekspresi yang kaya. Buka kedua tanganmu di bawah dagu dan gelengkan kepala perlahan, alis terangkat, mata menatap lensa dengan sungguh-sungguh; lalu jari telunjuk kananmu mengetuk sekali ke arah lensa, dan jari telunjuk kirimu mengetuk sekali, satu kiri dan satu kanan, satu ringan dan satu tegas; lalu pandanganmu melayang sebentar sebelum kamu melambaikan kedua telapak tanganmu ke arah lensa dua kali dengan ekspresi 'terserah'. Sekitar detik ke-8, angkat jari telunjuk kananmu di depan lensa dan ketuk ke arah kamera tiga kali pada tiga penekanan 'banget', setiap ketukan lebih keras dan lebih dekat ke lensa, matamu semakin mendesak; sekitar detik ke-12, dia tersenyum hangat, sedikit memiringkan wajahnya ke arah lensa seperti merekomendasikan kepada teman, dan menunjuk jari telunjuk kanannya yang lurus ke tengah lensa dan menahannya diam, video berakhir tepat pada kata terakhirnya."
+    "zh": "躺在床上，用前置摄像头自拍，特写。用手势和手指强调。",
+    "id": "Berbaring di kasur, selfie pakai kamera depan, close-up. Gunakan gerakan tangan dan jari untuk menekankan."
    },
    "lines": "Ini bukan iklan ya, aku juga nggak dibayar sama brand-nya. Mau beli ya beli, mau percaya sama aku ya percaya. Kalau nggak percaya ya... yaudah, bodo amat, bodo amat. Aku tuh cuma pengen banget banget banget rekomendasiin ini ke kalian. Aku pengen kulit kita semua jadi bagus bareng-bareng, ya?"
   }

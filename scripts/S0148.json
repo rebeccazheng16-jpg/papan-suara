@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Masker Sicenari PDRN 9,900ppm"
+  "id": "Sicenari Collagen Shot Mask"
  },
  "hook": {
-  "zh": "有纹光补水没用 → 敢印在包装上 → 冰凉收紧 → 天天敷不心疼 → 闺蜜要链接",
-  "id": "Kalau ada kerutan, hidrasi saja tidak cukup. Masker ini dingin, mengencangkan, bisa dipakai setiap hari, dan teman-temanmu pasti minta link-nya!"
+  "zh": "有一根纹光补水没用 → 敢印在包装上 → 冰凉收紧 → 天天敷不心疼 → 闺蜜要链接",
+  "id": "Ada kerutan cuma pakai hidrasi aja nggak cukup \tberani dicetak di kemasan \tdingin dan kencang \tpakai tiap hari nggak rugi \tteman-teman minta link"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI袋装面膜（未开封），打开包装，取出一片面膜，让精华液滴落。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari yang masih tertutup. Lalu buka kemasannya, ambil satu lembar masker, biarkan essence-nya menetes."
+  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封），打开一袋面膜，准备好一片面膜，让精华液滴落。",
+  "id": "Wajah polos tanpa makeup. Siapkan masker Sicenari yang masih tertutup. Buka satu bungkus masker, ambil satu lembar masker, biarkan essence menetes."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "从袋子里拿出一片湿润的面膜，让精华液滴落，放在脸颊旁边，然后用指尖轻触眼角。口播时表情认真。",
-    "id": "Ambil satu lembar masker yang basah dari kemasan, biarkan essence-nya menetes, letakkan di samping pipi. Lalu sentuh sudut luar mata dengan ujung jari. Bicara dengan ekspresi serius."
+    "zh": "从打开的袋子里拿出一片 masker, 让精华液滴落。",
+    "id": "Angkat satu lembar masker dari kemasan yang terbuka, biarkan essence menetes."
    },
    "lines": "Kalau udah mulai muncul satu garis di wajah, cuma hidrasi aja udah nggak cukup, harus pakai masker anti-kerut kayak gini buat perawatan khusus."
   },
@@ -33,10 +36,13 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "一只手拿着未开封的SICENARI面膜袋放在脸颊旁边，另一只手轻敲包装上的“PDRN 9,900ppm”字样。面带自信的微笑。",
-    "id": "Pegang kemasan masker Sicenari yang tertutup di samping pipi dengan satu tangan. Dengan tangan lain, ketuk tulisan \"PDRN 9,900ppm\" di kemasan dua kali. Senyum percaya diri."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指点一下包装上的 PDRN 9,900ppm 字样。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ketuk tulisan PDRN 9,900ppm di kemasan."
    },
    "lines": "Teman-temanku sekarang pakai masker Korea Sicenari ini semua. Lihat, PDRN sembilan ribu sembilan ratus ppm berani dicetak gede di kantongnya, jadi yakin kan?"
   },
@@ -45,10 +51,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "用指尖轻触眼下皮肤，然后滑过脸颊，展示光滑的素颜。然后举起一根食指在下巴旁边，自信地点头。",
-    "id": "Sentuh kulit di bawah mata lalu usap pipi, tunjukkan wajah bersihmu yang mulus. Lalu angkat satu jari telunjuk di samping dagu dan mengangguk yakin."
+    "zh": "用指尖轻触眼下和脸颊，展示光滑的皮肤。举起一根食指。",
+    "id": "Sentuh kulit di bawah mata dan pipi dengan ujung jari, tunjukkan kulit yang halus. Angkat satu jari telunjuk."
    },
    "lines": "Lihat wajah polosku, umurku udah lewat dua puluh lima. Aku sehari selembar, beneran sampai habis satu kantong."
   },
@@ -57,10 +66,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "先用双手轻柔地捧住脸颊，然后沿着下颌线轻压。接着从袋子里拿出一片湿润的面膜，让精华液滴落，放在脸颊旁边。最后用指尖轻拍脸颊，面带温暖的微笑。",
-    "id": "Pertama, pegang pipi dengan kedua telapak tangan. Lalu tekan perlahan sepanjang garis rahang. Kemudian, ambil satu lembar masker yang basah dari kemasan, biarkan essence-nya menetes, letakkan di samping pipi. Terakhir, tepuk pipi dengan ujung jari, senyum hangat."
+    "zh": "用双手轻柔地捧住脸颊。用手掌轻压下颌线。从打开的袋子里拿出一片面膜，让精华液滴落。用指尖轻拍脸颊。",
+    "id": "Pegang pipi dengan lembut. Tekan garis rahang dengan telapak tangan. Angkat satu lembar masker dari kemasan yang terbuka, biarkan essence menetes. Tepuk pipi dengan ujung jari."
    },
    "lines": "Begitu masker ini ditempel, rasanya dingin dan nyaman banget. Aku ngerasa wajahku pelan-pelan lebih kencang, kayak essence-nya ditekan masuk. Terus essence di kantongnya banyak banget, satu lembar diangkat netes terus, kulit sensitif juga bisa pakai. Sekali coba, kamu bakal langsung suka."
   },
@@ -69,10 +81,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "一只手拿着未开封的SICENARI面膜袋放在脸颊旁边，另一只手轻拍袋子两次。然后放下袋子，举起一根食指在下巴旁边，最后用双手轻柔地按压脸颊。",
-    "id": "Pegang kemasan masker Sicenari yang tertutup di samping pipi dengan satu tangan, lalu tepuk kemasan dua kali dengan tangan lain. Kemudian letakkan kemasan, angkat satu jari telunjuk di samping dagu, lalu tekan pipi dengan kedua telapak tangan."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。轻拍包装袋两次。举起一根食指。用双手轻柔地按压脸颊。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tepuk kemasan dua kali. Angkat satu jari telunjuk. Tekan pipi dengan lembut."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, sehari pakai selembar nggak sampai tujuh ribu. Kita cewek mau kelihatan awet muda, wajah harus dijaga. Harga segini, tiap hari pakai juga nggak sayang."
   },
@@ -81,10 +96,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah polos"
+   },
    "do": {
-    "zh": "一只手拿着未开封的SICENARI面膜袋放在脸颊旁边，另一只手指向左下角。面带友好、略带调皮的微笑。",
-    "id": "Pegang kemasan masker Sicenari yang tertutup di samping pipi dengan satu tangan. Tangan lain menunjuk ke arah kiri bawah. Senyum ramah dan sedikit menggoda."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用食指指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari telunjuk ke kiri bawah."
    },
    "lines": "Pakai sebentar, bestie kamu pasti minta link-nya. Link-nya di keranjang kuning kiri bawah!"
   }

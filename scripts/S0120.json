@@ -2,18 +2,18 @@
  "id": "S0120",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮 面膜",
-  "id": "SICENARI Hydraglow Collagen Mask"
+  "zh": "SICENARI 超光子胶原炮面膜 (Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask)",
+  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
   "zh": "素颜出门总被质疑擦粉了",
-  "id": "Sering dibilang pakai bedak padahal muka bare face"
+  "id": "Sering dikira pakai bedak padahal muka bare face"
  },
- "src": "抖音 @幸运姐姐 温博士 B5 水",
+ "src": "TikTok @幸运姐姐 温博士",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜（盒装和单片装），素颜出镜，不露脸只露手",
-  "id": "Masker SICENARI Hydraglow Collagen (kemasan kotak dan sachet), muka bare face, hanya tangan yang terlihat."
+  "zh": "SICENARI 超光子胶原炮面膜盒装（5片装），一张单片面膜。素颜，手部干净无饰品。",
+  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (box isi 5), satu sachet masker. Muka bare face, tangan bersih tanpa perhiasan."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手把面膜盒放在桌上，轻敲两下。然后两只手打开盒子，露出里面的面膜袋。",
-    "id": "Satu tangan meletakkan kotak masker di meja, lalu ketuk dua kali. Lalu dua tangan membuka kotak, memperlihatkan sachet masker di dalamnya."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。把面膜盒放在桌上轻拍两下，然后打开盒盖展示里面的面膜单片。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Letakkan kotak masker di meja, tepuk dua kali, lalu buka tutupnya untuk menunjukkan sachet masker di dalamnya."
    },
    "lines": ""
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "两只手撕开一个面膜袋。然后一只手拿着撕开的袋子，另一只手从袋子里取出湿润的面膜纸，精华液滴回袋子里。",
-    "id": "Dua tangan merobek sachet masker. Lalu satu tangan memegang sachet yang terbuka, tangan lainnya mengangkat lembaran masker yang basah keluar dari sachet, essence menetes kembali ke dalam sachet."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。双手撕开面膜单片包装，然后取出面膜，让精华液滴落。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan dua tangan, sobek sachet masker, lalu angkat masker keluar, biarkan esensnya menetes."
    },
    "lines": ""
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着撕开的袋子，并倒出剩余精华液到另一只手背上，形成一个小水洼。然后两只手涂抹精华液直到吸收，并转向灯光方向，皮肤看起来有光泽。",
-    "id": "Satu tangan memegang sachet yang terbuka dan menuangkan sisa essence ke punggung tangan yang lain, membentuk genangan kecil. Lalu dua tangan menggosok essence itu sampai meresap dan memutar punggung tangan ke arah lampu, kulit terlihat glowing."
+    "zh": "将面膜袋中剩余的精华液倒在手背上，然后双手揉搓至吸收，展示手背水润光泽。",
+    "id": "Tuangkan sisa esens dari sachet masker ke punggung tangan, lalu gosokkan dengan kedua tangan sampai meresap, tunjukkan punggung tangan yang lembap dan bercahaya."
    },
    "lines": ""
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "手指按压桌上撕开的袋子，里面的精华液看起来晃动，还有很多剩余。然后挤出剩余精华液到指尖，并涂抹在手腕内侧和前臂。",
-    "id": "Jari-jari menekan sachet yang terbuka di meja, essence di dalamnya terlihat bergoyang, masih banyak sisa. Lalu peras sisa essence ke ujung jari dan oleskan di pergelangan tangan bagian dalam dan lengan bawah."
+    "zh": "将面膜袋放在桌上，用手指轻压，展示袋中仍有大量精华液。然后挤出剩余精华液涂抹在手腕和前臂内侧。",
+    "id": "Letakkan sachet masker di meja, tekan dengan jari untuk menunjukkan masih banyak esens di dalamnya. Lalu peras sisa esens ke ujung jari dan oleskan di pergelangan tangan dan lengan bagian dalam."
    },
    "lines": ""
   },
@@ -71,8 +71,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手拿着面膜盒向上，正面朝向镜头，静止在画面中下方。另一只手伸入并用食指指向画面左下角。",
-    "id": "Satu tangan memegang kotak masker ke atas, bagian depan menghadap kamera, diam di tengah bawah frame. Tangan lainnya masuk dan jari telunjuk menunjuk ke sudut kiri bawah frame."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。一只手拿着面膜盒，另一只手指向画面左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Satu tangan memegang kotak masker, tangan lainnya menunjuk ke sudut kiri bawah layar."
    },
    "lines": ""
   }

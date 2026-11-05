@@ -2,18 +2,18 @@
  "id": "S0132",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "Sicenari Collagen Shot Hydrating Mask"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "Sicenari sheet mask PDRN 9,900ppm"
  },
  "hook": {
   "zh": "黑头躲在毛孔缝里，绿泥进得去",
-  "id": "Komedo bersembunyi di pori-pori, masker lumpur hijau bisa masuk"
+  "id": "Komedi animasi 3D: Komedo bersembunyi di pori-pori, masker biasa nggak bisa masuk"
  },
  "src": "抖音 BUV笔薇官方旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI袋装面膜（未开封）",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker kantong Sicenari (belum dibuka)."
+  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封），如果可以，准备好一个三脚架。",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan pouch (masih tersegel). Kalau bisa, pakai tripod."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：黑头在毛孔里嘲笑普通面膜进不去",
-    "id": "Animasi: Komedo di pori-pori mengejek masker biasa tidak bisa masuk."
+    "zh": "动画，不需要真人出镜。",
+    "id": "Ini animasi, kamu tidak perlu muncul."
    },
    "lines": "Hmm, tunggu si pemilik wajah pakai masker aja. Hahaha, percuma! Aku ngumpet di celah garis kering, dia nggak bisa masuk. Kok mengelupas lagi? Cuma formalitas, nggak ngefek."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "动画：SICENARI面膜精华液冲走黑头，皮肤变白",
-    "id": "Animasi: Essence masker Sicenari menyapu komedo, kulit jadi putih."
+    "zh": "动画，不需要真人出镜。",
+    "id": "Ini animasi, kamu tidak perlu muncul."
    },
    "lines": "Datang lagi, masker Korea namanya Sicenari. Ah, paling sama aja. Gawat! Di dalamnya ada PDRN, essence-nya juga dituang sekantong penuh, aku jadi nggak tenang!"
   },
@@ -50,8 +50,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "看着镜头，用食指在下巴旁边比划，自信地微笑。然后，用两根手指从打开的袋子里拿起一片面膜，让精华滴落。再看着镜头，假装严肃地摇动食指，然后轻捏脸颊，调皮地微笑。最后，用一只手按压袋子，让它晃动，然后看着镜头，分享秘密般地挑眉微笑。",
-    "id": "Lihat ke kamera, tunjuk dengan jari telunjuk di samping dagu, senyum percaya diri. Lalu, pakai dua jari untuk mengangkat selembar masker dari kantong yang terbuka, biarkan essence menetes. Kemudian, lihat ke kamera lagi, pasang muka pura-pura serius sambil menggoyangkan jari telunjuk, lalu cubit pipi dengan gemas, senyum nakal. Terakhir, tekan kantong masker dengan satu tangan agar bergoyang, lalu lihat ke kamera, angkat alis sedikit seperti berbagi rahasia dan senyum."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini nggak usah dihemat, sehari satu lembar cukup, soalnya essence-nya banyak banget. Tapi jangan dipakai kalau kulitmu nggak kering, soalnya kulitku aja berasa lembut banget, dicubit aja keluar air. Aku rutin pakai tiap malam sebelum tidur, bangun besoknya kerasa ada kejutan."
   },
@@ -62,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "双手拿着袋子，撕开顶部，然后拉开拉链。用两根手指从袋子里拿起一片面膜，让精华滴落。倾斜袋子，展示里面剩余的精华。最后，用沾有精华的手指涂抹在脖子上。",
-    "id": "Pegang kantong dengan kedua tangan, sobek bagian atasnya, lalu buka zip-lock. Ambil selembar masker dari kantong dengan dua jari, biarkan essence menetes. Miringkan kantong untuk menunjukkan sisa essence di dalamnya. Terakhir, oleskan essence di jari ke leher."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Lihat, begitu kantongnya dibuka, essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, di dasar kantong masih sisa banyak, sekalian aku oles ke leher."
   },
@@ -77,8 +77,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "特写眼角、脸颊和嘴角，展示皮肤水润。然后，看着镜头，一只手拿起袋子放在脸颊旁边，开心地微笑。",
-    "id": "Close-up sudut mata, pipi, dan sudut mulut, tunjukkan kulit yang lembap. Lalu, lihat ke kamera, angkat kantong masker dengan satu tangan di samping pipi, senyum bahagia."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Habis maskeran, garis keringku, kulit mengelupasku, kusamku, semuanya berasa jadi lembap, kulit kayak lagi minum air banyak-banyak. Aku udah rekomendasiin ke banyak teman, semuanya bilang enak."
   },
@@ -92,8 +92,8 @@
     "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "看着镜头，用手指在下巴旁边数数。然后，看着镜头，调皮地歪头。再看着镜头，一只手拿着袋子放在脸颊旁边，露出调皮的笑容。然后，用两根手指在打开的袋子里翻动面膜，展示数量。最后，一只手拿着袋子，另一只手指向左下方，温暖地微笑。",
-    "id": "Lihat ke kamera, hitung dengan jari di samping dagu. Lalu, lihat ke kamera, miringkan kepala dengan ekspresi nakal. Kemudian, lihat ke kamera, pegang kantong masker dengan satu tangan di samping pipi, senyum nakal. Lalu, pakai dua jari untuk mengipas masker di dalam kantong yang terbuka, tunjukkan jumlahnya. Terakhir, pegang kantong dengan satu tangan, tangan yang lain menunjuk ke kiri bawah, senyum hangat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Wajib cobain kalau kulitmu kering atau sensitif. Harganya berapa? Kamu tanya berapa? Murahnya sampai aku nggak berani sebut, dan itu buat satu kantong isi 21 lembar. Klik keranjang kuning di kiri bawah, cek harganya sekarang, beli satu kantong dulu buat coba!"
   }

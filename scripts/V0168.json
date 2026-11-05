@@ -6,14 +6,14 @@
   "id": "Masker Collagen Second Skin dari VEIRFOO"
  },
  "hook": {
-  "zh": "皮肤累了暗沉？用它秒变玻璃肌！",
+  "zh": "天呐，这皮肤也太玻璃了吧！",
   "id": "Gilaa, ini glass skin banget sih!"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO水光胶原蛋白膜（新包装，盖子盖好，标签朝前）。道具：平头面膜刷。皮肤：素颜，无妆。",
-  "id": "Produk: Masker Collagen Second Skin VEIRFOO (kemasan baru, tutupnya terpasang, label menghadap kamera). Alat: Kuas masker pipih. Wajah: Bersih, tanpa makeup."
+  "zh": "产品：VEIRFOO 水光胶原蛋白膜（盖子盖好，标签朝前）；刷子。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (tutup terpasang, label menghadap kamera); kuas. Kulit: wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆，略显疲惫，有淡淡黑眼圈和泪沟。",
+    "id": "Wajah bersih tanpa makeup, terlihat sedikit lelah, ada lingkaran hitam dan garis air mata samar."
+   },
    "do": {
-    "zh": "素颜出镜，脸部占画面一半。用指尖轻拍并轻抚眼下，然后微笑。之后，切换到淡妆的脸。将产品举到脸颊旁，标签朝向镜头，然后轻轻摇晃并自信地点头。",
-    "id": "Tunjukkan wajah tanpa makeup, penuhi setengah layar. Kamu bisa menepuk-nepuk dan mengusap bawah mata dengan jari, lalu tersenyum. Setelah itu, potong ke wajah dengan makeup tipis. Angkat produk ke samping pipi, label menghadap kamera, lalu goyangkan sedikit dan mengangguk yakin."
+    "zh": "先素颜轻拍眼下，再硬切到带淡妆的脸，然后举起产品管在脸旁边，标签朝前。",
+    "id": "Pertama, wajah tanpa makeup, tepuk-tepuk ringan di bawah mata. Lalu, cut ke wajah dengan makeup tipis, angkat produk di samping pipi, label menghadap kamera."
    },
    "lines": "Kalau kulit lagi kelihatan capek dan kusam, wajib banget cobain masker ini. Masker Collagen Second Skin dari VEIRFOO ini wajib banget dicoba."
   },
@@ -34,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "素颜出镜，脸部占画面一半。从没有盖子的管状容器中挤出一点乳霜到左脸颊，管状容器的标签朝向镜头。然后，切换到同一张脸。用刷子将乳霜均匀涂抹在脸颊和额头。",
-    "id": "Tunjukkan wajah tanpa makeup, penuhi setengah layar. Kamu bisa memencet sedikit krim dari tube tanpa tutup ke pipi kiri, label tube menghadap kamera. Lalu, potong ke wajah yang sama. Gunakan kuas untuk mengoleskan krim secara merata di pipi dan dahi."
+    "zh": "先挤出产品在脸颊上，再硬切到用刷子涂抹在脸颊和额头上。",
+    "id": "Pertama, pencet produk di pipi. Lalu, cut ke adegan mengoleskan produk dengan kuas di pipi dan dahi."
    },
    "lines": "Ini masker perawatan yang banyak dipakai di klinik kecantikan Korea. Pakai ini, aku ngerasa kandungannya lebih gampang meresap ke kulit."
   },
@@ -49,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "干净的脸，无妆，有水光感",
-    "id": "Wajah bersih, tanpa makeup, glowing"
+    "zh": "素颜，无妆，皮肤干净水润。",
+    "id": "Wajah bersih tanpa makeup, kulit bersih dan lembap."
    },
    "do": {
-    "zh": "坐在床上，脸部占画面一半。用指尖轻捏两颊，皮肤会感觉Q弹有弹性，开心地微笑。然后，切换到同一张脸。将产品举到脸颊旁，标签朝向镜头，盖子盖好，然后挑眉，仿佛在透露秘密。",
-    "id": "Kamu bisa duduk di kasur, penuhi setengah layar. Dengan jari, kamu bisa mencubit-cubit pipi dan rasakan kulit yang kenyal, lalu tersenyum senang. Lalu, potong ke wajah yang sama. Angkat produk ke samping pipi, label menghadap kamera, tutupnya terpasang, lalu angkat alis seolah memberi tahu rahasia."
+    "zh": "先轻捏脸颊，感受皮肤弹性，再硬切到举起产品管在脸旁边，标签朝前。",
+    "id": "Pertama, cubit-cubit pipi dengan lembut, rasakan kekenyalan kulit. Lalu, cut ke adegan mengangkat produk di samping pipi, label menghadap kamera."
    },
    "lines": "Habis dipakai, aku langsung ngerasa kulitku lebih halus, lembut, dan glowing. Dulu aku beli di website resmi Korea, satu pcs harganya segini loh."
   },
@@ -64,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "干净的脸，无妆，有水光感",
-    "id": "Wajah bersih, tanpa makeup, glowing"
+    "zh": "素颜，无妆，皮肤干净水润。",
+    "id": "Wajah bersih tanpa makeup, kulit bersih dan lembap."
    },
    "do": {
-    "zh": "坐在床上，脸部占画面一半。用食指指向屏幕左下角，然后开心地点头。",
-    "id": "Kamu bisa duduk di kasur, penuhi setengah layar. Dengan jari telunjuk, kamu bisa menunjuk ke pojok kiri bawah layar, lalu mengangguk ceria."
+    "zh": "指向画面左下角的购物车。",
+    "id": "Arahkan jari ke keranjang kuning di kiri bawah layar."
    },
    "lines": "Tapi sekarang lagi ada promo, langsung aja klik keranjang kuning di kiri bawah!"
   }

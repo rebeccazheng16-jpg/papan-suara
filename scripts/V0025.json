@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "在家享受韩国美容院级蛋白面膜",
-  "id": "Masker protein ala klinik Korea di rumah!"
+  "id": "Masker protein ala klinik Korea di rumah"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸部清洁干净，VEIRFOO鎏金蛋白膜（盖子盖好），一把刷子。",
-  "id": "Wajah bersih tanpa makeup, VEIRFOO Golden Mask (tutupnya terpasang), dan kuas."
+  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，标签朝前）。道具：面膜刷。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutupnya tertutup, label menghadap kamera). Alat: kuas masker. Kulit: wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上涂抹了VEIRFOO鎏金蛋白膜，已干燥成膜。",
-    "id": "Wajah sudah dilapisi VEIRFOO Golden Mask yang sudah kering."
+    "zh": "脸上敷着一层薄薄的珍珠色面膜",
+    "id": "Wajah tertutup lapisan masker tipis berwarna mutiara"
    },
    "do": {
-    "zh": "用两只手的指尖捏住发际线处的面膜边缘，慢慢地从额头向下撕到下巴，撕下一整片面膜。撕完后，把产品管放在发光的脸颊旁边。",
-    "id": "Dengan ujung jari kedua tangan, cubit bagian atas masker di garis rambut dan kelupas perlahan dari dahi ke dagu. Setelah itu, pegang produk di samping pipi yang glowing."
+    "zh": "用指尖捏住发际线处的面膜边缘，从额头到下巴，慢慢地、完整地撕下面膜。然后将产品举到脸颊旁边。",
+    "id": "Dengan ujung jari, cubit tepi masker di garis rambut dan kelupas perlahan dari dahi ke dagu dalam satu lembar utuh. Lalu tunjukkan produk di samping pipi."
    },
    "lines": "Guys, kok dikelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Golden Mask dari VEIRFOO, brand Korea. Teksturnya creamy kayak yogurt, lembut banget."
   },
@@ -38,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品管放在脸颊旁边，对着镜头说第一句话。然后，把产品挤到前臂上，用刷子涂抹均匀。",
-    "id": "Pegang produk di samping pipi, lalu ucapkan kalimat pertama. Setelah itu, perlihatkan cara memencet produk ke lengan bawah dan meratakannya dengan kuas."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后挤出少量产品在手臂内侧，用刷子涂抹均匀。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu keluarkan sedikit produk di lengan bagian dalam, ratakan dengan kuas."
    },
    "lines": "Teksturnya creamy kayak yogurt. Ada Sodium DNA, PDRN, sama kolagen, lembut banget pas dioles."
   },
@@ -48,10 +48,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih, tanpa makeup"
+   },
    "do": {
-    "zh": "用刷子把面膜均匀地涂抹在脸颊上，边涂边说第一句话。然后，展示脸颊，用指尖轻按，边按边说第二句话。",
-    "id": "Oleskan masker secara merata di pipi dengan kuas sambil mengucapkan kalimat pertama. Lalu, tunjukkan pipi yang sudah bersih dan glowing, sentuh dengan ujung jari sambil mengucapkan kalimat kedua."
+    "zh": "用刷子在脸颊上涂抹一层均匀的乳白色面膜。然后用指尖轻压脸颊。",
+    "id": "Oleskan masker berwarna putih susu secara merata di pipi dengan kuas. Lalu tekan pipi dengan ujung jari."
    },
    "lines": "Oles tebal pakai kuasnya, tunggu sampai mengering. Pas dikelupas, aku ngerasa kulitku cerah dan glowing!"
   },
@@ -62,8 +65,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品管放在脸颊旁边，对着镜头说第一句话。然后，用另一只手指向左下角。",
-    "id": "Pegang produk di samping pipi, lalu ucapkan kalimat pertama. Setelah itu, tunjukkan jari ke arah kiri bawah."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后用另一只手指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu tunjuk ke sudut kiri bawah dengan tangan yang lain."
    },
    "lines": "Mau masker protein ala klinik Korea di rumah? Klik keranjang kuning, boleh coba dulu ya."
   }

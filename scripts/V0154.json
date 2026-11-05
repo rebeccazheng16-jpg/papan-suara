@@ -2,18 +2,18 @@
  "id": "V0154",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "粉水光油霜 Pink Bling Bling Cream",
+  "zh": "VEIRFOO Pink Bling Bling Cream 粉水光油霜",
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
   "zh": "女明星上镜有气血、化妆师早不用粉红腮红",
-  "id": "Rahasia kulit glowing artis Korea, bukan pakai blush on!"
+  "id": "Artis di kamera kelihatan seger dan bening banget, tapi wajahnya nggak kelihatan pakai apa-apa?"
  },
- "src": "小红书 Meili蜜语美妆",
+ "src": "Meili蜜语美妆",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）；一个无标签的滴管精华瓶（里面有透明粘稠精华）。皮肤：素颜，干净无妆。",
-  "id": "Siapkan: VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera); satu botol serum pipet kosong (isi serum bening lengket). Wajah harus bersih tanpa makeup."
+  "zh": "产品：VEIRFOO Pink Bling Bling Cream 粉水光油霜（盖子盖好，标签朝前）；一个无标签的滴管精华瓶（里面有透明精华）；素颜，脸部干净无妆。",
+  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera); satu botol serum pipet tanpa label (ada serum bening di dalamnya); wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "正对镜头，一只手拿着产品（管口朝上）挤一点到另一只手的指尖，然后双手同时轻拍脸颊。说话时充满热情且语速快。",
-    "id": "Hadap kamera, satu tangan pegang produk (ujung tube menghadap atas) lalu pencet sedikit ke ujung jari tangan satunya, lalu kedua tangan menepuk-nepuk pipi bersamaan. Bicara dengan semangat dan cepat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。挤出一点点产品在指尖，然后用双手轻拍脸颊。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Keluarkan sedikit produk di ujung jari, lalu tepuk-tepuk ke pipi dengan kedua tangan."
    },
    "lines": "Pernah sadar nggak, artis-artis di kamera kelihatan seger dan bening banget, tapi wajahnya nggak kelihatan pakai apa-apa?"
   },
@@ -33,10 +36,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "正对镜头，一只手拿着滴管精华瓶举到脸颊旁边，表情略显不以为然，然后放下瓶子。然后举起VEIRFOO产品（盖子盖好，标签朝向镜头）到脸颊旁边，自然微笑。然后放下产品，用两根手指轻拍颧骨三次。说话时轻松且知识渊博。",
-    "id": "Hadap kamera, satu tangan pegang botol serum pipet di samping pipi, ekspresi sedikit tidak terkesan, lalu turunkan botolnya. Lalu angkat produk VEIRFOO (tutup terpasang, label menghadap kamera) ke samping pipi, senyum natural. Lalu turunkan produk dan tepuk-tepuk tulang pipi tiga kali dengan dua jari. Bicara dengan santai dan tahu banyak."
+    "zh": "展示无标签的滴管精华瓶，然后展示 VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）。",
+    "id": "Tunjukkan botol serum pipet tanpa label, lalu tunjukkan VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera)."
    },
    "lines": "Sebenernya makeup artist mereka udah lama nggak pakai serum lotion lengket kayak gini. Mereka pakai oil cream pink ini, di antara krim wajah sama primer. Habis pakai, aku ngerasa wajahku beneran lebih seger."
   },
@@ -45,10 +51,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "正对镜头，像自拍镜像一样，画面左侧的左脸颊从滴管瓶中滴下精华液，同时，画面右侧的右脸颊从管中挤出VEIRFOO产品。然后双手同时涂抹到各自的脸颊上。然后左手按压左脸颊并轻轻拉扯，以显示精华液的粘性。然后右手放下，脸部稍微向左转（约15度），让发光的右脸颊在镜头中清晰可见2秒以上，然后右手食指轻拍右脸颊两次。说话时真诚且语速快。",
-    "id": "Hadap kamera, seperti selfie cermin, di pipi kiri tetesin serum dari botol pipet, dan di saat yang sama, di pipi kanan pencet produk VEIRFOO dari tube. Lalu kedua tangan mengoleskan ke masing-masing pipi secara bersamaan. Lalu tangan kiri menekan pipi kiri dan menariknya perlahan untuk menunjukkan serumnya lengket. Lalu tangan kanan turun, putar wajah sedikit ke kiri (sekitar 15 derajat) agar pipi kanan yang glowing terlihat jelas di kamera selama 2 detik lebih, lalu jari telunjuk tangan kanan menepuk pipi kanan dua kali. Bicara dengan jujur dan cepat."
+    "zh": "画面左侧脸颊滴精华，画面右侧脸颊挤粉水光，然后双手同时抹开。最后转脸约 15 度把画面右侧水光脸颊送到镜头前停 2 秒以上展示。",
+    "id": "Di sisi kiri wajah, teteskan serum biasa. Di sisi kanan wajah, keluarkan Pink Bling Bling Cream. Lalu ratakan dengan kedua tangan. Terakhir, putar wajah sekitar 15 derajat ke arah kamera untuk menunjukkan pipi kanan yang glowing selama lebih dari 2 detik."
    },
    "lines": "Lihat deh, pipi kiri ini aku tetesin serum biasa, lengket, sebentar aja udah kering. Yang kanan pakai ini, menurutku pipiku kayak ada rona seger dari dalam, bening dan glowing, kan?"
   },
@@ -57,10 +66,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "正对镜头，一只手拿着VEIRFOO产品（盖子盖好，标签朝向镜头）在脸颊旁边，稍微倾斜向镜头。然后挤一点产品到另一只手的指尖。然后双手同时轻拍脸颊和额头。说话时自豪且充满热情。",
-    "id": "Hadap kamera, satu tangan pegang produk VEIRFOO (tutup terpasang, label menghadap kamera) di samping pipi, sedikit miring ke kamera. Lalu pencet sedikit produk ke ujung jari tangan satunya. Lalu kedua tangan menepuk-nepuk pipi dan dahi secara bersamaan. Bicara dengan bangga dan bersemangat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。挤出一点点产品在指尖，然后用双手轻拍脸颊。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Keluarkan sedikit produk di ujung jari, lalu tepuk-tepuk ke pipi dengan kedua tangan."
    },
    "lines": "Yang aku pakai ini VEIRFOO Pink Bling Bling Cream, oil cream dari Korea. Keluarnya lotion cair warna pink muda, oles aja di pipi sama dahi, tepuk-tepuk pakai dua tangan."
   },
@@ -69,10 +81,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸颊已涂抹产品，呈现水光感。",
+    "id": "Pipi sudah diaplikasikan produk, terlihat glowing."
+   },
    "do": {
-    "zh": "正对镜头，双手最后一次轻拍脸颊，然后抬起手，展示不粘腻。然后一只手举起VEIRFOO产品（盖子盖好，标签朝向镜头）在脸颊旁边，坚定地点头。然后放下产品，慢慢地左右转动脸部，稍微抬起下巴，让光线反射在发光的颧骨上。说话时开朗且满意。",
-    "id": "Hadap kamera, kedua tangan menepuk-nepuk pipi terakhir kali, lalu angkat tangan dan tunjukkan tidak lengket. Lalu satu tangan angkat produk VEIRFOO (tutup terpasang, label menghadap kamera) di samping pipi, mengangguk yakin. Lalu turunkan produk, perlahan putar wajah ke kiri dan kanan, angkat dagu sedikit, agar cahaya memantul di tulang pipi yang glowing. Bicara dengan ceria dan puas."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。慢慢转动脸部，让光线滑过颧骨，展示水光感。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Putar wajah perlahan ke samping, lalu ke sisi lain, angkat dagu sedikit, agar cahaya meluncur di tulang pipi dan batang hidung untuk menunjukkan kilau glass skin yang jernih dan segar."
    },
    "lines": "Lihat, langsung nyatu ke kulit, sama sekali nggak lengket. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Habis ratain ke seluruh wajah, aku ngerasa kulitku glowing kayak glass skin ala Korea. Sekarang aku udah nggak pakai stick highlighter lagi, glowing tapi nempel di kulit."
   },
@@ -81,10 +96,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "脸颊已涂抹产品，呈现水光感。",
+    "id": "Pipi sudah diaplikasikan produk, terlihat glowing."
+   },
    "do": {
-    "zh": "正对镜头，一只手在下巴旁边做个温柔的手势，手掌张开，不触碰脸部，表情真诚并轻轻点头。然后举起VEIRFOO产品（盖子盖好，标签朝向镜头）在脸颊旁边，会心一笑。然后拿着产品的食指指向屏幕左下角，开心地点头。说话时热情且鼓励。",
-    "id": "Hadap kamera, satu tangan memberi isyarat lembut di samping dagu, telapak tangan terbuka, tidak menyentuh wajah, dengan ekspresi tulus dan mengangguk kecil. Lalu angkat produk VEIRFOO (tutup terpasang, label menghadap kamera) di samping pipi, senyum tahu. Lalu jari telunjuk tangan yang memegang produk menunjuk ke sudut kiri bawah layar, mengangguk ceria. Bicara dengan hangat dan mendorong."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指指向画面左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke sudut kiri bawah layar."
    },
    "lines": "Kalau kulitmu kering dan makeup-mu sering kelihatan pucat, ganti aja serum lotion kamu pakai ini. Di Korea harganya segini loh. Cek link yang aku temuin di bawah, lihat lebih murahnya seberapa, checkout satu dulu deh!"
   }

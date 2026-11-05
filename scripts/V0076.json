@@ -6,25 +6,27 @@
   "id": "VEIRFOO tube ungu"
  },
  "hook": {
-  "zh": "素颜霜代替厚重粉底，解决毛孔粗大皮肤暗沉",
-  "id": "Pakai tone-up cream daripada foundation tebal, buat atasi pori-pori besar & kulit kusam"
+  "zh": "素颜霜比粉底液更好用",
+  "id": "Tone-up cream lebih bagus dari foundation"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO小紫管素颜霜（带包装盒），普通粉底液。素颜，无妆。",
-  "id": "VEIRFOO tube ungu (sama kotaknya), foundation biasa. Muka polos, jangan makeup-an."
+  "zh": "VEIRFOO 小紫管素颜霜（带包装盒），一支普通粉底液。从素颜开始拍。",
+  "id": "VEIRFOO tube ungu (dengan kotaknya), satu foundation biasa. Mulai syuting dengan muka polos tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 7,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，皮肤有点暗沉",
+    "id": "Muka polosan, kulit agak kusam"
+   },
    "do": {
-    "zh": "看起来有点烦恼。用手指轻点脸颊和鼻子，然后一边说话一边在脸上涂抹普通粉底液，展示粉底卡粉的样子。",
-    "id": "Muka kelihatan agak bete. Coba tunjuk pipi sama hidung pakai jari. Sambil ngomong, coba pakai foundation biasa di muka, tunjukin gimana hasilnya jadi cakey dan nggak bagus."
+    "zh": "点点脸颊和鼻子，然后将普通粉底涂在一部分脸上，展示卡粉的样子。",
+    "id": "Sentuh pipi dan hidung, lalu oleskan foundation biasa ke sebagian wajah untuk menunjukkan hasilnya yang cakey."
    },
    "lines": "Muka kusam, pori-pori besar? Keluar rumah tanpa makeup nggak pede? Pakai foundation malah berat dan cakey, ujung-ujungnya berminyak dan jerawatan."
   },
@@ -32,14 +34,13 @@
    "n": 2,
    "sec": 11,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "干净的脸",
-    "id": "Muka bersih"
+    "zh": "素颜",
+    "id": "Muka polosan"
    },
    "do": {
-    "zh": "从身后拿出产品，像展示秘密一样。把它拿到脸颊旁边展示一下，然后挤出一点膏体，涂在半边脸上。最后，正对镜头展示涂了和没涂的两边脸的对比效果。",
-    "id": "Kaya ngasih lihat rahasia, keluarin produknya dari belakang badan. Tunjukin produknya di sebelah muka, terus keluarin sedikit isinya dan olesin ke separuh wajah. Terakhir, hadap lurus ke kamera buat bandingin sisi yang udah dipakai sama yang belum."
+    "zh": "从背后拿出产品。挤出内容物，涂在半边脸上进行比较，然后展示效果。",
+    "id": "Keluarkan produk dari belakang punggung. Pencet isinya, oleskan ke separuh wajah untuk perbandingan, lalu tunjukkan hasilnya."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai tube ungu VEIRFOO dari Korea ini. Teksturnya krim, nggak ada rasa bedak. Ungu mudanya netralin warna kuning, jadi buatku kayak kulit bagus bawaan lahir cewek Korea."
   },
@@ -47,11 +48,13 @@
    "n": 3,
    "sec": 11,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "半边脸涂了素颜霜",
+    "id": "Separuh wajah sudah pakai tone-up cream"
+   },
    "do": {
-    "zh": "拿着产品靠近脸颊，自信地讲解PDRN成分。说到“贵妇护肤品”时，可以做一个夸张的手势。最后再把产品拿近，强调成分就写在包装上。",
-    "id": "Pegang produknya di deket pipi, jelasin soal PDRN dengan pede. Pas ngomong 'skincare sultan', kamu bisa kasih isyarat tangan yang nunjukin 'mahal'. Terakhir, deketin lagi produknya ke kamera buat nunjukkin tulisannya."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "PDRN itu ekstrak salmon yang strukturnya mirip banget sama DNA manusia, makanya di kulitku berasa gampang banget diserap. Bahan yang biasanya cuma ada di skincare sultan, di sini langsung ditulis di kemasannya."
   },
@@ -59,11 +62,13 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "broll": true,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Muka polosan"
+   },
    "do": {
-    "zh": "自信地拿着产品，列举它的四个功能。然后，在脸上涂抹产品。后面走路进店的镜头，可以用你手机里任何日常出门、走路的视频片段代替。",
-    "id": "Pegang produknya dengan pede, sebutin empat fungsinya. Terus, olesin produknya ke muka. Untuk adegan jalan-jalan masuk toko, kamu bisa pakai klip video apa aja dari HP-mu pas lagi di luar rumah atau lagi jalan."
+    "zh": "一边解释四合一功能，一边将产品涂抹在全脸。",
+    "id": "Sambil menjelaskan empat fungsinya, oleskan produk ke seluruh wajah."
    },
    "lines": "Satu tube udah empat fungsi: primer, cover, tone-up, sama pelembap. Umur dan jenis kulit apa pun aman dipakai. Pantes aja, ini brand Korea yang dari awal bikin skincare!"
   },
@@ -71,11 +76,13 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "broll": true,
-   "face": null,
+   "face": {
+    "zh": "全脸已涂上素颜霜",
+    "id": "Seluruh wajah sudah pakai tone-up cream"
+   },
    "do": {
-    "zh": "这个片段需要两个部分。第一部分，只拍你的手，一手拿产品，一手拿包装盒。第二部分，再拍你的脸，真诚地看着镜头说话，就像和朋友聊天一样。",
-    "id": "Segmen ini ada dua bagian. Pertama, rekam tangan kamu aja, satu pegang produknya, satu pegang kotaknya. Bagian kedua, rekam muka kamu lagi ngomong ke kamera dengan tulus, kayak ngobrol sama teman."
+    "zh": "先展示产品和包装盒，然后手持产品管并友好地微笑。",
+    "id": "Tunjukkan produk dan kotaknya dulu. Lalu, pegang tube produknya sambil tersenyum ramah."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, pabriknya di Korea, Made in Korea tercetak di kemasan. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -83,11 +90,13 @@
    "n": 6,
    "sec": 10,
    "talk": true,
-   "broll": true,
-   "face": null,
+   "face": {
+    "zh": "全脸已涂上素颜霜",
+    "id": "Seluruh wajah sudah pakai tone-up cream"
+   },
    "do": {
-    "zh": "开头走路进店的镜头，可以用你手机里任何日常出门、走路的视频片段代替。然后，你再录制说话的部分：先托着下巴，做一个无奈的表情；然后拿起产品，做一个“猜猜多少钱”的表情；最后指向左下角（黄车的位置）。",
-    "id": "Untuk adegan jalan-jalan di awal, bisa pakai klip video apa aja dari HP-mu pas lagi di luar. Terus, rekam bagian kamu ngomong: pertama topang dagu dengan muka agak nyesek, terus angkat produknya sambil pasang muka 'coba tebak harganya', terakhir tunjuk ke arah keranjang kuning."
+    "zh": "展示产品，最后指向小黄车的位置。",
+    "id": "Tunjukkan produknya, lalu di akhir, tunjuk ke arah keranjang kuning."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

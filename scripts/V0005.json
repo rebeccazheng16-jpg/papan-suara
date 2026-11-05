@@ -2,18 +2,18 @@
  "id": "V0005",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 素颜霜 (Sodium DNA Firming Tone-Up Primer)",
-  "id": "VEIRFOO Sodium DNA Firming Tone-Up Primer"
+  "zh": "VEIRFOO Sodium DNA Firming Tone-Up Primer 素颜霜",
+  "id": "VEIRFOO Tone-Up Primer"
  },
  "hook": {
-  "zh": "懒人必备素颜霜，一抹好气色",
-  "id": "Tone-up cream praktis buat yang malas dandan"
+  "zh": "懒人快速出门素颜霜",
+  "id": "Tone-up cream untuk yang malas dandan"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO素颜霜（盖子盖好，标签朝前）",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Tone-Up Primer (tutup terpasang, label menghadap kamera)."
+  "zh": "VEIRFOO 素颜霜（盖子盖好，标签朝前）。素颜，不化妆。",
+  "id": "Produk VEIRFOO Tone-Up Primer (tutup terpasang, label menghadap kamera). Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "面带微笑，双手拿着产品在脸旁边，产品和脸一起在画面里。看着镜头，眉毛稍微抬起一点，自然地笑。说出台词。",
-    "id": "Tersenyum natural, pegang produk dengan kedua tangan di samping pipi, produk dan wajahmu sama-sama terlihat di kamera. Lihat ke lensa dengan senyum natural. Ucapkan kalimat ini."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Buat kamu yang males dandan tapi pengen tetep cantik, pilih tone-up cream Korea ini. Di dalemnya ada Salmon PDRN sama Niacinamide. Liat deh, teksturnya lembut banget！"
   },
@@ -34,12 +34,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸涂抹了素颜霜，半边脸素颜",
-    "id": "Setengah wajah sudah pakai tone-up primer, setengahnya lagi tanpa makeup."
+    "zh": "素颜，不化妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "对着镜头，挤一点产品在右边脸颊上。用另一只手的食指和中指轻轻拍开并抹匀。然后用食指轻拍已经提亮的脸颊和鼻翼，展示不假白的效果。最后，下巴轻靠一只手，看着镜头，自然地笑。说出台词。",
-    "id": "Menghadap kamera, wajah bersih tanpa makeup. Dengan tutup sudah dilepas, pegang produk dengan satu tangan dan pencet sedikit krim ke pipi kananmu. Lalu pakai jari telunjuk dan tengah tangan satunya untuk meratakan krimnya. Kemudian, tunjukkan ke kamera bahwa pipi yang sudah cerah dan sisi hidungmu tidak terlihat seperti memakai bedak. Terakhir, topang dagu dengan satu tangan dan lihat ke lensa sambil tersenyum natural. Ucapkan kalimat ini."
+    "zh": "在脸颊右侧涂抹产品，左侧不涂，以便对比。",
+    "id": "Oleskan produk di pipi kanan (dari sudut pandang kamera), pipi kiri biarkan tanpa produk untuk perbandingan."
    },
    "lines": "Bangun tidur pencet sekali, langsung dapet pelembab, primer, sama foundation. Diliat deket pun gak ada efek ngebedak. Abis pakai langsung cus keluar, praktis banget."
   },
@@ -47,14 +47,14 @@
    "n": 3,
    "sec": 6,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": {
-    "zh": "全脸涂抹了素颜霜，皮肤透亮",
-    "id": "Seluruh wajah sudah pakai tone-up primer, kulit terlihat cerah dan glowing."
+    "zh": "脸颊已涂抹素颜霜。",
+    "id": "Pipi sudah memakai tone-up cream."
    },
    "do": {
-    "zh": "可以找一些你走路的日常片段，或者拍一段你走路去一个地方的视频，面带微笑，不看镜头。然后，对着镜头，用两只手的食指对称地指向脸颊，头稍微倾斜，自然地笑。说出台词。",
-    "id": "Kamu bisa pakai video kamu jalan santai di luar, atau rekam dirimu berjalan menuju suatu tempat, tersenyum natural, jangan lihat kamera. Lalu, menghadap kamera, tunjuk kedua pipimu dengan jari telunjuk secara simetris, miringkan kepala sedikit, dan tersenyum natural. Ucapkan kalimat ini."
+    "zh": "用两根食指对称地指向脸颊，展示玻璃肌效果。",
+    "id": "Arahkan kedua jari telunjuk ke pipi secara simetris, tunjukkan efek glass skin."
    },
    "lines": "Komposisinya mewah, sambil cantik sambil skincare-an. Menurutku hasilnya glowing, bersih, ini nih rahasia glass skin cewek Korea!"
   },
@@ -64,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂抹了素颜霜，皮肤透亮，然后洗脸后素颜",
-    "id": "Seluruh wajah sudah pakai tone-up primer, kulit terlihat cerah dan glowing. Lalu wajah bersih tanpa makeup setelah dicuci."
+    "zh": "脸颊已涂抹素颜霜。",
+    "id": "Pipi sudah memakai tone-up cream."
    },
    "do": {
-    "zh": "对着镜头，一只手拿着产品在脸旁边，产品和脸一起在画面里，另一只手指向脸颊，展示效果。说出台词。然后，拍一段你在浴室洗脸的视频，脸上都是洗面奶泡沫，用洗脸刷在脸颊上打圈。然后弯腰，用自来水冲洗脸上的泡沫，洗完脸后，脸上会有水珠，皮肤干净，没有化妆效果。最后，回到镜头前，双手拿着产品在脸旁边，产品和脸一起在画面里，用食指轻敲产品，真诚地看着镜头。说出台词。",
-    "id": "Menghadap kamera, pegang produk dengan satu tangan di samping pipi, produk dan wajahmu sama-sama terlihat di kamera. Tangan satunya menunjuk pipi untuk menunjukkan hasilnya. Ucapkan kalimat ini. Lalu, rekam dirimu di kamar mandi, wajahmu penuh busa pembersih wajah, dan sikat pembersih wajah berputar di pipimu. Kemudian, membungkuk di atas wastafel, ambil air bersih dari keran dan basuh ke wajahmu, cuci busa pembersih wajahnya. Setelah itu, wajahmu bersih tanpa makeup. Terakhir, kembali menghadap kamera, pegang produk dengan kedua tangan di samping pipi, produk dan wajahmu sama-sama terlihat di kamera. Ketuk produk dengan jari telunjuk sebagai rekomendasi terakhir, dan lihat ke lensa dengan tulus. Ucapkan kalimat ini."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Yang penting formulanya bersih, aman buat kulit sensitif. Gak perlu pembersih khusus, facial wash aja udah keangkat. Punya ini, tiap pagi bisa tidur lebih banyak setengah jam!"
   }

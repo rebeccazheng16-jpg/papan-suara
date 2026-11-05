@@ -6,28 +6,27 @@
   "id": "VEIRFOO Sodium DNA Collagen Mask"
  },
  "hook": {
-  "zh": "水光胶原蛋白面膜，让肌肤饱满紧致",
-  "id": "Masker kolagen bikin kulit kenyal dan kencang"
+  "zh": "撕掉隐形面膜，露出水光肌",
+  "id": "Masker peel-off transparan yang bikin kulit jadi glowing"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "准备：VEIRFOO胶原蛋白面膜（盖子盖好，标签朝前），面膜刮刀，发带。确保脸部干净，无妆。",
-  "id": "Siapkan: VEIRFOO Sodium DNA Collagen Mask (tutupnya terpasang, label menghadap kamera), spatula masker, bando. Pastikan wajah bersih, tanpa makeup."
+  "zh": "VEIRFOO 水光胶原蛋白面膜，涂抹面膜用的刮刀或刷子，发带。需要素颜。",
+  "id": "Produk masker VEIRFOO, spatula atau kuas masker, bando. Muka harus bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "脸上已敷好一层隐形面膜",
-    "id": "Wajah sudah ada lapisan masker transparan"
+    "zh": "脸上已经敷好了透明的成膜面膜",
+    "id": "Masker sudah kering jadi lapisan transparan di muka"
    },
    "do": {
-    "zh": "用两只手的指尖从发际线捏住面膜边缘，从额头到下巴向下撕拉。撕掉面膜后，用手指轻拍脸颊，展示水润光泽的肌肤。看着镜头，表情关切且有说服力。",
-    "id": "Dengan ujung jari kedua tangan, cubit tepi masker di garis rambut, lalu kelupas masker dari dahi ke dagu. Setelah masker terkelupas, tepuk-tepuk wajah dengan jari untuk menunjukkan kulit yang lembap dan berkilau. Lihat ke kamera, ekspresi khawatir dan meyakinkan."
+    "zh": "用双手从额头往下撕掉整片面膜，然后摸摸脸颊。接着，展示产品，logo 正面始终朝向镜头。",
+    "id": "Pakai dua tangan, kelupas masker dari dahi ke bawah, lalu sentuh-sentuh pipi. Setelah itu, tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kulit kusam, pipi mulai turun, tanda-tanda usia udah kelihatan? Jangan asal pakai masker lagi. Coba ini — VEIRFOO Sodium DNA Collagen Mask dari Korea."
   },
@@ -35,14 +34,13 @@
    "n": 2,
    "sec": 11,
    "talk": true,
-   "broll": false,
    "face": {
-    "zh": "脸部干净，无妆",
-    "id": "Wajah bersih, tanpa makeup"
+    "zh": "素颜",
+    "id": "Muka bersih"
    },
    "do": {
-    "zh": "用面膜刮刀将乳白色面膜均匀涂抹在额头和脸上。然后，拧开面膜盖，挤出少量面膜到手背，用手指抹开并拉出丝状，展示弹性。戴上发带，用面膜刷和刮刀将面膜均匀涂抹全脸，避开眼周。最后，用双手从额头到下巴撕下面膜，然后用双手轻捏脸颊，展示紧致饱满的肌肤。看着镜头，表情解释且自信。",
-    "id": "Dengan spatula masker, oleskan krim putih susu secara merata di dahi dan wajah. Lalu, buka tutup masker, keluarkan sedikit krim ke punggung tangan, ratakan dengan jari dan tarik-tarik untuk menunjukkan tekstur kolagen yang elastis. Pakai bando, lalu dengan kuas dan spatula masker, ratakan masker ke seluruh wajah, hindari area mata. Terakhir, kelupas masker dari dahi ke dagu dengan kedua tangan, lalu pegang dan pijat pipi dengan kedua tangan untuk menunjukkan kulit yang kencang dan kenyal. Lihat ke kamera, ekspresi menjelaskan dan yakin."
+    "zh": "用刮刀把面膜涂在脸上。在手背上展示面膜拉丝的质地。用刷子或刮刀把面膜均匀涂满全脸。最后，撕下面膜，然后用手按压脸颊。",
+    "id": "Oleskan masker ke wajah pakai spatula. Tunjukkan tekstur masker yang stretchy di punggung tangan. Ratakan masker ke seluruh wajah pakai kuas atau spatula. Terakhir, kelupas masker lalu tekan-tekan pipi."
    },
    "lines": "Masker biasa cuma nempel di permukaan, cepat kering, lembapnya sebentar. Yang ini aku ngerasa nutrisinya masuk ke dalam — pas dikelupas kulitku kerasa halus, glowing-nya bening, yang tadinya kempis buatku kelihatan berisi lagi."
   },
@@ -50,14 +48,10 @@
    "n": 3,
    "sec": 12,
    "talk": true,
-   "broll": false,
-   "face": {
-    "zh": "脸部干净，无妆",
-    "id": "Wajah bersih, tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "将产品举到脸颊旁边，让脸和产品同时入镜，盖子盖好，标签朝前。然后，用手指将少量乳白色面膜涂抹在脸上（眼睛以下）。接着，轻拍脸颊，展示肌肤的弹力。最后，再次将产品举到脸颊旁边，让脸和产品同时入镜，盖子盖好，标签朝前，微笑。看着镜头，表情自信且专业。",
-    "id": "Pegang produk di samping pipi, agar wajah dan produk terlihat bersamaan, tutup terpasang, label menghadap kamera. Lalu, oleskan sedikit krim masker putih susu ke wajah dengan jari (di bawah mata). Selanjutnya, tepuk-tepuk pipi untuk menunjukkan kulit yang kenyal. Terakhir, pegang lagi produk di samping pipi, agar wajah dan produk terlihat bersamaan, tutup terpasang, label menghadap kamera, sambil tersenyum. Lihat ke kamera, ekspresi percaya diri dan ahli."
+    "zh": "展示产品。用手指涂抹一点面膜。拍拍脸颊展示弹性。最后再次展示产品。",
+    "id": "Tunjukkan produknya. Oles sedikit masker pakai jari. Tepuk-tepuk pipi untuk tunjukkan kekenyalan. Terakhir, tunjukkan produknya lagi."
    },
    "lines": "PDRN generasi kedua — ekstrak DNA salmon yang strukturnya mirip banget sama DNA manusia, bahan ala klinik Korea yang di kulitku berasa lebih kencang. Plus hyaluronic acid 8D, buatku lembapnya berasa berlapis. Wajahku tuh berasa penuh kolagen."
   },
@@ -68,8 +62,8 @@
    "broll": true,
    "face": null,
    "do": {
-    "zh": "在户外阳光下，可以随意拍摄一些走路、回头微笑、抬手遮阳的日常片段，不看镜头。然后，回到室内，将产品举到脸颊旁边，让脸和产品同时入镜，盖子盖好，标签朝前。用空闲的手指向左下方。看着镜头，表情满意。",
-    "id": "Di luar ruangan dengan sinar matahari, kamu bisa merekam beberapa klip santai saat berjalan, menoleh sambil tersenyum, atau mengangkat tangan untuk menaungi mata dari matahari, tanpa melihat kamera. Lalu, di dalam ruangan, pegang produk di samping pipi, agar wajah dan produk terlihat bersamaan, tutup terpasang, label menghadap kamera. Dengan tangan yang bebas, tunjuk ke kiri bawah. Lihat ke kamera, ekspresi puas."
+    "zh": "前两个镜头是辅助镜头，可以用手机里任何日常走路的片段。最后一个镜头，展示产品，然后用手指指向左下角。",
+    "id": "Dua klip pertama itu b-roll, bisa pakai klip video apa aja dari HP kamu yang nunjukkin kamu lagi jalan-jalan santai. Untuk klip terakhir, tunjukkan produknya sambil tunjuk ke arah kiri bawah."
    },
    "lines": "Dulu aku titip jastip dari Korea, satu tube harganya segini loh. Sekarang buka keranjang kuning di kiri bawah, lihat sendiri harganya setelah brand-nya masuk Indonesia! Buruan cobain!"
   }

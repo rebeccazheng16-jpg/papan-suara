@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "VEIRFOO Pink Bling Bling Cream",
-  "id": "Pink Bling Bling Cream dari VEIRFOO"
+  "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "换季皮肤问题？可能是脱水！",
-  "id": "Kulit bermasalah saat pancaroba? Mungkin dehidrasi!"
+  "zh": "换季钩子：皮肤干燥、暗沉、泛红？",
+  "id": "Kulit kering, kusam, gampang merah saat pancaroba?"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera)."
+  "zh": "准备好VEIRFOO Pink Bling Bling Cream（盖子盖好，标签朝前）。确保素颜，脸上没有化妆。",
+  "id": "Siapkan VEIRFOO Pink Bling Bling Cream (tutupnya terpasang, label menghadap kamera). Pastikan wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "看着镜头，可以稍微挑起一侧眉毛，仿佛在提问。以平静自信的语气说话。",
-    "id": "Lihat ke kamera, bisa sedikit mengangkat satu alis seolah bertanya. Bicara dengan nada tenang dan percaya diri."
+    "zh": "",
+    "id": ""
    },
    "lines": "Musim pancaroba begini, kulit kamu ketarik, kusam, gampang merah, padahal tiap hari sudah pakai mist dan toner?"
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "看着镜头，可以轻轻摇动一根食指在下巴旁边（不要碰到脸），带着一丝微笑。然后，在说出诊断结果时，身体稍微前倾。",
-    "id": "Lihat ke kamera, bisa menggoyangkan satu jari telunjuk di samping dagu (jangan menyentuh wajah) dengan senyum kecil. Lalu condongkan badan sedikit ke depan saat mengatakan diagnosisnya."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini bukan kulit kering biasa. 이건 탈수예요. Namanya dehidrasi, kulitnya haus air."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "看着镜头，可以举起一只张开的手放在脸颊旁边，像一层皮肤，然后，在解释时，用另一只手的手指轻敲手背。之后，放下手，短暂地看向旁边，然后回到镜头，一只张开的手放在下巴附近，仿佛在放开什么。",
-    "id": "Lihat ke kamera, bisa mengangkat satu tangan terbuka di samping pipi seperti lapisan kulit, lalu mengetuk punggung tangan dengan jari tangan lain saat menjelaskan. Setelah itu, turunkan tangan, pandang ke samping sebentar lalu kembali ke kamera, satu tangan terbuka di dekat dagu seolah membiarkan sesuatu pergi."
+    "zh": "",
+    "id": ""
    },
    "lines": "Mist, toner, serum hyaluronic acid. Semua itu bawa air masuk ke kulit. Tapi kalau tidak ditutup lapisan minyak, airnya menguap lagi. Sekarang pancaroba, panas dan hujan ganti-ganti, ditambah ruangan AC, airnya kabur lebih cepat. 그래서 더 건조해져요."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "表情严肃而平静，眉毛平展，直视镜头。最后，可以带着了然的表情轻轻点头。",
-    "id": "Wajah serius dan tenang, alis datar, lihat lurus ke kamera. Di akhir, bisa mengangguk kecil dengan tahu."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kalau dibiarkan, kulit makin ketarik, gampang sensitif, garis halus makin kelihatan. 무섭죠?"
   },
@@ -69,10 +69,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，皮肤略显暗沉、无光泽、有点干",
+    "id": "Wajah bersih, kulit terlihat sedikit kusam, matte, dan agak kering tanpa kilau."
+   },
    "do": {
-    "zh": "晚上在家自拍，素颜看起来有点暗沉。侧脸向镜头展示脸颊。然后，回到对着镜头说话的姿势，将产品放在脸颊旁边（盖子盖好，标签朝向镜头）并说话。",
-    "id": "Rekam diri sendiri di rumah pada malam hari, wajah tanpa makeup terlihat sedikit kusam. Miringkan wajah untuk menunjukkan pipi ke kamera. Lalu, kembali ke posisi bicara ke kamera, pegang produk di samping pipi (tutup terpasang, label menghadap kamera) dan bicara."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Saya sendiri kulit kering, kerja di ruangan AC tiap hari. Jadi tujuh hari saya pakai ini: Pink Bling Bling Cream dari VEIRFOO. 자, 보세요. Hasilnya di akhir video."
   },
@@ -83,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将产品放在脸颊旁边（盖子盖好，标签朝向镜头），微微一笑并说话。然后，用另一只手，为每种成分数一、二、三根手指，不要碰到脸。",
-    "id": "Pegang produk di samping pipi (tutup terpasang, label menghadap kamera), tersenyum sedikit dan bicara. Lalu, dengan tangan yang lain, hitung satu, dua, tiga jari untuk setiap bahan, jangan menyentuh wajah."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kenapa saya suka? Ada tiga bahan yang kerja bareng. Tiga jenis hyaluronic acid bawa air masuk. Minyak jojoba tutup di atasnya, airnya terkunci. Sodium DNA dan kolagen, kulit saya terasa kenyal dan glowing. 완벽해요."
   },
@@ -95,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "特写拍摄手和脸颊，将米粒大小的乳霜涂抹在脸颊上并均匀推开直至吸收。然后，特写拍摄早晨的脸部，皮肤看起来更柔软健康。将脸颊转向光源，然后满意地微笑。",
-    "id": "Rekam close-up tangan dan pipi saat mengoleskan krim seukuran biji beras di pipi dan meratakannya sampai meresap. Lalu, rekam close-up wajah di pagi hari, kulit terlihat lebih lembut dan sehat. Putar pipi ke arah cahaya, lalu tersenyum puas."
+    "zh": "",
+    "id": ""
    },
    "lines": "Pakai di langkah terakhir, malam. Sedikit saja, ratakan. Hari ketiga, kulit saya sudah tidak ketarik. 벌써요."
   },
@@ -107,8 +110,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "特写拍摄夜晚的脸部，皮肤看起来更光滑水润。将脸颊转向光源。然后，特写拍摄早晨的脸部，皮肤看起来像玻璃一样透亮。将脸颊转向光源，然后带着自豪的笑容回到镜头前并说话。",
-    "id": "Rekam close-up wajah di malam hari, kulit terlihat lebih halus dan lembap. Putar pipi ke arah cahaya. Lalu, rekam close-up wajah di pagi hari, kulit terlihat glowing seperti kaca. Putar pipi ke arah cahaya, lalu kembali ke kamera dengan senyum bangga dan bicara."
+    "zh": "",
+    "id": ""
    },
    "lines": "Hari kelima, kulit saya makin halus. Hari ketujuh, kulit saya lembap dan glowing, kayak kaca. 물광 피부! Dan tidak lengket, walau Jakarta panas."
   },
@@ -119,8 +122,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将产品放在脸颊旁边（盖子盖好，标签朝向镜头），以真诚的语气说话。然后，坚定地点头，并用空闲的手指向屏幕左下角。最后，对着镜头温暖地微笑。",
-    "id": "Pegang produk di samping pipi (tutup terpasang, label menghadap kamera), bicara dengan nada tulus. Lalu, mengangguk tegas dan tunjuk ke pojok kiri bawah layar dengan tangan bebas. Terakhir, tersenyum hangat ke kamera."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Saya ngomong seribu kali, tetap lebih baik kamu coba sendiri. Di Korea harganya segini. Di sini seratus persen original, 정품이에요. Coba lihat di keranjang kuning, cuma berapa. Yuk, sama-sama punya kulit cantik!"
   }

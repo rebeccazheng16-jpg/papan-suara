@@ -2,18 +2,18 @@
  "id": "V0129",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 鎏金蛋白膜 Golden Mask",
+  "zh": "VEIRFOO Golden Mask 鎏金蛋白膜",
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
   "zh": "何泓姗同款洗面奶",
-  "id": "Masker yang sama dengan Arthaadaa"
+  "id": "Masker yang sama kayak Artha"
  },
  "src": "TikTok @arthaadaa",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 鎏金蛋白膜（盖子盖好，标签朝前），面膜刷，素颜，无妆",
-  "id": "VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera), kuas masker, wajah bersih tanpa makeup."
+  "zh": "产品：VEIRFOO Golden Mask 鎏金蛋白膜（盖子盖好，标签朝前）。道具：一把刷子（金色手柄，白色刷毛）。素颜，脸部干净无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Alat: Kuas (pegangan emas, bulu putih). Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "兴奋地和朋友分享好消息一样，把产品举到脸颊旁边；然后换个角度，指向自己的脸颊、鼻翼和下巴，列举她以前的皮肤烦恼。",
-    "id": "Dengan semangat seperti berbagi kabar baik, angkat produk di samping pipi. Lalu, dari sudut lain, tunjuk pipi, sisi hidung, dan dagu sambil menyebutkan masalah kulitmu dulu."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指轻触脸颊、鼻侧和下巴。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sentuh ringan pipi, sisi hidung, dan dagu."
    },
    "lines": "Selalu percaya sama selera Artha soal pilih masker, dan ternyata dia memang nggak bohong! Pas aku ganti ke masker yang sama kayak dia, wajahku yang kusam, pori-poriku, kulitku yang kering mengelupas..."
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "把产品推向镜头并说出它的名字，然后从另一个角度倾斜产品，让全息光泽在光线下闪烁，同时说出 PDRN 成分。",
-    "id": "Dorong produk ke arah kamera dan sebutkan namanya. Lalu, dari sudut lain, miringkan produk agar efek holografisnya berkilau di cahaya sambil menyebutkan kandungan PDRN."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。倾斜产品，让其金色全息光泽在光线下闪烁。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Miringkan produk agar kilau holografik emasnya berkilauan di bawah cahaya."
    },
    "lines": "Ini dia VEIRFOO Golden Mask yang lagi viral banget, masker protein yang tinggal dioles, terus pas kering bisa dikelupas satu lembar utuh. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -45,10 +51,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "用刷子刷上乳白色膏体；然后切换到全脸敷膜的镜头；再切换到从脸颊侧面撕下；最后切换到她容光焕发的干净脸颊。",
-    "id": "Oleskan krim dengan kuas. Lalu, tunjukkan seluruh wajah yang sudah tertutup masker. Kemudian, kelupas masker dari samping pipi. Terakhir, tunjukkan pipi yang bersih dan bercahaya."
+    "zh": "用刷子将面膜均匀涂抹在脸颊上。全脸涂抹面膜，确保眼周和唇部区域干净。从脸颊外侧边缘撕下面膜。用指腹轻抚脸颊。",
+    "id": "Oleskan masker secara merata di pipi dengan kuas. Oleskan masker ke seluruh wajah, pastikan area mata dan bibir bersih. Kelupas masker dari pinggir luar pipi. Usap pipi dengan punggung jari."
    },
    "lines": "Teksturnya kayak krim, cukup oles tipis selapis, tunggu sampai kering, terus kelupas dari pinggir wajah. Kulit wajahku kerasa lebih halus, kelihatan lebih cerah dan glowing, tapi tetap lembut."
   },
@@ -57,10 +66,13 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸部干净无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
-    "zh": "把产品举到脸颊旁边，提到韩国的价格（不带数字），然后呼吁皮肤暗沉、毛孔粗大的观众点击左下角的黄车。",
-    "id": "Pegang produk di samping pipi, sebutkan harga di Korea (tanpa angka). Lalu, ajak penonton dengan kulit kusam dan pori-pori besar untuk klik keranjang kuning di kiri bawah."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指向 左下。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke kiri bawah."
    },
    "lines": "Di Korea harganya segini loh. Sis, kalau wajahmu kusam dan pori-porimu besar, langsung klik keranjang kuning di kiri bawah, cobain Golden Mask dari Korea ini!"
   }

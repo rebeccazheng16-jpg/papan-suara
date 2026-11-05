@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI PDRN 9,900ppm Golden Mask"
+  "id": "Sicenari Collagen Shot Mask"
  },
  "hook": {
   "zh": "一大袋面膜用一年，比买小瓶划算",
-  "id": "Satu kantong besar masker bisa dipakai setahun, lebih hemat daripada beli yang kecil"
+  "id": "Satu kantong besar masker bisa dipakai setahun, lebih hemat daripada beli yang kecil-kecil"
  },
  "src": "TikTok @putryls_ag",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI袋装面膜（21片装），再准备一个空白的单片面膜小袋（浅紫色，无字）",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker SICENARI kemasan kantong (isi 21 lembar). Siapkan juga satu sachet masker lembaran kosong (warna ungu muda, tanpa tulisan apa pun)."
+  "zh": "素颜，准备好一袋 SICENARI 面膜（21片装），如果可以，准备一个空白的单片面膜小样袋。",
+  "id": "Wajah tanpa makeup. Siapkan satu kantong masker Sicenari (isi 21 lembar). Kalau bisa, siapkan juga satu sachet masker satuan yang kosong."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "用食指指向镜头，表情兴奋。然后把大袋面膜举到脸旁边，让面膜和脸都在画面里，继续说话。保持活力、自然、语速快，说完最后几个字时点头并微笑。",
-    "id": "Arahkan telunjuk ke kamera dengan ekspresi bersemangat. Lalu angkat kantong masker besar ke samping wajahmu, pastikan wajah dan masker terlihat di kamera, dan terus bicara. Tetap semangat, natural, dan bicara cepat. Di akhir kalimat, anggukkan kepala sedikit dan tersenyum."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Sicenari Korea, sekantong isinya dua puluh satu lembar. Di Korea harganya mahal banget loh. Sekarang di link kanan bawah, dihitung-hitung sehari selembar nggak sampai tujuh ribu."
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "一只手拿着大袋面膜放在脸旁边，另一只手拿着空白小袋面膜，放在大袋旁边做对比。然后把小袋面膜放下，继续说话。保持随意、有说服力、语速快。",
-    "id": "Satu tangan memegang kantong masker besar di samping wajah. Tangan yang lain mengangkat sachet masker kecil kosong, letakkan di sebelah kantong besar untuk perbandingan. Lalu turunkan sachet kecil itu dan terus bicara. Tetap santai, meyakinkan, dan bicara cepat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用另一只手拿出一片空白的单片小样袋，和大袋并排展示，然后放下小样袋。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan tangan satunya, tunjukkan sachet masker satuan yang kosong di sebelah kantong besar, lalu turunkan sachet kecilnya."
    },
    "lines": "Sekantong ini kalau dipakai tiap hari, kayaknya tiga minggu baru habis ya. Daripada kalian beli masker yang satuan, kayak gini. Mending langsung beli yang sekantong besar. Apalagi kalau kalian emang tiap hari maskeran."
   }

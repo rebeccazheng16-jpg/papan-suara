@@ -7,26 +7,27 @@
  },
  "hook": {
   "zh": "伪素颜神器·早上快速出门",
-  "id": "Andalan makeup no-makeup buat cepat-cepat pergi pagi"
+  "id": "Rahasia Tampil Cantik Natural Cepat di Pagi Hari"
  },
- "src": "",
+ "src": "胡芸芸",
  "cam": "user",
  "prep": {
-  "zh": "准备 VEIRFOO 紫管素颜霜。还需要5个没有牌子的空瓶子（水、乳、隔离、素颜霜、粉底），一支没有牌子的白色软管，一支裸粉色口红，和一支普通洗面奶。开始时脸上没有化妆。",
-  "id": "Siapin VEIRFOO Purple Tube. Perlu juga 5 botol kosong tanpa merek (toner, pelembap, primer, tone-up, foundation), 1 tube putih polos, 1 lipstik warna nude-pink, sama sabun cuci muka biasa. Mulai dengan muka bersih tanpa makeup."
+  "zh": "产品：VEIRFOO 紫管素颜霜（盖子盖好，标签朝前）。道具：无品牌化妆水、保湿霜、妆前乳、素颜霜、粉底液瓶各一，无品牌裸粉色口红一支，普通洗面奶。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera). Properti: Masing-masing satu botol toner, pelembap, primer, tone-up, dan foundation tanpa merek, satu lipstik nude-pink tanpa merek, dan sabun cuci muka biasa. Kulit: Wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih"
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先给镜头看你的素颜。然后把紫管素颜霜挤一点在半边脸上，快速抹开。然后指一下抹了的这边，再指一下没抹的那边，做出很惊喜的表情。",
-    "id": "Mulai dengan muka bersih. Kamu bisa pencet sedikit krim Purple Tube ini ke separuh muka, terus ratain cepat. Setelah itu, tunjuk bagian yang udah dipakai, terus tunjuk bagian yang belum, sambil pasang ekspresi kaget."
+    "zh": "挤出产品到一侧脸颊，然后快速涂抹。展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Peras produk ke satu pipi, lalu ratakan dengan cepat. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "VEIRFOO Purple Tube, krim yang bikin kamu bisa tidur sepuluh menit lebih lama tiap pagi. Lihat, sisi yang dipakai ini buatku lebih glowing, sisi satunya kusam dan kekuningan."
   },
@@ -34,13 +35,14 @@
    "n": 2,
    "sec": 7,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全脸涂好紫管素颜霜",
-    "id": "Seluruh muka sudah pakai Purple Tube"
+    "zh": "全脸已涂抹产品，肤色均匀提亮",
+    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
    },
    "do": {
-    "zh": "先把紫管立在桌上，然后把另外5个空瓶子一个一个快速地放在它旁边。然后把镜头转回你的脸，摸一下脸颊，笑一笑。",
-    "id": "Taruh Purple Tube di meja, terus jejerin 5 botol kosong lainnya di sebelahnya satu per satu dengan cepat. Habis itu, arahin kamera lagi ke muka kamu, sentuh pipi sedikit sambil senyum."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。将五瓶无品牌产品依次放在 VEIRFOO 紫管素颜霜旁边。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Letakkan lima botol produk tanpa merek satu per satu di samping VEIRFOO Purple Tube."
    },
    "lines": "Satu tube ini gantiin toner, pelembap, primer, tone-up, sekaligus foundation. Sekali dibaur, buatku langsung kelihatan kayak pakai ring light, kayak glass skin ala Korea."
   },
@@ -48,13 +50,14 @@
    "n": 3,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Muka bersih"
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "先假装很困，在脸上乱涂别的面霜，搓出泥来，看起来很厚重。然后，镜头对着你精神的样子，拿着紫管素颜霜在脸旁边。最后涂上口红，准备出门。",
-    "id": "Pertama, akting ngantuk sambil pakai krim lain di muka sampai nge-gumpal dan kelihatan tebal. Terus, ganti ke ekspresi segar sambil pegang Purple Tube di sebelah muka. Terakhir, pakai lipstik dan siap-siap pergi."
+    "zh": "涂抹普通面霜，使其搓泥。展示产品时，产品 logo 正面始终朝向镜头。涂抹口红。",
+    "id": "Oleskan krim biasa sampai menggumpal. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan lipstik."
    },
    "lines": "Nggak perlu bangun pagi buat pakai lapis demi lapis, yang ujungnya menggumpal dan kayak topeng. Hasilnya lebih ringan dari foundation, lebih rapi dari tone-up biasa, tinggal pakai lipstik langsung berangkat."
   },
@@ -62,10 +65,14 @@
    "n": 4,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "全脸已涂抹产品，肤色均匀提亮",
+    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
+   },
    "do": {
-    "zh": "先把紫管素颜霜挤在手背上，抹开给镜头看质地。然后可以换个衣服和场景，对着镜头微笑，看起来很满意。",
-    "id": "Pertama, pencet krim Purple Tube ke punggung tangan terus ratain buat nunjukkin teksturnya ke kamera. Setelah itu, kamu bisa ganti baju dan lokasi, terus senyum puas ke kamera."
+    "zh": "挤出产品到手背，然后快速涂抹。展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Peras produk ke punggung tangan, lalu ratakan dengan cepat. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Yang paling penting, ini skincare juga. Ada niacinamide, centella, dan PDRN, kulitku berasa lebih cerah dan terawat. Makin lama aku pakai, kulitku berasa makin glowing, nggak gampang kusam."
   },
@@ -73,13 +80,14 @@
    "n": 5,
    "sec": 10,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸上涂着紫管素颜霜",
-    "id": "Muka sudah pakai Purple Tube"
+    "zh": "全脸已涂抹产品，肤色均匀提亮",
+    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
    },
    "do": {
-    "zh": "先拍用洗面奶洗脸的镜头。然后擦干净，给镜头看洗完后干净的脸。最后回到化好妆的样子，拿着紫管素颜霜在脸旁边，自信地点点头。",
-    "id": "Pertama, rekam adegan cuci muka pakai sabun. Terus, lap sampai bersih dan tunjukkin muka bersih kamu ke kamera. Terakhir, kembali ke look makeup-an sambil pegang Purple Tube di sebelah muka dan ngangguk pede."
+    "zh": "用洗面奶洗脸。展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Cuci muka dengan sabun cuci muka. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Dan cukup pakai sabun cuci muka biasa udah bersih, nggak perlu ribet makeup remover. Satu tube ini bikin base makeup pagi-pagi beres dalam satu langkah, ringan, rapi, dan tetap kelihatan glowing seharian."
   },
@@ -87,13 +95,14 @@
    "n": 6,
    "sec": 8,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "全脸涂好紫管素颜霜",
-    "id": "Seluruh muka sudah pakai Purple Tube"
+    "zh": "全脸已涂抹产品，肤色均匀提亮",
+    "id": "Seluruh wajah sudah diaplikasikan produk, warna kulit merata dan cerah"
    },
    "do": {
-    "zh": "拿着紫管素颜霜靠近镜头，推荐给大家。然后用另一只手指着左下角，好像在说‘快去买’，然后微笑。",
-    "id": "Pegang Purple Tube dekat kamera sambil merekomendasikannya. Terus, pakai jari tangan satunya buat nunjuk ke arah kiri bawah, seolah-olah bilang 'buruan beli', sambil senyum ramah."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke sudut kiri bawah."
    },
    "lines": "Yang mau base makeup cepat sebelum keluar rumah, wajib coba VEIRFOO Purple Tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

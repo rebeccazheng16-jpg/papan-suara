@@ -6,23 +6,28 @@
   "id": "VEIRFOO Purple Tube"
  },
  "hook": {
-  "zh": "韩系水光素颜妆",
-  "id": "Makeup K-Beauty glass skin"
+  "zh": "K-Beauty 水光妆",
+  "id": "K-Beauty Glass Skin Makeup Look"
  },
  "src": "TikTok @najaetaime",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO小紫管素颜霜，还有你自己的淡粉色腮红和唇釉。开始时脸上已经有淡妆，但还没上腮红。",
-  "id": "Produk VEIRFOO Purple Tube, blush, sama lip tint warna pink muda. Kamu mulai dengan muka yang sudah makeup tipis ya, tapi belum pakai blush."
+  "zh": "素颜，不带妆；VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup; VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 13,
    "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "素颜，不带腮红",
+    "id": "Wajah bersih, tanpa blush"
+   },
    "do": {
-    "zh": "开始时，把产品举到脸颊旁边给镜头看，可以眨眨眼笑一下。然后，用手指在半边脸上点三点素颜霜，涂抹均匀。最后，脸正对镜头，展示涂了和没涂的半脸对比效果，保持微笑不动几秒钟。",
-    "id": "Awalnya, kamu bisa pegang produk di samping pipi, senyum dan kedip ke kamera. Terus, pakai jari, totolin krimnya di separuh wajah aja, lalu ratain. Terakhir, lihat lurus ke kamera, tunjukkin bedanya sisi yang udah pakai dan yang belum, tahan senyum sebentar ya."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。在右脸颊点涂并推开素颜霜，然后保持不动，展示半脸对比效果（右脸涂了素颜霜，左脸素颜）。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan dan ratakan krim di pipi kanan, lalu diam untuk menunjukkan perbandingan setengah wajah (pipi kanan sudah pakai krim, pipi kiri polos)."
    },
    "lines": ""
   },
@@ -30,13 +35,14 @@
    "n": 2,
    "sec": 13,
    "talk": false,
+   "broll": false,
    "face": {
-    "zh": "半边脸涂了素颜霜",
-    "id": "Separuh wajah sudah pakai tone-up cream"
+    "zh": "右脸颊已涂素颜霜",
+    "id": "Pipi kanan sudah pakai krim"
    },
    "do": {
-    "zh": "现在给另外半边脸也涂上素颜霜。涂完后，可以用手指轻轻拍上一点腮红和唇釉。最后，再次把产品举到脸颊旁边，可以做一个可爱的嘟嘴表情结束。",
-    "id": "Sekarang, ratain krimnya di sisi wajah yang satu lagi. Kalau udah, kamu bisa tap-tap sedikit blush dan lip tint pakai jari. Terakhir, pegang lagi produknya di samping pipi, terus posenya manyun lucu gitu buat penutupan."
+    "zh": "在左脸颊点涂并推开素颜霜，然后用手指轻点脸颊，再用指尖涂抹腮红和唇釉。最后展示产品，并嘟嘴。",
+    "id": "Oleskan dan ratakan krim di pipi kiri, lalu tunjuk pipi dengan jari. Oleskan blush dan lip tint dengan ujung jari. Terakhir, tunjukkan produknya dan manyun."
    },
    "lines": ""
   }

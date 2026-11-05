@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "早八人有色面霜",
-  "id": "Tone-up cream untuk yang buru-buru di pagi hari"
+  "id": "Tone-up cream untuk yang buru-buru"
  },
  "src": "哈哈婧",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO紫管素颜霜（盖子盖好），一个普通粉扑，一个普通小风扇，一个喷雾瓶，一张白色纸巾，一个放冰块的托盘和冰块。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Purple Tube (tertutup), spons makeup biasa, kipas angin kecil, botol semprotan air, tisu putih, dan nampan dengan es batu."
+  "zh": "素颜，VEIRFOO紫管素颜霜（盖子盖好，标签朝前），化妆棉，普通粉底液，化妆海绵，小电风扇，喷雾瓶，白色纸巾，冰块，托盘",
+  "id": "Muka bersih tanpa makeup, VEIRFOO Purple Tube (tutup terpasang, label menghadap kamera), kapas, foundation biasa, spons makeup, kipas angin kecil, botol semprot, tisu putih, es batu, nampan"
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，肤色不均，略显暗沉发黄，局部泛红。",
-    "id": "Wajah bersih tanpa makeup, warna kulit tidak rata, sedikit kusam dan kekuningan, ada kemerahan di beberapa area."
+    "zh": "素颜",
+    "id": "Muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "对着镜头，把盖子拧开，挤一点霜在脸颊上。用指腹轻轻向外涂抹开。语气轻松愉快，语速快。",
-    "id": "Lihat ke kamera. Buka tutup tube, lalu oleskan sedikit krim di satu pipi. Baurkan dengan jari ke arah luar. Ucapkan kalimat ini dengan nada santai dan cepat."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。在脸颊右侧挤出产品，涂抹均匀，然后展示左右脸对比。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Oleskan produk di pipi kanan, ratakan, lalu tunjukkan perbandingan kedua sisi wajah."
    },
    "lines": "Krim putih begini, dibaur, kulitku berasa langsung rata dan cerah. Kamu udah pernah coba tone-up cream yang bisa gantiin foundation? Lebih glowing dari primer, lebih ringan dan nempel dari foundation."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤微热，有汗意。",
-    "id": "Wajah bersih tanpa makeup, kulit sedikit hangat dan berkeringat."
+    "zh": "素颜",
+    "id": "Muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "对着镜头，用手在脸颊旁边扇风，做出很热的样子。语气有点抱怨，语速快。",
-    "id": "Lihat ke kamera. Kipas-kipas tangan di samping pipi, seolah kepanasan. Ucapkan kalimat ini dengan nada sedikit mengeluh dan cepat."
+    "zh": "先表现热，再展示涂了普通素颜霜后不均匀的脸。",
+    "id": "Awalnya tunjukkan ekspresi kepanasan, lalu perlihatkan wajah yang memakai tone-up cream biasa dan terlihat tidak rata."
    },
    "lines": "Apalagi cuaca panas begini, pengennya simpel. Pakai tone-up biasa, malah pucat nggak rata, belang, kelihatan palsu, kayak pakai topeng."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上有厚重粉底液。",
-    "id": "Wajah bersih tanpa makeup, ada lapisan foundation tebal di wajah."
+    "zh": "素颜",
+    "id": "Muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "对着镜头，用粉扑在脸颊上轻拍，好像在叠加粉底液。语气越来越不耐烦，语速快。",
-    "id": "Lihat ke kamera. Tepuk-tepuk pipi dengan spons makeup, seolah sedang menambahkan lapisan foundation. Ucapkan kalimat ini dengan nada semakin kesal dan cepat."
+    "zh": "用化妆海绵涂抹多层粉底液，然后用手指按压脸颊，留下指纹。",
+    "id": "Pakai spons makeup untuk mengaplikasikan foundation berlapis-lapis, lalu tekan pipi dengan jari sampai meninggalkan bekas."
    },
    "lines": "Ganti foundation, ditumpuk lapis demi lapis, makin tebal, gampang menggumpal dan luntur. Ditekan jari aja langsung ada bekasnya."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已涂抹均匀紫管素颜霜，肤色提亮。",
-    "id": "Seluruh wajah sudah diaplikasikan VEIRFOO Purple Tube secara merata, warna kulit lebih cerah."
+    "zh": "全脸已涂抹产品",
+    "id": "Seluruh wajah sudah diaplikasikan produk"
    },
    "do": {
-    "zh": "把紫管素颜霜放在冰块托盘里，然后用手拿起来。对着镜头，把紫管素颜霜举到脸颊旁边，用另一只手的手指数着，做出骄傲的笑容。语气酷酷的，满意，语速快。",
-    "id": "Letakkan VEIRFOO Purple Tube di nampan es batu, lalu ambil dengan tangan. Lihat ke kamera. Pegang VEIRFOO Purple Tube di samping pipi, lalu hitung dengan jari tangan yang lain sambil tersenyum bangga. Ucapkan kalimat ini dengan nada keren, puas, dan cepat."
+    "zh": "产品放在冰块托盘中，然后拿起来。展示产品时，产品标志正面始终朝向镜头。用手指计数产品的五种功能。",
+    "id": "Produk diletakkan di nampan es batu, lalu ambil. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Hitung lima fungsi produk dengan jari."
    },
    "lines": "Makanya sekarang aku ganti ini, VEIRFOO Purple Tube, dibuat buat yang males dandan pas cuaca panas. Satu tube lima fungsi: toner, pelembap, primer, tone-up, sekaligus pengganti foundation."
   },
@@ -81,10 +81,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "全脸已涂抹产品",
+    "id": "Seluruh wajah sudah diaplikasikan produk"
+   },
    "do": {
-    "zh": "把盖子拧开，挤一点霜在手背上，用指腹轻轻涂抹开。对着镜头，举起双手手掌，对比两只手的肤色。语气真诚，语速快。",
-    "id": "Buka tutup tube, lalu oleskan sedikit krim di punggung tangan. Baurkan dengan jari. Lihat ke kamera. Angkat kedua telapak tangan untuk menunjukkan perbedaan warna kulit. Ucapkan kalimat ini dengan nada tulus dan cepat."
+    "zh": "在手背挤出产品并涂抹均匀，然后展示两只手掌的对比。",
+    "id": "Keluarkan produk di punggung tangan dan ratakan, lalu tunjukkan perbandingan kedua telapak tangan."
    },
    "lines": "Teksturnya krim putih yang lembut, ringan dan gampang dibaur. Bahkan di telapak tangan yang banyak garisnya, warnanya buatku kelihatan lebih cerah dan rata, nggak ada kesan bedak sama sekali."
   },
@@ -94,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊上有一小团紫管素颜霜。",
-    "id": "Ada sedikit VEIRFOO Purple Tube di pipi."
+    "zh": "素颜",
+    "id": "Muka bersih tanpa makeup"
    },
    "do": {
-    "zh": "对着镜头，用指腹轻轻打圈涂抹开脸颊上的霜，像涂抹保湿霜一样。语气放松，语速快。然后对着镜头，用食指轻触脸颊。最后对着镜头，用食指指向脸颊，然后微笑。",
-    "id": "Lihat ke kamera. Baurkan krim di pipi dengan gerakan melingkar seperti mengaplikasikan pelembap. Ucapkan kalimat ini dengan nada santai dan cepat. Lalu, sentuh pipi dengan jari telunjuk. Terakhir, tunjuk pipi dengan jari telunjuk, lalu tersenyum."
+    "zh": "在脸颊右侧涂抹产品，然后展示涂抹后的脸颊，最后展示左右脸对比。",
+    "id": "Oleskan produk di pipi kanan, lalu tunjukkan pipi yang sudah diaplikasikan produk, terakhir tunjukkan perbandingan kedua sisi wajah."
    },
    "lines": "Di muka rasanya kayak pakai moisturizer, tapi kulitku berasa langsung lebih cerah dan mulus. Kulit aku super kering, tanpa primer tetap lembap dan nempel. Kusam dan kemerahanku, satu lapis aja buatku udah tersamar."
   },
@@ -107,14 +110,14 @@
    "n": 7,
    "sec": 9,
    "talk": true,
-   "broll": false,
+   "broll": true,
    "face": {
-    "zh": "全脸已上好精致妆容，底妆无瑕透亮。",
-    "id": "Wajah sudah dengan makeup lengkap dan base makeup yang flawless dan bercahaya."
+    "zh": "全妆",
+    "id": "Full makeup"
    },
    "do": {
-    "zh": "对着镜头，慢慢靠近，直到脸部充满画面，表情俏皮自信。然后用手托腮，眼睛微垂，微笑。接着在停车场，穿着白色碎花长裙，在户外阳光下，穿着白色碎花长裙，微笑并看向旁边，用手遮住眼睛。",
-    "id": "Lihat ke kamera. Perlahan mendekat sampai wajah memenuhi sebagian besar frame, dengan ekspresi ceria dan percaya diri. Lalu, topang dagu dengan tangan, mata sedikit menunduk, tersenyum. Selanjutnya, di parkiran, kenakan gaun panjang putih bermotif bunga. Di bawah sinar matahari, kenakan gaun panjang putih bermotif bunga, tersenyum dan melihat ke samping, lalu angkat tangan untuk menaungi mata sebentar."
+    "zh": "先近距离展示全妆，然后展示在不同环境下的妆容。",
+    "id": "Pertama, tunjukkan full makeup dari dekat, lalu perlihatkan makeup di berbagai lingkungan."
    },
    "lines": "Ini kamera asli, lihat dari dekat, tetap nggak ada kesan bedak. Mau di dalam ruangan, di parkiran, atau di bawah matahari, makeup-nya tetap mulus dan glowing."
   },
@@ -124,12 +127,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已上好精致妆容，底妆无瑕。",
-    "id": "Wajah sudah dengan makeup lengkap dan base makeup yang flawless."
+    "zh": "全妆",
+    "id": "Full makeup"
    },
    "do": {
-    "zh": "对着镜头，模仿怀疑的观众，歪头眯眼，然后放松微笑，挥手。然后闭眼，靠近小电暖风扇。接着闭眼，用喷雾瓶喷水在脸上。最后用手指将白色纸巾按压在湿润的脸颊上，然后撕下，展示纸巾的干净面。",
-    "id": "Lihat ke kamera. Miringkan kepala dan sedikit menyipitkan mata, menirukan penonton yang ragu, lalu tersenyum santai dan melambaikan tangan. Lalu, tutup mata, dekatkan wajah ke kipas pemanas listrik kecil. Selanjutnya, tutup mata, semprotkan air ke wajah dengan botol semprot. Terakhir, tekan tisu putih ke pipi yang lembap, lalu lepaskan dan tunjukkan sisi tisu yang bersih ke kamera."
+    "zh": "先模仿怀疑的观众，然后用小电风扇吹脸，再用喷雾瓶喷脸，最后用白色纸巾按压脸颊并展示纸巾。",
+    "id": "Pertama, tirukan ekspresi penonton yang ragu, lalu hadapkan wajah ke kipas angin kecil, semprotkan air dengan botol semprot, terakhir tekan pipi dengan tisu putih dan tunjukkan tisu."
    },
    "lines": "Pasti ada yang nanya, selembap ini, keluar rumah langsung luntur nggak? Tenang. Matahari nggak sepanas kipas ini, keringat nggak sebanyak semprotan ini. Ditekan tisu, nggak ada bedak yang nempel."
   },
@@ -137,14 +140,14 @@
    "n": 9,
    "sec": 11,
    "talk": true,
-   "broll": false,
+   "broll": true,
    "face": {
-    "zh": "全脸已上好精致妆容，底妆无瑕透亮。",
-    "id": "Wajah sudah dengan makeup lengkap dan base makeup yang flawless dan bercahaya."
+    "zh": "全妆",
+    "id": "Full makeup"
    },
    "do": {
-    "zh": "对着镜头，点头，理解地轻触鼻翼。语气温暖，有同理心，语速快。然后早上出门，对着镜头微笑。最后晚上回家，对着镜头微笑。",
-    "id": "Lihat ke kamera. Mengangguk dengan ekspresi pengertian dan menyentuh sisi hidung dengan ujung jari. Ucapkan kalimat ini dengan nada hangat, empati, dan cepat. Lalu, di pagi hari saat keluar rumah, tersenyum ke kamera. Terakhir, di malam hari saat pulang, tersenyum ke kamera."
+    "zh": "先在镜子前点头，然后展示早上出门和晚上回家的妆容。",
+    "id": "Pertama, mengangguk di depan cermin, lalu tunjukkan makeup saat berangkat pagi dan pulang malam."
    },
    "lines": "Aku juga ngerti, banyak yang gampang berminyak dan makeup jadi kusam. Dulu seharian di luar, base pasti jadi lebih gelap. Sekarang pagi berangkat dandan kayak gini, malam pulang ganti piyama, makeup-nya tetap sama."
   },
@@ -154,12 +157,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已上好精致妆容，底妆无瑕。",
-    "id": "Wajah sudah dengan makeup lengkap dan base makeup yang flawless."
+    "zh": "全妆",
+    "id": "Full makeup"
    },
    "do": {
-    "zh": "紫管素颜霜斜放在冰块托盘里，用指尖轻敲PDRN标签。对着镜头，把紫管素颜霜举到脸颊旁边，用另一只手食指指向画面左下角，露出温暖友好的笑容。",
-    "id": "Letakkan VEIRFOO Purple Tube secara miring di nampan es batu, lalu ketuk label PDRN dengan ujung jari. Lihat ke kamera. Pegang VEIRFOO Purple Tube di samping pipi, lalu tunjuk ke sudut kiri bawah layar dengan jari telunjuk tangan yang lain, sambil tersenyum hangat dan ramah."
+    "zh": "产品放在冰块托盘中，用手指轻敲产品标签。展示产品时，产品标志正面始终朝向镜头。指向屏幕左下角。",
+    "id": "Produk diletakkan di nampan es batu, ketuk label produk dengan jari. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah."
    },
    "lines": "VEIRFOO juga nggak pelit bahan: niacinamide tinggi, centella yang lembut buat kulit sensitif, PDRN-nya langsung ditulis di tube. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "你该不会还在…其实你一直用错方法了",
-  "id": "Kamu masih pakai serum lapis-lapis? Cara itu salah!"
+  "id": "Kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah."
  },
- "src": "TikTok @shannondorothea",
+ "src": "抖音 狸芊芊 Tondi",
  "cam": "user",
  "prep": {
-  "zh": "素手素臂，无妆，无首饰；产品（盖子盖好），产品包装盒，刷子",
-  "id": "Tangan dan lengan bersih tanpa makeup atau perhiasan. Siapkan produk (tutupnya terpasang), kotak kemasan produk, dan kuas."
+  "zh": "产品（盖子盖好，logo 朝前）；刷子；素手素颜，手臂内侧干净无毛。",
+  "id": "Produk (tutup terpasang, logo menghadap kamera); kuas; tangan dan lengan bersih tanpa bulu, tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将产品挤出一点到手腕内侧。然后竖直握住产品，轻轻旋转。",
-    "id": "Kamu bisa memencet sedikit produk ke pergelangan tangan bagian dalam. Lalu pegang produk tegak dan putar perlahan."
+    "zh": "挤出少量膏体到手臂内侧，然后展示产品，logo 朝前。",
+    "id": "Pencet sedikit krim ke lengan bagian dalam, lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Eh, kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah. Aku juga sering begadang, kulitku kusam, nggak glowing, kering sampai makeup-nya cakey, skincare udah beli banyak tapi nggak kerasa apa-apa."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将产品和包装盒并排握住，然后靠近镜头。然后将产品和盒子放在桌上，用手指轻敲产品两次。",
-    "id": "Kamu bisa memegang produk dan kotak kemasan berdampingan, lalu dekatkan ke kamera. Lalu letakkan produk dan kotak di meja, ketuk produk dua kali dengan jari."
+    "zh": "左手拿包装盒，右手拿产品，并排展示，logo 朝前。然后把产品和包装盒平放在桌上，用指尖轻敲产品。",
+    "id": "Tangan kiri pegang kotak, tangan kanan pegang produk, tunjukkan berdampingan, logo menghadap kamera. Lalu letakkan produk dan kotak di meja, ketuk produk dengan jari."
    },
    "lines": "Kalau kamu juga gitu, wajib lihat ini: VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak kerasa itu sering karena bahan aktifnya nggak sempat nempel di kulit."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "打开产品盖子，然后挤出一点产品到手臂上。然后用刷子将产品均匀涂抹在手臂上。",
-    "id": "Kamu bisa membuka tutup produk, lalu pencet sedikit produk ke lengan. Lalu pakai kuas untuk meratakan produk di lengan."
+    "zh": "拧开盖子，挤出少量膏体到手臂内侧。然后用刷子把膏体均匀涂抹开。",
+    "id": "Putar tutupnya, pencet sedikit krim ke lengan bagian dalam. Lalu ratakan krim pakai kuas."
    },
    "lines": "Tinggal diputar dan dipencet sedikit, teksturnya creamy kayak krim wajah, ada kilau keemasan tipis. Oles rata pakai kuas ke seluruh wajah, tangan sama sekali nggak kotor."
   },
@@ -58,12 +58,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "手臂上涂抹好的面膜已干",
-    "id": "Masker di lengan sudah kering"
+    "zh": "手臂内侧已涂抹好面膜，并已风干成膜。",
+    "id": "Lengan bagian dalam sudah ada masker yang sudah kering jadi lapisan."
    },
    "do": {
-    "zh": "用手指按压手臂上已干的面膜。然后从手腕向手肘方向剥离面膜。",
-    "id": "Kamu bisa menekan masker yang sudah kering di lengan dengan jari. Lalu kelupas masker dari pergelangan tangan ke arah siku."
+    "zh": "用指尖轻按面膜，确认已干。然后从手腕处开始，沿着手臂方向慢慢撕下整片面膜，并举起展示。",
+    "id": "Tekan masker dengan jari untuk memastikan sudah kering. Lalu kelupas pelan dari pinggir pergelangan tangan, tarik lurus ke arah siku, dan angkat masker yang sudah terkelupas ke arah kamera."
    },
    "lines": "Tunggu sampai benar-benar kering jadi lapisan, bahan aktifnya nempel terus di kulit. Terus kelupas pelan dari pinggirnya, lepas satu lembar utuh, tipis kayak plastik wrap, satisfying banget!"
   },
@@ -73,12 +73,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "手臂上已无面膜",
-    "id": "Masker di lengan sudah tidak ada"
+    "zh": "手臂内侧已无面膜，皮肤干净。",
+    "id": "Lengan bagian dalam sudah bersih tanpa masker."
    },
    "do": {
-    "zh": "轻轻擦拭已清洁的手臂皮肤。然后将产品和包装盒并排握住。",
-    "id": "Kamu bisa mengusap lembut kulit lengan yang sudah bersih. Lalu pegang produk dan kotak kemasan berdampingan."
+    "zh": "用指尖轻抚手臂内侧的皮肤。然后左手拿包装盒，右手拿产品，并排展示，logo 朝前。",
+    "id": "Usap lembut kulit lengan bagian dalam. Lalu tangan kiri pegang kotak, tangan kanan pegang produk, tunjukkan berdampingan, logo menghadap kamera."
    },
    "lines": "Yang penting teksturnya juga lembut, pas dikelupas sama sekali nggak sakit. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -88,12 +88,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "手臂上已无面膜",
-    "id": "Masker di lengan sudah tidak ada"
+    "zh": "手臂内侧已无面膜，皮肤干净。",
+    "id": "Lengan bagian dalam sudah bersih tanpa masker."
    },
    "do": {
-    "zh": "轻轻擦拭手臂，从手腕到手肘。然后竖直握住产品，放在镜头前。",
-    "id": "Kamu bisa mengusap lembut lenganmu dari pergelangan tangan ke siku. Lalu pegang produk tegak di depan kamera."
+    "zh": "用指背轻抚手臂内侧的皮肤。然后展示产品，logo 朝前。",
+    "id": "Usap lembut kulit lengan bagian dalam dengan punggung jari. Lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Setelah aku pakai, aku ngerasa kulitku nggak ketarik dan nggak kering, pas diraba halus dan lembut banget, nyaman banget. Sampai deket-deketan sama pacar pun aku pede. Di Korea harganya segini loh."
   },
@@ -104,8 +104,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "竖直握住产品，放在画面中央。然后另一只手指向左下角的黄色购物篮。",
-    "id": "Kamu bisa memegang produk tegak di tengah frame. Lalu tangan satunya menunjuk ke keranjang kuning di kiri bawah."
+    "zh": "展示产品，logo 朝前。然后用另一只手指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu tangan kosong yang lain menunjuk ke sudut kiri bawah."
    },
    "lines": "Pokoknya semuanya oke banget. Klik keranjang kuning di kiri bawah, cek sekarang harganya berapa, coba beli satu dulu!"
   }

@@ -6,14 +6,14 @@
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "早晨水光肌，懒人必备",
-  "id": "Kulit glowing di pagi hari, cocok buat yang malas"
+  "zh": "熊小熊晨间水光复刻",
+  "id": "Kulit glowing ala xiongxiaoxiong di pagi hari"
  },
- "src": "抖音 @xiongxiaoxiong.",
+ "src": "抖音 xiongxiaoxiong.",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好产品（盖子盖好），粉扑，纸巾，散粉刷，液体腮红。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produk (tutupnya terpasang), spons bedak, tisu, kuas bedak, dan blush on cair."
+  "zh": "素颜，VEIRFOO 粉水光油霜（盖子盖好，标签朝前）。",
+  "id": "Wajah tanpa makeup. VEIRFOO Pink Bling Bling Cream (tutup terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "坐在沙发上，用指尖轻拍面霜到脸颊，动作缓慢，眼神放空，不看镜头。然后切换到夜间特写，脸部被闪光灯照亮，皮肤湿润有光泽，安静地看向镜头。再切换到浴室，戴着面膜，用指尖轻压面膜，嘴巴闭合。最后在水池边用双手泼水洗脸。",
-    "id": "Duduk di sofa, tepuk-tepuk krim ke pipi dengan ujung jari, santai saja, pandangan kosong, jangan lihat kamera. Lalu ganti ke close-up wajah di malam hari dengan flash, kulit terlihat basah dan glowing, tatap kamera dengan tenang. Lalu ganti ke kamar mandi, pakai sheet mask, tekan-tekan dengan ujung jari, bibir tertutup. Terakhir, di wastafel, bilas wajah dengan air menggunakan kedua tangan."
+    "zh": "全程画外音，嘴巴保持闭合。",
+    "id": "Voiceover, bibir tertutup rapat."
    },
    "lines": "Sekali kena ini, udah tamat deh. Ternyata dua puluh tahun ini aku hidup salah. Ternyata glass skin ala cewek Korea segampang ini. Dulu kita pakai sheet mask, basah-basahan, minimal dua puluh menit, ya kan?"
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊和鼻子周围有点泛红",
-    "id": "Wajah bersih tanpa makeup, pipi dan sekitar hidung sedikit kemerahan"
+    "zh": "素颜，脸颊有点泛红",
+    "id": "Wajah tanpa makeup, pipi sedikit kemerahan"
    },
    "do": {
-    "zh": "坐在沙发上，用一只手拿着产品（盖子盖好，正面朝向镜头）放在脸颊旁边，对着手机说话。然后用另一只手打开盖子，挤一点乳液到脸颊上，然后立即用指尖涂抹直到吸收并发出光泽。再对着手机说话，轻拍脸颊和鼻子，微笑看向镜头。最后慢慢将脸转向侧面，让窗户的光线照亮发光的皮肤。",
-    "id": "Duduk di sofa, pegang produk (tutupnya terpasang, bagian depan menghadap kamera) di samping pipi, bicara ke kamera. Lalu buka tutupnya dengan tangan lain, teteskan sedikit lotion pink ke pipi, lalu langsung usap dengan ujung jari sampai meresap dan glowing. Lalu bicara lagi ke kamera, tepuk-tepuk pipi dan hidung, senyum ke kamera. Terakhir, putar wajah perlahan ke samping agar cahaya jendela menyinari kulit yang glowing."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用指尖取一小点产品在右颧骨上，然后轻轻抹开一次，直到吸收并焕发光泽。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ambil satu titik kecil produk di tulang pipi kanan dengan ujung jari, lalu ratakan sekali saja sampai meresap dan glowing."
    },
    "lines": "Tapi Pink Bling Bling ini, tiga detik langsung meresap, tunggu tiga puluh detik, kulitku berasa langsung glowing. Lihat, yang pink ini cocok banget buat pagi-pagi, kulitku berasa cepet tenang, kayak kebangun. Buatku super glowing, merah-merah tadi berasa udah nggak ada."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤湿润有光泽",
-    "id": "Wajah bersih tanpa makeup, kulit glowing dan lembap"
+    "zh": "素颜，皮肤有水光感",
+    "id": "Wajah tanpa makeup, kulit glowing"
    },
    "do": {
-    "zh": "坐在沙发上，用指尖轻触脸颊，然后用粉扑将粉底液轻拍在脸颊的左侧。放下粉扑，用食指先指向左侧脸颊，再指向右侧脸颊，好奇地看向镜头，眉毛微抬。",
-    "id": "Duduk di sofa, sentuh pipi dengan ujung jari, lalu pakai spons bedak untuk menepuk-nepuk foundation di pipi bagian kiri. Letakkan spons, tunjuk pipi kiri, lalu pipi kanan, tatap kamera dengan ekspresi penasaran dan alis sedikit terangkat."
+    "zh": "用粉扑在画面左侧的脸颊上拍打粉底液，然后用食指分别指向左右脸颊。",
+    "id": "Dengan spons bedak, tepuk-tepuk foundation hanya di pipi sisi kiri frame. Lalu tunjuk pipi kiri, lalu pipi kanan."
    },
    "lines": "Habis meresap, kulitnya jadi agak lengket, jadi foundation apa pun nempel kuat, lebih rapi dan nyatu. Bagian yang pakai foundation sama yang cuma pakai Pink Bling Bling, bedanya cuma di noda."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "左侧脸颊有粉底液，右侧脸颊无粉底液，两边都有湿润光泽",
-    "id": "Pipi kiri pakai foundation, pipi kanan tidak, keduanya glowing"
+    "zh": "左脸颊有粉底液，右脸颊素颜，两边都有水光感",
+    "id": "Pipi kiri ber-foundation, pipi kanan tanpa makeup, kedua sisi glowing"
    },
    "do": {
-    "zh": "指向有粉底液的那一侧，然后慢慢将脸颊转向光源，让光泽透过粉底液显现出来，最后露出开心的笑容。",
-    "id": "Tunjuk pipi yang pakai foundation, lalu perlahan putar pipi ke arah cahaya agar glow-nya terlihat menembus foundation, lalu tersenyum senang."
+    "zh": "指向有粉底液的脸颊，然后慢慢转动脸颊朝向光线。",
+    "id": "Tunjuk pipi yang ber-foundation, lalu perlahan putar pipi ke arah cahaya."
    },
    "lines": "Lihat, glow di bawahnya sama persis. Glow-nya nerus sampai ke bawah, nggak ketutup foundation. Ajaib!"
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "左侧脸颊有粉底液，全脸有湿润光泽",
-    "id": "Pipi kiri pakai foundation, seluruh wajah glowing"
+    "zh": "左脸颊有粉底液，右脸颊素颜，全脸有水光感",
+    "id": "Pipi kiri ber-foundation, pipi kanan tanpa makeup, seluruh wajah glowing"
    },
    "do": {
-    "zh": "闭上一只眼睛，用散粉刷在左侧脸颊扫上散粉。放下刷子，先指向右侧脸颊，再指向左侧脸颊。用手掌轻触脸颊，然后移开，手掌保持干净。最后用纸巾轻压脸颊，然后撕下，纸巾上没有油渍或粉末，眉毛微抬。",
-    "id": "Tutup satu mata, sapukan kuas bedak tabur di pipi kiri. Letakkan kuas, tunjuk pipi kanan, lalu pipi kiri. Sentuh pipi dengan telapak tangan lalu angkat, telapak tangan bersih. Terakhir, tekan tisu di pipi lalu lepaskan ke arah kamera, tisu bersih tanpa bekas minyak atau bedak, alis sedikit terangkat."
+    "zh": "用散粉刷在画面左侧的脸颊上扫散粉，然后用手掌按压脸颊，再用纸巾按压脸颊。",
+    "id": "Dengan kuas bedak, sapukan bedak tabur di pipi sisi kiri frame. Lalu sentuh pipi dengan telapak tangan, lalu tempelkan tisu di pipi."
    },
    "lines": "Udah pakai bedak pun, masih kelihatan kilau tipis. Ini yang belum, ini yang udah, tetap ada glow cantik. Tapi dipegang, super fresh, sama sekali nggak nempel di muka. Wah, ajaib!"
   },
@@ -97,12 +97,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "底妆完成，自然清透，有湿润光泽",
-    "id": "Base makeup selesai, natural dan glowing"
+    "zh": "底妆完成，有水光感",
+    "id": "Base makeup selesai, kulit glowing"
    },
    "do": {
-    "zh": "用指尖将一点液体腮红轻拍在右侧脸颊的苹果肌上，然后晕开，随意地说话。然后用一只手将头发从脸上拨开，露出一个困倦而满足的笑容，脸颊发光。",
-    "id": "Tepuk-tepuk sedikit blush on cair pink di tulang pipi kanan lalu baurkan dengan ujung jari, bicara santai. Lalu dengan satu tangan, singkirkan rambut dari wajah dan berikan senyum mengantuk tapi puas, pipi terlihat glowing."
+    "zh": "在画面右侧的脸颊上轻拍液体腮红并用指尖晕开，然后用一只手将头发拨到耳后。",
+    "id": "Tepuk-tepuk sedikit liquid blush warna pink lembut di pipi sisi kanan frame dan baurkan dengan ujung jari. Lalu dengan satu tangan, sisir rambut ke belakang telinga."
    },
    "lines": "Sekarang aku ngerti kenapa banyak yang repurchase. Cocok banget buat pagi yang males, tapi pengen kulit glowing hari ini. Cukup tiga puluh detik, tidur setengah jam lebih lama."
   }

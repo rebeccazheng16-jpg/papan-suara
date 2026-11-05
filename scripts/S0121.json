@@ -2,18 +2,18 @@
  "id": "S0121",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
   "id": "Sicenari masker PDRN"
  },
  "hook": {
   "zh": "拆快递囤货＋便宜得像做慈善",
-  "id": "Unboxing haul + murahnya kayak lagi sedekah"
+  "id": "Unboxing dan stok barang + murahnya kayak lagi sedekah"
  },
  "src": "TikTok @nainem13 Glad2Glow",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 袋装面膜（21片装），确保袋子是鼓鼓的、沉甸甸的，像装满了精华液。素颜出镜。",
-  "id": "Masker Sicenari kemasan kantong (isi 21 lembar), pastikan kantongnya kelihatan penuh dan berat, seperti banyak isinya. Wajah bersih tanpa makeup."
+  "zh": "SICENARI 袋装面膜（21片装），素颜，无妆。",
+  "id": "Masker Sicenari kemasan kantong (isi 21 lembar), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，只拍手。用两只手撕开快递盒，让四袋面膜滑出来落在地毯上。然后用一只手拿起一袋面膜，对着镜头轻轻晃动，展示它的饱满。画外音。",
-    "id": "Ambil dari atas, hanya tangan. Dengan dua tangan, sobek paket kardus dan biarkan empat kantong masker meluncur keluar ke karpet. Lalu, dengan satu tangan, angkat satu kantong masker ke arah kamera, goyang-goyangkan sedikit untuk menunjukkan isinya yang penuh. Voiceover."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Beb, stop dulu beli masker sembarangan, lihat dulu yang aku stok ini! Ini Sicenari, masker PDRN dari Korea, murahnya kayak lagi sedekah, harganya aku nggak berani bilang."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，只拍手。把散落在地毯上的四袋面膜一袋袋叠起来，然后用两只手把整摞面膜拿起来，对着镜头轻轻弹一下。画外音。",
-    "id": "Ambil dari atas, hanya tangan. Kumpulkan empat kantong masker yang berserakan di karpet satu per satu menjadi tumpukan rapi. Lalu, dengan dua tangan, angkat tumpukan masker itu ke arah kamera dan pantulkan sedikit. Voiceover."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Paketnya udah sampai, aku langsung stok beberapa kantong. Satu kantong isinya dua puluh satu lembar, sehari satu lembar, pas buat dua puluh satu hari."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "近景，只拍手和脖子。用两只手打开面膜袋的拉链，然后用两根手指从里面取出一片面膜，让精华液滴落。展示袋子里剩下的精华液。最后，用手指把精华液涂抹到脖子和手背上。画外音。",
-    "id": "Close-up, hanya tangan dan leher. Dengan dua tangan, buka zip-lock kantong masker. Lalu, dengan dua jari, ambil satu lembar masker dari dalam, biarkan esensnya menetes. Tunjukkan sisa esens di dasar kantong. Terakhir, oleskan esens ke leher dan punggung tangan. Voiceover."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Lihat, begitu dibuka essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, di dasar kantong masih sisa banyak, sekalian aku oles ke leher dan tangan."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，只拍手。用两只手把面膜袋的拉链关上，然后把它放在面膜堆上。接着，用一只手拿起最上面的一袋面膜对着镜头，另一只手的手指指向左下角。画外音。",
-    "id": "Ambil dari atas, hanya tangan. Dengan dua tangan, tutup zip-lock kantong masker, lalu letakkan di atas tumpukan masker. Kemudian, dengan satu tangan, angkat kantong masker paling atas ke arah kamera, dan jari tangan yang lain menunjuk ke sudut kiri bawah. Voiceover."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一根手指指向屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu tunjuk ke sudut kiri bawah layar dengan satu jari."
    },
    "lines": "Essence-nya sebanyak ini, dipakai tiap hari juga nggak sayang. Tapi harga tiap akun beda-beda ya Beb, klik sendiri keranjang kuning di bawah, kalau dapat yang murah langsung checkout aja!"
   }

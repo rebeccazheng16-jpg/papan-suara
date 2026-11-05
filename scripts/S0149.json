@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
   "zh": "第二罐还没用完就服了／敢把这几个字印在包装上",
-  "id": "Belum habis satu kotak udah salut / Berani cetak PDRN segede ini"
+  "id": "belum habis pakai satu kotak udah salut / berani cetak PDRN 9,900ppm segede ini"
  },
  "src": "TikTok @我叫小洋",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI面膜盒（未开封），SICENARI面膜单片袋（已撕开），面膜布（已浸湿）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan kotak masker Sicenari (masih tersegel), satu sachet masker Sicenari (sudah disobek), dan lembaran masker yang sudah basah."
+  "zh": "素颜，准备好 SICENARI 超光子胶原炮面膜（盒装和单片装各一）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (satu kotak dan satu saset)."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 15,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "自拍，先正脸看镜头，用一根手指轻拍脸颊两次。然后，稍微侧脸 (15-20 度)，再次看向镜头，并用手指轻抚脸颊。表情满足然后略带遗憾。",
-    "id": "Selfie, awalnya menghadap lurus ke kamera, pakai satu jari tepuk pipi dua kali. Lalu, sedikit menoleh ke samping (15-20 derajat), tatap lagi kamera, dan usap pipi dengan jari. Ekspresi puas lalu sedikit menyesal."
+    "zh": "轻拍脸颊。",
+    "id": "Tepuk-tepuk pipi."
    },
    "lines": "Lihat deh muka aku yang sering begadang ini, sekarang aku sendiri ngaca aja udah puas banget. Kalau nggak ada masker ini, mungkin sekarang aku masih pusing mikirin muka ini. Dulu aku sering lembur sampai begadang, muka kering sampai mengelupas, kusam, kelihatan capek, tapi ya aku biarin aja."
   },
@@ -33,10 +36,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "自拍，先正脸看镜头，一只手举起面膜盒放在脸颊旁边，另一只手在画面下方。然后，稍微侧脸，再次看向镜头，并用食指轻敲盒子上 PDRN 字样两次。最后，如果用三脚架，拍摄双手从袋中取出面膜，让精华液滴落。如果不用，可以用素材片段拍摄手从袋中取出面膜。",
-    "id": "Selfie, awalnya menghadap lurus ke kamera, satu tangan pegang kotak masker di samping pipi, tangan lain di bawah frame. Lalu, sedikit menoleh ke samping, tatap lagi kamera, dan pakai jari telunjuk ketuk tulisan PDRN di kotak dua kali. Terakhir, kalau pakai tripod, rekam kedua tangan mengangkat lembaran masker dari sachet, biarkan essence menetes. Kalau tidak, bisa pakai b-roll tangan mengangkat masker dari sachet."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。用手指轻点包装盒上的 PDRN 字样。将面膜从包装中取出，精华液滴落。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ketuk tulisan PDRN di kotak. Angkat masker dari saset, biarkan esens menetes."
    },
    "lines": "Tapi Sicenari ini, satu kotaknya isi lima lembar. Aku aja belum habis pakai, tapi aku udah beneran salut. Berani nyetak PDRN sembilan ribu sembilan ratus ppm segede ini di kotaknya, kualitasnya nggak perlu aku jelasin lagi, kan? Satu lembar isinya dua puluh lima mililiter essence."
   },
@@ -45,10 +51,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "自拍，脸稍微转向窗户，让自然光落在脸颊上，手在画面下方。满意地微笑。然后，回到正脸看向镜头，一只手举起面膜盒放在脸颊旁边。最后，如果用三脚架，拍摄面膜盒在咖啡桌上，有夜间灯光。如果不用，可以用素材片段拍摄桌上的面膜盒。",
-    "id": "Selfie, wajah sedikit menghadap ke arah jendela agar cahaya alami jatuh di pipi, tangan di bawah frame. Senyum puas. Lalu, kembali menghadap lurus ke kamera, satu tangan pegang kotak masker di samping pipi. Terakhir, kalau pakai tripod, rekam kotak masker berdiri di meja kopi dengan cahaya malam. Kalau tidak, bisa pakai b-roll kotak masker di meja."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Habis pakai, aku ngerasa mukaku nggak sekering dulu, dan sedikit lebih cerah. Kalau kulitmu biasanya agak kering, pakai satu lembar dua hari sekali aja udah cukup. Tapi kalau habis begadang mukamu sampai mengelupas, malam itu sebelum tidur langsung pakai satu lembar."
   },
@@ -57,10 +66,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "自拍，脸稍微转向侧面，再次看向镜头，一只手轻拍脸颊一次。然后，回到正脸看向镜头，一只手举起面膜盒放在脸颊旁边。略带羞涩地微笑。另一只手进入画面并指向左下方。",
-    "id": "Selfie, wajah sedikit menoleh ke samping, tatap lagi kamera, satu tangan tepuk pipi sekali. Lalu, kembali menghadap lurus ke kamera, satu tangan pegang kotak masker di samping pipi. Senyum sedikit malu. Tangan lain masuk frame dan menunjuk ke kiri bawah."
+    "zh": "轻拍脸颊。展示产品时，产品标志正面始终朝向镜头。用手指指向左下角。",
+    "id": "Tepuk-tepuk pipi. Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Tunjuk ke kiri bawah."
    },
    "lines": "Yang paling penting, essence-nya lembap banget, habis dipakai nggak lengket, nggak berat, cowok pakai juga nggak gerah. Kalau harus cari kekurangannya, ya di Korea harganya agak mahal. Tapi coba kamu cek link di keranjang kuning kiri bawah, lihat sendiri harganya, murah banget."
   }

@@ -2,18 +2,18 @@
  "id": "S0136",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮面膜",
-  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "zh": "SICENARI 超光子胶原炮面膜 (Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask)",
+  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "身份证＋一万块担保／没有哪个厂家敢把 14 天抗皱印在包装盒上",
-  "id": "Aku jaminin pakai wajahku sendiri, nggak ada masker lain yang berani cetak kandungan segede ini di kotak!"
+  "zh": "用我的脸担保，没有厂家敢把14天抗皱印在包装上",
+  "id": "Aku jamin pakai wajahku sendiri, nggak ada masker lain yang berani cetak 14 hari anti-kerut di kotak."
  },
  "src": "TikTok @余干雪碧",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好 SICENARI 盒装面膜（未开封），和一片已撕开包装的单片面膜。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker SICENARI yang masih dalam kotak, dan satu lembar masker yang sudah dibuka dari bungkusnya."
+  "zh": "素颜，准备好SICENARI面膜盒和一片已撕开的面膜袋。",
+  "id": "Wajah bersih tanpa makeup. Siapkan kotak masker SICENARI dan satu sachet masker yang sudah disobek."
  },
  "shots": [
   {
@@ -26,8 +26,8 @@
     "id": "Wajah bersih"
    },
    "do": {
-    "zh": "面对镜头，用一根手指轻拍脸颊两次，然后举起手，每说一个问题就弯下一根手指，说到眼角纹时轻触眼角。表情认真，语速慢而坚定。",
-    "id": "Lihat ke kamera. Tepuk pipi dua kali dengan satu jari, lalu angkat tanganmu. Tekuk satu jari setiap menyebutkan masalah kulit. Saat menyebut kerutan di sudut mata, sentuh sudut matamu. Ekspresimu serius, bicaralah pelan dan mantap."
+    "zh": "用手指轻拍脸颊，然后掰手指计数，说到眼角纹时轻触眼角。",
+    "id": "Sentuh pipi dua kali, lalu hitung kerutan di jari. Saat menyebut kerutan di sudut mata, sentuh sudut mata."
    },
    "lines": "Aku cowok, hari ini aku jaminin pakai wajahku sendiri. Masker yang aku rekomendasiin ini, habis aku pakai, aku ngerasa garis kering, garis halus, kerutan di sudut mata, crow's feet, sama kusam di wajahku jadi lebih enak dilihat."
   },
@@ -41,8 +41,8 @@
     "id": "Wajah bersih"
    },
    "do": {
-    "zh": "面对镜头，表情认真。说到脸干时，用指尖轻揉脸颊一次。语速慢而坚定。如果用三脚架，可以拍一个产品空镜：SICENARI 盒装面膜立在桌上，旁边放一片已撕开包装的单片面膜。",
-    "id": "Lihat ke kamera dengan ekspresi serius. Saat bicara tentang wajah kering, gosok pipimu sekali dengan ujung jari. Bicaralah pelan dan mantap. Kalau pakai tripod, bisa rekam produknya: kotak masker SICENARI berdiri di meja, dengan satu bungkus masker yang sudah dibuka di sebelahnya."
+    "zh": "先对镜头说话，然后切换到产品空镜：SICENARI面膜盒立在茶几上，旁边放着撕开的面膜袋。",
+    "id": "Awalnya bicara ke kamera, lalu rekam produk: kotak masker SICENARI berdiri di meja kopi, sachet masker yang sudah disobek tergeletak di sampingnya."
    },
    "lines": "Kalau kamu pikir aku bohong, omelin aku di kolom komentar, aku nggak bakal balas. Aku sering lembur sampai begadang, wajah kering sampai mengelupas. Sekarang tiap malam sebelum tidur aku pakai satu lembar."
   },
@@ -56,8 +56,8 @@
     "id": "Wajah bersih"
    },
    "do": {
-    "zh": "面对镜头，一只手举着 SICENARI 盒装面膜在脸旁边，正面朝向镜头，保持稳定。语速慢而坚定。如果用三脚架，可以拍一个特写：双手从已撕开的单片面膜包装中慢慢取出面膜布，让精华液滴落回包装中。",
-    "id": "Lihat ke kamera. Pegang kotak masker SICENARI di samping wajahmu dengan satu tangan, bagian depan menghadap kamera, dan jaga agar tetap stabil. Bicaralah pelan dan mantap. Kalau pakai tripod, bisa rekam close-up: kedua tanganmu perlahan mengangkat lembaran masker dari bungkusnya yang sudah terbuka, biarkan esensnya menetes kembali ke dalam bungkus."
+    "zh": "先举着SICENARI面膜盒对镜头说话，然后切换到双手从面膜袋中取出面膜，精华液滴落。",
+    "id": "Awalnya pegang kotak masker SICENARI di samping pipi sambil bicara ke kamera. Lalu, rekam tangan mengangkat masker dari sachet, esens menetes."
    },
    "lines": "Ini Sicenari dari Korea, satu lembar isinya dua puluh lima mililiter essence, diangkat aja netes terus."
   },
@@ -71,8 +71,8 @@
     "id": "Wajah bersih"
    },
    "do": {
-    "zh": "面对镜头，一只手举着 SICENARI 盒装面膜在脸旁边，正面朝向镜头。另一只手用食指轻敲盒子上 PDRN 的字样两次，然后放下。表情认真，最后慢慢点头两次。语速慢而坚定。",
-    "id": "Lihat ke kamera. Pegang kotak masker SICENARI di samping wajahmu dengan satu tangan, bagian depan menghadap kamera. Dengan tangan yang lain, ketuk tulisan PDRN di kotak dua kali dengan jari telunjuk, lalu turunkan tanganmu. Ekspresimu serius, lalu anggukkan kepala dua kali perlahan di akhir. Bicaralah pelan dan mantap."
+    "zh": "举着SICENARI面膜盒，用手指轻敲盒子上PDRN的字样。",
+    "id": "Pegang kotak masker SICENARI di samping pipi, lalu ketuk tulisan PDRN di kotak dengan jari."
    },
    "lines": "Coba lihat kotaknya ini, tulisannya PDRN sembilan ribu sembilan ratus ppm. Nggak ada masker lain yang berani cetak kandungannya segede ini di kotak, nggak ada yang berani. Yang ini oke, yang ini beneran oke."
   },
@@ -86,8 +86,8 @@
     "id": "Wajah bersih"
    },
    "do": {
-    "zh": "面对镜头，一只手举着 SICENARI 盒装面膜在脸旁边，正面朝向镜头，保持稳定。说到价格时可以稍微害羞地笑一下，然后恢复认真。最后，另一只空手指向左下角的购物车，然后慢慢点头一次。语速慢而坚定。",
-    "id": "Lihat ke kamera. Pegang kotak masker SICENARI di samping wajahmu dengan satu tangan, bagian depan menghadap kamera, dan jaga agar tetap stabil. Saat bicara tentang harga, bisa senyum sedikit malu-malu, lalu kembali serius. Di akhir, tanganmu yang kosong menunjuk ke keranjang kuning di kiri bawah, lalu anggukkan kepala sekali perlahan. Bicaralah pelan dan mantap."
+    "zh": "举着SICENARI面膜盒，然后用另一只手指向屏幕左下角。",
+    "id": "Pegang kotak masker SICENARI di samping pipi, lalu tunjuk ke keranjang kuning di kiri bawah layar dengan tangan kosong."
    },
    "lines": "Aku pakai sendiri, sekalian bagi satu lembar ke pacarku. Murahnya sampai aku malu nyebut harganya. Link-nya ada di keranjang kuning kiri bawah, bisa langsung checkout."
   }

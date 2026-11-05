@@ -2,18 +2,18 @@
  "id": "S0117",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Collagen Shot Mask"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌)",
+  "id": "SICENARI Micro-Sculpting Collagen Booster Mask"
  },
  "hook": {
-  "zh": "每天坚持敷面膜，皮肤越来越好",
+  "zh": "每天敷面膜，皮肤变好",
   "id": "Usahanya setiap hari"
  },
  "src": "TikTok @willysfidia",
  "cam": "user",
  "prep": {
-  "zh": "素颜，皮肤干燥泛红；SICENARI袋装面膜（未开封）",
-  "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan; masker SICENARI dalam kemasan sachet (belum dibuka)"
+  "zh": "SICENARI 袋装面膜 (21 片装)，素颜，皮肤干燥泛红",
+  "id": "Masker SICENARI kemasan sachet (isi 21), muka polos tanpa makeup, kulit kering dan kemerahan"
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，皮肤干燥泛红",
-    "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan"
+    "id": "Muka polos tanpa makeup, kulit kering dan kemerahan"
    },
    "do": {
-    "zh": "对着镜头，脸部特写，用指尖轻触脸颊干燥泛红的皮肤，然后镜头切到脸颊特写，保持不动。",
-    "id": "Dekatkan wajah ke kamera, sentuh perlahan pipi yang kering dan kemerahan dengan ujung jari. Lalu, dekatkan lagi kamera ke pipi untuk detail, tahan sebentar."
+    "zh": "特写脸颊，用指尖轻触干燥泛红的皮肤。",
+    "id": "Close-up pipi, sentuh perlahan kulit yang kering dan kemerahan dengan ujung jari."
    },
    "lines": ""
   },
@@ -38,11 +38,11 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "Muka polos tanpa makeup"
    },
    "do": {
-    "zh": "双手拿着面膜袋，撕开封条，然后拉开拉链。把面膜袋倾斜一点，让精华液在里面晃动。用指尖从袋子里取出一片面膜，让精华液滴落。然后把面膜敷在脸上，轻轻按压使其完美贴合。",
-    "id": "Pegang sachet masker dengan dua tangan, sobek bagian atasnya, lalu buka resletingnya. Miringkan sedikit sachet agar esens di dalamnya terlihat. Ambil satu lembar masker dari sachet, biarkan esens menetes. Lalu, tempelkan masker ke wajah, tekan perlahan agar menempel sempurna."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。撕开面膜袋，展示袋内面膜和精华液，然后取出一片面膜敷在脸上。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Sobek kemasan masker, tunjukkan masker dan esens di dalamnya, lalu ambil satu lembar masker dan tempelkan ke wajah."
    },
    "lines": ""
   },
@@ -52,12 +52,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "敷着面膜",
-    "id": "Memakai masker"
+    "zh": "素颜",
+    "id": "Muka polos tanpa makeup"
    },
    "do": {
-    "zh": "躺在床上敷面膜，闭眼放松。然后换个场景，坐在沙发上敷面膜，闭眼微笑。再换个场景，在浴室里，把面膜袋里剩余的精华液倒一点在手背上，然后涂抹到脖子上。最后，回到床上，慢慢撕下面膜，露出水润发光的皮肤，然后睁眼微笑。",
-    "id": "Berbaring di tempat tidur sambil memakai masker, pejamkan mata dan rileks. Lalu, pindah ke sofa, duduk santai sambil memakai masker, pejamkan mata dan tersenyum tipis. Kemudian, di kamar mandi, tuangkan sisa esens dari sachet ke punggung tangan, lalu oleskan ke leher. Terakhir, kembali ke tempat tidur, lepaskan masker perlahan, perlihatkan kulit yang lembap dan bercahaya, lalu buka mata dan tersenyum."
+    "zh": "蒙太奇：敷面膜放松，在客厅敷面膜，展示产品并倒出精华液涂抹在脖子上，最后揭下面膜，展示水润光滑的皮肤。",
+    "id": "Montase: santai pakai masker, pakai masker di ruang tamu, tunjukkan produk dan tuang esens ke leher, lalu lepas masker dan tunjukkan kulit yang lembap dan halus."
    },
    "lines": ""
   },
@@ -67,12 +67,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤干燥泛红",
-    "id": "Wajah bersih tanpa makeup, kulit kering dan kemerahan"
+    "zh": "素颜",
+    "id": "Muka polos tanpa makeup"
    },
    "do": {
-    "zh": "脸部特写，先展示皮肤干燥泛红的样子，表情有点疲惫。然后切换到已经光滑、水润、有光泽的皮肤。脸稍微转向光源，用指尖轻触脸颊，然后害羞地微笑。",
-    "id": "Dekatkan wajah ke kamera, tunjukkan kulit yang kering dan kemerahan, ekspresi sedikit lelah. Lalu, cut ke kulit yang sudah halus, lembap, dan bercahaya. Putar wajah sedikit ke arah cahaya, sentuh pipi dengan ujung jari, lalu tersenyum malu-malu."
+    "zh": "先展示干燥泛红的皮肤，然后硬切到光滑水润的皮肤，用指尖轻抚脸颊。",
+    "id": "Pertama tunjukkan kulit yang kering dan kemerahan, lalu cut ke kulit yang halus dan lembap, usap pipi dengan ujung jari."
    },
    "lines": ""
   },
@@ -82,12 +82,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤水润发光",
-    "id": "Wajah bersih tanpa makeup, kulit lembap dan bercahaya"
+    "zh": "素颜，皮肤水润光滑",
+    "id": "Muka polos tanpa makeup, kulit lembap dan halus"
    },
    "do": {
-    "zh": "脸部特写，一手拿着面膜袋放在脸颊，稍微倾斜向镜头并自豪地微笑。然后切换到手从袋中取出面膜，让精华液滴落。最后回到脸部，将面膜放在脸颊旁，然后用食指指向左下角，友善地微笑。",
-    "id": "Dekatkan wajah ke kamera, satu tangan memegang sachet masker di samping pipi, miringkan sedikit ke kamera sambil tersenyum bangga. Lalu, cut ke tangan yang mengambil masker dari sachet, biarkan esens menetes. Terakhir, kembali ke wajah, pegang masker di samping pipi, lalu tunjuk ke pojok kiri bawah dengan jari telunjuk, tersenyum ramah."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。将产品举到脸颊旁边，然后展示面膜和精华液，最后再次将产品举到脸颊旁边并指向左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pegang produk di samping pipi, lalu tunjukkan masker dan esens, terakhir pegang produk di samping pipi lagi dan tunjuk ke sudut kiri bawah."
    },
    "lines": ""
   }

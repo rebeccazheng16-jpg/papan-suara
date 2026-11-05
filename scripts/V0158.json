@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "睡前满脸点涂→刷开→整片撕膜自拍，皮肤立刻焕然一新",
+  "zh": "敷完面膜立刻拥有发光新皮肤",
   "id": "Langsung jadi kulit baruu glowing"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，标签朝前）。道具：一把刷子。素颜，脸部干净无妆。",
-  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Alat: kuas. Wajah bersih tanpa makeup."
+  "zh": "素颜，产品（盖子盖好，标签朝前），面膜刷",
+  "id": "Wajah bersih tanpa makeup, produk (tutupnya terpasang, label menghadap kamera), kuas masker"
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，脸上点涂了面膜",
+    "id": "Wajah bersih, sudah ada totol-totol masker"
+   },
    "do": {
-    "zh": "脸上已经点涂好很多小点面膜。你拿着产品管在脸旁边，看着镜头说第一句话。然后把产品管放下，拿起刷子，开始把面膜点涂开，同时说第二句话。",
-    "id": "Wajahmu sudah ada banyak titik masker. Kamu pegang tube produk di samping pipi, lihat kamera dan ucapkan kalimat pertama. Lalu turunkan tube, ambil kuas, dan mulai ratakan titik-titik masker sambil mengucapkan kalimat kedua."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Mau pakai PDRN dari ekstrak salmon tuh nggak perlu ribet, tinggal pakai masker ini aja. Habis itu ratain."
   },
@@ -34,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已均匀涂抹面膜，眼周和嘴唇周围留空。",
-    "id": "Seluruh wajah sudah rata tertutup masker, area mata dan bibir kosong."
+    "zh": "脸上均匀涂抹了面膜",
+    "id": "Wajah sudah terlapisi masker secara merata"
    },
    "do": {
-    "zh": "用刷子在下巴处做最后一次涂抹，然后放下刷子。看着镜头，带着惊讶和赞叹的表情说第一句话。说到一半时，稍微把脸转向另一边。说完后，用指尖轻拍脸颊检查是否已干，同时说出最后一句话。",
-    "id": "Berikan sapuan terakhir di rahang dengan kuas, lalu turunkan kuas. Lihat kamera, dengan ekspresi terkejut dan kagum ucapkan kalimat pertama. Di tengah-tengah, putar wajah sedikit ke sisi lain. Setelah itu, sentuh pipi dengan ujung jari untuk mengecek apakah sudah kering, sambil mengucapkan kalimat terakhir."
+    "zh": "null",
+    "id": "null"
    },
    "lines": "Kenapa nggak ada yang kayak gini dari dulu? Jadi nggak perlu ribet-ribet ke klinik, cuma tinggal pakai masker malam-malam sebelum tidur. Ini tinggal tunggu sampai kering."
   },
@@ -49,12 +52,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "全脸已形成一层薄薄的干膜，眼周、鼻孔和嘴唇留空。",
-    "id": "Seluruh wajah sudah tertutup lapisan masker kering yang tipis, area mata, hidung, dan bibir kosong."
+    "zh": "脸上敷着干了的面膜",
+    "id": "Wajah sudah terlapisi masker yang sudah kering"
    },
    "do": {
-    "zh": "用两只手的指尖捏住发际线处的面膜边缘，然后慢慢将整个面膜从额头到下巴一气呵成地平稳撕下。确保面膜完整剥落，没有撕裂。保持安静，不要说话。",
-    "id": "Dengan ujung jari kedua tangan, cubit tepi masker di garis rambut dan tarik seluruh lembaran masker lurus ke bawah dari dahi ke dagu dalam satu tarikan halus. Pastikan masker terkelupas utuh dan tidak robek. Tetap diam dan jangan bicara."
+    "zh": "用两只手从额头往下撕掉面膜，要撕成一整片。",
+    "id": "Pakai dua tangan, kelupas masker dari dahi ke dagu, harus jadi satu lembar utuh."
    },
    "lines": ""
   },
@@ -63,10 +66,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，皮肤干净有光泽",
+    "id": "Wajah bersih, kulit glowing"
+   },
    "do": {
-    "zh": "你拿着产品管在脸旁边，看着镜头，带着开心的笑容说第一句话。说到一半时，稍微把脸转向一边。然后放下产品管，把脸颊稍微转向闪光灯，让光线滑过皮肤，然后再次看向镜头，带着自然的笑容说第二句话。",
-    "id": "Kamu pegang tube produk di samping pipi, lihat kamera, dengan senyum senang ucapkan kalimat pertama. Di tengah-tengah, putar wajah sedikit ke satu sisi. Lalu turunkan tube, putar pipi sedikit ke arah flash agar cahaya meluncur di kulitmu, lalu hadap kamera lagi dengan senyum alami dan ucapkan kalimat kedua."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kulitku berasa glowing banget, padahal ini bukan suntik dokter, bukan pakai serum, cuma pakai masker PDRN VEIRFOO. Aku beneran ngerasa kayak punya kulit baru. Kulitku berasa bening banget, gila."
   },
@@ -75,10 +81,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，皮肤干净有光泽",
+    "id": "Wajah bersih, kulit glowing"
+   },
    "do": {
-    "zh": "你用双手横着拿着产品管在下巴下方，看着镜头，带着惊讶的表情说第一句话。然后画面切换，你用食指轻按脸颊两次，展示皮肤的弹性，带着微笑说第二句话。最后，你把产品管竖着举到脸旁边，带着温暖的笑容和点头推荐产品。",
-    "id": "Kamu pegang tube produk secara horizontal di bawah dagu dengan kedua tangan, lihat kamera, dengan ekspresi terkejut ucapkan kalimat pertama. Lalu cut ke adegan berikutnya, kamu tekan pipi dengan jari telunjuk dua kali, menunjukkan kulit yang kenyal, dan ucapkan kalimat kedua dengan senyum kecil. Terakhir, kamu angkat tube produk secara vertikal di samping pipi, dengan senyum hangat dan anggukan kecil rekomendasikan produk."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Biasanya yang aku temuin tuh PDRN sepuluh ribu ppm, tapi yang ini sebelas ribu. Bayangin, padahal ini cuma masker loh. Aku pegang juga berasa kenyal-kenyal. Isinya juga lumayan banyak, makanya cobain deh, nggak bakal nyesel."
   }

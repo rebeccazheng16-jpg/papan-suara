@@ -2,18 +2,18 @@
  "id": "V0080",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 蛋白膜",
-  "id": "VEIRFOO Collagen Treatment"
+  "zh": "VEIRFOO 蛋白膜 collagen treatment (银色镜面铝管)",
+  "id": "VEIRFOO collagen treatment"
  },
  "hook": {
-  "zh": "我的皮肤前后对比，无滤镜无修图",
-  "id": "Muka aku sebelum dan sesudah. Tanpa filter, tanpa edit."
+  "zh": "使用前后对比，无滤镜无P图",
+  "id": "Before-after muka aku, tanpa filter, tanpa edit"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 蛋白膜（银色镜面铝管），白色包装盒。素颜，无妆。",
-  "id": "Produk: VEIRFOO Collagen Treatment (tube aluminium silver), kotak putih. Wajah bersih, tanpa makeup."
+  "zh": "VEIRFOO 蛋白膜产品（银色镜面铝管）和包装盒。需要素颜拍摄'使用前'的镜头。",
+  "id": "Produk VEIRFOO collagen treatment (tube silver) sama kotaknya. Perlu muka polos tanpa makeup buat rekam shot 'sebelum'."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤暗沉",
-    "id": "Wajah bersih, tanpa makeup, kulit kusam"
+    "zh": "素颜",
+    "id": "muka polos"
    },
    "do": {
-    "zh": "素颜，脸部特写，侧面四分之三角度，光线较暗。表情疲惫，皮肤暗沉不均。不看镜头，嘴唇闭合。画外音说台词。",
-    "id": "Ambil close-up wajah kamu yang bersih, dari samping sedikit, di cahaya yang agak redup. Tunjukkan kulit yang kusam, tidak rata, dan terlihat capek. Jangan lihat kamera, bibir tertutup. Suara kamu nanti mengisi dari luar layar."
+    "zh": "首先，录一个'使用前'的素颜镜头。然后，把产品和盒子拿到脸旁边展示，标志朝向镜头。最后，录一个'使用后'的镜头，面带微笑。",
+    "id": "Pertama, rekam muka 'sebelum'. Terus, tunjukkan produk sama kotaknya di samping muka, logo menghadap kamera. Terakhir, rekam muka 'sesudah' sambil senyum."
    },
    "lines": "Muka aku sebelum dan sesudah. Tanpa filter, tanpa edit. Bedanya satu, VEIRFOO. Ini bukan editan, bukan filter. Yang tadi itu kulit aku yang asli sebelum pakai ini."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤暗沉",
-    "id": "Wajah bersih, tanpa makeup, kulit kusam"
+    "zh": "素颜",
+    "id": "muka polos"
    },
    "do": {
-    "zh": "素颜，脸部特写，侧面四分之三角度，光线较暗。表情疲惫，皮肤暗沉不均。不看镜头，嘴唇闭合。画外音说台词。",
-    "id": "Ambil close-up wajah kamu yang bersih, dari samping sedikit, di cahaya yang agak redup. Tunjukkan kulit yang kusam, tidak rata, dan terlihat capek. Jangan lihat kamera, bibir tertutup. Suara kamu nanti mengisi dari luar layar."
+    "zh": "首先，录一个'使用前'的素颜镜头。然后，录一个'使用后'的镜头，同时用一根手指轻轻按压脸颊。最后，对着镜头微笑说话。",
+    "id": "Pertama, rekam muka 'sebelum'. Terus, rekam muka 'sesudah' sambil tekan pipi pelan pakai satu jari. Terakhir, ngomong ke kamera sambil senyum."
    },
    "lines": "Kusam, nggak merata, kelihatan capek. Yang ini setelah rutin pakai. Buatku sedikit lebih cerah, lebih rata, cahayanya agak beda. Temen-temen aku sampai nanya aku facial di mana."
   },
@@ -53,8 +53,8 @@
    "broll": true,
    "face": null,
    "do": {
-    "zh": "用手机拍一段你走在工厂走廊里的第一人称视角视频，两边有生产线和工人。画外音说台词。",
-    "id": "Rekam video pakai HP kamu, seolah-olah kamu lagi jalan di koridor pabrik, ada mesin produksi dan pekerja di kanan kiri. Suara kamu nanti mengisi dari luar layar."
+    "zh": "第一个镜头可以用任何生活化的视频片段代替，比如护肤的片段。然后，把产品从背后拿到脸旁边展示，标志朝向镜头。",
+    "id": "Shot pertama bisa pakai klip video estetik apa aja, misalnya lagi skincare-an. Terus, tunjukkan produknya dari belakang badan ke samping muka, logo menghadap kamera."
    },
    "lines": "Aku diundang brand-nya buat lihat langsung pabriknya. Setelah lihat sendiri aku makin yakin — pantes aja, ini pabrik skincare profesional di Korea. Yang katanya bikin glowing, rata-rata efeknya cuma di lapisan luar. Kelihatan bentar terus hilang. Yang ini beda."
   },
@@ -65,8 +65,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "脸部特写，自信地看着镜头。一只手拿着产品管放在脸旁边，另一只手食指指向镜头。说台词。",
-    "id": "Ambil close-up wajah kamu, lihat kamera dengan percaya diri. Satu tangan pegang tube produk di sebelah pipi, tangan satunya lagi tunjuk ke arah kamera dengan jari telunjuk. Ucapkan kalimat ini."
+    "zh": "把产品拿到脸旁边。然后，录一个手部特写：拧开盖子，挤一点膏体到手指上，然后在手背上抹开，直到变成一层薄薄的透明膜。",
+    "id": "Pegang produk di samping muka. Terus, rekam close-up tangan: buka tutupnya, pencet sedikit isinya ke jari, terus olesin di punggung tangan sampai jadi lapisan tipis transparan."
    },
    "lines": "Karena dia pakai kandungan PDRN. PDRN itu diambil dari salmon, dan struktur DNA salmon sangat mirip sama jaringan kulit manusia, jadi di kulitku ekstraknya berasa gampang banget nyatu, kerasa terawat dari dalam."
   },
@@ -76,12 +76,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆，皮肤暗沉",
-    "id": "Wajah bersih, tanpa makeup, kulit kusam"
+    "zh": "素颜",
+    "id": "muka polos"
    },
    "do": {
-    "zh": "脸部特写，素颜，皮肤暗沉。用中指和无名指指腹将少量乳白色乳霜轻轻涂抹在脸上，避开眼周。不看镜头，专注于涂抹。画外音说台词。",
-    "id": "Ambil close-up wajah kamu yang bersih, kulit kusam. Pakai jari tengah dan jari manis kamu, oleskan sedikit krim putih ke wajah, hindari area mata. Jangan lihat kamera, fokus pada aplikasi. Suara kamu nanti mengisi dari luar layar."
+    "zh": "首先，录一个把产品涂在脸上的特写。然后，一边说话一边把产品拿在脸旁边。最后，指向屏幕左下角。",
+    "id": "Pertama, rekam close-up lagi olesin produk ke muka. Terus, pegang produk di samping muka sambil ngomong. Terakhir, tunjuk ke arah kiri bawah layar."
    },
    "lines": "Begitu aku oles, buatku udah agak kelihatan bedanya. Bukan cuma nunggu efek jangka panjang. Aku baru rekomendasiin kalau aku sendiri udah pakai dan cocok. Kalau kamu punya masalah kulit kusam dan nggak ada glow kayak aku dulu, aku saranin banget cobain. Klik keranjang kuning di kiri bawah, langsung checkout!"
   }

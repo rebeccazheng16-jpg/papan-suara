@@ -6,14 +6,14 @@
   "id": "VEIRFOO White Tomato Mask"
  },
  "hook": {
-  "zh": "贵妇面膜平替，白番茄面膜",
-  "id": "Masker sultan, tapi harganya nggak bikin nangis!"
+  "zh": "贵妇面膜平替，价格不到一杯奶茶",
+  "id": "Masker sultan, harga di bawah segelas boba!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO白番茄面膜（未开封），一张廉价面膜（未开封）。",
-  "id": "Muka bersih tanpa makeup. Siapkan masker VEIRFOO White Tomato Mask (belum dibuka) dan satu masker murah (belum dibuka)."
+  "zh": "素颜出镜，准备好产品（未开封），以及一个廉价的无品牌面膜（无包装，软塌塌的）。",
+  "id": "Wajah tanpa makeup. Siapkan produk (belum dibuka) dan satu masker murah tanpa merek (kemasan bening, lembek)."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "对着镜头，做出开玩笑的愤怒表情，然后放松，自嘲地笑。在说“难道”、“女生”、“不能”、“宠爱自己”时，用拳头轻轻地“打”镜头四次，每次都让画面晃动。然后手放下，眼神看向一边，耸耸肩，再看向镜头，摇头笑笑，做出无奈的表情。",
-    "id": "Lihat ke kamera dengan ekspresi marah bercanda, lalu santai dan tertawa mengejek diri sendiri. Saat bilang \"Emang\", \"cewek\", \"nggak boleh\", \"manjain diri sendiri\", pukul kamera pelan empat kali dengan kepalan tangan, setiap pukulan bikin layar goyang. Lalu tangan turun, tatapan ke samping, angkat bahu sedikit, lalu lihat kamera lagi, geleng kepala sambil ketawa, bikin ekspresi pasrah."
+    "zh": "对着镜头开玩笑地挥拳四次，每次挥拳都与台词中的重音词同步。",
+    "id": "Pura-pura meninju kamera empat kali, setiap pukulan disinkronkan dengan kata yang ditekankan dalam dialog."
    },
    "lines": "Emang cewek nggak boleh manjain diri sendiri? Aku punya beberapa teman sultan yang sering bolak-balik Korea, skincare mereka tuh yang lihat harganya aja aku langsung mundur, nggak berani mimpi bisa pakai."
   },
@@ -33,10 +36,13 @@
    "sec": 15,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "突然想起什么，兴奋地凑近镜头，快速清晰地说第一句话。然后举起VEIRFOO面膜，让脸和产品都在画面里，产品正面朝向镜头，手腕轻微转动让银色反光。嘴巴闭着，用画外音说第二句话。然后用手指捏住，做出“向下推”的手势，说第三句话。最后把面膜贴在脸颊上，用另一只手轻拍两次，露出惊喜的表情，说第四句话。",
-    "id": "Seolah teringat sesuatu, condongkan badan ke kamera dengan semangat, ucapkan kalimat pertama dengan cepat dan jelas. Lalu pegang masker VEIRFOO di samping pipi, biar muka dan produk kelihatan di frame, produk menghadap kamera, putar pergelangan tangan sedikit biar bagian silvernya memantulkan cahaya. Bibir tertutup, ucapkan kalimat kedua sebagai voiceover. Lalu cubit jari telunjuk dan jempol, buat gerakan \"menekan ke bawah\", ucapkan kalimat ketiga. Terakhir, tempelkan masker ke pipi, tepuk dua kali dengan tangan lain, tunjukkan ekspresi kaget senang, ucapkan kalimat keempat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用手指做“价格下降”的手势。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Buat gerakan tangan 'harga turun'."
    },
    "lines": "Sampai akhirnya aku nemu brand yang mereka rekomendasiin semua, VEIRFOO, ternyata udah masuk Indonesia! Katanya partner brand-nya, Kak Lina, nego lama banget sampai harganya bisa turun. Aku lihat kok ternyata aku sanggup, ya udah aku beli satu buat coba, dan hasilnya bikin aku kaget banget."
   },
@@ -45,10 +51,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "举起一张廉价面膜，做出怀疑的表情，摇头两次，说第一句话。然后把廉价面膜移出画面，换成VEIRFOO面膜，让脸和产品都在画面里，产品正面朝向镜头，手腕轻微转动让银色反光，露出自然的笑容。用拇指沿着面膜边缘来回滑动。说第二句话。然后保持面膜在脸颊旁边，用指尖轻敲面膜正面，解释并说第三句话。说完最后一句后，发出短暂而真诚的笑声，头稍微向后仰，肩膀抖动一下，眼睛眯起来，然后看着镜头，仍然微笑着。",
-    "id": "Pegang masker murah, tunjukkan ekspresi ragu, geleng kepala dua kali, ucapkan kalimat pertama. Lalu singkirkan masker murah, ganti dengan masker VEIRFOO, biar muka dan produk kelihatan di frame, produk menghadap kamera, putar pergelangan tangan sedikit biar bagian silvernya memantulkan cahaya, tunjukkan senyum alami. Usap jempol ke depan dan belakang di sepanjang tepi kemasan. Ucapkan kalimat kedua. Lalu tetap pegang masker di samping pipi, ketuk perlahan bagian depan kemasan dengan ujung jari telunjuk sambil menjelaskan dan mengucapkan kalimat ketiga. Setelah kata terakhir, tertawa singkat dan tulus, kepala sedikit mendongak, bahu bergetar sebentar, mata menyipit, lalu lihat kamera lagi sambil tetap tersenyum."
+    "zh": "先展示一个廉价的无品牌面膜，然后换成产品，展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Pertama tunjukkan masker murah tanpa merek, lalu ganti dengan produk. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Packagingnya aja udah beda jauh sama masker murahan, dipegang tuh mewah banget. Teman sultanku khusus nyuruh aku cek komposisinya, ternyata urutan pertamanya bukan air, tapi bahan mahal yang dipakai di serum brand besar. Dulu mana pernah aku pakai barang sebagus ini."
   },
@@ -56,11 +65,14 @@
    "n": 4,
    "sec": 11,
    "talk": true,
-   "broll": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "用双手撕开VEIRFOO面膜包装，取出面膜布，面膜布沉甸甸的，精华液很足，没有滴落。用画外音说第一句话。然后戴上VEIRFOO面膜，身体向后靠，完全放松，长长地呼出一口气。用画外音说第二句话。然后摘下面膜，特写面部，皮肤水润有光泽，T区和颧骨有明显的高光。满意地微笑，眼睛微微眯起，手停在半空中。用画外音说第三句话。",
-    "id": "Dengan dua tangan, sobek kemasan masker VEIRFOO, keluarkan lembaran masker yang tebal dan penuh esens, tidak menetes. Ucapkan kalimat pertama sebagai voiceover. Lalu pakai masker VEIRFOO, bersandar santai, hembuskan napas panjang. Ucapkan kalimat kedua sebagai voiceover. Lalu lepas masker, close-up wajah, kulit terlihat glowing dan lembap, area T-zone dan tulang pipi terlihat lebih cerah. Tersenyum puas, mata sedikit menyipit ke arah layar, tangan diam di udara. Ucapkan kalimat ketiga sebagai voiceover."
+    "zh": "撕开面膜包装，取出面膜布，然后敷上面膜，最后展示敷完面膜后的皮肤。",
+    "id": "Robek kemasan masker, keluarkan lembaran masker, lalu pakai masker. Terakhir, tunjukkan kulit setelah memakai masker."
    },
    "lines": "Lembarannya tebal, esensnya melimpah banget, seminggu lembur plus commute berjam-jam tiap hari, capeknya langsung ilang. Yang paling penting, pas baru dilepas aku sampai bengong, kirain halusinasi, kulitku berasa bening bercahaya, putih bercahaya."
   },
@@ -69,10 +81,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "特写面部，皮肤有弹性，有光泽。用食指轻戳脸颊，皮肤弹回，水润有光泽。脸稍微转向一侧，让光线扫过颧骨。说第一句话。然后双手举起VEIRFOO面膜，让脸和产品都在画面里，产品正面朝向镜头，继续对着镜头说话。一只手做出“一点点”的捏合手势，另一只手仍然拿着面膜，扬起眉毛，好像在说“这么便宜”。说第二句话。",
-    "id": "Close-up wajah, kulit kenyal dan glowing. Tusuk pipi dengan jari telunjuk; kulit membal, lembap dan memantulkan cahaya. Putar wajah sedikit ke samping biar cahaya menyapu tulang pipi. Ucapkan kalimat pertama. Lalu pegang masker VEIRFOO dengan kedua tangan di samping pipi, biar muka dan produk kelihatan di frame, produk menghadap kamera, terus bicara ke kamera. Satu tangan membuat gerakan mencubit \"sedikit saja\" sementara tangan lain masih memegang kemasan, dan angkat alis seolah berkata \"murah banget\". Ucapkan kalimat kedua."
+    "zh": "用手指戳脸颊，展示皮肤的弹性和光泽。展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Sentuh pipi untuk menunjukkan kekenyalan dan kilau kulit. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Terus aku pakai sebulan lagi, lihat deh sekarang sama dulu, agak beda kan. Di Korea satu lembar ini harganya segini, di sini nggak sampai harga segelas boba!"
   },
@@ -81,10 +96,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "特写面部，皮肤水润有光泽。双手举起一叠VEIRFOO面膜，让脸和产品都在画面里，产品正面朝向镜头，身体稍微前倾，自信地微笑着，像是在向朋友推荐。说第一句话。然后腾出一只手，轻拍胸口两次，做出“善待自己”的手势，继续说第二句话。然后把面膜稍微推向镜头，用食指笔直指向屏幕下方，真诚地看着镜头，加快语速说完第三句话。最后微笑着点点头。",
-    "id": "Close-up wajah, kulit lembap dan glowing. Pegang tumpukan masker VEIRFOO dengan kedua tangan di samping pipi, biar muka dan produk kelihatan di frame, produk menghadap kamera, condongkan badan sedikit ke depan dengan senyum percaya diri, seperti merekomendasikan ke teman. Ucapkan kalimat pertama. Lalu bebaskan satu tangan dan tepuk dada dua kali, gerakan \"sayangi diri sendiri\", lanjutkan kalimat kedua. Lalu dorong tumpukan masker sedikit ke arah kamera, lalu tunjuk lurus ke bawah layar dengan jari telunjuk, lihat kamera dengan tulus, dan percepat sedikit untuk menyelesaikan kalimat ketiga. Akhiri dengan anggukan kecil sambil tersenyum."
+    "zh": "双手拿着一叠产品，展示产品时，产品 logo 正面始终朝向镜头。最后指向屏幕下方。",
+    "id": "Pegang setumpuk produk dengan kedua tangan, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke bagian bawah layar."
    },
    "lines": "Sering rayain kemenangan kecil biar sering menang, kata teman-teman suksesku. Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya. Keranjang kuning di bawah udah aku siapin, sayangi diri sendiri dari sekarang!"
   }

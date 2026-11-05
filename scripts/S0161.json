@@ -2,18 +2,18 @@
  "id": "S0161",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI sheet mask PDRN Collagen"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "Sicenari sheet mask PDRN 9,900ppm"
  },
  "hook": {
-  "zh": "敏感肌可用的大包装面膜",
-  "id": "Masker kemasan besar yang aman untuk kulit sensitif"
+  "zh": "一箱面膜，每天用一片，不到七千印尼盾",
+  "id": "Masker sekotak, sehari pakai selembar nggak sampai tujuh ribu."
  },
  "src": "TikTok @yenialfina11",
  "cam": "user",
  "prep": {
-  "zh": "准备：SICENARI袋装面膜一袋（未开封），一个无盖矮纸箱，里面放两袋同款面膜。素颜出镜。",
-  "id": "Siapkan: satu kantong masker SICENARI (belum dibuka), satu kotak kardus kecil tanpa tutup, isi dengan dua kantong masker yang sama. Wajah bersih tanpa makeup."
+  "zh": "产品：SICENARI 袋装面膜（21片装）。道具：一个矮纸箱（无盖）。",
+  "id": "Produk: Sicenari sheet mask (isi 21 lembar). Properti: satu kotak kardus kecil (tanpa tutup)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，手从箱子里拿出一袋面膜，举到镜头前，轻轻左右晃动。语速快，像跟朋友聊天。",
-    "id": "Ambil satu kantong masker dari kotak, angkat ke dekat kamera, lalu goyangkan perlahan ke kiri dan kanan. Bicara cepat, seperti ngobrol dengan teman dekat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Masker ini khusus buat kalian yang kulitnya tuh kusam, susah cerah, yang punya flek bekas jerawat, bertekstur chicken skin gradakan, bisa banget pakai yang ini."
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，一只手拿着面膜袋，另一只手撕开封条，再拉开拉链。语速快，像跟朋友聊天。",
-    "id": "Pegang kantong masker dengan satu tangan, lalu sobek strip merah di bagian atas dan buka zip-lock-nya dengan tangan yang lain. Bicara cepat, seperti ngobrol dengan teman dekat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini dari Sicenari ya beb, asli dari Korea, gentle banget, habis maskeran aku nggak ngerasa perih atau ketarik-tarik sama sekali. Yang ada di urutan pertama komposisinya itu Bifida, terus ada PDRN sama kolagen juga."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，一只手拿着打开的面膜袋，另一只手伸进去，捏住一片面膜的角，慢慢提起来，让精华液滴回袋子里。语速快，像跟朋友聊天。",
-    "id": "Pegang kantong masker yang sudah terbuka dengan satu tangan, lalu masukkan dua jari tangan yang lain, jepit sudut satu lembar masker dan angkat tinggi-tinggi agar esensnya menetes kembali ke dalam kantong. Bicara cepat, seperti ngobrol dengan teman dekat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih kenyal, lebih cerah dan glowing. Jadi kalian maskeran tuh nggak cuma sekadar buat lembap doang, manfaatnya udah banyak banget."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "俯拍，两只手把面膜袋的拉链合上，然后把面膜塞回箱子里。再拿出一袋面膜举到镜头前，另一只手指向左下角。语速快，像跟朋友聊天。",
-    "id": "Tutup zip-lock kantong masker dengan dua tangan, lalu masukkan kembali ke dalam kotak. Kemudian, angkat satu kantong masker ke dekat kamera, dan tunjuk ke sudut kiri bawah layar dengan jari telunjuk tangan yang lain. Bicara cepat, seperti ngobrol dengan teman dekat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, sehari pakai selembar nggak sampai tujuh ribu. Coba deh kalian cek di keranjang kuning, dapetnya di harga berapa beb. Ini bagus banget, seriusan cowok-cewek boleh banget pakai ya."
   }

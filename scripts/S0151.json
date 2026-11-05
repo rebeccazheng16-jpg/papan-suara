@@ -2,18 +2,18 @@
  "id": "S0151",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 胶原炮面膜 (PDRN mask)",
-  "id": "Masker SICENARI PDRN"
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (Sensitive Skin) Bagged 21 sheets",
+  "id": "SICENARI Collagen Shot Mask (isi 21)"
  },
  "hook": {
-  "zh": "敷膜日记：过程→结果→余液抹腿",
-  "id": "Jurnal pakai sheet mask: proses, hasil, dan sisa essence buat kaki"
+  "zh": "敷膜日记：过程→结果→余液抹小腿→袋子静物收尾",
+  "id": "Masker diary: proses → hasil → sisa essence di kaki → penutup produk"
  },
- "src": "TikTok @priskilakaylaa",
+ "src": "TikTok @priskilakaylaa AFTERMYSKIN",
  "cam": "user",
  "prep": {
-  "zh": "素颜，SICENARI 胶原炮面膜袋。",
-  "id": "Muka bersih tanpa makeup, produk masker SICENARI."
+  "zh": "SICENARI 袋装面膜 (21 片装)，素颜，无妆",
+  "id": "Masker SICENARI (isi 21), muka bersih tanpa makeup"
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤有点暗沉",
-    "id": "Muka bersih, kulit kelihatan agak kusam"
+    "zh": "素颜，无妆，皮肤略显苍白暗沉",
+    "id": "Muka bersih tanpa makeup, kulit agak pucat dan kusam"
    },
    "do": {
-    "zh": "可以分几天拍三个短镜头：从袋子里拿出一片面膜；把面膜敷在脸上；敷着面膜时用指尖轻轻按压脸颊。每个镜头可以换个衣服或角落，看起来像不同天拍的。",
-    "id": "Bisa rekam tiga klip pendek: pertama, ambil satu masker dari kantongnya. Kedua, tempelin maskernya ke muka. Ketiga, tekan-tekan pipi pakai ujung jari pas maskernya masih nempel. Tiap klip bisa ganti baju atau tempat biar kelihatan kayak hari yang beda."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。用右手从袋子里取出一片面膜，精华液滴落回袋中。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Ambil satu lembar masker dari kemasan dengan tangan kanan, biarkan essence menetes kembali ke kemasan."
    },
    "lines": ""
   },
@@ -37,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤看起来更亮了",
-    "id": "Muka bersih, kulit kelihatan lebih cerah dan glowing"
+    "zh": "素颜，无妆，皮肤比上一镜更亮更均匀",
+    "id": "Muka bersih tanpa makeup, kulit lebih cerah dan rata dari sebelumnya"
    },
    "do": {
-    "zh": "展示敷完面膜的效果。可以拍两个镜头：用指尖抚摸脸颊，然后把脸转向光线；双手捧着脸颊，露出开心的微笑。这也像是在不同天拍的。",
-    "id": "Tunjukin hasil setelah pakai masker. Kamu bisa usap pipi pelan, terus hadapin muka ke arah cahaya biar kelihatan glowing. Setelah itu, bisa juga senyum sambil pegang kedua pipi. Klip ini juga bisa direkam di hari/tempat yang beda."
+    "zh": "用指尖轻抚脸颊，然后将脸颊朝向窗户，让日光照在皮肤上。用双手轻柔地轻托脸颊，微微一笑和点点头。",
+    "id": "Usap pipi dengan ujung jari, lalu putar pipi ke arah jendela agar cahaya matahari menyinari kulit. Tangkup kedua pipi dengan lembut, tersenyum kecil dan mengangguk."
    },
    "lines": ""
   },
@@ -53,8 +53,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "从你的视角往下拍腿。把用完的面膜里剩下的精华挤在小腿上，然后用手涂抹均匀（用完的面膜要一直拿在手里）。然后，把产品袋放在地毯上，慢慢靠近拍一个特写。",
-    "id": "Rekam dari sudut pandang kamu, lihat ke bawah ke arah kaki. Peras sisa essence dari masker bekas ke kaki, terus ratain pakai tangan (masker bekasnya tetap dipegang ya). Terakhir, rekam produknya aja yang ditaruh di atas karpet, pelan-pelan deketin kamera."
+    "zh": "第一人称俯拍双腿。左手捏住用过的面膜，将多余精华液挤到左小腿上。右手掌心从膝盖到脚踝涂抹精华液。",
+    "id": "Ambil video kaki sendiri dari atas. Tangan kiri memegang masker bekas, peras sisa essence ke betis kiri. Telapak tangan kanan mengoleskan essence dari lutut ke pergelangan kaki."
    },
    "lines": ""
   }

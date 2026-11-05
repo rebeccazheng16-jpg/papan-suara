@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "韩国欧利芙洋热销，清潭洞女孩的护肤秘密",
-  "id": "Rahasia kulit glowing cewek Cheongdam-dong"
+  "zh": "韩国欧利芙洋热卖的注氧洗面奶",
+  "id": "Pembersih muka beroksigen yang lagi hits di Olive Young Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO注氧小气泡精粹液（盖子盖好，标签朝前）。素颜出镜，脸部湿润。",
-  "id": "Produk: VEIRFOO Bubble Cleanser (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup, kulit lembap."
+  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）。皮肤：素颜，湿润的脸。",
+  "id": "Produk: VEIRFOO Bubble Cleanser (tutup terpasang, label menghadap kamera). Kulit: Wajah bersih tanpa makeup, basah."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "你可以拍视频，当你走进Olive Young店，然后走向VEIRFOO专柜。然后，你坐在梳妆台前，身体微微前倾，仿佛要透露一个秘密。当你说“Cheongdam-dong”时，稍微挑眉，并用食指在脸旁边轻敲一下。然后，将VEIRFOO产品举到脸颊旁边，标签朝向镜头，同时微微一笑。然后，特写你的手：打开产品盖子，将泵头按压一次到手掌心。然后，特写你在水槽前的脸，脸部干净湿润。精华液已经在你脸上，让你的手放在旁边，不要触碰你的脸。看着镜头，开心地笑着，看着泡沫自己冒出来。",
-    "id": "Kamu bisa rekam saat jalan masuk ke toko Olive Young, lalu jalan ke konter VEIRFOO. Lalu, kamu duduk di meja rias, condong sedikit ke depan seperti mau membocorkan rahasia. Saat bilang \"Cheongdam-dong\", angkat alis sedikit dan ketuk jari telunjuk sekali di samping wajahmu. Lalu, angkat produk VEIRFOO ke samping pipi, label menghadap kamera, sambil tersenyum tipis. Lalu, rekam close-up tanganmu: buka tutup produk, tekan pump-nya sekali ke telapak tanganmu. Lalu, rekam close-up wajahmu di wastafel, wajah bersih dan basah. Essence sudah di wajahmu, biarkan tanganmu di samping, jangan sentuh wajahmu. Lihat ke kamera sambil tersenyum senang melihat busa muncul sendiri."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Temenku terbang ke Korea cuma buat beli ini. cewek-cewek Cheongdam-dong yang langganan klinik mahal, semuanya pakai ini — VEIRFOO Bubble Cleanser. Oles ke muka yang basah, diam beberapa detik — dia berbusa sendiri, nggak perlu digosok. Busanya yang ngangkat minyak sama sel kulit mati di pori-pori."
   },
@@ -34,12 +34,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上是VEIRFOO小气泡精粹液的泡沫",
-    "id": "Wajah berbusa VEIRFOO Bubble Cleanser"
+    "zh": "素颜，脸上有泡沫",
+    "id": "Wajah tanpa makeup, ada busa"
    },
    "do": {
-    "zh": "你可以特写你在水槽前的脸，脸上都是泡沫。弯腰到水槽前，用水冲洗你的脸。然后，抬起头，脸部干净湿润。从鼻翼轻轻擦拭到脸颊，闭上眼睛深呼吸，然后对着镜头挑眉。然后，你坐在梳妆台前，脸上已经化好妆。轻轻拍打脸颊，微微一笑，然后坚定地点头。然后，将VEIRFOO产品举到脸颊旁边，标签朝向镜头。用另一只手的食指轻敲瓶子两次。",
-    "id": "Kamu bisa rekam close-up wajahmu di wastafel, wajah berbusa. Bungkuk ke wastafel dan bilas wajahmu dengan air. Lalu, angkat kepala, wajah bersih dan basah. Usap ringan dari samping hidung ke pipi, tarik napas dalam-dalam dengan mata terpejam, lalu angkat alis ke kamera. Lalu, kamu duduk di meja rias, wajah sudah bermakeup. Tepuk-tepuk pipi ringan, senyum tipis, lalu mengangguk mantap. Lalu, pegang produk VEIRFOO di samping pipi, label menghadap kamera. Ketuk botol dua kali dengan jari telunjuk tangan yang lain."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Habis dibilas, pori-pori berasa napas lega banget. siapa yang ngerti rasanya? Hidung sama pipiku berasa langsung halus, nggak kesat. Kulitku kering dan gampang sensitif, tapi ini tetap aman. Bifida Ferment ada di urutan pertama, di atas air — cek sendiri di kemasannya."
   },
@@ -49,12 +49,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "你可以特写你在水槽前的手，手掌心充满泡沫。用手指按压泡沫，然后松开。然后，特写你在水槽前的脸，脸部干净。看着镜头，歪头，然后认真地点头。然后，特写你的脸，已经化好妆。脸稍微倾斜，用手指触碰鼻翼然后滑到脸颊，然后满意地微笑。然后，你坐在梳妆台前。将VEIRFOO产品举到脸颊旁边，标签朝向镜头。身体微微前倾，像是在向朋友推荐，然后指向画面下方。",
-    "id": "Kamu bisa rekam close-up tanganmu di wastafel, telapak tanganmu penuh busa. Tekan busa dengan jari, lalu lepaskan. Lalu, rekam close-up wajahmu di wastafel, wajah bersih. Lihat ke kamera, miringkan kepala, lalu mengangguk serius. Lalu, rekam close-up wajahmu, sudah bermakeup. Miringkan wajah sedikit, sentuh cuping hidung dengan jari lalu geser ke pipi, lalu tersenyum puas. Lalu, kamu duduk di meja rias. Pegang produk VEIRFOO di samping pipi, label menghadap kamera. Condong sedikit ke depan seperti merekomendasikan ke teman, lalu tunjuk ke bawah frame."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Busanya halus banget, lembut kayak whipped cream yang baru dikocok. Kulit kering cukup sekali sehari, kulit berminyak pagi dan malam. Muka bersih, skincare habis ini langsung nyerap, nggak kebuang. Mau glass skin ala cewek Korea? Mulai dari Bubble Cleanser ini. Cek keranjang kuning, ya!"
   }

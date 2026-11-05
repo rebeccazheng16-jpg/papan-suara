@@ -2,18 +2,18 @@
  "id": "V0091",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 VEIRFOO Blingbling Cream",
-  "id": "VEIRFOO Blingbling Cream"
+  "zh": "水光霜 VEIRFOO Bling Bling Cream",
+  "id": "VEIRFOO Bling Bling Cream"
  },
  "hook": {
   "zh": "水光肌底，妆容服帖不卡粉",
-  "id": "Kulit glowing, makeup nempel sempurna nggak cakey"
+  "id": "Kulit glowing, makeup nempel sempurna tanpa cakey!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO水光霜（盖子盖好，标签朝前）。道具：一个粉扑（无品牌，无logo）。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Blingbling Cream (tutupnya terpasang, label menghadap kamera). Alat: satu spons bedak (polos, tanpa merek atau logo). Kulit: wajah bersih, tanpa makeup."
+  "zh": "素颜，准备好产品（盖子盖好），粉扑。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produk (tutupnya terpasang) dan spons bedak tabur."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "刚涂完面霜，皮肤水润有光泽",
-    "id": "Baru selesai pakai krim, kulit lembap dan glowing"
+    "zh": "刚涂完产品，皮肤水润有光泽。",
+    "id": "Kulit sudah lembap dan glowing setelah pakai produk."
    },
    "do": {
-    "zh": "惊喜地看着镜头，用手掌轻拍脸颊三次，皮肤会弹。然后用两根指尖轻触脸颊，甜甜地对着镜头笑，轻轻左右摆头。",
-    "id": "Lihat ke kamera dengan ekspresi senang dan terkejut. Tepuk-tepuk pipi tiga kali dengan telapak tangan, kulit akan terasa kenyal. Lalu sentuh kedua pipi dengan ujung jari, senyum manis ke kamera sambil menggelengkan kepala pelan ke kiri dan kanan."
+    "zh": "轻拍脸颊，然后用指尖轻触脸颊。",
+    "id": "Tepuk-tepuk pipi, lalu sentuh pipi dengan ujung jari."
    },
    "lines": "Ya ampun! Kok bisa ada satu produk yang bikin muka aku selembap ini — terus base makeup-nya nyatu banget! Mukaku tuh kelihatan glowing semua!"
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤有点暗沉，无光泽",
-    "id": "Wajah bersih, kulit agak kusam, tidak ada kilau"
+    "zh": "素颜，皮肤有点暗沉。",
+    "id": "Wajah bersih tanpa makeup, kulit agak kusam."
    },
    "do": {
-    "zh": "拿着盖好的产品管，标签朝前，放在脸颊旁边，手腕轻转让产品表面反光。然后打开盖子，挤一点乳液到指尖，用指尖点涂并涂抹在脸颊、额头、鼻子和下巴上，避开眼睛。涂抹时说话。",
-    "id": "Pegang tube produk yang tertutup, label menghadap kamera, di samping pipi, putar sedikit pergelangan tangan agar permukaannya memantulkan cahaya. Lalu buka tutupnya, peras sedikit losion putih ke ujung jari, lalu oleskan dengan ujung jari ke pipi, dahi, hidung, dan dagu, hindari area mata. Bicara sambil mengoleskan."
+    "zh": "展示产品，logo 面向镜头。然后涂抹产品到脸上。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu oleskan produk ke wajah."
    },
    "lines": "Ini dia bling bling cream-nya VEIRFOO Korea. Dioles ke wajah nggak nunggu lama, langsung nyatu. Nggak ada rasa berat sama sekali."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已上好全妆，皮肤水润有光泽",
-    "id": "Sudah pakai makeup lengkap, kulit glowing dan dewy"
+    "zh": "已上妆，皮肤水润有光泽。",
+    "id": "Sudah pakai makeup, kulit glowing dan lembap."
    },
    "do": {
-    "zh": "真诚地看着镜头，带着一丝会心的微笑。然后用一个粉扑快速轻拍脸颊，粉底液会融入下面的水润层。拍打时说话。",
-    "id": "Lihat ke kamera dengan tulus, dengan senyum kecil yang penuh arti. Lalu tepuk-tepuk pipi dengan spons bedak secara cepat, foundation akan menyatu dengan lapisan kulit yang lembap. Bicara sambil menepuk."
+    "zh": "用粉扑轻拍脸颊。",
+    "id": "Tepuk-tepuk pipi dengan spons bedak tabur."
    },
    "lines": "Dipakai rutin, buatku tampilan kulitku memang berubah — tapi harganya jauh lebih masuk akal dibanding harga asli klinik. Dan yang paling gila: dipakai sebagai base makeup, hasilnya nyatu banget, nggak cakey."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已上好全妆，皮肤水润有光泽",
-    "id": "Sudah pakai makeup lengkap, kulit glowing dan dewy"
+    "zh": "已上妆，皮肤水润有光泽。",
+    "id": "Sudah pakai makeup, kulit glowing dan lembap."
    },
    "do": {
-    "zh": "双手拿着盖好的产品管，标签朝前，放在脸颊旁边，真诚地看着镜头。说到“试试看”时，把产品管稍微推向镜头。然后保持产品管在脸颊旁边，抬起眉毛，做出随意的“报价”表情。最后空出一只手，食指指向屏幕左下角，真诚地看着镜头，快速热情地结束。",
-    "id": "Pegang tube produk yang tertutup dengan kedua tangan, label menghadap kamera, di samping pipi, lihat ke kamera dengan tulus. Saat mengatakan “coba”, dorong tube sedikit ke arah kamera. Lalu tetap pegang tube di samping pipi, angkat alis dengan ekspresi santai seolah menyebutkan harga. Terakhir, bebaskan satu tangan dan tunjuk sudut kiri bawah layar dengan jari telunjuk, lihat ke kamera dengan tulus, dan selesaikan dengan cepat dan antusias."
+    "zh": "展示产品，logo 面向镜头。产品稍微推向镜头。然后指向屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dorong produk sedikit ke arah kamera. Lalu tunjuk ke kiri bawah layar."
    },
    "lines": "Buat kamu yang tiap hari makeup dan capek sama base yang cakey, coba pakai ini dulu sebelum foundation. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

@@ -2,18 +2,18 @@
  "id": "S0164",
  "brand": "SICENARI",
  "product": {
-  "zh": "SICENARI 超光子胶原炮 面膜",
-  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "已过 印尼药监局 韩国正品，成分第一位 Bifida，大牌精华也用但贵，一盒 5 片，投资在脸上",
-  "id": "Sudah BPOM, produk asli Korea, kandungan utamanya Bifida, serum merek mewah juga pakai tapi mahal, satu kotak isi 5 lembar, investasi untuk wajah sendiri"
+  "zh": "已通过印尼药监局认证，韩国正品。主要成分二裂酵母，大牌精华也用，但价格昂贵。一盒五片，投资在脸上。",
+  "id": "Sudah BPOM, produk asli Korea, bahan utama Bifida, serum merek mahal juga pakai tapi mahal, satu kotak 5 lembar, investasi di wajah sendiri"
  },
  "src": "TikTok @linalie6666",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜盒装，素颜出镜",
-  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak), wajah bersih tanpa makeup"
+  "zh": "SICENARI 超光子胶原炮面膜盒装（5片装），素颜，无妆",
+  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak isi 5 lembar), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把几盒面膜在桌上摊开，然后侧过脸，拳头抵着嘴唇，好像正在听镜头外朋友的问题。",
-    "id": "Kamu bisa menata beberapa kotak masker di meja, lalu palingkan wajahmu ke samping, kepalan tangan di bibir, seolah sedang mendengarkan pertanyaan dari teman di luar kamera."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Udah, udah! Masker Sicenari ini udah terdaftar BPOM, original dari Korea, ingredient-nya jelas banget. Di urutan pertama ada Bifida, kamu tahu nggak? Ada PDRN juga. Serum brand mewah ini juga pakai Bifida, harganya berapa?"
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头。自信地回答问题，然后轻敲盒子上的金印并指向旁边。",
-    "id": "Kamu bisa memegang kotak masker di samping pipi, bagian depan menghadap kamera. Jawab pertanyaan dengan percaya diri, lalu ketuk segel emas di kotak dan gestur ke samping."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Sebotol kecil aja mahalnya bikin syok! Tapi yang ini, satu kotak isinya lima lembar, satu lembar dua puluh lima ml, harganya murah sampai bikin kaget, langsung bawa pulang, bisa skincare-an kayak eonni-eonni Korea."
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "先在下巴旁边做小手势，然后拿着面膜盒在脸颊旁边并展示五根手指。最后，把面膜盒贴在脸颊上，带着温暖的笑容。",
-    "id": "Kamu bisa membuat gestur tangan kecil di samping dagu, lalu pegang kotak masker di samping pipi dan tunjukkan lima jari. Terakhir, peluk kotak masker ke pipi dengan senyum hangat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一根手指指向屏幕下方。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan satu jari ke bagian bawah layar."
    },
    "lines": "Jadi anggap aja ini investasi buat wajah sendiri, sehari selembar nggak sampai tiga puluh ribu loh. Langsung klik keranjang kuning di bawah, checkout sekarang ya!"
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把面膜盒举到脸颊旁边，正面朝向镜头，温柔地微笑，就像在和亲密朋友聊天一样。然后，空着的手指向屏幕下方的小黄车。",
-    "id": "Kamu bisa memegang kotak masker di samping pipi, bagian depan menghadap kamera, tersenyum lembut seperti sedang ngobrol dengan teman dekat. Lalu, tangan yang kosong menunjuk ke bawah layar untuk keranjang kuning."
+    "zh": "把几盒产品摊开在桌上，然后侧脸用拳头抵住嘴唇，做倾听状。",
+    "id": "Taruh beberapa kotak produk di meja, lalu miringkan wajah dan letakkan kepalan tangan di bibir, seolah sedang mendengarkan."
    },
    "lines": ""
   }

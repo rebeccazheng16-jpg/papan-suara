@@ -2,28 +2,32 @@
  "id": "V0014",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO 水光霜 Blingbling Cream",
+  "zh": "VEIRFOO 水光霜 (Blingbling Cream)",
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "韩妹水光肌的秘密",
+  "zh": "韩国女生的水光肌秘密",
   "id": "Rahasia glass skin ala cewek Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 水光霜。素颜，脸上没有化妆。",
-  "id": "Produk VEIRFOO Blingbling Cream. Muka bersih tanpa makeup."
+  "zh": "VEIRFOO 水光霜（盖子盖好，标签朝前）；素颜，脸上无妆。",
+  "id": "Produk VEIRFOO Blingbling Cream (tutupnya terpasang, label menghadap kamera); wajah bersih tanpa makeup."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "看着镜头，自信地说第一句话。然后，双手把头发往后拨。接着，一边说第二句话，一边把产品举到脸颊旁边，最后微笑。",
-    "id": "Lihat ke kamera, sambil ngomong kalimat pertama dengan pede. Terus, sisir rambut ke belakang pakai tangan. Sambil ngomong kalimat kedua, angkat produknya di samping pipi, lalu senyum."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Masih belum tahu rahasia glass skin ala cewek Korea? Nih, aku kasih tahu. VEIRFOO Blingbling Cream, brand Korea yang lagi viral banget di sana."
   },
@@ -31,13 +35,14 @@
    "n": 2,
    "sec": 6,
    "talk": true,
+   "broll": false,
    "face": {
-    "zh": "脸颊上有一点白色的霜。",
-    "id": "Ada setitik krim di pipi."
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "先把一点霜涂在手背上推开，展示质地。然后，在脸颊上涂抹，打圈直到吸收。最后，指一下刚刚涂过的脸颊，展示效果。",
-    "id": "Bisa olesin dikit di punggung tangan buat tunjukin teksturnya. Terus, olesin ke pipi sambil diputar-putar sampai meresap. Terakhir, tunjuk ke pipi yang udah pakai krimnya buat lihatin hasilnya."
+    "zh": "在手背上涂抹产品，然后涂抹在脸颊上，展示涂抹前后对比。",
+    "id": "Oleskan produk di punggung tangan, lalu oleskan di pipi, tunjukkan perbedaan sebelum dan sesudah."
    },
    "lines": "Pas dioles ke wajah, teksturnya lembut banget dan cepat meresap. Aku ngerasa kulitku langsung lebih glowing."
   },
@@ -45,10 +50,14 @@
    "n": 3,
    "sec": 7,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "把产品举到脸颊旁边。一边说成分，一边用另一只手的手指轻轻敲击管身。说到贵妇精华时，可以做一个‘很贵’的手势。",
-    "id": "Pegang produk di samping pipi. Sambil sebutin kandungannya, kamu bisa ketuk-ketuk botolnya pakai jari. Pas ngomongin serum mahal, bisa kasih gestur ‘mahal’ gitu."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Hero ingredient-nya itu Niacinamide dosis tinggi sama Centella, loh. Banyak serum high-end yang harganya jutaan juga mengandalkan dua kandungan ini."
   },
@@ -56,10 +65,14 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
    "do": {
-    "zh": "用手掌在整个脸上轻轻打圈按摩。一边按摩一边说第一部分的话。说完后，停下动作，身体稍微向镜头前倾，然后微笑着说最后一句。",
-    "id": "Usap dan pijat lembut seluruh muka pakai telapak tangan. Sambil mijat, kamu ngomong bagian pertama. Kalau sudah, berhenti, maju dikit ke kamera, terus senyum sambil ngomong kalimat terakhir."
+    "zh": "",
+    "id": ""
    },
    "lines": "Buat yang kulitnya suka ngelupas atau gampang cakey, aku biasanya pakai agak tebal. Buatku hasilnya malah makin glowing. Apalagi ini original Korea dan harganya juga terjangkau. Yuk, cek keranjang kuning di bawah, ya!"
   }

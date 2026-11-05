@@ -2,18 +2,18 @@
  "id": "V0013",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
+  "zh": "VEIRFOO 素颜霜 (Sodium DNA Firming Tone-Up Primer)",
   "id": "VEIRFOO Sodium DNA Primer"
  },
  "hook": {
-  "zh": "平价素颜霜，打造韩式水光肌",
-  "id": "Primer murah bikin glass skin Korea"
+  "zh": "别再买贵的妆前乳了",
+  "id": "Stop beli primer mahal!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸部干净无妆。准备好VEIRFOO素颜霜，盖子盖好。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Sodium DNA Primer dengan tutupnya terpasang."
+  "zh": "产品：VEIRFOO 素颜霜。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Sodium DNA Primer. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "把VEIRFOO素颜霜挤一点在右脸颊，用中指和无名指指腹向外均匀涂抹，直到吸收。看着镜头，用有力的推销语气说台词。",
-    "id": "Ambil sedikit VEIRFOO Sodium DNA Primer di jari, lalu oleskan di pipi kanan. Ratakan dengan jari tengah dan jari manis ke arah luar sampai meresap. Lihat ke kamera, bicara dengan nada promosi yang kuat."
+    "zh": "在右脸颊涂抹产品，然后轻拍脸颊。",
+    "id": "Oleskan produk di pipi kanan, lalu tepuk-tepuk pipi."
    },
    "lines": "Stop dulu beli primer mahal! Cobain VEIRFOO Sodium DNA Primer ini. Teksturnya ringan, nyaman dipakai, dan bikin makeup kelihatan lebih nyatu di kulit. Serius deh, wajib banget dicoba!"
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹素颜霜，肤色提亮均匀",
-    "id": "Pipi kanan sudah pakai primer, terlihat lebih cerah dan rata"
+    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
+    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
    },
    "do": {
-    "zh": "先用一只手挤出产品到另一只手的手指上，然后用画外音说第一句台词。接着，快速用食指指腹在右脸颊上轻拍两次，同时说第二句台词。然后，把产品管竖直拿在手里，标签朝前，用画外音说第三句台词。最后，把产品管举到脸旁边，让脸和产品都在画面里，同时点头并说第四句台词。保持微笑。",
-    "id": "Pertama, peras sedikit produk ke jari tanganmu, lalu ucapkan kalimat pertama sebagai voiceover. Kemudian, ketuk pipi kananmu dua kali dengan jari telunjuk, sambil mengucapkan kalimat kedua. Lalu, pegang tube produk tegak lurus, label menghadap ke depan, dan ucapkan kalimat ketiga sebagai voiceover. Terakhir, pegang tube produk di samping wajahmu, agar wajah dan produk terlihat jelas di kamera, sambil mengangguk dan mengucapkan kalimat keempat. Tersenyum alami."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Awalnya aku tahu produk ini dari temen dokter aku. Jujur, nggak nyangka cuma pakai ini aja aku ngerasa kulitku lebih glowing ala glass skin Korea. Apalagi ini original Korea dan sekarang harganya cuma segini. Jadi buat apa beli yang mahal kalau ada yang sebagus ini?"
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
+    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
    },
    "do": {
-    "zh": "先近距离拍摄手臂内侧，挤一点素颜霜，用指尖涂抹开，同时用画外音说第一句台词。然后，回到正常的脸部特写，用弯曲的手掌和指尖在右脸颊上打圈涂抹素颜霜，直到吸收。接着，用食指指腹轻戳右脸颊三次，展示不粘腻。看着镜头，表情认真，说第二句台词。最后，轻轻挑眉，微笑。",
-    "id": "Pertama, rekam lengan bagian dalammu dari dekat, peras sedikit primer, dan ratakan dengan ujung jari, sambil mengucapkan kalimat pertama sebagai voiceover. Lalu, kembali ke rekaman wajah normal, oleskan primer di pipi kananmu dengan gerakan melingkar menggunakan telapak tangan dan ujung jari sampai meresap. Kemudian, sentuh pipi kananmu tiga kali dengan jari telunjuk untuk menunjukkan tidak lengket. Lihat ke kamera dengan ekspresi serius, ucapkan kalimat kedua. Terakhir, angkat alis sedikit dan tersenyum alami."
+    "zh": "在右脸颊打圈涂抹产品，然后轻戳脸颊。",
+    "id": "Oleskan produk di pipi kanan dengan gerakan memutar, lalu sentuh-sentuh pipi."
    },
    "lines": "Teksturnya ringan banget kayak lotion. Sekali oles langsung nyatu di kulit. Buatku tampilannya lebih cerah tanpa terasa berminyak. Jujur, hasilnya nggak kalah sama primer mahal yang biasa aku pakai. Sumpah, aku kaget!"
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹素颜霜，肤色提亮均匀",
-    "id": "Pipi kanan sudah pakai primer, terlihat lebih cerah dan rata"
+    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
+    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
    },
    "do": {
-    "zh": "先侧脸看向镜头，用手掌轻按右脸颊，同时用画外音说第一句台词。然后，把产品管举到脸旁边，让脸和产品都在画面里，同时用画外音说第二句台词。接着，拍摄你的梳妆台，展示其他护肤品。最后，双手拿着产品管举到脸旁边，让脸和产品都在画面里，同时用画外音说第三句台词。",
-    "id": "Pertama, miringkan wajah sedikit dari kamera, tekan pipi kananmu dengan lembut, sambil mengucapkan kalimat pertama sebagai voiceover. Lalu, pegang tube produk di samping wajahmu, agar wajah dan produk terlihat jelas di kamera, sambil mengucapkan kalimat kedua sebagai voiceover. Kemudian, rekam meja riasmu dengan produk skincare lain. Terakhir, pegang tube produk dengan kedua tangan di samping wajahmu, agar wajah dan produk terlihat jelas di kamera, sambil mengucapkan kalimat ketiga sebagai voiceover."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Sodium DNA Dual Repair-nya di kulitku ringan, nggak bikin terasa berat sama sekali. Praktisnya lagi, cukup satu produk ini aja untuk melengkapi skincare dan jadi base makeup sehari-hari."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "右脸颊已涂抹素颜霜，肤色提亮均匀",
-    "id": "Pipi kanan sudah pakai primer, terlihat lebih cerah dan rata"
+    "zh": "右脸颊已涂抹产品，左脸颊无妆。",
+    "id": "Pipi kanan sudah ada produk, pipi kiri tanpa makeup."
    },
    "do": {
-    "zh": "先抬起下巴，眼睛直视镜头，用手背轻抚下颌线，同时说第一句台词。然后，把产品管举到脸旁边，让脸和产品都在画面里，同时微笑并说第二句台词。最后，双手各拿一个产品管，举到脸旁边，让脸和产品都在画面里，然后点头指向屏幕下方，同时说第三句台词。",
-    "id": "Pertama, angkat dagumu sedikit, tatap lurus ke kamera, dan usapkan punggung tanganmu di sepanjang garis rahang, sambil mengucapkan kalimat pertama. Lalu, pegang tube produk di samping wajahmu, agar wajah dan produk terlihat jelas di kamera, sambil tersenyum dan mengucapkan kalimat kedua. Terakhir, pegang dua tube produk di samping wajahmu, satu di setiap tangan, agar wajah dan produk terlihat jelas di kamera, lalu mengangguk ke arah bawah layar, sambil mengucapkan kalimat ketiga."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "VEIRFOO memang dikenal fokus mengembangkan formula Sodium DNA. Kandungannya simpel dan nyaman dipakai sehari-hari. Kalau lagi cari produk yang praktis dan worth it, produk ini layak banget dicoba. Yuk, langsung cek keranjang kuning di bawah, ya!"
   }

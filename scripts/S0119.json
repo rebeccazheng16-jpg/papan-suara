@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "masker PDRN Sicenari"
  },
  "hook": {
   "zh": "二话不说赶紧薅＋攥膜布挤精华",
-  "id": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari dari Korea ini!"
+  "id": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari!"
  },
- "src": "TikTok @图图爱买 Eiio 水光面膜",
+ "src": "TikTok @图图爱买 Eiio",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜一盒（内含五片），素颜，脸部干净无妆",
-  "id": "Satu kotak masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (isi 5 lembar), wajah bersih tanpa makeup."
+  "zh": "SICENARI 超光子胶原炮面膜（盒装，单片袋），素颜，无妆。",
+  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kemasan kotak dan sachet), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把面膜盒正面朝前立在桌上，手机固定好稍微俯拍，然后慢慢靠近盒子。你可以用三脚架或请朋友帮忙拍摄。用充满活力和清晰的声音说出第一句话。",
-    "id": "Letakkan kotak masker tegak di meja, hadapkan ke kamera. Rekam dari sedikit atas, lalu perlahan dekatkan kamera ke kotak. Kamu bisa pakai tripod atau minta teman untuk merekam. Ucapkan kalimat pertama dengan suara bersemangat dan jelas."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari dari Korea ini! Lagi ada promo pengenalan brand, dengan harga segini udah dapet satu kotak. Dikirim dari toko resmi, dijamin original!"
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用一只手拿着一片面膜袋，正面朝前，放在桌上。然后，用另一只手按压面膜中间，让它看起来内容物很多。用真诚而快速的声音说出这句话。",
-    "id": "Pegang satu sachet masker di atas meja dengan satu tangan, hadapkan ke kamera. Lalu, pakai tangan satunya untuk menekan bagian tengah masker agar terlihat isinya banyak. Ucapkan kalimat dengan suara yang jujur dan cepat."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kalau kamu juga sering begadang kayak aku, wajah jadi kuning kusam, gelap dan kering banget, langsung cobain ini. Isinya ada PDRN sembilan ribu sembilan ratus ppm, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -46,12 +46,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "首先，拍摄你的手在桌上撕开面膜袋。然后，剪辑到你敷面膜的场景，用手指抚平。最后，拍摄你从额头到下巴揭下面膜，然后开心地对着镜头微笑。快速而充满活力地说出这句话。",
-    "id": "Pertama, rekam tanganmu merobek sachet masker di atas meja. Lalu, potong ke adegan kamu memakai masker di wajah, ratakan dengan jari. Terakhir, rekam kamu melepas masker dari dahi ke dagu, lalu tersenyum senang ke kamera. Ucapkan kalimat dengan cepat dan bersemangat."
+    "zh": "撕开面膜袋，敷上面膜，然后撕下面膜。",
+    "id": "Sobek sachet masker, pakai maskernya, lalu lepas maskernya."
    },
    "lines": "Cukup gini aja, sekali sobek, sekali tempel, pas dilepas aku ngerasa wajahku lembap banget, tanpa makeup pun berasa glowing."
   },
@@ -61,12 +61,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "拍摄你的手将袋中剩余的精华液挤到手掌。然后，剪辑到你将精华液涂抹在颈部和手背的场景。最后，拍摄你容光焕发的脸，满意地对着镜头微笑。轻松而快速地说出这句话。",
-    "id": "Rekam tanganmu memeras sisa essence dari sachet ke telapak tangan. Lalu, potong ke adegan kamu mengoleskan essence ke leher dan punggung tangan. Terakhir, rekam wajahmu yang glowing, tersenyum puas ke kamera. Ucapkan kalimat dengan santai dan cepat."
+    "zh": "把面膜袋里剩下的精华液挤到手上，然后涂抹到脖子和手背上。",
+    "id": "Peras sisa essence dari sachet ke telapak tangan, lalu oleskan ke leher dan punggung tangan."
    },
    "lines": "Essence-nya banyak banget, sisanya sayang kalau dibuang, oles aja ke leher dan tangan, di rumah sendiri udah kayak spa Korea."
   },
@@ -76,12 +76,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸部干净无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "将面膜盒放在脸颊旁边，面向镜头，然后顽皮地微笑。然后，剪辑到相同的场景，但你的另一只手指向屏幕左下方的“小黄车”。充满活力地发出邀请。",
-    "id": "Pegang kotak masker di samping pipimu, hadapkan ke kamera, dan tersenyum nakal. Lalu, potong ke adegan yang sama, tapi tanganmu yang lain menunjuk ke arah kiri bawah layar untuk keranjang kuning. Ucapkan kalimat dengan bersemangat dan ajakan."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。用一根手指指向屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah."
    },
    "lines": "Di Korea harganya segini, coba lihat harga promo brand-nya sekarang cuma berapa! Klik keranjang kuning di kiri bawah dan cek ya, yang lihat video ini buruan serbu!"
   }

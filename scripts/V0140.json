@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-  "id": "VEIRFOO Purple Tube Tone Up Cream"
+  "id": "VEIRFOO Purple Tube Tone-Up Cream"
  },
  "hook": {
   "zh": "我以为的素颜 vs 我真实的素颜",
-  "id": "Ekspektasi bare face vs Realita bare face"
+  "id": "Ekspektasi muka bare face vs Realita muka bare face"
  },
  "src": "TikTok @nia_sari290",
  "cam": "user",
  "prep": {
-  "zh": "素颜，不化妆；VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）",
-  "id": "Wajah bersih tanpa makeup; VEIRFOO Purple Tube Tone Up Cream (tutup terpasang, label menghadap kamera)"
+  "zh": "产品：VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）。皮肤：素颜，不化妆。",
+  "id": "Produk: VEIRFOO Purple Tube Tone-Up Cream (tutup terpasang, label menghadap kamera). Kulit: muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "先拍一个你晚上在街上穿着整齐化着全妆的样子，然后切换到你在家没化妆的样子，惊讶地开心地笑着，同时摇晃手机。然后，把手机放在三脚架上，涂一点乳霜到手臂上，抹匀，然后看效果。最后，在脸上（额头、鼻子、下巴、脸颊）点五小点乳霜，快速抹匀直到全部吸收，然后满意地微笑。",
-    "id": "Kamu bisa mulai dengan merekam dirimu di jalan saat malam hari, pakai baju rapi dan makeup lengkap, lalu potong ke adegan kamu di rumah tanpa makeup, kaget dan senyum senang sambil menggoyangkan HP. Setelah itu, taruh HP di tripod, oleskan sedikit krim ke lenganmu, ratakan, dan lihat hasilnya. Terakhir, oleskan lima titik kecil krim ke dahi, hidung, dagu, dan pipi, ratakan cepat sampai meresap semua, lalu tersenyum puas."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": ""
   },
@@ -34,12 +34,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "全脸涂好素颜霜，自然提亮",
-    "id": "Seluruh wajah sudah memakai tone up cream, terlihat lebih cerah alami"
+    "zh": "全脸已涂抹素颜霜，肤色提亮。",
+    "id": "Seluruh wajah sudah memakai tone-up cream, warna kulit lebih cerah."
    },
    "do": {
-    "zh": "手机保持在三脚架上。把两只手臂举到脸旁边，一只手臂已经涂了乳霜（看起来更亮），另一只还没有。然后放下手臂，身体前倾，微笑着，慢慢地把脸转向左边和右边。最后，用一只手拿着 VEIRFOO Purple Tube 产品，把手臂伸直向前，然后轻轻摇晃一下。",
-    "id": "HP tetap di tripod. Angkat kedua lenganmu di samping wajah, satu lengan sudah pakai krim (terlihat lebih cerah), satu lengan lagi belum. Lalu turunkan lenganmu, condongkan badan ke depan sambil tersenyum dan pelan-pelan palingkan wajah ke kiri dan kanan. Terakhir, pegang produk VEIRFOO Purple Tube dengan satu tangan, luruskan lenganmu ke depan, dan goyangkan sedikit."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": ""
   }

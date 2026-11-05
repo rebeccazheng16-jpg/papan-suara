@@ -6,14 +6,14 @@
   "id": "VEIRFOO PDRN Twin Eye Cream"
  },
  "hook": {
-  "zh": "眼周抗老，从韩国诊所到家中",
-  "id": "Perawatan mata ala klinik Korea, sekarang bisa di rumah aja!"
+  "zh": "眼周肌肤老化快，用对眼霜是关键",
+  "id": "Area mata cepat tua, pakai eye cream yang tepat itu penting!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，桌面干净，准备好手机、VEIRFOO PDRN 双支眼霜（一支带盖，一支开盖）、空眼霜罐子（7-8个）、国际大牌抗老精华（SK-II, Lancôme, Estée Lauder, Dior等，各一瓶）",
-  "id": "Wajah bersih tanpa makeup. Siapkan HP, VEIRFOO PDRN Twin Eye Cream (satu tube tertutup, satu tube terbuka), 7-8 jar/tube eye cream bekas, dan serum anti-aging merek internasional (SK-II, Lancôme, Estée Lauder, Dior, dll., masing-masing satu botol)."
+  "zh": "素颜，产品空罐，产品包装盒，产品管",
+  "id": "Wajah bersih tanpa makeup, toples krim mata kosong, kotak produk, tube produk"
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "你拿着手机，低头刷屏幕两次，然后抬头看向镜头。用食指揉搓眼角。表情略带烦躁或困惑，然后继续说话。",
-    "id": "Kamu pegang HP, tunduk melihat layar dan swipe ke atas dua kali, lalu angkat kepala ke kamera. Gosok sudut matamu dengan jari telunjukmu. Ekspresi sedikit kesal atau bingung, lalu lanjutkan bicara."
+    "zh": "用手机刷两下，然后用指尖揉搓眼角。",
+    "id": "Scroll HP dua kali, lalu gosok sudut mata dengan jari."
    },
    "lines": "Kamu ngerasa nggak, gara-gara tiap hari main HP, garis halus di ujung mata makin kelihatan? Kelopak mata mulai kendur? Area mata itu kulit paling tipis di wajah, kalau nggak dirawat ya paling cepat tua."
   },
@@ -35,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示桌上用过的眼霜空罐。微微摇头，然后拿起 VEIRFOO PDRN 双支眼霜 的盒子，放在脸颊旁，面向镜头。表情变得更自信。",
-    "id": "Tunjukkan tumpukan jar eye cream bekas di mejamu. Gelengkan kepala sedikit, lalu ambil kotak VEIRFOO PDRN Twin Eye Cream dan pegang di samping pipimu, menghadap kamera. Ekspresi berubah jadi lebih percaya diri."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Eye cream mahal murah udah aku coba semua, ujungnya yang paling worth it ya Twin Eye Cream VEIRFOO dari Korea. Ada eye cream yang cuma pelembab wajah dikemas kecil, dipakai malah bikin bintik putih."
   },
@@ -47,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将 VEIRFOO 盒子放在脸颊旁，然后用食指向上指。目光跟随手指。然后，如果使用三脚架，拍摄你走过店里 VEIRFOO 产品货架的画面（如果有相关库存视频）。回到第一个镜头，双手将 VEIRFOO 盒子放在脸颊旁，说话时身体微微前倾。",
-    "id": "Pegang kotak VEIRFOO di samping pipimu, lalu tunjuk ke atas dengan jari telunjukmu. Ikuti jarimu dengan matamu. Lalu, kalau pakai tripod, rekam dirimu berjalan melewati rak produk VEIRFOO di toko (kalau ada stok video yang relevan). Kembali ke shot pertama, pegang kotak VEIRFOO dengan kedua tangan di samping pipimu, condongkan badan sedikit ke depan saat bicara."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Kalau VEIRFOO emang khusus riset skincare, bahannya beneran royal. BIFIDA itu bahan mahal yang diambil lewat proses fermentasi khusus, di aku, area mata berasa lebih lembap dan terawat."
   },
@@ -59,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示桌上那些奢华的抗老精华瓶。然后，从上方拍摄你的手：打开 VEIRFOO 软管的盖子，然后挤出豌豆大小的乳霜到无名指上。然后，近距离拍摄你的眼部区域：在眼下四点涂抹乳霜，然后轻轻拍打直到吸收并看起来有光泽。",
-    "id": "Tunjukkan botol-botol serum anti-aging mewah di mejamu. Lalu, rekam tanganmu dari atas: buka tutup tube VEIRFOO, lalu pencet sedikit krim seukuran kacang polong ke jari manismu. Lalu, rekam area matamu dari dekat: oleskan krim di bawah mata dalam empat titik, lalu tepuk-tepuk perlahan sampai meresap dan terlihat glowing."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Bahan bintang yang dipakai serum anti-aging kelas atas, di eye cream ini langsung ditulis paling depan di daftar komposisi. Artinya kandungannya paling banyak, jadi di aku hasilnya kerasa."
   },
@@ -68,11 +71,11 @@
    "n": 5,
    "sec": 9,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "如果使用三脚架，拍摄你走进一家韩国美妆店，走过几个人，然后停在 VEIRFOO 产品货架前。然后，回到家里的镜头，将两支 VEIRFOO 软管放在手掌中，置于脸颊旁，另一只手的手指轻触脸颊。对着镜头温暖地微笑。",
-    "id": "Kalau pakai tripod, rekam dirimu berjalan masuk ke toko kecantikan Korea, melewati beberapa orang, lalu berhenti di depan rak produk VEIRFOO. Lalu, kembali ke shot di rumah, pegang dua tube VEIRFOO di telapak tanganmu di samping pipimu, jari-jari tanganmu yang lain menyentuh pipi. Senyum hangat ke kamera."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, Made in Korea asli tercetak langsung di kotaknya. Aku nggak akan rekomendasiin kalau belum aku pakai."
   },
@@ -83,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "坐在梳妆台前，单手托腮，另一只手在旁边做两个小动作。提到‘麻烦’时，摇摇头，微微撅嘴。然后，拍摄你躺在床上，VEIRFOO 盒子清晰可见地放在床头柜上。闭上眼睛，温柔地微笑，然后将双手伸展到头顶上方。慢慢睁开眼睛，然后将脸转向镜头，灿烂地微笑。",
-    "id": "Duduk di meja rias, sandarkan dagu di satu tangan, tangan yang lain membuat dua gerakan kecil di samping. Saat menyebutkan 'ribet', gelengkan kepala dan cemberut sedikit. Lalu, rekam dirimu berbaring di tempat tidur, kotak VEIRFOO terlihat jelas di meja samping tempat tidur. Pejamkan mata dan senyum lembut, lalu regangkan kedua tangan ke atas kepala. Buka mata perlahan, lalu putar wajahmu ke kamera sambil tersenyum cerah."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Dulu aku harus terbang ke Korea buat treatment mata di klinik, bolak-balik ribet, tiket sama hotel aja belasan juta, sekali treatment segini harganya. Sekarang di rumah tinggal oles pagi malam, bahan kelas klinik — coba lihat harganya berapa."
   },
@@ -95,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用右食指笔直向下指，目光跟随手指，同时微笑。然后，左手拿着两支 VEIRFOO 软管放在脸颊旁，右手拿着 VEIRFOO 盒子，轻轻摇晃两次。然后，将两支软管和 VEIRFOO 盒子举到脸颊旁靠近镜头，身体微微前倾，并温暖地看着镜头，同时微笑。",
-    "id": "Tunjuk lurus ke bawah dengan jari telunjuk kananmu, ikuti jarimu dengan matamu sambil tersenyum. Lalu, pegang dua tube VEIRFOO di tangan kirimu di samping pipimu, dan kotak VEIRFOO di tangan kananmu, goyangkan perlahan dua kali. Lalu, angkat kedua tube dan kotak VEIRFOO dekat ke lensa di samping pipimu, condongkan badan sedikit ke depan, dan tatap kamera dengan hangat sambil tersenyum."
+    "zh": "展示产品，正面标志始终面向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Mau mata menawan kayak cewek Korea? Satu box isi dua tube, pas buat satu periode, dipakai sendiri atau dikado sama-sama enak. Rutin sampai habis, aku sendiri ngerasa bedanya. Klik keranjang kuning, buruan cobain!"
   }

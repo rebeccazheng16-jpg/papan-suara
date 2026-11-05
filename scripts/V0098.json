@@ -2,18 +2,18 @@
  "id": "V0098",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "光感奢润绵密洁面乳 (VEIRFOO Cloud Cleanser)",
+  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
-  "zh": "油皮和黑头肌的洗脸解决方案",
-  "id": "Solusi cuci muka buat kulit berminyak dan komedoan"
+  "zh": "油皮、黑头、防晒霜都能洗干净",
+  "id": "Solusi buat kulit berminyak, komedo, dan sisa sunscreen"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "准备 VEIRFOO Cloud Cleanser 洗面奶，一条毛巾，还有一支普通的洗面奶做对比。需要素颜出镜。",
-  "id": "Siapin VEIRFOO Cloud Cleanser, handuk muka, sama satu sabun muka biasa buat perbandingan. Muka harus bersih tanpa makeup ya."
+  "zh": "VEIRFOO 云洗面奶，一条干净的毛巾，素颜。",
+  "id": "VEIRFOO Cloud Cleanser, handuk bersih, wajah tanpa makeup."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 15,
    "talk": true,
    "face": {
-    "zh": "脸上带油光",
-    "id": "Muka dalam kondisi berminyak"
+    "zh": "脸上有油光",
+    "id": "Muka lagi berminyak"
    },
    "do": {
-    "zh": "这是一个快速剪辑的片段，所以你需要表演好几个小动作。首先，脸上带点油光，对着镜头说第一句话。然后，假装脸上有泡沫，用手在脸上打圈。接着，假装洗干净了，用手指按一下鼻子旁边，说第二句话。重复这个“有泡沫”和“洗干净”的动作，根据台词做不同的表情和手势。最后几句是画外音，你可以只做动作，不用开口说话。",
-    "id": "Ini segmen yang potongannya cepat, jadi kamu perlu akting beberapa adegan kecil. Pertama, muka agak minyakan, ngomong baris pertama ke kamera. Terus, pura-pura muka lagi penuh busa, pakai tangan gerak muter di pipi. Abis itu, pura-pura muka udah bersih, tekan jari di samping hidung sambil ngomong baris kedua. Ulangi adegan 'berbusa' dan 'bersih' ini sambil ganti-ganti ekspresi dan gerakan tangan sesuai dialog. Beberapa kalimat terakhir itu voice-over, jadi kamu cukup akting tanpa ngomong."
+    "zh": "这是一个快速剪辑。分开录制几个短片：1. 油性皮肤。 2. 满脸泡沫洗脸。 3. 洗完后的干净皮肤。",
+    "id": "Ini montase cepat. Rekam beberapa klip pendek terpisah: 1. Muka berminyak. 2. Muka penuh busa sambil cuci muka. 3. Muka bersih sesudah cuci muka."
    },
    "lines": "Kulit super berminyak? Habis cuci muka, langsung seger. Komedo hitam kecil? Habis cuci muka, berasa lebih bersih. Sunscreen? Digosok beberapa kali, langsung hilang. Kalau kamu cuma sesekali berminyak, cukup pakai malam aja. Tapi kalau minyaknya bikin wajah kusam, ada komedo hitam sama putih, pakai pagi dan malam."
   },
@@ -34,10 +34,13 @@
    "n": 2,
    "sec": 14,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "干净的脸",
+    "id": "Wajah bersih"
+   },
    "do": {
-    "zh": "前两句是画外音，所以你只需要做动作。首先，拿起两支产品，举到脸旁边给镜头看。然后，挤一点产品在手心，用另一只手的手指展示它的质地。接着，脸上涂满泡沫，对着镜头说话，表情要舒服享受。最后，洗干净脸，用手指从鼻子旁边划过，展示皮肤不油了，然后自信地对着镜头说最后一句。",
-    "id": "Dua kalimat pertama itu voice-over, jadi kamu cuma perlu akting. Pertama, ambil dua produknya, pegang di samping muka, tunjukin ke kamera. Terus, pencet sedikit produk ke telapak tangan, pakai jari tangan satunya buat nunjukkin teksturnya. Abis itu, muka udah penuh busa, ngomong ke kamera sambil pasang muka enjoy. Terakhir, muka udah bersih, usap jari dari samping hidung buat nunjukkin udah nggak berminyak, terus ngomong kalimat terakhir dengan pede."
+    "zh": "将两支产品展示在脸旁。然后，在手掌上展示产品质地。",
+    "id": "Tunjukkan kedua produk di samping wajah. Lalu, perlihatkan tekstur produk di telapak tangan."
    },
    "lines": "Ini dia, VEIRFOO Cloud Cleanser dari Korea, yang dipakai di klinik-klinik kecantikan. Teksturnya krim putih susu, lembut banget. Di muka rasanya empuk, nyaman banget. Di dalamnya ada tiga surfaktan asam amino yang lembut, cepat ngangkat minyak dan kotoran di pori-pori."
   },
@@ -47,8 +50,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "前两句是画外音。首先，在手上搓出丰富的泡沫，展示泡沫很绵密，不会掉下来。然后，展示普通洗面奶的泡沫，很快就变成水了。接着，脸洗干净，把产品举到脸旁边，指着上面，好像要宣布大新闻一样说话。最后，用两只手拿着产品，指着它，自信地微笑说出最后一句。",
-    "id": "Dua kalimat pertama itu voice-over. Pertama, buat busa yang banyak di tangan, tunjukin busanya padat dan nggak jatuh. Terus, tunjukkin busa dari sabun muka biasa yang cepat cair. Abis itu, muka udah bersih, pegang produk di samping muka, tunjuk ke atas seolah-olah mau kasih pengumuman penting sambil ngomong. Terakhir, pegang produk pakai dua tangan, tunjuk produknya, dan ngomong kalimat terakhir sambil senyum pede."
+    "zh": "在手中搓出大量泡沫，展示泡沫很绵密不会掉落。然后将产品拿在脸旁。",
+    "id": "Buat busa yang banyak di tangan, tunjukkan busanya padat dan tidak jatuh. Lalu pegang produk di samping wajah."
    },
    "lines": "Yang paling aku suka itu busanya — tambah sedikit air, digosok langsung jadi busa tebal kayak awan. Beda sama busa sabun muka biasa yang kasar dan cepat kempes. Kandungannya lebih gila lagi: Bifida Ferment yang dipakai brand-brand mewah, di sini ada di urutan kedua!"
   },
@@ -56,13 +59,10 @@
    "n": 4,
    "sec": 9,
    "talk": true,
-   "face": {
-    "zh": "脸上还留着一点泡沫",
-    "id": "Muka masih ada sisa busa sedikit"
-   },
+   "face": null,
    "do": {
-    "zh": "首先，把产品举到脸旁边，用手指指着上面的 PDRN 标签说话。然后，脸上还留着一点泡沫，用毛巾轻轻地把泡沫按掉，不要用力擦。最后，脸已经完全干净了，用手感受一下脸颊的柔软，对着镜头微笑说最后一句。",
-    "id": "Pertama, pegang produk di samping muka, tunjuk label PDRN di kemasan sambil ngomong. Terus, di muka masih ada sisa busa, pakai handuk ditepuk-tepuk pelan buat angkat busanya, jangan digosok. Terakhir, muka udah bersih total, sentuh pipi buat ngerasain halusnya, sambil senyum dan ngomong kalimat terakhir ke kamera."
+    "zh": "将产品拿在脸旁，指着 PDRN 标签。然后用毛巾轻拍脸，并触摸脸颊以显示皮肤有弹性。",
+    "id": "Pegang produk di samping wajah dan tunjuk label PDRN. Lalu, tepuk-tepuk wajah dengan handuk, dan sentuh pipi untuk menunjukkan kulit terasa kenyal."
    },
    "lines": "Ada juga PDRN, bahan perawatan mewah dari ekstrak salmon — jadi bersih, dan buatku kulit kerasa lebih lembap. Habis cuci muka, kulitku berasa halus, lembut, empuk, kelihatan bersih dan cerah."
   },
@@ -70,13 +70,10 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "face": {
-    "zh": "刚洗完的干净脸",
-    "id": "Muka bersih habis cuci muka"
-   },
+   "face": null,
    "do": {
-    "zh": "首先，脸是刚洗完的状态，对着镜头认真地说话，可以点点脸颊和下巴，表示你说的是真的。然后，拿起两支产品，举在身体两边，对着镜头微笑，说到最后一句时，用手指向下方（指向购物车按钮的位置）。",
-    "id": "Pertama, kondisi muka bersih abis cuci muka, ngomong ke kamera dengan serius, bisa sambil ketuk-ketuk pipi atau dagu buat meyakinkan. Terus, angkat dua produknya, pegang di samping badan, sambil senyum ke kamera. Pas kalimat terakhir, tunjuk ke arah bawah (ke arah keranjang kuning)."
+    "zh": "将两支产品拿在脸旁，在最后一句话时，手指向下。",
+    "id": "Pegang kedua produk di samping wajah, lalu di akhir kalimat, tunjuk ke arah bawah."
    },
    "lines": "Cocok banget buat kulit berminyak — bersih, tapi nggak ketarik. Kalau kamu udah pernah coba, beneran nggak bakal lirik yang lain. Mumpung promonya masih ada, checkout di keranjang kuning di bawah, lebih hemat!"
   }

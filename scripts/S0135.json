@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI sheet mask PDRN"
+  "id": "SICENARI PDRN 9,900ppm Masker Wajah"
  },
  "hook": {
-  "zh": "蛇姨没疯🐍「小破面霜」居家素颜分肤质讲用法",
-  "id": "Masker receh ini nih..."
+  "zh": "平价面膜，贵妇效果",
+  "id": "Masker murah, hasil mewah"
  },
  "src": "抖音 蛇姨没疯🐍",
  "cam": "user",
  "prep": {
-  "zh": "素颜，头发扎成丸子头，睡衣，SICENARI 袋装面膜（21片装）",
-  "id": "Wajah bersih tanpa makeup, rambut diikat, pakai piyama. Siapkan masker SICENARI kemasan pouch (isi 21 lembar)."
+  "zh": "素颜，头发扎成丸子头；准备好 SICENARI 袋装面膜（未开封）",
+  "id": "Wajah bersih tanpa makeup, rambut diikat cepol; siapkan masker SICENARI (masih tertutup rapat)."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "举起面膜袋到脸颊旁边，开始说话。然后放下面膜袋，用一根手指轻点鼻翼、脸颊和嘴角，像在指出问题区域。眼睛可以看向旁边，不要一直盯着镜头。",
-    "id": "Angkat pouch masker ke samping pipi, lalu mulai bicara. Turunkan pouch, lalu pakai satu jari untuk menunjuk sisi hidung, pipi, dan sudut mulut, seperti menunjukkan area masalah. Matamu bisa melihat ke samping, jangan terus menatap kamera."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后用手指轻点鼻翼、脸颊和嘴角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu sentuh pelan hidung, pipi, dan sudut bibir."
    },
    "lines": "Masker receh ini nih... Tiap hari kena AC, wajah makin kering. Kulit berminyak sering ngerasa luarnya berminyak tapi dalamnya kering... wajahnya mengkilap, tapi pinggirnya ngelupas, sekali makeup langsung cakey."
   },
@@ -33,10 +36,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "举起打开的面膜袋到脸颊旁边，开始说话。用另一只手从袋子里拿出一片面膜，让精华液滴回袋子里。然后放下袋子和面膜，用指尖轻拍脸颊和鼻翼上的精华液。眼睛可以看向旁边，不要一直盯着镜头。",
-    "id": "Angkat pouch masker yang sudah terbuka ke samping pipi, lalu mulai bicara. Pakai tangan yang lain untuk mengambil selembar masker dari dalam pouch, biarkan essence menetes kembali ke pouch. Lalu turunkan pouch dan masker, pakai ujung jari untuk menepuk-nepuk essence di pipi dan sisi hidung. Matamu bisa melihat ke samping, jangan terus menatap kamera."
+    "zh": "展示已开封的产品，从袋中取出一片面膜，让精华液滴落回袋中。然后用指尖轻拍精华液到脸颊和鼻翼。",
+    "id": "Tunjukkan produknya yang sudah dibuka, ambil satu lembar masker, biarkan essence menetes kembali ke dalam kemasan. Lalu tepuk-tepuk essence ke pipi dan hidung."
    },
    "lines": "Siang hari nggak usah pakai... malam sebelum tidur pakai selembar. Essence-nya banyak banget, bagian yang kering, ngelupas, minyaknya nggak stabil... tepuk satu lapis lagi."
   },
@@ -45,10 +51,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "一只手举到下巴旁边，边说话边慢慢弯下手指计数。然后放下手，停顿一下。再用双手手掌轻轻按压和轻拍脸颊两次，然后放下手。稍微倾斜脸部，让脸颊骨上出现柔和的自然光泽。",
-    "id": "Angkat satu tangan ke samping dagu, lalu tekuk jari satu per satu sambil bicara. Lalu turunkan tangan dan jeda sebentar. Kemudian pakai kedua telapak tangan untuk menekan dan menepuk pipi dua kali dengan lembut, lalu turunkan tangan. Miringkan wajah sedikit agar ada kilau alami di tulang pipi."
+    "zh": "用手指计数，然后用手掌轻拍脸颊两次，并稍微倾斜脸部展示光泽。",
+    "id": "Hitung dengan jari, lalu tepuk-tepuk pipi dua kali dengan telapak tangan, dan miringkan wajah sedikit untuk menunjukkan kilau."
    },
    "lines": "Mau kulit kering, berminyak, atau kombinasi, semuanya cocok. Kalau makeup-mu sering kering dan kurang lembap... pagi pakai selembar sebelum makeup. Habis dilepas, tepuk-tepuk... nggak berminyak, nggak berat, nggak lengket, aku ngerasa glow-nya keluar dari kulitku sendiri."
   },
@@ -57,10 +66,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "举起面膜袋到脸颊旁边，开始说话。然后放下面膜袋，看向旁边，不要盯着镜头，像在回忆。最后几句话时眼睛可以回到镜头。",
-    "id": "Angkat pouch masker ke samping pipi, lalu mulai bicara. Lalu turunkan pouch masker, dan lihat ke samping, jangan menatap kamera, seperti sedang mengingat. Matamu bisa kembali ke kamera di beberapa kata terakhir."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后放下产品，看向旁边。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu letakkan produk dan lihat ke samping."
    },
    "lines": "Dia cuma punya harga yang bikin ketawa... sehari selembar nggak sampai tujuh ribu. Setelah pakai ini, aku baru sadar skincare mahal yang dulu aku beli mungkin cuma penipuan."
   },
@@ -69,10 +81,13 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "举起面膜袋到脸颊旁边，开始说话。然后把面膜袋伸向画面右侧边缘，像要递给画面外的人，同时看向那个方向。再把面膜袋拉回脸颊旁边，用同一只手的手指轻拍一下面膜袋的正面，最后轻轻点头，表情平静。",
-    "id": "Angkat pouch masker ke samping pipi, lalu mulai bicara. Lalu ulurkan pouch masker ke arah tepi kanan frame, seolah menyerahkannya kepada seseorang di luar gambar, sambil melirik ke arah itu. Kemudian tarik kembali ke samping pipi dan tepuk ringan bagian depan pouch dengan ujung jari tangan yang sama, akhiri dengan anggukan kecil yang yakin dan wajah tenang."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后把产品伸向旁边，好像要递给别人，然后收回并轻轻拍打。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu ulurkan produk ke samping seolah memberikannya kepada seseorang, lalu tarik kembali dan tepuk pelan."
    },
    "lines": "Komposisinya nggak usah dipelajari, balik kantongnya, kasih lihat suamimu... dia yang nggak pernah baca komposisi aja ngerti isinya bagus semua."
   }

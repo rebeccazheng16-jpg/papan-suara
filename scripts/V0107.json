@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "面膜没用？那是你没用对！",
-  "id": "Maskeran tiap hari tapi nggak ada hasil? Itu karena kamu belum pakai yang benar!"
+  "zh": "吵架钩子：面膜没用，打针太贵，怎么办？",
+  "id": "Maskeran nggak ngefek, suntik mahal, gimana dong?"
  },
- "src": "",
+ "src": "Dewi",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好VEIRFOO鎏金蛋白膜（盖子盖好），一支笔，一件棒球帽和一件宽松的牛仔衬衫（用来反串男生）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Golden Mask (tutupnya terpasang), satu pulpen, satu topi baseball, dan satu kemeja denim longgar (untuk memerankan karakter cowok)."
+  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，标签朝前）。素颜出镜。",
+  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "看着镜头，用指尖轻触自己的脸颊，然后抬起一只张开的手放在下巴附近，带着不耐烦的表情。用抱怨、快速、充满活力的语调说出这句话。",
-    "id": "Lihat ke kamera, sentuh pipi dengan ujung jari, lalu angkat satu tangan terbuka di dekat dagu dengan ekspresi kesal. Ucapkan kalimat ini dengan nada mengeluh, cepat, dan bersemangat."
+    "zh": "摸脸，然后摊手表示无奈。",
+    "id": "Sentuh pipi, lalu angkat tangan tanda frustrasi."
    },
    "lines": "Eh, aku mau nanya deh. Tiap hari aku maskeran, kok habis dilepas mukaku tetap gini-gini aja? Baru lepas sih glowing dikit, cuci muka, hilang!"
   },
@@ -35,8 +35,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "往下看，好像摄像机下面有人，然后再看向镜头。然后，再次往下看，再看向镜头，在下巴附近用手指计数。用抱怨、快速、充满活力的语调说出这句话，然后更快。",
-    "id": "Lihat ke bawah seolah-olah ada seseorang di bawah kamera, lalu kembali menatap kamera. Lalu, tatap ke bawah lagi dan kembali menatap kamera, hitung dengan jari di dekat dagu. Ucapkan kalimat ini dengan nada mengeluh, cepat, dan bersemangat, lalu lebih cepat lagi."
+    "zh": "先看下方，再看镜头，然后数手指。",
+    "id": "Lihat ke bawah, lalu ke kamera, lalu hitung jari."
    },
    "lines": "Dua lembar?? Cewek Korea sekali perawatan di klinik, glowing-nya tahan seminggu! Aku maskeran sebulan, nggak ada hasilnya sama sekali! Bang! Sekali suntik jutaan! Sakit, terus mukanya merah bengkak berhari-hari, nggak berani keluar rumah!"
   },
@@ -47,8 +47,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "换上男装：戴棒球帽，穿牛仔衬衫。在下巴附近用手指转动钢笔。往下看钢笔，偶尔瞥一眼镜头。用平淡、懒散、略带轻蔑的语调说出这句话，好像毫不在乎。",
-    "id": "Ganti baju jadi cowok: pakai topi baseball dan kemeja denim. Putar pulpen di antara jari-jari di dekat dagu. Lihat ke bawah ke pulpen, sesekali melirik kamera. Ucapkan kalimat ini dengan nada datar, malas, dan sedikit meremehkan, seolah tidak peduli."
+    "zh": "转笔，耸肩。",
+    "id": "Putar pulpen, angkat bahu."
    },
    "lines": "Ya udah, pakai dua lembar lah, gitu aja repot. Ya udah, suntik skin booster aja sana, gampang kan."
   },
@@ -59,8 +59,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "换上男装：戴棒球帽，穿牛仔衬衫。在下巴附近用手指转动钢笔。带着无聊和不耐烦的表情倾听，稍微翻一下白眼，然后无声地轻轻叹气。",
-    "id": "Ganti baju jadi cowok: pakai topi baseball dan kemeja denim. Putar pulpen di antara jari-jari di dekat dagu. Dengarkan dengan ekspresi bosan dan tidak sabar, putar mata sedikit ke atas, lalu menghela napas pelan tanpa suara."
+    "zh": "转笔，翻白眼，叹气。",
+    "id": "Putar pulpen, putar mata, menghela napas."
    },
    "lines": ""
   },
@@ -71,8 +71,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "倾听摄像机下面的人，难以置信地往下看，然后无声地微微撅嘴并轻轻眨眼。",
-    "id": "Dengarkan seseorang di bawah kamera, tatap ke bawah dengan tidak percaya, lalu cemberut kecil tanpa suara dan berkedip pelan."
+    "zh": "看下方，噘嘴，慢眨眼。",
+    "id": "Lihat ke bawah, cemberut, kedip perlahan."
    },
    "lines": ""
   },
@@ -80,14 +80,14 @@
    "n": 6,
    "sec": 5,
    "talk": false,
-   "broll": true,
+   "broll": false,
    "face": {
-    "zh": "脸上已经敷好一张白色面膜",
-    "id": "Wajah sudah terpasang sheet mask putih"
+    "zh": "脸上敷着白色贴片面膜。",
+    "id": "Wajah sudah memakai sheet mask putih."
    },
    "do": {
-    "zh": "面对摄像机旁边的镜子。轻轻一拉，将白色面膜从额头往下撕掉。下面的皮肤看起来暗沉无光。触摸脸颊，露出失望的表情。",
-    "id": "Hadap ke cermin di samping kamera. Lepaskan sheet mask putih dari dahi ke bawah dengan satu tarikan pelan. Kulit di bawahnya terlihat kusam dan tidak bercahaya. Sentuh pipi dan tunjukkan ekspresi kecewa."
+    "zh": "撕掉面膜，摸脸，表现失望。",
+    "id": "Lepas masker, sentuh pipi, tunjukkan kekecewaan."
    },
    "lines": ""
   },
@@ -97,12 +97,12 @@
    "talk": false,
    "broll": true,
    "face": {
-    "zh": "脸上已经敷好VEIRFOO鎏金蛋白膜，已干透成膜",
-    "id": "Wajah sudah terpasang VEIRFOO Golden Mask yang sudah kering dan membentuk lapisan film"
+    "zh": "脸上敷着VEIRFOO鎏金蛋白膜，已干。",
+    "id": "Wajah sudah memakai VEIRFOO Golden Mask yang sudah kering."
    },
    "do": {
-    "zh": "面对镜头，脸上敷着已干的VEIRFOO Golden Mask。用指尖按压脸颊，以显示面膜已干成一层薄膜。然后，捏住耳朵附近脸颊边缘的薄膜，轻轻向旁边拉。薄膜会以一张薄片的形式剥落，露出下面干净透亮的皮肤。薄膜完全剥落后，用指背触摸脸颊，开心地微笑。",
-    "id": "Hadap kamera dengan wajah tertutup VEIRFOO Golden Mask yang sudah kering. Tekan pipi dengan ujung jari untuk menunjukkan bahwa maskernya sudah mengering menjadi lapisan film. Lalu, cubit lapisan film di tepi pipi dekat telinga dan tarik perlahan ke samping. Film akan terangkat dalam satu lembar tipis, menunjukkan kulit yang bersih dan bercahaya di bawahnya. Setelah film terlepas semua, sentuh pipi dengan punggung jari dan tersenyum senang."
+    "zh": "先轻按脸颊，再从侧面撕掉面膜，最后摸脸微笑。",
+    "id": "Tekan pipi, lalu kelupas masker dari samping, lalu sentuh pipi dan tersenyum."
    },
    "lines": ""
   },
@@ -113,8 +113,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "进入画面，直视镜头，在下巴附近用小手势打断谈话，带着平静和略带玩味的表情。用轻微的韩语口音，平静、自信、略带坚定的语调说出这句话，就像医生和朋友说话一样。",
-    "id": "Masuk ke dalam frame dan tatap lurus ke kamera, potong pembicaraan dengan lambaian tangan kecil di dekat dagu, dengan ekspresi tenang dan sedikit geli. Ucapkan kalimat ini dengan aksen Korea yang ringan, nada tenang, percaya diri, dan sedikit tegas seperti dokter yang berbicara kepada teman."
+    "zh": "挥手，然后身体前倾。",
+    "id": "Melambaikan tangan, lalu condongkan badan ke depan."
    },
    "lines": "됐어 됐어. Udah, jangan ribut sama dia. Kamu tahu nggak, kenapa cewek Korea habis perawatan bisa glowing seminggu? Langkah terakhirnya, selalu satu lapisan masker."
   },
@@ -125,8 +125,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将VEIRFOO Golden Mask举到脸颊旁，与脸同高，盖子盖好，正面朝向镜头。自信地微笑。用轻微的韩语口音，平静、自信、略带坚定的语调说出这句话，就像医生和朋友说话一样。",
-    "id": "Pegang VEIRFOO Golden Mask di samping pipi setinggi wajah, tutupnya tertutup, bagian depan menghadap kamera. Tersenyum percaya diri. Ucapkan kalimat ini dengan aksen Korea yang ringan, nada tenang, percaya diri, dan sedikit tegas seperti dokter yang berbicara kepada teman."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini dia, VEIRFOO Golden Mask. Lihat, dilepas satu lembar utuh, kayak ngelupas kulit lama."
   },
@@ -137,8 +137,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将VEIRFOO Golden Mask举到脸颊旁，与脸同高，盖子盖好，正面朝向镜头。耐心地解释，清晰、有条理地讲出每一句话。然后，一边解释一边用一根手指轻敲产品盖子。",
-    "id": "Pegang VEIRFOO Golden Mask di samping pipi setinggi wajah, tutupnya tertutup, bagian depan menghadap kamera. Jelaskan dengan sabar, ucapkan setiap kalimat dengan jelas dan berurutan. Lalu, ketuk tutup produk dengan satu jari sambil menjelaskan."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后轻敲产品盖子。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu ketuk tutup produk dengan jari."
    },
    "lines": "Aku kasih tahu ya. Masker lembaran itu serumnya di kain, begitu dilepas, airnya ikut kabur. Yang ini dioles, tunggu tiga puluh, empat puluh menit, dia kering sendiri jadi satu lapisan. Air sama nutrisinya kekunci di kulit, nggak bisa ke mana-mana."
   },
@@ -149,8 +149,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "手放在下巴附近，不要碰到脸。热情而清晰地解释，描绘感受。然后，带着自然、眼神含笑的笑容，诱惑地微笑。",
-    "id": "Tangan di dekat dagu, jangan sentuh wajah. Jelaskan dengan hangat dan jelas, menggambarkan perasaan. Lalu, tersenyum menggoda dengan senyum alami yang mencapai mata."
+    "zh": "双手放在下巴附近，不碰脸。然后微笑。",
+    "id": "Tangan di dekat dagu, jangan sentuh wajah. Lalu tersenyum."
    },
    "lines": "Habis dilepas, coba pegang. Kulitku berasa halus kayak telur kupas, kencang, kayak ketarik ke atas. Pas aku begadang mukaku bengkak kayak bakpao, malamnya maskeran sekali, besoknya teman kantor nanya, kamu habis facial ya? 대박."
   },
@@ -161,8 +161,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "稍微挑起一侧眉毛，好像在纠正一个普遍的误解。然后，自信地将VEIRFOO Golden Mask举到脸颊旁，与脸同高，盖子盖好，正面朝向镜头。",
-    "id": "Angkat satu alis sedikit, seolah mengoreksi mitos umum. Lalu, pegang VEIRFOO Golden Mask di samping pipi setinggi wajah, tutupnya tertutup, bagian depan menghadap kamera, dengan percaya diri."
+    "zh": "抬眉。然后展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Angkat alis. Lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Banyak yang kira oles kolagen bisa nambah kolagen. Jujur ya, molekul kolagen itu besar, nggak bisa masuk. Yang hebat itu PDRN dari salmon di dalamnya, mirip banget sama DNA kita, jadi kulit kenal. Klinik di Korea habis treatment juga pakai bahan sejenis buat recovery."
   },
@@ -173,8 +173,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "将VEIRFOO Golden Mask举到脸颊旁，与脸同高，盖子盖好，正面朝向镜头。坚定而真诚地说。然后，用空闲的手指向画面左下角，并温暖地微笑。",
-    "id": "Pegang VEIRFOO Golden Mask di samping pipi setinggi wajah, tutupnya tertutup, bagian depan menghadap kamera. Ucapkan dengan tegas dan tulus. Lalu, tunjuk ke sudut kiri bawah frame dengan tangan bebas dan tersenyum hangat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。最后指向左下角并微笑。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Terakhir, tunjuk ke kiri bawah dan tersenyum."
    },
    "lines": "Dan ini bukan barang titipan nggak jelas. BPOM, pabrik Korea, importir resmi, semua tercetak di kemasan, cek sendiri. Di Korea, sekali perawatan kulit jutaan, satu tube ini bisa dipakai berkali-kali. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

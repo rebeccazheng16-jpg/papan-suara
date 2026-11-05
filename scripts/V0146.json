@@ -2,18 +2,18 @@
  "id": "V0146",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-  "id": "VEIRFOO Purple Tube"
+  "zh": "VEIRFOO 小紫管素颜霜",
+  "id": "VEIRFOO Purple Tube Tone Up Cream"
  },
  "hook": {
   "zh": "早上睡过头、出门前只剩 5 分钟，一支救场",
-  "id": "Bangun kesiangan, sisa 5 menit sebelum keluar rumah, satu produk ini bisa menyelamatkan!"
+  "id": "Bangun kesiangan, sisa 5 menit sebelum pergi, satu produk ini bisa menyelamatkan!"
  },
  "src": "TikTok @najaetaime",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸部干净无妆，准备好小紫管素颜霜（盖子盖好，标签朝前），腮红膏和唇釉（不需入镜）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Purple Tube (tertutup rapat, label menghadap kamera), blush on cream dan lip gloss (tidak perlu terlihat di kamera)."
+  "zh": "VEIRFOO 小紫管素颜霜 (盖子盖好，标签朝前)。素颜，不化妆。",
+  "id": "VEIRFOO Purple Tube Tone Up Cream (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 13,
    "talk": false,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，不化妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "刚睡醒的样子，眼神看向镜头。拿起产品放在脸颊旁边，盖子盖好，正面朝向镜头。慢慢眨眼，稍微歪头，然后闭着嘴唇微微一笑。然后把产品靠近镜头直到占满半个屏幕，轻轻晃动让表面反射光线。然后在右脸颊点涂三点面霜，用手指抹匀。之后，脸正对镜头，闭着嘴唇微微一笑，让左半边脸未涂面霜和右半边脸已涂面霜的对比明显可见。",
-    "id": "Kamu bisa berpose seperti baru bangun tidur, tatap kamera. Angkat produk di samping pipi, tutupnya tertutup, bagian depan menghadap kamera. Kedipkan mata perlahan, miringkan kepala sedikit, lalu tersenyum tipis dengan bibir tertutup. Lalu dekatkan produk ke kamera sampai memenuhi setengah layar, goyangkan perlahan agar permukaannya memantulkan cahaya. Lalu oleskan tiga titik krim di pipi kanan dan ratakan dengan jari. Setelah itu, hadapkan wajah lurus ke kamera, tersenyum tipis dengan bibir tertutup, biarkan setengah wajah kiri tanpa krim dan setengah wajah kanan dengan krim terlihat jelas perbedaannya."
+    "zh": "展示产品时，产品标志正面始终朝向镜头。用指尖在右脸颊点三点面霜，然后均匀涂开。保持不动，展示半脸对比：左脸是素颜，右脸是涂了面霜的。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pakai ujung jari untuk menaruh tiga titik krim di pipi kanan, lalu ratakan. Diam, tunjukkan perbandingan setengah wajah: sisi kiri wajah polos, sisi kanan wajah sudah pakai krim."
    },
    "lines": ""
   },
@@ -34,12 +37,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "半边脸已涂抹素颜霜，另一半素颜",
-    "id": "Setengah wajah sudah memakai tone-up cream, setengah lagi tanpa makeup"
+    "zh": "右脸颊已涂面霜",
+    "id": "Pipi kanan sudah pakai krim"
    },
    "do": {
-    "zh": "用指尖在左侧脸颊眼下点涂两小点素颜霜，然后用无名指轻-轻拍打均匀。然后稍微歪头，带着开心又调皮的表情，然后抬起一只手的手指捂住嘴巴无声地轻笑，眼睛眯起来，仿佛藏着小秘密。然后涂抹一点蜜桃粉色膏状腮红在右脸颊并抹匀。然后涂抹一点裸粉色唇釉在嘴唇上，然后抿一下嘴唇。最后，拿着产品放在脸颊旁边，盖子盖好，正面朝向镜头。做出嘟着嘴眨一下眼睛的可爱表情。",
-    "id": "Kamu bisa pakai ujung jari untuk menaruh dua titik kecil krim di pipi kiri bagian atas di bawah mata, lalu ratakan dengan jari manis. Lalu miringkan kepala sedikit dengan ekspresi senang dan nakal, lalu angkat jari-jari satu tangan untuk menutupi mulut dan tertawa kecil tanpa suara, matanya menyipit, seolah menyimpan rahasia kecil. Lalu oleskan sedikit blush on cream warna pink-peach ke pipi kanan dan ratakan. Lalu oleskan sedikit lip gloss nude-pink ke bibir dan katupkan bibir sekali. Terakhir, pegang produk di samping pipi, tutupnya tertutup, bagian depan menghadap kamera. Buat ekspresi imut dengan bibir manyun dan mengedipkan mata."
+    "zh": "用指尖在左脸颊眼下点两点面霜，然后轻拍均匀。用指尖轻拍一点腮红在右脸颊苹果肌上，然后用指尖轻拍一点唇釉在嘴唇上。展示产品时，产品标志正面始终朝向镜头。",
+    "id": "Pakai ujung jari untuk menaruh dua titik krim di bawah mata pipi kiri, lalu tepuk-tepuk sampai rata. Pakai ujung jari untuk menepuk sedikit blush di tulang pipi kanan, lalu pakai ujung jari untuk menepuk sedikit lip gloss di bibir. Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": ""
   }

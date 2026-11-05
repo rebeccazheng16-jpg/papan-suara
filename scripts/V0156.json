@@ -2,18 +2,18 @@
  "id": "V0156",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 Hydra Glow Cream",
+  "zh": "VEIRFOO 水光霜 Hydra Glow Cream",
   "id": "VEIRFOO Hydra Glow Cream"
  },
  "hook": {
-  "zh": "没钱也想用好护肤品？",
+  "zh": "没钱但想要好护肤品？",
   "id": "Dompet tipis tapi pengen skincare bagus?"
  },
  "src": "TikTok @veirfooofficialstore",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好产品（盖子拧开），如果用三脚架会更方便。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya dilepas). Kalau pakai tripod akan lebih gampang."
+  "zh": "产品（盖子打开），素颜，无妆。",
+  "id": "Produk (tutupnya dilepas), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无妆。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "看着镜头，把产品直接挤到脸上（脸颊、 鼻子, 额头），然后用另一只手轻拍涂开。语速快，像给朋友推荐好东西。",
-    "id": "Lihat ke kamera. Langsung aplikasikan produk ke pipi, hidung, dan dahi. Lalu gunakan tangan yang lain untuk menepuk-nepuk dan meratakan. Bicara cepat, seperti merekomendasikan sesuatu yang bagus ke teman."
+    "zh": "用产品管口在脸颊、鼻梁和额头画几道乳白色乳液，然后用另一只手拍开。",
+    "id": "Pakai ujung produk untuk menggambar beberapa garis lotion putih susu di pipi, hidung, dan dahi, lalu tepuk-tepuk dengan tangan yang lain."
    },
    "lines": "Kamu sering begadang sampai kulitmu kelihatan kusam dan nggak fresh? Cobain deh pakai ini."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊、鼻子、额头有水光霜",
-    "id": "Pipi, hidung, dan dahi sudah ada Hydra Glow Cream"
+    "zh": "脸颊上已经拍开乳液。",
+    "id": "Lotion sudah meresap di pipi."
    },
    "do": {
-    "zh": "继续轻拍脸颊，然后张开手掌展示发光的皮肤，微笑。然后把产品挤到另一边脸颊，边挤边说成分。最后把产品举到脸旁边，标签朝向镜头。",
-    "id": "Terus tepuk-tepuk pipi, lalu buka telapak tangan untuk menunjukkan kulit yang glowing, sambil tersenyum. Lalu aplikasikan produk ke pipi yang lain sambil menyebutkan bahan-bahannya. Terakhir, pegang produk di samping wajah, label menghadap kamera."
+    "zh": "拍开乳液，然后展示干净的皮肤。接着，用产品管口在另一边脸颊画几道乳白色乳液。最后，将产品正面朝向镜头，举到脸颊旁边。",
+    "id": "Tepuk-tepuk lotion, lalu tunjukkan kulit yang bersih. Selanjutnya, pakai ujung produk untuk menggambar beberapa garis lotion putih susu di pipi yang lain. Terakhir, tunjukkan produknya, logo bagian depan selalu menghadap kamera, di samping pipi."
    },
    "lines": "Aku cuma sekali pakai aja, langsung ngerasa kulitku kelihatan fresh dan glowing banget, bahkan tanpa makeup. Di dalamnya ada Salmon PDRN dan juga White Tomato. Ini premium ingredients yang biasa dipakai di klinik kecantikan Korea."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸颊有水光霜",
-    "id": "Pipi sudah ada Hydra Glow Cream"
+    "zh": "脸颊上已经拍开乳液。",
+    "id": "Lotion sudah meresap di pipi."
    },
    "do": {
-    "zh": "把产品挤到额头，然后用另一只手轻拍涂开，直到完全吸收。然后用拇指和食指比一个“OK”手势，框住脸颊，稍微转动脸，让光线照在皮肤上，再转回来微笑。",
-    "id": "Aplikasikan produk ke dahi, lalu gunakan tangan yang lain untuk menepuk-nepuk dan meratakan sampai meresap. Lalu buat gerakan 'OK' dengan ibu jari dan telunjuk, membingkai pipi, putar sedikit wajah agar cahaya mengenai kulit, lalu kembali tersenyum."
+    "zh": "用产品管口在额头画几道乳白色乳液，然后用另一只手拍开。接着，用手比一个“OK”的手势，框住脸颊，然后稍微转动脸部，让光线照在皮肤上。",
+    "id": "Pakai ujung produk untuk menggambar beberapa garis lotion putih susu di dahi, lalu tepuk-tepuk dengan tangan yang lain. Selanjutnya, buat gerakan tangan “OK” di pipi, lalu putar sedikit wajah agar cahaya mengenai kulit."
    },
    "lines": "Jadinya nggak usah ke klinik, pakai empat belas hari aku ngerasa kulitku kelihatan lebih fresh, lebih glowing. Wah, kulitku kelihatan glowing dan kenyal banget."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸干净，有光泽",
-    "id": "Wajah bersih dan glowing"
+    "zh": "全脸干净，有水润光泽。",
+    "id": "Seluruh wajah bersih dan bercahaya."
    },
    "do": {
-    "zh": "把产品举到脸旁边，标签朝向镜头，微笑。然后保持产品不动，另一只手举起来做“停止”手势，最后指向左下角，俏皮地微笑。",
-    "id": "Pegang produk di samping wajah, label menghadap kamera, sambil tersenyum. Lalu tahan produk tetap di tempatnya, tangan yang lain diangkat membuat gerakan 'stop', lalu tunjuk ke pojok kiri bawah, sambil tersenyum nakal."
+    "zh": "将产品（盖子盖好）正面朝向镜头，举到脸颊旁边。然后，用另一只手做出“stop”的手势，最后指向左下角。",
+    "id": "Tunjukkan produknya (tutupnya sudah terpasang), logo bagian depan selalu menghadap kamera, di samping pipi. Lalu, buat gerakan tangan “stop” dengan tangan yang lain, dan terakhir tunjuk ke arah kiri bawah."
    },
    "lines": "Satu Hydra Glow Cream ini aja udah cukup buat nemenin skincare rutin kamu setiap hari. Bahkan kalian yang punya kulit sensitif juga aman banget ya. Eh guys stop deh, jangan buru-buru beli satuan. Coba cek keranjang kuningku nih."
   }

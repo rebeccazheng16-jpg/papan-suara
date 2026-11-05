@@ -2,18 +2,18 @@
  "id": "V0093",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 VEIRFOO PDRN Cream",
-  "id": "VEIRFOO PDRN Cream"
+  "zh": "VEIRFOO PDRN 水光霜",
+  "id": "VEIRFOO PDRN Blingbling Cream"
  },
  "hook": {
-  "zh": "平价水光肌，告别医美",
-  "id": "Kulit glowing ala klinik kecantikan, tapi harga terjangkau!"
+  "zh": "女孩们，爱自己就从护肤开始！",
+  "id": "Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya."
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好产品（盖子盖好），如果需要，准备一个粉扑和手机。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produk (tutupnya terpasang). Kalau perlu, siapkan spons bedak dan HP."
+  "zh": "素颜，准备好VEIRFOO PDRN水光霜（盖子盖好），一个粉扑，一个手机。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO PDRN Blingbling Cream (tutupnya terpasang), satu spons bedak, dan satu HP."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "举起一只手握拳在脸旁边，假装生气地看着镜头，然后每说一个重音词就向镜头出拳，让画面晃动。说完“自己”后，手放下，露出自嘲的笑容，然后像聊天一样轻松地说下去。说到“光看”时，目光可以稍微移开，耸耸肩。说到“付不起”时，看着镜头，嘴角下垂，然后摇摇头，摊开手，表示无奈。",
-    "id": "Angkat satu tangan mengepal di samping wajah, pasang ekspresi pura-pura kesal ke kamera, lalu setiap ada kata yang ditekankan, pukul ke arah kamera sampai layar bergoyang. Setelah bilang “diri sendiri”, turunkan tangan dan senyum mengejek, lalu bicara santai seperti ngobrol. Saat bilang “nonton doang”, bisa alihkan pandangan sebentar dan angkat bahu. Saat bilang “nggak sanggup bayarnya”, tatap kamera dengan bibir cemberut, lalu gelengkan kepala dan buka tangan tanda pasrah."
+    "zh": "不需要特别的动作，自然就好。",
+    "id": "Tidak ada gerakan khusus, lakukan secara alami."
    },
    "lines": "Emang cewek nggak boleh manjain diri sendiri? Dulu tiap lihat kulit glowing di FYP, aku cuma bisa nonton doang, mikirnya itu mah hasil suntik skinbooster di klinik. Pengin banget punya kulit kayak gitu, tapi jujur aku nggak sanggup bayarnya."
   },
@@ -35,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "第一个镜头，突然想起什么似的，兴奋地凑近镜头，像要告诉朋友一个秘密。说到“到处都是”时，用食指在下巴下方画个小圈，然后指向周围。第二个镜头，把产品举到脸旁边，让产品和脸一起入镜，轻轻转动手腕让产品反光。第三个镜头，把产品拿近一点，另一只手用拇指和食指比出一点点距离，表示价格很便宜，然后挑眉，露出开心的笑容。",
-    "id": "Shot pertama, seolah teringat sesuatu, semangat mendekat ke kamera, seperti mau cerita rahasia ke teman. Saat bilang “di mana-mana”, buat lingkaran kecil di bawah dagu dengan jari telunjuk lalu tunjuk ke sekeliling. Shot kedua, pegang produk di samping pipi, biar wajah dan produk terlihat jelas, putar sedikit pergelangan tangan agar produk memantulkan cahaya. Shot ketiga, pegang produk lebih dekat, lalu pakai ibu jari dan telunjuk tangan lain untuk menunjukkan jarak kecil di produk, isyarat harga murah, lalu angkat alis dengan senyum senang."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Terus belakangan ini kok di mana-mana pada bahas krim yang ini, sampai aku penasaran banget. Ternyata VEIRFOO, brand Korea yang udah masuk Indonesia, dan pas aku cek harganya, aku sanggup. Ya udah aku beli satu buat coba."
   },
@@ -46,12 +49,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤自然，有点暗沉。",
-    "id": "Wajah bersih tanpa makeup, kulit terlihat natural dan sedikit kusam."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "第一个镜头，挤一点乳液到指腹，然后用双手轻拍在脸颊、额头、鼻梁和下巴，沿着皮肤纹理向外推开，避开眼周。第二个镜头，特写脸颊，展示乳液瞬间融化。第三个镜头，用指尖轻按脸颊，然后松开，展示皮肤回弹和光泽，然后自然地挑眉微笑。",
-    "id": "Shot pertama, peras sedikit losion ke ujung jari, lalu tepuk-tepuk lembut dengan kedua tangan di pipi, dahi, batang hidung, dan dagu, ratakan mengikuti tekstur kulit, hindari area mata. Shot kedua, close-up pipi, tunjukkan losion langsung meresap. Shot ketiga, tekan ujung jari ke pipi lalu lepas, tunjukkan kulit membal dan berkilau, lalu angkat alis dan senyum alami."
+    "zh": "涂抹产品时，确保产品 logo 正面始终朝向镜头。",
+    "id": "Saat mengaplikasikan produk, pastikan logo produk selalu menghadap kamera."
    },
    "lines": "Teksturnya tuh ringan banget, dioles langsung meresap, nggak ada sisa putih, nggak lengket sama sekali. Yang bikin aku kaget, baru beberapa detik kulitku berasa udah basah berkilau, kayak habis facial."
   },
@@ -61,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已上妆，皮肤有水光感。",
-    "id": "Sudah pakai makeup, kulit terlihat glowing."
+    "zh": "带妆，底妆是水光肌效果",
+    "id": "Sudah pakai makeup, base makeup-nya glass skin"
    },
    "do": {
-    "zh": "第一个镜头，特写脸颊，用粉扑快速轻拍脸颊，然后用食指轻按脸颊并松开，展示皮肤回弹。第二个镜头，正面特写，稍微侧脸让光线扫过颧骨，然后转回镜头，满意地挑眉。",
-    "id": "Shot pertama, close-up pipi, tepuk-tepuk pipi dengan spons bedak secara cepat, lalu tekan dan lepas pipi dengan jari telunjuk, tunjukkan kulit membal. Shot kedua, close-up wajah, putar wajah sedikit ke samping agar cahaya menyapu tulang pipi, lalu kembali menatap kamera, angkat alis tanda puas."
+    "zh": "不需要特别的动作，自然就好。",
+    "id": "Tidak ada gerakan khusus, lakukan secara alami."
    },
    "lines": "Dan ini rahasianya: pakai ini dulu sebelum foundation, base makeup-nya nyatu banget, nggak cakey, nggak nyangkut di pori. Seharian di luar pun, buatku masih kelihatan glowing, bukan berminyak."
   },
@@ -76,12 +79,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "已上妆，皮肤非常光泽。",
-    "id": "Sudah pakai makeup lengkap, wajah sangat berkilau."
+    "zh": "带妆，脸部高光泽",
+    "id": "Sudah pakai makeup, wajah sangat berkilau"
    },
    "do": {
-    "zh": "双手拿着一支产品在脸旁边，产品正面朝向镜头，挑眉，做出“报价”的表情。然后把产品换到一只手，另一只手拿起手机，屏幕背对镜头，快速向上滑动两次，假装查看价格，然后抬头看镜头，挑眉。放下手机，双手抱起一叠产品，稍微前倾，像向朋友推荐一样自信地微笑。然后空出一只手轻拍胸口两次，表示“对自己好一点”。最后把产品稍微推向镜头，然后用食指指向屏幕下方，真诚地看着镜头，快速说完最后一句，并微笑着点头。",
-    "id": "Pegang satu produk dengan kedua tangan di samping pipi, bagian depan produk menghadap kamera, angkat alis dengan ekspresi “memberi harga”. Lalu pindahkan produk ke satu tangan, tangan lain ambil HP dari meja, layar menghadap menjauh dari kamera, geser ke atas dua kali cepat seolah mengecek harga, lalu tatap kamera dengan sedikit mengangkat alis. Letakkan HP kembali, lalu ambil setumpuk produk dengan kedua tangan dan peluk di samping pipi, condong sedikit ke depan seperti merekomendasikan ke teman dengan senyum percaya diri. Lalu bebaskan satu tangan dan tepuk dada dua kali, isyarat “sayangi diri sendiri”. Terakhir, dorong sedikit tumpukan produk ke arah kamera, lalu tunjuk lurus ke bawah layar dengan jari telunjuk, tatap kamera dengan tulus, dan selesaikan dengan cepat, lalu mengangguk kecil sambil tersenyum."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Di Korea satu tube kayak gini harganya segini. Di sini? Coba kamu cek sendiri sekarang, beda jauh banget. Cewek yang tahu cara memanjakan diri, lebih gampang jadi versi terbaiknya. Keranjang kuningnya udah aku cariin buat kalian ya, mulai sayangi diri sendiri dari sekarang!"
   }

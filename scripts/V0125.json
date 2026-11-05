@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "连Shannon她们都在用，反向警告，嫩到掐出水",
-  "id": "Shannon dan yang lain aja pakai, awas jangan pakai sembarangan, kulit jadi lembut banget dicubit keluar air"
+  "zh": "连 Shannon 她们都在用",
+  "id": "Shannon dan yang lain aja pakai VEIRFOO"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "素颜，备好产品（盖子盖好，标签朝前），湿毛巾",
-  "id": "Wajah bersih tanpa makeup, siapkan produk (tutupnya terpasang, label menghadap kamera), handuk basah"
+  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）。道具：湿毛巾一条（纯白，无字）。皮肤：素颜，无妆。",
+  "id": "Produk: VEIRFOO Bubble Cleanser (tutup terpasang, label menghadap kamera). Alat: Handuk basah putih polos. Kulit: Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，把产品举到脸旁边，盖子盖好，标签朝前，对着镜头微笑，像跟朋友聊天一样，说出台词。",
-    "id": "Wajah bersih tanpa makeup, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera. Tersenyum dan tatap kamera seperti sedang cerita ke teman, lalu ucapkan kalimat ini."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka."
   },
@@ -33,10 +36,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，对着镜头，先举起一根手指左右摇晃，像在开玩笑地警告朋友，说出第一句台词。然后换个角度，身体稍微前倾，眉毛稍微抬起，说出第二句台词，最后两个手指轻轻捏一下脸颊，然后露出调皮的笑容。",
-    "id": "Wajah bersih tanpa makeup, tatap kamera. Angkat satu jari telunjuk dan goyangkan perlahan seperti memperingatkan teman sambil ucapkan kalimat pertama. Lalu, ganti sudut kamera, condongkan badan sedikit ke depan, angkat alis sedikit, ucapkan kalimat kedua. Di akhir kalimat, cubit pipi dengan dua jari, lalu tersenyum nakal."
+    "zh": "先用一根手指做出警告的手势，然后换一个角度，用指尖轻捏脸颊。",
+    "id": "Pertama, tunjukkan jari telunjukmu seperti memperingatkan. Lalu, ganti sudut kamera dan cubit pipimu dengan lembut."
    },
    "lines": "Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -45,10 +51,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，把产品举到脸旁边，盖子盖好，标签朝前，对着镜头微笑，说出第一句台词。然后，把产品盖子打开，用一只手按压泵头，把精华液挤到另一只手的手指上，说出第二句台词。接着，把精华液涂抹在湿润的脸上，不要揉搓，让它自己起泡，说出第三句台词。最后，用湿毛巾轻轻擦掉脸上的泡沫，说出第四句台词。",
-    "id": "Wajah bersih tanpa makeup, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera. Tersenyum dan ucapkan kalimat pertama. Lalu, buka tutup produk, tekan pump dengan satu tangan dan keluarkan essence ke jari tangan yang lain sambil ucapkan kalimat kedua. Kemudian, oleskan essence ke wajah yang sudah dibasahi, jangan digosok, biarkan busa muncul sendiri sambil ucapkan kalimat ketiga. Terakhir, gunakan handuk basah untuk membersihkan busa di wajah sambil ucapkan kalimat keempat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。然后，将产品按压一次到指尖。接着，把精华涂在湿润的脸上，让它自己起泡。最后，用湿毛巾擦掉泡沫。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Lalu, pump produk sekali ke ujung jari. Kemudian, oleskan essence ke wajah yang lembap, biarkan berbusa sendiri. Terakhir, bersihkan busa dengan handuk basah."
    },
    "lines": "Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih."
   },
@@ -58,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "刚洗完脸，素颜",
-    "id": "Wajah bersih tanpa makeup, baru selesai cuci muka"
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "素颜，脸部刚洗干净，对着镜头稍微靠近一点，慢慢转动脸颊，让光线照到，然后用手指轻轻滑过脸颊，展示皮肤的平滑，露出满意的笑容，说出第一句台词。然后换个角度，把产品举到脸旁边，盖子盖好，标签朝前，自信地点头，说出第二句台词。",
-    "id": "Wajah bersih tanpa makeup, baru selesai cuci muka. Condongkan badan sedikit ke depan, putar pipi perlahan ke arah cahaya, lalu usap pipi dengan jari untuk menunjukkan betapa halusnya kulit. Tersenyum puas sambil ucapkan kalimat pertama. Lalu, ganti sudut kamera, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera, mengangguk yakin sambil ucapkan kalimat kedua."
+    "zh": "先靠近镜头，把脸颊转向光源，然后用指尖轻抚脸颊。接着，换一个角度，展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Pertama, dekatkan wajah ke kamera, putar pipimu ke arah cahaya, lalu usap pipimu dengan lembut. Lalu, ganti sudut kamera dan tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat."
   },
@@ -72,10 +81,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，对着镜头，先露出一个苦笑，眉毛稍微抬起，像在承认产品很贵，然后自信地点头，说出第一句台词。然后，近距离拍摄鼻翼，展示泡沫，说出第二句台词。接着，近距离拍摄脸颊，用手指按压脸颊，展示皮肤的弹性和柔软，说出第三句台词。",
-    "id": "Wajah bersih tanpa makeup, tatap kamera. Tersenyum kecut dan angkat alis sedikit seperti mengakui harganya mahal, lalu mengangguk yakin sambil ucapkan kalimat pertama. Lalu, rekam close-up hidung yang tertutup busa sambil ucapkan kalimat kedua. Kemudian, rekam close-up pipi, tekan pipi dengan jari untuk menunjukkan kulit yang kenyal dan lembut sambil ucapkan kalimat ketiga."
+    "zh": "先对着镜头说话。然后，换一个角度，展示鼻翼和脸颊上的泡沫。接着，再换一个角度，用指尖轻按脸颊，让皮肤弹回来。",
+    "id": "Pertama, bicara ke kamera. Lalu, ganti sudut kamera dan tunjukkan busa di sisi hidung dan pipimu. Kemudian, ganti sudut kamera lagi dan tekan pipimu dengan jari, biarkan kulitnya membalas."
    },
    "lines": "Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia."
   },
@@ -84,10 +96,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆",
+    "id": "Wajah bersih tanpa makeup"
+   },
    "do": {
-    "zh": "素颜，对着镜头，用手指一个一个地数，像在列举适合的人群，然后张开手掌对着镜头，说出第一句台词。然后，把产品举到脸旁边，盖子盖好，标签朝前，眉毛稍微抬起，像在分享秘密，说出第二句台词。接着，轻轻摇头，露出会心的笑容，说出第三句台词。最后，保持产品不动，用另一只手的手指指向左下角，身体稍微前倾，露出友好推荐的笑容，说出第四句台词。",
-    "id": "Wajah bersih tanpa makeup, tatap kamera. Hitung dengan jari satu per satu seperti menyebutkan siapa saja yang cocok, lalu buka telapak tangan ke arah kamera sambil ucapkan kalimat pertama. Lalu, pegang produk di sebelah pipi, tutupnya terpasang dan label menghadap kamera, angkat alis sedikit seperti berbagi rahasia sambil ucapkan kalimat kedua. Kemudian, gelengkan kepala perlahan dan tersenyum penuh arti sambil ucapkan kalimat ketiga. Terakhir, produk tetap di tempat, jari tangan yang lain menunjuk ke kiri bawah, condongkan badan sedikit ke depan, tersenyum ramah seperti merekomendasikan sambil ucapkan kalimat keempat."
+    "zh": "先用手指计数。然后，换一个角度，展示产品时，产品 logo 正面始终朝向镜头。接着，保持产品在旁边，然后用另一只手指向左下角。",
+    "id": "Pertama, hitung dengan jari. Lalu, ganti sudut kamera dan tunjukkan produknya, logo bagian depan selalu menghadap kamera. Kemudian, tetap pegang produk di samping pipi, lalu tunjuk ke sudut kiri bawah dengan tangan yang lain."
    },
    "lines": "Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
   }

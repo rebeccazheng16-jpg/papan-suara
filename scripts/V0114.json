@@ -2,18 +2,18 @@
  "id": "V0114",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Golden Mask 鎏金蛋白膜",
+  "zh": "鎏金蛋白膜 Golden Mask",
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
   "zh": "贵护肤品真有效",
-  "id": "Skincare mahal memang efektif"
+  "id": "Skincare mahal memang efektif!"
  },
  "src": "TikTok @renny.antonious",
  "cam": "user",
  "prep": {
-  "zh": "素颜，全脸厚涂一层乳白膏体，准备一个上妆刷",
-  "id": "Wajah bersih tanpa makeup, siapkan kuas dan VEIRFOO Golden Mask dengan tutupnya"
+  "zh": "产品：VEIRFOO 鎏金蛋白膜（盖子盖好，标签朝前）。道具：一把刷子（金色手柄，白色刷毛）。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Alat: Kuas (pegangan emas, bulu putih). Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "素颜，全脸厚涂一层乳白膏体",
-    "id": "Wajah bersih tanpa makeup, sudah pakai masker VEIRFOO Golden Mask tebal-tebal"
+    "id": "Wajah bersih, seluruh wajah tertutup lapisan krim putih susu yang tebal"
    },
    "do": {
-    "zh": "素颜，全脸厚涂一层乳白膏体，用指尖慢慢推开，看向镜头。",
-    "id": "Wajah tanpa makeup, sudah pakai masker VEIRFOO Golden Mask tebal-tebal. Kamu bisa pakai jari untuk meratakan masker di pipi sambil melihat ke kamera."
+    "zh": "用指尖把乳霜慢慢涂抹到脸颊",
+    "id": "Oleskan krim perlahan ke pipi dengan ujung jari"
    },
    "lines": ""
   },
@@ -38,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "假装要哭的表情，然后露出自然的笑容。一只手把产品举到脸旁边，向镜头展示。",
-    "id": "Buat ekspresi lucu seperti mau menangis, lalu senyum alami. Angkat produk VEIRFOO Golden Mask di samping pipi, tunjukkan ke kamera sambil bicara."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Sama banget! Aku dari cobain satu tube, sekarang di rumah selalu ada stok yang ini."
   },
@@ -50,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一只手把产品举到脸旁边，向镜头倾斜，然后放下产品，用手势解释。",
-    "id": "Angkat produk VEIRFOO Golden Mask di samping pipi, miringkan sedikit ke kamera. Lalu turunkan produk dan jelaskan sambil menggerakkan tangan di samping dagu."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Ini dia VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak ngefek itu sering bukan karena produknya jelek, tapi bahan aktifnya nggak sempat nempel di kulit."
   },
@@ -62,8 +62,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用刷子把乳霜刷到脸颊上，然后展示全脸涂好面膜的样子，再从脸颊侧面撕下面膜。",
-    "id": "Pakai kuas untuk mengoleskan masker di pipi. Lalu tunjukkan wajah yang sudah tertutup masker kering. Setelah itu, kelupas masker dari samping pipi."
+    "zh": "用刷子把乳霜刷到脸颊上；然后展示全脸的干膜；最后从侧面撕下干膜。",
+    "id": "Oleskan krim ke pipi dengan kuas; lalu tunjukkan seluruh wajah yang sudah kering; terakhir, kelupas masker dari samping."
    },
    "lines": "Cara pakainya dioles pakai kuas ke seluruh wajah, tunggu sampai kering jadi lapisan, bahan aktifnya kekunci terus di kulit, terakhir dikelupas satu lembar utuh."
   },
@@ -74,8 +74,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用手指计算用量，然后把产品举到脸旁边，说出成分。",
-    "id": "Hitung dengan jari kapan kamu pakai masker ini. Lalu angkat produk VEIRFOO Golden Mask di samping pipi dan sebutkan kandungannya."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Dan ini multifungsi banget: sebelum kencan atau sebelum makeup bisa dipakai sekali, habis pakai retinol, habis treatment di klinik, atau habis eksfoliasi juga bisa. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
   },
@@ -86,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用手势抱怨脸部疲惫，然后把产品举到脸旁边，展示发光的脸颊。",
-    "id": "Gerakkan tangan seolah mengeluh tentang wajah yang lelah. Lalu angkat produk VEIRFOO Golden Mask di samping pipi, miringkan wajah sedikit ke arah cahaya untuk menunjukkan kulit yang glowing."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Apalagi habis begadang, pas wajah kelihatan lelah, kusam dan nggak ada glow-nya, oles selapis terus dikelupas, kulitku berasa lebih kencang dan kelihatan glowing, beres."
   },
@@ -98,8 +98,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把产品举到脸旁边，露出自信的笑容，然后用另一只手指向左下角。",
-    "id": "Angkat produk VEIRFOO Golden Mask di samping pipi, senyum percaya diri. Lalu pakai tangan yang lain untuk menunjuk ke arah keranjang kuning di kiri bawah."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Emang sih, ada harga ada kualitas. Di Korea harganya segini loh. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

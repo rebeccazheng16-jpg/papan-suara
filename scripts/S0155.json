@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "毛孔/笑纹/眼下松→每晚睡前用→睡醒更好看",
-  "id": "Pori-pori besar, smile line, atau bawah mata kendur? Pakai ini, besok pagi bangun tidur langsung glowing!"
+  "id": "Pori-pori besar, smile line, bawah mata kendur? Pakai ini sebelum tidur, besok pagi lebih bagus!"
  },
- "src": "TikTok @bungaedelweis04 Glad2Glow PDRN",
+ "src": "TikTok @bungaedelweis04",
  "cam": "user",
  "prep": {
-  "zh": "素颜，SICENARI 袋装面膜（21 片）",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan isi 21 lembar."
+  "zh": "素颜，准备好SICENARI袋装面膜（未开封），一张已开封的SICENARI面膜（已取出面膜纸），一张SICENARI面膜纸（湿的，已展开）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker Sicenari kemasan utuh, satu kemasan yang sudah dibuka, dan satu lembar masker basah yang sudah dibuka."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "看着镜头，用一根手指轻点鼻翼、法令纹、眼下，然后把面膜袋子举到下巴旁边，袋子底部出画，袋子顶部和嘴巴齐平，袋子正面朝向镜头，脸保持在画面中央，不被袋子挡住。活泼随意地说话，说完最后几个字时，自然地微笑并点头。",
-    "id": "Lihat ke kamera, tunjuk ringan di samping hidung, lalu di garis senyum, lalu di bawah mata. Angkat kantong masker ke samping dagu, bagian bawah kantong keluar dari frame, bagian atas sejajar dengan mulut, bagian depan kantong menghadap kamera. Wajah tetap di tengah, tidak tertutup kantong. Bicara dengan semangat dan santai, lalu senyum dan anggukkan kepala di akhir."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Pori-pori besar, smile line mulai ada garis halus, atau bawah mata udah mulai kendur? Cobain deh pakai ini. Ini masker Sicenari dari Korea, sekantong isinya dua puluh satu lembar."
   },
@@ -33,10 +36,13 @@
    "sec": 11,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "看着镜头，一只手把面膜袋子举到下巴旁边，袋子底部出画，袋子顶部和嘴巴齐平，袋子正面朝向镜头，脸保持在画面中央，不被袋子挡住。另一只手的食指轻点袋子上的“PDRN 9,900ppm”字样两次，然后过几秒再点一次。说话时要清晰地念出数字。",
-    "id": "Lihat ke kamera, satu tangan memegang kantong masker di samping dagu, bagian bawah kantong keluar dari frame, bagian atas sejajar dengan mulut, bagian depan kantong menghadap kamera. Wajah tetap di tengah, tidak tertutup kantong. Jari telunjuk tangan yang lain mengetuk dua kali tulisan \"PDRN 9,900ppm\" di kantong, lalu beberapa detik kemudian mengetuk sekali lagi. Bicara dengan jelas, terutama saat menyebut angka."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Coba lihat, PDRN di sini sembilan ribu sembilan ratus ppm. Bifida-nya tujuh puluh persen, ada di urutan pertama komposisi, artinya kandungannya paling banyak. Terus ada sepuluh D hyaluronic acid, kolagen, sama niacinamide juga."
   },
@@ -45,10 +51,13 @@
    "sec": 6,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "看着镜头，一只手把打开的面膜袋子举到下巴旁边，袋子底部出画，袋子顶部和嘴巴齐平，袋子正面朝向镜头，脸保持在画面中央，不被袋子挡住。另一只手伸进袋子里，捏住一张湿面膜的顶部，慢慢地从袋子里提出来，让精华液滴回袋子里。说话时要温暖随意，语速快。",
-    "id": "Lihat ke kamera, satu tangan memegang kantong masker yang sudah terbuka di samping dagu, bagian bawah kantong keluar dari frame, bagian atas sejajar dengan mulut, bagian depan kantong menghadap kamera. Wajah tetap di tengah, tidak tertutup kantong. Tangan yang lain masuk ke dalam kantong, ambil satu lembar masker basah, lalu angkat perlahan di samping pipi, biarkan essence menetes kembali ke dalam kantong. Bicara dengan hangat dan santai, dengan tempo cepat."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Aku rutin pakai selembar tiap malam sebelum tidur. Lihat deh, pas diambil essence-nya netes terus, banyak banget."
   },
@@ -59,11 +68,11 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "wajah sudah tertutup masker"
+    "id": "pakai masker"
    },
    "do": {
-    "zh": "看着镜头，用指尖轻轻按压眼下、法令纹和额头上的面膜，每次按压都要缓慢轻柔。另一只手放在画面外。说话时要温暖随意，语速快。",
-    "id": "Lihat ke kamera, tekan lembut masker dengan ujung jari di bawah mata, di garis senyum, dan di dahi. Setiap tekanan harus pelan dan lembut. Tangan yang lain tidak terlihat. Bicara dengan hangat dan santai, dengan tempo cepat."
+    "zh": "无",
+    "id": ""
    },
    "lines": "Khususnya di bawah mata, smile line, sama dahi yang rentan banget garis halus, aku tekan-tekan biar nempel."
   },
@@ -74,11 +83,11 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "wajah sudah tertutup masker"
+    "id": "pakai masker"
    },
    "do": {
-    "zh": "看着镜头，用双手从额头到下巴，一次性把整张面膜撕下来，然后把手和面膜放到画面外。面膜撕下后，脸部保持在画面中央，看着镜头，自然微笑。说话时要高兴，语速快。",
-    "id": "Lihat ke kamera, dengan kedua tangan, lepaskan seluruh masker dari dahi ke dagu dalam satu gerakan. Setelah itu, turunkan tangan dan masker keluar dari frame. Setelah masker dilepas, wajah tetap di tengah frame, lihat ke kamera, dan senyum alami. Bicara dengan senang dan cepat."
+    "zh": "无",
+    "id": ""
    },
    "lines": "Dan lihat deh, habis maskeran, baru sebelum tidur aja, aku udah ngerasa kulitku jadi lembap dan glowing banget."
   },
@@ -87,10 +96,13 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "看着镜头，一只手把打开的面膜袋子举到下巴旁边，袋子底部出画，袋子顶部和嘴巴齐平，袋子正面朝向镜头，脸保持在画面中央，不被袋子挡住。然后把袋口朝向镜头倾斜，展示里面的精华液和面膜。另一只手用湿润的指尖沿着下颌线和下巴下方轻拍精华液。说话时要随意，语速快，最后满意地点头。",
-    "id": "Lihat ke kamera, satu tangan memegang kantong masker yang sudah terbuka di samping dagu, bagian bawah kantong keluar dari frame, bagian atas sejajar dengan mulut, bagian depan kantong menghadap kamera. Wajah tetap di tengah, tidak tertutup kantong. Lalu miringkan kantong ke arah kamera untuk menunjukkan essence dan masker di dalamnya. Tangan yang lain mengoleskan sedikit essence di sepanjang garis rahang dan di bawah dagu. Bicara dengan santai dan cepat, lalu anggukkan kepala dengan puas."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Aku kasih lihat dalamnya ya. Sekantong penuh masker, semuanya kerendam essence, bawahnya masih banyak banget, sekalian aku pakai ke leher. Sehari pakai selembar nggak sampai tujuh ribu."
   },
@@ -99,10 +111,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "看着镜头，身体稍微靠近镜头，用一根手指轻点鼻翼，然后点眼下，然后放下手。然后把面膜袋子举到下巴旁边，袋子底部出画，袋子顶部和嘴巴齐平，袋子正面朝向镜头，脸保持在画面中央，不被袋子挡住。另一只手指向画面左下角。说话时要精神饱满，语速快，最后微笑。",
-    "id": "Lihat ke kamera, condongkan sedikit badan ke depan, tunjuk ringan di samping hidung, lalu di bawah mata, lalu turunkan tangan. Angkat kantong masker ke samping dagu, bagian bawah kantong keluar dari frame, bagian atas sejajar dengan mulut, bagian depan kantong menghadap kamera. Wajah tetap di tengah, tidak tertutup kantong. Tangan yang lain menunjuk ke sudut kiri bawah frame. Bicara dengan semangat dan cepat, lalu senyum di akhir."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Nih lihat, aku baru bangun tidur, aku ngerasa pori-poriku keliatan lebih samar dikit, bawah mata juga nggak sekendur kemarin. Kalau kamu mau lembap glowing tanpa ribet, klik keranjang kuning di kiri bawah, cobain masker Sicenari ini ya!"
   }

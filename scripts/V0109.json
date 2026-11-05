@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
-  "id": "VEIRFOO Purple Tube Tone-Up Cream"
+  "id": "VEIRFOO Purple Tube"
  },
  "hook": {
-  "zh": "新品发布：小紫管素颜霜",
-  "id": "Produk baru: VEIRFOO Purple Tube Tone-Up Cream"
+  "zh": "新品发布，手持产品展示",
+  "id": "Pengumuman produk baru, tunjukkan produknya"
  },
  "src": "TikTok @helomei6",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO小紫管素颜霜（盖子盖好，标签朝前）。",
-  "id": "Produk: VEIRFOO Purple Tube Tone-Up Cream (tutup terpasang, label menghadap kamera)."
+  "zh": "VEIRFOO 小紫管素颜霜（盖子盖好，标签朝前）。",
+  "id": "VEIRFOO Purple Tube (tutupnya terpasang, label menghadap ke depan)."
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "用一只手拿着产品，标签朝前，在胸前慢慢转动产品，让光线照在管身。在视频中间，用拇指轻敲管身两次。最后两秒把产品稍微靠近镜头。",
-    "id": "Pegang produk dengan satu tangan, label menghadap depan. Putar perlahan produk di depan dada supaya pantulan cahaya terlihat di tube. Di tengah video, ketuk tube dua kali dengan jempol. Dua detik terakhir, dekatkan sedikit produk ke kamera."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。用一只手拿着产品，慢慢地左右转动，让光线照在管身。在中间部分，用拇指轻敲管身两次。最后两秒，将管身稍微靠近镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Pegang produk dengan satu tangan, putar perlahan ke kiri dan ke kanan agar cahaya mengenai permukaannya. Di tengah-tengah, ketuk ringan produk dua kali dengan jempol. Dua detik terakhir, dekatkan produk sedikit ke lensa."
    },
    "lines": ""
   }

@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "masker Korea Sicenari"
+  "id": "Masker Korea Sicenari"
  },
  "hook": {
   "zh": "熬夜+晒一天 → 哐哐去敷",
-  "id": "begadang + seharian kena matahari → langsung pakai masker"
+  "id": "Begadang + seharian kena matahari → langsung pakai masker"
  },
- "src": "抖音 甜久久",
+ "src": "TikTok @tianjiujiu",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好SICENARI袋装面膜（未开封），另外准备一袋已开封的SICENARI面膜，以及一张面膜纸（已浸湿，金黄色），一张面膜纸（已浸湿，白色）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan masker SICENARI kemasan pouch (yang masih tertutup rapat) dan satu pouch lagi yang sudah dibuka. Siapkan juga satu lembar masker yang sudah basah berwarna kuning keemasan, dan satu lembar masker yang sudah basah berwarna putih."
+  "zh": "准备好 SICENARI 袋装面膜（21 片装），确保面膜是湿润的，精华液充足。素颜，脸上无妆。",
+  "id": "Siapkan masker Sicenari kemasan pouch (isi 21 lembar), pastikan maskernya basah dan banyak essencenya. Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,11 +23,11 @@
    "broll": false,
    "face": {
     "zh": "脸上敷着金黄色面膜",
-    "id": "wajah sudah memakai masker berwarna kuning keemasan"
+    "id": "Wajah sudah pakai masker warna kuning keemasan"
    },
    "do": {
-    "zh": "特写镜头，你敷着金黄色面膜，闭着眼睛。两只手从画面上方伸进来，各拿一袋已开封的SICENARI面膜，把乳白色精华倒在面膜上。精华流过的地方，面膜会从黄色变成白色。面膜一直敷在脸上，不要揭掉。然后快速切换场景和服装，每次都从上往下快速揭掉面膜，露出越来越透亮的素颜肌肤。最后一次揭膜回到客厅，露出最透亮的肌肤，看向镜头。",
-    "id": "Ambil video close-up wajahmu yang sudah memakai masker berwarna kuning keemasan, mata terpejam. Dua tangan masuk dari atas frame, masing-masing memegang pouch SICENARI yang sudah terbuka, lalu tuangkan essence putih susu ke masker di wajahmu. Di mana essence menyentuh, masker akan berubah dari kuning menjadi putih. Masker tetap di wajah, jangan dilepas. Lalu, ganti baju dan lokasi dengan cepat, setiap kali lepaskan masker dari atas ke bawah dengan cepat, perlihatkan kulit wajahmu yang semakin cerah. Terakhir, kembali ke ruang tamu, lepaskan masker terakhir, perlihatkan kulit paling cerah, lalu tatap kamera."
+    "zh": "从画面上方倒入乳白色精华液，精华液流过的地方面膜会变白。然后快速揭下四次面膜，每次揭膜后皮肤都更透亮。",
+    "id": "Dari atas, tuang essence putih susu ke masker di wajah. Masker akan berubah putih di bagian yang terkena essence. Lalu, lepas masker dengan cepat empat kali, setiap kali kulit terlihat lebih cerah."
    },
    "lines": ""
   },
@@ -36,13 +36,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "特写镜头，你坐在沙发上，看着镜头，一只手在下巴旁边轻轻比划，充满活力地讲述。然后快速切换到另一侧的特写镜头，你把SICENARI面膜袋举到脸颊旁边，介绍品牌。",
-    "id": "Ambil video close-up wajahmu di sofa, tatap kamera, satu tangan bergerak ringan di samping dagu, bicara dengan semangat. Lalu, potong cepat ke sisi lain, angkat pouch masker SICENARI yang berat di samping pipimu dan sebutkan namanya."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Musim hujan gini, kalau kamu masih begadang tiap malam, siangnya seharian kena udara lembap di luar, wajah kelihatan kusam terus, wajib coba masker Korea Sicenari ini!"
   },
@@ -51,13 +48,10 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "特写镜头，SICENARI面膜袋放在沙发垫上，你用一只手轻拍袋子，袋子会晃动。然后快速切换到你的特写镜头，你举起一根手指，满意地微笑。",
-    "id": "Ambil video close-up pouch masker SICENARI yang diletakkan di bantal sofa, satu tangan menepuk-nepuk pouch yang menggembung. Lalu, potong cepat ke close-up wajahmu, angkat satu jari telunjuk di samping dagu dengan senyum puas."
+    "zh": "轻拍面膜袋，然后举起一根手指。",
+    "id": "Tepuk-tepuk kemasan masker, lalu angkat satu jari."
    },
    "lines": "Satu kantong isinya dua puluh satu lembar, dihitung-hitung sehari pakai selembar nggak sampai tujuh ribu."
   },
@@ -66,13 +60,10 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "特写镜头，你看着镜头，先是怀疑的表情，然后轻松自信地解释。然后快速切换到产品特写，SICENARI面膜袋靠在沙发垫上，你轻拍袋子。最后快速切换回你的特写，你把面膜袋举到脸颊旁边，自信地点头。",
-    "id": "Ambil video close-up wajahmu di sofa, tatap kamera, awalnya dengan ekspresi ragu, lalu jelaskan dengan santai dan percaya diri. Lalu, potong cepat ke close-up produk, pouch masker SICENARI berdiri di bantal sofa, satu tangan menekan pouch yang menggembung. Terakhir, potong cepat kembali ke close-up wajahmu, angkat pouch masker di samping pipimu, lalu mengangguk kecil dengan percaya diri."
+    "zh": "轻拍面膜袋，然后展示产品，产品 logo 正面始终朝向镜头。",
+    "id": "Tepuk-tepuk kemasan masker, lalu tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": "Pasti ada yang bilang, semurah ini emang bagus? Di masker, makin depan urutan bahannya, makin banyak kadarnya. Banyak masker bahan pertamanya cuma air. Bahan pertama Sicenari itu Bifida, sama sekali bukan air, dan di dalamnya juga ada PDRN."
   },
@@ -81,13 +72,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
-   },
+   "face": null,
    "do": {
-    "zh": "特写镜头，你双手拿着SICENARI面膜袋，撕开顶部的封条，然后拉开拉链。然后快速切换到面膜袋内部特写，你用两根手指从里面取出一片面膜，让精华液滴落。再快速切换到面膜袋底部特写，倾斜袋子，展示剩余的精华液。最后快速切换到你的特写，你用指尖轻拍脸颊，展示肌肤的柔软。",
-    "id": "Ambil video close-up pouch masker SICENARI yang dipegang tegak, sobek strip merah di bagian atas, lalu buka zip-lock-nya. Lalu, potong cepat ke close-up bagian dalam pouch yang terbuka, dua jari mengambil satu lembar masker yang terlipat, biarkan essence menetes. Lalu, potong cepat ke close-up bagian bawah pouch yang terbuka, miringkan sedikit agar essence putih susu di dalamnya bergerak. Terakhir, potong cepat ke close-up wajahmu, dua ujung jari menepuk-nepuk pipi dengan lembut."
+    "zh": "撕开面膜袋封条，拉开拉链，取出一片面膜，展示袋底的精华液，然后轻拍脸颊。",
+    "id": "Sobek segel kemasan masker, buka resletingnya, ambil satu lembar masker, tunjukkan essence di dasar kemasan, lalu tepuk-tepuk pipi."
    },
    "lines": "Lihat, begitu kantongnya dibuka, essence-nya banyak banget sampai mau tumpah, satu lembar diangkat netes terus, semuanya meresap ke kulit, kulit sensitif juga bisa pakai."
   },
@@ -96,13 +84,10 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "脸上敷着白色面膜",
-    "id": "wajah sudah memakai masker berwarna putih"
-   },
+   "face": null,
    "do": {
-    "zh": "特写镜头，你舒服地靠在沙发上，敷着白色面膜，闭着眼睛，放松。然后快速切换到你的特写，面膜已取下，你用指尖轻按脸颊，展示肌肤的柔软和弹性，满意地微笑。最后快速切换到另一侧的特写，你一只手拿着SICENARI面膜袋放在脸颊旁边，另一只手指向左下角，温暖地微笑。",
-    "id": "Ambil video close-up dari atas dan samping, kamu bersandar nyaman di sofa, memakai masker putih, mata terpejam, santai. Lalu, potong cepat ke close-up wajahmu, masker sudah dilepas, satu ujung jari menekan pipi dengan lembut, kulitmu yang kenyal dan lembut kembali, kamu tersenyum puas. Terakhir, potong cepat ke close-up dari sisi lain, satu tangan memegang pouch masker SICENARI yang tertutup di samping pipimu, tangan yang lain menunjuk ke sudut kiri bawah, lalu tersenyum hangat."
+    "zh": "脸上敷着面膜，然后揭下面膜，轻按脸颊，最后展示产品并指向左下角。",
+    "id": "Wajah pakai masker, lalu lepas masker, tekan pipi dengan lembut, terakhir tunjukkan produk dan arahkan jari ke kiri bawah."
    },
    "lines": "Kalau semalam tidur kemalaman, besoknya kulit kusam dan lesu, langsung aja tempel masker ini, aku ngerasa wajahku jadi lembut dan kenyal. Klik keranjang kuning di kiri bawah, cobain sekantong dulu!"
   }

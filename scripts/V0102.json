@@ -2,18 +2,18 @@
  "id": "V0102",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "注氧小气泡洁面 Bubble Cleanser",
+  "zh": "注氧小气泡精粹液 VEIRFOO Bubble Cleanser",
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
   "zh": "十个韩女九个在用的泡泡膜",
-  "id": "Bubble mask yang dipakai 9 dari 10 cewek Korea"
+  "id": "Sembilan dari sepuluh cewek Korea pakai bubble mask ini"
  },
- "src": "笑笑",
+ "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO泡泡洁面，湿毛巾。全程素颜。",
-  "id": "VEIRFOO Bubble Cleanser, handuk basah. Muka bersih tanpa makeup sama sekali ya."
+  "zh": "素颜。准备 VEIRFOO Bubble Cleanser 产品，一条湿毛巾，一部手机。",
+  "id": "Muka bersih tanpa makeup. Siapkan produk VEIRFOO Bubble Cleanser, handuk basah, dan handphone."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 8,
    "talk": true,
    "face": {
-    "zh": "脸上涂了一层薄薄的淡黄色啫喱",
-    "id": "Muka sudah diolesi gel kuning tipis-tipis"
+    "zh": "脸上涂了一层薄薄的淡黄色凝胶",
+    "id": "Wajah sudah diolesi gel kuning tipis-tipis"
    },
    "do": {
-    "zh": "看着镜头，让脸上的啫喱自己变成泡沫，同时说第一句话。然后，擦掉泡沫，再录一遍干净的脸，一边摸鼻子和下巴一边说第二句话。",
-    "id": "Lihat ke kamera, biarin gel di muka kamu berubah jadi busa sendiri sambil ngomong kalimat pertama. Setelah itu, usap busanya, terus rekam lagi muka bersih sambil pegang-pegang hidung dan dagu pas ngomong kalimat kedua."
+    "zh": "让泡沫在脸上自己冒出来，然后触摸鼻子和下巴，展示粗糙的皮肤。",
+    "id": "Biarkan busanya muncul sendiri di wajah, lalu sentuh hidung dan dagu untuk menunjukkan kulit yang kasar."
    },
    "lines": "Apa rahasianya? Dioles masih bentuk gel, didiamkan sebentar, langsung jadi busa sendiri! Yang sering makeup, hidung sama dagu kerasa kasar dan bruntusan, kayak ada pasirnya?"
   },
@@ -37,8 +37,8 @@
    "broll": true,
    "face": null,
    "do": {
-    "zh": "第一个镜头可以用你在韩国街上走路的视频片段，同时画外音说第一句话。然后，录你的脸，一边把产品拿在脸颊旁一边说话。最后，只录你的手搓一个普通的洗面奶直到泡沫消失，同时画外音说最后一句话。",
-    "id": "Shot pertama bisa pakai klip jalan-jalan di Korea kalau ada, sambil ngomong kalimat pertama (voiceover). Terus, rekam muka kamu sambil pegang produk di samping pipi dan ngomong. Terakhir, rekam tangan kamu aja meremas sabun muka biasa sampai busanya hilang, sambil ngomong kalimat terakhir (voiceover)."
+    "zh": "第一句旁白时，可以用一段自己日常在外面走路的视频。然后，展示产品。最后，展示普通洗面奶泡沫很快消失的样子。",
+    "id": "Untuk kalimat pertama (voiceover), bisa pakai klip video kamu lagi jalan-jalan di luar. Lalu, tunjukkan produknya. Terakhir, tunjukkan busa sabun muka biasa yang cepat hilang."
    },
    "lines": "Ini dibawain temenku yang sering bolak-balik Korea. Katanya di sana, sepuluh cewek Korea, sembilan pakai ini — VEIRFOO Bubble Cleanser. Sabun cuci muka biasa cuma bersihin permukaan, kotoran di pori-pori tetap nyangkut."
   },
@@ -48,8 +48,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "先只录你的手把产品泵到手心（不用说话）。然后，涂在脸上直到变成厚厚的泡沫，再录你满脸泡沫的样子，一边说话。最后，录你用湿毛巾擦掉泡沫、摸鼻子的样子，一边说最后一句话。",
-    "id": "Pertama, rekam tangan kamu aja lagi pump produk ke telapak tangan (nggak usah ngomong). Terus, olesin ke muka sampai jadi busa tebal, baru rekam muka kamu yang penuh busa sambil ngomong. Terakhir, rekam pas kamu lap busanya pakai handuk basah dan pegang hidung sambil ngomong kalimat terakhir."
+    "zh": "先把凝胶挤在手心，然后涂在脸上，等它自己起泡。泡沫覆盖全脸后，开始说话。说完后，用湿毛巾擦掉，摸一下鼻子。",
+    "id": "Pompa gel ke telapak tangan, lalu oleskan ke wajah dan tunggu sampai berbusa sendiri. Setelah seluruh wajah tertutup busa, baru mulai bicara. Selesai bicara, lap dengan handuk basah, lalu sentuh hidungmu."
    },
    "lines": "Muka dibasahi dulu, oles tipis, tunggu beberapa detik. Busanya muncul sendiri, masuk ke pori-pori, ngangkat minyak sama kotoran yang numpuk. Habis dilap handuk basah, hidungku berasa langsung halus, pori-pori kayak bisa napas lagi."
   },
@@ -59,8 +59,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "这一段一次拍完就好。说话的时候，你可以换换动作：拿着产品指一下、点点头、拍拍脸颊、用手指计数，然后再拿着产品自信地点点头。跟着台词的顺序来做动作就行。",
-    "id": "Ini direkam jadi satu take aja ya. Sambil ngomong, kamu bisa ganti-ganti gaya: pegang produk sambil tunjuk, ngangguk, tepuk-tepuk pipi, hitung pakai jari, terus pegang produk lagi sambil ngangguk yakin. Coba ikutin aja urutan kalimatnya."
+    "zh": "说话时展示产品。",
+    "id": "Tunjukkan produknya sambil bicara."
    },
    "lines": "Bahan nomor satunya Bifida Ferment, posisinya di atas air, banyak serum high-end harga jutaan juga mengandalkan bahan ini. Lembut, kulit sensitif juga aman. Sudah terdaftar BPOM, dibuat di pabrik Korea, importirnya resmi, semua bisa kamu cek sendiri di kemasannya."
   },
@@ -70,8 +70,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "首先，你可以一边说话一边假装在刷手机。然后，只录你的手在手背上按压产品泡沫（这是画外音）。最后，把产品拿到脸颊旁，微笑，一边说话一边指向购物篮的方向。",
-    "id": "Pertama, kamu bisa pura-pura swipe HP sambil ngomong. Terus, rekam tangan kamu aja lagi neken busa produk di punggung tangan (ini voiceover ya). Terakhir, pegang produk di samping pipi, senyum, dan tunjuk ke arah keranjang kuning sambil ngomong."
+    "zh": "先做刷手机的动作。然后，在手背上展示泡沫的质地。最后，拿着产品，用手指指向左下角。",
+    "id": "Pertama, lakukan gerakan swipe di handphone. Lalu, tunjukkan tekstur busanya di punggung tangan. Terakhir, pegang produknya sambil menunjuk ke arah kiri bawah."
    },
    "lines": "Dulu aku sampai ke klinik di Korea, sekali treatment hampir 38 juta. Sekarang tiap minggu bisa facial sendiri di rumah. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
   }

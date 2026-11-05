@@ -2,18 +2,18 @@
  "id": "V0145",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
+  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
   "zh": "男朋友在门口车里等着去吃饭，先洗把脸再出门",
-  "id": "Pacar udah nunggu di mobil buat makan, cuci muka dulu baru berangkat"
+  "id": "Pacar sudah menunggu di mobil untuk makan malam, cuci muka dulu baru pergi"
  },
  "src": "TikTok @天天不懒",
  "cam": "user",
  "prep": {
-  "zh": "素颜，VEIRFOO Cloud Cleanser 洁面乳（盖子盖好，标签朝前）",
-  "id": "Muka bersih tanpa makeup, VEIRFOO Cloud Cleanser (tutupnya tertutup, label menghadap kamera)"
+  "zh": "VEIRFOO Cloud Cleanser 洁面乳，素颜，脸盆里有水，一条干净毛巾",
+  "id": "VEIRFOO Cloud Cleanser, muka polos tanpa makeup, air di wastafel, handuk bersih"
  },
  "shots": [
   {
@@ -23,8 +23,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "把脸浸在水盆里，然后猛地抬起来，脸上都是水珠和两条洁面乳。回头看一眼门外的车，然后对着镜头坏笑。举起洁面乳管子到脸旁边，挤出乳液，在掌心搓出很多泡沫。",
-    "id": "Celupkan muka ke air di wastafel, lalu angkat cepat, muka basah dan ada dua garis cleanser. Lirik mobil di luar pintu, lalu senyum nakal ke kamera. Angkat tube cleanser ke samping muka, pencet keluar lotion, lalu gosok di telapak tangan sampai berbusa banyak."
+    "zh": "从脸盆里猛抬头，脸上带水珠和两道洁面乳。瞟一眼门外的车，然后坏笑。",
+    "id": "Angkat kepala cepat dari wastafel, wajah basah dengan dua garis cleanser di pipi. Lirik mobil di luar pintu, lalu senyum nakal."
    },
    "lines": ""
   },
@@ -33,13 +33,10 @@
    "sec": 11,
    "talk": false,
    "broll": false,
-   "face": {
-    "zh": "脸上涂满泡沫",
-    "id": "Muka penuh busa"
-   },
+   "face": null,
    "do": {
-    "zh": "用两只手轻轻打圈按摩脸上的泡沫，这时门外车灯会闪两下。然后俯身到水盆里，用手捧水泼脸冲洗。用毛巾拍干脸，然后用一根手指轻触脸颊，对着镜头满意地笑。举起洁面乳管子，另一只手指向左下角，然后转身走出大门走向车。",
-    "id": "Pijat busa di muka dengan gerakan melingkar pakai dua tangan, nanti lampu mobil di luar akan berkedip dua kali. Lalu membungkuk ke wastafel, ambil air dengan tangan dan cipratkan ke muka untuk membilas. Keringkan muka dengan handuk, lalu sentuh pipi dengan satu jari, senyum puas ke kamera. Angkat tube cleanser, tangan satunya menunjuk ke kiri bawah, lalu berbalik dan berjalan keluar pintu menuju mobil."
+    "zh": "举起洁面乳到脸旁，挤出乳液，在掌心搓出绵密泡沫。用泡沫在脸上打圈按摩，门外车灯闪两下。俯身用手捧水泼脸，抬头用毛巾按干。凑近镜头摸脸颊，然后举起洁面乳指向左下角。转身走出大门朝车走去。",
+    "id": "Pegang cleanser di samping wajah, keluarkan lotion, gosok di telapak tangan sampai berbusa. Pijat busa di wajah dengan gerakan melingkar, lampu mobil di luar berkedip dua kali. Bungkuk dan cipratkan air ke wajah, lalu keringkan dengan handuk. Dekatkan wajah ke kamera dan sentuh pipi, lalu tunjuk ke kiri bawah dengan cleanser. Berbalik dan berjalan keluar pintu menuju mobil."
    },
    "lines": ""
   }

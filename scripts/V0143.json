@@ -2,18 +2,18 @@
  "id": "V0143",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "VEIRFOO Cloud Cleanser 光感奢润绵密洁面乳",
+  "zh": "光感奢润绵密洁面乳 VEIRFOO Cloud Cleanser",
   "id": "VEIRFOO Cloud Cleanser"
  },
  "hook": {
-  "zh": "等我洗把脸再开",
-  "id": "Tunggu aku cuci muka dulu baru mulai"
+  "zh": "电竞桌前洗脸 零口播",
+  "id": "Cuci muka di meja gaming, tanpa bicara"
  },
  "src": "TikTok @天天不懒",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸上有水珠和两道洁面乳；VEIRFOO Cloud Cleanser 洁面乳（盖子开着入镜）",
-  "id": "Wajah polos, ada tetesan air dan dua garis pembersih di pipi; VEIRFOO Cloud Cleanser (tutupnya terbuka)"
+  "zh": "VEIRFOO 光感奢润绵密洁面乳，一盆清水，素颜，脸上没有化妆。",
+  "id": "VEIRFOO Cloud Cleanser, satu baskom air bersih, muka polos tanpa makeup."
  },
  "shots": [
   {
@@ -21,13 +21,10 @@
    "sec": 10,
    "talk": false,
    "broll": false,
-   "face": {
-    "zh": "脸上挂水珠和两道洁面乳",
-    "id": "Wajah basah dengan tetesan air dan dua garis pembersih di pipi"
-   },
+   "face": null,
    "do": {
-    "zh": "把脸浸在水里，然后快速从盆里抬起头，水从下巴滴落，脸上满是水珠，两道洁面乳依然整齐地留在脸颊上。面无表情地看着镜头，然后稍微抬起眉毛。双手可以放在盆边。然后，将VEIRFOO Cloud Cleanser拿在脸颊旁边，盖子是关着的，标签朝向镜头。自信地微笑。接着，倒着拿VEIRFOO Cloud Cleanser，盖子已经打开，然后挤出一点乳白色乳液到另一只手掌上。之后，将指尖浸入盆里的水，双手掌心互相搓揉，直到手掌间出现浓密的白色泡沫。",
-    "id": "Angkat kepala dari baskom dengan cepat, air menetes dari dagu, wajah penuh tetesan air, dua garis pembersih tetap rapi di pipi. Tatap kamera dengan ekspresi datar, lalu sedikit mengangkat alis. Kedua tangan bisa di tepi baskom. Lalu, pegang VEIRFOO Cloud Cleanser di samping pipi, tutupnya tertutup, label menghadap kamera. Tersenyum percaya diri. Kemudian, pegang VEIRFOO Cloud Cleanser terbalik, tutupnya sudah terbuka, dan peras sedikit losion putih susu ke telapak tangan yang lain. Setelah itu, celupkan ujung jari ke air di baskom, gosok kedua telapak tangan bersama-sama sampai busa putih tebal muncul di antara telapak tangan."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": ""
   },
@@ -36,13 +33,10 @@
    "sec": 11,
    "talk": false,
    "broll": false,
-   "face": {
-    "zh": "脸上覆盖着一层纯白色泡沫",
-    "id": "Wajah tertutup lapisan busa putih bersih"
-   },
+   "face": null,
    "do": {
-    "zh": "脸上覆盖着白色泡沫，用指尖轻轻按摩脸颊、额头、鼻子和下巴上的泡沫。然后，身体前倾到盆上方，用双手捧水，向脸上泼两次。接着，抬起湿漉漉、滴着水的脸对着镜头，用一只手将湿发从额头向后推。之后，打开房间灯，让光线更亮，用指尖触摸脸颊，脸颊感觉光滑、干净、有光泽，满意地微笑。最后，将VEIRFOO Cloud Cleanser拿在脸旁边，盖子是关着的，标签朝向镜头，另一只手指向屏幕左下角。",
-    "id": "Wajah tertutup busa putih, pijat busa dengan ujung jari secara perlahan di pipi, dahi, hidung, dan dagu. Lalu, condongkan badan ke depan di atas baskom, ambil air dengan kedua tangan dan cipratkan ke wajah dua kali. Kemudian, angkat wajah yang basah menetes ke arah kamera, dorong rambut basah ke belakang dari dahi dengan satu tangan. Setelah itu, nyalakan lampu ruangan agar lebih terang, sentuh pipi dengan ujung jari, pipi terasa halus, bersih, dan bercahaya, tersenyum puas. Terakhir, pegang VEIRFOO Cloud Cleanser di samping wajah, tutupnya tertutup, label menghadap kamera, dan tangan yang lain menunjuk ke sudut kiri bawah layar."
+    "zh": "展示产品时，产品 logo 正面始终朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera."
    },
    "lines": ""
   }

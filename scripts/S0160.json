@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-  "id": "SICENARI Sheet Mask"
+  "id": "Sicenari sheet mask"
  },
  "hook": {
-  "zh": "3D皮肤问题小人 × 成分",
-  "id": "Karakter 3D Masalah Kulit x Bahan Aktif"
+  "zh": "3D 皮肤问题小人 × 成分",
+  "id": "Kartun 3D masalah kulit x bahan aktif"
  },
  "src": "TikTok @detektif.kulitsolved Stacey",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI袋装面膜（21片装），素颜，脸部干净无妆",
-  "id": "SICENARI sheet mask pouch (isi 21), wajah bersih tanpa makeup"
+  "zh": "SICENARI 面膜袋装（21 片），素颜，短圆素甲。",
+  "id": "Sicenari sheet mask kemasan isi 21, muka bersih tanpa makeup, kuku pendek dan polos."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊皮肤略暗沉不均",
-    "id": "Wajah bersih, kulit pipi agak kusam dan tidak rata"
+    "zh": "素颜，脸颊。",
+    "id": "Muka bersih, bagian pipi."
    },
    "do": {
-    "zh": "用指尖把面膜敷在脸颊上，轻轻按压，让面膜精华均匀覆盖皮肤。可以看着面膜被按压下去，假装惊讶地说话。",
-    "id": "Tempelkan masker di pipi dengan ujung jari, tekan perlahan agar essence merata. Bisa sambil melihat masker ditekan dan berbicara dengan nada terkejut."
+    "zh": "用指尖将面膜敷在脸颊上，轻轻按压。",
+    "id": "Tempelkan masker di pipi dengan ujung jari, tekan perlahan."
    },
    "lines": "Hah, sumpah kaget. Tau gak kenapa gue betah kusam di pipi lu? Karena belum kena niacinamide ini. Aduh, warna gue tersamarkan."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，鼻翼皮肤略泛红",
-    "id": "Wajah bersih, kulit di sisi hidung agak kemerahan"
+    "zh": "素颜，鼻翼。",
+    "id": "Muka bersih, bagian samping hidung."
    },
    "do": {
-    "zh": "用指尖把面膜敷在鼻翼旁边，轻轻按压，让面膜精华均匀覆盖皮肤。可以看着面膜被按压下去，假装害怕地说话。",
-    "id": "Tempelkan masker di sisi hidung dengan ujung jari, tekan perlahan agar essence merata. Bisa sambil melihat masker ditekan dan berbicara dengan nada panik."
+    "zh": "用指尖将面膜敷在鼻翼上，轻轻按压。",
+    "id": "Tempelkan masker di samping hidung dengan ujung jari, tekan perlahan."
    },
    "lines": "Woi, gawat. Kemerahan di hidung lu bikin gue betah. Tapi ada centella asiatica ini. Rasa seger bantu menenangkan. Gue panik."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，下巴皮肤略干燥",
-    "id": "Wajah bersih, kulit dagu agak kering"
+    "zh": "素颜，下巴。",
+    "id": "Muka bersih, bagian dagu."
    },
    "do": {
-    "zh": "先用指尖轻按敷在下巴的面膜，假装不相信地说话。然后，如果用三脚架，一只手拿着面膜袋，另一只手从袋子里取出一片面膜。最后，回到下巴，注意下巴上的面膜，并用恐慌的语气说话。",
-    "id": "Pertama, tekan lembut masker di dagu dengan ujung jari, berbicara seolah tidak percaya. Lalu, kalau pakai tripod, pegang pouch masker dengan satu tangan, lalu tangan satunya ambil satu lembar masker dari pouch. Terakhir, kembali ke dagu, perhatikan masker di dagu dan berbicara dengan nada panik."
+    "zh": "展示产品，正面标志始终朝向镜头。从包装中取出一片面膜。然后将面膜贴在下巴上。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Angkat satu lembar masker dari kemasan. Lalu tempelkan masker di dagu."
    },
    "lines": "Masa iya sih? Dagu kering gue ketemu hyaluronic acid. Pantesan Sicenari sheet mask viral. Pemakaian rutin, kering gue makin berkurang. Tolong!"
   }

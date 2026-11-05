@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "懒人底妆，告别卡粉暗沉",
-  "id": "Malas makeup tapi mau hasil flawless? Ini solusinya!"
+  "id": "Makeup dasar untuk yang malas, ucapkan selamat tinggal pada cakey dan kusam"
  },
  "src": "TikTok @vinpiglet",
  "cam": "user",
  "prep": {
-  "zh": "素颜，VEIRFOO 呼吸霜，气垫粉扑",
-  "id": "Wajah bersih tanpa makeup, VEIRFOO Breathing Cream, spons bedak (puff)"
+  "zh": "VEIRFOO Breathing Cream (盖子盖好，标签朝前), 气垫粉扑 (VEIRFOO 标志朝前), 干净的脸",
+  "id": "VEIRFOO Breathing Cream (tutupnya terpasang, label menghadap kamera), spons bedak (logo VEIRFOO menghadap kamera), wajah bersih tanpa makeup"
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "干净的脸",
+    "id": "wajah bersih"
+   },
    "do": {
-    "zh": "从第一个画面开始，你已经用粉扑在脸上轻拍粉底液。粉底液的管子不要入画。一边轻拍一边看着镜头说话。说到“不要急着换粉底液”时，粉扑可以在下巴旁边停顿一下，然后继续轻拍。说到三个问题时，可以轻轻点头。",
-    "id": "Dari awal video, kamu sudah menepuk-nepuk wajah dengan spons bedak. Produk foundation-nya jangan terlihat di kamera. Sambil menepuk-nepuk, lihat ke kamera dan bicara. Saat bilang \"jangan buru-buru ganti foundation dulu\", spons bisa berhenti sebentar di samping dagu, lalu lanjut menepuk. Saat menyebutkan tiga masalah, kamu bisa mengangguk pelan."
+    "zh": "用粉扑轻拍脸颊，将粉底液均匀涂抹。",
+    "id": "Dengan spons, tepuk-tepuk pipi untuk meratakan foundation."
    },
    "lines": "Buat kamu yang malas pakai bedak atau nggak sempat makeup di pagi hari, jangan buru-buru ganti foundation dulu. Foundation cakey, kelihatan abu-abu, sorenya belang, masalahnya bukan di foundation-nya, tapi kulit dasar kamu terlalu kering."
   },
@@ -33,10 +36,13 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "已上好底妆的脸",
+    "id": "wajah sudah ter-makeup"
+   },
    "do": {
-    "zh": "从第一个画面开始，你已经把粉底液的管子举到脸旁边，盖子盖好，正面朝向镜头。另一只手拿着粉扑，继续在另一边脸颊和下颌线轻拍。说到产品名字时，把管子稍微倾斜一点给镜头看，清楚地说出产品全名。最后一句可以自信地点头。",
-    "id": "Dari awal video, kamu sudah mengangkat tube foundation di samping pipi, tutupnya tertutup, bagian depan menghadap kamera. Tangan yang lain memegang spons bedak, terus menepuk-nepuk pipi dan rahang. Saat menyebutkan nama produk, miringkan sedikit tube ke arah kamera, dan sebutkan nama lengkap produk dengan jelas. Di kalimat terakhir, kamu bisa mengangguk dengan yakin."
+    "zh": "展示产品，产品标志正面始终朝向镜头。用粉扑轻拍另一侧脸颊和下颌线。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan spons, tepuk-tepuk ringan di pipi dan garis rahang."
    },
    "lines": "Saya sendiri dokter, sehari-hari juga malas full makeup. Jadi saya cuma pakai ini: VEIRFOO Breathing Cream, foundation serum cream dari Korea. Ini memang serum yang bisa dipakai sebagai makeup."
   },
@@ -45,10 +51,13 @@
    "sec": 13,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "已上好底妆的脸",
+    "id": "wajah sudah ter-makeup"
+   },
    "do": {
-    "zh": "粉底液的管子继续举在脸旁边，盖子盖好，正面朝向镜头。另一只手拿着粉扑。说到“半泵”时，可以稍微倾斜一下管子，然后用粉扑在额头和下巴各点一下，再快速轻拍开。点开后，脸上就没有粉底液的痕迹了。说到“看”的时候，脸上已经均匀上好妆，粉扑可以停在脸颊上，然后对着镜头微笑。",
-    "id": "Tube foundation tetap di samping wajah, tutupnya tertutup, bagian depan menghadap kamera. Tangan yang lain memegang spons bedak. Saat bilang \"setengah pump\", kamu bisa memiringkan sedikit tube, lalu menepuk dahi dan dagu dengan spons, dan langsung ratakan dengan cepat. Setelah diratakan, tidak ada lagi bekas foundation di wajah. Saat bilang \"Lihat\", seluruh wajah sudah rata, spons bisa menempel di pipi, lalu tersenyum ke kamera."
+    "zh": "展示产品，产品标志正面始终朝向镜头。用粉扑轻拍额头和下巴，将粉底液均匀涂抹。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan spons, tepuk-tepuk ringan di dahi dan dagu untuk meratakan foundation."
    },
    "lines": "Foundation kamu satu pump, ini setengah pump, campur dulu di punggung tangan ya. Lalu titik-titik di wajah dan ratakan. Lihat, gampang banget diratakan, nggak abu-abu sama sekali, nggak pucat, kulit saya rasanya kelihatan lebih cerah dan lebih bening."
   },
@@ -57,10 +66,13 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "已上好底妆的脸",
+    "id": "wajah sudah ter-makeup"
+   },
    "do": {
-    "zh": "粉底液的管子继续举在脸旁边，盖子盖好，正面朝向镜头。另一只手拿着粉扑，在脸颊上做最后的轻拍。说到PDRN时，把管子稍微倾斜一点给镜头看。每提到一种肤质，就点一次头。说到“自己看”时，把粉扑拿开，慢慢地把脸转向光源，再转回来，展示均匀自然的妆效，然后对着镜头微笑。",
-    "id": "Tube foundation tetap di samping wajah, tutupnya tertutup, bagian depan menghadap kamera. Tangan yang lain memegang spons bedak, melakukan tepukan terakhir di pipi. Saat menyebutkan PDRN, miringkan sedikit tube ke arah kamera. Setiap menyebutkan jenis kulit, anggukkan kepala sekali. Saat bilang \"Lihat sendiri\", lepaskan spons, lalu perlahan putar wajah ke arah cahaya dan kembali, tunjukkan hasil makeup yang rata dan natural, lalu tersenyum ke kamera."
+    "zh": "展示产品，产品标志正面始终朝向镜头。用粉扑轻拍脸颊。然后将粉扑移开，慢慢转动脸部，展示妆容。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan spons, tepuk-tepuk ringan di pipi. Lalu angkat spons dan perlahan putar wajahmu untuk menunjukkan hasil makeup."
    },
    "lines": "Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil makeup kulit ikut dirawat. Kulit kering, kulit sensitif, semua bisa pakai dengan tenang. Menurut saya hasilnya natural, flawless, kulit saya kelihatan glowing dari dalam, sampai malam pun nggak cakey."
   },
@@ -69,10 +81,13 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "已上好底妆的脸",
+    "id": "wajah sudah ter-makeup"
+   },
    "do": {
-    "zh": "粉底液的管子继续举在脸旁边，盖子盖好，正面朝向镜头。说到第一句话时，把管子稍微倾斜一点给镜头看，粉扑可以停在脸颊上。然后，拿着粉扑的手放下到下巴下方，食指指向左下角。对着镜头温暖地微笑，并轻轻点头。",
-    "id": "Tube foundation tetap di samping wajah, tutupnya tertutup, bagian depan menghadap kamera. Saat kalimat pertama, miringkan sedikit tube ke arah kamera, spons bisa menempel di pipi. Lalu, tangan yang memegang spons turun ke bawah dagu, jari telunjuk menunjuk ke pojok kiri bawah. Tersenyum hangat ke kamera, dan mengangguk pelan."
+    "zh": "展示产品，产品标志正面始终朝向镜头。用食指指向屏幕左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan selalu menghadap kamera. Dengan jari telunjuk, tunjuk ke sudut kiri bawah layar."
    },
    "lines": "Di Korea harganya segini loh. Cek keranjang kuning di bawah, sekali checkout kamu bakal tahu sendiri!"
   }
