@@ -150,7 +150,7 @@ button:disabled{cursor:default}
 .tp .tp-row{display:flex;align-items:center;gap:10px;min-height:36px}
 .tp .tp-row>span{flex:none;width:4.2em;font-size:13px;color:var(--mute);font-weight:600}
 .tp .tp-row>b{flex:none;width:3.2em;text-align:right;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:18px;color:var(--red);line-height:1}
-.tp input[type=range]{flex:1;min-width:0;height:32px;margin:0;accent-color:var(--red)}
+.tp input[type=range]{flex:1;min-width:0;height:44px;margin:0;accent-color:var(--red);touch-action:none}   /* touch-action:none：在能滚的卡片里手指拖滑块不被当成滚页面 */
 .tp.dark{position:relative;margin:8px 12px 0;background:rgba(0,0,0,.55);color:#fff}
 .tp.dark .tp-row>span{color:rgba(255,255,255,.8)}
 .tp.dark .tp-row>b{color:#fff}
