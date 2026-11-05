@@ -263,7 +263,7 @@ const ID_RULES = [
   [/在 (\S+) 第 (\d+) 段/, "di $1 bagian $2"], [/在 (\S+) 总览/, "di $1 ringkasan"], [/在 (\S+) 准备页/, "di $1 persiapan"],
   [/^上传 (\S.*)$/, "Upload $1"],
   [/第 (\d+) 段/g, "Bagian $1"],
-  [/在脚本列表/g, "di daftar naskah"], [/在写自己的脚本/g, "sedang nulis naskah sendiri"], [/^达人专属 (\d+)$/, "Khusus kreator $1"], [/^全部 (\d+)$/, "Semua $1"],
+  [/在脚本列表/g, "di daftar naskah"], [/在写自己的脚本/g, "sedang nulis naskah sendiri"], [/^达人专属 (\d+)$/, "Khusus kreator $1"], [/^钩子开头 (\d+)$/, "Kalimat pembuka $1"], [/^全部 (\d+)$/, "Semua $1"],
   [/· 不露脸/g, "· tanpa wajah"], [/· 不说话/g, "· tanpa dialog"],
   [/· 要补拍：/g, "· perlu diulang: "], [/· 要补拍/g, "· perlu diulang"], [/· 已补 ✓/g, "· sudah diulang ✓"],
   [/她改了台词：/g, "Dia ubah dialognya: "], [/派给她的：/g, "Naskah untuk dia: "], [/成片分段：/g, "Bagian video final: "],
@@ -339,10 +339,11 @@ function render() {
 // ----- 脚本库面板 -----
 function libList() {
   const all = Object.values(lib).sort((a, b) => b.id.localeCompare(a.id));
-  return all.filter(s => ui.brand === "all" || (ui.brand === "V" ? /^V/i.test(s.id) : ui.brand === "S" ? /^S/i.test(s.id) : isOwn(s)));
+  return all.filter(s => ui.brand === "all" || (ui.brand === "V" ? /^V/i.test(s.id) : ui.brand === "S" ? /^S/i.test(s.id) : ui.brand === "hk" ? isHook(s) : isOwn(s)));
 }
 const isSelf = s => s.source === "self";                 // 达人自己拆的（owner=达人）
 const isOwn = s => !!s.owner || isSelf(s);                // 「达人专属」chip：专属本 + 她自拆的
+const isHook = s => /^HK-/i.test(s.id);                   // 「钩子开头」chip：头达口播钩子本（HK-MAMA/KANTOR/KULIAH/MAKEUP-NN）
 function libPanel() {
   const list = libList();
   const prods = {}; list.forEach(s => { const k = famKey(s); prods[k] = (prods[k] || 0) + 1; });
@@ -354,6 +355,7 @@ function libPanel() {
       <button class="chip ${ui.brand === "all" ? "on" : ""}" data-brand="all">全部 ${Object.keys(lib).length}</button>
       <button class="chip ${ui.brand === "V" ? "on" : ""}" data-brand="V">VEIRFOO</button>
       <button class="chip ${ui.brand === "S" ? "on" : ""}" data-brand="S">SICENARI</button>
+      <button class="chip ${ui.brand === "hk" ? "on" : ""}" data-brand="hk">钩子开头 ${Object.values(lib).filter(isHook).length}</button>
       <button class="chip ${ui.brand === "own" ? "on" : ""}" data-brand="own">达人专属 ${nOwn}</button>
     </div>
     <div class="chips">${[`<button class="chip ${ui.prod === "all" ? "on" : ""}" data-prod="all">所有产品</button>`].concat(Object.keys(prods).sort((x, y) => prods[y] - prods[x]).map(k => `<button class="chip ${ui.prod === k ? "on" : ""}" data-prod="${esc(k)}">${esc(k)} ${prods[k]}</button>`)).join("")}</div>
