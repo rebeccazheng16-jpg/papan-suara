@@ -322,7 +322,7 @@ function talentCard(t) {
   const where = p ? (p.view === "shot" ? `在 ${p.script} 第 ${p.shot} 段` : p.view === "overview" ? `在 ${p.script} 总览` : p.view === "prep" ? `在 ${p.script} 准备页` : p.view === "scripts" ? "在脚本列表" : p.view === "mine" ? "在写自己的脚本" : "") : "";
   const dev = p ? (/iPhone/.test(p.device) ? "iPhone" : /Android/.test(p.device) ? "Android" : /iPad/.test(p.device) ? "iPad" : "电脑") : "";
   const seenLine = p ? `<span class="seen ${online ? "on" : ""}">${online ? "● 在线" : "○ 最近登录 " + fmtT(p.last)}${where ? " · " + esc(where) : ""} · ${dev} · 登录 ${p.n} 次</span>` : `<span class="tip">还没登录过</span>`;
-  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
+  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人</button></header>
     ${seenLine}
     <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span><button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button></span>`).join("") || `<span class="tip">还没派</span>`}
       <button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
@@ -365,7 +365,7 @@ function bindTalents() {
   $$("[data-del]").forEach(b => b.onclick = async e => { e.stopPropagation(); const n = b.dataset.del.split(",").length;
     if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
   $$("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
-    if (await confirmBox(`删掉 ${b.dataset.delwho} 的全部上传？文件进 Drive 回收站。`, "全部删掉", "取消")) del({ who: b.dataset.delwho }); });
+    if (await confirmBox(`删掉 ${b.dataset.delwho}？上传进 Drive 回收站，派单、登录记录、意见、改的台词、自拆本一起清掉，这个人从页面消失。`, "删掉", "取消")) delTalent(b.dataset.delwho); });
   $$("[data-qset]").forEach(b => b.onclick = () => { const who = b.dataset.qset; const inp = $(`[data-qin="${CSS.escape(who)}"]`); setQuota(who, inp ? inp.value : "", b); });
   $$("[data-qin]").forEach(inp => inp.onkeydown = e => { if (e.key === "Enter") setQuota(inp.dataset.qin, inp.value, $(`[data-qset="${CSS.escape(inp.dataset.qin)}"]`)); });
   $$("[data-notes]").forEach(b => b.onclick = () => { const k = b.dataset.notes.toLowerCase(); ui.notesOpen[k] = !ui.notesOpen[k]; render(); });
@@ -513,6 +513,25 @@ async function del(what) {
   rows = rows.filter(r => !(what.ids ? what.ids.includes(fileId(r.url)) : same(r.who, what.who))); err = ""; render();
   const r = await post(Object.assign({ action: "del" }, what));
   if (!r.ok) { rows = keep; err = r.error === "no key" ? "钥匙不对" : r.error; render(); }
+}
+// 删达人：本地先把她从所有列表里抹掉，再叫后台 deltalent；后台还是旧版（没这个接口）就退回只删上传＋收回派单
+async function delTalent(who) {
+  const snap = { rows, assigns, pres, noteRows, editRows, quotas: JSON.parse(JSON.stringify(quotas)), lib };
+  rows = rows.filter(r => !same(r.who, who));
+  assigns = Object.fromEntries(Object.entries(assigns).filter(([k]) => !same(k, who)));
+  pres = Object.fromEntries(Object.entries(pres).filter(([k]) => !same(k, who)));
+  noteRows = noteRows.filter(n => !same(n.who, who)); editRows = editRows.filter(e => !same(e.who, who));
+  Object.keys(quotas.limits).forEach(k => { if (same(k, who)) delete quotas.limits[k]; }); Object.keys(quotas.used).forEach(k => { if (same(k, who)) delete quotas.used[k]; });
+  lib = Object.fromEntries(Object.entries(lib).filter(([, s]) => !(s.owner && same(s.owner, who))));
+  err = ""; render();
+  const r = await post({ action: "deltalent", who });
+  if (r.ok) return;
+  if (r.error === "unknown action") {   // 旧后台
+    await post({ action: "del", who }); await post({ action: "assign", who, scripts: "" });
+    err = "后台还是旧版：只删了上传和派单，登录记录还在、刷新后这个人还会出现；Apps Script 发新版本后再删一次就干净了。"; render(); return;
+  }
+  rows = snap.rows; assigns = snap.assigns; pres = snap.pres; noteRows = snap.noteRows; editRows = snap.editRows; quotas = snap.quotas; lib = snap.lib;
+  err = r.error === "no key" ? "钥匙不对" : String(r.error || "删除失败"); render();
 }
 document.addEventListener("keydown", e => { if (e.key === "Escape") { const ms = $$(".modal"); if (ms.length) ms[ms.length - 1].remove(); } });
 render();
