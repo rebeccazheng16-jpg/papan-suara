@@ -317,8 +317,19 @@ const topbar = (title, sub, back) => `<div class="topbar">
   ${back ? `<button class="back" id="back" aria-label="${t("back")}">${backIcon}${t("back")}</button>` : ""}
   <div class="ttl">${title}${sub ? `<small>${sub}</small>` : ""}</div>
   <div class="lang" role="group" aria-label="Language"><button data-lang="id" aria-pressed="${lang === "id"}">ID</button><button data-lang="zh" aria-pressed="${lang === "zh"}">中文</button></div></div>`;
+// 登录态：每换一屏悄悄报一次（谁、哪本、第几段、什么手机），审片页达人卡显示「最近在哪」；同一屏 20 秒内不重复报
+let seenKey = "", seenAt = 0;
+function ping() {
+  if (!UPLOAD_URL || !name || view === "login") return;
+  const key = `${view}:${sid}:${cur}`; const now = Date.now();
+  if (key === seenKey && now - seenAt < 20000) return;
+  seenKey = key; seenAt = now;
+  try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "seen", who: name, handle: profile?.handle || "", nick: profile?.name || "", link: profile?.link || "",
+    script: script?.id || "", shot: view === "shot" && script ? script.shots[cur]?.n : (view === "overview" ? "总览" : ""), view, lang, ua: navigator.userAgent }), keepalive: true }); } catch (e) {}
+}
 function render() {
   document.documentElement.lang = lang;
+  ping();
   const fn = { login: renderLogin, scripts: renderScripts, mine: renderMine, prep: renderPrep, shot: renderShot, overview: renderOverview }[view] || renderScripts;
   root.innerHTML = `<div class="screen">${fn()}</div>`;
   $$("[data-lang]").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); render(); });

@@ -66,6 +66,8 @@ button:disabled{cursor:default}
 .talent header b{font-size:17px}
 .talent header a{color:var(--mute);font-size:13px}
 .talent header .del{margin-left:auto;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--mute);min-height:28px;padding-inline:10px;font-size:12px}
+.seen{font-size:13px;color:var(--mute)}
+.seen.on{color:var(--dark);font-weight:600}
 .assigned{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px}
 .assigned .tag{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding:3px 6px 3px 9px}
 .assigned .tag b{font-family:"Barlow Condensed",sans-serif;font-size:15px;font-weight:800}
@@ -145,15 +147,16 @@ function modal(html, wide) {
 
 // ===== 数据 =====
 const root = document.getElementById("root");
-let rows = [], assigns = {}, lib = {}, err = "", loading = false, backendOld = false;
+let rows = [], assigns = {}, lib = {}, pres = {}, err = "", loading = false, backendOld = false;
 const ui = { prod: "all", q: "", open: null, brand: "all" };
 async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
 async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
 async function load() {
   loading = true; err = ""; render();
   try {
-    const [l, a, idx, bl] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
-      fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({}))]);
+    const [l, a, idx, bl, pr] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
+      fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({}))]);
+    pres = {}; (pr?.rows || []).forEach(x => pres[String(x.who).toLowerCase()] = x);
     if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
     rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
     lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = Object.assign({ owner: "", where: "site" }, s));
@@ -188,6 +191,7 @@ function render() {
   rows.forEach(r => { const k = r.who.toLowerCase(); const t = byT[k] ||= { who: r.who, handle: r.handle, nick: r.nick, link: r.link, last: r.time, scripts: {} };
     if (r.time > t.last) t.last = r.time; const sc = t.scripts[r.script] ||= {}; (sc[r.shot] ||= []).push(r); });
   Object.values(assigns).forEach(a => { const k = a.who.toLowerCase(); if (!byT[k]) byT[k] = { who: a.who, handle: "", nick: "", link: "", last: "", scripts: {} }; });
+  Object.values(pres).forEach(x => { const k = String(x.who).toLowerCase(); if (!byT[k]) byT[k] = { who: x.who, handle: x.handle, nick: x.nick, link: x.link, last: "", scripts: {} }; else { byT[k].handle ||= x.handle; byT[k].link ||= x.link; } });
   const talents = Object.values(byT).sort((a, b) => (b.last > a.last ? 1 : -1));
   root.innerHTML = `<h1>达人自录 · 审片<small>${rows.length} 条上传 · ${talents.length} 个达人 · 脚本库 ${Object.keys(lib).length} 本</small>
       <button class="ghost sm" id="reload">${loading ? "读取中…" : "刷新"}</button></h1>
@@ -261,7 +265,13 @@ function talentCard(t) {
   const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
   const ids = scriptIds(a?.scripts);
   const scripts = Object.keys(t.scripts).sort();
-  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">最近 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
+  const p = pres[t.who.toLowerCase()];
+  const online = p && (Date.now() - new Date(p.last).getTime()) < 3 * 60000;
+  const where = p ? (p.view === "shot" ? `在 ${p.script} 第 ${p.shot} 段` : p.view === "overview" ? `在 ${p.script} 总览` : p.view === "prep" ? `在 ${p.script} 准备页` : p.view === "scripts" ? "在脚本列表" : p.view === "mine" ? "在写自己的脚本" : "") : "";
+  const dev = p ? (/iPhone/.test(p.device) ? "iPhone" : /Android/.test(p.device) ? "Android" : /iPad/.test(p.device) ? "iPad" : "电脑") : "";
+  const seenLine = p ? `<span class="seen ${online ? "on" : ""}">${online ? "● 在线" : "○ 最近登录 " + fmtT(p.last)}${where ? " · " + esc(where) : ""} · ${dev} · 登录 ${p.n} 次</span>` : `<span class="tip">还没登录过</span>`;
+  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span><button class="del" data-delwho="${esc(t.who)}">删掉这个达人的全部</button></header>
+    ${seenLine}
     <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span><button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button></span>`).join("") || `<span class="tip">还没派</span>`}
       <button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid])).join("")}</section>`;
@@ -369,7 +379,7 @@ function addScriptDialog(existing) {
       const r = await post({ action: "parse", text, owner: ownerGuess });
       if (!r.ok) throw new Error(r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : r.error);
       draft = r.script; renum(); showPreview();
-      $("#pmsg", m).textContent = r.warn || "拆好了，看一眼再保存";
+      $("#pmsg", m).textContent = (r.warn || "拆好了，看一眼再保存") + (r.quota ? `（今天 ${r.quota} 次）` : "");
     } catch (e) { $("#pmsg", m).textContent = "没拆成：" + (e?.message || e); }
     parseBtn.disabled = false;
   };
