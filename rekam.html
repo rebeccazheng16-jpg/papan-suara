@@ -215,6 +215,7 @@ const store = {
 const I18N = {
   id: {
     appTitle: "Rekam Naskah", hiName: "Hai! Aku <b>Momo</b>. Aku temenin kamu rekam ya, santai aja. Siapa nama kamu?", whoPh: "Nama kamu, atau link TikTok / IG", start: "Mulai", needOne: "Tulis nama atau link dulu ya",
+    needLink: "Masuknya sekarang lewat link khusus dari Rebecca. Minta link rekam kamu ke dia, lalu buka link itu ya.",
     yourScripts: "Naskah kamu", pickOne: "Ini naskah buat kamu. Pilih satu, kita mulai!", noScripts: "Naskah buat kamu belum ada. Kamu bisa tulis sendiri dulu, nanti aku rapikan jadi bagian-bagian.",
     bagian: n => `${n} bagian`, detik: n => `${n} detik`, record: "Buka", continueBtn: "Lanjutin", doneBtn: "Selesai ✓", writeOwn: "Tulis naskah sendiri", changeName: "Ganti nama", mineTag: "naskah kamu sendiri",
     mineTitle: "Naskah saya", mineHi: "Tulis apa yang mau kamu omongin, bebas. Nanti aku rapikan jadi bagian-bagian buat direkam.", minePh: "Halo semua, aku mau cerita soal…", mineParse: "Rapikan jadi naskah", mineEmpty: "Tulis dulu isinya ya", mineBusy: "Lagi aku rapikan, sebentar ya…",
@@ -239,12 +240,13 @@ const I18N = {
     saveBeauty: "Simpan buat dipercantik", saveBeautySub: "Semua bagian jadi satu video, tersimpan di HP kamu", saving: "Lagi digabung…", savedOk: "Tersimpan. Edit di aplikasi favoritmu, lalu balik ke sini ya.",
     sendFinal: "Kirim video yang sudah dipercantik", sendFinalSub: "Pilih video hasil editan dari galeri",
     stMissing: "Belum direkam", stOk: "Sudah direkam", stSent: "Terkirim", stSending: "Mengirim…", stFail: "Terputus, lanjutkan", redo: "Ulang", recordIt: "Rekam", resume: "Lanjutkan kirim", finalSent: "Video hasil editan sudah terkirim ✓", finalSending: p => `Mengirim video editan… ${p}%`, pickAgain: "Pengiriman tadi terputus. Pilih lagi video yang sama, aku lanjutkan dari tempat berhenti.",
-    concatFail: "Nggak bisa digabung otomatis. Aku simpan satu per satu ya.",
+    concatFail: "Bagian-bagiannya belum bisa digabung jadi satu. Aku sudah kabari tim. Coba tekan sekali lagi ya, kalau masih gagal tunggu kabar dari kami.", durWarn: (a, b) => `Video yang kamu pilih cuma ${a} detik, padahal semua bagian yang kamu rekam totalnya ${b} detik. Jangan-jangan kepilih satu bagian aja?`, durOk: "Tetap kirim ini", durNo: "Pilih ulang",
     doneTitle: "Terkirim ✓", backHome: "Kembali ke menu utama", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
     logoutSure: "Ganti nama? Rekaman yang belum dikirim akan hilang.", yesLogout: "Ganti", loadFail: "Naskah ini nggak ketemu. Coba balik ke daftar naskah ya.",
   },
   zh: {
     appTitle: "拍脚本", hiName: "嗨！我是 <b>Momo</b>，陪你一起拍，放轻松。你叫什么？", whoPh: "你的名字，或 TikTok / IG 链接", start: "开始", needOne: "先写名字或链接",
+    needLink: "现在要用 Rebecca 发的专属链接进来。找她要你的拍摄链接，打开那条链接就行。",
     yourScripts: "你的脚本", pickOne: "这是给你的脚本，选一本开始！", noScripts: "还没有分给你的脚本。可以先自己写一段，我帮你整理成分镜。",
     bagian: n => `${n} 段`, detik: n => `${n} 秒`, record: "打开", continueBtn: "继续", doneBtn: "已完成 ✓", writeOwn: "自己写脚本", changeName: "换人", mineTag: "你自己写的",
     mineTitle: "我的脚本", mineHi: "想说什么就写什么。写完我帮你整理成一段一段可以录的。", minePh: "Halo semua, aku mau cerita soal…", mineParse: "整理成脚本", mineEmpty: "先写点内容", mineBusy: "正在整理，稍等…",
@@ -269,7 +271,7 @@ const I18N = {
     saveBeauty: "保存去美颜", saveBeautySub: "所有段拼成一条，存到手机", saving: "正在拼接…", savedOk: "存好了。去你常用的 App 修，修完回来上传。",
     sendFinal: "上传美颜好的成片", sendFinalSub: "从相册选修好的视频",
     stMissing: "还没录", stOk: "已录", stSent: "已传", stSending: "传送中…", stFail: "断了，继续", redo: "重录", recordIt: "去录", resume: "继续上传", finalSent: "成片已传到 ✓", finalSending: p => `正在传成片… ${p}%`, pickAgain: "上次没传完。再选一次同一个视频，我从断点接着传。",
-    concatFail: "没法自动拼接，我一段一段存。",
+    concatFail: "这几段没拼成一条，我已经告诉后台了。再点一次试试，还不行就等我们修好通知你。", durWarn: (a, b) => `你选的视频只有 ${a} 秒，录好的几段加起来有 ${b} 秒。是不是选成了单独一段？`, durOk: "就传这个", durNo: "重新选",
     doneTitle: "上传完成", backHome: "返回主菜单", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
     logoutSure: "换人？没传的录像会清掉。", yesLogout: "换人", loadFail: "找不到这本脚本，回脚本列表看看。",
   },
@@ -303,6 +305,10 @@ function confirmBox(q, okLabel, noLabel) {
 const root = document.getElementById("root");
 let profile = store.get("profile", null);        // { link, handle, name }
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
+// 口令（11-06）：Rebecca 发的链接 rekam.html#t=<口令>，打开就记在本机；之后每个请求都带 t，后台按它认人，名字不再自报
+let tok = store.get("tok", "");
+{ const ht = new URLSearchParams(location.hash.slice(1)).get("t"); if (ht) { tok = ht.trim(); store.set("tok", tok); history.replaceState(null, "", location.pathname + location.search); } }
+let needLink = false;                              // 后台说 no token：没拿到 Rebecca 的链接，登录页提示去要
 let sid = (new URLSearchParams(location.search).get("s") || "").trim();   // 旧链接 ?s=V0158 还能直接进
 let script = null, cur = 0, loadErr = "";
 let lib = [], assignedIds = null, mineIds = [], backendMeta = {}, mineText = "", mineMsg = "", mineDraft = null, mineBusy = false, camErr = "";
@@ -342,8 +348,11 @@ function parseHandle(link) {
   const m = String(link).trim().match(/(?:tiktok\.com\/@|instagram\.com\/|^@)([A-Za-z0-9._]+)/i);
   return m ? m[1].replace(/\.$/, "") : "";
 }
-const api = async (params) => (await fetch(UPLOAD_URL + "?" + new URLSearchParams(params))).json();
-const post = async (body) => (await fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify(body) })).json();
+// 每个请求带口令 t；读也走 POST（口令不进网址）。后台还是 v6 时读动作回 unknown action，退回 GET 一次
+const withTok = o => tok ? Object.assign({ t: tok }, o) : o;
+const noTok = r => { if (r && r.error === "no token") { needLink = true; } return r; };
+const post = async (body) => noTok(await (await fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify(withTok(body)) })).json());
+const api = async (params) => { const r = await post(params); if (r && r.error === "unknown action") return noTok(await (await fetch(UPLOAD_URL + "?" + new URLSearchParams(withTok(params)))).json()); return r; };
 
 // 录好的段存在手机浏览器自己的库里：切去看 WhatsApp、页面被刷新、来电，回来都还在
 const DB = { name: "rekam", store: "takes" };
@@ -437,8 +446,8 @@ function ping() {
   const key = `${view}:${sid}:${cur}`; const now = Date.now();
   if (key === seenKey && now - seenAt < 20000) return;
   seenKey = key; seenAt = now;
-  try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify({ action: "seen", who: name, handle: profile?.handle || "", nick: profile?.name || "", link: profile?.link || "",
-    script: script?.id || "", shot: view === "shot" && script ? script.shots[cur]?.n : (view === "overview" ? "总览" : ""), view, lang, ua: navigator.userAgent }), keepalive: true }); } catch (e) {}
+  try { fetch(UPLOAD_URL, { method: "POST", body: JSON.stringify(withTok({ action: "seen", who: name, handle: profile?.handle || "", nick: profile?.name || "", link: profile?.link || "",
+    script: script?.id || "", shot: view === "shot" && script ? script.shots[cur]?.n : (view === "overview" ? "总览" : ""), view, lang, ua: navigator.userAgent })), keepalive: true }); } catch (e) {}
 }
 
 // ===== 页面 =====
@@ -460,6 +469,7 @@ function renderLogin() {
     <div class="mid center">
       ${bubble(t("hiName"), "hi", true)}
       <form class="card" id="nf">
+        ${needLink ? `<p class="err" style="margin:0 0 8px">${esc(t("needLink"))}</p>` : ""}
         <input class="inp" id="who" autocomplete="off" autocapitalize="none" placeholder="${esc(t("whoPh"))}">
         <p class="err" id="nerr" hidden>${t("needOne")}</p>
         <button class="big">${t("start")}</button>
@@ -467,6 +477,7 @@ function renderLogin() {
     </div>`;
 }
 function renderScripts() {
+  if (needLink) { view = "login"; return renderLogin(); }   // 后台不认名字了（口令制），回登录页提示去要 Rebecca 的链接
   if (assignedIds === null) { loadLib().then(render); return `${topbar(t("yourScripts"), esc(name), false)}<div class="mid center">${bubble("…", "zz")}</div>`; }
   const ids = [...assignedIds, ...mineIds.filter(x => !assignedIds.includes(x))];
   const items = ids.map(id => lib.find(x => x.id === id) || backendMeta[id] || { id, product: { zh: id, id } });
@@ -520,7 +531,7 @@ function previewHtml(sc) {
   const all = sc.shots.map(s => s.lines).filter(Boolean).join(" "), p = productOf(sc);
   return `<div class="prod">${pimg(p)}<div class="t"><b>${esc(L(sc.product))}</b>${p ? `<span>${esc(t("productLab"))}: ${esc(L(p))}</span>` : ""}${L(sc.hook) ? `<span>${esc(L(sc.hook))}</span>` : ""}</div></div>
     ${sc.prep && L(sc.prep) ? `<div class="face"><b>${t("prepTitle")}</b>${esc(L(sc.prep))}</div>` : ""}
-    ${sc.shots.map(s => `<div class="seg"><b>${s.n}</b><div><span class="s">${t("detik", s.sec)}${s.talk === false || !s.lines ? ` · ${t("noLines").split(/[.。]/)[0]}` : ""}</span>
+    ${sc.shots.map(s => `<div class="seg"><b>${esc(s.n)}</b><div><span class="s">${t("detik", Number(s.sec) || 0)}${s.talk === false || !s.lines ? ` · ${t("noLines").split(/[.。]/)[0]}` : ""}</span>
       ${L(s.do) ? `<div class="d">${esc(L(s.do))}</div>` : ""}${s.lines ? `<div class="l">${esc(s.lines)}</div>` : ""}</div></div>`).join("")}
     ${all ? `<div><div class="lab">${t("allLines")}</div><div class="all">${esc(all)}</div></div>` : ""}`;
 }
@@ -555,7 +566,7 @@ function renderShot() {
       ${other >= 0 ? `<button class="rsbar" id="rsjump" data-i="${other}">${esc(t("rsJump", script.shots[other].n))}</button>` : ""}
       ${bubble(say, st?.status === "done" ? "ok" : rs ? "go" : tk?.blob ? "yay" : "hi")}
       <div class="card shot">
-        <div class="head"><span class="n">${s.n}</span><span class="s">${t("detik", s.sec)}</span></div>
+        <div class="head"><span class="n">${esc(s.n)}</span><span class="s">${t("detik", Number(s.sec) || 0)}</span></div>
         ${rs ? `<div class="face" style="border:1.5px solid var(--red)"><b style="color:var(--red)">${t("reshootNote")}</b>${esc(rs.note || "")}${st ? `<p class="${st.status === "fail" ? "err" : "tip"}" style="margin:6px 0 0">${st.status === "done" ? "✓" : st.status === "fail" ? t("oneFail") : t("oneSending", st.pct || 0)}</p>` : ""}</div>` : ""}
         ${tk?.blob ? `<div class="pvwrap"><video id="pv" src="${tk.url}" playsinline controls></video><button class="zoom" id="zoom" aria-label="${t("zoom")}">⤢</button></div>${tk.msg ? `<p class="err">${esc(tk.msg)}</p>` : ""}${tk.landscape ? `<button class="big ghost" id="rot" style="min-height:48px;font-size:16px">${t("flip")}</button>` : ""}`
         : editing ? `<div><span class="lines-lab">${t("editLines")}</span><textarea class="inp ta sm" id="edit" style="min-height:140px;font-size:17px">${esc(ln)}</textarea></div>
@@ -615,14 +626,15 @@ function bind() {
   const nf = $("#nf"); if (nf) nf.onsubmit = ev => { ev.preventDefault();
     const raw = $("#who").value.trim(); if (!raw) { $("#nerr").hidden = false; return; }
     const isLink = /tiktok\.com|instagram\.com|^@|^https?:/i.test(raw), handle = isLink ? parseHandle(raw) : "";
-    profile = { link: isLink ? raw : "", handle: handle || (isLink ? raw.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: isLink ? "" : raw };
+    const link = /^https:\/\/(www\.)?(tiktok\.com|instagram\.com)\//i.test(raw) ? raw.slice(0, 200) : "";   // 只有真的 TikTok / IG 网址才当链接存
+    profile = { link, handle: handle || (isLink ? raw.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: isLink ? "" : raw.slice(0, 60) };
     name = profile.handle || profile.name; store.set("profile", profile); assignedIds = null; go("scripts", false); };
   $$("[data-open]").forEach(b => b.onclick = () => openScript(b.dataset.open));
   on("home", () => go("scripts"));
   on("mine", () => { mineDraft = null; mineMsg = ""; mineText = store.get("mine_" + name, ""); go("mine"); });
   on("logout", async () => {
     if (!(await confirmBox(t("logoutSure"), t("yesLogout"), t("cancel")))) return;
-    profile = null; name = ""; store.del("profile");
+    profile = null; name = ""; store.del("profile"); tok = ""; store.del("tok"); needLink = false;
     try { indexedDB.deleteDatabase(DB.name); } catch (e) {}
     try { Object.keys(localStorage).filter(k => /^(cur_|mine_|edit_|final_|upq_|self_)/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (e) {}
     takes.length = 0; assignedIds = null; go("login", false);
@@ -656,7 +668,7 @@ function bind() {
   on("clear", async () => { if (!(await confirmBox(t("clearSure"), t("yesClear"), t("cancel")))) return;
     script.shots.forEach((s, i) => { takes[i] = null; persist(i); }); dbDel("final"); finalFile = null; hist = null; finalState = null; store.del("final_" + sid); store.del("upq_" + sid); cur = 0; store.set("cur_" + sid, 0); view = "shot"; render(); });
   on("savebeauty", saveForBeauty);
-  const pf = $("#pickfinal"); if (pf) pf.onchange = e => { const f = e.target.files[0]; if (f) uploadFinal(f); };
+  const pf = $("#pickfinal"); if (pf) pf.onchange = e => { const f = e.target.files[0]; e.target.value = ""; if (f) uploadFinal(f); };
 }
 // 提词设置：速度（0.5×…1.5× 标准档）＋ 字号，两个滑块；分镜页开拍前就能调，摄像头页同一个组件（dark）
 function tpPanel(dark) {
@@ -847,11 +859,16 @@ async function saveForBeauty() {
     const r = await concatTakes(idx.map(i => takes[i].blob), { title: `${script.id}.${safe(name)}.${today()}`, portrait: window.innerHeight >= window.innerWidth });
     files = [new File([r.blob], `${script.id}.${safe(name)}.${today()}.mp4`, { type: "video/mp4" })];
     store.set("segs_" + sid, idx.map((i, k) => ({ n: script.shots[i].n, sec: Math.round((r.durations?.[k] || 0) * 10) / 10 })));   // 成片各段时长，随成片传给审片页标分段
-  } catch (e) { files = idx.map(i => new File([takes[i].blob], fileName(i), { type: "video/mp4" })); }
+  } catch (e) {
+    // 拼不成就停在这儿：不再把散段存进相册（她会只挑一段当成片传）；错误原文发后台「达人意见」，审片页能看到
+    const info = idx.map(i => `s${script.shots[i].n}:${takes[i].blob.type || "?"}/${Math.round(takes[i].blob.size / 1024)}k/rot${takes[i].rot ?? "?"}`).join(" ");
+    try { post({ action: "note", who: name, script: script.id, text: `[拼接失败] ${String(e?.message || e).slice(0, 300)} | ${info} | ${navigator.userAgent.slice(0, 120)}` }); } catch (x) {}
+    saveMsg = t("concatFail"); render(); return;
+  }
   try {
     if (mobile && navigator.canShare && navigator.canShare({ files })) await navigator.share({ files });
     else for (const f of files) { const a = document.createElement("a"); a.href = URL.createObjectURL(f); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 300)); }
-    saveMsg = (files.length > 1 ? t("concatFail") + " " : "") + t("savedOk");
+    saveMsg = t("savedOk");
   } catch (e) {}
   render();
 }
@@ -921,7 +938,17 @@ async function pump() {
   pumping = false; try { lock?.release(); } catch (e) {}
   render();
 }
-function uploadFinal(file) {
+// 视频时长（秒），读不出来回 0
+const vidDur = blob => new Promise(res => { const v = document.createElement("video"), u = URL.createObjectURL(blob); let done = false;
+  const end = d => { if (done) return; done = true; URL.revokeObjectURL(u); res(isFinite(d) ? d : 0); };
+  v.preload = "metadata"; v.muted = true; v.onloadedmetadata = () => end(v.duration); v.onerror = () => end(0); setTimeout(() => end(0), 5000); v.src = u; });
+async function uploadFinal(file) {
+  // 选的视频明显短于各段加起来（比如只选了一段）→ 弹窗问一句
+  const segs = store.get("segs_" + sid, null);
+  let want = Array.isArray(segs) ? segs.reduce((a, x) => a + (+x.sec || 0), 0) : 0;
+  if (!want) for (const tk of takes) if (tk?.blob) want += await vidDur(tk.blob);
+  const got = await vidDur(file);
+  if (got && want > 8 && got < want * 0.6 && !(await confirmBox(t("durWarn", Math.round(got), Math.round(want)), t("durOk"), t("durNo")))) return;
   finalFile = file;
   dbPut("final", { blob: file, name: file.name, up: "", at: Date.now() }); hist = null;   // 存进手机库：主页「你拍过的」能看，刷新回来不用再选
   const key = `${file.name}:${file.size}`;
@@ -968,10 +995,15 @@ async function pollReshoots() {
 }
 setInterval(pollReshoots, 30000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) pollReshoots(); });
-window.__rekam = { takes, finishTake, normalize, fileName, get script() { return script; } };
-
 // ===== 启动 =====
-if (profile && sid) await openScript(sid); else render();
+// 有口令：问后台我是谁，按后台的名字登录（文件名/文件夹也用它）；后台还是 v6（不认 me）就照旧用本机存的名字
+if (tok) {
+  try { const r = await post({ action: "me" });
+    if (r.ok && r.who) { if (!profile || !(profile.handle === r.who || profile.name === r.who)) profile = { link: "", handle: "", name: r.who }; name = r.who; store.set("profile", profile); needLink = false; }
+    else if (r.error === "no token") { tok = ""; store.del("tok"); }
+  } catch (e) {}
+}
+if (profile && sid) await openScript(sid); else if (profile) { view = "scripts"; render(); } else render();
 </script>
 </body>
 </html>
