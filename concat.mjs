@@ -1,5 +1,7 @@
 // 把若干段 MediaRecorder 录的 mp4（H.264 + AAC）按顺序拼成一个 mp4，packet 级拷贝，不重新编码。
 // 依赖 mediabunny 1.65.1（API 以 https://mediabunny.dev/guide/ 与 dist/mediabunny.d.ts 为准）。
+// 时间戳（11-06 改）：每段都从自己的第一个包起算，再加上前面各段的总长。iPhone 偶尔把一段的时间戳写成绝对时钟（几百万秒），
+// 原来第 1 段原样保留、后面的段只按 offset 平移，碰到这种段下一段就会「比上一个 GOP 小」拼不上（mika 11-06）。
 import {
   Input,
   BlobSource,
@@ -13,13 +15,14 @@ import {
 } from "https://cdn.jsdelivr.net/npm/mediabunny@1.65.1/dist/bundles/mediabunny.min.mjs";
 
 const EPS = 1e-6;
+const JUMP = 10;   // 段内时间戳往前跳超过这么多秒当作坏点，接到上一包末尾
 
 /**
  * @param {Blob[]} blobs 按顺序的各段 mp4
  * @param {{ title?: string, portrait?: boolean }} [opts]
  *   title    写进输出文件的 metadata title
  *   portrait 第一段 rotation===0 且宽>高 时，强制按竖屏（rotation 90）写出
- * @returns {Promise<{ blob: Blob, durations: number[] }>} durations = 每段秒数（取该段视频/音频时长较大者）
+ * @returns {Promise<{ blob: Blob, durations: number[] }>} durations = 每段秒数（按实际写出的包算）
  */
 export async function concatTakes(blobs, opts = {}) {
   const { title, portrait = false } = opts;
@@ -61,13 +64,13 @@ export async function concatTakes(blobs, opts = {}) {
       height: await video.getCodedHeight(),
       rotation: await video.getRotation(),
       vFirst: await video.getFirstTimestamp(),
-      vDur: await video.computeDuration(),
       aFirst: audio ? await audio.getFirstTimestamp() : 0,
-      aDur: audio ? await audio.computeDuration() : 0,
       sampleRate: audio ? await audio.getSampleRate() : 0,
       channels: audio ? await audio.getNumberOfChannels() : 0,
+      duration: 0,
     };
-    seg.duration = Math.max(seg.vDur, seg.aDur);
+    // 这一段的时间零点：视频/音频里更早的那个（AAC priming 常是 -0.02s；iPhone 绝对时钟是几百万秒，一样减掉）
+    seg.base = audio ? Math.min(seg.vFirst, seg.aFirst) : seg.vFirst;
     segs.push(seg);
   }
 
@@ -105,17 +108,18 @@ export async function concatTakes(blobs, opts = {}) {
   if (title) output.setMetadataTags({ title });
   await output.start();
 
-  // ---- 第二遍：逐段拷 packet，时间戳加偏移 ----
+  // ---- 第二遍：逐段拷 packet。ts = 包时间戳 − 本段零点 + 前面各段总长；倒退/大跳都接到上一包末尾 ----
   let offset = 0;
   let vSent = false;
   let aSent = false;
-  let vLastEnd = -Infinity;
-  let aLastEnd = -Infinity;
+  let vPrevGopMax = -Infinity;   // 上一个 GOP 里最大的时间戳（mp4 要求之后的包不能比它小）
+  let vGopMax = -Infinity;       // 当前 GOP 里最大的时间戳
+  let vPrevEnd = 0;
+  let aPrevEnd = 0;
 
   for (const s of segs) {
-    // 第 1 段原样保留时间戳；后面的段把负起点（AAC priming）顶到 offset，避免和上一段末尾交叉
-    const vShift = s === first ? 0 : offset - Math.min(s.vFirst, 0);
-    const aShift = s === first ? 0 : offset - Math.min(s.aFirst, 0);
+    const segStart = offset;
+    let segEnd = offset;
 
     // 视频
     {
@@ -126,8 +130,10 @@ export async function concatTakes(blobs, opts = {}) {
           if (p.type !== "key") throw new Error(`第 ${s.n} 段第一个视频包不是关键帧，不能直接拼`);
           isFirstOfSeg = false;
         }
-        let ts = p.timestamp + vShift;
-        if (p.type === "key" && ts < vLastEnd - EPS) ts = vLastEnd;
+        let ts = p.timestamp - s.base + offset;
+        if (!(ts >= 0) || ts > vPrevEnd + JUMP) ts = vPrevEnd;            // 坏时间戳：接上一包
+        if (p.type === "key") { vPrevGopMax = vGopMax; vGopMax = -Infinity; if (ts < vPrevEnd - EPS) ts = vPrevEnd; }
+        if (ts < vPrevGopMax - EPS) ts = vPrevGopMax;                       // 不能比上一个 GOP 小（B 帧允许在本 GOP 内回退）
         const q = p.clone({ timestamp: ts });
         if (!vSent) {
           await videoSource.add(q, { decoderConfig: first.vConfig });
@@ -135,7 +141,9 @@ export async function concatTakes(blobs, opts = {}) {
         } else {
           await videoSource.add(q);
         }
-        vLastEnd = Math.max(vLastEnd, ts + p.duration);
+        vGopMax = Math.max(vGopMax, ts);
+        vPrevEnd = Math.max(vPrevEnd, ts + (p.duration || 0));
+        segEnd = Math.max(segEnd, vPrevEnd);
       }
     }
 
@@ -143,8 +151,8 @@ export async function concatTakes(blobs, opts = {}) {
     if (audioSource && s.audio) {
       const sink = new EncodedPacketSink(s.audio);
       for await (const p of sink.packets()) {
-        let ts = p.timestamp + aShift;
-        if (ts < aLastEnd - EPS) ts = aLastEnd;
+        let ts = p.timestamp - s.base + offset;
+        if (!(ts >= 0) || ts > aPrevEnd + JUMP || ts < aPrevEnd - EPS) ts = aPrevEnd;
         const q = p.clone({ timestamp: ts });
         if (!aSent) {
           await audioSource.add(q, { decoderConfig: first.aConfig });
@@ -152,11 +160,13 @@ export async function concatTakes(blobs, opts = {}) {
         } else {
           await audioSource.add(q);
         }
-        aLastEnd = Math.max(aLastEnd, ts + p.duration);
+        aPrevEnd = Math.max(aPrevEnd, ts + (p.duration || 0));
+        segEnd = Math.max(segEnd, aPrevEnd);
       }
     }
 
-    offset += s.duration;
+    s.duration = segEnd - segStart;
+    offset = segEnd;
     s.input.dispose();
   }
 
