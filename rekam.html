@@ -241,7 +241,7 @@ const I18N = {
     sendFinal: "Kirim video yang sudah dipercantik", sendFinalSub: "Pilih video hasil editan dari galeri",
     stMissing: "Belum direkam", stOk: "Sudah direkam", stSent: "Terkirim", stSending: "Mengirim…", stFail: "Terputus, lanjutkan", redo: "Ulang", recordIt: "Rekam", resume: "Lanjutkan kirim", finalSent: "Video hasil editan sudah terkirim ✓", finalSending: p => `Mengirim video editan… ${p}%`, pickAgain: "Pengiriman tadi terputus. Pilih lagi video yang sama, aku lanjutkan dari tempat berhenti.",
     concatFail: "Bagian-bagiannya belum bisa digabung jadi satu. Aku sudah kabari tim. Coba tekan sekali lagi ya, kalau masih gagal tunggu kabar dari kami.", durWarn: (a, b) => `Video yang kamu pilih cuma ${a} detik, padahal semua bagian yang kamu rekam totalnya ${b} detik. Jangan-jangan kepilih satu bagian aja?`, durOk: "Tetap kirim ini", durNo: "Pilih ulang",
-    doneTitle: "Terkirim ✓", backHome: "Kembali ke menu utama", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
+    doneTitle: "Terkirim ✓", backHome: "Kembali ke menu utama", refinal: "Kirim ulang video hasil", clearAll: "Hapus semua, rekam ulang", clearSure: "Hapus semua rekaman dan mulai dari awal?", yesClear: "Hapus", cancel: "Batal",
     logoutSure: "Ganti nama? Rekaman yang belum dikirim akan hilang.", yesLogout: "Ganti", loadFail: "Naskah ini nggak ketemu. Coba balik ke daftar naskah ya.",
   },
   zh: {
@@ -272,7 +272,7 @@ const I18N = {
     sendFinal: "上传美颜好的成片", sendFinalSub: "从相册选修好的视频",
     stMissing: "还没录", stOk: "已录", stSent: "已传", stSending: "传送中…", stFail: "断了，继续", redo: "重录", recordIt: "去录", resume: "继续上传", finalSent: "成片已传到 ✓", finalSending: p => `正在传成片… ${p}%`, pickAgain: "上次没传完。再选一次同一个视频，我从断点接着传。",
     concatFail: "这几段没拼成一条，我已经告诉后台了。再点一次试试，还不行就等我们修好通知你。", durWarn: (a, b) => `你选的视频只有 ${a} 秒，录好的几段加起来有 ${b} 秒。是不是选成了单独一段？`, durOk: "就传这个", durNo: "重新选",
-    doneTitle: "上传完成", backHome: "返回主菜单", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
+    doneTitle: "上传完成", backHome: "返回主菜单", refinal: "成片要重新传", clearAll: "全部清掉，重新拍", clearSure: "把录好的全部清掉，重新拍？", yesClear: "清掉", cancel: "取消",
     logoutSure: "换人？没传的录像会清掉。", yesLogout: "换人", loadFail: "找不到这本脚本，回脚本列表看看。",
   },
 };
@@ -600,7 +600,7 @@ function renderOverview() {
       <div style="font-size:26px;font-weight:700;color:var(--ink)">${t("doneTitle")}</div>
       <div style="font-size:15px;color:var(--ink);opacity:.75;max-width:280px">${t("fHiDone")}</div>
     </div>
-    <div class="foot"><button class="big" id="home">${t("backHome")}</button><button class="link" id="clear">${t("clearAll")}</button></div>`;
+    <div class="foot"><button class="big" id="home">${t("backHome")}</button><button class="link" id="refinal">${t("refinal")}</button><button class="link" id="clear">${t("clearAll")}</button></div>`;
   return `${topbar(t("overview"), esc(L(script.product)), true)}
     ${prog()}
     <div class="mid">
@@ -633,6 +633,8 @@ function bind() {
     name = profile.handle || profile.name; store.set("profile", profile); assignedIds = null; go("scripts", false); };
   $$("[data-open]").forEach(b => b.onclick = () => openScript(b.dataset.open));
   on("home", () => go("scripts"));
+  // 成片传错了（比如只选了一段）：只清成片记录，录好的段都留着，回总览重新拼、重新传
+  on("refinal", () => { loadQueue().filter(x => x.kind === "final").forEach(x => dropJob(x.key)); dbDel("final"); finalFile = null; finalState = null; store.del("final_" + sid); store.del("segs_" + sid); takes.forEach((tk, i) => { if (tk?.up === "done") { tk.up = ""; persist(i); } }); saveMsg = ""; hist = null; render(); });
   on("mine", () => { mineDraft = null; mineMsg = ""; mineText = store.get("mine_" + name, ""); go("mine"); });
   on("logout", async () => {
     if (!(await confirmBox(t("logoutSure"), t("yesLogout"), t("cancel")))) return;
