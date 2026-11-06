@@ -104,6 +104,7 @@ button:disabled{cursor:default}
 .note .s{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:15px;white-space:nowrap}
 .note .txt{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}
 .notes .more{align-self:flex-start}
+.note.sys .txt{color:var(--mute);font-size:12px}
 /* 弹窗 */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:20;padding:20px;box-sizing:border-box}
 .modal .box{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:18px;width:100%;max-width:380px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.3);max-height:92vh;overflow:auto;box-sizing:border-box}
@@ -265,6 +266,7 @@ const ID_RULES = [
   [/分镜 (\d+) 段 · 合计 (\d+) 秒/, "$1 bagian · total $2 detik"],
   [/(\d+|\?) 段 · (\d+|\?)s/g, "$1 bagian · $2s"],
   [/展开全部 (\d+) 条/, "Lihat semua $1"],
+  [/她的想法 (\d+) 条 · 页面报错 (\d+) 条/, "Masukan dari dia ($1) · error halaman ($2)"],
   [/她的想法 (\d+) 条/, "Masukan dari dia ($1)"],
   [/· 登录 (\d+) 次/, "· login $1×"],
   [/○ 最近登录 /, "○ Terakhir login "],
@@ -292,7 +294,7 @@ const ID_MAP = { "达人自录 · 审片": "Rekaman Kreator · Review", "刷新"
   "全部": "Semua", "所有产品": "Semua produk", "其他": "Lainnya", "没有符合的本子": "Nggak ada yang cocok", "没有": "Tidak ada", "派给…": "Beri ke…", "派给谁": "Beri ke siapa", "派脚本": "Beri naskah", "新达人派单": "Kreator baru", "达人名或 handle（大小写都行）": "Nama atau handle kreator", "已选": "Dipilih", "还没选": "Belum dipilih", "保存": "Simpan", "还没有达人": "Belum ada kreator", "派给新名字": "Beri ke nama baru", "新达人…": "Kreator baru…", "或者新名字": "atau nama baru",
   "· 不露脸": "· tanpa wajah", "· 不说话": "· tanpa dialog", "（无台词）": "(tanpa dialog)", "推荐拍法：": "Cara ambil: ", "推荐拍法": "Cara ambil", "脸上：": "Di wajah: ", "脸上": "Di wajah", "开拍前：": "Sebelum rekam: ", "开拍前准备": "Persiapan", "总览": "ringkasan", "准备页": "persiapan", "分镜": "Bagian", "读不到这本的内容": "Isi naskah nggak bisa dibaca", "她自拆": "dipecah sendiri", "专属": "khusus", "达人专属": "Khusus kreator", "公共（所有达人可派）": "Umum (semua kreator)", "归属": "Pemilik", "留空自动": "kosong = otomatis", "脚本号": "Nomor naskah", "公共本子要填号": "Naskah umum harus ada nomor", "达人名": "Nama kreator", "新增脚本": "Naskah baru", "智能拆段": "Pecah otomatis", "Gemini 在拆，约 20 秒…": "Gemini lagi memecah, ±20 detik…", "拆好了，看一眼再保存": "Sudah dipecah, cek dulu lalu simpan", "先粘贴内容": "Tempel isinya dulu", "保存到脚本库": "Simpan ke pustaka", "存中…": "Menyimpan…", "在后面加一段": "Tambah bagian setelahnya", "删这段": "Hapus bagian ini", "台词（印尼语，空＝不说话）": "Dialog (bahasa Indonesia, kosong = diam)", "秒": "detik", "粘贴整段（H3 提示词 / SD2 四块 / 纯台词都行）": "Tempel naskah utuh", "整段复制过来就行，会自动拆成一段一段的分镜": "Tempel saja, nanti dipecah otomatis",
   "后台还是旧版，先去 Apps Script 发新版本": "Backend masih versi lama",
-  "拍摄链接": "Link rekam", "复制链接": "Salin link", "已复制 ✓": "Tersalin ✓", "读取失败": "Gagal memuat", "发这条给她，打开就是她的账号；别发给别人。": "Kirim link ini ke dia; dibuka langsung masuk akunnya. Jangan kasih ke orang lain." };
+  "拍摄链接": "Link rekam", "页面自动发回的报错（给技术看）": "Error otomatis dari halaman (untuk teknisi)", "复制链接": "Salin link", "已复制 ✓": "Tersalin ✓", "读取失败": "Gagal memuat", "发这条给她，打开就是她的账号；别发给别人。": "Kirim link ini ke dia; dibuka langsung masuk akunnya. Jangan kasih ke orang lain." };
 const hasZh = s => /[一-鿿]/.test(s);
 function idText(txt) {
   let t = txt;
@@ -418,14 +420,19 @@ function talentCard(t) {
     ${scripts.map(sid => scriptBlock(sid, t.scripts[sid], t.who)).join("")}
     ${notesBlock(t.who)}</section>`;
 }
+// 达人意见：默认折叠成一行（她的想法 N 条 · 页面报错 M 条），点开看；一样的内容合并显示 ×n。
+// 达人写的＝她在总览页「有想法告诉我们」填的；[拼接失败] 这类以「[」开头的是达人页自动发回来的报错，给我查问题用，不用她回
 function notesBlock(who) {
   const list = noteRows.filter(n => same(n.who, who));
   if (!list.length) return "";
   const open = !!ui.notesOpen[who.toLowerCase()];
-  const shown = open ? list : list.slice(0, 5);
-  return `<div class="notes"><span class="nh">她的想法 ${list.length} 条</span>
-    ${shown.map(n => `<div class="note"><span class="t">${fmtT(n.time)}</span><span class="s">${esc(n.script || "—")}</span><span class="txt">${esc(n.text)}</span></div>`).join("")}
-    ${list.length > 5 ? `<button class="ghost sm more" data-notes="${esc(who)}">${open ? "收起" : `展开全部 ${list.length} 条`}</button>` : ""}</div>`;
+  const isSys = n => /^\[/.test(String(n.text || "").trim());
+  const human = list.filter(n => !isSys(n)), sys = list.filter(isSys);
+  const dedupe = arr => { const out = []; for (const n of arr) { const k = `${n.script}|${String(n.text).trim()}`; const hit = out.find(x => x.k === k); if (hit) hit.n++; else out.push({ k, n: 1, row: n }); } return out; };
+  const line = ({ row: n, n: k }, cls) => `<div class="note ${cls}"><span class="t">${fmtT(n.time)}</span><span class="s">${esc(n.script || "—")}</span><span class="txt">${esc(n.text)}${k > 1 ? ` <b style="color:var(--mute)">×${k}</b>` : ""}</span></div>`;
+  const head = `她的想法 ${human.length} 条${sys.length ? ` · 页面报错 ${sys.length} 条` : ""}`;
+  return `<div class="notes"><button class="ghost sm nh" data-notes="${esc(who)}" style="align-self:flex-start">${open ? "▾" : "▸"} ${head}</button>
+    ${open ? dedupe(human).map(x => line(x, "")).join("") + (sys.length ? `<span class="tip" style="margin-top:4px">页面自动发回的报错（给技术看）</span>` + dedupe(sys).map(x => line(x, "sys")).join("") : "") : ""}</div>`;
 }
 const editFor = (who, sid, n) => editRows.find(e => same(e.who, who) && same(e.script, sid) && String(e.shot) === String(n));
 function shotCard(label, list, extra, cls) {
