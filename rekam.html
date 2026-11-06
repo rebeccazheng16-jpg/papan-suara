@@ -307,7 +307,7 @@ let profile = store.get("profile", null);        // { link, handle, name }
 let name = profile ? (profile.handle || profile.name) : "";   // 文件名和文件夹用的那个字
 // 口令（11-06）：Rebecca 发的链接 rekam.html#t=<口令>，打开就记在本机；之后每个请求都带 t，后台按它认人，名字不再自报
 let tok = store.get("tok", "");
-{ const ht = new URLSearchParams(location.hash.slice(1)).get("t"); if (ht) { tok = ht.trim(); store.set("tok", tok); history.replaceState(null, "", location.pathname + location.search); } }
+{ const ht = new URLSearchParams(location.hash.slice(1)).get("t"); if (ht) { tok = ht.trim(); store.set("tok", tok); } }   // #t 留在地址栏：WhatsApp 内置浏览器里「在 Safari 中打开」要靠它把口令带过去
 let needLink = false;                              // 后台说 no token：没拿到 Rebecca 的链接，登录页提示去要
 let sid = (new URLSearchParams(location.search).get("s") || "").trim();   // 旧链接 ?s=V0158 还能直接进
 let script = null, cur = 0, loadErr = "";
@@ -625,6 +625,8 @@ function bind() {
   const on = (id, fn) => { const b = $("#" + id); if (b) b.onclick = fn; };
   const nf = $("#nf"); if (nf) nf.onsubmit = ev => { ev.preventDefault();
     const raw = $("#who").value.trim(); if (!raw) { $("#nerr").hidden = false; return; }
+    const tm = raw.match(/[#?&]t=([0-9a-f]{16,40})/i) || raw.match(/^([0-9a-f]{16,40})$/i);   // 把 Rebecca 发的链接（或口令本身）贴进名字框也行
+    if (tm) { tok = tm[1].toLowerCase(); store.set("tok", tok); needLink = false; post({ action: "me" }).then(r => { if (r.ok && r.who) { profile = { link: "", handle: "", name: r.who }; name = r.who; store.set("profile", profile); assignedIds = null; go("scripts", false); } else { $("#nerr").hidden = false; } }); return; }
     const isLink = /tiktok\.com|instagram\.com|^@|^https?:/i.test(raw), handle = isLink ? parseHandle(raw) : "";
     const link = /^https:\/\/(www\.)?(tiktok\.com|instagram\.com)\//i.test(raw) ? raw.slice(0, 200) : "";   // 只有真的 TikTok / IG 网址才当链接存
     profile = { link, handle: handle || (isLink ? raw.replace(/^https?:\/\//, "").replace(/[^A-Za-z0-9._@-]+/g, "_").slice(0, 40) : ""), name: isLink ? "" : raw.slice(0, 60) };
