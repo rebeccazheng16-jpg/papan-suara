@@ -450,7 +450,7 @@ function scriptBlock(sid, shots, who) {
   const rsList = reshootRows.filter(r => same(r.who, who) && same(r.script, sid));
   const rsOf = n => rsList.find(r => String(r.shot) === String(n));
   // 成片分段条：按成片上传时带的各段时长算起止秒，她对着 Drive 播放器的时间就知道是第几段；没带时长（旧成片）就只列段号
-  const pin = arr => (Array.isArray(arr) ? arr : []).map(x => ({ n: Number(x?.n) || 0, sec: Number(x?.sec) || 0 }));   // 达人传上来的分段只认数字
+  const pin = arr => (Array.isArray(arr) ? arr : []).map(x => { const sec = Number(x?.sec) || 0; return { n: Number(x?.n) || 0, sec: sec > 0 && sec < 3600 ? sec : 0 }; });   // 达人传上来的分段只认数字；超过 1 小时的是坏时间戳（11-06 mika 七百万秒），当未知只标段号
   let segs = [], approx = false; try { segs = pin(JSON.parse(finals[0]?.segs || "[]")); } catch (e) {}
   if (!segs.length && total && finals.length) {   // 旧成片没带实际时长：按脚本里每段计划秒数算，标 ≈；脚本正文还没拉到就先拉，拉到再画
     const full = lib[sid]?.full;
@@ -458,7 +458,7 @@ function scriptBlock(sid, shots, who) {
     else { if (lib[sid] && !lib[sid].fullLoading) { lib[sid].fullLoading = true; fullScript(sid).then(() => softRender()); } segs = Array.from({ length: total }, (_, k) => ({ n: k + 1 })); }
   }
   let acc = 0;
-  const chips = finals.length && segs.length ? `<div class="chips" style="margin:6px 0 2px;align-items:center"><span class="tip">成片分段：</span>${segs.map(sg => { const a = acc, b = sg.sec ? Math.round(acc + sg.sec) : 0; acc += sg.sec || 0; const r = rsOf(sg.n);
+  const chips = finals.length && segs.length ? `<div class="chips" style="margin:6px 0 2px;align-items:center"><span class="tip">成片分段：</span>${segs.map(sg => { const bad = segs.some(x => !x.sec); const a = acc, b = sg.sec && !bad ? Math.round(acc + sg.sec) : 0; acc += sg.sec || 0; const r = rsOf(sg.n); if (bad) sg = Object.assign({}, sg, { sec: 0 });
       return `<span class="chip ${r ? (r.status === "已补" ? "" : "on") : ""}" style="display:inline-flex;align-items:center;gap:6px;${r?.status === "已补" ? "border-color:var(--ok);color:var(--ok)" : r ? "background:var(--red);border-color:var(--red)" : ""}">第 ${sg.n} 段${sg.sec ? ` ${approx ? "≈" : ""}${Math.round(a)}–${b}s` : ""}${r ? (r.status === "已补" ? " · 已补 ✓" : ` · 要补拍${r.note ? "：" + esc(String(r.note).slice(0, 30)) : ""}`) : ""}${r && r.status !== "已补" ? `<button data-unreshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" title="撤销" style="min-height:0;padding:0 4px;background:none;border:0;color:inherit;font-size:13px">✕</button>` : r ? `<button data-unreshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" title="清掉这条记录" style="min-height:0;padding:0 4px;background:none;border:0;color:inherit;font-size:13px">✕</button>` : `<button data-reshoot="${esc(who)}" data-sid="${esc(sid)}" data-n="${sg.n}" style="min-height:0;padding:0 4px;background:none;border:0;color:var(--red);font-size:12px;font-weight:600">要补拍</button>`}</span>`; }).join("")}</div>` : "";
   return `<div class="script"><div class="h"><b>${esc(sid)}</b><span>${esc(L(lib[sid]?.product) || "")}</span>${status}${finals.length ? `<span class="full">✓ 有成片</span>` : ""}${rsList.some(r => r.status !== "已补") ? `<span class="miss">等补拍：第 ${rsList.filter(r => r.status !== "已补").map(r => r.shot).join("、")} 段</span>` : ""}</div>
     ${finals.length ? `<div class="finals">${finals.map(f => shotCard("成片", [f], "", "final")).join("")}</div>${chips}` : ""}
