@@ -307,7 +307,10 @@ try {
   const r = new URLSearchParams(location.search).get("r");
   if (r) {
     const got = dec(r);
-    if (got && Array.isArray(got.people)) { roster = got; store.set("roster", roster); toast = t("imported", got.people.length); }
+    if (got && Array.isArray(got.people)) {   // 链接里的名单只认 1–99 的整数编号＋40 字以内的名字（这段会拼进页面）
+      const people = got.people.map(p => ({ id: Number(p && p.id) | 0, name: String((p && p.name) || "").slice(0, 40) })).filter(p => p.id >= 1 && p.id <= 99 && p.name);
+      roster = { next: Math.min(100, Math.max(1, Number(got.next) | 0)), people }; store.set("roster", roster); toast = t("imported", people.length);
+    }
     history.replaceState(null, "", location.pathname);
   }
 } catch (e) {}
@@ -689,8 +692,6 @@ async function cutBlob(f, s, onP, title) {
   await conv.execute();
   return new Blob([output.target.buffer], { type: "video/mp4" });
 }
-window.__cut = { files, analyse, cutBlob, segName, ordered, rebuild };
-
 shell();
 
 </script>

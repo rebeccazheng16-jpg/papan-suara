@@ -140,8 +140,11 @@ const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const store = { get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
 let key = store.get("review_key", "");
-const qk = new URLSearchParams(location.search).get("key"); if (qk) { key = qk; store.set("review_key", key); history.replaceState(null, "", location.pathname); }
+// 钥匙走 # 片段（review.html#key=…）：片段不出浏览器、不进 GitHub Pages 日志；旧的 ?key= 还认，读到就抹掉
+const qk = new URLSearchParams(location.hash.slice(1)).get("key") || new URLSearchParams(location.search).get("key");
+if (qk) { key = qk; store.set("review_key", key); history.replaceState(null, "", location.pathname); }
 const same = (a, b) => String(a).trim().toLowerCase() === String(b).trim().toLowerCase();
+const okUrl = u => /^https:\/\/(www\.)?(tiktok\.com|instagram\.com)\/[\w.@%\/?=&-]*$/i.test(String(u || "")) ? String(u) : "";   // 达人填的链接只认 TikTok / IG，别的不进 href
 
 // ===== 弹窗 =====
 function confirmBox(q, okLabel, noLabel) {
@@ -169,8 +172,13 @@ let role = "admin";   // admin＝她（全功能）；reviewer＝审核同事（
 const canEdit = () => role === "admin";
 let quotas = { limits: {}, used: {}, def: 5 }, noteRows = [], editRows = [], reshootRows = [];
 const ui = { prod: "all", q: "", open: null, brand: "all", notesOpen: {} };
-async function api(params) { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); const r = await fetch(u); return r.json(); }
+// 读也走 POST，钥匙进 body 不挂在网址上；后台还是 v6 时 POST 读动作会回 unknown action，退回 GET 一次
 async function post(body) { const r = await fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ key }, body)) }); return r.json(); }
+async function api(params) {
+  const r = await post(params);
+  if (r && r.error === "unknown action") { const u = API + "?" + new URLSearchParams(Object.assign({ key }, params)); return (await fetch(u)).json(); }
+  return r;
+}
 const setPres = pr => { pres = {}; (pr?.rows || []).forEach(x => pres[String(x.who).toLowerCase()] = x); };
 let busy = false;
 // quiet=true：定时刷新，不显示读取中、不先清页面，拉完数据再画
@@ -283,7 +291,8 @@ const ID_MAP = { "达人自录 · 审片": "Rekaman Kreator · Review", "刷新"
   "脚本库": "Pustaka naskah", "点一本看分镜 · 派给谁在右边": "klik untuk lihat bagian · beri ke kreator di kanan", "＋ 新增脚本（粘贴整段，自动拆）": "＋ Naskah baru", "搜号 / 产品 / 钩子": "Cari nomor / produk / hook", "搜号 / 产品 / 钩子 / 博主 / 达人名": "Cari nomor / produk / hook / kreator",
   "全部": "Semua", "所有产品": "Semua produk", "其他": "Lainnya", "没有符合的本子": "Nggak ada yang cocok", "没有": "Tidak ada", "派给…": "Beri ke…", "派给谁": "Beri ke siapa", "派脚本": "Beri naskah", "新达人派单": "Kreator baru", "达人名或 handle（大小写都行）": "Nama atau handle kreator", "已选": "Dipilih", "还没选": "Belum dipilih", "保存": "Simpan", "还没有达人": "Belum ada kreator", "派给新名字": "Beri ke nama baru", "新达人…": "Kreator baru…", "或者新名字": "atau nama baru",
   "· 不露脸": "· tanpa wajah", "· 不说话": "· tanpa dialog", "（无台词）": "(tanpa dialog)", "推荐拍法：": "Cara ambil: ", "推荐拍法": "Cara ambil", "脸上：": "Di wajah: ", "脸上": "Di wajah", "开拍前：": "Sebelum rekam: ", "开拍前准备": "Persiapan", "总览": "ringkasan", "准备页": "persiapan", "分镜": "Bagian", "读不到这本的内容": "Isi naskah nggak bisa dibaca", "她自拆": "dipecah sendiri", "专属": "khusus", "达人专属": "Khusus kreator", "公共（所有达人可派）": "Umum (semua kreator)", "归属": "Pemilik", "留空自动": "kosong = otomatis", "脚本号": "Nomor naskah", "公共本子要填号": "Naskah umum harus ada nomor", "达人名": "Nama kreator", "新增脚本": "Naskah baru", "智能拆段": "Pecah otomatis", "Gemini 在拆，约 20 秒…": "Gemini lagi memecah, ±20 detik…", "拆好了，看一眼再保存": "Sudah dipecah, cek dulu lalu simpan", "先粘贴内容": "Tempel isinya dulu", "保存到脚本库": "Simpan ke pustaka", "存中…": "Menyimpan…", "在后面加一段": "Tambah bagian setelahnya", "删这段": "Hapus bagian ini", "台词（印尼语，空＝不说话）": "Dialog (bahasa Indonesia, kosong = diam)", "秒": "detik", "粘贴整段（H3 提示词 / SD2 四块 / 纯台词都行）": "Tempel naskah utuh", "整段复制过来就行，会自动拆成一段一段的分镜": "Tempel saja, nanti dipecah otomatis",
-  "后台还是旧版，先去 Apps Script 发新版本": "Backend masih versi lama" };
+  "后台还是旧版，先去 Apps Script 发新版本": "Backend masih versi lama",
+  "拍摄链接": "Link rekam", "复制链接": "Salin link", "已复制 ✓": "Tersalin ✓", "读取失败": "Gagal memuat", "发这条给她，打开就是她的账号；别发给别人。": "Kirim link ini ke dia; dibuka langsung masuk akunnya. Jangan kasih ke orang lain." };
 const hasZh = s => /[一-鿿]/.test(s);
 function idText(txt) {
   let t = txt;
@@ -308,7 +317,7 @@ if (uiLang === "id") document.title = "Rekaman Kreator · Review";
 // ===== 页面 =====
 function render() {
   if (!key) {
-    root.innerHTML = `<h1>达人自录 · 审片${langBtn()}</h1><div class="bar"><input class="in" id="k" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div>`;
+    root.innerHTML = `<h1>达人自录 · 审片${langBtn()}</h1><div class="bar"><input class="in" id="k" type="password" placeholder="钥匙" autocomplete="off"><button class="solid" id="go">进入</button></div>`;
     $("#go").onclick = () => { key = $("#k").value.trim(); if (!key) return; store.set("review_key", key); load(); };
     bindLang(); translate(root);
     return;
@@ -384,7 +393,7 @@ function bindLib() {
 function detailHtml(f) {
   if (!f) return `<p class="err">读不到这本的内容</p>`;
   return `${f.prep ? `<div class="prep"><b>开拍前：</b>${esc(L(f.prep))}<br><span style="opacity:.8">${esc(L(f.prep, "id"))}</span></div>` : ""}
-    ${(f.shots || []).map(s => `<div class="shotline"><b>${s.n}</b><div><span class="meta" style="color:var(--mute)">${s.sec}s${s.talk === false ? " · 不说话" : ""}</span>
+    ${(f.shots || []).map(s => `<div class="shotline"><b>${esc(s.n)}</b><div><span class="meta" style="color:var(--mute)">${Number(s.sec) || 0}s${s.talk === false ? " · 不说话" : ""}</span>
       ${s.face && L(s.face) ? `<div class="do">脸上：${esc(L(s.face))}</div>` : ""}
       ${L(s.do) ? `<div class="do">推荐拍法：${esc(L(s.do))}</div>` : ""}
       <div class="ln ${s.lines ? "" : "none"}">${esc(s.lines || "（无台词）")}</div></div></div>`).join("")}`;
@@ -393,7 +402,7 @@ function detailHtml(f) {
 // ----- 达人卡 -----
 function talentCard(t) {
   const a = assigns[Object.keys(assigns).find(k => same(k, t.who))];
-  const link = t.link || (t.handle ? "https://www.tiktok.com/@" + t.handle : "");
+  const link = okUrl(t.link) || (t.handle ? "https://www.tiktok.com/@" + encodeURIComponent(String(t.handle).replace(/^@/, "")) : "");
   const ids = scriptIds(a?.scripts);
   const scripts = Object.keys(t.scripts).sort();
   const p = pres[t.who.toLowerCase()];
@@ -401,7 +410,7 @@ function talentCard(t) {
   const where = p ? (p.view === "shot" ? `在 ${p.script} 第 ${p.shot} 段` : p.view === "overview" ? `在 ${p.script} 总览` : p.view === "prep" ? `在 ${p.script} 准备页` : p.view === "scripts" ? "在脚本列表" : p.view === "mine" ? "在写自己的脚本" : "") : "";
   const dev = p ? (/iPhone/.test(p.device) ? "iPhone" : /Android/.test(p.device) ? "Android" : /iPad/.test(p.device) ? "iPad" : "电脑") : "";
   const seenLine = p ? `<span class="seen ${online ? "on" : ""}">${online ? "● 在线" : "○ 最近登录 " + fmtT(p.last)}${where ? " · " + esc(where) : ""} · ${dev} · 登录 ${p.n} 次</span>` : `<span class="tip">还没登录过</span>`;
-  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span>${canEdit() ? `<button class="del" data-delwho="${esc(t.who)}">删掉这个达人</button>` : ""}</header>
+  return `<section class="talent"><header><b>${esc(t.nick && !same(t.nick, t.who) ? `${t.who} · ${t.nick}` : t.who)}</b>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, ""))}</a>` : ""}<span class="tip">上传 ${fmtT(t.last) || "—"}</span>${canEdit() ? `<button class="ghost sm" data-tokenfor="${esc(t.who)}">拍摄链接</button><button class="del" data-delwho="${esc(t.who)}">删掉这个达人</button>` : ""}</header>
     ${seenLine}
     <div class="assigned">派给她的：${ids.map(id => `<span class="tag"><b>${esc(id)}</b><span>${esc(L(lib[id]?.product) || "")}</span>${canEdit() ? `<button data-unassign="${esc(t.who)}" data-id="${esc(id)}" title="取消这本">✕</button>` : ""}</span>`).join("") || `<span class="tip">还没派</span>`}
       ${canEdit() ? `<button class="ghost sm" data-pick="${esc(t.who)}">＋ 派脚本</button>` : ""}${a?.saving ? `<span class="tip">保存中…</span>` : ""}</div>
@@ -434,10 +443,11 @@ function scriptBlock(sid, shots, who) {
   const rsList = reshootRows.filter(r => same(r.who, who) && same(r.script, sid));
   const rsOf = n => rsList.find(r => String(r.shot) === String(n));
   // 成片分段条：按成片上传时带的各段时长算起止秒，她对着 Drive 播放器的时间就知道是第几段；没带时长（旧成片）就只列段号
-  let segs = [], approx = false; try { segs = JSON.parse(finals[0]?.segs || "[]"); } catch (e) {}
+  const pin = arr => (Array.isArray(arr) ? arr : []).map(x => ({ n: Number(x?.n) || 0, sec: Number(x?.sec) || 0 }));   // 达人传上来的分段只认数字
+  let segs = [], approx = false; try { segs = pin(JSON.parse(finals[0]?.segs || "[]")); } catch (e) {}
   if (!segs.length && total && finals.length) {   // 旧成片没带实际时长：按脚本里每段计划秒数算，标 ≈；脚本正文还没拉到就先拉，拉到再画
     const full = lib[sid]?.full;
-    if (full?.shots?.length) { segs = full.shots.map(x => ({ n: x.n, sec: Number(x.sec) || 0 })); approx = true; }
+    if (full?.shots?.length) { segs = pin(full.shots); approx = true; }
     else { if (lib[sid] && !lib[sid].fullLoading) { lib[sid].fullLoading = true; fullScript(sid).then(() => softRender()); } segs = Array.from({ length: total }, (_, k) => ({ n: k + 1 })); }
   }
   let acc = 0;
@@ -455,6 +465,7 @@ function bindTalents() {
   $$("[data-play]").forEach(el => el.onclick = e => { if (e.target.closest("[data-del]")) return; play(el.dataset.play, el.dataset.name); });
   $$("[data-del]").forEach(b => b.onclick = async e => { e.stopPropagation(); const n = b.dataset.del.split(",").length;
     if (await confirmBox(`删掉这一段${n > 1 ? `（${n} 条）` : ""}？文件进 Drive 回收站。`, "删掉", "取消")) del({ ids: b.dataset.del.split(",") }); });
+  $$("[data-tokenfor]").forEach(b => b.onclick = e => { e.stopPropagation(); showTalentLink(b.dataset.tokenfor); });
   $$("[data-delwho]").forEach(b => b.onclick = async e => { e.stopPropagation();
     if (await confirmBox(`删掉 ${b.dataset.delwho}？上传进 Drive 回收站，派单、登录记录、意见、改的台词、自拆本一起清掉，这个人从页面消失。`, "删掉", "取消")) delTalent(b.dataset.delwho); });
   $$("[data-qset]").forEach(b => b.onclick = () => { const who = b.dataset.qset; const inp = $(`[data-qin="${CSS.escape(who)}"]`); setQuota(who, inp ? inp.value : "", b); });
@@ -465,6 +476,20 @@ function bindTalents() {
     const r = await post({ action: "reshootdel", who, script: sid, shot: n }); if (!r.ok) { err = r.error || "撤销失败"; load(true); } });
   $$("[data-qin]").forEach(inp => inp.onkeydown = e => { if (e.key === "Enter") setQuota(inp.dataset.qin, inp.value, $(`[data-qset="${CSS.escape(inp.dataset.qin)}"]`)); });
   $$("[data-notes]").forEach(b => b.onclick = () => { const k = b.dataset.notes.toLowerCase(); ui.notesOpen[k] = !ui.notesOpen[k]; render(); });
+}
+// 拍摄链接：后台给这个达人一段口令，链接 rekam.html#t=<口令>，她打开就自动登录；达人页所有请求都带口令，名字不再自报
+async function showTalentLink(who) {
+  const m = modal(`<p class="q">${esc(who)} 的拍摄链接</p><p class="tip" id="tkmsg">读取中…</p>`);
+  const r = await post({ action: "token", who });
+  const msg = $("#tkmsg", m); if (!msg) return;
+  if (!r.ok) { msg.className = "err"; msg.textContent = r.error === "unknown action" ? "后台还是旧版，先去 Apps Script 发新版本" : (r.error || "读取失败"); return; }
+  const url = location.origin + location.pathname.replace(/review\.html$/, "rekam.html") + "#t=" + encodeURIComponent(r.token);
+  msg.outerHTML = `<p class="tip">发这条给她，打开就是她的账号；别发给别人。</p><input class="in" id="tkurl" style="width:100%" readonly value="${esc(url)}">
+    <div class="row"><button class="no" id="tkno">关闭</button><button class="ok" id="tkcopy">复制链接</button></div>`;
+  $("#tkurl", m).onclick = () => $("#tkurl", m).select();
+  $("#tkno", m).onclick = () => m.remove();
+  $("#tkcopy", m).onclick = async () => { try { await navigator.clipboard.writeText(url); $("#tkcopy", m).textContent = "已复制 ✓"; } catch (e) { $("#tkurl", m).select(); } };
+  translate(m);
 }
 // 要补拍：写一句给达人（她那边这本带红标、那一段显示这句话）
 function askReshoot(who, sid, n) {
@@ -494,7 +519,7 @@ const currentIds = who => { const k = Object.keys(assigns).find(x => same(x, who
 function pickScriptsFor(who) {
   const names = talentNames();
   const m = modal(`<p class="q">${who ? `给 ${esc(who)} 派脚本` : "新达人派单"}</p>
-    ${who ? "" : `<div><div class="lab">达人名或 handle（大小写都行）</div><input class="in" id="pw" style="width:100%" list="names" placeholder="ruben / @handle"><datalist id="names">${names.map(n => `<option value="${esc(n)}">`).join("")}</datalist></div>`}
+    ${who ? "" : `<div><div class="lab">达人名或 handle（大小写都行）</div><input class="in" id="pw" style="width:100%" list="names" placeholder="nama / @handle"><datalist id="names">${names.map(n => `<option value="${esc(n)}">`).join("")}</datalist></div>`}
     <input class="in" id="pq" style="width:100%" placeholder="搜号 / 产品 / 钩子">
     <div class="slist" id="pl" style="max-height:50vh"></div>
     <p class="tip" id="pcount"></p>
@@ -521,7 +546,7 @@ function pickTalentFor(id) {
   const names = talentNames();
   const m = modal(`<p class="q">${esc(id)} 派给谁</p>
     <div class="who-list">${names.map(n => `<button class="chip ${currentIds(n).some(x => same(x, id)) ? "on" : ""}" data-w="${esc(n)}">${esc(n)}</button>`).join("") || `<span class="tip">还没有达人</span>`}</div>
-    <div><div class="lab">或者新名字</div><input class="in" id="nw" style="width:100%" placeholder="ruben / @handle"></div>
+    <div><div class="lab">或者新名字</div><input class="in" id="nw" style="width:100%" placeholder="nama / @handle"></div>
     <div class="row"><button class="no" id="pno">取消</button><button class="ok" id="pok">派给新名字</button></div>`);
   $$("[data-w]", m).forEach(b => b.onclick = () => { const w = b.dataset.w; m.remove();
     const ids = currentIds(w); saveAssign(w, ids.some(x => same(x, id)) ? ids.filter(x => !same(x, id)) : ids.concat([id])); });
@@ -601,7 +626,7 @@ function editHtml(d) {
       <div class="cell"><small>钩子 中</small><input data-f="hook.zh" value="${esc(d.hook?.zh || "")}"></div><div class="cell"><small>Hook ID</small><input data-f="hook.id" value="${esc(d.hook?.id || "")}"></div>
       ${zi("prep", d.prep, "开拍前准备")}</div>
     <div class="lab" style="margin-top:10px">分镜 ${d.shots.length} 段 · 合计 ${d.shots.reduce((a, s) => a + (+s.sec || 0), 0)} 秒</div>
-    ${d.shots.map((s, i) => `<div class="edit"><b>${s.n}</b><div class="cell"><small>秒</small><input type="number" min="2" data-f="shots.${i}.sec" value="${+s.sec || 0}"></div>
+    ${d.shots.map((s, i) => `<div class="edit"><b>${esc(s.n)}</b><div class="cell"><small>秒</small><input type="number" min="2" data-f="shots.${i}.sec" value="${+s.sec || 0}"></div>
       ${zi(`shots.${i}.face`, s.face, "脸上")}
       <span></span><span></span>${zi(`shots.${i}.do`, s.do, "推荐拍法")}
       <span></span><span></span><div class="cell lines"><small>台词（印尼语，空＝不说话）</small><textarea data-f="shots.${i}.lines">${esc(s.lines || "")}</textarea></div>
