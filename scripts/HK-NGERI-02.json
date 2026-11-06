@@ -1,0 +1,152 @@
+{
+ "id": "HK-NGERI-02",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "头达口播 · 吓人/反问（2）",
+  "id": "Naskah pembuka · Ngeri/Tanya (2)"
+ },
+ "hook": {
+  "zh": "钩子 10 句，一句一段，不拿产品",
+  "id": "pembuka, 10 kalimat, tanpa produk"
+ },
+ "src": "头达口播库_brief_v2_20261030",
+ "cam": "user",
+ "prep": {
+  "zh": "不拿产品、不露任何 logo。像聊天一样说，每句开口前、说完后各停 1 秒不动。不加滤镜。",
+  "id": "Tanpa produk, tanpa logo apa pun. Ngomong santai kayak ngobrol. Sebelum ngomong dan sesudahnya diam 1 detik. Tanpa filter."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Mereka bilang masker ini ngeri banget, aku sampai nggak berani jualin.",
+   "code": "H45"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Masker SICENARI ini ngeri banget, aku sempat mikir dua kali buat jualin.",
+   "code": "H46"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ngeri sih, besoknya temen-temenku langsung nanya aku pakai apa.",
+   "code": "H48"
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Jujur, ini terlalu bagus buat dijual murah.",
+   "code": "H50"
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Siapa sih yang nemuin ini? Pinter banget.",
+   "code": "H51"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ini yang bikin siapa sih, kok bisa kepikiran?",
+   "code": "H52"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kok bisa sih ada produk kayak gini?",
+   "code": "H53"
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kenapa nggak ada yang kasih tau aku dari dulu?",
+   "code": "H54"
+  },
+  {
+   "n": 9,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Yang nemuin ini, otaknya isinya apa sih?",
+   "code": "H55"
+  },
+  {
+   "n": 10,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Ini serius dijual di klinik Korea?",
+   "code": "H56"
+  }
+ ],
+ "na": false,
+ "source": "review"
+}

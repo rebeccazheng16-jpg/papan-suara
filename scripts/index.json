@@ -1463,6 +1463,40 @@
    "source": "h3"
   },
   {
+   "id": "HK-NGERI-02",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "头达口播 · 吓人/反问（2）",
+    "id": "Naskah pembuka · Ngeri/Tanya (2)"
+   },
+   "hook": {
+    "zh": "钩子 10 句，一句一段，不拿产品",
+    "id": "pembuka, 10 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 10,
+   "sec": 40,
+   "na": false,
+   "source": "review"
+  },
+  {
+   "id": "HK-NGERI-01",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "头达口播 · 吓人/反问（1）",
+    "id": "Naskah pembuka · Ngeri/Tanya (1)"
+   },
+   "hook": {
+    "zh": "钩子 11 句，一句一段，不拿产品",
+    "id": "pembuka, 11 kalimat, tanpa produk"
+   },
+   "src": "头达口播库_brief_v2_20261030",
+   "shots": 11,
+   "sec": 44,
+   "na": false,
+   "source": "review"
+  },
+  {
    "id": "HK-MAMA-03",
    "brand": "VEIRFOO",
    "product": {
