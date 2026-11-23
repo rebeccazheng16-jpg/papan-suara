@@ -6,14 +6,14 @@
   "id": "VEIRFOO Pink Bling Bling Cream"
  },
  "hook": {
-  "zh": "早八人三秒水光肌，多睡半小时",
-  "id": "Tiga detik langsung glowing, bisa tidur setengah jam lebih lama!"
+  "zh": "早晨水光肌，告别片状面膜",
+  "id": "Glass skin ala Korea semudah ini, nggak perlu sheet mask lagi!"
  },
- "src": "抖音 xiongxiaoxiong.",
+ "src": "抖音 @xiongxiaoxiong.",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好粉水光油霜、粉扑、散粉刷、纸巾、液体腮红。",
-  "id": "Wajah tanpa makeup. Siapkan Pink Bling Bling Cream, spons bedak, kuas bedak tabur, tisu, dan liquid blush."
+  "zh": "素颜，不化妆，不戴项链。产品：VEIRFOO Pink Bling Bling Cream（盖子盖好，标志朝前）。道具：粉扑，纸巾，散粉刷，液体腮红（全部空白无字）。",
+  "id": "Wajah bersih tanpa makeup, tanpa kalung. Produk: VEIRFOO Pink Bling Bling Cream (tutupnya tertutup, logo menghadap kamera). Alat: spons makeup, tisu, kuas bedak, liquid blush (semuanya polos tanpa tulisan)."
  },
  "shots": [
   {
@@ -22,8 +22,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah tanpa makeup"
+    "zh": "素颜，不化妆，不戴项链。",
+    "id": "Wajah bersih tanpa makeup, tanpa kalung."
    },
    "do": {
     "zh": "",
@@ -37,14 +37,14 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸颊有点泛红",
-    "id": "Wajah tanpa makeup, kulit agak kemerahan"
+    "zh": "素颜，不化妆，不戴项链，脸颊和鼻子周围有点泛红。",
+    "id": "Wajah bersih tanpa makeup, tanpa kalung, kulit agak kemerahan di pipi dan sekitar hidung."
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
-   "lines": "Tapi Pink Bling Bling ini, tiga detik langsung meresap, tunggu tiga puluh detik, kulitku berasa langsung glowing. Lihat, yang pink ini cocok banget buat pagi-pagi, kulitku berasa cepet tenang, kayak kebangun. Buatku super glowing, merah-merah tadi berasa udah nggak ada."
+   "lines": "Tapi Pink Bling Bling ini, tiga detik langsung meresap, tunggu tiga puluh detik, kulitku berasa langsung glowing. Lihat, yang pink ini cocok banget buat pagi-pagi, kulitku berasa cepet tenang, kayak kebangun. Buatku super glowing, merah-merahnya berasa lebih tenang."
   },
   {
    "n": 3,
@@ -52,11 +52,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，已用粉水光油霜，有水光感",
-    "id": "Wajah tanpa makeup, sudah pakai Pink Bling Bling Cream, ada efek glowing"
+    "zh": "素颜，不化妆，不戴项链，皮肤有水光感。",
+    "id": "Wajah bersih tanpa makeup, tanpa kalung, kulit glowing."
    },
    "do": {
-    "zh": "脸部一侧涂了粉底，另一侧没涂，以便对比。",
+    "zh": "一侧脸颊已经涂了粉底，另一侧没有，这样对比更明显。",
     "id": "Satu sisi wajah sudah dipakai foundation, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Habis meresap, kulitnya jadi agak lengket, jadi foundation apa pun nempel kuat, lebih rapi dan nyatu. Bagian yang pakai foundation sama yang cuma pakai Pink Bling Bling, bedanya cuma di noda."
@@ -67,14 +67,14 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半脸粉底，半脸素颜，都有水光感",
-    "id": "Setengah wajah pakai foundation, setengah wajah tanpa makeup, keduanya glowing"
+    "zh": "一侧脸颊涂了粉底，另一侧没有，两边都有水光感。",
+    "id": "Satu sisi wajah sudah pakai foundation, sisi satunya belum, kedua sisi glowing."
    },
    "do": {
     "zh": "",
     "id": ""
    },
-   "lines": "Lihat, glow di bawahnya sama persis. Glow-nya nerus sampai ke bawah, nggak ketutup foundation. Ajaib!"
+   "lines": "Lihat, glow di bawahnya sama persis. Glow-nya nerus sampai ke bawah, nggak ketutup foundation. Suka banget!"
   },
   {
    "n": 5,
@@ -82,14 +82,14 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半脸粉底，半脸素颜，都有水光感",
-    "id": "Setengah wajah pakai foundation, setengah wajah tanpa makeup, keduanya glowing"
+    "zh": "一侧脸颊涂了粉底，全脸都有水光感。",
+    "id": "Satu sisi wajah sudah pakai foundation, seluruh wajah glowing."
    },
    "do": {
     "zh": "",
     "id": ""
    },
-   "lines": "Udah pakai bedak pun, masih kelihatan kilau tipis. Ini yang belum, ini yang udah, tetap ada glow cantik. Tapi dipegang, super fresh, sama sekali nggak nempel di muka. Wah, ajaib!"
+   "lines": "Udah pakai bedak pun, masih kelihatan kilau tipis. Ini yang belum, ini yang udah, tetap ada glow cantik. Tapi dipegang, super fresh, sama sekali nggak nempel di muka. Wah, suka banget!"
   },
   {
    "n": 6,
@@ -97,8 +97,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "底妆完成，有水光感",
-    "id": "Base makeup selesai, ada efek glowing"
+    "zh": "底妆完成，清透自然，有水光感。",
+    "id": "Base makeup sudah selesai, tipis dan natural, ada glow."
    },
    "do": {
     "zh": "",

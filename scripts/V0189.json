@@ -1,0 +1,82 @@
+{
+ "id": "V0189",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 银管素颜霜 Tone-Up Cream",
+  "id": "VEIRFOO Tone-Up Cream"
+ },
+ "hook": {
+  "zh": "手臂抹出一片水光",
+  "id": "Lengan jadi glowing berair"
+ },
+ "src": "SICENARI S0171 (复刻抖音 小爱麻麻 INFIYES)",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO 银管素颜霜（两支，一支开盖，一支不开盖）。皮肤：手臂内侧干净，无袖子。",
+  "id": "Produk: VEIRFOO Tone-Up Cream (dua tube, satu dibuka tutupnya, satu lagi tertutup). Kulit: Lengan bagian dalam bersih, tanpa lengan baju."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。展示一支，然后两支管并排摆放。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Tunjukkan satu tube lalu dua tube dijejerkan."
+   },
+   "lines": "Tone-Up Cream ini khusus buat kalian yang kulitnya tuh kusam, susah cerah, yang punya kemerahan di pipi, warna kulit belang nggak rata, bisa banget pakai yang ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。拧开盖子。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Putar tutupnya sampai terbuka."
+   },
+   "lines": "Kalau kamu pengen kulit glowing di musim hujan ini, aku kasih satu cara gampang: habis cuci muka, pakai Tone-Up Cream dari VEIRFOO yang lagi viral ini, asli dari Korea."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "挤三点乳液到手背，抹满小臂出水光。",
+    "id": "Pencet tiga titik krim ke punggung tangan, lalu ratakan di lengan sampai glowing."
+   },
+   "lines": "Teksturnya krim putih, ringan banget, sekali oles langsung rata dan meresap. Aku ngerasa lenganku lembap dan glowing. Di dalamnya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "小臂迎光，拧回盖子倒立桌面。",
+    "id": "Lengan menghadap cahaya. Pasang kembali tutupnya lalu letakkan tube terbalik di meja."
+   },
+   "lines": "Setelah rutin pakai, aku ngerasa kulitku lebih cerah dan rata, kemerahan di pipiku juga ketutup. Satu tube udah toner, pelembap, primer, tone-up, sama pengganti foundation. Pengen kulit glowing kayak cewek Korea? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "双管并排指左下小黄车。",
+    "id": "Dua tube dijejerkan, lalu tunjuk keranjang kuning di kiri bawah."
+   },
+   "lines": "Udah terdaftar BPOM juga, tiap pagi aku tinggal oles ini aja, beres. Langsung checkout di keranjang kuning kiri bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "我用脸担保，这款面膜真的能改善皮肤问题",
-  "id": "Aku jamin pakai wajahku sendiri, masker ini beneran bisa bikin kulitku lebih baik"
+  "zh": "用脸担保，没有哪个厂家敢把14天抗皱印在包装盒上",
+  "id": "Aku jaminin pakai wajahku sendiri, nggak ada masker lain yang berani cetak klaim anti-kerut 14 hari segede ini di kotak."
  },
  "src": "TikTok @余干雪碧",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜（盒装和单片袋装），素颜，无妆。",
-  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kemasan kotak dan sachet), wajah bersih tanpa makeup."
+  "zh": "素颜，皮肤干净无妆。准备好一盒 SICENARI 面膜（盖子盖好，正面朝向镜头），一袋已撕开的 SICENARI 面膜（正面朝向镜头）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan satu kotak masker Sicenari (tertutup, logo menghadap kamera) dan satu saset masker Sicenari yang sudah disobek (menghadap kamera)."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
+    "zh": "素颜，皮肤干净无妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "轻拍脸颊，然后掰手指细数皮肤问题，说到眼角时轻触眼角。",
-    "id": "Tepuk pipi, lalu hitung masalah kulit di jari, sentuh sudut mata saat menyebutkannya."
+    "zh": "轻拍脸颊，然后掰手指计数。",
+    "id": "Tepuk pipi, lalu hitung di jari."
    },
    "lines": "Aku cowok, hari ini aku jaminin pakai wajahku sendiri. Masker yang aku rekomendasiin ini, habis aku pakai, aku ngerasa garis kering, garis halus, kerutan di sudut mata, crow's feet, sama kusam di wajahku jadi lebih enak dilihat."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
+    "zh": "素颜，皮肤干净无妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "轻揉脸颊一次。展示产品时 logo 正面朝向镜头。",
-    "id": "Gosok pipi sekali. Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "用指尖轻揉脸颊。展示产品时 logo 正面朝向镜头。",
+    "id": "Gosok pipi perlahan dengan ujung jari. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau kamu pikir aku bohong, omelin aku di kolom komentar, aku nggak bakal balas. Aku sering lembur sampai begadang, wajah kering sampai mengelupas. Sekarang tiap malam sebelum tidur aku pakai satu lembar."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
+    "zh": "素颜，皮肤干净无妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。用两只手从撕开的袋子里取出面膜，让精华液滴落。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Angkat masker dari sachet yang sudah dibuka, biarkan essence menetes."
+    "zh": "展示产品时 logo 正面朝向镜头。从袋子里拿出面膜，让精华液滴落。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Angkat masker dari sasetnya, biarkan esensnya menetes."
    },
    "lines": "Ini Sicenari dari Korea, satu lembar isinya dua puluh lima mililiter essence, diangkat aja netes terus."
   },
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
+    "zh": "素颜，皮肤干净无妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。用手指轻敲盒子上的 PDRN 字样。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tulisan PDRN di kotak dengan jari."
+    "zh": "展示产品时 logo 正面朝向镜头。用指尖轻敲盒子上的 PDRN 字样。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tulisan PDRN di kotak dengan ujung jari."
    },
    "lines": "Coba lihat kotaknya ini, tulisannya PDRN sembilan ribu sembilan ratus ppm. Nggak ada masker lain yang berani cetak kandungannya segede ini di kotak, nggak ada yang berani. Yang ini oke, yang ini beneran oke."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆。",
+    "zh": "素颜，皮肤干净无妆。",
     "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。用空闲的手指向画面左下角的购物车。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Tunjuk keranjang kuning di kiri bawah dengan tangan kosong."
+    "zh": "展示产品时 logo 正面朝向镜头。用手指指向画面左下角。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Arahkan jari ke keranjang kuning kiri bawah."
    },
    "lines": "Aku pakai sendiri, sekalian bagi satu lembar ke pacarku. Murahnya sampai aku malu nyebut harganya. Link-nya ada di keranjang kuning kiri bawah, bisa langsung checkout."
   }

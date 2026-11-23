@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "撕下面膜，皮肤又亮又滑",
-  "id": "Masker dikelupas, kulit jadi cerah & halus"
+  "zh": "撕掉面膜后皮肤变亮了",
+  "id": "Kulit jadi cerah setelah lepasin masker"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜。准备鎏金蛋白膜（管状和盒子）和面膜刷。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produk Golden Mask (tube & box) dan kuas masker."
+  "zh": "准备 VEIRFOO 鎏金蛋白膜、包装盒和刷子。从素颜开始。",
+  "id": "Siapin VEIRFOO Golden Mask, kotaknya, sama kuas. Mulai dengan muka polos tanpa makeup."
  },
  "shots": [
   {
@@ -21,12 +21,12 @@
    "sec": 11,
    "talk": true,
    "face": {
-    "zh": "面膜已干成膜",
-    "id": "Masker sudah kering jadi lapisan film"
+    "zh": "全脸涂满干透的面膜",
+    "id": "Masker sudah kering di seluruh muka"
    },
    "do": {
-    "zh": "从上到下撕下面膜。展示产品和盒子时 logo 正面朝向镜头。",
-    "id": "Kelupas maskernya dari atas ke bawah. Tunjukkan produk dan boxnya, logo bagian depan menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ternyata mereka nggak bohong! Pas aku ganti ke produk yang sama, kulitku tampak lebih cerah, halus kayak telur kupas. Dulu aku nggak percaya, sampai akhirnya aku beli VEIRFOO Golden Mask dari Korea ini."
   },
@@ -58,8 +58,8 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "展示产品和盒子时 logo 正面朝向镜头。",
-    "id": "Tunjukkan produk dan boxnya, logo bagian depan menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Versi upgrade-nya sekarang ada kilau emas halus di dalamnya, buat kado atau dipakai sendiri sama-sama cocok. Mau kulit sebagus mereka? Cek keranjang kuning di bawah, ya!"
   }

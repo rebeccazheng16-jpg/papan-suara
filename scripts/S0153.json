@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "含粉底一步到位、只用这一个就够",
-  "id": "Foundation in one step, just this one is enough"
+  "id": "Foundation dan skincare dalam satu langkah, cukup pakai ini saja"
  },
  "src": "TikTok @siskaismaya",
  "cam": "user",
  "prep": {
-  "zh": "准备好：SICENARI 超光子胶原炮面膜（盒子和单片面膜），素颜，脸部已清洁。",
-  "id": "Siapkan: masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak dan satu lembar masker), wajah bersih tanpa makeup."
+  "zh": "素颜，准备好面膜，盒子",
+  "id": "Wajah bersih tanpa makeup, siapkan masker dan kotak produknya"
  },
  "shots": [
   {
@@ -22,8 +22,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "下半张面膜已敷好，上半张正要敷上。",
-    "id": "Setengah masker sudah terpasang di wajah bagian bawah, setengah bagian atas akan dipasang."
+    "zh": "下半张面膜已敷好",
+    "id": "Setengah masker sudah terpasang"
    },
    "do": {
     "zh": "",
@@ -37,11 +37,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "面膜已敷好。",
-    "id": "Masker sudah terpasang penuh di wajah."
+    "zh": "面膜已敷好",
+    "id": "Masker sudah terpasang penuh"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品，标志正面朝向相机。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini beneran bagus banget. Habis pakai, aku ngerasa mukaku lebih lembap dan sedikit lebih cerah, sampai besok paginya masih lembap. Cocok banget buat yang suka skincare simple, nggak usah banyak produk, cukup pakai selembar ini, udah mantul banget."

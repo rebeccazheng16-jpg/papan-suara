@@ -1,0 +1,82 @@
+{
+ "id": "V0185",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 水光霜新版 Hydraglow Firming Cream new",
+  "id": "VEIRFOO Hydraglow Firming Cream"
+ },
+ "hook": {
+  "zh": "手臂抹出一片水光",
+  "id": "Kulit auto glowing dan lembap"
+ },
+ "src": "SICENARI S0171 (复刻抖音 小爱麻麻 INFIYES)",
+ "cam": "user",
+ "prep": {
+  "zh": "VEIRFOO 水光霜新版（透明盖新包装）一支或两支，盖子盖好。素手，无袖。",
+  "id": "Siapkan 1 atau 2 tube VEIRFOO Hydraglow Firming Cream (kemasan baru tutup transparan), tertutup rapat. Tangan dan lengan bersih tanpa lengan baju."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 15,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Krim ini khusus buat kalian yang kulitnya tuh kusam, kering ketarik, yang punya kulit luar berminyak dalam kering, makeup gampang crack, bisa banget pakai yang ini. Kalau pengen kulit glowing di musim hujan, caranya gampang: habis cuci muka, pakai Bling Bling Cream VEIRFOO dari Korea yang lagi viral ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Makin sering begadang, kulit makin kering, kusam, kasar, makin kerasa enaknya krim ini. Satu krim udah primer, krim, toner, lotion, jadi aku nggak perlu numpuk skincare lagi."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Teksturnya krim putih, aku oles ke lengan, digosok langsung jadi air dan meresap, lenganku berasa lembap dan glowing. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku ngerasa kulitku lebih lembap, nggak sekusam dulu, nggak ketarik lagi, dan makeup-ku nempel lebih rapi. Yang penting, kulit sensitif, kering, atau berminyak, semuanya bisa pakai. Pengen kulit glowing? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Satu tube bisa sekaligus jadi primer sebelum makeup, praktis banget dibawa ke mana-mana. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

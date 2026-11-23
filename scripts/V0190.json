@@ -1,0 +1,77 @@
+{
+ "id": "V0190",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光胶原蛋白膜 VEIRFOO Hydraglow Collagen Mask",
+  "id": "VEIRFOO Collagen Mask"
+ },
+ "hook": {
+  "zh": "手臂抹出一片水光",
+  "id": "Lengan jadi glowing kayak ada airnya"
+ },
+ "src": "SICENARI S0171",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好，标签朝前）；素手，无妆",
+  "id": "Produknya (tutupnya terpasang, label menghadap kamera); tangan bersih, tanpa makeup"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Masker oles ini khusus buat kalian yang kulitnya tuh kusam, kering ketarik, yang punya pori-pori besar, tekstur nggak rata, bisa banget pakai yang ini. Musim hujan gini, aku kasih satu cara gampang: habis cuci muka, oles Collagen Mask VEIRFOO asli Korea ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Makin sering begadang, kulit kering, kusam, kasar, kendur, garis halus makin banyak, makin kerasa enaknya masker ini. Habis maskeran, aku nggak perlu numpuk serum dan krim lagi."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Teksturnya lembut banget kayak yogurt. Aku oles dulu ke lengan, gampang banget ratanya, langsung lenganku berasa lembap dan glowing. Di dalamnya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih lembap, nggak sekusam dan sekasar dulu. Habis dilepas, kulitku berasa lebih halus dan kenyal. Pengen kulit glowing kayak orang Korea? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku sampai stok dua sekaligus, takut kehabisan, soalnya lagi viral banget di Korea. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

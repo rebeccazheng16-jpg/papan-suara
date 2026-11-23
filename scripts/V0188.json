@@ -1,0 +1,82 @@
+{
+ "id": "V0188",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "紫管素颜霜 Purple Tube Tone-Up Cream",
+  "id": "Purple Tube Tone-Up Cream VEIRFOO"
+ },
+ "hook": {
+  "zh": "手臂抹出水光肌",
+  "id": "Lengan jadi cerah dan glowing"
+ },
+ "src": "SICENARI S0171",
+ "cam": "user",
+ "prep": {
+  "zh": "VEIRFOO 紫管素颜霜，盖子盖好。尽量用白色明亮的桌面做背景。",
+  "id": "VEIRFOO Purple Tube Tone-Up Cream, tutupnya terpasang. Kalau bisa, pakai meja rias warna putih yang terang sebagai latar belakang."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Tone-up cream ini khusus buat kalian yang kulitnya tuh kusam, susah cerah, yang punya warna kulit belang, gampang merah, bisa banget pakai yang ini. Cara gampangnya: habis skincare, oles Purple Tube VEIRFOO dari Korea ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Makin sering begadang, kulit makin kusam, belang, gampang merah, makin kerasa enaknya Purple Tube ini. Pagi-pagi sebelum keluar, aku udah nggak perlu numpuk primer sama foundation lagi."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Teksturnya krim putih lembut, gampang diratain. Aku oles ke lengan, cepat meresap, lenganku berasa lebih cerah dan glowing. Di dalamnya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih cerah dan rata, nggak sekusam dan semerah dulu. Yang penting, kulit sensitif, kering, atau berminyak, semuanya bisa pakai. Pengen kelihatan glowing tanpa makeup tebal? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Satu tube bisa jadi pelembap, primer, sekaligus tone-up, praktis banget buat dibawa ke mana-mana. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

@@ -2,18 +2,18 @@
  "id": "V0016",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "水光霜 Blingbling Cream",
+  "zh": "VEIRFOO 水光霜 Blingbling Cream",
   "id": "VEIRFOO Blingbling Cream"
  },
  "hook": {
-  "zh": "原来拥有韩式水光肌这么简单！",
-  "id": "Ternyata dapetin glass skin ala Korea gampang banget!"
+  "zh": "一抹打造韩式水光肌",
+  "id": "Cara gampang dapetin glass skin ala Korea"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "准备 VEIRFOO 水光霜和气垫粉扑，从干净的素颜开始。",
-  "id": "Siapin VEIRFOO Blingbling Cream sama cushion puff. Mulai dengan muka bersih tanpa makeup ya."
+  "zh": "VEIRFOO 水光霜, 气垫粉扑, 干净的素颜。",
+  "id": "VEIRFOO Blingbling Cream, cushion puff, dan muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -25,8 +25,8 @@
     "id": "Muka bersih"
    },
    "do": {
-    "zh": "一边脸用产品，另一边不用，这样能看出区别。展示产品时 logo 正面朝向镜头。",
-    "id": "Pakai di satu sisi wajah aja, biar bedanya kelihatan. Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "一边脸用了, 另一边没用, 这样能看到区别。展示产品时 logo 正面朝向镜头。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Coba dulu deh, mukaku langsung glowing parah. Ternyata buatku dapetin glass skin ala Korea gampang banget ya! Ini nih, VEIRFOO Blingbling Cream dari Korea. Praktis banget, cukup satu produk ini aja buat melengkapi skincare harian."
   },
@@ -35,12 +35,12 @@
    "sec": 11,
    "talk": true,
    "face": {
-    "zh": "涂了水光霜之后",
-    "id": "Muka sudah pakai Blingbling Cream"
+    "zh": "霜已吸收",
+    "id": "Krim sudah meresap"
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "用气垫粉扑上粉底。展示产品时 logo 正面朝向镜头。",
+    "id": "Pakai foundation dengan cushion puff. Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Aku ngerasa kulitku glowing dari dalam. Mau pakai foundation apa pun, hasil akhirnya tetap kelihatan kayak glass skin ala Korea. Original Korea, harganya cuma segini loh! Cek keranjang kuning di bawah, ya"
   }

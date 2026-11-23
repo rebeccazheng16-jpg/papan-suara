@@ -1,0 +1,142 @@
+{
+ "id": "V0181",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "注氧小气泡精粹液 VEIRFOO Bubble Essence",
+  "id": "VEIRFOO Bubble Essence"
+ },
+ "hook": {
+  "zh": "ASMR 护肤流程",
+  "id": "ASMR Skincare Routine"
+ },
+ "src": "TikTok @lera_valesta",
+ "cam": "user",
+ "prep": {
+  "zh": "素颜，准备好 VEIRFOO 注氧小气泡精粹液（盖子盖好，logo 朝前），蒸脸杯，白色湿毛巾。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Bubble Essence (tutup terpasang, logo menghadap kamera), facial steamer, dan handuk putih lembap."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 6,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": ""
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "展示产品，logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Wah..."
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": ""
+  },
+  {
+   "n": 4,
+   "sec": 5,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "精华液已涂抹在部分脸颊上",
+    "id": "Essence sudah dioleskan di sebagian pipi"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": ""
+  },
+  {
+   "n": 5,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸已涂抹精华液，形成泡沫",
+    "id": "Seluruh wajah sudah dioleskan essence dan berbusa"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Tunggu lima menit ya."
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸已涂抹精华液，形成泡沫",
+    "id": "Seluruh wajah sudah dioleskan essence dan berbusa"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Wah..."
+  },
+  {
+   "n": 7,
+   "sec": 6,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "全脸已涂抹精华液，形成泡沫",
+    "id": "Seluruh wajah sudah dioleskan essence dan berbusa"
+   },
+   "do": {
+    "zh": "用湿毛巾擦掉泡沫。",
+    "id": "Lap busa dengan handuk lembap."
+   },
+   "lines": ""
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸干净，无泡沫",
+    "id": "Wajah bersih tanpa busa"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kulitku berasa lembut banget, halus..."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

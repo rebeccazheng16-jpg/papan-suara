@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "连Shannon她们都在用，我怕它！",
-  "id": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka. Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air. Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih. Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat. Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia. Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
+  "zh": "连Shannon都在用的洗面奶",
+  "id": "Pembersih muka yang dipakai Shannon"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO注氧小气泡精粹液（盖子盖好，标签朝前）。道具：湿毛巾。皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Bubble Cleanser (tutupnya terpasang, label menghadap kamera). Alat: handuk basah. Kulit: wajah bersih tanpa makeup."
+  "zh": "素颜，准备好产品（盖子盖好，logo朝前），湿毛巾。",
+  "id": "Wajah tanpa makeup. Siapkan produk (tutupnya terpasang, logo menghadap kamera) dan handuk basah."
  },
  "shots": [
   {
@@ -22,8 +22,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "捏脸颊时说“嫩到掐出水”。",
-    "id": "Pencet pipi pas bilang 'dicubit aja keluar air'."
+    "zh": "捏脸颊。",
+    "id": "Pencet pipi."
    },
    "lines": "Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。用湿毛巾擦拭泡沫。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Lap busanya pakai handuk basah."
+    "zh": "展示产品时 logo 正面朝向镜头。湿润皮肤，按压一次，均匀涂抹，无需揉搓，让泡沫自然生成。等待片刻，用湿毛巾擦拭干净。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih."
   },
@@ -67,8 +67,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
-    "zh": "按压脸颊时说“弹回”。",
-    "id": "Tekan pipi pas bilang 'kulitku yang kering dan ketarik habis cuci muka juga takut sama dia'."
+    "zh": "按压脸颊。",
+    "id": "Tekan pipi."
    },
    "lines": "Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia."
   },
@@ -97,8 +97,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，无妆",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",

@@ -2,18 +2,18 @@
  "id": "V0124",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "注氧小气泡精粹液 VEIRFOO Bubble Cleanser",
+  "zh": "注氧小气泡精粹液 Bubble Cleanser",
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
   "zh": "黑头躲在毛孔缝里，绿泥进得去",
-  "id": "Komedomu ngumpet di pori-pori, tapi VEIRFOO Bubble Cleanser bisa masuk!"
+  "id": "Komedo ngumpet di pori, tapi ini bisa masuk"
  },
  "src": "抖音 BUV笔薇官方旗舰店",
  "cam": "user",
  "prep": {
-  "zh": "素颜，VEIRFOO注氧小气泡精粹液（盖子盖好，logo朝前）。",
-  "id": "Wajah bersih tanpa makeup. VEIRFOO Bubble Cleanser (tutupnya terpasang, logo menghadap kamera)."
+  "zh": "素颜，备好产品（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
  },
  "shots": [
   {
@@ -46,12 +46,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，湿润的皮肤",
-    "id": "Wajah bersih dan lembap"
+    "zh": "湿润的素颜，无斑点或泛红。",
+    "id": "Wajah bersih tanpa makeup, lembap, tanpa noda atau kemerahan."
    },
    "do": {
-    "zh": "捏脸颊。",
-    "id": "Cubit pipi."
+    "zh": "涂抹精华液时，泡沫会跟着手指出现。捏脸颊时说弹润。",
+    "id": "Oleskan essence, busa akan muncul mengikuti jari. Cubit pipi saat bilang kenyal."
    },
    "lines": "Ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu nggak berminyak dan nggak kotor, jangan pakai, takutnya jadi kayak kulitku, lembut banget, dicubit aja keluar air."
   },
@@ -61,8 +61,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，干净的皮肤",
-    "id": "Wajah bersih"
+    "zh": "全脸覆盖泡沫。",
+    "id": "Seluruh wajah tertutup busa."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -76,12 +76,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，湿润的皮肤",
-    "id": "Wajah bersih dan lembap"
+    "zh": "湿润的素颜。",
+    "id": "Wajah bersih tanpa makeup, lembap."
    },
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wajah dibasahi, oles, nggak usah digosok. Tunggu beberapa detik, muncul sendiri busa putih halus dan rapat, masuk ke sela pori, ngangkat minyak dan kotoran. Lihat, busanya makin naik."
   },
@@ -91,8 +91,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，干净的皮肤",
-    "id": "Wajah bersih"
+    "zh": "全脸覆盖泡沫。",
+    "id": "Seluruh wajah tertutup busa."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -106,8 +106,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，干净的皮肤",
-    "id": "Wajah bersih"
+    "zh": "干净的素颜。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",

@@ -1,0 +1,127 @@
+{
+ "id": "V0183",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "钻光粉底霜 VEIRFOO Breathing Cream",
+  "id": "VEIRFOO Breathing Cream"
+ },
+ "hook": {
+  "zh": "两步打造清透妆容",
+  "id": "Bikin clean makeup cuma 2 step"
+ },
+ "src": "TikTok @ymlia002",
+ "cam": "user",
+ "prep": {
+  "zh": "素颜，准备好产品（盖子盖好，logo朝前），气垫粉扑。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produk (tutupnya terpasang, logo menghadap kamera) dan puff cushion."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalian yang makeup-nya sering cakey, abu-abu, kelihatan tebal, sorenya belang, foundation serum cream ini khusus buat kalian. Makeup natural gini justru paling susah."
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "半边脸已用，另一半还没用，这样能看到对比。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
+   },
+   "lines": "Asal ambil foundation, langsung tempel ke wajah, ketutup sih, tapi tebal banget. Kalau masih makeup kayak gini, hapus. Aku ajarin."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Aku mau clean makeup ala cewek Korea, kayak my skin but better. Wajahku agak kemerahan dan ada bekas jerawat, jadi aku tambahin ini dulu: VEIRFOO Breathing Cream, foundation serum cream dari Korea."
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Foundation kalian satu pump, ini setengah pump. Yang kulitnya terang, langsung pakai ini. Tap-tap di punggung tangan, terus tepuk tipis-tipis dari tengah wajah."
+  },
+  {
+   "n": 5,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸水光底妆",
+    "id": "Base makeup dewy di seluruh wajah"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Yang kurang ketutup, ambil sedikit pakai ujung puff, jadi concealer. Setelah full face, aku ngerasa kulitku kayak mulus dari sananya, dewy tapi healthy glowy."
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸水光底妆",
+    "id": "Base makeup dewy di seluruh wajah"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau mau matte, tinggal tambahin bedak tabur. Kelihatan kayak pakai sepuluh produk, padahal cuma nambah setengah pump ini."
+  },
+  {
+   "n": 7,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸水光底妆",
+    "id": "Base makeup dewy di seluruh wajah"
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Jadi kalau makeup kalian selalu kelihatan medok, menor, padahal maunya yang kayak gini, yang kelihatan natural, clean look, dipakai daily juga nggak bikin malu, tinggal kalian coba, praktekin dulu."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "V0193",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
+  "id": "VEIRFOO Purple Tube"
+ },
+ "hook": {
+  "zh": "涂了发灰的人看过来＋半脸对比",
+  "id": "Yang pakai tone up cream tapi wajahnya abu-abu, pucat kayak topeng, terus cakey nggak nyatu di kulit, sini lihat!"
+ },
+ "src": "TikTok @soomika30",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好，标签朝前）；素颜，只留眼妆眉毛。",
+  "id": "Produknya (tutupnya terpasang, label menghadap kamera); wajah bersih tanpa makeup, hanya riasan mata dan alis."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，只留眼妆眉毛。",
+    "id": "Wajah bersih tanpa makeup, hanya riasan mata dan alis."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kalian yang pakai tone up cream, tapi wajahnya langsung abu-abu, pucat kayak topeng, terus cakey nggak nyatu di kulit, yang ini cocok banget buat kalian. Aku kasih lihat bedanya kiri kanan ya, pakai tone up cream VEIRFOO Purple Tube."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "左脸（画面右侧）有未推开的素颜霜，右脸（画面左侧）素颜。",
+    "id": "Satu sisi wajah (kanan di kamera) sudah ada krimnya tapi belum diratakan, sisi satunya (kiri di kamera) masih bersih."
+   },
+   "do": {
+    "zh": "一侧脸已经涂了产品，另一侧脸还没有，这样才能看到区别。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
+   },
+   "lines": "Cukup pagi-pagi pakai ini, mau berangkat kerja, olahraga, nggak usah makeup, aku ngerasa wajahku udah kelihatan flawless banget. Ini bisa kalian jadiin primer, jadi habis ini mau makeup atau nggak makeup, terserah kalian."
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "左脸（画面右侧）已推开素颜霜，右脸（画面左侧）有未推开的素颜霜。",
+    "id": "Satu sisi wajah (kanan di kamera) sudah diratakan krimnya, sisi satunya (kiri di kamera) sudah ada krimnya tapi belum diratakan."
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": ""
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸已推开素颜霜。",
+    "id": "Seluruh wajah sudah diratakan krimnya."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Terus yang aku suka, isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon. Per gramnya aja harganya mahal banget. Strukturnya mirip kulit kita, jadi buatku cepet meresap. Selain itu ada juga niacinamide, centella, squalane, dan hyaluronic acid di dalamnya."
+  },
+  {
+   "n": 5,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸已推开素颜霜。",
+    "id": "Seluruh wajah sudah diratakan krimnya."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Jadi buatku, ini bukan cuma tone up cream, tapi juga skincare anti-aging aku tiap hari. Yang mau coba, klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

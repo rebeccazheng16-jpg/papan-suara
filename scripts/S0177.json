@@ -1,0 +1,70 @@
+{
+ "id": "S0177",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "SICENARI sheet mask pouch isi 21 lembar"
+ },
+ "hook": {
+  "zh": "透明玻璃 AI 脸钩子",
+  "id": "Pernah nggak pakai masker yang sekantong isinya 21 lembar?"
+ },
+ "src": "小红书 嘟嘟在这里 染语",
+ "cam": "user",
+ "prep": {
+  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封），以及一个普通单片装面膜袋（空白）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan pouch masker SICENARI (masih tersegel), dan satu sachet masker lembaran biasa yang kosong."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Masker pasti kalian semua udah pernah pakai, tapi pernah nggak pakai masker yang sekantong isinya dua puluh satu lembar?"
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Masker yang sebungkus cuma selembar itu essence-nya dikit banget, belum lagi banyak pengentalnya. Kalau Sicenari, sekali checkout dapet dua puluh satu lembar, tiap lembarnya full terendam essence."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Bifida, bahan andalan serum mewah dari merek-merek besar ini, di sini langsung ada di urutan pertama komposisinya. Emang skincare Korea beda, ada PDRN juga dan bahan berharga lainnya, isinya nggak main-main!"
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Sekantong segede ini kalau dihitung, sehari pakai selembar nggak sampai tujuh ribu. Klik keranjang kuning di kiri bawah, ambil sekantong dulu buat coba ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

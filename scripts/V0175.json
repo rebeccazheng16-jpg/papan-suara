@@ -1,0 +1,145 @@
+{
+ "id": "V0175",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 VEIRFOO Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "明星同款在家两步护理",
+  "id": "Perawatan dua langkah ala selebriti di rumah"
+ },
+ "src": "TikTok @fujiiian",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，logo朝向镜头）。刷子。",
+  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, logo menghadap kamera). Kuas."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Rahasia wajah Fuji tetap oke walau begadang, ya VEIRFOO Golden Mask ini. Waaa, nggak nyangka banget aku pakai yang sama kayak Uti!"
+  },
+  {
+   "n": 2,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Caranya nggak ribet, bisa di rumah. Habis cuci muka, pakai kuas emasnya, oles tebal satu lapis sebagai dasar."
+  },
+  {
+   "n": 3,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Urutan pertama di komposisinya itu Bifida Ferment, bahan inti serum brand mewah. Urutan pertama artinya paling banyak."
+  },
+  {
+   "n": 4,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Terus ada PDRN, bahan dari ekstrak salmon, per gramnya aja mahal banget. Strukturnya mirip kulit kita, jadi buatku cepet meresap."
+  },
+  {
+   "n": 5,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Ada juga niacinamide, kolagen larut, dan elastin, pas banget buat dasar skincare. Bagian garis senyum dan rahang yang gampang kendur, oles lebih banyak, tebal tipisnya sesuaikan bentuk wajah."
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。撕下面膜。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Kelupas maskernya."
+   },
+   "lines": "Tunggu sampai kering jadi lapisan tipis, terus kelupas utuh dari pinggir."
+  },
+  {
+   "n": 7,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部干净光滑。",
+    "id": "Wajah bersih, tanpa makeup, halus."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Habis dikelupas, aku ngerasa kulitku lebih bening dan glowing, rahangku juga keliatan sedikit lebih rapi. Pakai rutin, aku juga pelan-pelan ngerasa kulitku berubah."
+  },
+  {
+   "n": 8,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Dulu aku hati-hati banget sama produk kayak gini. Aku baru tenang setelah lihat sertifikat asli Korea-nya. Di Korea harganya segini loh."
+  },
+  {
+   "n": 9,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Sama sekali nggak ribet, tapi hasilnya keliatan buatku. Kalau kamu sering begadang karena kerja, atau wajah gampang kendur habis begadang, dan pengen balikin kondisi kulit."
+  },
+  {
+   "n": 10,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Cobain tube VEIRFOO samaan Fuji ini. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

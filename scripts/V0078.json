@@ -12,8 +12,8 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，产品外包装盒，产品管，各种用完的眼霜空瓶，各种大牌抗老精华瓶",
-  "id": "Wajah bersih tanpa makeup, kotak kemasan produk, tube produk, botol-botol eye cream kosong, botol-botol serum anti-aging mewah"
+  "zh": "素颜，产品包装盒，产品管，一堆用完的眼霜空瓶",
+  "id": "Wajah bersih tanpa makeup. Siapkan: kotak kemasan produk, tube produk, dan tumpukan botol kosong eye cream bekas pakai."
  },
  "shots": [
   {
@@ -38,7 +38,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品外包装盒时标志正面朝向镜头。",
+    "zh": "展示产品时，标识要正对镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Eye cream mahal murah udah aku coba semua, ujungnya yang paling worth it ya Twin Eye Cream VEIRFOO dari Korea. Ada eye cream yang cuma pelembab wajah dikemas kecil, dipakai malah bikin bintik putih."
@@ -50,7 +50,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品外包装盒时标志正面朝向镜头。",
+    "zh": "展示产品时，标识要正对镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau VEIRFOO emang khusus riset skincare, bahannya beneran royal. BIFIDA itu bahan mahal yang diambil lewat proses fermentasi khusus, di aku, area mata berasa lebih lembap dan terawat."
@@ -74,7 +74,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品管时标志正面朝向镜头。",
+    "zh": "展示产品时，标识要正对镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini bukan barang jastip nggak jelas — BPOM-nya ada, Made in Korea asli tercetak langsung di kotaknya. Aku nggak akan rekomendasiin kalau belum aku pakai."
@@ -86,8 +86,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "展示产品时，标识要正对镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu aku harus terbang ke Korea buat treatment mata di klinik, bolak-balik ribet, tiket sama hotel aja belasan juta, sekali treatment segini harganya. Sekarang di rumah tinggal oles pagi malam, bahan kelas klinik — coba lihat harganya berapa."
   },
@@ -98,7 +98,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品管和外包装盒时标志正面朝向镜头。",
+    "zh": "展示产品时，标识要正对镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Mau mata menawan kayak cewek Korea? Satu box isi dua tube, pas buat satu periode, dipakai sendiri atau dikado sama-sama enak. Rutin sampai habis, aku sendiri ngerasa bedanya. Klik keranjang kuning, buruan cobain!"

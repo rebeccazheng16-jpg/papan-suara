@@ -1,0 +1,112 @@
+{
+ "id": "S0178",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌) 袋装 / Micro-Sculpting Collagen Shot Hydrating Anti-Wrinkle Repair Mask (Sensitive Skin) Pouch",
+  "id": "SICENARI Micro-Sculpting Collagen Shot Mask"
+ },
+ "hook": {
+  "zh": "比一碗面还便宜的面膜",
+  "id": "Masker lebih murah dari semangkuk mie ayam"
+ },
+ "src": "TikTok @linalie6666",
+ "cam": "user",
+ "prep": {
+  "zh": "SICENARI 袋装面膜（未开封），素颜，无妆。",
+  "id": "Masker SICENARI kemasan pouch (masih tersegel), wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Mau kakak pakai dong, kenapa emang?"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kak, bagi promo dong, Kak, biar semua bisa cobain dengan harga terjangkau."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kan di Korea ini juga udah dibilang murah, sekali pakai, isinya dua puluh lembar. Itu aja udah murah banget loh. Jadi nggak usah bayar mahal-mahal deh."
+  },
+  {
+   "n": 4,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kakak kasih harga percobaan buat kalian. Dua puluh satu lembar, satunya berapa? Satu lembarnya nggak sampai tujuh ribu, pagi satu, malam satu. Lebih murah dari kamu makan mie ayam ya."
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Di Korea harganya mahal banget, di sini harganya bikin kaget. Kakak kasih langsung ke kalian, nggak usah beli di toko yang mahal-mahal, yang mahalnya kebangetan ya. Jadi kalian langsung checkout ya."
+  },
+  {
+   "n": 6,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Sehari dua lembar, nggak usah dibilas ya. Invest ke muka kalian, biar kayak eonni, eonni Korea. Langsung checkout!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

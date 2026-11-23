@@ -21,9 +21,12 @@
    "sec": 8,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Masih belum tahu rahasia glass skin ala cewek Korea? Nih, aku kasih tahu. VEIRFOO Blingbling Cream, brand Korea yang lagi viral banget di sana."
@@ -35,7 +38,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "一边脸已经涂了产品，另一边没有，这样才能看到区别。",
+    "zh": "半边脸已经涂了产品，半边脸还没有，这样对比效果更明显。",
     "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Pas dioles ke wajah, teksturnya lembut banget dan cepat meresap. Aku ngerasa kulitku langsung lebih glowing."
@@ -47,7 +50,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Hero ingredient-nya itu Niacinamide dosis tinggi sama Centella, loh. Banyak serum high-end yang harganya jutaan juga mengandalkan dua kandungan ini."

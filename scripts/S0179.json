@@ -1,0 +1,112 @@
+{
+ "id": "S0179",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (SICENARI PDRN 9,900ppm Sheet Mask)",
+  "id": "SICENARI PDRN 9,900ppm Sheet Mask"
+ },
+ "hook": {
+  "zh": "办公室被叫住：你怎么在公司敷面膜",
+  "id": "Di kantor ditegur: Kok pakai masker di kantor?"
+ },
+ "src": "TikTok @linalie6666",
+ "cam": "user",
+ "prep": {
+  "zh": "素脸，不化妆。准备好 SICENARI 袋装面膜（未开封）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan masker SICENARI kemasan sachet (belum dibuka)."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素脸",
+    "id": "Wajah bersih"
+   },
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Iya dong, sekarang kan masker ini nggak usah dibilas, tinggal langsung pakai, kulitku langsung berasa lembap, terus buatku kerasa anti aging juga. Ini dari Korea, kulit sensitif juga bisa pakai."
+  },
+  {
+   "n": 2,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素脸",
+    "id": "Wajah bersih"
+   },
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kamu tahu nggak, Bifida-nya berapa? 70 persen. PDRN-nya berapa? Sembilan ribu sembilan ratus ppm. Lima menit aja aku udah ngerasa kulitku lembap banget."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素脸",
+    "id": "Wajah bersih"
+   },
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Pakainya lima menit sampai dua puluh menit, nggak usah dibilas, tinggal pakai krim kamu. Terus kalian lihat sendiri, ini made in mana? Made in Korea. Terus kalian lihat ingredient pertamanya, Bifida."
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素脸",
+    "id": "Wajah bersih"
+   },
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kamu tahu nggak serum brand ini harganya berapa? Mahal banget, padahal cuma seratus mili. Punya kita tiga ratus delapan puluh mili, kali tujuh puluh persen, di dalamnya udah ada lebih dari seratus mili. Seratus mili ya, kayak botol ini."
+  },
+  {
+   "n": 5,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素脸",
+    "id": "Wajah bersih"
+   },
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Jadi kalian hari ini checkout, nggak usah bayar mahal kayak beli di Korea. Cuma berapa? Selembarnya cuma tujuh ribuan aja. Mau punya barang bagus yang affordable, masker dari Korea, pakai ini udah bisa kayak eonni-eonni Korea loh. Cepetan checkout di keranjang kuning ya!"
+  },
+  {
+   "n": 6,
+   "sec": 5,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "敷着面膜",
+    "id": "Memakai masker"
+   },
+   "do": {
+    "zh": "敷着 SICENARI 面膜，嘴巴闭紧。",
+    "id": "Pakai masker SICENARI, mulut tertutup rapat."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

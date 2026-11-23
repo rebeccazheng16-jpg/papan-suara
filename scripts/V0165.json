@@ -12,8 +12,8 @@
  "src": "TikTok @meimeimecin",
  "cam": "user",
  "prep": {
-  "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。准备好VEIRFOO银管素颜霜（盖子盖好，标志朝前），一个干净的腮红刷。",
-  "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar. Siapkan VEIRFOO Tone-Up Cream (tutup terpasang, logo menghadap kamera), dan satu kuas blush on yang bersih."
+  "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。产品（盖子盖好，logo朝前）。一个干净的腮红刷。",
+  "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar. Produk (tutup terpasang, logo menghadap kamera). Satu kuas blush on yang bersih."
  },
  "shots": [
   {
@@ -23,7 +23,7 @@
    "broll": false,
    "face": {
     "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。",
-    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar."
+    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar."
    },
    "do": {
     "zh": "",
@@ -38,10 +38,10 @@
    "broll": false,
    "face": {
     "zh": "素颜，脸上有一颗淡红色痘印和两三颗更淡的痘印。",
-    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda dan dua tiga bekas jerawat yang lebih samar."
+    "id": "Wajah bersih tanpa makeup, ada satu bekas jerawat merah muda yang samar dan dua tiga bekas jerawat lain yang lebih samar."
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini aku pakai Tone-Up Cream dari VEIRFOO. Udah ada PDRN generasi kedua, bahan perawatan mewah dari ekstrak salmon. Buatku jadi berasa lebih gampang meresap ke kulit, kulitku juga berasa lebih terawat."
@@ -52,8 +52,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上点涂了乳白色素颜霜。",
-    "id": "Wajah sudah ada totol-totol lotion putih susu."
+    "zh": "脸上点涂了乳白色的乳液。",
+    "id": "Ada totol-totol lotion putih susu di wajah."
    },
    "do": {
     "zh": "",
@@ -67,8 +67,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
-    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
+    "zh": "乳液已均匀涂抹全脸。",
+    "id": "Lotion sudah diratakan ke seluruh wajah."
    },
    "do": {
     "zh": "",
@@ -82,11 +82,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
-    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
+    "zh": "全脸已均匀提亮。",
+    "id": "Wajah sudah cerah merata."
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini Korean brand, sekarang udah masuk Indonesia. Dulu harus beli di Korea aja, sekarang udah terdaftar BPOM. Udah, kayak gini aja. Ini udah skincare, udah tone-up juga."
@@ -97,8 +97,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
-    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
+    "zh": "全脸已均匀提亮。",
+    "id": "Wajah sudah cerah merata."
    },
    "do": {
     "zh": "",
@@ -112,8 +112,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡。",
-    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan."
+    "zh": "全脸已均匀提亮。",
+    "id": "Wajah sudah cerah merata."
    },
    "do": {
     "zh": "",
@@ -127,11 +127,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜霜已涂抹均匀，脸部明显提亮，痘印变淡，并涂抹了腮红。",
-    "id": "Lotion tone-up sudah merata, wajah lebih cerah, bekas jerawat tersamarkan, dan sudah memakai blush on."
+    "zh": "全脸已均匀提亮。",
+    "id": "Wajah sudah cerah merata."
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dewi-dewi gitu, kayak kulit cewek-cewek Korea. Mau kulit glowing kayak cewek Korea? Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"

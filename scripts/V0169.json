@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "皮肤发光像灯泡",
-  "id": "kulit glowing kayak lampu"
+  "id": "glowing kayak lampu"
  },
  "src": "TikTok @cicinora.xiaojia",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，银色管，PDRN 标签）。素颜，戴发箍。",
-  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru, tube silver, ada tulisan PDRN). Wajah bersih tanpa makeup, pakai bando."
+  "zh": "产品：VEIRFOO 水光胶原蛋白膜（新包装，银色管，盖子盖好）。素颜，不化妆。",
+  "id": "Produk: VEIRFOO Sodium DNA Hydraglow Collagen Mask (kemasan baru, tube silver, tutupnya terpasang). Wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,7 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸敷着透明发光面膜，紧致提拉",
-    "id": "seluruh wajah sudah pakai masker transparan glowing, kencang terangkat"
-   },
+   "face": null,
    "do": {
     "zh": "",
     "id": ""
@@ -38,10 +35,10 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Buat kalian yang suka begadang atau kulitnya berminyak, kamu wajib coba masker ini. VEIRFOO merupakan brand dari Korea asli, dan fokus di perawatan kulit, kolagen, dan anti aging."
@@ -52,11 +49,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸敷着乳白色面膜",
-    "id": "seluruh wajah sudah pakai masker warna putih susu"
+    "zh": "脸上涂了白色乳霜",
+    "id": "Wajah sudah dilapisi krim putih"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Lihat deh teksturnya. Di dalamnya ada salmon PDRN, serta kandungan pencerah. Pakai ini, aku ngerasa kulitku lebih kenyal dan lebih cerah."
@@ -67,11 +64,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸敷着透明发光面膜，紧致提拉",
-    "id": "seluruh wajah sudah pakai masker transparan glowing, kencang terangkat"
+    "zh": "脸上是透明膜",
+    "id": "Wajah sudah dilapisi masker transparan"
    },
    "do": {
-    "zh": "撕下面膜。",
+    "zh": "剥掉面膜。",
     "id": "Kelupas maskernya."
    },
    "lines": "Nah, lihat sekarang ini, warnanya dari putih jadi transparan. Wow, sekarang kita langsung buka. Nah, buatku itu tandanya essence di dalamnya udah meresap semua ke kulit."
@@ -83,10 +80,10 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "wajah bersih tanpa makeup"
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "说‘Q弹’时按压脸颊。",
+    "zh": "按压脸颊，说“Q弹”。",
     "id": "Tekan pipi pas bilang kenyal."
    },
    "lines": "Nah, hasil akhirnya, aku ngerasa kulitku glowing dan cerah. Hmm, kenyal juga, kalian lihat. Wow, kulitku berasa kayak kulit cewek Korea."

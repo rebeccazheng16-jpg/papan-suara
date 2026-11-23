@@ -1,0 +1,82 @@
+{
+ "id": "V0191",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "手臂抹出一片水光",
+  "id": "Kulit glowing di musim hujan"
+ },
+ "src": "SICENARI S0171",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好，logo 朝前）；包装盒；裸手，无妆",
+  "id": "Produk (tutup terpasang, logo menghadap kamera); kotak kemasan; tangan bersih, tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Masker protein ini khusus buat kalian yang kulitnya tuh kusam, kelihatan capek habis begadang, yang punya pori-pori besar, pipi mulai kendur, bisa banget pakai yang ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau kamu pengen kulit glowing di musim hujan ini, caranya gampang: habis cuci muka, oles VEIRFOO Golden Mask dari Korea ini, nggak perlu numpuk serum dan krim lagi."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Teksturnya creamy kayak krim wajah, ada kilau keemasan tipis. Aku oles tipis rata ke seluruh lengan, rasanya lembut banget. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "剥离面膜。",
+    "id": "Kelupas maskernya."
+   },
+   "lines": "Tunggu kering jadi lapisan bening, terus kelupas pelan, lepas satu lembar utuh, satisfying banget! Setelah rutin pakai, aku ngerasa kulitku lebih kenyal, lebih cerah, dan halus banget. Kulit kering atau berminyak, semuanya bisa pakai."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Pas dikelupas sama sekali nggak sakit, dan cukup oles tipis aja jadi awet banget. Langsung checkout di keranjang kuning kiri bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

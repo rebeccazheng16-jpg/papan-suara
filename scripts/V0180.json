@@ -1,0 +1,97 @@
+{
+ "id": "V0180",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "富士姐姐都验证过＋立赌约＋当场验证",
+  "id": "Kak Fuji sudah buktikan sendiri, aku juga mau buktiin!"
+ },
+ "src": "TikTok @beliicia",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO鎏金蛋白膜（盖子盖好，logo朝前）。道具：白色护肤发带，上妆刷。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutup terpasang, logo menghadap kamera). Alat: Bando skincare putih, kuas. Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，熬夜脸",
+    "id": "Wajah bersih, habis begadang"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Liat deh, liat deh, Kak Fuji udah buktiin sendiri. Semalam aku begadang sampai jam tiga pagi, jadi sekarang wajahku lagi... jelek-jeleknya. Aku mau buktiin sendiri. Kalau udah dipakai tapi nggak ada hasilnya, aku bakal tunjukin di akhir video ya."
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，发带把刘海收上去",
+    "id": "Wajah bersih, poni disingkirkan pakai bando"
+   },
+   "do": {
+    "zh": "展示产品，logo正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Aku pakai VEIRFOO Golden Mask ini, jujur, ini emang pilihannya Kak Fuji. Aku oles tebal ke seluruh wajah, let's go!"
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸涂抹了白色面膜，发带把刘海收上去",
+    "id": "Seluruh wajah sudah dioles masker putih, poni disingkirkan pakai bando"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Baru dioles, warnanya putih susu. Dua puluh menit, pinggirnya mulai bening, beneran jadi berkilau keemasan, kayak lagi skincare-an pakai emas! Empat puluh menit, udah kering semua jadi lapisan tipis."
+  },
+  {
+   "n": 4,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全脸是干透的金色面膜，发带把刘海收上去",
+    "id": "Seluruh wajah sudah ada lapisan masker emas yang kering, poni disingkirkan pakai bando"
+   },
+   "do": {
+    "zh": "撕下面膜。",
+    "id": "Kelupas maskernya."
+   },
+   "lines": "Oke, aku kelupas dari pinggir wajah, satu lembar utuh. Oke, aku kelupas dari pinggir wajah, satu lembar utuh. Kata aku ini beneran, wah, Kak Fuji nggak bohong! Aku ngerasa kulitku jadi lebih lembap dan kenyal banget!"
+  },
+  {
+   "n": 5,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，脸部水润有光泽",
+    "id": "Wajah bersih, lembap dan glowing"
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Catat ya, ini VEIRFOO Golden Mask. Udah aku taruh di keranjang kuning, cus buktiin sendiri!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

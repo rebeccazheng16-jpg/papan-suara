@@ -1,0 +1,82 @@
+{
+ "id": "S0197",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌)",
+  "id": "SICENARI Micro Sculpting Collagen Shot Mask"
+ },
+ "hook": {
+  "zh": "求你别停产 · 超级便宜但很小众",
+  "id": "Tolong jangan stop produksi! Murah banget tapi masih jarang yang tahu."
+ },
+ "src": "TikTok @甜甜圈不咸 LFLF",
+ "cam": "user",
+ "prep": {
+  "zh": "SICENARI 袋装面膜 2 袋，其中一袋已开封，内含湿面膜布。裸色美甲。",
+  "id": "Masker SICENARI 2 kantong, satu kantong sudah dibuka isinya masker basah. Kuku pakai kutek warna nude."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Masker ini murah banget, tapi banyak yang belum tahu, masih jarang banget yang pakai. Satu kantong baru aja aku habisin, dan aku bingung mau share ke siapa."
+  },
+  {
+   "n": 2,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Awalnya aku lihat beauty influencer yang rekomen, asli impor dari Korea, katanya buat ngelembapin sekaligus ngerawat kulit. Tapi harganya lumayan mahal, aku sayang belinya. Terus aku nemu link official store-nya. Kata seller-nya ini baru masuk Indonesia, owner-nya nego harga lama banget baru dapet promo ini."
+  },
+  {
+   "n": 3,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Aku sengaja cek komposisinya dulu. Urutan pertamanya ternyata Bifida Ferment Filtrate loh! Aku yang gampang jerawatan sama komedoan aja cocok pakai ini."
+  },
+  {
+   "n": 4,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Satu kantong isinya dua puluh satu lembar, cukup buat sebulan. Sehari pakai selembar, dihitung-hitung nggak sampai tujuh ribu. Ini masker asli Korea loh, harga segini!"
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "拍产品时，logo 要正对着镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Mau kulitmu kering kayak gurun atau berminyak kayak ladang minyak, kalau kamu pengen tiap hari manjain diri sendiri, pengen ngerawat kulit biar lembap dan kenyal, aku rekomen banget banget kalian stok dua kantong!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

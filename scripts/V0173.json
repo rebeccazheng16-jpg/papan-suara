@@ -1,0 +1,94 @@
+{
+ "id": "V0173",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "陈伟霆懂定价",
+  "id": "Kak Fuji beneran paham soal harga"
+ },
+ "src": "TikTok @fujiiian",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO 鎏金蛋白膜（盖子盖好，logo 朝向镜头）。素颜，脸上无妆。",
+  "id": "Produk: VEIRFOO Golden Mask (tutupnya terpasang, logo menghadap kamera). Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kak Fuji tuh beneran paham banget soal harga. VEIRFOO Golden Mask yang dia rekomendasiin ini, di Korea harganya segini loh. Sekarang lagi ada promo spesial, coba kamu lihat sendiri, beneran murah banget!"
+  },
+  {
+   "n": 2,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Waaa, nggak nyangka banget aku pakai yang sama kayak Uti! Buatku, di wajah cuma tiga kata: glowing, glowing, dan glowing lagi!"
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Teksturnya krim putih susu, aku oles tebal satu lapis, tunggu sampai kering, terus aku kelupas utuh dari pinggir wajah. Wajahku pas dipegang halus banget, dan keliatan lebih cerah dikit."
+  },
+  {
+   "n": 4,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kulit kering atau berminyak, dua-duanya bisa pakai. Kalau kamu sering begadang atau wajah lagi kusam, langsung pakai aja tanpa mikir, nggak bakal salah."
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Aku suka banget karena isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, per gramnya aja mahal banget. Strukturnya mirip kulit kita, jadi buatku cepet meresap, dan rasanya lembut banget di kulit."
+  },
+  {
+   "n": 6,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Pokoknya tube ini, aku beli beneran worth it banget. Percaya deh, langsung ambil tube gold ini. Klik keranjang kuning di kiri bawah, lihat sendiri ya!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

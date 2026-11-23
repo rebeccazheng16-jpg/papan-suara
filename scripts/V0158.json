@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "敷完面膜皮肤立刻焕然一新，光彩照人",
+  "zh": "敷完面膜皮肤立刻焕然一新，容光焕发",
   "id": "Langsung jadi kulit baruu glowing"
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），面膜刷，素颜",
-  "id": "Produk (tutupnya tertutup, label menghadap kamera), kuas masker, wajah tanpa makeup"
+  "zh": "产品（盖子盖好，标签朝前）；刷子；素颜，脸上无妆。",
+  "id": "Produk (tutupnya tertutup, label menghadap kamera); kuas; wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,10 +23,10 @@
    "broll": false,
    "face": {
     "zh": "脸上点涂了面膜膏体",
-    "id": "Wajah sudah ditotol-totol masker"
+    "id": "Wajah sudah ditotol masker"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Mau pakai PDRN dari ekstrak salmon tuh nggak perlu ribet, tinggal pakai masker ini aja. Habis itu ratain."
@@ -38,10 +38,10 @@
    "broll": false,
    "face": {
     "zh": "脸上均匀涂抹了面膜膏体",
-    "id": "Wajah sudah rata teroles masker"
+    "id": "Wajah sudah rata dengan masker"
    },
    "do": {
-    "zh": "轻拍脸颊检查是否已干。",
+    "zh": "轻拍脸颊检查是否干燥。",
     "id": "Tekan pipi untuk cek apakah sudah kering."
    },
    "lines": "Kenapa nggak ada yang kayak gini dari dulu? Jadi nggak perlu ribet-ribet ke klinik, cuma tinggal pakai masker malam-malam sebelum tidur. Ini tinggal tunggu sampai kering."
@@ -52,12 +52,12 @@
    "talk": false,
    "broll": false,
    "face": {
-    "zh": "脸上敷着已干的面膜",
-    "id": "Wajah sudah pakai masker yang sudah kering"
+    "zh": "脸上敷着面膜干膜",
+    "id": "Wajah sudah tertutup lapisan masker kering"
    },
    "do": {
-    "zh": "从额头往下撕掉面膜。",
-    "id": "Kelupas maskernya dari dahi ke dagu."
+    "zh": "从额头到下巴，将面膜整片撕下。",
+    "id": "Kelupas maskernya dari dahi sampai dagu."
    },
    "lines": ""
   },
@@ -67,11 +67,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤干净透亮",
-    "id": "Wajah tanpa makeup, kulit bersih glowing"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kulitku berasa glowing banget, padahal ini bukan suntik dokter, bukan pakai serum, cuma pakai masker PDRN VEIRFOO. Aku beneran ngerasa kayak punya kulit baru. Kulitku berasa bening banget, gila."
@@ -82,14 +82,14 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，皮肤干净透亮",
-    "id": "Wajah tanpa makeup, kulit bersih glowing"
+    "zh": "素颜，脸上无妆",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。按压脸颊。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Tekan pipi."
+    "zh": "展示产品时 logo 正面朝向镜头。按压脸颊两次，展示皮肤弹性。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Tekan pipi dua kali untuk menunjukkan kekenyalan kulit."
    },
-   "lines": "Biasanya yang aku temuin tuh PDRN sepuluh ribu ppm, tapi yang ini sebelas ribu. Bayangin, padahal ini cuma masker loh. Aku pegang juga berasa kenyal-kenyal. Isinya juga lumayan banyak, makanya cobain deh, nggak bakal nyesel."
+   "lines": "Biasanya kadar PDRN di masker tuh nggak setinggi ini. Bayangin, padahal ini cuma masker loh. Aku pegang juga berasa kenyal-kenyal. Isinya juga lumayan banyak, makanya cobain deh, nggak bakal nyesel."
   }
  ],
  "na": false,

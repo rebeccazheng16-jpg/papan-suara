@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
   "zh": "第二罐还没用完就服了／敢把这几个字印在包装上",
-  "id": "Belum habis satu kotak udah salut / Berani cetak PDRN segede ini"
+  "id": "Belum habis pakai dua kotak udah salut / Berani cetak tulisan ini di kemasan"
  },
  "src": "TikTok @我叫小洋",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好 SICENARI 盒装面膜（盖子盖好，logo 朝前），以及一片撕开的 SICENARI 面膜袋（里面有面膜布）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan kotak masker Sicenari (tertutup, logo menghadap kamera) dan satu saset masker Sicenari yang sudah disobek (ada lembaran maskernya)."
+  "zh": "SICENARI 超光子胶原炮面膜（盒装，单片袋），素颜。",
+  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak dan sachet), muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无瑕玻璃肌。",
+    "id": "Muka bersih tanpa makeup, kulit mulus seperti kaca."
    },
    "do": {
     "zh": "轻拍脸颊。",
-    "id": "Tepuk pipi."
+    "id": "Tepuk-tepuk pipi."
    },
    "lines": "Lihat deh muka aku yang sering begadang ini, sekarang aku sendiri ngaca aja udah puas banget. Kalau nggak ada masker ini, mungkin sekarang aku masih pusing mikirin muka ini. Dulu aku sering lembur sampai begadang, muka kering sampai mengelupas, kusam, kelihatan capek, tapi ya aku biarin aja."
   },
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无瑕玻璃肌。",
+    "id": "Muka bersih tanpa makeup, kulit mulus seperti kaca."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。用手指点一下包装盒上的 PDRN 字样。从面膜袋里拿出面膜布。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tulisan PDRN di kotak. Angkat lembaran masker dari saset."
+    "zh": "展示产品时 logo 正面朝向镜头。轻点包装上的 PDRN 字样。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Ketuk tulisan PDRN di kotak."
    },
    "lines": "Tapi Sicenari ini, satu kotaknya isi lima lembar. Aku aja belum habis pakai, tapi aku udah beneran salut. Berani nyetak PDRN sembilan ribu sembilan ratus ppm segede ini di kotaknya, kualitasnya nggak perlu aku jelasin lagi, kan? Satu lembar isinya dua puluh lima mililiter essence."
   },
@@ -52,8 +52,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无瑕玻璃肌。",
+    "id": "Muka bersih tanpa makeup, kulit mulus seperti kaca."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "zh": "素颜，无瑕玻璃肌。",
+    "id": "Muka bersih tanpa makeup, kulit mulus seperti kaca."
    },
    "do": {
-    "zh": "轻拍脸颊。展示产品时 logo 正面朝向镜头。用手指指向画面左下角。",
-    "id": "Tepuk pipi. Tunjukkan produknya, logo bagian depan menghadap kamera. Tunjuk ke pojok kiri bawah layar."
+    "zh": "轻拍脸颊。展示产品时 logo 正面朝向镜头。指向左下角。",
+    "id": "Tepuk-tepuk pipi. Tunjukkan produknya, logo bagian depan menghadap kamera. Arahkan jari ke keranjang kuning di kiri bawah."
    },
    "lines": "Yang paling penting, essence-nya lembap banget, habis dipakai nggak lengket, nggak berat, cowok pakai juga nggak gerah. Kalau harus cari kekurangannya, ya di Korea harganya agak mahal. Tapi coba kamu cek link di keranjang kuning kiri bawah, lihat sendiri harganya, murah banget."
   }

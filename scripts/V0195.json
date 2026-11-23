@@ -1,0 +1,94 @@
+{
+ "id": "V0195",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光霜新版 40g Bling Bling Cream",
+  "id": "VEIRFOO Bling Bling Cream versi baru"
+ },
+ "hook": {
+  "zh": "喜欢水光肌怕脱妆的试试水光定喷",
+  "id": "Suka glass skin tapi takut makeup luntur? Coba ini!"
+ },
+ "src": "抖音 初级小江",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好，logo 朝前），素颜或带妆。",
+  "id": "Produk (tutup terpasang, logo menghadap kamera), wajah bersih tanpa makeup atau sudah pakai makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kalian yang suka glass skin ala Korea, tapi takut makeup-nya luntur dan cakey, wajib cobain VEIRFOO Bling Bling Cream versi baru. Setelah meresap, wajahku kelihatan glowing tembus cahaya kayak glass skin Korea gini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "使劲搓脸；泼水。",
+    "id": "Gosok pipi kencang; siram air ke pipi."
+   },
+   "lines": "Aku gosok kenceng gini aja nggak luntur. Bahkan nangis di pelukan pacar pun, makeup-ku tetap rapi. Pulang malam, base makeup-ku nggak kusam, nggak abu-abu, malah makin malam makin cantik."
+  },
+  {
+   "n": 3,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Brand ini hasil riset lab di Korea, skincare-nya dari dulu memang jago banget. Kali ini blingbling cream-nya di-upgrade pakai PDRN, nih tulisannya ada di kemasan."
+  },
+  {
+   "n": 4,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kulitku super kering, dan sejak pakai ini, toner, lotion, krim, sama primer yang dulu udah bisa aku buang semua. Makin parah cakey-nya, makin kerasa enaknya pakai ini. Buat pemula, ikutin aku aja, habis cuci muka langsung pakai ini. Pencet sedikit di punggung tangan dulu,"
+  },
+  {
+   "n": 5,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "totol ke wajah, terus ratakan, lotion putihnya langsung jadi bening, base makeup di atasnya langsung jadi glass skin ala Korea. Glowing kayak gini, jalan di Korea pasti dipanggil unnie sama orang."
+  },
+  {
+   "n": 6,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Dan yang penting, di Korea harganya segini loh. Yang nggak suka makeup tebal tapi takut luntur, klik keranjang kuning di kiri bawah, cobain satu deh!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

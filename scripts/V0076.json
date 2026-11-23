@@ -2,18 +2,18 @@
  "id": "V0076",
  "brand": "VEIRFOO",
  "product": {
-  "zh": "小紫管素颜霜 VEIRFOO purple tube tone-up cream",
+  "zh": "小紫管素颜霜 VEIRFOO tone-up cream",
   "id": "VEIRFOO tube ungu"
  },
  "hook": {
-  "zh": "素颜霜可以代替厚重粉底",
-  "id": "Krim tone-up bisa gantiin foundation yang berat"
+  "zh": "脸暗沉毛孔大？用它拥有韩妹天生好皮",
+  "id": "Muka kusam pori-pori besar? Pakai ini biar kayak kulit cewek Korea."
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 小紫管素颜霜，普通粉底液。素颜，无妆。",
-  "id": "VEIRFOO tube ungu, foundation biasa. Muka bersih, nggak pakai makeup."
+  "zh": "准备 VEIRFOO 小紫管素颜霜和一瓶普通粉底液。开始时素颜，皮肤有点暗沉。",
+  "id": "Siapin produk VEIRFOO tube ungu sama satu foundation biasa. Mulai dengan wajah polos tanpa makeup, yang kelihatan agak kusam."
  },
  "shots": [
   {
@@ -33,7 +33,7 @@
    "talk": true,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。一边脸涂了产品，另一边没有，这样能看出区别。",
+    "zh": "展示产品时 标志 正面朝向镜头。一边脸涂了一边没涂，让对比效果更明显。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Mau praktis tapi kulit tetap seger natural? Pakai tube ungu VEIRFOO dari Korea ini. Teksturnya krim, nggak ada rasa bedak. Ungu mudanya netralin warna kuning, jadi buatku kayak kulit bagus bawaan lahir cewek Korea."
@@ -42,7 +42,10 @@
    "n": 3,
    "sec": 11,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "半边脸已涂抹",
+    "id": "Separuh wajah sudah dipakai produk"
+   },
    "do": {
     "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
@@ -53,7 +56,10 @@
    "n": 4,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "半边脸已涂抹",
+    "id": "Separuh wajah sudah dipakai produk"
+   },
    "do": {
     "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
@@ -64,7 +70,10 @@
    "n": 5,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "全脸已涂抹",
+    "id": "Seluruh wajah sudah dipakai produk"
+   },
    "do": {
     "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
@@ -75,10 +84,13 @@
    "n": 6,
    "sec": 10,
    "talk": true,
-   "face": null,
+   "face": {
+    "zh": "全脸已涂抹",
+    "id": "Seluruh wajah sudah dipakai produk"
+   },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。说“点小黄车”的时候，用手指一下屏幕左下角。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Pas bilang 'Klik keranjang kuning', tunjuk ke arah keranjang kuning."
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu aku sampai terbang ke Korea buat nyetok, tiket sama hotel aja belasan juta, satu tube-nya segini harganya. Sekarang setelah masuk Indonesia jadi berapa! Klik keranjang kuning, buruan cobain!"
   }

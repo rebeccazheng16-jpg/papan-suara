@@ -6,14 +6,14 @@
   "id": "VEIRFOO Breathing Cream"
  },
  "hook": {
-  "zh": "拯救你闲置的粉底液",
-  "id": "Menyelamatkan foundation kamu yang nggak terpakai"
+  "zh": "粉底卡粉浮粉？试试呼吸霜！",
+  "id": "Foundation cakey? Coba Breathing Cream!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 呼吸霜（带包装盒），一瓶你常用的粉底液，一个小粉色礼品盒。素颜开始拍摄。",
-  "id": "VEIRFOO Breathing Cream sama kotaknya, satu foundation lain yang biasa kamu pakai, satu kotak kado kecil warna pink. Mulai rekam dengan muka polos tanpa makeup."
+  "zh": "准备好：VEIRFOO 呼吸霜（管状），你的日常粉底液（瓶装），一个粉色小礼盒（或任何小礼盒，贴一个问号贴纸）。素颜出镜。",
+  "id": "Siapkan: VEIRFOO Breathing Cream (tube), foundation kamu sehari-hari (botol), satu kotak hadiah pink kecil (atau kotak hadiah apa saja, tempel stiker tanda tanya). Wajah tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,13 @@
    "sec": 12,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah tanpa makeup"
+   },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Foundation kamu kusam, nyangkut di garis halus, kering ngelupas — padahal masih sisa banyak? Jangan buru-buru beli baru. Foundation cuma nutupin, nggak ngerawat. Yang kamu butuh: penyelamat foundation — VEIRFOO Breathing Cream."
   },
@@ -35,8 +38,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "半边脸用普通粉底液，另半边脸用混合版，让对比效果更明显。",
-    "id": "Satu sisi wajah pakai foundation biasa, sisi satunya pakai yang sudah dicampur, biar bedanya kelihatan."
+    "zh": "展示产品时 logo 正面朝向镜头。一边脸用产品，一边脸不用，让对比更明显。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Ini sebenarnya serum yang bisa dipakai buat makeup. Foundation kamu satu pump, ini setengah pump aja. Astaga — ini baru namanya base ala cewek Korea, kulitnya kayak bisa bernapas!"
   },
@@ -46,8 +49,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸是普通粉底，半边脸是混合版",
-    "id": "Muka masih setengah-setengah, satu sisi foundation biasa, satu sisi yang dicampur"
+    "zh": "底妆完成",
+    "id": "Base makeup sudah selesai"
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -61,8 +64,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸已经用完混合版粉底",
-    "id": "Seluruh muka sudah pakai base yang dicampur VEIRFOO"
+    "zh": "底妆完成",
+    "id": "Base makeup sudah selesai"
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",

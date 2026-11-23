@@ -3,17 +3,17 @@
  "brand": "VEIRFOO",
  "product": {
   "zh": "水光胶原蛋白膜 Sodium DNA Hydraglow Collagen Mask",
-  "id": "Collagen Mask VEIRFOO"
+  "id": "collagen mask VEIRFOO"
  },
  "hook": {
-  "zh": "别浪费时间尝试了",
+  "zh": "别浪费时间试了",
   "id": "gak usah buang waktu nyoba deh"
  },
  "src": "TikTok @beliicia",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），硅胶刷，素颜，头顶戴一个卷发筒。尽量背景干净，光线柔和。",
-  "id": "Produk (tutup terpasang, label menghadap kamera), kuas silikon, wajah tanpa makeup, pakai rol rambut di atas kepala. Kalau bisa, latar belakang bersih dan cahaya lembut."
+  "zh": "产品（盖子盖好，标签朝前），硅胶面膜刷（纯粉色，无字），素颜，脸上无妆。",
+  "id": "Produk (tutupnya terpasang, label menghadap kamera), kuas masker silikon (pink polos, tanpa tulisan), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸涂好面膜，半边脸素颜",
-    "id": "Setengah wajah sudah pakai masker, setengahnya lagi belum"
+    "zh": "半边脸已涂抹，半边脸素颜。",
+    "id": "Setengah wajah sudah diolesi, setengahnya lagi bersih."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "",
+    "id": ""
    },
    "lines": "Kalau kulit kamu kencang, nggak kendor, nggak pernah begadang, dan nggak pernah pengen punya kulit glowing kayak Ningning aespa, jangan pernah cobain masker ini. Karena masker inilah yang bakal bantu kamu hemat biaya, jadi nggak perlu treatment sampai ke Korea."
   },
@@ -37,8 +37,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂好面膜",
-    "id": "Seluruh wajah sudah pakai masker"
+    "zh": "全脸已涂抹。",
+    "id": "Seluruh wajah sudah diolesi."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -52,8 +52,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸涂好面膜",
-    "id": "Seluruh wajah sudah pakai masker"
+    "zh": "全脸已涂抹。",
+    "id": "Seluruh wajah sudah diolesi."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -67,12 +67,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "前一半涂好面膜，后一半面膜已干",
-    "id": "Paruh pertama wajah pakai masker, paruh kedua masker sudah kering"
+    "zh": "全脸已涂抹，或已干透。",
+    "id": "Seluruh wajah sudah diolesi, atau sudah kering."
    },
    "do": {
-    "zh": "剥下整片面膜。",
-    "id": "Kelupas maskernya."
+    "zh": "按额头→眼洞→鼻→嘴洞的顺序揭下。",
+    "id": "Kelupas maskernya dari dahi ke dagu, melewati lubang mata, hidung, dan mulut."
    },
    "lines": "Kurang apa lagi, udah ada hasil uji klinisnya juga, jadi aku pakainya tenang. Dan pas udah kering, dilepasnya super gampang banget."
   },
@@ -82,12 +82,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
-    "zh": "按压脸颊时说“Q弹”。",
-    "id": "Tekan pipi pas bilang kenyal."
+    "zh": "按压脸颊。",
+    "id": "Tekan pipi pas bilang plumpy."
    },
    "lines": "Langsung copot utuh satu lapisan dari kulit. Dan sekarang aku nggak pakai skincare apa-apa, cuma pakai collagen mask VEIRFOO ini doang. Lihat deh kulitku, buatku sekinclong glass skin, kulitku berasa plumpy banget. Aku nggak bercanda. Lihat, kulitku kelihatan kayak cewek-cewek Korea kan. Ini beneran."
   },
@@ -97,8 +97,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
@@ -112,8 +112,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜",
-    "id": "Wajah tanpa makeup"
+    "zh": "素颜，脸上无妆。",
+    "id": "Wajah bersih tanpa makeup."
    },
    "do": {
     "zh": "",

@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "在家享受韩国美容院级蛋白面膜",
-  "id": "Masker protein ala klinik Korea di rumah!"
+  "zh": "在家享受韩式美容院蛋白面膜",
+  "id": "Masker protein ala klinik Korea di rumah"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），一把刷子（金色手柄，白色刷毛），素颜，无妆。",
-  "id": "Produk (tutup terpasang, label menghadap kamera), kuas (pegangan emas, bulu putih), muka bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前），面膜刷，素颜",
+  "id": "Produk (tutup terpasang, label menghadap kamera), kuas masker, wajah bersih tanpa makeup"
  },
  "shots": [
   {
@@ -22,12 +22,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上敷着一层薄薄的乳白色面膜，边缘无痕。",
-    "id": "Muka sudah pakai masker tipis warna putih susu, tidak ada batas."
+    "zh": "脸上已涂好面膜，呈珍珠白色薄膜状",
+    "id": "Wajah sudah dilapisi masker tipis warna putih mutiara"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "展示产品时 logo 正面朝向镜头。剥下面膜。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Kelupas maskernya."
    },
    "lines": "Guys, kok dikelupas malah satisfying banget? Aku ngerasa kulitku lebih cerah loh. Ini Golden Mask dari VEIRFOO, brand Korea. Teksturnya creamy kayak yogurt, lembut banget."
   },
@@ -38,7 +38,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Teksturnya creamy kayak yogurt. Ada Sodium DNA, PDRN, sama kolagen, lembut banget pas dioles."
@@ -50,8 +50,8 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "敷面膜。",
-    "id": "Oles tebal pakai kuasnya."
+    "zh": "用刷子涂抹面膜。按压脸颊。",
+    "id": "Oleskan masker pakai kuasnya. Tekan pipi pas bilang kenyal."
    },
    "lines": "Oles tebal pakai kuasnya, tunggu sampai mengering. Pas dikelupas, aku ngerasa kulitku cerah dan glowing!"
   },
@@ -62,7 +62,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Mau masker protein ala klinik Korea di rumah? Klik keranjang kuning, boleh coba dulu ya."

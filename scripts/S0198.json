@@ -1,0 +1,52 @@
+{
+ "id": "S0198",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI sheet mask PDRN 9,900ppm"
+ },
+ "hook": {
+  "zh": "皮肤粗糙暗沉？一片面膜搞定！",
+  "id": "Kulit kasar dan kusam? Satu masker beres!"
+ },
+ "src": "TikTok @pilihan_netizen.id",
+ "cam": "user",
+ "prep": {
+  "zh": "SICENARI 袋装面膜（21片装），素颜，无妆。",
+  "id": "Masker SICENARI kemasan isi 21 lembar. Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆，皮肤粗糙暗沉。",
+    "id": "Wajah bersih, tanpa makeup, kulit kasar dan kusam."
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kalau kulit kamu lagi kering, kusam, terus gradakan begini, sini-sini aku spill caranya biar jadi se-better kulitku sekarang. Bahkan pas makeup-an aku juga ngerasa beda, kayak terawat gitu. Kuncinya tuh cuma rutin maskeran selembar tiap malam aja sih."
+  },
+  {
+   "n": 2,
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆，皮肤水润。",
+    "id": "Wajah bersih, tanpa makeup, kulit lembap."
+   },
+   "do": {
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Jangan mikir ini mahal ya, satu pouch gede ini isinya full dua puluh satu lembar, bisa buat sebulan. Jatuhnya sehari selembar nggak sampai tujuh ribu. So far selama aku pakai, nggak bikin perih atau cekit-cekit, justru berasa adem dan nyaman banget."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -12,8 +12,8 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 素颜霜（盖子盖好，标签朝前）。素颜，不化妆。",
-  "id": "VEIRFOO Sodium DNA Primer (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前）；素颜，不化妆。",
+  "id": "Produk (tutupnya terpasang, label menghadap kamera); wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,14 +22,15 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜，两颊肤色不均。",
+    "id": "Wajah bersih, kedua pipi kusam."
    },
    "do": {
-    "zh": "半边脸涂抹产品，半边脸不涂，以便对比。",
+    "zh": "一边脸已经涂了产品，另一边没有，这样对比会很明显。",
     "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
-   "lines": "Stop dulu beli primer mahal! Cobain VEIRFOO Sodium DNA Primer ini. Teksturnya ringan, nyaman dipakai, dan bikin makeup kelihatan lebih nyatu di kulit. Serius deh, wajib banget dicoba!"
+   "lines": "Stop dulu beli primer mahal! Cobain VEIRFOO Sodium DNA Primer ini. Teksturnya ringan, nyaman dipakai, dan bikin makeup kelihatan lebih nyatu di kulit. Serius deh, wajib banget dicoba!",
+   "lines_zh": "别再买贵的妆前乳了！试试这款 VEIRFOO Sodium DNA Primer。"
   },
   {
    "n": 2,
@@ -37,14 +38,15 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸已涂抹产品，半边脸未涂。",
-    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
+    "zh": "一边脸已经涂了产品，另一边没有，这样对比会很明显。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
+    "zh": "展示产品时 标识 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
-   "lines": "Awalnya aku tahu produk ini dari temen dokter aku. Jujur, nggak nyangka cuma pakai ini aja aku ngerasa kulitku lebih glowing ala glass skin Korea. Apalagi ini original Korea dan sekarang harganya cuma segini. Jadi buat apa beli yang mahal kalau ada yang sebagus ini?"
+   "lines": "Awalnya aku tahu produk ini dari temen dokter aku. Jujur, nggak nyangka cuma pakai ini aja aku ngerasa kulitku lebih glowing ala glass skin Korea. Apalagi ini original Korea dan sekarang harganya cuma segini. Jadi buat apa beli yang mahal kalau ada yang sebagus ini?",
+   "lines_zh": "我最初是从我的医生朋友那里知道这款产品的。说实话，我没想到只用这个，我的皮肤就感觉更透亮，像韩国玻璃肌一样。而且这是韩国原装的，现在价格才这么点。所以，既然有这么好的产品，为什么还要买贵的呢？"
   },
   {
    "n": 3,
@@ -52,14 +54,15 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，不化妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜，两颊肤色不均。",
+    "id": "Wajah bersih, kedua pipi kusam."
    },
    "do": {
-    "zh": "半边脸涂抹产品，半边脸不涂，以便对比。",
+    "zh": "一边脸已经涂了产品，另一边没有，这样对比会很明显。",
     "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
-   "lines": "Teksturnya ringan banget kayak lotion. Sekali oles langsung nyatu di kulit. Buatku tampilannya lebih cerah tanpa terasa berminyak. Jujur, hasilnya nggak kalah sama primer mahal yang biasa aku pakai. Sumpah, aku kaget!"
+   "lines": "Teksturnya ringan banget kayak lotion. Sekali oles langsung nyatu di kulit. Buatku tampilannya lebih cerah tanpa terasa berminyak. Jujur, hasilnya nggak kalah sama primer mahal yang biasa aku pakai. Sumpah, aku kaget!",
+   "lines_zh": "质地非常轻薄，就像乳液一样。一抹就立刻融入皮肤。对我来说，它让皮肤看起来更亮，而且不油腻。说实话，效果不输我平时用的贵价妆前乳。我发誓，我惊呆了！"
   },
   {
    "n": 4,
@@ -67,14 +70,15 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸已涂抹产品，半边脸未涂。",
-    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
+    "zh": "一边脸已经涂了产品，另一边没有，这样对比会很明显。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
+    "zh": "展示产品时 标识 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
-   "lines": "Sodium DNA Dual Repair-nya di kulitku ringan, nggak bikin terasa berat sama sekali. Praktisnya lagi, cukup satu produk ini aja untuk melengkapi skincare dan jadi base makeup sehari-hari."
+   "lines": "Sodium DNA Dual Repair-nya di kulitku ringan, nggak bikin terasa berat sama sekali. Praktisnya lagi, cukup satu produk ini aja untuk melengkapi skincare dan jadi base makeup sehari-hari.",
+   "lines_zh": "它的 Sodium DNA 双重修复成分在我的皮肤上很轻盈，完全不会觉得厚重。更实用的是，只需要这一个产品，就能完成护肤，并作为日常妆前乳使用。"
   },
   {
    "n": 5,
@@ -82,14 +86,15 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "半边脸已涂抹产品，半边脸未涂。",
-    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum."
+    "zh": "一边脸已经涂了产品，另一边没有，这样对比会很明显。",
+    "id": "Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。",
+    "zh": "展示产品时 标识 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
-   "lines": "VEIRFOO memang dikenal fokus mengembangkan formula Sodium DNA. Kandungannya simpel dan nyaman dipakai sehari-hari. Kalau lagi cari produk yang praktis dan worth it, produk ini layak banget dicoba. Yuk, langsung cek keranjang kuning di bawah, ya!"
+   "lines": "VEIRFOO memang dikenal fokus mengembangkan formula Sodium DNA. Kandungannya simpel dan nyaman dipakai sehari-hari. Kalau lagi cari produk yang praktis dan worth it, produk ini layak banget dicoba. Yuk, langsung cek keranjang kuning di bawah, ya!",
+   "lines_zh": "VEIRFOO 确实以专注于开发 Sodium DNA 配方而闻名。它的成分简单，日常使用也很舒适。如果你正在寻找一款实用又值得的产品，这款产品非常值得一试。来，直接查看下面的小黄车吧！"
   }
  ],
  "na": false,

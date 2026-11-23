@@ -1,0 +1,103 @@
+{
+ "id": "V0103",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "不想快速变老的女生，每天用这款发光面膜",
+  "id": "Cewek yang nggak mau cepat tua, tiap hari pakai mask glowing ini."
+ },
+ "src": "",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好，logo朝前）；刷子；素颜，脸部干净无妆。",
+  "id": "Produk (tutupnya terpasang, logo menghadap kamera); kuas; wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Cewek yang nggak mau cepat tua, tiap hari pakai mask glowing ini. Ini bukan masker biasa, di dalamnya ada PDRN dan kolagen."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "半边脸涂好面膜，半边脸素颜。",
+    "id": "Satu sisi wajah sudah dipakai masker, sisi satunya belum."
+   },
+   "do": {
+    "zh": "用刷子把面膜刷在脸上。",
+    "id": "Oles rata di wajah pakai kuas."
+   },
+   "lines": "Malam habis cuci muka, oles rata di wajah. Kulitku berasa rata, cerah, dan glowing pas aku pegang. Yang garis halusnya banyak dan kulitnya mulai kendur, makin kerasa."
+  },
+  {
+   "n": 3,
+   "sec": 5,
+   "talk": false,
+   "broll": false,
+   "face": {
+    "zh": "脸上已经敷好面膜，面膜已干。",
+    "id": "Wajah sudah pakai masker, maskernya sudah kering."
+   },
+   "do": {
+    "zh": "从额头往下撕面膜。",
+    "id": "Kelupas maskernya dari dahi ke dagu."
+   },
+   "lines": ""
+  },
+  {
+   "n": 4,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Urutan pertama komposisinya Bifida Ferment loh. Bahan andalan merek-merek besar ini. Isinya juga ada PDRN, bahan dari ekstrak salmon, per gramnya aja mahalnya bikin kaget. Terus ada niacinamide, kolagen larut, sama elastin juga."
+  },
+  {
+   "n": 5,
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Mau umur kamu tiga puluh, empat puluh, lima puluh, atau enam puluh. Kalau garis halusnya banyak, kusam karena begadang, kulit kering dan nggak kenyal, langsung beli golden mask ini. Asli brand Korea. Klik keranjang kuning di bawah, worth it banget!"
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": false,
+   "broll": true,
+   "face": {
+    "zh": "脸上已经敷好面膜，面膜已干。",
+    "id": "Wajah sudah pakai masker, maskernya sudah kering."
+   },
+   "do": {
+    "zh": "从脸颊侧面往鼻子方向撕面膜。",
+    "id": "Kelupas maskernya dari samping pipi ke arah hidung."
+   },
+   "lines": ""
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

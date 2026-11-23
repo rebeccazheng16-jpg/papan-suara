@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "你该不会还在…其实你一直用错方法了",
-  "id": "Kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah."
+  "id": "Kamu masih pakai serum lapis demi lapis? Sebenarnya caramu salah."
  },
  "src": "TikTok @shannondorothea",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖好盖子，logo 朝向镜头），刷子，空手，干净的前臂。",
-  "id": "Produk (tutup terpasang, logo menghadap kamera), kuas, tangan kosong, lengan bawah yang bersih."
+  "zh": "产品（盖子盖好，logo 朝前），刷子，手臂内侧干净无妆。",
+  "id": "Produk (tutup terpasang, logo menghadap kamera), kuas, lengan bagian dalam bersih tanpa makeup."
  },
  "shots": [
   {
@@ -35,7 +35,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，logo 正面朝向镜头。",
+    "zh": "展示产品，logo 朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kalau kamu juga gitu, wajib lihat ini: VEIRFOO Golden Mask, masker protein dari Korea. Skincare nggak kerasa itu sering karena bahan aktifnya nggak sempat nempel di kulit."
@@ -57,7 +57,10 @@
    "sec": 9,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "手臂内侧已涂抹面膜并已风干成膜。",
+    "id": "Lengan bagian dalam sudah ada masker yang sudah kering jadi lapisan."
+   },
    "do": {
     "zh": "撕下面膜。",
     "id": "Kelupas maskernya."
@@ -69,9 +72,12 @@
    "sec": 7,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "手臂内侧已无面膜，皮肤干净。",
+    "id": "Lengan bagian dalam sudah bersih tanpa masker."
+   },
    "do": {
-    "zh": "展示产品，logo 正面朝向镜头。",
+    "zh": "展示产品，logo 朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Yang penting teksturnya juga lembut, pas dikelupas sama sekali nggak sakit. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
@@ -81,9 +87,12 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "手臂内侧已无面膜，皮肤干净。",
+    "id": "Lengan bagian dalam sudah bersih tanpa masker."
+   },
    "do": {
-    "zh": "展示产品，logo 正面朝向镜头。",
+    "zh": "展示产品，logo 朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Setelah aku pakai, aku ngerasa kulitku nggak ketarik dan nggak kering, pas diraba halus dan lembut banget, nyaman banget. Sampai deket-deketan sama pacar pun aku pede. Di Korea harganya segini loh."
@@ -95,7 +104,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品，logo 正面朝向镜头。",
+    "zh": "展示产品，logo 朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pokoknya semuanya oke banget. Klik keranjang kuning di kiri bawah, cek sekarang harganya berapa, coba beli satu dulu!"

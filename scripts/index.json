@@ -1,6 +1,295 @@
 {
  "scripts": [
   {
+   "id": "V0195",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "水光霜新版 40g Bling Bling Cream",
+    "id": "VEIRFOO Bling Bling Cream versi baru"
+   },
+   "hook": {
+    "zh": "喜欢水光肌怕脱妆的试试水光定喷",
+    "id": "Suka glass skin tapi takut makeup luntur? Coba ini!"
+   },
+   "src": "抖音 初级小江",
+   "shots": 6,
+   "sec": 60,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0194",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "水光霜新版 40g Bling Bling Cream",
+    "id": "VEIRFOO PDRN Sodium DNA Bling Bling Cream"
+   },
+   "hook": {
+    "zh": "让我的脸发光的保湿霜",
+    "id": "Moisturizer yang bikin wajah aku glowing"
+   },
+   "src": "TikTok @mutiaayu_official",
+   "shots": 5,
+   "sec": 47,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0193",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "小紫管素颜霜 VEIRFOO Purple Tube",
+    "id": "VEIRFOO Purple Tube"
+   },
+   "hook": {
+    "zh": "涂了发灰的人看过来＋半脸对比",
+    "id": "Yang pakai tone up cream tapi wajahnya abu-abu, pucat kayak topeng, terus cakey nggak nyatu di kulit, sini lihat!"
+   },
+   "src": "TikTok @soomika30",
+   "shots": 5,
+   "sec": 55,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0192",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "注氧小气泡精粹液 Oxygenated Bubble Essence",
+    "id": "Bubble Cleanser VEIRFOO Korea"
+   },
+   "hook": {
+    "zh": "洗脸同时护肤，一瓶搞定",
+    "id": "Cuci muka sekaligus rawat kulit, cukup pakai satu botol ini"
+   },
+   "src": "SICENARI S0171 / 抖音 小爱麻麻 INFIYES",
+   "shots": 5,
+   "sec": 50,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0191",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "手臂抹出一片水光",
+    "id": "Kulit glowing di musim hujan"
+   },
+   "src": "SICENARI S0171",
+   "shots": 5,
+   "sec": 45,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0190",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "水光胶原蛋白膜 VEIRFOO Hydraglow Collagen Mask",
+    "id": "VEIRFOO Collagen Mask"
+   },
+   "hook": {
+    "zh": "手臂抹出一片水光",
+    "id": "Lengan jadi glowing kayak ada airnya"
+   },
+   "src": "SICENARI S0171",
+   "shots": 5,
+   "sec": 48,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0189",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "VEIRFOO 银管素颜霜 Tone-Up Cream",
+    "id": "VEIRFOO Tone-Up Cream"
+   },
+   "hook": {
+    "zh": "手臂抹出一片水光",
+    "id": "Lengan jadi glowing berair"
+   },
+   "src": "SICENARI S0171 (复刻抖音 小爱麻麻 INFIYES)",
+   "shots": 5,
+   "sec": 45,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0188",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "紫管素颜霜 Purple Tube Tone-Up Cream",
+    "id": "Purple Tube Tone-Up Cream VEIRFOO"
+   },
+   "hook": {
+    "zh": "手臂抹出水光肌",
+    "id": "Lengan jadi cerah dan glowing"
+   },
+   "src": "SICENARI S0171",
+   "shots": 5,
+   "sec": 47,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0187",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "VEIRFOO 钻光粉底霜 Breathing Cream",
+    "id": "VEIRFOO Breathing Cream"
+   },
+   "hook": {
+    "zh": "粉底液里加点它，轻松打造水光肌",
+    "id": "Cuma campur ini ke foundation, langsung jadi glowing!"
+   },
+   "src": "SICENARI S0171 / 抖音 @小爱麻麻",
+   "shots": 5,
+   "sec": 48,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0186",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "#14 光亮水母胶原粉水光油霜 Pink Bling Bling Cream",
+    "id": "VEIRFOO Pink Bling Bling Cream"
+   },
+   "hook": {
+    "zh": "手臂抹出一片水光",
+    "id": "Kulit glowing di musim hujan"
+   },
+   "src": "SICENARI S0171 / TikTok @shannondorothea",
+   "shots": 5,
+   "sec": 45,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0185",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "VEIRFOO 水光霜新版 Hydraglow Firming Cream new",
+    "id": "VEIRFOO Hydraglow Firming Cream"
+   },
+   "hook": {
+    "zh": "手臂抹出一片水光",
+    "id": "Kulit auto glowing dan lembap"
+   },
+   "src": "SICENARI S0171 (复刻抖音 小爱麻麻 INFIYES)",
+   "shots": 5,
+   "sec": 51,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "V0183",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "钻光粉底霜 VEIRFOO Breathing Cream",
+    "id": "VEIRFOO Breathing Cream"
+   },
+   "hook": {
+    "zh": "两步打造清透妆容",
+    "id": "Bikin clean makeup cuma 2 step"
+   },
+   "src": "TikTok @ymlia002",
+   "shots": 7,
+   "sec": 56,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0181",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "注氧小气泡精粹液 VEIRFOO Bubble Essence",
+    "id": "VEIRFOO Bubble Essence"
+   },
+   "hook": {
+    "zh": "ASMR 护肤流程",
+    "id": "ASMR Skincare Routine"
+   },
+   "src": "TikTok @lera_valesta",
+   "shots": 8,
+   "sec": 37,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0180",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "富士姐姐都验证过＋立赌约＋当场验证",
+    "id": "Kak Fuji sudah buktikan sendiri, aku juga mau buktiin!"
+   },
+   "src": "TikTok @beliicia",
+   "shots": 5,
+   "sec": 44,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0175",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 VEIRFOO Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "明星同款在家两步护理",
+    "id": "Perawatan dua langkah ala selebriti di rumah"
+   },
+   "src": "TikTok @fujiiian",
+   "shots": 10,
+   "sec": 67,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0174",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "和明星同款面膜",
+    "id": "Masker yang sama dengan Fuji!"
+   },
+   "src": "TikTok @fujiiian",
+   "shots": 6,
+   "sec": 58,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "V0173",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "陈伟霆懂定价",
+    "id": "Kak Fuji beneran paham soal harga"
+   },
+   "src": "TikTok @fujiiian",
+   "shots": 6,
+   "sec": 51,
+   "na": false,
+   "source": "h3"
+  },
+  {
    "id": "V0169",
    "brand": "VEIRFOO",
    "product": {
@@ -9,7 +298,7 @@
    },
    "hook": {
     "zh": "皮肤发光像灯泡",
-    "id": "kulit glowing kayak lampu"
+    "id": "glowing kayak lampu"
    },
    "src": "TikTok @cicinora.xiaojia",
    "shots": 5,
@@ -56,10 +345,10 @@
    "brand": "VEIRFOO",
    "product": {
     "zh": "水光胶原蛋白膜 Sodium DNA Hydraglow Collagen Mask",
-    "id": "Collagen Mask VEIRFOO"
+    "id": "collagen mask VEIRFOO"
    },
    "hook": {
-    "zh": "别浪费时间尝试了",
+    "zh": "别浪费时间试了",
     "id": "gak usah buang waktu nyoba deh"
    },
    "src": "TikTok @beliicia",
@@ -110,7 +399,7 @@
     "id": "VEIRFOO Golden Mask"
    },
    "hook": {
-    "zh": "敷完面膜皮肤立刻焕然一新，光彩照人",
+    "zh": "敷完面膜皮肤立刻焕然一新，容光焕发",
     "id": "Langsung jadi kulit baruu glowing"
    },
    "src": "TikTok @shannondorothea",
@@ -179,7 +468,7 @@
    },
    "hook": {
     "zh": "你该不会还在…其实你一直用错方法了",
-    "id": "Kamu masih numpuk serum lapis demi lapis? Sebenarnya caramu selama ini salah."
+    "id": "Kamu masih pakai serum lapis demi lapis? Sebenarnya caramu salah."
    },
    "src": "TikTok @shannondorothea",
    "shots": 7,
@@ -314,8 +603,8 @@
     "id": "VEIRFOO Bubble Cleanser"
    },
    "hook": {
-    "zh": "连Shannon她们都在用，我怕它！",
-    "id": "Shannon dan yang lain aja pakai VEIRFOO, aku jadi ikutan beli satu yang buat cuci muka. Aku bilang dulu ya, ini nggak boleh dipakai sembarangan, sehari dua kali cukup, soalnya kuat banget. Kalau wajahmu jarang berminyak dan nggak kotor, jangan pakai, takutnya habis cuci muka jadi kayak kulitku, lembut banget, dicubit aja keluar air. Ini dia, VEIRFOO Bubble Cleanser. Wajah dibasahi, pump sekali, oles rata, nggak usah digosok, nanti muncul sendiri busa putih yang halus dan rapat. Tunggu sebentar, lap pakai handuk basah, langsung bersih. Sekarang tanpa makeup pun aku berani dekat-dekat ke kamera, rasanya seger dan halus. Isinya ada PDRN, bahan perawatan mewah dari ekstrak salmon, jadi sambil cuci muka kulit ikut dirawat. Memang nggak murah, tapi kotoran di pori-poriku takut sama dia. Beneran nggak murah, tapi titik hitam di hidungku juga takut. Mahalnya parah, tapi kulitku yang kering dan ketarik habis cuci muka juga takut sama dia. Wajah berminyak, kasar, hidung banyak titik hitam, semuanya cocok, cowok cewek bisa pakai. Di Korea harganya segini loh. Aku cuma pakai yang cocok, bukan yang mahal. Klik keranjang kuning di kiri bawah, cek harganya di aku, checkout satu dulu buat coba!"
+    "zh": "连Shannon都在用的洗面奶",
+    "id": "Pembersih muka yang dipakai Shannon"
    },
    "src": "TikTok @shannondorothea",
    "shots": 6,
@@ -327,12 +616,12 @@
    "id": "V0124",
    "brand": "VEIRFOO",
    "product": {
-    "zh": "注氧小气泡精粹液 VEIRFOO Bubble Cleanser",
+    "zh": "注氧小气泡精粹液 Bubble Cleanser",
     "id": "VEIRFOO Bubble Cleanser"
    },
    "hook": {
     "zh": "黑头躲在毛孔缝里，绿泥进得去",
-    "id": "Komedomu ngumpet di pori-pori, tapi VEIRFOO Bubble Cleanser bisa masuk!"
+    "id": "Komedo ngumpet di pori, tapi ini bisa masuk"
    },
    "src": "抖音 BUV笔薇官方旗舰店",
    "shots": 7,
@@ -535,10 +824,10 @@
     "id": "VEIRFOO Pink Bling Bling Cream"
    },
    "hook": {
-    "zh": "早八人三秒水光肌，多睡半小时",
-    "id": "Tiga detik langsung glowing, bisa tidur setengah jam lebih lama!"
+    "zh": "早晨水光肌，告别片状面膜",
+    "id": "Glass skin ala Korea semudah ini, nggak perlu sheet mask lagi!"
    },
-   "src": "抖音 xiongxiaoxiong.",
+   "src": "抖音 @xiongxiaoxiong.",
    "shots": 6,
    "sec": 61,
    "na": false,
@@ -562,6 +851,23 @@
    "source": "h3"
   },
   {
+   "id": "V0103",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "鎏金蛋白膜 Golden Mask",
+    "id": "VEIRFOO Golden Mask"
+   },
+   "hook": {
+    "zh": "不想快速变老的女生，每天用这款发光面膜",
+    "id": "Cewek yang nggak mau cepat tua, tiap hari pakai mask glowing ini."
+   },
+   "src": "",
+   "shots": 6,
+   "sec": 50,
+   "na": false,
+   "source": "h3"
+  },
+  {
    "id": "V0102",
    "brand": "VEIRFOO",
    "product": {
@@ -569,10 +875,10 @@
     "id": "VEIRFOO Bubble Cleanser"
    },
    "hook": {
-    "zh": "韩女都在用的泡泡膜",
-    "id": "Rahasia kulit halus ala cewek Korea"
+    "zh": "十个韩女九个在用的泡泡膜",
+    "id": "Sepuluh cewek Korea, sembilan pakai ini"
    },
-   "src": "笑笑",
+   "src": "",
    "shots": 5,
    "sec": 51,
    "na": false,
@@ -654,8 +960,8 @@
     "id": "VEIRFOO Bubble Cleanser"
    },
    "hook": {
-    "zh": "韩国欧利芙洋热销，清潭洞女孩的护肤秘密",
-    "id": "Rahasia kulit glowing cewek Cheongdam-dong yang lagi viral di Olive Young Korea!"
+    "zh": "清潭洞女孩都在用的洁面",
+    "id": "Pembersih yang dipakai cewek-cewek Cheongdam-dong"
    },
    "src": "",
    "shots": 3,
@@ -688,8 +994,8 @@
     "id": "VEIRFOO Golden Mask"
    },
    "hook": {
-    "zh": "韩国艺人同款，小分子PDRN，提拉紧致",
-    "id": "Masker artis Korea, PDRN molekul kecil, bikin kulit kencang"
+    "zh": "敷完脸小一圈，素颜也发光",
+    "id": "Habis maskeran muka langsung tirus dan glowing!"
    },
    "src": "",
    "shots": 7,
@@ -854,12 +1160,12 @@
    "id": "V0076",
    "brand": "VEIRFOO",
    "product": {
-    "zh": "小紫管素颜霜 VEIRFOO purple tube tone-up cream",
+    "zh": "小紫管素颜霜 VEIRFOO tone-up cream",
     "id": "VEIRFOO tube ungu"
    },
    "hook": {
-    "zh": "素颜霜可以代替厚重粉底",
-    "id": "Krim tone-up bisa gantiin foundation yang berat"
+    "zh": "脸暗沉毛孔大？用它拥有韩妹天生好皮",
+    "id": "Muka kusam pori-pori besar? Pakai ini biar kayak kulit cewek Korea."
    },
    "src": "",
    "shots": 6,
@@ -875,8 +1181,8 @@
     "id": "VEIRFOO Bubble Cleanser"
    },
    "hook": {
-    "zh": "洗脸后皮肤又红又油？试试注氧小气泡！",
-    "id": "Habis cuci muka langsung merah dan berminyak? Coba VEIRFOO Bubble Cleanser!"
+    "zh": "洗脸后脸又红又油？你对皮肤太粗暴了！",
+    "id": "Habis cuci muka langsung merah dan perih, terus berminyak lagi? Itu tandanya kamu lagi kasar banget sama kulit kamu sendiri."
    },
    "src": "",
    "shots": 6,
@@ -892,8 +1198,8 @@
     "id": "VEIRFOO Breathing Cream"
    },
    "hook": {
-    "zh": "拯救你闲置的粉底液",
-    "id": "Menyelamatkan foundation kamu yang nggak terpakai"
+    "zh": "粉底卡粉浮粉？试试呼吸霜！",
+    "id": "Foundation cakey? Coba Breathing Cream!"
    },
    "src": "",
    "shots": 4,
@@ -926,8 +1232,8 @@
     "id": "VEIRFOO Golden Mask"
    },
    "hook": {
-    "zh": "撕下面膜，皮肤又亮又滑",
-    "id": "Masker dikelupas, kulit jadi cerah & halus"
+    "zh": "撕掉面膜后皮肤变亮了",
+    "id": "Kulit jadi cerah setelah lepasin masker"
    },
    "src": "",
    "shots": 4,
@@ -1028,8 +1334,8 @@
     "id": "VEIRFOO Golden Mask"
    },
    "hook": {
-    "zh": "在家享受韩国美容院级蛋白面膜",
-    "id": "Masker protein ala klinik Korea di rumah!"
+    "zh": "在家享受韩式美容院蛋白面膜",
+    "id": "Masker protein ala klinik Korea di rumah"
    },
    "src": "",
    "shots": 4,
@@ -1058,12 +1364,12 @@
    "id": "V0017",
    "brand": "VEIRFOO",
    "product": {
-    "zh": "素颜霜 Sodium DNA Firming Tone-Up Primer",
+    "zh": "素颜霜 (Sodium DNA Firming Tone-Up Primer)",
     "id": "VEIRFOO Tone-Up Primer"
    },
    "hook": {
-    "zh": "韩国人在底妆这方面真的很厉害！",
-    "id": "Orang Korea emang jago banget soal base makeup!"
+    "zh": "韩国人的底妆秘密",
+    "id": "Rahasia base makeup orang Korea"
    },
    "src": "",
    "shots": 2,
@@ -1075,12 +1381,12 @@
    "id": "V0016",
    "brand": "VEIRFOO",
    "product": {
-    "zh": "水光霜 Blingbling Cream",
+    "zh": "VEIRFOO 水光霜 Blingbling Cream",
     "id": "VEIRFOO Blingbling Cream"
    },
    "hook": {
-    "zh": "原来拥有韩式水光肌这么简单！",
-    "id": "Ternyata dapetin glass skin ala Korea gampang banget!"
+    "zh": "一抹打造韩式水光肌",
+    "id": "Cara gampang dapetin glass skin ala Korea"
    },
    "src": "",
    "shots": 2,
@@ -1157,15 +1463,117 @@
    "source": "h3"
   },
   {
+   "id": "S0198",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+    "id": "SICENARI sheet mask PDRN 9,900ppm"
+   },
+   "hook": {
+    "zh": "皮肤粗糙暗沉？一片面膜搞定！",
+    "id": "Kulit kasar dan kusam? Satu masker beres!"
+   },
+   "src": "TikTok @pilihan_netizen.id",
+   "shots": 2,
+   "sec": 25,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "S0197",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌)",
+    "id": "SICENARI Micro Sculpting Collagen Shot Mask"
+   },
+   "hook": {
+    "zh": "求你别停产 · 超级便宜但很小众",
+    "id": "Tolong jangan stop produksi! Murah banget tapi masih jarang yang tahu."
+   },
+   "src": "TikTok @甜甜圈不咸 LFLF",
+   "shots": 5,
+   "sec": 48,
+   "na": true,
+   "source": "h3"
+  },
+  {
+   "id": "S0179",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (SICENARI PDRN 9,900ppm Sheet Mask)",
+    "id": "SICENARI PDRN 9,900ppm Sheet Mask"
+   },
+   "hook": {
+    "zh": "办公室被叫住：你怎么在公司敷面膜",
+    "id": "Di kantor ditegur: Kok pakai masker di kantor?"
+   },
+   "src": "TikTok @linalie6666",
+   "shots": 6,
+   "sec": 59,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "S0178",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌) 袋装 / Micro-Sculpting Collagen Shot Hydrating Anti-Wrinkle Repair Mask (Sensitive Skin) Pouch",
+    "id": "SICENARI Micro-Sculpting Collagen Shot Mask"
+   },
+   "hook": {
+    "zh": "比一碗面还便宜的面膜",
+    "id": "Masker lebih murah dari semangkuk mie ayam"
+   },
+   "src": "TikTok @linalie6666",
+   "shots": 6,
+   "sec": 44,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "S0177",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+    "id": "SICENARI sheet mask pouch isi 21 lembar"
+   },
+   "hook": {
+    "zh": "透明玻璃 AI 脸钩子",
+    "id": "Pernah nggak pakai masker yang sekantong isinya 21 lembar?"
+   },
+   "src": "小红书 嘟嘟在这里 染语",
+   "shots": 4,
+   "sec": 34,
+   "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "S0171",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+    "id": "Masker SICENARI PDRN 9,900ppm"
+   },
+   "hook": {
+    "zh": "秋冬白到发光的小方法，手臂抹出一片水光",
+    "id": "Cara gampang kulit glowing di musim hujan, lengan jadi mulus dan glowing"
+   },
+   "src": "抖音 小爱麻麻 INFIYES",
+   "shots": 5,
+   "sec": 45,
+   "na": true,
+   "source": "h3"
+  },
+  {
    "id": "S0164",
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-    "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+    "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
    },
    "hook": {
-    "zh": "印尼药监局认证的韩国正品，首要成分Bifida，大牌精华同款但更实惠，一盒 5 片，值得投资在脸上。",
-    "id": "Sudah BPOM, produk Korea asli, bahan utamanya Bifida (serum mahal juga pakai tapi harganya bikin syok), satu kotak isi 5 lembar, investasi di wajah."
+    "zh": "已过 BPOM 韩国正品，成分第一位 二裂酵母，大牌精华也用但贵，一盒 5 片，投资在脸上",
+    "id": "Masker ini sudah BPOM, produk asli Korea, ada Bifida dan PDRN, harganya terjangkau, investasi buat wajah sendiri."
    },
    "src": "TikTok @linalie6666",
    "shots": 4,
@@ -1178,10 +1586,10 @@
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-    "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+    "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
    },
    "hook": {
-    "zh": "揭膜亮脸，精华多，免洗",
+    "zh": "揭膜亮脸，精华超多，免洗",
     "id": "Masker dibuka, wajah langsung glowing, serumnya banyak, nggak usah dibilas"
    },
    "src": "TikTok @linalie6666 Lina",
@@ -1250,7 +1658,7 @@
    },
    "hook": {
     "zh": "含粉底一步到位、只用这一个就够",
-    "id": "Foundation in one step, just this one is enough"
+    "id": "Foundation dan skincare dalam satu langkah, cukup pakai ini saja"
    },
    "src": "TikTok @siskaismaya",
    "shots": 2,
@@ -1280,11 +1688,11 @@
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-    "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+    "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
    },
    "hook": {
     "zh": "第二罐还没用完就服了／敢把这几个字印在包装上",
-    "id": "Belum habis satu kotak udah salut / Berani cetak PDRN segede ini"
+    "id": "Belum habis pakai dua kotak udah salut / Berani cetak tulisan ini di kemasan"
    },
    "src": "TikTok @我叫小洋",
    "shots": 4,
@@ -1314,11 +1722,11 @@
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-    "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+    "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
    },
    "hook": {
-    "zh": "宝妈用脸担保，14天抗皱印在包装盒上",
-    "id": "Aku emak-emak, hari ini aku jaminin pakai wajahku sendiri. Nggak ada masker lain yang berani cetak kandungannya segede ini di kotak."
+    "zh": "宝妈亲测：用脸担保，14天抗皱印在包装盒上",
+    "id": "Aku jaminin pakai wajahku sendiri, masker ini berani cetak 14 hari anti-kerut di kotaknya"
    },
    "src": "TikTok @余干雪碧",
    "shots": 5,
@@ -1331,11 +1739,11 @@
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-    "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+    "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
    },
    "hook": {
-    "zh": "我用脸担保，这款面膜真的能改善皮肤问题",
-    "id": "Aku jamin pakai wajahku sendiri, masker ini beneran bisa bikin kulitku lebih baik"
+    "zh": "用脸担保，没有哪个厂家敢把14天抗皱印在包装盒上",
+    "id": "Aku jaminin pakai wajahku sendiri, nggak ada masker lain yang berani cetak klaim anti-kerut 14 hari segede ini di kotak."
    },
    "src": "TikTok @余干雪碧",
    "shots": 5,
@@ -1399,7 +1807,7 @@
    "brand": "SICENARI",
    "product": {
     "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
-    "id": "Sicenari PDRN Masker Wajah"
+    "id": "Sicenari Masker PDRN"
    },
    "hook": {
     "zh": "拆快递囤货＋便宜得像做慈善",
@@ -1415,12 +1823,12 @@
    "id": "S0119",
    "brand": "SICENARI",
    "product": {
-    "zh": "SICENARI 超光子胶原炮面膜 (Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask)",
-    "id": "Masker PDRN Sicenari"
+    "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
+    "id": "masker PDRN Sicenari"
    },
    "hook": {
     "zh": "二话不说赶紧薅＋攥膜布挤精华",
-    "id": "Tanpa basa-basi, langsung serbu masker ini!"
+    "id": "Tanpa basa-basi, langsung serbu masker PDRN Sicenari!"
    },
    "src": "TikTok @图图爱买 Eiio 水光面膜",
    "shots": 5,

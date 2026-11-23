@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "揭膜亮脸，精华多，免洗",
+  "zh": "揭膜亮脸，精华超多，免洗",
   "id": "Masker dibuka, wajah langsung glowing, serumnya banyak, nggak usah dibilas"
  },
  "src": "TikTok @linalie6666 Lina",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好 SICENARI 面膜（未开封），浴室洗手台前拍摄，光线明亮柔和。",
-  "id": "Wajah tanpa makeup. Siapkan masker SICENARI (masih tersegel). Rekam di depan wastafel kamar mandi, kalau bisa cahaya terang dan lembut."
+  "zh": "素颜，准备好面膜（未开封），如果可以，背景是明亮干净的浴室。",
+  "id": "Wajah tanpa makeup, siapkan masker (belum dibuka). Kalau bisa, pakai latar kamar mandi yang terang dan bersih."
  },
  "shots": [
   {
@@ -23,10 +23,10 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "Wajah sudah pakai masker"
+    "id": "Memakai masker"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Wow! Aku ngerasa kulitku glowing banget, bukan main-main. Aku pakai masker dari Sicenari, ada delapan puluh sembilan persen Bifida, PDRN sembilan ribu sembilan ratus ppm, made in Korea."
@@ -50,10 +50,10 @@
    "broll": false,
    "face": {
     "zh": "敷着面膜",
-    "id": "Wajah sudah pakai masker"
+    "id": "Memakai masker"
    },
    "do": {
-    "zh": "揭下面膜。",
+    "zh": "揭下整片面膜。",
     "id": "Kelupas maskernya."
    },
    "lines": "Tunggu lima menit. Udah lima menit, langsung dicopot, wah! Aku ngerasa wajahku glowing banget, bukan main-main."

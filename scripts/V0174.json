@@ -1,0 +1,94 @@
+{
+ "id": "V0174",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "和明星同款面膜",
+  "id": "Masker yang sama dengan Fuji!"
+ },
+ "src": "TikTok @fujiiian",
+ "cam": "user",
+ "prep": {
+  "zh": "VEIRFOO Golden Mask 面膜（盖子盖好，标签朝前）。素颜出镜。",
+  "id": "Masker VEIRFOO Golden Mask (tutup terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Fuji yang followersnya jutaan ternyata emang nggak bohong! Pas aku ganti masker ke yang sama kayak dia, waaa, nggak nyangka banget aku pakai yang sama kayak Uti!"
+  },
+  {
+   "n": 2,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Wajahku yang kusam, pori-poriku, garis halus karena kering. Ini dia VEIRFOO Golden Mask yang lagi viral banget, masker protein yang tinggal dioles, terus pas kering bisa dikelupas satu lembar utuh."
+  },
+  {
+   "n": 3,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Bahan pertama di daftar komposisinya itu Bifida Ferment Filtrate, yang dipakai di serum-serum brand mahal, dan urutan pertama artinya kandungannya paling banyak. Terus ada PDRN juga, bahan dari ekstrak salmon, per gramnya aja mahal banget, dan strukturnya mirip kulit kita, jadi buatku gampang meresap."
+  },
+  {
+   "n": 4,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Ditambah niacinamide, soluble collagen, sama elastin, semua yang perlu udah lengkap dalam satu tube. Teksturnya kayak krim, cukup oles tipis selapis,"
+  },
+  {
+   "n": 5,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Tunggu sampai kering jadi lapisan film, bahannya nempel terus di kulit, terus kelupas satu lembar utuh dari pinggir wajah."
+  },
+  {
+   "n": 6,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标识 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Rasanya juga lembut banget di kulitku. Di Korea harganya segini loh. Sis yang wajahnya kusam dan pori-porinya besar, cobain VEIRFOO Golden Mask samaan sama Fuji ini. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "S0171",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜（敏感肌）袋装 21 片",
+  "id": "Masker SICENARI PDRN 9,900ppm"
+ },
+ "hook": {
+  "zh": "秋冬白到发光的小方法，手臂抹出一片水光",
+  "id": "Cara gampang kulit glowing di musim hujan, lengan jadi mulus dan glowing"
+ },
+ "src": "抖音 小爱麻麻 INFIYES",
+ "cam": "user",
+ "prep": {
+  "zh": "SICENARI 袋装面膜（未开封），已开封的 SICENARI 袋装面膜，一整张湿面膜，空手，干净的裸露前臂。尽量用黑色亮面桌子，背后有暖光装饰虚化成光斑。",
+  "id": "Masker SICENARI kemasan utuh, masker SICENARI kemasan sudah dibuka, satu lembar masker basah, tangan kosong, lengan bawah bersih. Kalau bisa pakai meja hitam mengkilap, latar belakangnya lampu hangat yang nge-blur."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kalau kamu pengen kulit glowing banget di musim hujan ini, aku kasih satu cara gampang: habis cuci muka, pakai selembar masker Korea Sicenari yang lagi viral ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Makin sering begadang, kulit kering, kusam, kasar, kendur, garis halus makin banyak, makin kerasa enaknya masker ini. Habis maskeran, aku nggak perlu numpuk serum dan krim lagi."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Esensinya banyak banget sampai semua lembarnya terendam. Sisanya aku oles ke lengan, langsung meresap, lenganku berasa lembap dan glowing. Urutan pertama komposisinya Bifida, terus ada PDRN juga."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih lembap, nggak sekusam dan sekasar dulu. Yang penting, kulit sensitif, kering, atau berminyak, semuanya bisa pakai. Pengen kulit halus dan glowing? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Satu kantong isinya dua puluh satu lembar, sehari pakai selembar nggak sampai tujuh ribu. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

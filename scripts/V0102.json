@@ -6,25 +6,21 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "韩女都在用的泡泡膜",
-  "id": "Rahasia kulit halus ala cewek Korea"
+  "zh": "十个韩女九个在用的泡泡膜",
+  "id": "Sepuluh cewek Korea, sembilan pakai ini"
  },
- "src": "笑笑",
+ "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，备好产品（盖子盖好，logo朝前），湿毛巾。",
-  "id": "Wajah tanpa makeup, siapkan produk (tutupnya terpasang, logo menghadap kamera), handuk basah."
+  "zh": "素颜，脸上不要化妆。准备好 VEIRFOO Bubble Cleanser 产品，一个没有字的白色软管（S2用），一条湿的白毛巾（S3用），和一部手机（S5用）。",
+  "id": "Muka bersih tanpa makeup. Siapkan produk VEIRFOO Bubble Cleanser, satu tube putih polos tanpa tulisan (untuk S2), handuk putih basah (untuk S3), dan HP (untuk S5)."
  },
  "shots": [
   {
    "n": 1,
    "sec": 8,
    "talk": true,
-   "broll": false,
-   "face": {
-    "zh": "全脸涂抹薄薄一层淡黄色啫喱，眼唇周围留空。",
-    "id": "Seluruh wajah sudah dioles tipis gel kuning pucat, area mata dan bibir kosong."
-   },
+   "face": null,
    "do": {
     "zh": "",
     "id": ""
@@ -35,11 +31,10 @@
    "n": 2,
    "sec": 10,
    "talk": true,
-   "broll": false,
    "face": null,
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Ini dibawain temenku yang sering bolak-balik Korea. Katanya di sana, sepuluh cewek Korea, sembilan pakai ini — VEIRFOO Bubble Cleanser. Sabun cuci muka biasa cuma bersihin permukaan, kotoran di pori-pori tetap nyangkut."
   },
@@ -47,7 +42,6 @@
    "n": 3,
    "sec": 10,
    "talk": true,
-   "broll": false,
    "face": null,
    "do": {
     "zh": "",
@@ -59,8 +53,10 @@
    "n": 4,
    "sec": 12,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "干净的素颜",
+    "id": "Muka bersih"
+   },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
@@ -71,8 +67,10 @@
    "n": 5,
    "sec": 11,
    "talk": true,
-   "broll": false,
-   "face": null,
+   "face": {
+    "zh": "干净的素颜",
+    "id": "Muka bersih"
+   },
    "do": {
     "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."

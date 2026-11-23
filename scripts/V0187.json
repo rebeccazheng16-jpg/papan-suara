@@ -1,0 +1,82 @@
+{
+ "id": "V0187",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "VEIRFOO 钻光粉底霜 Breathing Cream",
+  "id": "VEIRFOO Breathing Cream"
+ },
+ "hook": {
+  "zh": "粉底液里加点它，轻松打造水光肌",
+  "id": "Cuma campur ini ke foundation, langsung jadi glowing!"
+ },
+ "src": "SICENARI S0171 / 抖音 @小爱麻麻",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO 钻光粉底霜（盖子盖好，logo 朝前）；普通粉底液一小点（颜色自然）；干净的裸露前臂。",
+  "id": "Produk VEIRFOO Breathing Cream (tutup terpasang, logo menghadap kamera); sedikit foundation biasa (warna natural); lengan bawah bersih tanpa lengan baju."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Krim ini khusus buat kalian yang kulitnya tuh kusam, kering ngelupas di pinggir hidung, yang punya garis halus, foundationnya gampang cakey, bisa banget pakai yang ini. Ini VEIRFOO Breathing Cream yang lagi viral, tinggal campur ke foundation kamu."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Makin sering begadang, foundation makin gampang crack, geser, dan kelihatan abu-abu. Caranya gampang banget: foundation kamu satu pump, ini setengah pump aja, terus campur rata di punggung tangan."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Teksturnya creamy dan lembut banget, gampang dibaurin. Sisanya aku ratain ke lengan, langsung nyatu, lenganku berasa lembap dan glowing. Ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku ngerasa base-ku lebih tipis dan glowing, nggak cakey dan abu-abu kayak dulu. Kulit kering, berminyak, atau sensitif, semuanya bisa pakai. Pengen base glowing kayak kulit kaca berlian? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Sekali pakai cuma setengah pump, jadi satu tube ini awet banget dipakai tiap hari. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

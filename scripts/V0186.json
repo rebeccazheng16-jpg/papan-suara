@@ -1,0 +1,82 @@
+{
+ "id": "V0186",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "#14 光亮水母胶原粉水光油霜 Pink Bling Bling Cream",
+  "id": "VEIRFOO Pink Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "手臂抹出一片水光",
+  "id": "Kulit glowing di musim hujan"
+ },
+ "src": "SICENARI S0171 / TikTok @shannondorothea",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO 粉紫镭射管水光油霜（盖子盖好）。",
+  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tutupnya terpasang)."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Krim ini khusus buat kalian yang kulitnya tuh kering ketarik, kusam, yang punya garis kering, makeup gampang cakey, bisa banget pakai yang ini. Ini dari VEIRFOO, asli Korea."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。拧开盖子，露出尖嘴。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Putar tutupnya sampai terbuka, lalu tunjukkan ujungnya."
+   },
+   "lines": "Pengen kulit glowing di musim hujan ini? Caranya gampang: habis cuci muka, oles sedikit Pink Bling Bling yang lagi viral ini. Aku nggak perlu numpuk serum dan krim lain."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "挤出三点乳液在小臂上，然后抹开。",
+    "id": "Keluarkan tiga titik lotion di lengan, lalu ratakan."
+   },
+   "lines": "Teksturnya lotion pink yang ringan banget. Aku oles ke lengan, sekali usap langsung meresap, lenganku berasa lembap dan glowing. Di dalamnya ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Setelah rutin pakai, aku beneran ngerasa kulitku lebih lembap, nggak sekusam dulu, dan makeup-ku nempel lebih rapi. Walaupun oil cream, sama sekali nggak lengket di kulit. Pengen kulit halus dan glowing kayak gini? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Aku pakai pagi buat base makeup, malam buat skincare, satu tube dua fungsi. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

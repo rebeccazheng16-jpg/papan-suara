@@ -3,17 +3,17 @@
  "brand": "SICENARI",
  "product": {
   "zh": "SICENARI 超光子胶原炮面膜 Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask",
-  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
+  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask"
  },
  "hook": {
-  "zh": "印尼药监局认证的韩国正品，首要成分Bifida，大牌精华同款但更实惠，一盒 5 片，值得投资在脸上。",
-  "id": "Sudah BPOM, produk Korea asli, bahan utamanya Bifida (serum mahal juga pakai tapi harganya bikin syok), satu kotak isi 5 lembar, investasi di wajah."
+  "zh": "已过 BPOM 韩国正品，成分第一位 二裂酵母，大牌精华也用但贵，一盒 5 片，投资在脸上",
+  "id": "Masker ini sudah BPOM, produk asli Korea, ada Bifida dan PDRN, harganya terjangkau, investasi buat wajah sendiri."
  },
  "src": "TikTok @linalie6666",
  "cam": "user",
  "prep": {
-  "zh": "SICENARI 超光子胶原炮面膜盒装（5 片×25ml），素颜，无妆。",
-  "id": "Masker Sicenari Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kotak isi 5 lembar), wajah bersih tanpa makeup."
+  "zh": "SICENARI 超光子胶原炮面膜盒装（5 片装），素颜，无妆。",
+  "id": "Masker SICENARI Hydraglow Collagen Anti-Wrinkle Repair Moisturizing Facial Mask (kemasan kotak isi 5 lembar), wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -23,7 +23,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，标志正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Udah, udah! Masker Sicenari ini udah terdaftar BPOM, original dari Korea, ingredient-nya jelas banget. Di urutan pertama ada Bifida, kamu tahu nggak? Ada PDRN juga. Serum brand mewah ini juga pakai Bifida, harganya berapa?"
@@ -35,7 +35,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，标志正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sebotol kecil aja mahalnya bikin syok! Tapi yang ini, satu kotak isinya lima lembar, satu lembar dua puluh lima ml, harganya murah sampai bikin kaget, langsung bawa pulang, bisa skincare-an kayak eonni-eonni Korea."
@@ -47,7 +47,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，标志正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Jadi anggap aja ini investasi buat wajah sendiri, sehari selembar nggak sampai tiga puluh ribu loh. Langsung klik keranjang kuning di bawah, checkout sekarang ya!"
@@ -59,7 +59,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时，标志正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": ""

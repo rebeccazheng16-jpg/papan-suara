@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "韩国艺人同款，小分子PDRN，提拉紧致",
-  "id": "Masker artis Korea, PDRN molekul kecil, bikin kulit kencang"
+  "zh": "敷完脸小一圈，素颜也发光",
+  "id": "Habis maskeran muka langsung tirus dan glowing!"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），化妆刷，素颜，无妆。",
-  "id": "Produk (tutup terpasang, label menghadap kamera), kuas makeup, wajah bersih tanpa makeup."
+  "zh": "VEIRFOO Golden Mask (盖子盖好，标签朝前); 面膜刷; 素颜。",
+  "id": "VEIRFOO Golden Mask (tutupnya terpasang, label menghadap kamera); kuas masker; wajah bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,11 +22,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，半边脸紧致，半边脸浮肿。",
-    "id": "Wajah bersih, satu sisi kencang, satu sisi bengkak."
+    "zh": "素颜，半边脸紧致，半边脸浮肿",
+    "id": "Wajah bersih, satu sisi sudah kencang, sisi lainnya masih bengkak."
    },
    "do": {
-    "zh": "展示产品时 logo 正面朝向镜头。一侧脸已用产品，另一侧脸未用，以便对比效果。",
+    "zh": "展示产品时 logo 正面朝向镜头。一边脸已经用了，另一边还没用，这样才能看出区别。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Satu sisi wajah sudah dipakai, sisi satunya belum, biar bedanya kelihatan."
    },
    "lines": "Ya ampun, muka aku jadi agak beda sebelah, guys!"
@@ -37,11 +37,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸和脖子敷着面膜。",
-    "id": "Wajah bersih, muka dan leher sudah pakai masker."
+    "zh": "素颜，敷着面膜",
+    "id": "Wajah bersih, sudah pakai masker."
    },
    "do": {
-    "zh": "揭下面膜。",
+    "zh": "撕下面膜。",
     "id": "Kelupas maskernya."
    },
    "lines": "Sisi yang baru aku kelupas ini rasanya kayak ada yang narik kulitnya ke atas, tanpa makeup aja buatku udah glowing."
@@ -65,7 +65,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "揭下面膜。捏脸颊时说“Q弹”。",
+    "zh": "撕下面膜。边说“Q弹”边按脸颊。",
     "id": "Kelupas maskernya. Tekan pipi pas bilang kenyal."
    },
    "lines": "Rahang yang nggak tegas, pipi yang turun, garis senyum, garis halus di mata — tinggal oles, tunggu tiga puluh sampai empat puluh menit sampai kering, terus kelupas pelan-pelan. Ngelupasnya satisfying banget! Nggak perlu es kopi lagi buat melek — lihat, rahangku berasa lebih tirus, dipegang halus dan kenyal."

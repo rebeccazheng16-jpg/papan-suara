@@ -1,0 +1,82 @@
+{
+ "id": "V0194",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光霜新版 40g Bling Bling Cream",
+  "id": "VEIRFOO PDRN Sodium DNA Bling Bling Cream"
+ },
+ "hook": {
+  "zh": "让我的脸发光的保湿霜",
+  "id": "Moisturizer yang bikin wajah aku glowing"
+ },
+ "src": "TikTok @mutiaayu_official",
+ "cam": "user",
+ "prep": {
+  "zh": "产品：VEIRFOO Bling Bling Cream（盖子盖好，标签朝前）。素颜出镜。",
+  "id": "Produk: VEIRFOO Bling Bling Cream (tutupnya terpasang, label menghadap kamera). Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kalian yang mau glowing maksimal tapi nggak mau ribet banyak step, tonton video ini sampai selesai. Nah, jadi ini dia VEIRFOO PDRN Sodium DNA."
+  },
+  {
+   "n": 2,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Dia tuh lagi viral banget guys di Korea, dan sekarang sudah ada di Indonesia, karena produk ini dikembangkan oleh klinik dermatologi Korea."
+  },
+  {
+   "n": 3,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "挤出三条短竖线乳液，然后用指尖打圈涂开。",
+    "id": "Keluarkan tiga garis pendek losion, lalu ratakan dengan ujung jari."
+   },
+   "lines": "Untuk teksturnya dia milky gini, tapi pas diaplikasikan ringan banget dan gampang meresap. Untuk pemakaiannya, aku pakainya tipis aja, terutama di area yang menurut aku mulai gampang kelihatan capek."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "轻拍脸颊。双手从下巴向下抚摸颈部，停在领口处。",
+    "id": "Tepuk-tepuk pipi. Usap leher ke bawah sampai garis leher."
+   },
+   "lines": "Pertama yang aku notice, aku ngerasa kulitku lebih lembap, cerah, dan kencang. Dan yang aku suka, hasil akhirnya kulitku berasa glowing, tapi bukan glowing yang berminyak gitu loh, lebih ke healthy glow."
+  },
+  {
+   "n": 5,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Lihat guys, buatku kulitku kelihatan sehat dan glowing. Kalian yang pengen kulit sehat dan glowing, langsung cek keranjang kuning aku ya."
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}

@@ -12,8 +12,8 @@
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "素颜，准备好产品（盖子盖好，标签朝前）。",
-  "id": "Wajah bersih tanpa makeup. Siapkan produknya (tutupnya terpasang, label menghadap kamera)."
+  "zh": "素颜，不化妆。产品（盖子盖好，标签朝前）。",
+  "id": "Wajah bersih tanpa makeup. Produk (tutupnya tertutup, label menghadap kamera)."
  },
  "shots": [
   {
@@ -23,7 +23,7 @@
    "broll": false,
    "face": {
     "zh": "素颜",
-    "id": "Wajah bersih tanpa makeup"
+    "id": "Wajah bersih"
    },
    "do": {
     "zh": "",
@@ -74,8 +74,8 @@
    "broll": true,
    "face": null,
    "do": {
-    "zh": "可以用手机里现有的生活化视频素材。",
-    "id": "Bisa pakai klip video natural sehari-hari yang sudah ada di HP kamu."
+    "zh": "用手机里现有的日常视频素材即可。",
+    "id": "Bisa pakai video sehari-hari yang sudah ada di HP kamu."
    },
    "lines": "Setelah aku pakai, barrier kulitku berasa lebih kuat, masalah kulitku pelan-pelan berkurang: kulitku berasa lebih kuat, kusamku memudar, kemerahanku mereda, kulitku berasa lebih sehat. Bersih, sekaligus kulitku berasa terawat."
   },
@@ -83,11 +83,11 @@
    "n": 6,
    "sec": 11,
    "talk": true,
-   "broll": true,
+   "broll": false,
    "face": null,
    "do": {
-    "zh": "可以用手机里现有的生活化视频素材。",
-    "id": "Bisa pakai klip video natural sehari-hari yang sudah ada di HP kamu."
+    "zh": "",
+    "id": ""
    },
    "lines": "Ini asli produksi Korea, BPOM-nya ada. Aku sendiri udah repurchase berkali-kali — beneran aman dan terpercaya. Dulu aku sampai terbang ke Korea buat nyetok, biayanya gede banget. Sekarang value for money-nya maksimal."
   },

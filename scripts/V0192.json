@@ -1,0 +1,82 @@
+{
+ "id": "V0192",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "注氧小气泡精粹液 Oxygenated Bubble Essence",
+  "id": "Bubble Cleanser VEIRFOO Korea"
+ },
+ "hook": {
+  "zh": "洗脸同时护肤，一瓶搞定",
+  "id": "Cuci muka sekaligus rawat kulit, cukup pakai satu botol ini"
+ },
+ "src": "SICENARI S0171 / 抖音 小爱麻麻 INFIYES",
+ "cam": "user",
+ "prep": {
+  "zh": "产品（盖子盖好），湿毛巾，素手，无妆",
+  "id": "Produk (tutupnya terpasang), handuk basah, tangan bersih, wajah tanpa makeup"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Pembersih ini khusus buat kalian yang kulitnya tuh kusam, pori-porinya kelihatan banget, yang punya komedo numpuk di hidung, bruntusan di dahi, bisa banget pakai yang ini. Mau kulit glowing di musim hujan ini? Caranya gampang: pakai Bubble Cleanser dari VEIRFOO Korea yang lagi viral ini."
+  },
+  {
+   "n": 2,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Makin sering begadang dan kena debu, pori-pori makin gampang kotor, kulit makin kusam, makin kerasa enaknya pembersih ini. Basahin kulit, oles, dia berbusa sendiri, nggak perlu digosok."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Pencet sekali aja, aku coba dulu di lengan: oles tipis, busanya muncul sendiri, halus dan rapat banget kayak masker busa. Ada PDRN, bahan perawatan mewah dari ekstrak salmon."
+  },
+  {
+   "n": 4,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Tinggal lap pakai handuk basah, lenganku berasa halus dan glowing. Setelah rutin pakai di muka, aku ngerasa kulitku nggak sekusam dulu, hidungku berasa lebih bersih. Kulit kering dan sensitif tetap aman. Pengen glowing? Pakai ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Cuci muka sekaligus rawat kulit, cukup pakai satu botol ini, nggak perlu ribet lagi. Langsung checkout di keranjang kuning bawah ya!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}

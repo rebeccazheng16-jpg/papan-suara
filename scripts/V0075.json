@@ -6,14 +6,14 @@
   "id": "VEIRFOO Bubble Cleanser"
  },
  "hook": {
-  "zh": "洗脸后皮肤又红又油？试试注氧小气泡！",
-  "id": "Habis cuci muka langsung merah dan berminyak? Coba VEIRFOO Bubble Cleanser!"
+  "zh": "洗脸后脸又红又油？你对皮肤太粗暴了！",
+  "id": "Habis cuci muka langsung merah dan perih, terus berminyak lagi? Itu tandanya kamu lagi kasar banget sama kulit kamu sendiri."
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 注氧小气泡精粹液（盖子盖好，标签朝前）；道具：湿毛巾，手机（开手电筒）；皮肤：素颜，无妆。",
-  "id": "Produk: VEIRFOO Oxygenated Bubble Essence (tutupnya terpasang, label menghadap kamera); Alat: handuk basah, HP (nyalakan senter); Kulit: wajah bersih, tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝前）；湿毛巾；手机（开手电筒）。素颜，不化妆。",
+  "id": "Produk (tutupnya terpasang, label menghadap kamera); handuk basah; HP (nyalakan senter). Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -21,10 +21,7 @@
    "sec": 10,
    "talk": true,
    "broll": false,
-   "face": {
-    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
-    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
-   },
+   "face": null,
    "do": {
     "zh": "",
     "id": ""
@@ -38,7 +35,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Sabun muka biasa busanya harus dikucek keras, soap-base-nya itu kayak sabut kawat — barrier kulit kamu jadi rusak. Ini bukan serum, tapi pembersih yang berbusa sendiri — VEIRFOO Bubble Cleanser dari Korea."
@@ -61,11 +58,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
-    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
+    "zh": "全脸泡沫",
+    "id": "Wajah sudah berbusa"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Kulitnya berasa geli-geli seger, kayak lagi treatment ala klinik. Bifida Ferment itu kandungan andalan yang harganya mahal banget — serum-serum high-end itu semua pakai. Di botol ini dia ada di urutan pertama."
@@ -76,11 +73,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "全脸覆盖白色泡沫，眼唇区域除外。",
-    "id": "Seluruh wajah tertutup busa putih, kecuali area mata dan bibir."
+    "zh": "全脸泡沫",
+    "id": "Wajah sudah berbusa"
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tunggu sebentar, lap pakai handuk basah, langsung bersih — sekali langkah bersih, buatku kulit berasa lembap. Dan ini bukan barang jastip nggak jelas: BPOM sama Made in Korea-nya tertera di kemasan. Aku nggak bakal rekomendasiin kalau belum pakai sendiri."
@@ -92,7 +89,7 @@
    "broll": false,
    "face": null,
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
+    "zh": "展示产品时 logo 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Dulu aku harus terbang ke klinik Korea cuma buat ini. Bolak-balik capek, tiket sama hotel aja belasan juta. Produknya ya segini. Sekarang di rumah lima menit doang, rasa ala klinik — coba lihat harganya. Buruan cek keranjang kuning di bawah, ya!"
