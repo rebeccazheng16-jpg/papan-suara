@@ -8,12 +8,12 @@
     "id": "VEIRFOO Golden Mask"
    },
    "hook": {
-    "zh": "不要买这个，除非你先看这个视频",
-    "id": "Jangan beli ini sebelum kamu nonton video ini!"
+    "zh": "别买！先看这个视频！",
+    "id": "Jangan beli ini sebelum kamu tonton video ini!"
    },
    "src": "TikTok @valhazlife",
    "shots": 5,
-   "sec": 54,
+   "sec": 55,
    "na": false,
    "source": "h3"
   },
@@ -1477,6 +1477,23 @@
    "shots": 4,
    "sec": 31,
    "na": false,
+   "source": "h3"
+  },
+  {
+   "id": "S0260",
+   "brand": "SICENARI",
+   "product": {
+    "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+    "id": "SICENARI sheet mask kolagen"
+   },
+   "hook": {
+    "zh": "脸巨干隔天一次、毛病多就天天用",
+    "id": "Kalau wajahmu kering parah, maskeran selembar dua hari sekali. Tapi kalau tiap hari kena AC, kulit kering, kasar, mengelupas, sering begadang, warna kulit nggak rata, garis halus banyak, maskeran tiap hari aja."
+   },
+   "src": "TikTok @诗诗Aimi",
+   "shots": 5,
+   "sec": 53,
+   "na": true,
    "source": "h3"
   },
   {

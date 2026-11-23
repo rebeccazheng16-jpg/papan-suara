@@ -1,0 +1,82 @@
+{
+ "id": "S0260",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜",
+  "id": "SICENARI sheet mask kolagen"
+ },
+ "hook": {
+  "zh": "脸巨干隔天一次、毛病多就天天用",
+  "id": "Kalau wajahmu kering parah, maskeran selembar dua hari sekali. Tapi kalau tiap hari kena AC, kulit kering, kasar, mengelupas, sering begadang, warna kulit nggak rata, garis halus banyak, maskeran tiap hari aja."
+ },
+ "src": "TikTok @诗诗Aimi",
+ "cam": "user",
+ "prep": {
+  "zh": "SICENARI 袋装面膜（21片装），确保包装完好，标签朝前。如果可以，尽量用暗色亮面桌面做背景。",
+  "id": "Masker SICENARI kemasan isi 21 lembar, pastikan kemasan utuh, label menghadap kamera. Kalau bisa, pakai meja gelap yang mengkilap sebagai latar belakang."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 11,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kalau wajahmu kering parah, maskeran selembar dua hari sekali. Tapi kalau tiap hari kena AC, kulit kering, kasar, mengelupas, sering begadang, warna kulit nggak rata, garis halus banyak, maskeran tiap hari aja."
+  },
+  {
+   "n": 2,
+   "sec": 12,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Ini masker kolagen Korea Sicenari yang lagi viral. Habis maskeran, aku nggak perlu numpuk toner, serum sama krim lagi. Cuci muka, pakai selembar, beres! Beda sama masker yang sebungkus cuma selembar, essence-nya dikit banget, belum lagi banyak pengentalnya."
+  },
+  {
+   "n": 3,
+   "sec": 9,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Bifida, bahan andalan serum mewah dari merek-merek besar ini, di sini langsung ada di urutan pertama komposisinya. Terus ada PDRN, kolagen, sama centella, bahan-bahan berharga semua, isinya nggak main-main!"
+  },
+  {
+   "n": 4,
+   "sec": 13,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。 撕下面膜。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Kelupas maskernya."
+   },
+   "lines": "Setelah maskeran, aku ngerasa kulit wajahku halus banget, lebih lembap dan glowing. Sisa essence-nya aku oles ke lengan, langsung meresap. Yang penting, kulit sensitif, kering, atau berminyak, semuanya bisa pakai. Pengen kulit bercahaya walau tanpa makeup? Pilih ini aja."
+  },
+  {
+   "n": 5,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Sekantong isi dua puluh satu lembar, sehari selembar nggak sampai tujuh ribu. Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": true,
+ "source": "h3"
+}
