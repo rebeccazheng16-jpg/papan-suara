@@ -6,14 +6,14 @@
   "id": "VEIRFOO Golden Mask"
  },
  "hook": {
-  "zh": "别买！先看这个视频！",
+  "zh": "不要买这个，除非你先看这个视频",
   "id": "Jangan beli ini sebelum kamu tonton video ini!"
  },
  "src": "TikTok @valhazlife",
  "cam": "user",
  "prep": {
-  "zh": "产品（盖子盖好，标签朝前），白色面膜刷，冰块和杯子（可选，用于营造冰凉感），素颜。",
-  "id": "Produk (tutupnya terpasang, label menghadap kamera), kuas masker putih, es batu dan gelas (opsional, untuk efek dingin), wajah bersih tanpa makeup."
+  "zh": "产品（盖子盖好，标签朝向镜头），面膜刷，冰块和冰水（可选，如果想营造冰凉感）。素颜，无妆。",
+  "id": "Produk (tutupnya terpasang, label menghadap kamera), kuas masker, es batu dan air es (opsional, kalau mau efek dingin). Wajah bersih, tanpa makeup."
  },
  "shots": [
   {
@@ -34,12 +34,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
    },
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "展示产品时 标志 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Bukan karena urutan pertama komposisinya itu Bifida Ferment, bahan mahal yang dikasih banyak banget, nggak pelit. Bukan juga karena di dalamnya ada pe-de-er-en, bahan berharga dari ekstrak salmon, terus ada niacinamide, kolagen larut, dan elastin juga. Habis pakai, aku ngerasa garis halus di wajahku nggak kelihatan sejelas dulu."
   },
@@ -49,12 +49,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上敷着成膜的金色面膜。",
-    "id": "Wajah sudah dilapisi masker emas yang mengering."
+    "zh": "脸上敷着面膜，已成膜。",
+    "id": "Wajah sudah terlapisi masker yang sudah mengering."
    },
    "do": {
-    "zh": "揭下脸上的面膜。",
-    "id": "Kelupas maskernya."
+    "zh": "展示产品时 标志 正面朝向镜头。撕掉面膜。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera. Kelupas maskernya."
    },
    "lines": "Dan pastinya bukan karena habis dilepas, wajahku kerasa kencang waktu aku pegang, dan aku ngerasa garis rahangku sedikit lebih tegas. Bukan juga karena kulitku kelihatan lembap, bening, dan glowing kayak gini."
   },
@@ -63,7 +63,10 @@
    "sec": 5,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
     "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
@@ -75,7 +78,10 @@
    "sec": 14,
    "talk": true,
    "broll": false,
-   "face": null,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih, tanpa makeup."
+   },
    "do": {
     "zh": "展示产品时 标志 正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
