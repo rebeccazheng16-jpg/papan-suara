@@ -1,0 +1,94 @@
+{
+ "id": "V0258",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "鎏金蛋白膜 Golden Mask",
+  "id": "VEIRFOO Golden Mask"
+ },
+ "hook": {
+  "zh": "不要买这个，除非你先看这个视频",
+  "id": "Jangan beli ini sebelum kamu nonton video ini!"
+ },
+ "src": "TikTok @valhazlife",
+ "cam": "user",
+ "prep": {
+  "zh": "VEIRFOO 鎏金蛋白膜（金色镭射管），VEIRFOO 面膜刷（白色刷柄），冰块，玻璃杯。素颜，无妆。",
+  "id": "VEIRFOO Golden Mask (tube emas), kuas masker VEIRFOO (pegangan putih), es batu, gelas. Wajah bersih tanpa makeup."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Aku tahu VEIRFOO Golden Mask ini lagi viral banget akhir-akhir ini, tapi hati-hati ya kalau kamu mau beli, karena ada satu hal yang aku pengen banget tahu sebelum aku beli."
+  },
+  {
+   "n": 2,
+   "sec": 15,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Bukan karena urutan pertama komposisinya itu Bifida Ferment, bahan mahal yang dikasih banyak banget, nggak pelit. Bukan juga karena di dalamnya ada pe-de-er-en, bahan berharga dari ekstrak salmon, terus ada niacinamide, kolagen larut, dan elastin juga. Habis pakai, aku ngerasa garis halus di wajahku nggak kelihatan sejelas dulu."
+  },
+  {
+   "n": 3,
+   "sec": 10,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Dan pastinya bukan karena habis dilepas, wajahku kerasa kencang waktu aku pegang, dan aku ngerasa garis rahangku sedikit lebih tegas. Bukan juga karena kulitku kelihatan lembap, bening, dan glowing kayak gini."
+  },
+  {
+   "n": 4,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Tapi karena waktu aku beli di Korea, harganya segini loh. Sekarang di sini udah bisa dibeli."
+  },
+  {
+   "n": 5,
+   "sec": 14,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜，无妆。",
+    "id": "Wajah bersih tanpa makeup."
+   },
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Jadi kalau kamu dari dulu pengen coba VEIRFOO Golden Mask, rendam dulu tube-nya di air es sebentar baru dipakai, rasanya dingin-dingin seger, pas cuaca panas enak banget. Jangan sampai kelewatan promo spesial ini ya, say. Klik keranjang kuning di kiri bawah, cobain deh!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}
