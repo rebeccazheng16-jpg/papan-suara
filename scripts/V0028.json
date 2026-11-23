@@ -6,14 +6,14 @@
   "id": "VEIRFOO Sodium DNA Collagen Mask"
  },
  "hook": {
-  "zh": "在家体验韩式医美级水光胶原蛋白面膜",
-  "id": "Masker kolagen ala klinik Korea yang bisa dipakai di rumah"
+  "zh": "在家也能做的韩国医美级护理",
+  "id": "Perawatan ala klinik Korea, tapi di rumah aja"
  },
  "src": "",
  "cam": "user",
  "prep": {
-  "zh": "VEIRFOO 胶原蛋白面膜和刷子。干净的素颜。",
-  "id": "Produk VEIRFOO Collagen Mask dan kuasnya. Wajah bersih tanpa makeup."
+  "zh": "VEIRFOO 水光胶原蛋白面膜，一把面膜刷，素颜。",
+  "id": "Masker kolagen VEIRFOO, kuas masker, muka bersih tanpa makeup."
  },
  "shots": [
   {
@@ -22,8 +22,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已经敷着干掉的面膜",
-    "id": "Masker sudah kering di wajah"
+    "zh": "脸上已经敷好了干掉的面膜。",
+    "id": "Masker sudah kering di wajah."
    },
    "do": {
     "zh": "撕下面膜。展示产品时 标志 正面朝向镜头。",
@@ -37,12 +37,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "干净的素颜",
-    "id": "Wajah bersih"
+    "zh": "素颜。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "",
-    "id": ""
+    "zh": "用手指按压皮肤，展示Q弹效果。",
+    "id": "Tekan kulit pakai jari untuk menunjukkan kekenyalannya."
    },
    "lines": "Bahannya itu satu keluarga sama Rejuran yang di klinik Korea — PDRN, kolagen, peptida. Liat deh, dari putih dia pelan-pelan menjadi bening, langsung keserap. Perawatan mahal ala klinik Korea, sekarang bisa dilakukan di rumah."
   },
@@ -52,12 +52,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "干净的素颜",
-    "id": "Wajah bersih"
+    "zh": "素颜。",
+    "id": "Muka bersih tanpa makeup."
    },
    "do": {
-    "zh": "展示产品时 标志 正面朝向镜头。",
-    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+    "zh": "说到 发光 的时候按一下脸颊。展示产品，标志 朝前。然后指向黄色购物篮的方向。",
+    "id": "Tekan pipi pas bilang glowing. Tunjukkan produknya, logo bagian depan menghadap kamera. Tunjuk ke arah keranjang kuning."
    },
    "lines": "Oles tebal pakai kuasnya, tunggu sampai kering. Pas udah dilupas, kulitku berasa lebih cerah dan glowing! Perawatan ala klinik Korea, tapi bisa dilakukan sendiri di rumah. Cek keranjang kuning di bawah, ya!"
   }
