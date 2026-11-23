@@ -182,26 +182,33 @@ async function api(params) {
 }
 const setPres = pr => { pres = {}; (pr?.rows || []).forEach(x => pres[String(x.who).toLowerCase()] = x); };
 let busy = false;
+function applyData({ me, l, a, idx, bl, pr, qt, nt, ed, rsr }) {
+  role = (me?.ok && me.role) || "admin";   // 旧后台没 whoami（回的是 hello）：按 admin
+  if (role === "none") throw new Error("钥匙不对");
+  if (rsr?.ok) reshootRows = rsr.rows || [];
+  setPres(pr);
+  if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
+  rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
+  lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = Object.assign({ owner: "", where: "site" }, s));
+  backendOld = !bl || !bl.ok;                       // 后台还没发新版本：没有脚本库接口
+  (bl?.scripts || []).forEach(s => lib[s.id] = Object.assign({ where: "backend" }, s));
+  if (qt?.ok) quotas = { limits: qt.limits || {}, used: qt.used || {}, def: Number(qt.def) || 5 };
+  if (nt?.ok) noteRows = (nt.rows || []).slice().sort((x, y) => (new Date(y.time) - new Date(x.time)));
+  if (ed?.ok) editRows = ed.rows || [];
+}
 // quiet=true：定时刷新，不显示读取中、不先清页面，拉完数据再画
 async function load(quiet) {
   if (busy) return; busy = true;
   if (!quiet) { loading = true; err = ""; render(); }
   try {
-    try { const me = await api({ action: "whoami" }); role = (me?.ok && me.role) || "admin"; } catch (e) { role = "admin"; }   // 旧后台没这个接口（回的是 hello）：按 admin
-    if (role === "none") throw new Error("钥匙不对");
-    const [l, a, idx, bl, pr, qt, nt, ed] = await Promise.all([api({ action: "list", n: 300 }), api({ action: "assignments" }),
+    // 11-23 提速：whoami／补拍和其余接口一起并发（原来前后各等一趟，后台每趟 2 秒多）；上次的数据先画出来，新数据到了再换
+    if (!quiet && !rows.length) { const c = store.get("review_cache", null); if (c && c.k === key) { try { applyData(c.d); loading = false; render(); } catch (e) {} } }
+    const [me, l, a, idx, bl, pr, qt, nt, ed, rsr] = await Promise.all([api({ action: "whoami" }).catch(() => null), api({ action: "list", n: 300 }), api({ action: "assignments" }),
       fetch("scripts/index.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ scripts: [] })), api({ action: "scripts" }).catch(() => ({})), api({ action: "presence" }).catch(() => ({})),
-      api({ action: "quotas" }).catch(() => ({})), api({ action: "notes" }).catch(() => ({})), api({ action: "alledits" }).catch(() => ({}))]);
-    const rsr = await api({ action: "reshoots" }).catch(() => ({})); if (rsr?.ok) reshootRows = rsr.rows || [];
-    setPres(pr);
-    if (!l.ok) throw new Error(l.error === "no key" ? "钥匙不对" : l.error);
-    rows = l.rows; assigns = {}; (a.rows || []).forEach(r => assigns[r.who] = r);
-    lib = {}; (idx.scripts || []).forEach(s => lib[s.id] = Object.assign({ owner: "", where: "site" }, s));
-    backendOld = !bl || !bl.ok;                       // 后台还没发新版本：没有脚本库接口
-    (bl?.scripts || []).forEach(s => lib[s.id] = Object.assign({ where: "backend" }, s));
-    if (qt?.ok) quotas = { limits: qt.limits || {}, used: qt.used || {}, def: Number(qt.def) || 5 };
-    if (nt?.ok) noteRows = (nt.rows || []).slice().sort((x, y) => (new Date(y.time) - new Date(x.time)));
-    if (ed?.ok) editRows = ed.rows || [];
+      api({ action: "quotas" }).catch(() => ({})), api({ action: "notes" }).catch(() => ({})), api({ action: "alledits" }).catch(() => ({})), api({ action: "reshoots" }).catch(() => ({}))]);
+    const d = { me, l, a, idx, bl, pr, qt, nt, ed, rsr };
+    applyData(d);
+    store.set("review_cache", { k: key, d });
     if (quiet) err = "";
   } catch (e) { err = String(e?.message || e); }
   loading = false; busy = false;
