@@ -1,6 +1,23 @@
 {
  "scripts": [
   {
+   "id": "V0263",
+   "brand": "VEIRFOO",
+   "product": {
+    "zh": "水光油霜 #14 Pink Bling Bling Cream + 钻光粉底霜 #8 Breathing Cream",
+    "id": "VEIRFOO Pink Bling Bling Cream dan Breathing Cream"
+   },
+   "hook": {
+    "zh": "在书店被要电话的自然裸妆",
+    "id": "Natural makeup biar dimintain nomor telepon di toko buku"
+   },
+   "src": "小红书 yrui.rm",
+   "shots": 8,
+   "sec": 48,
+   "na": false,
+   "source": "h3"
+  },
+  {
    "id": "V0258",
    "brand": "VEIRFOO",
    "product": {

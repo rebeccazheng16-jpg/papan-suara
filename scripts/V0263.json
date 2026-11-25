@@ -1,0 +1,142 @@
+{
+ "id": "V0263",
+ "brand": "VEIRFOO",
+ "product": {
+  "zh": "水光油霜 #14 Pink Bling Bling Cream + 钻光粉底霜 #8 Breathing Cream",
+  "id": "VEIRFOO Pink Bling Bling Cream dan Breathing Cream"
+ },
+ "hook": {
+  "zh": "在书店被要电话的自然裸妆",
+  "id": "Natural makeup biar dimintain nomor telepon di toko buku"
+ },
+ "src": "小红书 yrui.rm",
+ "cam": "user",
+ "prep": {
+  "zh": "素颜，产品：VEIRFOO #14 Pink Bling Bling Cream（粉紫镭射管），VEIRFOO #8 Breathing Cream（淡粉色管），防晒霜，气垫粉扑，粉底刷，眉笔，卧蚕笔，睫毛膏，眼线笔，散粉，黑色粉扑，腮红膏，润唇膏。",
+  "id": "Wajah bersih tanpa makeup. Siapkan: VEIRFOO Pink Bling Bling Cream (tube ungu-pink), VEIRFOO Breathing Cream (tube pink muda), sunscreen, cushion puff, kuas foundation, pensil alis, pensil aegyo sal, maskara, eyeliner, bedak tabur, spons bedak hitam, cream blush, lip balm."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全妆",
+    "id": "Sudah full makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Hah? Aku? Nomor telepon? Oh, kamu yang tadi baca buku di rak esai, kan? Sebenarnya aku lebih suka orang yang baca buku humaniora."
+  },
+  {
+   "n": 2,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Hari ini aku bikin makeup buat dimintain nomor di toko buku Kyobo. Biar tatapan mata sedikit menggoda."
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Pertama, sunscreen yang biasa aku pakai. Terus Pink Bling Bling Cream ini,"
+  },
+  {
+   "n": 4,
+   "sec": 6,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "aku tepuk-tepuk, aku ngerasa kulitku kelihatan bening dari dalam, kayak orang yang kulitnya memang bening dari sananya."
+  },
+  {
+   "n": 5,
+   "sec": 7,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "水光底妆",
+    "id": "Sudah pakai base makeup dewy"
+   },
+   "do": {
+    "zh": "展示产品，正面标志朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Breathing Cream foundation ini harus dipakai natural banget ya. Pakai kuas foundation, simetris kiri kanan, ratakan ke seluruh wajah."
+  },
+  {
+   "n": 6,
+   "sec": 8,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "水光底妆",
+    "id": "Sudah pakai base makeup dewy"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Kali ini natural banget. Anggap aja bulu mata atas bawah udah dijepit, terus gini, gini, sapu sekali. Bulu mata bawah cukup disapu tipis!"
+  },
+  {
+   "n": 7,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "水光底妆",
+    "id": "Sudah pakai base makeup dewy"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Bedak itu penting banget. Samping hidung. Warna kayak gini, pakai natural kayak shading."
+  },
+  {
+   "n": 8,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": {
+    "zh": "全妆",
+    "id": "Sudah full makeup"
+   },
+   "do": {
+    "zh": "",
+    "id": ""
+   },
+   "lines": "Tadaa!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}
