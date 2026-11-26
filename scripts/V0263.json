@@ -7,13 +7,13 @@
  },
  "hook": {
   "zh": "在书店被要电话的自然裸妆",
-  "id": "Natural makeup look biar dimintain nomor telepon di toko buku"
+  "id": "Makeup natural biar dimintain nomor telepon di toko buku"
  },
- "src": "TikTok @yrui.rm",
+ "src": "小红书 yrui.rm",
  "cam": "user",
  "prep": {
-  "zh": "产品：VEIRFOO 水光油霜（粉紫镭射管）、VEIRFOO 钻光粉底霜（粉色管）、SICENARI 护唇精华（薄荷绿管）。道具：防晒霜、粉扑、粉底刷、眉笔、卧蚕笔、睫毛膏、眼线笔、散粉、黑色粉扑、腮红膏。素颜，脸上无妆。",
-  "id": "Produk: VEIRFOO Pink Bling Bling Cream (tube pink-ungu), VEIRFOO Breathing Cream (tube pink), SICENARI Lip Serum (tube hijau mint). Alat: sunscreen, cushion puff, kuas foundation, pensil alis, pensil aegyo sal, maskara, eyeliner, bedak tabur, spons hitam, cream blush. Wajah harus bersih tanpa makeup."
+  "zh": "素颜，准备好VEIRFOO 水光油霜（粉紫镭射管）、VEIRFOO 钻光粉底霜（淡粉色哑光管）、防晒霜、粉扑、粉底刷、眉笔、卧蚕笔、睫毛膏、眼线笔、散粉、腮红膏、SICENARI 护唇精华（薄荷绿管）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan VEIRFOO Pink Bling Bling Cream (tube pink-ungu), VEIRFOO Breathing Cream (tube pink matte), sunscreen, puff, kuas foundation, pensil alis, pensil aegyo-sal, maskara, eyeliner, bedak tabur, cream blush, dan SICENARI Lip Serum (tube hijau mint)."
  },
  "shots": [
   {
@@ -34,8 +34,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
     "zh": "",
@@ -49,11 +49,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品，标志正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Pertama, sunscreen yang biasa aku pakai. Terus Pink Bling Bling Cream ini,"
@@ -64,12 +64,12 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "素颜，脸上无妆。",
-    "id": "Wajah bersih tanpa makeup."
+    "zh": "素颜",
+    "id": "Wajah bersih tanpa makeup"
    },
    "do": {
-    "zh": "轻拍脸颊，然后双手捂脸。",
-    "id": "Tepuk-tepuk pipi, lalu tutup wajah dengan kedua telapak tangan."
+    "zh": "",
+    "id": ""
    },
    "lines": "aku tepuk-tepuk, aku ngerasa kulitku kelihatan bening dari dalam, kayak orang yang kulitnya memang bening dari sananya."
   },
@@ -79,11 +79,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已有水光底妆。",
-    "id": "Wajah sudah ada dewy base."
+    "zh": "水光底妆",
+    "id": "Base makeup dewy"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品，标志正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Breathing Cream foundation ini harus dipakai natural banget ya. Pakai kuas foundation, simetris kiri kanan, ratakan ke seluruh wajah."
@@ -94,8 +94,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已有水光底妆。",
-    "id": "Wajah sudah ada dewy base."
+    "zh": "水光底妆",
+    "id": "Base makeup dewy"
    },
    "do": {
     "zh": "",
@@ -109,8 +109,8 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已有水光底妆。",
-    "id": "Wajah sudah ada dewy base."
+    "zh": "水光底妆",
+    "id": "Base makeup dewy"
    },
    "do": {
     "zh": "",
@@ -124,11 +124,11 @@
    "talk": true,
    "broll": false,
    "face": {
-    "zh": "脸上已有水光底妆。",
-    "id": "Wajah sudah ada dewy base."
+    "zh": "水光底妆",
+    "id": "Base makeup dewy"
    },
    "do": {
-    "zh": "展示产品，正面标志朝向镜头。",
+    "zh": "展示产品，标志正面朝向镜头。",
     "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
    },
    "lines": "Tadaa!"
