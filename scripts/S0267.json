@@ -1,0 +1,118 @@
+{
+ "id": "S0267",
+ "brand": "SICENARI",
+ "product": {
+  "zh": "SICENARI 微塑修护胶原炮 水光灌注抗皱修护保湿面膜 (敏感肌) 袋装 21 片",
+  "id": "SICENARI sheet mask pouch isi 21 lembar"
+ },
+ "hook": {
+  "zh": "平价大包装面膜，学生党也能天天敷",
+  "id": "Masker murah isi banyak, pelajar juga bisa pakai tiap hari"
+ },
+ "src": "TikTok @favbeauty.official FAV Beauty",
+ "cam": "user",
+ "prep": {
+  "zh": "素颜，准备好 SICENARI 袋装面膜（未开封，logo 朝向镜头）。",
+  "id": "Wajah bersih tanpa makeup. Siapkan produk SICENARI sheet mask pouch (belum dibuka, logo menghadap kamera)."
+ },
+ "shots": [
+  {
+   "n": 1,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Buat kamu yang pengen awet muda,"
+  },
+  {
+   "n": 2,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Dan yang pengen kulitnya glowing dan bening,"
+  },
+  {
+   "n": 3,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Kamu cek pouch yang satu ini deh."
+  },
+  {
+   "n": 4,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Harganya tuh murah banget,"
+  },
+  {
+   "n": 5,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Karena satu pouch gede isinya dua puluh satu lembar. Sehari selembar nggak sampai tujuh ribu."
+  },
+  {
+   "n": 6,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Apalagi buat kalian yang masih pelajar,"
+  },
+  {
+   "n": 7,
+   "sec": 4,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Maskeran tiap hari juga nggak bikin dompet nangis."
+  },
+  {
+   "n": 8,
+   "sec": 5,
+   "talk": true,
+   "broll": false,
+   "face": null,
+   "do": {
+    "zh": "展示产品时 logo 正面朝向镜头。",
+    "id": "Tunjukkan produknya, logo bagian depan menghadap kamera."
+   },
+   "lines": "Klik keranjang kuning di kiri bawah, cek ada harga diskon spesial buat kamu!"
+  }
+ ],
+ "na": false,
+ "source": "h3"
+}
